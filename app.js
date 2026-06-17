@@ -499,9 +499,15 @@ async function runBacktest(entryOffset, exitOffset) {
 // ------------------------------------------------------------------
 function switchTab(tabId) {
     // Toggle active state of nav buttons
-    document.querySelectorAll(".nav-tab-btn").forEach(btn => btn.classList.remove("active-tab"));
+    document.querySelectorAll(".nav-tab-btn").forEach(btn => {
+        btn.classList.remove("text-white", "bg-slate-800");
+        btn.classList.add("text-slate-400", "hover:text-white");
+    });
     const activeBtn = document.getElementById(`tab-btn-${tabId}`);
-    if (activeBtn) activeBtn.classList.add("active-tab");
+    if (activeBtn) {
+        activeBtn.classList.add("text-white", "bg-slate-800");
+        activeBtn.classList.remove("text-slate-400", "hover:text-white");
+    }
 
     // Toggle panel visibility
     document.querySelectorAll(".tab-content-panel").forEach(panel => panel.classList.remove("active-panel"));

@@ -4,49 +4,72 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>台灣公司債策略交易大數據分析系統</title>
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            darkMode: 'class',
+            theme: { 
+                extend: { 
+                    colors: { 
+                        slate: { 950: '#0b0f19', 900: '#111827', 800: '#1f2937', 700: '#374151' } 
+                    } 
+                } 
+            }
+        }
+    </script>
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Noto+Sans+TC:wght@300;400;500;700;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="index.css">
     <!-- Chart.js CDN -->
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <style>
+        body { font-family: 'Inter', 'Noto Sans TC', sans-serif; }
+    </style>
 </head>
-<body>
-    <div class="app-container">
-        <!-- Sidebar / Header -->
-        <header class="app-header">
-            <div class="logo-area">
-                <div class="logo-icon-svg">
-                    <svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="url(#logo-grad)" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
-                        <defs>
-                            <linearGradient id="logo-grad" x1="0%" y1="0%" x2="100%" y2="100%">
-                                <stop offset="0%" stop-color="#00f2fe" />
-                                <stop offset="100%" stop-color="#4facfe" />
-                            </linearGradient>
-                        </defs>
-                        <line x1="18" y1="20" x2="18" y2="10"></line>
-                        <line x1="12" y1="20" x2="12" y2="4"></line>
-                        <line x1="6" y1="20" x2="6" y2="14"></line>
-                    </svg>
+<body class="bg-slate-950 text-slate-100 min-h-screen flex flex-col antialiased">
+    <div class="app-container" style="padding: 0; max-width: 100%;">
+        <!-- Sidebar / Header (Unified Style) -->
+        <header class="border-b border-slate-800 bg-slate-900/80 backdrop-blur sticky top-0 z-50">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between">
+                <div class="flex items-center gap-3 cursor-pointer">
+                    <div class="bg-gradient-to-tr from-cyan-500 to-indigo-600 p-2 rounded-lg text-white shadow-lg shadow-indigo-500/20">
+                        <!-- Custom SVG Chart Icon -->
+                        <svg class="w-6 h-6" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                            <line x1="18" y1="20" x2="18" y2="10"></line>
+                            <line x1="12" y1="20" x2="12" y2="4"></line>
+                            <line x1="6" y1="20" x2="6" y2="14"></line>
+                        </svg>
+                    </div>
+                    <div>
+                        <h1 class="text-base sm:text-lg font-bold bg-gradient-to-r from-cyan-400 via-teal-300 to-indigo-400 bg-clip-text text-transparent leading-none">
+                            BondTrade AI 可轉債事件套利系統
+                        </h1>
+                        <p class="text-[10px] sm:text-xs text-slate-400 flex flex-wrap items-center gap-1.5 mt-1">
+                            <span>可轉債事件驅動大數據分析與量化回測平台</span>
+                            <span class="hidden sm:inline text-slate-700">|</span>
+                            <span class="bg-indigo-950/40 border border-indigo-900/40 px-1.5 py-0.5 rounded text-[9px] text-indigo-300 font-bold font-mono">作者: pioter</span>
+                            <span class="bg-cyan-950/40 border border-cyan-900/40 px-1.5 py-0.5 rounded text-[9px] text-cyan-300 font-bold font-mono">AI分析師: +1000</span>
+                        </p>
+                    </div>
                 </div>
-                <div>
-                    <h1 style="display: flex; align-items: center; gap: 0.75rem;">
-                        <span>BondTrade AI</span>
-                        <span class="creator-badge">製作者: pioter | 分析師+1000</span>
-                    </h1>
-                    <p class="subtitle">可轉債事件套利大數據系統</p>
+                <div class="flex items-center gap-4">
+                    <span class="badge live-badge text-xs">● 系統時間: 2026年6月</span>
                 </div>
             </div>
-            <div class="nav-tab-links">
-                <button class="nav-tab-btn active-tab" id="tab-btn-active-tracks" onclick="switchTab('active-tracks')">🚇 執行中SOP軌道</button>
-                <button class="nav-tab-btn" id="tab-btn-success-cases" onclick="switchTab('success-cases')">🏆 成功案例庫</button>
-                <button class="nav-tab-btn" id="tab-btn-dashboard" onclick="switchTab('dashboard')">📊 分析與回測大師</button>
-            </div>
-            <div class="nav-links">
-                <span class="badge live-badge">● 系統時間: 2026年6月</span>
+            
+            <div class="border-t border-slate-800 bg-slate-900/50 py-2">
+                <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex items-center overflow-x-auto gap-2.5 no-scrollbar">
+                    <button onclick="switchTab('active-tracks')" id="tab-btn-active-tracks" class="nav-tab-btn px-3 py-1.5 rounded-lg text-xs font-semibold text-white bg-slate-800 transition whitespace-nowrap">🚇 執行中SOP軌道</button>
+                    <button onclick="switchTab('success-cases')" id="tab-btn-success-cases" class="nav-tab-btn px-3 py-1.5 rounded-lg text-xs font-semibold text-slate-400 hover:text-white transition whitespace-nowrap">🏆 成功案例庫</button>
+                    <button onclick="switchTab('dashboard')" id="tab-btn-dashboard" class="nav-tab-btn px-3 py-1.5 rounded-lg text-xs font-semibold text-slate-400 hover:text-white transition whitespace-nowrap">📊 分析與回測大師</button>
+                </div>
             </div>
         </header>
+
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 w-full">
 
         <!-- Main Dashboard Content -->
         <main class="dashboard-main">
