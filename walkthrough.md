@@ -27,14 +27,25 @@
 
 ---
 
+### 4. 統一主題與視覺樣式 (Unify Theme & Visual Layout)
+* **HTML 結構宣告**：補回 `<!DOCTYPE html>` 與 `<html lang="zh-Hant-TW">` 結構。
+* **頂部 Header 欄位統一**：
+  * 使用相同的 Tailwind sticky header、高斯模糊效果 (`backdrop-blur`)、漸層主標題字體。
+  * 獨立拆分並美化水印徽章為兩個標籤：`作者: pioter`（Indigo 柔光）與 `AI分析師: +1000`（Cyan 柔光），與 `ai-theme-map-site` 完全保持一致。
+* **分頁按鈕切換機制**：修改 `app.js` 的 `switchTab` 邏輯，藉由 Tailwind 類別動態切換 active 狀態樣式（從原本的 CSS `.active-tab` 轉為 `text-white bg-slate-800` 與 `text-slate-400 hover:text-white` 的優雅過渡）。
+
+---
+
 ## 🖼️ 實測畫面與驗證
 
 已通過瀏覽器 Subagent 在 `http://localhost:8000/` 完成完整的 UI 功能性與互動驗證：
 
 ````carousel
+![統一後的主題與標題徽章](file:///C:/Users/pioterlee/.gemini/antigravity-ide/brain/fd350c3d-baae-453b-b142-71a8d5227969/home_page_1781664840070.png)
+<!-- slide -->
 ![執行中 SOP 捷運軌道圖](file:///C:/Users/pioterlee/.gemini/antigravity-ide/brain/fd350c3d-baae-453b-b142-71a8d5227969/active_tracks_view_1781662038976.png)
 <!-- slide -->
-![策略 4 (股本佔比型) 優化案例](file:///C:/Users/pioterlee/.gemini/antigravity-ide/brain/fd350c3d-baae-453b-b142-71a8d5227969/strategy_4_details_178166340473.png)
+![策略 4 (股本佔比型) 優化案例](file:///C:/Users/pioterlee/.gemini/antigravity-ide/brain/fd350c3d-baae-453b-b142-71a8d5227969/strategy_4_trades_1781663277422.png)
 ````
 
-*瀏覽器操作錄像：[操作錄影](file:///C:/Users/pioterlee/.gemini/antigravity-ide/brain/fd350c3d-baae-453b-b142-71a8d5227969/verify_bug_fix_1781663299505.webp)*
+*瀏覽器操作錄像：[操作錄影](file:///C:/Users/pioterlee/.gemini/antigravity-ide/brain/fd350c3d-baae-453b-b142-71a8d5227969/verify_unified_theme_1781664827977.webp)*

@@ -14,6 +14,10 @@
     --transition-speed: 0.25s;
 }
 
+html {
+    overflow-y: scroll;
+}
+
 * {
     margin: 0;
     padding: 0;

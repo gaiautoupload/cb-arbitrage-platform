@@ -594,12 +594,27 @@ async function loadActiveTracks() {
                 `;
             });
 
+            // Strategy info HTML
+            let strategyHtml = "";
+            if (track.strategy_info) {
+                strategyHtml = `
+                    <div class="route-strategy-info text-xs text-slate-400 mt-2.5 flex items-center gap-2 flex-wrap">
+                        <span class="bg-indigo-950/60 border border-indigo-900/40 px-2 py-0.5 rounded text-indigo-300 font-medium">${track.strategy_info.name}</span>
+                        <span class="bg-emerald-950/60 border border-emerald-900/40 px-2 py-0.5 rounded text-emerald-300 font-medium">勝率: ${track.strategy_info.win_rate.toFixed(1)}%</span>
+                        <span class="bg-cyan-950/60 border border-cyan-900/40 px-2 py-0.5 rounded text-cyan-300 font-medium">平均報酬: +${track.strategy_info.avg_return.toFixed(1)}%</span>
+                    </div>
+                `;
+            }
+
             card.innerHTML = `
                 <div class="route-header">
-                    <div class="route-title-group">
-                        <span class="card-tag">${track.stock_code}</span>
-                        <h3>${track.company_name} (${track.stock_code}) - ${track.bond_name}</h3>
-                        <span class="${badgeClass}">${track.status_text}</span>
+                    <div style="flex: 1;">
+                        <div class="route-title-group flex items-center gap-2 flex-wrap">
+                            <span class="card-tag">${track.stock_code}</span>
+                            <h3 class="font-bold text-slate-100" style="margin: 0;">${track.company_name} (${track.stock_code}) - ${track.bond_name}</h3>
+                            <span class="${badgeClass}">${track.status_text}</span>
+                        </div>
+                        ${strategyHtml}
                     </div>
                     ${perfHtml}
                 </div>

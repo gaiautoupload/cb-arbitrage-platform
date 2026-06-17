@@ -7,6 +7,11 @@
     "current_stage_index": 4,
     "status_text": "籌碼審查通過，持股待售中",
     "status_type": "success",
+    "strategy_info": {
+      "name": "策略 1: 外資定價前卡位",
+      "win_rate": 100.0,
+      "avg_return": 45.0
+    },
     "stations": [
       {
         "name": "競拍公告發布",
@@ -52,6 +57,59 @@
     }
   },
   {
+    "stock_code": "6187",
+    "company_name": "萬潤",
+    "bond_name": "萬潤六",
+    "expected_listing_date": "2026-07-02",
+    "current_stage_index": 0,
+    "status_text": "競拍投標進行中，開標日 06/23，靜待掛牌公告",
+    "status_type": "pending",
+    "strategy_info": {
+      "name": "策略 4: 投信卡位 + 股本佔比型",
+      "win_rate": 100.0,
+      "avg_return": 43.6
+    },
+    "stations": [
+      {
+        "name": "競拍公告與投標",
+        "date": "2026-06-16",
+        "status": "active",
+        "description": "公會公告萬潤六發行時程，競拍投標期間為 2026-06-16 至 2026-06-18。"
+      },
+      {
+        "name": "競拍開標與結果",
+        "date": "2026-06-23",
+        "status": "upcoming",
+        "description": "訂於 06/23 進行公開競價拍賣開標並公告結果。"
+      },
+      {
+        "name": "T-15 籌碼複審",
+        "date": "2026-06-11",
+        "status": "completed",
+        "description": "掛牌日回推 15 日為 06/11。因尚在競拍程序中，將於 06/23 開標後重新複審投信籌碼是否符合大於 2,000 張且佔比大於 0.5%。"
+      },
+      {
+        "name": "T-14 策略買進",
+        "date": "2026-06-12",
+        "status": "upcoming",
+        "description": "若判定符合條件，開盤買進現貨股票。"
+      },
+      {
+        "name": "T日 掛牌上市",
+        "date": "2026-07-02",
+        "status": "upcoming",
+        "description": "萬潤六預計正式掛牌上市交易。"
+      },
+      {
+        "name": "T+19 結算出場",
+        "date": "2026-07-29",
+        "status": "upcoming",
+        "description": "預定收盤無條件賣出結算。"
+      }
+    ],
+    "performance": null
+  },
+  {
     "stock_code": "3260",
     "company_name": "威剛",
     "bond_name": "威剛八",
@@ -59,6 +117,11 @@
     "current_stage_index": 1,
     "status_text": "已發布競拍公告，靜待 T-15 籌碼判定點",
     "status_type": "pending",
+    "strategy_info": {
+      "name": "策略 2: 投信定價前卡位",
+      "win_rate": 100.0,
+      "avg_return": 42.9
+    },
     "stations": [
       {
         "name": "競拍公告發布",
@@ -107,6 +170,11 @@
     "current_stage_index": 2,
     "status_text": "T-15 籌碼審查不符條件，已放棄交易",
     "status_type": "failed",
+    "strategy_info": {
+      "name": "策略 1 & 2: 籌碼卡位型",
+      "win_rate": 100.0,
+      "avg_return": 45.0
+    },
     "stations": [
       {
         "name": "競拍公告發布",
