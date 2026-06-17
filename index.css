@@ -819,3 +819,182 @@ body {
     color: white;
 }
 
+/* ==================================================================
+   Bond Strategy Report Styles
+   ================================================================== */
+
+.animate-fadeIn {
+    animation: fadeIn 0.4s ease-out;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(6px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+/* Sub-tab Navigation */
+.sub-tab-btn {
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    transition: all var(--transition-speed);
+}
+
+.sub-tab-btn.active-sub-tab {
+    background: var(--accent-color) !important;
+    color: white !important;
+    box-shadow: 0 4px 12px rgba(99, 102, 241, 0.25);
+}
+
+.sub-tab-panel {
+    display: none;
+}
+
+.sub-tab-panel.active-panel {
+    display: block;
+}
+
+/* Health Diagnosis Pills */
+.health-pills-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: space-between;
+}
+
+.health-pill {
+    flex: 1 1 calc(20% - 1rem);
+    min-width: 140px;
+    background: rgba(17, 24, 39, 0.6);
+    border: 1px solid var(--border-color);
+    border-radius: 12px;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    transition: all var(--transition-speed);
+}
+
+.health-pill:hover {
+    border-color: var(--accent-color);
+    transform: translateY(-2px);
+}
+
+.health-pill-title {
+    font-size: 0.75rem;
+    color: var(--text-secondary);
+    margin-bottom: 0.5rem;
+    font-weight: 600;
+}
+
+.health-pill-value {
+    font-size: 1.15rem;
+    font-weight: 700;
+    margin-bottom: 0.25rem;
+    font-family: 'Outfit', sans-serif;
+}
+
+.health-pill-target {
+    font-size: 0.7rem;
+    color: var(--text-secondary);
+    background: rgba(255, 255, 255, 0.05);
+    padding: 0.15rem 0.4rem;
+    border-radius: 4px;
+}
+
+/* Threshold List */
+.threshold-item {
+    display: flex;
+    align-items: center;
+    justify-content: justify;
+    padding: 0.5rem 0.75rem;
+    background: rgba(17, 24, 39, 0.4);
+    border: 1px solid var(--border-color);
+    border-radius: 8px;
+    font-size: 0.8rem;
+    gap: 0.5rem;
+}
+
+.threshold-lbl {
+    flex: 1;
+    color: var(--text-primary);
+}
+
+.threshold-target {
+    color: var(--text-secondary);
+    margin-right: 0.75rem;
+    font-family: monospace;
+}
+
+.threshold-status {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.7rem;
+    font-weight: bold;
+}
+
+.threshold-status.pass {
+    background: rgba(16, 185, 129, 0.15);
+    color: var(--green-color);
+    border: 1px solid rgba(16, 185, 129, 0.3);
+}
+
+.threshold-status.fail {
+    background: rgba(239, 68, 68, 0.15);
+    color: var(--red-color);
+    border: 1px solid rgba(239, 68, 68, 0.3);
+}
+
+/* Heatmap Grid Cell Color Styles */
+.heatmap-cell-pos-high {
+    background-color: rgba(16, 185, 129, 0.8) !important;
+    color: white !important;
+}
+
+.heatmap-cell-pos-med {
+    background-color: rgba(16, 185, 129, 0.55) !important;
+    color: white !important;
+}
+
+.heatmap-cell-pos-low {
+    background-color: rgba(16, 185, 129, 0.25) !important;
+    color: #a7f3d0 !important;
+}
+
+.heatmap-cell-neg-high {
+    background-color: rgba(239, 68, 68, 0.8) !important;
+    color: white !important;
+}
+
+.heatmap-cell-neg-med {
+    background-color: rgba(239, 68, 68, 0.55) !important;
+    color: white !important;
+}
+
+.heatmap-cell-neg-low {
+    background-color: rgba(239, 68, 68, 0.25) !important;
+    color: #fecaca !important;
+}
+
+.heatmap-cell-zero {
+    background-color: rgba(31, 41, 55, 0.5) !important;
+    color: var(--text-secondary) !important;
+}
+
+/* Year filters styling */
+.year-filter-btn {
+    transition: all var(--transition-speed);
+}
+
+.year-filter-btn.active-year-filter {
+    background: var(--accent-color) !important;
+    color: white !important;
+    border-color: var(--accent-color) !important;
+}
+

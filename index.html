@@ -65,6 +65,7 @@
                     <button onclick="switchTab('active-tracks')" id="tab-btn-active-tracks" class="nav-tab-btn px-3 py-1.5 rounded-lg text-xs font-semibold text-white bg-slate-800 transition whitespace-nowrap">🚇 執行中SOP軌道</button>
                     <button onclick="switchTab('success-cases')" id="tab-btn-success-cases" class="nav-tab-btn px-3 py-1.5 rounded-lg text-xs font-semibold text-slate-400 hover:text-white transition whitespace-nowrap">🏆 成功案例庫</button>
                     <button onclick="switchTab('dashboard')" id="tab-btn-dashboard" class="nav-tab-btn px-3 py-1.5 rounded-lg text-xs font-semibold text-slate-400 hover:text-white transition whitespace-nowrap">📊 分析與回測大師</button>
+                    <button onclick="switchTab('bond-report')" id="tab-btn-bond-report" class="nav-tab-btn px-3 py-1.5 rounded-lg text-xs font-semibold text-slate-400 hover:text-white transition whitespace-nowrap">📊 公司債策略年報</button>
                 </div>
             </div>
         </header>
@@ -296,6 +297,184 @@
                         </table>
                     </div>
                 </section>
+            </div>
+
+            <!-- 4. Bond Strategy Report Panel -->
+            <div id="panel-bond-report" class="tab-content-panel">
+                <div class="table-header" style="margin-bottom: 1.5rem;">
+                    <div>
+                        <h2 class="card-title" style="font-size: 1.5rem; font-weight: 700; margin-bottom: 0.25rem;">📊 公司債事件策略年報</h2>
+                        <p class="card-desc" style="margin-bottom: 0;">聚焦可轉債公告、申報生效、定價與掛牌後路徑，整理年度報酬率、月度交易熱度與歷史案例明細。</p>
+                    </div>
+                </div>
+
+                <!-- Hero Stats Grid -->
+                <section class="stats-grid" style="margin-bottom: 1.5rem;">
+                    <div class="stat-card">
+                        <div class="stat-icon">📈</div>
+                        <div class="stat-info">
+                            <span class="stat-label">最佳策略平均報酬</span>
+                            <span class="stat-value text-green" id="bond-best-return">-</span>
+                        </div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-icon">📉</div>
+                        <div class="stat-info">
+                            <span class="stat-label">最弱策略平均報酬</span>
+                            <span class="stat-value text-red" id="bond-worst-return">-</span>
+                        </div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-icon">⚖️</div>
+                        <div class="stat-info">
+                            <span class="stat-label">策略總交易數</span>
+                            <span class="stat-value text-blue" id="bond-total-trades">-</span>
+                        </div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-icon">🎯</div>
+                        <div class="stat-info">
+                            <span class="stat-label">整體歷史勝率</span>
+                            <span class="stat-value" id="bond-overall-win-rate">-</span>
+                        </div>
+                    </div>
+                </section>
+
+                <div class="content-row" style="margin-bottom: 2rem; gap: 1.5rem;">
+                    <!-- Health Pills Section -->
+                    <section class="card" style="flex: 2; padding: 1.5rem;">
+                        <h3 class="card-title" style="margin-bottom: 1.25rem; font-size: 1.1rem; display: flex; align-items: center; gap: 0.5rem;">
+                            <span>🩺 公司債策略健康指標</span>
+                        </h3>
+                        <div class="health-pills-container flex flex-wrap gap-4" id="bond-health-pills">
+                            <!-- Dynamic Health Pills rendering -->
+                            <div class="text-center text-muted">載入健康指標中...</div>
+                        </div>
+                    </section>
+
+                    <!-- Threshold Check Section -->
+                    <section class="card" style="flex: 1; padding: 1.5rem;">
+                        <h3 class="card-title" style="margin-bottom: 1.25rem; font-size: 1.1rem;">📝 可轉債策略檢查表</h3>
+                        <div class="threshold-list space-y-3" id="bond-thresholds">
+                            <!-- Dynamic Threshold list items -->
+                            <div class="text-center text-muted">載入標準比對中...</div>
+                        </div>
+                    </section>
+                </div>
+
+                <!-- Sub Tab Group Navigation -->
+                <div class="border-b border-slate-800 bg-slate-900/30 p-1.5 rounded-xl flex items-center gap-1.5 mb-6 overflow-x-auto">
+                    <button onclick="switchBondReportSubTab('overview')" id="sub-btn-overview" class="sub-tab-btn px-4 py-2 rounded-lg text-xs font-semibold text-white bg-slate-800 transition whitespace-nowrap">📈 策略總覽</button>
+                    <button onclick="switchBondReportSubTab('monthly')" id="sub-btn-monthly" class="sub-tab-btn px-4 py-2 rounded-lg text-xs font-semibold text-slate-400 hover:text-white transition whitespace-nowrap">📅 月度熱圖</button>
+                    <button onclick="switchBondReportSubTab('trades')" id="sub-btn-trades" class="sub-tab-btn px-4 py-2 rounded-lg text-xs font-semibold text-slate-400 hover:text-white transition whitespace-nowrap">📝 交易明細</button>
+                    <button onclick="switchBondReportSubTab('yearly')" id="sub-btn-yearly" class="sub-tab-btn px-4 py-2 rounded-lg text-xs font-semibold text-slate-400 hover:text-white transition whitespace-nowrap">📊 年度報酬</button>
+                </div>
+
+                <!-- Sub Tab Panels -->
+                <!-- A. Overview Tab -->
+                <div id="sub-panel-overview" class="sub-tab-panel active-panel card animate-fadeIn" style="padding: 1.5rem;">
+                    <div class="flex items-center justify-between flex-wrap gap-3 mb-4">
+                        <h3 class="card-title" style="margin: 0; font-size: 1.1rem;">策略平均報酬與勝率排行</h3>
+                    </div>
+                    <div style="height: 300px; position: relative;">
+                        <canvas id="bondStrategyChart"></canvas>
+                    </div>
+                    <div class="divider" style="margin: 1.5rem 0;"></div>
+                    <h3 class="card-title" style="margin-bottom: 1rem; font-size: 1.1rem;">策略摘要</h3>
+                    <div class="table-responsive">
+                        <table class="data-table">
+                            <thead>
+                                <tr>
+                                    <th>策略</th>
+                                    <th>交易筆數</th>
+                                    <th>勝率</th>
+                                    <th>平均報酬</th>
+                                    <th>最佳交易</th>
+                                    <th>最差交易</th>
+                                </tr>
+                            </thead>
+                            <tbody id="bond-strategy-summary-body"></tbody>
+                        </table>
+                    </div>
+                </div>
+
+                <!-- B. Monthly Return Matrix Tab -->
+                <div id="sub-panel-monthly" class="sub-tab-panel card animate-fadeIn" style="padding: 1.5rem;">
+                    <div class="flex items-center justify-between mb-4 flex-wrap gap-2">
+                        <h3 class="card-title" style="margin: 0; font-size: 1.1rem;">可轉債交易月份報酬熱圖 (%)</h3>
+                        <div class="text-xs text-slate-400 bg-slate-800 px-3 py-1 rounded-lg" id="bond-monthly-stats-summary">平均月報酬: - | 月勝率: -</div>
+                    </div>
+                    <div class="table-responsive">
+                        <table class="data-table monthly-heatmap-table" style="text-align: center;">
+                            <thead>
+                                <tr>
+                                    <th>年份</th>
+                                    <th>1月</th>
+                                    <th>2月</th>
+                                    <th>3月</th>
+                                    <th>4月</th>
+                                    <th>5月</th>
+                                    <th>6月</th>
+                                    <th>7月</th>
+                                    <th>8月</th>
+                                    <th>9月</th>
+                                    <th>10月</th>
+                                    <th>11月</th>
+                                    <th>12月</th>
+                                    <th class="bg-slate-900/80 font-bold">年總計</th>
+                                </tr>
+                            </thead>
+                            <tbody id="bond-monthly-matrix-body">
+                                <!-- Dynamic heatmap table rows -->
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+
+                <!-- C. Historical Trades Tab -->
+                <div id="sub-panel-trades" class="sub-tab-panel card animate-fadeIn" style="padding: 1.5rem;">
+                    <div class="table-header" style="margin-bottom: 1rem;">
+                        <h3 class="card-title" style="margin: 0; font-size: 1.1rem;">公司債事件策略交易明細</h3>
+                        <div class="table-actions">
+                            <input type="text" id="bond-trade-search" placeholder="搜尋策略、公司或代號..." class="filter-select" style="max-width: 250px;">
+                        </div>
+                    </div>
+                    <div class="table-responsive">
+                        <table class="data-table">
+                            <thead>
+                                <tr>
+                                    <th>股票名稱</th>
+                                    <th>代號</th>
+                                    <th>策略</th>
+                                    <th>買入日期</th>
+                                    <th>進場價格</th>
+                                    <th>賣出日期</th>
+                                    <th>出場價格</th>
+                                    <th>報酬率 (%)</th>
+                                </tr>
+                            </thead>
+                            <tbody id="bond-trades-tbody">
+                                <!-- Dynamic trades list -->
+                            </tbody>
+                        </table>
+                    </div>
+                    <!-- Pagination -->
+                    <div class="flex items-center justify-between mt-4 text-xs text-slate-400">
+                        <span id="bond-trades-page-info">第 1 頁 / 共 1 頁</span>
+                        <div class="flex gap-2">
+                            <button onclick="prevBondTradesPage()" class="btn px-2.5 py-1 rounded bg-slate-800 text-white font-medium hover:bg-slate-700">上一頁</button>
+                            <button onclick="nextBondTradesPage()" class="btn px-2.5 py-1 rounded bg-slate-800 text-white font-medium hover:bg-slate-700">下一頁</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- D. Yearly Comparison Tab -->
+                <div id="sub-panel-yearly" class="sub-tab-panel card animate-fadeIn" style="padding: 1.5rem;">
+                    <h3 class="card-title" style="margin-bottom: 1rem; font-size: 1.1rem;">公司債策略年度平均報酬率 (%)</h3>
+                    <div style="height: 300px; position: relative;">
+                        <canvas id="bondYearlyChart"></canvas>
+                    </div>
+                </div>
             </div>
         </main>
     </div>
