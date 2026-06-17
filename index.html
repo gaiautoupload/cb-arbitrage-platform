@@ -17,11 +17,23 @@
         <!-- Sidebar / Header -->
         <header class="app-header">
             <div class="logo-area">
-                <div class="logo-icon">📊</div>
+                <div class="logo-icon-svg">
+                    <svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="url(#logo-grad)" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                        <defs>
+                            <linearGradient id="logo-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+                                <stop offset="0%" stop-color="#00f2fe" />
+                                <stop offset="100%" stop-color="#4facfe" />
+                            </linearGradient>
+                        </defs>
+                        <line x1="18" y1="20" x2="18" y2="10"></line>
+                        <line x1="12" y1="20" x2="12" y2="4"></line>
+                        <line x1="6" y1="20" x2="6" y2="14"></line>
+                    </svg>
+                </div>
                 <div>
                     <h1 style="display: flex; align-items: center; gap: 0.75rem;">
                         <span>BondTrade AI</span>
-                        <span style="font-size: 0.75rem; color: #a5b4fc; background: rgba(99, 102, 241, 0.2); border: 1px solid rgba(99, 102, 241, 0.3); padding: 0.15rem 0.5rem; border-radius: 4px; font-weight: 500;">製作者: pioter | 分析師+1000</span>
+                        <span class="creator-badge">製作者: pioter | 分析師+1000</span>
                     </h1>
                     <p class="subtitle">可轉債事件套利大數據系統</p>
                 </div>
