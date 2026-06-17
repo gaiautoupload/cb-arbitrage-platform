@@ -868,14 +868,33 @@ function safeTradeDate(dateValue) {
         : null;
 }
 
-function annualizeReturn(returnPct, holdTradingDays) {
-    if (!Number.isFinite(returnPct) || !Number.isFinite(holdTradingDays) || holdTradingDays <= 0) return null;
-    return (Math.pow(1 + returnPct / 100, 252 / holdTradingDays) - 1) * 100;
-}
-
 function formatCurrency(value) {
     if (!Number.isFinite(value)) return "-";
     return `NT$${Math.round(value).toLocaleString("zh-TW")}`;
+}
+
+function getYearEndMark(prices, buyIdx, sellIdx) {
+    const buyYear = prices[buyIdx].date.slice(0, 4);
+    if (prices[sellIdx].date.slice(0, 4) === buyYear) {
+        return {
+            exitDate: prices[sellIdx].date,
+            exitPrice: Number(prices[sellIdx].close),
+            isYearEndMark: false
+        };
+    }
+
+    const yearEnd = `${buyYear}-12-31`;
+    let markIdx = buyIdx;
+    for (let idx = buyIdx; idx < prices.length; idx++) {
+        if (prices[idx].date > yearEnd) break;
+        markIdx = idx;
+    }
+
+    return {
+        exitDate: prices[markIdx].date,
+        exitPrice: Number(prices[markIdx].close),
+        isYearEndMark: true
+    };
 }
 
 async function getPricesForTicker(ticker) {
@@ -926,6 +945,9 @@ async function buildEliteBondReportTrades() {
             if (!Number.isFinite(buyPrice) || !Number.isFinite(sellPrice) || buyPrice <= 0) continue;
 
             const returnPct = (sellPrice - buyPrice) / buyPrice * 100;
+            const annualMark = getYearEndMark(prices, buyIdx, sellIdx);
+            if (!Number.isFinite(annualMark.exitPrice)) continue;
+            const yearReturnPct = (annualMark.exitPrice - buyPrice) / buyPrice * 100;
             const holdDays = sellIdx - buyIdx;
             rows.push({
                 strategyName: strategy.name.replace(/^[^ ]+\s*/, ""),
@@ -934,111 +956,124 @@ async function buildEliteBondReportTrades() {
                 eventTitle: bond.bond_name || "",
                 buyDate: prices[buyIdx].date,
                 sellDate: prices[sellIdx].date,
+                yearExitDate: annualMark.exitDate,
                 buyPrice,
                 sellPrice,
+                yearExitPrice: annualMark.exitPrice,
+                isYearEndMark: annualMark.isYearEndMark,
                 holdDays,
                 returnPct,
-                annualizedReturn: annualizeReturn(returnPct, holdDays)
+                yearReturnPct
             });
         }
     }
 
-    return applyReservedCapitalAllocation(rows).sort((a, b) => {
+    return simulateYearlyCapital(rows).sort((a, b) => {
         const dateA = a.buyDate || "9999-12-31";
         const dateB = b.buyDate || "9999-12-31";
         return dateB.localeCompare(dateA);
     });
 }
 
-function applyReservedCapitalAllocation(trades) {
+function allocateYearClusters(trades, currentCapital, yearInitialCapital, allocated) {
     const ordered = [...trades].sort((a, b) => a.buyDate.localeCompare(b.buyDate) || a.sellDate.localeCompare(b.sellDate));
-    const allocated = [];
     let cluster = [];
     let clusterEnd = null;
 
     function flushCluster(items) {
-        if (items.length === 0) return;
+        if (items.length === 0) return 0;
 
-        const checkpoints = [...new Set(items.flatMap(t => [t.buyDate, t.sellDate]))].sort();
+        const checkpoints = [...new Set(items.flatMap(t => [t.buyDate, t.yearExitDate]))].sort();
         let maxConcurrent = 1;
         checkpoints.forEach(date => {
-            const activeCount = items.filter(t => t.buyDate <= date && t.sellDate >= date).length;
+            const activeCount = items.filter(t => t.buyDate <= date && t.yearExitDate >= date).length;
             maxConcurrent = Math.max(maxConcurrent, activeCount);
         });
 
-        const allocatedCapital = eliteBondInitialCapital / maxConcurrent;
+        const allocatedCapital = currentCapital / maxConcurrent;
+        let clusterProfit = 0;
         items.forEach(trade => {
-            const grossProfit = allocatedCapital * trade.returnPct / 100;
+            const grossProfit = allocatedCapital * trade.yearReturnPct / 100;
+            clusterProfit += grossProfit;
             allocated.push({
                 ...trade,
                 allocatedCapital,
                 grossProfit,
                 overlapSlots: maxConcurrent,
-                capitalReturnPct: grossProfit / eliteBondInitialCapital * 100
+                capitalReturnPct: grossProfit / yearInitialCapital * 100
             });
         });
+        return clusterProfit;
     }
 
     ordered.forEach(trade => {
         if (!cluster.length) {
             cluster = [trade];
-            clusterEnd = trade.sellDate;
+            clusterEnd = trade.yearExitDate;
             return;
         }
 
         if (trade.buyDate <= clusterEnd) {
             cluster.push(trade);
-            if (trade.sellDate > clusterEnd) clusterEnd = trade.sellDate;
+            if (trade.yearExitDate > clusterEnd) clusterEnd = trade.yearExitDate;
         } else {
-            flushCluster(cluster);
+            currentCapital += flushCluster(cluster);
             cluster = [trade];
-            clusterEnd = trade.sellDate;
+            clusterEnd = trade.yearExitDate;
         }
     });
-    flushCluster(cluster);
+    currentCapital += flushCluster(cluster);
+
+    return currentCapital;
+}
+
+function simulateYearlyCapital(trades) {
+    const byYear = {};
+    trades.forEach(trade => {
+        const year = trade.buyDate?.slice(0, 4);
+        if (!year) return;
+        if (!byYear[year]) byYear[year] = [];
+        byYear[year].push(trade);
+    });
+
+    const allocated = [];
+    Object.entries(byYear).forEach(([year, yearTrades]) => {
+        const endingCapital = allocateYearClusters(yearTrades, eliteBondInitialCapital, eliteBondInitialCapital, allocated);
+        allocated.forEach(trade => {
+            if (trade.buyDate?.slice(0, 4) === year) {
+                trade.simulationYear = year;
+                trade.yearEndingCapital = endingCapital;
+            }
+        });
+    });
 
     return allocated;
 }
 
-function getMarketSpanTradingDays(trades) {
-    if (!trades.length) return 0;
-    const firstDate = trades.reduce((min, t) => t.buyDate < min ? t.buyDate : min, trades[0].buyDate);
-    const lastDate = trades.reduce((max, t) => t.sellDate > max ? t.sellDate : max, trades[0].sellDate);
-    const dates = new Set();
-
-    Object.values(stockPricesCache).forEach(prices => {
-        if (!Array.isArray(prices)) return;
-        prices.forEach(p => {
-            if (p.date >= firstDate && p.date <= lastDate) dates.add(p.date);
-        });
-    });
-
-    return dates.size || Math.max(1, Math.round((new Date(lastDate) - new Date(firstDate)) / 86400000 / 7 * 5));
-}
-
 function calculatePortfolioMetrics(trades) {
-    const totalProfit = trades.reduce((sum, t) => sum + (t.grossProfit || 0), 0);
-    const totalReturnPct = totalProfit / eliteBondInitialCapital * 100;
-    const spanTradingDays = getMarketSpanTradingDays(trades);
-    const annualizedReturn = spanTradingDays > 0
-        ? (Math.pow(1 + totalReturnPct / 100, 252 / spanTradingDays) - 1) * 100
-        : 0;
-
     const yearly = {};
     trades.forEach(trade => {
-        const year = trade.sellDate?.slice(0, 4);
+        const year = trade.simulationYear;
         if (!year) return;
-        if (!yearly[year]) yearly[year] = { profit: 0, trades: 0 };
+        if (!yearly[year]) yearly[year] = { profit: 0, trades: 0, endingCapital: eliteBondInitialCapital };
         yearly[year].profit += trade.grossProfit || 0;
         yearly[year].trades += 1;
+        yearly[year].endingCapital = eliteBondInitialCapital + yearly[year].profit;
+        yearly[year].returnPct = yearly[year].profit / eliteBondInitialCapital * 100;
     });
+
+    const yearlyRows = Object.values(yearly);
+    const averageAnnualReturn = yearlyRows.length
+        ? yearlyRows.reduce((sum, row) => sum + row.returnPct, 0) / yearlyRows.length
+        : 0;
+    const averageEndingCapital = yearlyRows.length
+        ? yearlyRows.reduce((sum, row) => sum + row.endingCapital, 0) / yearlyRows.length
+        : eliteBondInitialCapital;
 
     return {
         capital: eliteBondInitialCapital,
-        totalProfit,
-        totalReturnPct,
-        annualizedReturn,
-        spanTradingDays,
+        averageAnnualReturn,
+        averageEndingCapital,
         yearly
     };
 }
@@ -1096,8 +1131,8 @@ function renderBondReportStats() {
     const wins = allTrades.filter(t => t.returnPct > 0).length;
     const overallWinRate = allTrades.length ? wins / allTrades.length * 100 : 0;
 
-    document.getElementById("bond-annualized-return").innerText = formatPct(bondPortfolioMetrics?.annualizedReturn || 0, 1);
-    document.getElementById("bond-elite-avg-return").innerText = formatPct(bondPortfolioMetrics?.totalReturnPct || 0, 2);
+    document.getElementById("bond-average-annual-return").innerText = formatPct(bondPortfolioMetrics?.averageAnnualReturn || 0, 2);
+    document.getElementById("bond-elite-avg-return").innerText = formatCurrency(bondPortfolioMetrics?.averageEndingCapital || eliteBondInitialCapital);
     document.getElementById("bond-total-trades").innerText = allTrades.length;
     document.getElementById("bond-overall-win-rate").innerText = `${overallWinRate.toFixed(1)}%`;
 }
@@ -1115,10 +1150,8 @@ function renderBondHealthPills() {
     const rows = Object.entries(strategyMap).map(([name, trades]) => {
         const avgReturn = trades.reduce((sum, t) => sum + t.returnPct, 0) / trades.length;
         const capitalContribution = trades.reduce((sum, t) => sum + (t.grossProfit || 0), 0) / eliteBondInitialCapital * 100;
-        const annualized = trades.filter(t => Number.isFinite(t.annualizedReturn));
-        const avgAnnualized = annualized.length ? annualized.reduce((sum, t) => sum + t.annualizedReturn, 0) / annualized.length : 0;
         const winRate = trades.filter(t => t.returnPct > 0).length / trades.length * 100;
-        return { name, totalTrades: trades.length, avgReturn, capitalContribution, avgAnnualized, winRate };
+        return { name, totalTrades: trades.length, avgReturn, capitalContribution, winRate };
     }).sort((a, b) => b.capitalContribution - a.capitalContribution);
 
     const pills = rows.slice(0, 5).map(row => ({
@@ -1144,7 +1177,7 @@ function renderBondThresholds() {
 
     const totalTrades = bondReportTrades.length;
     const avgReturn = totalTrades ? bondReportTrades.reduce((sum, t) => sum + t.returnPct, 0) / totalTrades : 0;
-    const portfolioAnnualized = bondPortfolioMetrics?.annualizedReturn || 0;
+    const averageAnnualReturn = bondPortfolioMetrics?.averageAnnualReturn || 0;
     const winRate = totalTrades ? bondReportTrades.filter(t => t.returnPct > 0).length / totalTrades * 100 : 0;
     const years = new Set(bondReportTrades.map(t => t.buyDate?.slice(0, 4)).filter(Boolean));
     const maxOverlap = bondReportTrades.reduce((max, t) => Math.max(max, t.overlapSlots || 1), 1);
@@ -1153,7 +1186,7 @@ function renderBondThresholds() {
         { label: "只採用外資/投信精華濾網", val: `前 ${eliteBondStrategyCount} 組`, pass: true },
         { label: "精華策略勝率 >= 90%", val: `${winRate.toFixed(1)}%`, pass: winRate >= 90 },
         { label: "平均報酬 >= 40%", val: formatPct(avgReturn, 2), pass: avgReturn >= 40 },
-        { label: "100萬資金年化 > 100%", val: formatPct(portfolioAnnualized, 1), pass: portfolioAnnualized > 100 },
+        { label: "平均年度報酬 > 50%", val: formatPct(averageAnnualReturn, 2), pass: averageAnnualReturn > 50 },
         { label: "重疊訊號平均分攤資金", val: `最多 ${maxOverlap} 檔`, pass: maxOverlap >= 1 },
         { label: "涵蓋年度 >= 2 年", val: `${years.size} 年`, pass: years.size >= 2 },
         { label: "進出場固定 T-15 到 T+19", val: "34 交易日", pass: true }
@@ -1213,14 +1246,12 @@ function renderBondStrategyOverview() {
     const rows = Object.entries(strategyMap)
         .map(([name, trades]) => {
             const returns = trades.map(t => t.returnPct).filter(Number.isFinite);
-            const annualized = trades.map(t => t.annualizedReturn).filter(Number.isFinite);
             const capitalContribution = trades.reduce((sum, t) => sum + (t.grossProfit || 0), 0) / eliteBondInitialCapital * 100;
             return {
                 name,
                 totalTrades: trades.length,
                 winRate: trades.filter(t => t.returnPct > 0).length / trades.length * 100,
                 avgReturn: returns.length ? returns.reduce((sum, v) => sum + v, 0) / returns.length : 0,
-                avgAnnualized: annualized.length ? annualized.reduce((sum, v) => sum + v, 0) / annualized.length : 0,
                 capitalContribution,
                 best: returns.length ? Math.max(...returns) : null,
                 worst: returns.length ? Math.min(...returns) : null
@@ -1316,7 +1347,7 @@ function renderBondMonthlyHeatmap() {
             }
         }
 
-        const annual = yearValues.length ? yearValues.reduce((sum, v) => sum + v, 0) / yearValues.length : null;
+        const annual = yearValues.length ? yearValues.reduce((sum, v) => sum + v, 0) : null;
         const annualClass = annual === null ? "heatmap-cell-zero" : (annual >= 0 ? "text-green font-bold bg-slate-900/40" : "text-red font-bold bg-slate-900/40");
         return `<tr><td><strong>${year}</strong></td>${cells.join("")}<td class="${annualClass}">${annual === null ? "-" : formatPct(annual, 1)}</td></tr>`;
     }).join("");
@@ -1380,7 +1411,7 @@ function renderBondTradesTable() {
                 <td>${trade.sellDate || "-"}</td>
                 <td>${Number.isFinite(trade.sellPrice) ? `$${trade.sellPrice.toFixed(1)}` : "-"}</td>
                 <td class="${returnClass}"><strong>${formatPct(trade.returnPct, 2)}</strong></td>
-                <td class="${trade.annualizedReturn >= 0 ? 'text-green' : 'text-red'}"><strong>${formatPct(trade.annualizedReturn, 1)}</strong></td>
+                <td class="${trade.capitalReturnPct >= 0 ? 'text-green' : 'text-red'}"><strong>${formatPct(trade.capitalReturnPct, 2)}</strong></td>
             </tr>
         `;
     }).join("");
@@ -1404,7 +1435,7 @@ function nextBondTradesPage() {
 function renderBondYearlyChart() {
     const yearly = bondPortfolioMetrics?.yearly || {};
     const years = Object.keys(yearly).sort();
-    const data = years.map(year => Number((yearly[year].profit / eliteBondInitialCapital * 100).toFixed(2)));
+    const data = years.map(year => Number((yearly[year].returnPct || 0).toFixed(2)));
 
     const datasets = [{
         label: "100萬資金年度實現報酬 (%)",
