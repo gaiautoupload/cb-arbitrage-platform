@@ -396,7 +396,8 @@ def main():
     cb_stage_strategies = {
         "CB_RESOLUTION_TO_EFFECTIVE": [],
         "CB_EFFECTIVE_TO_PRICING": [],
-        "CB_PRICING_TO_LISTING": []
+        "CB_PRICING_TO_LISTING": [],
+        "CB_PRICING_TO_POST_LISTING": []
     }
 
     for lb in linked_stages:
@@ -453,6 +454,40 @@ def main():
                 "event_title": f"{lb['short_name']} 公告定價至掛牌日",
                 "trade": res_pri_lis
             })
+
+        # Calculate pricing to listing + 19 trading days (suppression release)
+        def get_pricing_to_post_listing_return():
+            st1 = stages.get("PRICING")
+            st2 = stages.get("LISTING")
+            if not st1 or not st2:
+                return None
+            idx1 = find_nearest_trading_day(prices, st1["date"])
+            idx_listing = find_nearest_trading_day(prices, st2["date"])
+            if idx1 is None or idx_listing is None or idx1 >= idx_listing:
+                return None
+            idx2 = idx_listing + 19
+            if idx2 >= len(prices):
+                idx2 = len(prices) - 1
+            if idx1 >= idx2:
+                return None
+            p1 = prices[idx1]["close"]
+            p2 = prices[idx2]["close"]
+            return {
+                "buy_date": prices[idx1]["date"],
+                "buy_price": p1,
+                "sell_date": prices[idx2]["date"],
+                "sell_price": p2,
+                "return_pct": (p2 - p1) / p1 * 100
+            }
+
+        res_pri_t19 = get_pricing_to_post_listing_return()
+        if res_pri_t19:
+            cb_stage_strategies["CB_PRICING_TO_POST_LISTING"].append({
+                "stock_code": code,
+                "company_name": lb["company_name"],
+                "event_title": f"{lb['short_name']} 公告定價至掛牌後19日",
+                "trade": res_pri_t19
+            })
                 
     # Calculate statistics for each strategy
     def get_stats(trades):
@@ -473,7 +508,8 @@ def main():
         "TENDER_OFFER": get_stats(to_trades),
         "CB_RESOLUTION_TO_EFFECTIVE": get_stats(cb_stage_strategies["CB_RESOLUTION_TO_EFFECTIVE"]),
         "CB_EFFECTIVE_TO_PRICING": get_stats(cb_stage_strategies["CB_EFFECTIVE_TO_PRICING"]),
-        "CB_PRICING_TO_LISTING": get_stats(cb_stage_strategies["CB_PRICING_TO_LISTING"])
+        "CB_PRICING_TO_LISTING": get_stats(cb_stage_strategies["CB_PRICING_TO_LISTING"]),
+        "CB_PRICING_TO_POST_LISTING": get_stats(cb_stage_strategies["CB_PRICING_TO_POST_LISTING"])
     }
 
     sectors = sorted(list(set(b["sector"] for b in analyzed_list)))

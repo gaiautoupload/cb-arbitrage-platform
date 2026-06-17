@@ -19167,6 +19167,2005 @@
           }
         }
       ]
+    },
+    "CB_PRICING_TO_POST_LISTING": {
+      "avg_return": 3.04,
+      "win_rate": 48.8,
+      "total_trades": 166,
+      "trades": [
+        {
+          "stock_code": "6223",
+          "company_name": "旺矽科技股份有限公司",
+          "event_title": "旺矽五 公告定價至掛牌後19日",
+          "trade": {
+            "buy_date": "2025-01-02",
+            "buy_price": 864.7982177734375,
+            "sell_date": "2025-02-13",
+            "sell_price": 828.3545532226562,
+            "return_pct": -4.2141234569853
+          }
+        },
+        {
+          "stock_code": "8155",
+          "company_name": "博智電子股份有限公司",
+          "event_title": "博智一 公告定價至掛牌後19日",
+          "trade": {
+            "buy_date": "2025-01-06",
+            "buy_price": 117.77661895751953,
+            "sell_date": "2025-02-17",
+            "sell_price": 117.15919494628906,
+            "return_pct": -0.5242330920139298
+          }
+        },
+        {
+          "stock_code": "3138",
+          "company_name": "耀登科技股份有限公司",
+          "event_title": "耀登二 公告定價至掛牌後19日",
+          "trade": {
+            "buy_date": "2025-01-07",
+            "buy_price": 109.5417709350586,
+            "sell_date": "2025-02-17",
+            "sell_price": 107.60297393798828,
+            "return_pct": -1.7699156956479376
+          }
+        },
+        {
+          "stock_code": "1514",
+          "company_name": "亞力電機股份有限公司",
+          "event_title": "亞力二 公告定價至掛牌後19日",
+          "trade": {
+            "buy_date": "2025-01-07",
+            "buy_price": 97.89825439453125,
+            "sell_date": "2025-02-18",
+            "sell_price": 95.77632141113281,
+            "return_pct": -2.1674880686299263
+          }
+        },
+        {
+          "stock_code": "2755",
+          "company_name": "擢銓國際企業股份有限公司",
+          "event_title": "擢銓一 公告定價至掛牌後19日",
+          "trade": {
+            "buy_date": "2025-01-10",
+            "buy_price": 99.2295913696289,
+            "sell_date": "2025-02-20",
+            "sell_price": 124.77384948730469,
+            "return_pct": 25.742581184803797
+          }
+        },
+        {
+          "stock_code": "2528",
+          "company_name": "皇普建設股份有限公司",
+          "event_title": "皇普四 公告定價至掛牌後19日",
+          "trade": {
+            "buy_date": "2025-01-10",
+            "buy_price": 34.900630950927734,
+            "sell_date": "2025-02-24",
+            "sell_price": 41.47673416137695,
+            "return_pct": 18.842361961007505
+          }
+        },
+        {
+          "stock_code": "8028",
+          "company_name": "星曜國際半導體股份有限公司",
+          "event_title": "星曜半導體二 公告定價至掛牌後19日",
+          "trade": {
+            "buy_date": "2025-01-16",
+            "buy_price": 124.97653198242188,
+            "sell_date": "2025-02-27",
+            "sell_price": 164.0316925048828,
+            "return_pct": 31.249995421503694
+          }
+        },
+        {
+          "stock_code": "3390",
+          "company_name": "旭曜電子科技股份有限公司",
+          "event_title": "旭曜二 公告定價至掛牌後19日",
+          "trade": {
+            "buy_date": "2025-02-13",
+            "buy_price": 26.876056671142578,
+            "sell_date": "2025-03-21",
+            "sell_price": 25.54178237915039,
+            "return_pct": -4.964546355585072
+          }
+        },
+        {
+          "stock_code": "3045",
+          "company_name": "台灣大哥大股份有限公司",
+          "event_title": "台灣大四 公告定價至掛牌後19日",
+          "trade": {
+            "buy_date": "2025-02-20",
+            "buy_price": 107.53982543945312,
+            "sell_date": "2025-03-24",
+            "sell_price": 113.78097534179688,
+            "return_pct": 5.803570795135455
+          }
+        },
+        {
+          "stock_code": "3548",
+          "company_name": "兆利科技工業股份有限公司",
+          "event_title": "兆利三 公告定價至掛牌後19日",
+          "trade": {
+            "buy_date": "2025-02-19",
+            "buy_price": 179.200927734375,
+            "sell_date": "2025-03-25",
+            "sell_price": 160.5142059326172,
+            "return_pct": -10.427804162630602
+          }
+        },
+        {
+          "stock_code": "3045",
+          "company_name": "台灣大哥大股份有限公司",
+          "event_title": "台灣大五 公告定價至掛牌後19日",
+          "trade": {
+            "buy_date": "2025-02-20",
+            "buy_price": 107.53982543945312,
+            "sell_date": "2025-03-25",
+            "sell_price": 112.34070587158203,
+            "return_pct": 4.464281406921094
+          }
+        },
+        {
+          "stock_code": "3095",
+          "company_name": "及成企業股份有限公司",
+          "event_title": "及成四 公告定價至掛牌後19日",
+          "trade": {
+            "buy_date": "2025-02-19",
+            "buy_price": 48.29999923706055,
+            "sell_date": "2025-03-25",
+            "sell_price": 40.75,
+            "return_pct": -15.631468646623578
+          }
+        },
+        {
+          "stock_code": "4510",
+          "company_name": "高銀工業股份有限公司",
+          "event_title": "高銀二 公告定價至掛牌後19日",
+          "trade": {
+            "buy_date": "2025-02-21",
+            "buy_price": 53.54096603393555,
+            "sell_date": "2025-03-26",
+            "sell_price": 50.79023742675781,
+            "return_pct": -5.137614822702782
+          }
+        },
+        {
+          "stock_code": "9906",
+          "company_name": "欣巴巴事業股份有限公司",
+          "event_title": "欣巴巴三 公告定價至掛牌後19日",
+          "trade": {
+            "buy_date": "2025-02-21",
+            "buy_price": 107.574462890625,
+            "sell_date": "2025-03-27",
+            "sell_price": 99.858154296875,
+            "return_pct": -7.172992907801419
+          }
+        },
+        {
+          "stock_code": "3434",
+          "company_name": "哲固資訊科技股份有限公司",
+          "event_title": "哲固一 公告定價至掛牌後19日",
+          "trade": {
+            "buy_date": "2025-02-24",
+            "buy_price": 27.40842628479004,
+            "sell_date": "2025-03-27",
+            "sell_price": 36.52936553955078,
+            "return_pct": 33.27786557312228
+          }
+        },
+        {
+          "stock_code": "1598",
+          "company_name": "嶠宇國際股份有限公司",
+          "event_title": "嶠宇四 公告定價至掛牌後19日",
+          "trade": {
+            "buy_date": "2025-02-25",
+            "buy_price": 32.23988342285156,
+            "sell_date": "2025-03-28",
+            "sell_price": 26.209692001342773,
+            "return_pct": -18.704135317172398
+          }
+        },
+        {
+          "stock_code": "6846",
+          "company_name": "綠蔭生技股份有限公司",
+          "event_title": "綠蔭一 公告定價至掛牌後19日",
+          "trade": {
+            "buy_date": "2025-03-07",
+            "buy_price": 79.98139953613281,
+            "sell_date": "2025-04-11",
+            "sell_price": 69.80000305175781,
+            "return_pct": -12.729705335770475
+          }
+        },
+        {
+          "stock_code": "1436",
+          "company_name": "華友聯開發股份有限公司",
+          "event_title": "華友聯四 公告定價至掛牌後19日",
+          "trade": {
+            "buy_date": "2025-03-12",
+            "buy_price": 98.13732147216797,
+            "sell_date": "2025-04-16",
+            "sell_price": 83.01221466064453,
+            "return_pct": -15.412186296334735
+          }
+        },
+        {
+          "stock_code": "2337",
+          "company_name": "旺宏電子股份有限公司",
+          "event_title": "旺宏二 公告定價至掛牌後19日",
+          "trade": {
+            "buy_date": "2025-03-19",
+            "buy_price": 21.700000762939453,
+            "sell_date": "2025-04-22",
+            "sell_price": 19.100000381469727,
+            "return_pct": -11.981568156947539
+          }
+        },
+        {
+          "stock_code": "6846",
+          "company_name": "綠蔭生技股份有限公司",
+          "event_title": "綠蔭二 公告定價至掛牌後19日",
+          "trade": {
+            "buy_date": "2025-03-19",
+            "buy_price": 81.03504180908203,
+            "sell_date": "2025-04-23",
+            "sell_price": 70.9000015258789,
+            "return_pct": -12.506984703088333
+          }
+        },
+        {
+          "stock_code": "1474",
+          "company_name": "弘鎧企業股份有限公司",
+          "event_title": "弘鎧三 公告定價至掛牌後19日",
+          "trade": {
+            "buy_date": "2025-03-24",
+            "buy_price": 13.567567825317383,
+            "sell_date": "2025-04-29",
+            "sell_price": 12.453089714050293,
+            "return_pct": -8.214280743726587
+          }
+        },
+        {
+          "stock_code": "8422",
+          "company_name": "可勁達股份有限公司",
+          "event_title": "可勁達二 公告定價至掛牌後19日",
+          "trade": {
+            "buy_date": "2025-03-28",
+            "buy_price": 18.389984130859375,
+            "sell_date": "2025-05-05",
+            "sell_price": 17.394649505615234,
+            "return_pct": -5.412373486358349
+          }
+        },
+        {
+          "stock_code": "8087",
+          "company_name": "閎升能源科技股份有限公司",
+          "event_title": "閎升能源二 公告定價至掛牌後19日",
+          "trade": {
+            "buy_date": "2025-04-25",
+            "buy_price": 39.51377487182617,
+            "sell_date": "2025-05-29",
+            "sell_price": 39.173973083496094,
+            "return_pct": -0.8599577980902077
+          }
+        },
+        {
+          "stock_code": "6771",
+          "company_name": "和平環保科技股份有限公司",
+          "event_title": "和平環保一創 公告定價至掛牌後19日",
+          "trade": {
+            "buy_date": "2025-05-05",
+            "buy_price": 52.35124969482422,
+            "sell_date": "2025-06-05",
+            "sell_price": 54.046077728271484,
+            "return_pct": 3.237416572339871
+          }
+        },
+        {
+          "stock_code": "6290",
+          "company_name": "良維科技股份有限公司",
+          "event_title": "良維十 公告定價至掛牌後19日",
+          "trade": {
+            "buy_date": "2025-05-07",
+            "buy_price": 79.71558380126953,
+            "sell_date": "2025-06-10",
+            "sell_price": 93.3348617553711,
+            "return_pct": 17.0848374993456
+          }
+        },
+        {
+          "stock_code": "4916",
+          "company_name": "事欣科技股份有限公司",
+          "event_title": "事欣科五 公告定價至掛牌後19日",
+          "trade": {
+            "buy_date": "2025-05-08",
+            "buy_price": 44.443145751953125,
+            "sell_date": "2025-06-11",
+            "sell_price": 40.52460861206055,
+            "return_pct": -8.816966201633852
+          }
+        },
+        {
+          "stock_code": "6117",
+          "company_name": "迎廣科技股份有限公司",
+          "event_title": "迎廣二 公告定價至掛牌後19日",
+          "trade": {
+            "buy_date": "2025-05-21",
+            "buy_price": 93.9214859008789,
+            "sell_date": "2025-06-25",
+            "sell_price": 94.50788879394531,
+            "return_pct": 0.6243543609236263
+          }
+        },
+        {
+          "stock_code": "1472",
+          "company_name": "三洋實業股份有限公司",
+          "event_title": "三洋實業二 公告定價至掛牌後19日",
+          "trade": {
+            "buy_date": "2025-05-23",
+            "buy_price": 99.3134765625,
+            "sell_date": "2025-06-26",
+            "sell_price": 88.94612121582031,
+            "return_pct": -10.439021677138951
+          }
+        },
+        {
+          "stock_code": "6873",
+          "company_name": "法德能源科技股份有限公司",
+          "event_title": "法德能源二 公告定價至掛牌後19日",
+          "trade": {
+            "buy_date": "2025-05-26",
+            "buy_price": 204.01287841796875,
+            "sell_date": "2025-06-26",
+            "sell_price": 212.3310089111328,
+            "return_pct": 4.077257552399413
+          }
+        },
+        {
+          "stock_code": "4129",
+          "company_name": "聯合骨科器材股份有限公司",
+          "event_title": "聯合五 公告定價至掛牌後19日",
+          "trade": {
+            "buy_date": "2025-05-23",
+            "buy_price": 96.17224884033203,
+            "sell_date": "2025-06-26",
+            "sell_price": 99.05741882324219,
+            "return_pct": 3.0000026179071675
+          }
+        },
+        {
+          "stock_code": "3653",
+          "company_name": "健策精密工業股份有限公司",
+          "event_title": "健策四 公告定價至掛牌後19日",
+          "trade": {
+            "buy_date": "2025-05-28",
+            "buy_price": 1321.964599609375,
+            "sell_date": "2025-06-30",
+            "sell_price": 1495.255859375,
+            "return_pct": 13.108615753918867
+          }
+        },
+        {
+          "stock_code": "4555",
+          "company_name": "台灣氣立股份有限公司",
+          "event_title": "氣立四 公告定價至掛牌後19日",
+          "trade": {
+            "buy_date": "2025-06-03",
+            "buy_price": 37.877197265625,
+            "sell_date": "2025-07-04",
+            "sell_price": 34.693519592285156,
+            "return_pct": -8.405262012955623
+          }
+        },
+        {
+          "stock_code": "3653",
+          "company_name": "健策精密工業股份有限公司",
+          "event_title": "健策五 公告定價至掛牌後19日",
+          "trade": {
+            "buy_date": "2025-06-09",
+            "buy_price": 1381.3787841796875,
+            "sell_date": "2025-07-10",
+            "sell_price": 1416.0369873046875,
+            "return_pct": 2.508957247782062
+          }
+        },
+        {
+          "stock_code": "3617",
+          "company_name": "矽天科技股份有限公司",
+          "event_title": "矽天三 公告定價至掛牌後19日",
+          "trade": {
+            "buy_date": "2025-06-09",
+            "buy_price": 247.44085693359375,
+            "sell_date": "2025-07-11",
+            "sell_price": 258.7956848144531,
+            "return_pct": 4.5889058183736795
+          }
+        },
+        {
+          "stock_code": "2351",
+          "company_name": "順德工業股份有限公司",
+          "event_title": "順德一 公告定價至掛牌後19日",
+          "trade": {
+            "buy_date": "2025-06-11",
+            "buy_price": 68.7474594116211,
+            "sell_date": "2025-07-14",
+            "sell_price": 70.8776626586914,
+            "return_pct": 3.0985919556908343
+          }
+        },
+        {
+          "stock_code": "1472",
+          "company_name": "三洋實業股份有限公司",
+          "event_title": "三洋實業三 公告定價至掛牌後19日",
+          "trade": {
+            "buy_date": "2025-06-11",
+            "buy_price": 90.20570373535156,
+            "sell_date": "2025-07-14",
+            "sell_price": 94.0999984741211,
+            "return_pct": 4.317126941545448
+          }
+        },
+        {
+          "stock_code": "3188",
+          "company_name": "鉑龍國際開發股份有限公司",
+          "event_title": "鉑龍國二 公告定價至掛牌後19日",
+          "trade": {
+            "buy_date": "2025-06-16",
+            "buy_price": 26.446334838867188,
+            "sell_date": "2025-07-17",
+            "sell_price": 25.049678802490234,
+            "return_pct": -5.281094884741231
+          }
+        },
+        {
+          "stock_code": "1466",
+          "company_name": "聚隆纖維股份有限公司",
+          "event_title": "聚隆四 公告定價至掛牌後19日",
+          "trade": {
+            "buy_date": "2025-06-16",
+            "buy_price": 16.75,
+            "sell_date": "2025-07-17",
+            "sell_price": 15.75,
+            "return_pct": -5.970149253731343
+          }
+        },
+        {
+          "stock_code": "2530",
+          "company_name": "大華建設股份有限公司",
+          "event_title": "華建三 公告定價至掛牌後19日",
+          "trade": {
+            "buy_date": "2025-06-17",
+            "buy_price": 30.127126693725586,
+            "sell_date": "2025-07-18",
+            "sell_price": 28.08460807800293,
+            "return_pct": -6.779666167593873
+          }
+        },
+        {
+          "stock_code": "6156",
+          "company_name": "松上電子股份有限公司",
+          "event_title": "松上五 公告定價至掛牌後19日",
+          "trade": {
+            "buy_date": "2025-06-18",
+            "buy_price": 28.231014251708984,
+            "sell_date": "2025-07-22",
+            "sell_price": 26.934690475463867,
+            "return_pct": -4.591842732560143
+          }
+        },
+        {
+          "stock_code": "6177",
+          "company_name": "達麗建設事業股份有限公司",
+          "event_title": "達麗七 公告定價至掛牌後19日",
+          "trade": {
+            "buy_date": "2025-06-19",
+            "buy_price": 43.74808883666992,
+            "sell_date": "2025-07-22",
+            "sell_price": 41.55410385131836,
+            "return_pct": -5.015041899413331
+          }
+        },
+        {
+          "stock_code": "6538",
+          "company_name": "悅和股份有限公司",
+          "event_title": "悅和一 公告定價至掛牌後19日",
+          "trade": {
+            "buy_date": "2025-06-19",
+            "buy_price": 95.19999694824219,
+            "sell_date": "2025-07-23",
+            "sell_price": 89.5,
+            "return_pct": -5.987391944288749
+          }
+        },
+        {
+          "stock_code": "2247",
+          "company_name": "匯德永業汽車股份有限公司",
+          "event_title": "匯德永業一 公告定價至掛牌後19日",
+          "trade": {
+            "buy_date": "2025-06-20",
+            "buy_price": 259.5086975097656,
+            "sell_date": "2025-07-23",
+            "sell_price": 321.3844299316406,
+            "return_pct": 23.84341373357883
+          }
+        },
+        {
+          "stock_code": "2530",
+          "company_name": "大華建設股份有限公司",
+          "event_title": "華建四 公告定價至掛牌後19日",
+          "trade": {
+            "buy_date": "2025-06-20",
+            "buy_price": 28.502397537231445,
+            "sell_date": "2025-07-25",
+            "sell_price": 27.476119995117188,
+            "return_pct": -3.6006709287303846
+          }
+        },
+        {
+          "stock_code": "3040",
+          "company_name": "遠見科技股份有限公司",
+          "event_title": "遠見一 公告定價至掛牌後19日",
+          "trade": {
+            "buy_date": "2025-06-23",
+            "buy_price": 59.74409484863281,
+            "sell_date": "2025-07-25",
+            "sell_price": 68.0999984741211,
+            "return_pct": 13.986158208035013
+          }
+        },
+        {
+          "stock_code": "2247",
+          "company_name": "匯德永業汽車股份有限公司",
+          "event_title": "匯德永業二 公告定價至掛牌後19日",
+          "trade": {
+            "buy_date": "2025-06-24",
+            "buy_price": 263.2027893066406,
+            "sell_date": "2025-07-25",
+            "sell_price": 312.61102294921875,
+            "return_pct": 18.771926305467748
+          }
+        },
+        {
+          "stock_code": "6982",
+          "company_name": "大井泵浦工業股份有限公司",
+          "event_title": "大井泵浦一 公告定價至掛牌後19日",
+          "trade": {
+            "buy_date": "2025-07-16",
+            "buy_price": 61.099998474121094,
+            "sell_date": "2025-08-20",
+            "sell_price": 71.5,
+            "return_pct": 17.021279518171884
+          }
+        },
+        {
+          "stock_code": "3526",
+          "company_name": "凡甲科技股份有限公司",
+          "event_title": "凡甲七 公告定價至掛牌後19日",
+          "trade": {
+            "buy_date": "2025-07-18",
+            "buy_price": 228.01869201660156,
+            "sell_date": "2025-08-21",
+            "sell_price": 229.90313720703125,
+            "return_pct": 0.8264432945227513
+          }
+        },
+        {
+          "stock_code": "6469",
+          "company_name": "大樹醫藥股份有限公司",
+          "event_title": "大樹三 公告定價至掛牌後19日",
+          "trade": {
+            "buy_date": "2025-07-23",
+            "buy_price": 139.83956909179688,
+            "sell_date": "2025-08-25",
+            "sell_price": 143.0,
+            "return_pct": 2.2600405083689
+          }
+        },
+        {
+          "stock_code": "3131",
+          "company_name": "弘塑科技股份有限公司",
+          "event_title": "弘塑一 公告定價至掛牌後19日",
+          "trade": {
+            "buy_date": "2025-07-23",
+            "buy_price": 1542.19873046875,
+            "sell_date": "2025-08-27",
+            "sell_price": 1515.0,
+            "return_pct": -1.7636333068749814
+          }
+        },
+        {
+          "stock_code": "1786",
+          "company_name": "科如生物科技股份有限公司",
+          "event_title": "科如三 公告定價至掛牌後19日",
+          "trade": {
+            "buy_date": "2025-07-30",
+            "buy_price": 112.3460922241211,
+            "sell_date": "2025-08-28",
+            "sell_price": 88.5209732055664,
+            "return_pct": -21.20689607167249
+          }
+        },
+        {
+          "stock_code": "6982",
+          "company_name": "大井泵浦工業股份有限公司",
+          "event_title": "大井泵浦二 公告定價至掛牌後19日",
+          "trade": {
+            "buy_date": "2025-07-28",
+            "buy_price": 59.79999923706055,
+            "sell_date": "2025-08-29",
+            "sell_price": 74.0,
+            "return_pct": 23.745820976765366
+          }
+        },
+        {
+          "stock_code": "6843",
+          "company_name": "進典工業股份有限公司",
+          "event_title": "進典一 公告定價至掛牌後19日",
+          "trade": {
+            "buy_date": "2025-07-28",
+            "buy_price": 60.0,
+            "sell_date": "2025-08-29",
+            "sell_price": 62.0,
+            "return_pct": 3.3333333333333335
+          }
+        },
+        {
+          "stock_code": "3131",
+          "company_name": "弘塑科技股份有限公司",
+          "event_title": "弘塑二 公告定價至掛牌後19日",
+          "trade": {
+            "buy_date": "2025-07-30",
+            "buy_price": 1435.0,
+            "sell_date": "2025-09-01",
+            "sell_price": 1480.0,
+            "return_pct": 3.1358885017421603
+          }
+        },
+        {
+          "stock_code": "2641",
+          "company_name": "正德海運股份有限公司",
+          "event_title": "正德八 公告定價至掛牌後19日",
+          "trade": {
+            "buy_date": "2025-07-31",
+            "buy_price": 18.600000381469727,
+            "sell_date": "2025-09-02",
+            "sell_price": 20.25,
+            "return_pct": 8.870965509087233
+          }
+        },
+        {
+          "stock_code": "3167",
+          "company_name": "大量科技股份有限公司",
+          "event_title": "大量二 公告定價至掛牌後19日",
+          "trade": {
+            "buy_date": "2025-07-31",
+            "buy_price": 169.1934051513672,
+            "sell_date": "2025-09-02",
+            "sell_price": 191.0,
+            "return_pct": 12.888560774058396
+          }
+        },
+        {
+          "stock_code": "7556",
+          "company_name": "意德士科技股份有限公司",
+          "event_title": "意德士一永 公告定價至掛牌後19日",
+          "trade": {
+            "buy_date": "2025-08-06",
+            "buy_price": 177.0,
+            "sell_date": "2025-09-08",
+            "sell_price": 182.5,
+            "return_pct": 3.1073446327683616
+          }
+        },
+        {
+          "stock_code": "7556",
+          "company_name": "意德士科技股份有限公司",
+          "event_title": "意德士二 公告定價至掛牌後19日",
+          "trade": {
+            "buy_date": "2025-08-08",
+            "buy_price": 180.0,
+            "sell_date": "2025-09-11",
+            "sell_price": 176.0,
+            "return_pct": -2.2222222222222223
+          }
+        },
+        {
+          "stock_code": "6821",
+          "company_name": "聯寶電子股份有限公司",
+          "event_title": "聯寶一 公告定價至掛牌後19日",
+          "trade": {
+            "buy_date": "2025-08-08",
+            "buy_price": 40.70199966430664,
+            "sell_date": "2025-09-11",
+            "sell_price": 38.24414825439453,
+            "return_pct": -6.038650263337077
+          }
+        },
+        {
+          "stock_code": "3707",
+          "company_name": "漢磊科技股份有限公司",
+          "event_title": "漢磊五 公告定價至掛牌後19日",
+          "trade": {
+            "buy_date": "2025-08-14",
+            "buy_price": 43.349998474121094,
+            "sell_date": "2025-09-16",
+            "sell_price": 63.599998474121094,
+            "return_pct": 46.712804412412524
+          }
+        },
+        {
+          "stock_code": "6207",
+          "company_name": "雷科股份有限公司",
+          "event_title": "雷科五 公告定價至掛牌後19日",
+          "trade": {
+            "buy_date": "2025-08-21",
+            "buy_price": 54.64951705932617,
+            "sell_date": "2025-09-22",
+            "sell_price": 61.400001525878906,
+            "return_pct": 12.352322270706573
+          }
+        },
+        {
+          "stock_code": "4558",
+          "company_name": "寶綵工業股份有限公司",
+          "event_title": "寶綵一 公告定價至掛牌後19日",
+          "trade": {
+            "buy_date": "2025-08-25",
+            "buy_price": 25.600000381469727,
+            "sell_date": "2025-09-24",
+            "sell_price": 25.600000381469727,
+            "return_pct": 0.0
+          }
+        },
+        {
+          "stock_code": "2743",
+          "company_name": "山富國際旅行社股份有限公司",
+          "event_title": "山富一 公告定價至掛牌後19日",
+          "trade": {
+            "buy_date": "2025-08-21",
+            "buy_price": 80.05464935302734,
+            "sell_date": "2025-09-24",
+            "sell_price": 90.0,
+            "return_pct": 12.42320180944814
+          }
+        },
+        {
+          "stock_code": "7402",
+          "company_name": "鄰鑑股份有限公司",
+          "event_title": "鄰鑑二 公告定價至掛牌後19日",
+          "trade": {
+            "buy_date": "2025-08-27",
+            "buy_price": 120.0,
+            "sell_date": "2025-09-30",
+            "sell_price": 137.0,
+            "return_pct": 14.166666666666666
+          }
+        },
+        {
+          "stock_code": "6207",
+          "company_name": "雷科股份有限公司",
+          "event_title": "雷科六 公告定價至掛牌後19日",
+          "trade": {
+            "buy_date": "2025-08-28",
+            "buy_price": 67.82395935058594,
+            "sell_date": "2025-10-03",
+            "sell_price": 58.0,
+            "return_pct": -14.484496989928482
+          }
+        },
+        {
+          "stock_code": "6533",
+          "company_name": "晶心科技股份有限公司",
+          "event_title": "晶心科一 公告定價至掛牌後19日",
+          "trade": {
+            "buy_date": "2025-09-03",
+            "buy_price": 303.0,
+            "sell_date": "2025-10-07",
+            "sell_price": 290.5,
+            "return_pct": -4.125412541254125
+          }
+        },
+        {
+          "stock_code": "5439",
+          "company_name": "高技企業股份有限公司",
+          "event_title": "高技一 公告定價至掛牌後19日",
+          "trade": {
+            "buy_date": "2025-09-02",
+            "buy_price": 308.0,
+            "sell_date": "2025-10-08",
+            "sell_price": 312.5,
+            "return_pct": 1.461038961038961
+          }
+        },
+        {
+          "stock_code": "3284",
+          "company_name": "太普高精密影像股份有限公司",
+          "event_title": "太普高三 公告定價至掛牌後19日",
+          "trade": {
+            "buy_date": "2025-09-08",
+            "buy_price": 23.899999618530273,
+            "sell_date": "2025-10-15",
+            "sell_price": 22.850000381469727,
+            "return_pct": -4.393302317237093
+          }
+        },
+        {
+          "stock_code": "6414",
+          "company_name": "矽創科技股份有限公司",
+          "event_title": "矽創六 公告定價至掛牌後19日",
+          "trade": {
+            "buy_date": "2025-09-22",
+            "buy_price": 289.1605224609375,
+            "sell_date": "2025-10-30",
+            "sell_price": 280.9676208496094,
+            "return_pct": -2.83334029887669
+          }
+        },
+        {
+          "stock_code": "4438",
+          "company_name": "廣越企業股份有限公司",
+          "event_title": "廣越三 公告定價至掛牌後19日",
+          "trade": {
+            "buy_date": "2025-09-24",
+            "buy_price": 71.0999984741211,
+            "sell_date": "2025-10-30",
+            "sell_price": 81.69999694824219,
+            "return_pct": 14.908577639392314
+          }
+        },
+        {
+          "stock_code": "4722",
+          "company_name": "國精化學股份有限公司",
+          "event_title": "國精化三 公告定價至掛牌後19日",
+          "trade": {
+            "buy_date": "2025-09-24",
+            "buy_price": 170.0,
+            "sell_date": "2025-10-31",
+            "sell_price": 181.0,
+            "return_pct": 6.470588235294119
+          }
+        },
+        {
+          "stock_code": "6477",
+          "company_name": "安集科技股份有限公司",
+          "event_title": "安集五 公告定價至掛牌後19日",
+          "trade": {
+            "buy_date": "2025-10-02",
+            "buy_price": 39.5,
+            "sell_date": "2025-11-07",
+            "sell_price": 36.45000076293945,
+            "return_pct": -7.721517055849486
+          }
+        },
+        {
+          "stock_code": "2753",
+          "company_name": "八方雲集國際股份有限公司",
+          "event_title": "八方雲集一 公告定價至掛牌後19日",
+          "trade": {
+            "buy_date": "2025-10-03",
+            "buy_price": 193.48985290527344,
+            "sell_date": "2025-11-07",
+            "sell_price": 195.9390869140625,
+            "return_pct": 1.2658203890351452
+          }
+        },
+        {
+          "stock_code": "5201",
+          "company_name": "勳緯資訊股份有限公司",
+          "event_title": "勳緯一 公告定價至掛牌後19日",
+          "trade": {
+            "buy_date": "2025-10-09",
+            "buy_price": 47.20000076293945,
+            "sell_date": "2025-11-12",
+            "sell_price": 42.5,
+            "return_pct": -9.95762857408639
+          }
+        },
+        {
+          "stock_code": "6219",
+          "company_name": "富旺國際開發股份有限公司",
+          "event_title": "富旺四 公告定價至掛牌後19日",
+          "trade": {
+            "buy_date": "2025-10-13",
+            "buy_price": 18.899999618530273,
+            "sell_date": "2025-11-13",
+            "sell_price": 19.950000762939453,
+            "return_pct": 5.555561722761724
+          }
+        },
+        {
+          "stock_code": "6163",
+          "company_name": "華電聯網股份有限公司",
+          "event_title": "華電網五 公告定價至掛牌後19日",
+          "trade": {
+            "buy_date": "2025-10-13",
+            "buy_price": 24.549999237060547,
+            "sell_date": "2025-11-13",
+            "sell_price": 27.450000762939453,
+            "return_pct": 11.812633873735848
+          }
+        },
+        {
+          "stock_code": "7713",
+          "company_name": "威力德生醫股份有限公司",
+          "event_title": "威力德生醫一 公告定價至掛牌後19日",
+          "trade": {
+            "buy_date": "2025-10-14",
+            "buy_price": 70.81632995605469,
+            "sell_date": "2025-11-17",
+            "sell_price": 69.4000015258789,
+            "return_pct": -2.0000025856390593
+          }
+        },
+        {
+          "stock_code": "2753",
+          "company_name": "八方雲集國際股份有限公司",
+          "event_title": "八方雲集二 公告定價至掛牌後19日",
+          "trade": {
+            "buy_date": "2025-10-15",
+            "buy_price": 186.63198852539062,
+            "sell_date": "2025-11-17",
+            "sell_price": 196.9187774658203,
+            "return_pct": 5.511803749028911
+          }
+        },
+        {
+          "stock_code": "6209",
+          "company_name": "今國光學工業股份有限公司",
+          "event_title": "今國光三 公告定價至掛牌後19日",
+          "trade": {
+            "buy_date": "2025-10-17",
+            "buy_price": 39.54999923706055,
+            "sell_date": "2025-11-20",
+            "sell_price": 58.20000076293945,
+            "return_pct": 47.15550413564311
+          }
+        },
+        {
+          "stock_code": "4113",
+          "company_name": "聯上實業股份有限公司",
+          "event_title": "聯上五 公告定價至掛牌後19日",
+          "trade": {
+            "buy_date": "2025-10-17",
+            "buy_price": 22.549999237060547,
+            "sell_date": "2025-11-21",
+            "sell_price": 20.850000381469727,
+            "return_pct": -7.538797840830524
+          }
+        },
+        {
+          "stock_code": "3684",
+          "company_name": "冠昌科技股份有限公司",
+          "event_title": "冠昌一 公告定價至掛牌後19日",
+          "trade": {
+            "buy_date": "2025-10-21",
+            "buy_price": 50.20000076293945,
+            "sell_date": "2025-11-24",
+            "sell_price": 46.849998474121094,
+            "return_pct": -6.673311230886523
+          }
+        },
+        {
+          "stock_code": "3551",
+          "company_name": "世矽科技股份有限公司",
+          "event_title": "世矽三 公告定價至掛牌後19日",
+          "trade": {
+            "buy_date": "2025-10-21",
+            "buy_price": 176.0,
+            "sell_date": "2025-11-24",
+            "sell_price": 152.0,
+            "return_pct": -13.636363636363635
+          }
+        },
+        {
+          "stock_code": "3037",
+          "company_name": "欣興電子股份有限公司",
+          "event_title": "欣興一 公告定價至掛牌後19日",
+          "trade": {
+            "buy_date": "2025-10-28",
+            "buy_price": 162.5,
+            "sell_date": "2025-11-28",
+            "sell_price": 186.5,
+            "return_pct": 14.76923076923077
+          }
+        },
+        {
+          "stock_code": "6190",
+          "company_name": "薌泰科技股份有限公司",
+          "event_title": "薌泰科七 公告定價至掛牌後19日",
+          "trade": {
+            "buy_date": "2025-10-31",
+            "buy_price": 45.79999923706055,
+            "sell_date": "2025-12-03",
+            "sell_price": 39.95000076293945,
+            "return_pct": -12.772922645351004
+          }
+        },
+        {
+          "stock_code": "6274",
+          "company_name": "台燿科技股份有限公司",
+          "event_title": "台燿五 公告定價至掛牌後19日",
+          "trade": {
+            "buy_date": "2025-11-10",
+            "buy_price": 380.95294189453125,
+            "sell_date": "2025-12-10",
+            "sell_price": 428.5720520019531,
+            "return_pct": 12.499997997286885
+          }
+        },
+        {
+          "stock_code": "3032",
+          "company_name": "傑暘科技股份有限公司",
+          "event_title": "傑暘一 公告定價至掛牌後19日",
+          "trade": {
+            "buy_date": "2025-11-07",
+            "buy_price": 94.4000015258789,
+            "sell_date": "2025-12-10",
+            "sell_price": 80.5,
+            "return_pct": -14.724577649575934
+          }
+        },
+        {
+          "stock_code": "2402",
+          "company_name": "鉅嘉科技股份有限公司",
+          "event_title": "鉅嘉三 公告定價至掛牌後19日",
+          "trade": {
+            "buy_date": "2025-11-13",
+            "buy_price": 49.650001525878906,
+            "sell_date": "2025-12-16",
+            "sell_price": 58.70000076293945,
+            "return_pct": 18.22759105524588
+          }
+        },
+        {
+          "stock_code": "3032",
+          "company_name": "傑暘科技股份有限公司",
+          "event_title": "傑暘二 公告定價至掛牌後19日",
+          "trade": {
+            "buy_date": "2025-11-18",
+            "buy_price": 87.9000015258789,
+            "sell_date": "2025-12-22",
+            "sell_price": 78.0,
+            "return_pct": -11.262800175224362
+          }
+        },
+        {
+          "stock_code": "2368",
+          "company_name": "金像電子股份有限公司",
+          "event_title": "金像電三 公告定價至掛牌後19日",
+          "trade": {
+            "buy_date": "2025-11-19",
+            "buy_price": 522.0,
+            "sell_date": "2025-12-19",
+            "sell_price": 608.0,
+            "return_pct": 16.47509578544061
+          }
+        },
+        {
+          "stock_code": "4772",
+          "company_name": "台灣特品化學股份有限公司",
+          "event_title": "台特化一 公告定價至掛牌後19日",
+          "trade": {
+            "buy_date": "2025-11-21",
+            "buy_price": 283.5,
+            "sell_date": "2025-12-24",
+            "sell_price": 304.0,
+            "return_pct": 7.231040564373897
+          }
+        },
+        {
+          "stock_code": "6442",
+          "company_name": "光耀建華股份有限公司",
+          "event_title": "光華二 公告定價至掛牌後19日",
+          "trade": {
+            "buy_date": "2025-11-25",
+            "buy_price": 1310.0,
+            "sell_date": "2025-12-29",
+            "sell_price": 1280.0,
+            "return_pct": -2.2900763358778624
+          }
+        },
+        {
+          "stock_code": "3135",
+          "company_name": "凌航科技股份有限公司",
+          "event_title": "凌航一 公告定價至掛牌後19日",
+          "trade": {
+            "buy_date": "2025-12-01",
+            "buy_price": 55.81992721557617,
+            "sell_date": "2026-01-02",
+            "sell_price": 89.0,
+            "return_pct": 59.44126844931671
+          }
+        },
+        {
+          "stock_code": "2732",
+          "company_name": "六角國際事業股份有限公司",
+          "event_title": "六角四 公告定價至掛牌後19日",
+          "trade": {
+            "buy_date": "2025-12-03",
+            "buy_price": 72.5804214477539,
+            "sell_date": "2026-01-06",
+            "sell_price": 66.27330017089844,
+            "return_pct": -8.689838321475674
+          }
+        },
+        {
+          "stock_code": "6442",
+          "company_name": "光隆建設股份有限公司",
+          "event_title": "光隆三 公告定價至掛牌後19日",
+          "trade": {
+            "buy_date": "2025-12-04",
+            "buy_price": 1200.0,
+            "sell_date": "2026-01-09",
+            "sell_price": 1400.0,
+            "return_pct": 16.666666666666664
+          }
+        },
+        {
+          "stock_code": "5309",
+          "company_name": "系統電子工業股份有限公司",
+          "event_title": "系統六 公告定價至掛牌後19日",
+          "trade": {
+            "buy_date": "2025-12-08",
+            "buy_price": 63.09694290161133,
+            "sell_date": "2026-01-12",
+            "sell_price": 66.17726135253906,
+            "return_pct": 4.881882242267987
+          }
+        },
+        {
+          "stock_code": "5309",
+          "company_name": "系統電子工業股份有限公司",
+          "event_title": "系統電七 公告定價至掛牌後19日",
+          "trade": {
+            "buy_date": "2025-12-10",
+            "buy_price": 67.0715560913086,
+            "sell_date": "2026-01-13",
+            "sell_price": 63.79249572753906,
+            "return_pct": -4.888898595561949
+          }
+        },
+        {
+          "stock_code": "4739",
+          "company_name": "康普材料科技股份有限公司",
+          "event_title": "康普四 公告定價至掛牌後19日",
+          "trade": {
+            "buy_date": "2025-12-11",
+            "buy_price": 71.61463165283203,
+            "sell_date": "2026-01-15",
+            "sell_price": 72.69999694824219,
+            "return_pct": 1.5155636081069406
+          }
+        },
+        {
+          "stock_code": "6796",
+          "company_name": "漢弘科技股份有限公司",
+          "event_title": "漢弘二 公告定價至掛牌後19日",
+          "trade": {
+            "buy_date": "2025-12-16",
+            "buy_price": 95.0999984741211,
+            "sell_date": "2026-01-20",
+            "sell_price": 88.30000305175781,
+            "return_pct": -7.1503633348781985
+          }
+        },
+        {
+          "stock_code": "6670",
+          "company_name": "復盛應用科技股份有限公司",
+          "event_title": "復盛應用二 公告定價至掛牌後19日",
+          "trade": {
+            "buy_date": "2025-12-19",
+            "buy_price": 257.5,
+            "sell_date": "2026-01-23",
+            "sell_price": 277.0,
+            "return_pct": 7.572815533980583
+          }
+        },
+        {
+          "stock_code": "6904",
+          "company_name": "伯銨工具股份有限公司",
+          "event_title": "伯銨一 公告定價至掛牌後19日",
+          "trade": {
+            "buy_date": "2025-12-22",
+            "buy_price": 115.5,
+            "sell_date": "2026-01-23",
+            "sell_price": 124.5,
+            "return_pct": 7.792207792207792
+          }
+        },
+        {
+          "stock_code": "3543",
+          "company_name": "州巧科技股份有限公司",
+          "event_title": "州巧一 公告定價至掛牌後19日",
+          "trade": {
+            "buy_date": "2025-12-19",
+            "buy_price": 41.70000076293945,
+            "sell_date": "2026-01-23",
+            "sell_price": 49.75,
+            "return_pct": 19.304554172130665
+          }
+        },
+        {
+          "stock_code": "2745",
+          "company_name": "五福旅行社股份有限公司",
+          "event_title": "五福一 公告定價至掛牌後19日",
+          "trade": {
+            "buy_date": "2025-12-30",
+            "buy_price": 104.5,
+            "sell_date": "2026-01-30",
+            "sell_price": 104.0,
+            "return_pct": -0.4784688995215311
+          }
+        },
+        {
+          "stock_code": "6510",
+          "company_name": "中華精測科技股份有限公司",
+          "event_title": "精測一 公告定價至掛牌後19日",
+          "trade": {
+            "buy_date": "2025-12-30",
+            "buy_price": 2345.0,
+            "sell_date": "2026-01-30",
+            "sell_price": 3305.0,
+            "return_pct": 40.93816631130064
+          }
+        },
+        {
+          "stock_code": "8431",
+          "company_name": "匯鉁科技股份有限公司",
+          "event_title": "匯鉁科二 公告定價至掛牌後19日",
+          "trade": {
+            "buy_date": "2025-12-26",
+            "buy_price": 65.9000015258789,
+            "sell_date": "2026-01-30",
+            "sell_price": 61.400001525878906,
+            "return_pct": -6.828527914726758
+          }
+        },
+        {
+          "stock_code": "3260",
+          "company_name": "威剛科技股份有限公司",
+          "event_title": "威剛八 公告定價至掛牌後19日",
+          "trade": {
+            "buy_date": "2026-01-06",
+            "buy_price": 279.64190673828125,
+            "sell_date": "2026-02-04",
+            "sell_price": 322.2171325683594,
+            "return_pct": 15.224909001183635
+          }
+        },
+        {
+          "stock_code": "2467",
+          "company_name": "志智工業股份有限公司",
+          "event_title": "志智二 公告定價至掛牌後19日",
+          "trade": {
+            "buy_date": "2026-01-06",
+            "buy_price": 267.0,
+            "sell_date": "2026-02-05",
+            "sell_price": 276.5,
+            "return_pct": 3.5580524344569286
+          }
+        },
+        {
+          "stock_code": "6613",
+          "company_name": "朋億股份有限公司",
+          "event_title": "朋億一 公告定價至掛牌後19日",
+          "trade": {
+            "buy_date": "2025-01-07",
+            "buy_price": 172.28358459472656,
+            "sell_date": "2025-03-03",
+            "sell_price": 200.00775146484375,
+            "return_pct": 16.09216974172814
+          }
+        },
+        {
+          "stock_code": "3702",
+          "company_name": "大聯大控股股份有限公司",
+          "event_title": "大聯大E1 公告定價至掛牌後19日",
+          "trade": {
+            "buy_date": "2026-01-08",
+            "buy_price": 63.5,
+            "sell_date": "2026-02-10",
+            "sell_price": 64.5,
+            "return_pct": 1.574803149606299
+          }
+        },
+        {
+          "stock_code": "4967",
+          "company_name": "十鑀科技股份有限公司",
+          "event_title": "十鑀四 公告定價至掛牌後19日",
+          "trade": {
+            "buy_date": "2026-01-09",
+            "buy_price": 201.5,
+            "sell_date": "2026-02-11",
+            "sell_price": 199.5,
+            "return_pct": -0.9925558312655087
+          }
+        },
+        {
+          "stock_code": "8021",
+          "company_name": "尖點科技股份有限公司",
+          "event_title": "尖點二 公告定價至掛牌後19日",
+          "trade": {
+            "buy_date": "2026-01-13",
+            "buy_price": 209.5,
+            "sell_date": "2026-02-25",
+            "sell_price": 264.5,
+            "return_pct": 26.25298329355609
+          }
+        },
+        {
+          "stock_code": "6199",
+          "company_name": "天品聯合企業股份有限公司",
+          "event_title": "天品三 公告定價至掛牌後19日",
+          "trade": {
+            "buy_date": "2026-01-14",
+            "buy_price": 115.5,
+            "sell_date": "2026-02-25",
+            "sell_price": 96.80000305175781,
+            "return_pct": -16.190473548261632
+          }
+        },
+        {
+          "stock_code": "6199",
+          "company_name": "天品聯合企業股份有限公司",
+          "event_title": "天品四 公告定價至掛牌後19日",
+          "trade": {
+            "buy_date": "2026-01-16",
+            "buy_price": 116.0,
+            "sell_date": "2026-02-26",
+            "sell_price": 97.9000015258789,
+            "return_pct": -15.603446960449219
+          }
+        },
+        {
+          "stock_code": "3715",
+          "company_name": "定寰投資控股股份有限公司",
+          "event_title": "定寰投控一 公告定價至掛牌後19日",
+          "trade": {
+            "buy_date": "2026-01-15",
+            "buy_price": 131.5,
+            "sell_date": "2026-02-26",
+            "sell_price": 158.0,
+            "return_pct": 20.15209125475285
+          }
+        },
+        {
+          "stock_code": "2467",
+          "company_name": "志皓工業股份有限公司",
+          "event_title": "志皓三 公告定價至掛牌後19日",
+          "trade": {
+            "buy_date": "2026-01-15",
+            "buy_price": 256.0,
+            "sell_date": "2026-03-02",
+            "sell_price": 353.0,
+            "return_pct": 37.890625
+          }
+        },
+        {
+          "stock_code": "2455",
+          "company_name": "全新光電科技股份有限公司",
+          "event_title": "全新二 公告定價至掛牌後19日",
+          "trade": {
+            "buy_date": "2026-01-19",
+            "buy_price": 168.0,
+            "sell_date": "2026-03-03",
+            "sell_price": 251.5,
+            "return_pct": 49.702380952380956
+          }
+        },
+        {
+          "stock_code": "2233",
+          "company_name": "宇隆科技股份有限公司",
+          "event_title": "宇隆一 公告定價至掛牌後19日",
+          "trade": {
+            "buy_date": "2026-01-19",
+            "buy_price": 232.0,
+            "sell_date": "2026-03-03",
+            "sell_price": 235.0,
+            "return_pct": 1.293103448275862
+          }
+        },
+        {
+          "stock_code": "8210",
+          "company_name": "勤誠興業股份有限公司",
+          "event_title": "勤誠二 公告定價至掛牌後19日",
+          "trade": {
+            "buy_date": "2026-01-21",
+            "buy_price": 909.0,
+            "sell_date": "2026-03-04",
+            "sell_price": 880.0,
+            "return_pct": -3.1903190319031904
+          }
+        },
+        {
+          "stock_code": "2455",
+          "company_name": "全新光電科技股份有限公司",
+          "event_title": "全新三 公告定價至掛牌後19日",
+          "trade": {
+            "buy_date": "2026-01-21",
+            "buy_price": 176.5,
+            "sell_date": "2026-03-05",
+            "sell_price": 218.0,
+            "return_pct": 23.512747875354105
+          }
+        },
+        {
+          "stock_code": "6101",
+          "company_name": "富麗國際股份有限公司",
+          "event_title": "富麗國際一 公告定價至掛牌後19日",
+          "trade": {
+            "buy_date": "2026-01-22",
+            "buy_price": 40.599998474121094,
+            "sell_date": "2026-03-09",
+            "sell_price": 37.29999923706055,
+            "return_pct": -8.128077244052125
+          }
+        },
+        {
+          "stock_code": "4923",
+          "company_name": "力士科技股份有限公司",
+          "event_title": "力士一 公告定價至掛牌後19日",
+          "trade": {
+            "buy_date": "2026-01-26",
+            "buy_price": 36.79999923706055,
+            "sell_date": "2026-03-09",
+            "sell_price": 28.399999618530273,
+            "return_pct": -22.826086393150792
+          }
+        },
+        {
+          "stock_code": "6101",
+          "company_name": "富國國際股份有限公司",
+          "event_title": "富國國際二 公告定價至掛牌後19日",
+          "trade": {
+            "buy_date": "2026-01-23",
+            "buy_price": 39.400001525878906,
+            "sell_date": "2026-03-10",
+            "sell_price": 37.900001525878906,
+            "return_pct": -3.8071064515435675
+          }
+        },
+        {
+          "stock_code": "2374",
+          "company_name": "佳能企業股份有限公司",
+          "event_title": "佳能二 公告定價至掛牌後19日",
+          "trade": {
+            "buy_date": "2026-01-28",
+            "buy_price": 90.68004608154297,
+            "sell_date": "2026-03-11",
+            "sell_price": 72.4000015258789,
+            "return_pct": -20.158839067225383
+          }
+        },
+        {
+          "stock_code": "8210",
+          "company_name": "勤誠興業股份有限公司",
+          "event_title": "勤誠三 公告定價至掛牌後19日",
+          "trade": {
+            "buy_date": "2026-01-28",
+            "buy_price": 948.0,
+            "sell_date": "2026-03-12",
+            "sell_price": 881.0,
+            "return_pct": -7.067510548523207
+          }
+        },
+        {
+          "stock_code": "3587",
+          "company_name": "開康科技股份有限公司",
+          "event_title": "開康二 公告定價至掛牌後19日",
+          "trade": {
+            "buy_date": "2026-01-29",
+            "buy_price": 209.0,
+            "sell_date": "2026-03-13",
+            "sell_price": 186.9075164794922,
+            "return_pct": -10.570566277754933
+          }
+        },
+        {
+          "stock_code": "6515",
+          "company_name": "崑崙科技股份有限公司",
+          "event_title": "崑崙二 公告定價至掛牌後19日",
+          "trade": {
+            "buy_date": "2026-01-29",
+            "buy_price": 3900.0,
+            "sell_date": "2026-03-16",
+            "sell_price": 6160.0,
+            "return_pct": 57.948717948717956
+          }
+        },
+        {
+          "stock_code": "8299",
+          "company_name": "群聯電子股份有限公司",
+          "event_title": "群聯三 公告定價至掛牌後19日",
+          "trade": {
+            "buy_date": "2026-02-03",
+            "buy_price": 1990.0,
+            "sell_date": "2026-03-17",
+            "sell_price": 1945.0,
+            "return_pct": -2.261306532663317
+          }
+        },
+        {
+          "stock_code": "3324",
+          "company_name": "雙鴻科技股份有限公司",
+          "event_title": "雙鴻六 公告定價至掛牌後19日",
+          "trade": {
+            "buy_date": "2026-02-11",
+            "buy_price": 1065.0,
+            "sell_date": "2026-03-27",
+            "sell_price": 993.0,
+            "return_pct": -6.760563380281689
+          }
+        },
+        {
+          "stock_code": "6894",
+          "company_name": "矽特科技股份有限公司",
+          "event_title": "矽特一 公告定價至掛牌後19日",
+          "trade": {
+            "buy_date": "2026-03-02",
+            "buy_price": 292.7022705078125,
+            "sell_date": "2026-04-07",
+            "sell_price": 319.5,
+            "return_pct": 9.155285828735053
+          }
+        },
+        {
+          "stock_code": "5534",
+          "company_name": "長虹建設股份有限公司",
+          "event_title": "長虹四 公告定價至掛牌後19日",
+          "trade": {
+            "buy_date": "2026-03-05",
+            "buy_price": 75.0,
+            "sell_date": "2026-04-09",
+            "sell_price": 84.0999984741211,
+            "return_pct": 12.133331298828125
+          }
+        },
+        {
+          "stock_code": "3324",
+          "company_name": "雙鴻科技股份有限公司",
+          "event_title": "雙鴻七 公告定價至掛牌後19日",
+          "trade": {
+            "buy_date": "2026-03-10",
+            "buy_price": 938.0,
+            "sell_date": "2026-04-14",
+            "sell_price": 965.0,
+            "return_pct": 2.878464818763326
+          }
+        },
+        {
+          "stock_code": "2329",
+          "company_name": "華泰電子股份有限公司",
+          "event_title": "華泰一 公告定價至掛牌後19日",
+          "trade": {
+            "buy_date": "2026-03-12",
+            "buy_price": 51.20944595336914,
+            "sell_date": "2026-04-16",
+            "sell_price": 59.35194396972656,
+            "return_pct": 15.90038295624582
+          }
+        },
+        {
+          "stock_code": "6913",
+          "company_name": "麗呈實業股份有限公司",
+          "event_title": "麗呈一 公告定價至掛牌後19日",
+          "trade": {
+            "buy_date": "2026-03-13",
+            "buy_price": 103.06985473632812,
+            "sell_date": "2026-04-17",
+            "sell_price": 123.1930160522461,
+            "return_pct": 19.523808748345246
+          }
+        },
+        {
+          "stock_code": "4113",
+          "company_name": "聯上實業股份有限公司",
+          "event_title": "聯上六 公告定價至掛牌後19日",
+          "trade": {
+            "buy_date": "2026-03-16",
+            "buy_price": 19.0,
+            "sell_date": "2026-04-20",
+            "sell_price": 16.049999237060547,
+            "return_pct": -15.52631980494449
+          }
+        },
+        {
+          "stock_code": "3715",
+          "company_name": "定睿投資控股股份有限公司",
+          "event_title": "定睿投控二 公告定價至掛牌後19日",
+          "trade": {
+            "buy_date": "2026-03-19",
+            "buy_price": 190.5,
+            "sell_date": "2026-04-22",
+            "sell_price": 189.0,
+            "return_pct": -0.7874015748031495
+          }
+        },
+        {
+          "stock_code": "6576",
+          "company_name": "逸達生物科技股份有限公司",
+          "event_title": "逸達一 公告定價至掛牌後19日",
+          "trade": {
+            "buy_date": "2026-03-20",
+            "buy_price": 77.0,
+            "sell_date": "2026-04-23",
+            "sell_price": 81.0,
+            "return_pct": 5.194805194805195
+          }
+        },
+        {
+          "stock_code": "3011",
+          "company_name": "今曜實業股份有限公司",
+          "event_title": "今曜二 公告定價至掛牌後19日",
+          "trade": {
+            "buy_date": "2026-03-20",
+            "buy_price": 13.149999618530273,
+            "sell_date": "2026-04-24",
+            "sell_price": 13.949999809265137,
+            "return_pct": 6.083651817050595
+          }
+        },
+        {
+          "stock_code": "6472",
+          "company_name": "保瑞藥業股份有限公司",
+          "event_title": "保瑞四 公告定價至掛牌後19日",
+          "trade": {
+            "buy_date": "2026-03-27",
+            "buy_price": 455.0,
+            "sell_date": "2026-04-30",
+            "sell_price": 408.0,
+            "return_pct": -10.329670329670328
+          }
+        },
+        {
+          "stock_code": "6472",
+          "company_name": "保瑞藥業股份有限公司",
+          "event_title": "保瑞五 公告定價至掛牌後19日",
+          "trade": {
+            "buy_date": "2026-04-08",
+            "buy_price": 416.5,
+            "sell_date": "2026-05-13",
+            "sell_price": 403.0,
+            "return_pct": -3.241296518607443
+          }
+        },
+        {
+          "stock_code": "8476",
+          "company_name": "台境企業股份有限公司",
+          "event_title": "台境二 公告定價至掛牌後19日",
+          "trade": {
+            "buy_date": "2026-04-15",
+            "buy_price": 18.299999237060547,
+            "sell_date": "2026-05-19",
+            "sell_price": 15.75,
+            "return_pct": -13.93442264137571
+          }
+        },
+        {
+          "stock_code": "8111",
+          "company_name": "立碁電子工業股份有限公司",
+          "event_title": "立碁四 公告定價至掛牌後19日",
+          "trade": {
+            "buy_date": "2026-04-21",
+            "buy_price": 80.03936004638672,
+            "sell_date": "2026-05-26",
+            "sell_price": 68.06808471679688,
+            "return_pct": -14.956735439478658
+          }
+        },
+        {
+          "stock_code": "4714",
+          "company_name": "永捷創新科技股份有限公司",
+          "event_title": "永捷八 公告定價至掛牌後19日",
+          "trade": {
+            "buy_date": "2026-04-28",
+            "buy_price": 15.149999618530273,
+            "sell_date": "2026-05-29",
+            "sell_price": 13.399999618530273,
+            "return_pct": -11.551155406364098
+          }
+        },
+        {
+          "stock_code": "6603",
+          "company_name": "富強鎋精密工業股份有限公司",
+          "event_title": "富強鎋四 公告定價至掛牌後19日",
+          "trade": {
+            "buy_date": "2026-04-28",
+            "buy_price": 25.950000762939453,
+            "sell_date": "2026-05-29",
+            "sell_price": 25.549999237060547,
+            "return_pct": -1.5414316536366706
+          }
+        },
+        {
+          "stock_code": "4123",
+          "company_name": "星德大藥廠股份有限公司",
+          "event_title": "星德八 公告定價至掛牌後19日",
+          "trade": {
+            "buy_date": "2026-04-29",
+            "buy_price": 39.099998474121094,
+            "sell_date": "2026-05-29",
+            "sell_price": 38.25,
+            "return_pct": -2.17390922581155
+          }
+        },
+        {
+          "stock_code": "8271",
+          "company_name": "宇瞻科技股份有限公司",
+          "event_title": "宇瞻一 公告定價至掛牌後19日",
+          "trade": {
+            "buy_date": "2026-04-28",
+            "buy_price": 225.0,
+            "sell_date": "2026-06-01",
+            "sell_price": 248.5,
+            "return_pct": 10.444444444444445
+          }
+        },
+        {
+          "stock_code": "3135",
+          "company_name": "凌航科技股份有限公司",
+          "event_title": "凌航二 公告定價至掛牌後19日",
+          "trade": {
+            "buy_date": "2026-04-28",
+            "buy_price": 140.0,
+            "sell_date": "2026-06-01",
+            "sell_price": 250.5,
+            "return_pct": 78.92857142857143
+          }
+        },
+        {
+          "stock_code": "8462",
+          "company_name": "柏文健康事業股份有限公司",
+          "event_title": "柏文四 公告定價至掛牌後19日",
+          "trade": {
+            "buy_date": "2026-05-05",
+            "buy_price": 148.0,
+            "sell_date": "2026-06-04",
+            "sell_price": 141.0,
+            "return_pct": -4.72972972972973
+          }
+        },
+        {
+          "stock_code": "3680",
+          "company_name": "家登精密工業股份有限公司",
+          "event_title": "家登五 公告定價至掛牌後19日",
+          "trade": {
+            "buy_date": "2026-05-04",
+            "buy_price": 559.2147827148438,
+            "sell_date": "2026-06-04",
+            "sell_price": 537.0,
+            "return_pct": -3.9724956137598335
+          }
+        },
+        {
+          "stock_code": "4503",
+          "company_name": "金雨企業股份有限公司",
+          "event_title": "金雨一 公告定價至掛牌後19日",
+          "trade": {
+            "buy_date": "2026-05-07",
+            "buy_price": 42.95000076293945,
+            "sell_date": "2026-06-09",
+            "sell_price": 37.849998474121094,
+            "return_pct": -11.874277527880817
+          }
+        },
+        {
+          "stock_code": "4123",
+          "company_name": "星德大藥廠股份有限公司",
+          "event_title": "星德九 公告定價至掛牌後19日",
+          "trade": {
+            "buy_date": "2026-05-12",
+            "buy_price": 38.349998474121094,
+            "sell_date": "2026-06-10",
+            "sell_price": 37.95000076293945,
+            "return_pct": -1.043018845102595
+          }
+        },
+        {
+          "stock_code": "8074",
+          "company_name": "橡橡企業股份有限公司",
+          "event_title": "橡橡六 公告定價至掛牌後19日",
+          "trade": {
+            "buy_date": "2026-05-11",
+            "buy_price": 83.0,
+            "sell_date": "2026-06-10",
+            "sell_price": 71.0999984741211,
+            "return_pct": -14.337351235998682
+          }
+        },
+        {
+          "stock_code": "7610",
+          "company_name": "聯友金屬科技股份有限公司",
+          "event_title": "聯友金屬一創 公告定價至掛牌後19日",
+          "trade": {
+            "buy_date": "2026-05-15",
+            "buy_price": 948.0,
+            "sell_date": "2026-06-16",
+            "sell_price": 1915.0,
+            "return_pct": 102.0042194092827
+          }
+        },
+        {
+          "stock_code": "6803",
+          "company_name": "崑鼎綠能環保股份有限公司",
+          "event_title": "崑鼎二 公告定價至掛牌後19日",
+          "trade": {
+            "buy_date": "2026-05-18",
+            "buy_price": 288.0,
+            "sell_date": "2026-06-16",
+            "sell_price": 286.5,
+            "return_pct": -0.5208333333333333
+          }
+        },
+        {
+          "stock_code": "3680",
+          "company_name": "家登精密工業股份有限公司",
+          "event_title": "家登六 公告定價至掛牌後19日",
+          "trade": {
+            "buy_date": "2026-05-15",
+            "buy_price": 563.1808471679688,
+            "sell_date": "2026-06-16",
+            "sell_price": 500.0,
+            "return_pct": -11.218571704929635
+          }
+        },
+        {
+          "stock_code": "4760",
+          "company_name": "勤驊科技股份有限公司",
+          "event_title": "勤驊二 公告定價至掛牌後19日",
+          "trade": {
+            "buy_date": "2026-05-18",
+            "buy_price": 304.0,
+            "sell_date": "2026-06-16",
+            "sell_price": 390.0,
+            "return_pct": 28.289473684210524
+          }
+        },
+        {
+          "stock_code": "5464",
+          "company_name": "霖宏科技股份有限公司",
+          "event_title": "霖宏二 公告定價至掛牌後19日",
+          "trade": {
+            "buy_date": "2026-05-19",
+            "buy_price": 62.5,
+            "sell_date": "2026-06-16",
+            "sell_price": 70.0,
+            "return_pct": 12.0
+          }
+        },
+        {
+          "stock_code": "4722",
+          "company_name": "國精化學股份有限公司",
+          "event_title": "國精化四 公告定價至掛牌後19日",
+          "trade": {
+            "buy_date": "2026-05-20",
+            "buy_price": 237.0,
+            "sell_date": "2026-06-16",
+            "sell_price": 240.0,
+            "return_pct": 1.2658227848101267
+          }
+        },
+        {
+          "stock_code": "4749",
+          "company_name": "新應材股份有限公司",
+          "event_title": "新應材一 公告定價至掛牌後19日",
+          "trade": {
+            "buy_date": "2026-05-22",
+            "buy_price": 1159.881103515625,
+            "sell_date": "2026-06-16",
+            "sell_price": 937.0,
+            "return_pct": -19.215857801292522
+          }
+        },
+        {
+          "stock_code": "4931",
+          "company_name": "新盛力科技股份有限公司",
+          "event_title": "新盛力一 公告定價至掛牌後19日",
+          "trade": {
+            "buy_date": "2026-05-25",
+            "buy_price": 223.5,
+            "sell_date": "2026-06-16",
+            "sell_price": 250.5,
+            "return_pct": 12.080536912751679
+          }
+        },
+        {
+          "stock_code": "1717",
+          "company_name": "長興材料工業股份有限公司",
+          "event_title": "長興二 公告定價至掛牌後19日",
+          "trade": {
+            "buy_date": "2026-05-29",
+            "buy_price": 81.19999694824219,
+            "sell_date": "2026-06-16",
+            "sell_price": 70.0,
+            "return_pct": -13.793100208342612
+          }
+        },
+        {
+          "stock_code": "6546",
+          "company_name": "正基科技股份有限公司",
+          "event_title": "正基二 公告定價至掛牌後19日",
+          "trade": {
+            "buy_date": "2026-06-03",
+            "buy_price": 81.80000305175781,
+            "sell_date": "2026-06-16",
+            "sell_price": 73.19999694824219,
+            "return_pct": -10.513454502042121
+          }
+        },
+        {
+          "stock_code": "3491",
+          "company_name": "星達科技股份有限公司",
+          "event_title": "星達科三 公告定價至掛牌後19日",
+          "trade": {
+            "buy_date": "2026-06-03",
+            "buy_price": 2020.0,
+            "sell_date": "2026-06-16",
+            "sell_price": 1570.0,
+            "return_pct": -22.277227722772277
+          }
+        },
+        {
+          "stock_code": "6220",
+          "company_name": "嶠豐科技股份有限公司",
+          "event_title": "嶠豐十 公告定價至掛牌後19日",
+          "trade": {
+            "buy_date": "2026-06-04",
+            "buy_price": 35.0,
+            "sell_date": "2026-06-16",
+            "sell_price": 35.75,
+            "return_pct": 2.142857142857143
+          }
+        },
+        {
+          "stock_code": "6223",
+          "company_name": "旺矽科技股份有限公司",
+          "event_title": "旺矽六 公告定價至掛牌後19日",
+          "trade": {
+            "buy_date": "2026-06-08",
+            "buy_price": 5515.0,
+            "sell_date": "2026-06-16",
+            "sell_price": 6445.0,
+            "return_pct": 16.86310063463282
+          }
+        },
+        {
+          "stock_code": "3294",
+          "company_name": "英矽股份有限公司",
+          "event_title": "英矽三 公告定價至掛牌後19日",
+          "trade": {
+            "buy_date": "2026-06-12",
+            "buy_price": 35.849998474121094,
+            "sell_date": "2026-06-16",
+            "sell_price": 38.150001525878906,
+            "return_pct": 6.415629427203761
+          }
+        },
+        {
+          "stock_code": "6806",
+          "company_name": "森耀能源股份有限公司",
+          "event_title": "森耀能源一 公告定價至掛牌後19日",
+          "trade": {
+            "buy_date": "2026-04-01",
+            "buy_price": 38.599998474121094,
+            "sell_date": "2026-05-05",
+            "sell_price": 20.799999237060547,
+            "return_pct": -46.1139894836896
+          }
+        },
+        {
+          "stock_code": "6806",
+          "company_name": "森耀能源股份有限公司",
+          "event_title": "森耀能源一 公告定價至掛牌後19日",
+          "trade": {
+            "buy_date": "2026-05-13",
+            "buy_price": 19.200000762939453,
+            "sell_date": "2026-06-11",
+            "sell_price": 4.480000019073486,
+            "return_pct": -76.66666749450893
+          }
+        }
+      ]
     }
   }
 }

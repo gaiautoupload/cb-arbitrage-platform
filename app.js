@@ -80,14 +80,13 @@ function renderStrategyCards() {
     const sr = analysisData.strategy_results;
     if (!sr) return;
     
-    const displayStrategies = [
         { key: "CB_RESOLUTION_TO_EFFECTIVE", name: "可轉債：董事會 ➔ 申報生效", icon: "📋" },
         { key: "CB_EFFECTIVE_TO_PRICING", name: "可轉債：申報生效 ➔ 公告定價", icon: "💰" },
         { key: "CB_PRICING_TO_LISTING", name: "可轉債：公告定價 ➔ 掛牌日", icon: "🚀" },
+        { key: "CB_PRICING_TO_POST_LISTING", name: "壓低套利：公告定價 ➔ 掛牌後 19 天", icon: "📉" },
         { key: "PRIVATE_PLACEMENT", name: "策略：私募特定人入股", icon: "🤝" },
         { key: "BUYBACK", name: "策略：庫藏股護盤區間買進", icon: "🛡️" },
         { key: "TENDER_OFFER", name: "策略：公開溢價收購套利", icon: "🎯" }
-    ];
     
     displayStrategies.forEach(strat => {
         const data = sr[strat.key];
