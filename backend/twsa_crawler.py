@@ -3,6 +3,7 @@ import sys
 import json
 import requests
 from bs4 import BeautifulSoup
+from datetime import datetime
 
 # Reconfigure stdout/stderr for Windows UTF-8 terminal
 sys.stdout.reconfigure(encoding='utf-8')
@@ -34,6 +35,19 @@ def clean_company_name(name):
     for suffix in ["股份有限公司", "股份公司", "-KY", "科技", "工業", "建設", "電機", "電子", "製造", "化學", "開發", "國際", "集團", "投資控股", "投控", "實業"]:
         name = name.replace(suffix, "")
     return name.strip()
+
+def save_raw_dataset(source_folder, filename, content):
+    try:
+        today_dir = os.path.join("D:\\dataset", source_folder, datetime.today().strftime("%Y%m%d"))
+        os.makedirs(today_dir, exist_ok=True)
+        file_path = os.path.join(today_dir, filename)
+        mode = "w" if isinstance(content, str) else "wb"
+        encoding = "utf-8" if isinstance(content, str) else None
+        with open(file_path, mode, encoding=encoding) as f:
+            f.write(content)
+        print(f"Saved raw dataset to {file_path}")
+    except Exception as e:
+        print(f"Failed to save raw dataset to D:\\dataset: {e}")
 
 def main():
     url = "https://web.twsa.org.tw/Edoc2/Default.aspx?Year=2026"
@@ -134,6 +148,9 @@ def main():
         if post_res.status_code != 200:
             print("Failed to POST TWSA page")
             return
+            
+        # Save original raw data
+        save_raw_dataset("twsa", "twsa_auction.html", post_res.text)
             
         post_soup = BeautifulSoup(post_res.text, "html.parser")
         tables = post_soup.find_all("table")

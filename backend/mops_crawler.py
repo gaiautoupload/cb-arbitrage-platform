@@ -54,12 +54,28 @@ def parse_date(date_val):
             
     return date_val
 
+def save_raw_dataset(source_folder, filename, content):
+    try:
+        today_dir = os.path.join("D:\\dataset", source_folder, datetime.today().strftime("%Y%m%d"))
+        os.makedirs(today_dir, exist_ok=True)
+        file_path = os.path.join(today_dir, filename)
+        mode = "w" if isinstance(content, str) else "wb"
+        encoding = "utf-8" if isinstance(content, str) else None
+        with open(file_path, mode, encoding=encoding) as f:
+            f.write(content)
+        print(f"Saved raw dataset to {file_path}")
+    except Exception as e:
+        print(f"Failed to save raw dataset to D:\\dataset: {e}")
+
 def fetch_listed_json():
     url = "https://openapi.twse.com.tw/v1/opendata/t187ap04_L"
     print("Fetching Listed JSON from TWSE OpenAPI...")
     try:
         resp = requests.get(url, headers=HEADERS, timeout=30)
         if resp.status_code == 200:
+            # Save original raw data
+            save_raw_dataset("mops", "t187ap04_L.json", resp.text)
+            
             records = resp.json()
             standardized = []
             for r in records:
@@ -84,6 +100,9 @@ def fetch_otc_csv():
     try:
         resp = requests.get(url, headers=HEADERS, timeout=30)
         if resp.status_code == 200:
+            # Save original raw data
+            save_raw_dataset("mops", "t187ap04_O.csv", resp.text)
+            
             resp.encoding = 'utf-8-sig'
             f = io.StringIO(resp.text)
             reader = csv.DictReader(f)
