@@ -313,14 +313,14 @@
                     <div class="stat-card">
                         <div class="stat-icon">📈</div>
                         <div class="stat-info">
-                            <span class="stat-label">精華策略年化報酬</span>
+                            <span class="stat-label">100萬資金年化報酬</span>
                             <span class="stat-value text-green" id="bond-annualized-return">-</span>
                         </div>
                     </div>
                     <div class="stat-card">
                         <div class="stat-icon">💰</div>
                         <div class="stat-info">
-                            <span class="stat-label">精華策略平均報酬</span>
+                            <span class="stat-label">資金曲線總報酬</span>
                             <span class="stat-value text-green" id="bond-elite-avg-return">-</span>
                         </div>
                     </div>
@@ -374,7 +374,7 @@
                 <!-- A. Overview Tab -->
                 <div id="sub-panel-overview" class="sub-tab-panel active-panel card animate-fadeIn" style="padding: 1.5rem;">
                     <div class="flex items-center justify-between flex-wrap gap-3 mb-4">
-                        <h3 class="card-title" style="margin: 0; font-size: 1.1rem;">精華策略年化報酬與勝率排行</h3>
+                        <h3 class="card-title" style="margin: 0; font-size: 1.1rem;">精華策略資金貢獻與勝率排行</h3>
                     </div>
                     <div style="height: 300px; position: relative;">
                         <canvas id="bondStrategyChart"></canvas>
@@ -389,7 +389,7 @@
                                     <th>交易筆數</th>
                                     <th>勝率</th>
                                     <th>平均報酬</th>
-                                    <th>平均年化</th>
+                                    <th>資金貢獻</th>
                                     <th>最佳交易</th>
                                     <th>最差交易</th>
                                 </tr>
@@ -402,7 +402,7 @@
                 <!-- B. Monthly Return Matrix Tab -->
                 <div id="sub-panel-monthly" class="sub-tab-panel card animate-fadeIn" style="padding: 1.5rem;">
                     <div class="flex items-center justify-between mb-4 flex-wrap gap-2">
-                        <h3 class="card-title" style="margin: 0; font-size: 1.1rem;">可轉債交易月份報酬熱圖 (%)</h3>
+                        <h3 class="card-title" style="margin: 0; font-size: 1.1rem;">100萬資金月份實現報酬熱圖 (%)</h3>
                         <div class="text-xs text-slate-400 bg-slate-800 px-3 py-1 rounded-lg" id="bond-monthly-stats-summary">平均月報酬: - | 月勝率: -</div>
                     </div>
                     <div class="table-responsive">
@@ -448,6 +448,7 @@
                                     <th>代號</th>
                                     <th>策略</th>
                                     <th>買入日期</th>
+                                    <th>分配資金</th>
                                     <th>進場價格</th>
                                     <th>賣出日期</th>
                                     <th>出場價格</th>
@@ -472,7 +473,7 @@
 
                 <!-- D. Yearly Comparison Tab -->
                 <div id="sub-panel-yearly" class="sub-tab-panel card animate-fadeIn" style="padding: 1.5rem;">
-                    <h3 class="card-title" style="margin-bottom: 1rem; font-size: 1.1rem;">精華策略年度平均年化報酬率 (%)</h3>
+                    <h3 class="card-title" style="margin-bottom: 1rem; font-size: 1.1rem;">100萬資金年度實現報酬率 (%)</h3>
                     <div style="height: 300px; position: relative;">
                         <canvas id="bondYearlyChart"></canvas>
                     </div>
