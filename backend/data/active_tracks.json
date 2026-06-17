@@ -1,0 +1,150 @@
+[
+  {
+    "stock_code": "8155",
+    "company_name": "博智",
+    "bond_name": "博智二",
+    "expected_listing_date": "2026-07-06",
+    "current_stage_index": 4,
+    "status_text": "籌碼審查通過，持股待售中",
+    "status_type": "success",
+    "stations": [
+      {
+        "name": "競拍公告發布",
+        "date": "2026-06-10",
+        "status": "completed",
+        "description": "公會公告博智二發行時程，訂定掛牌日為 2026-07-06。"
+      },
+      {
+        "name": "T-15 籌碼審查",
+        "date": "2026-06-15",
+        "status": "completed",
+        "description": "累積外資買超 2,450 張，大於 2,000 張門檻，符合進場條件！"
+      },
+      {
+        "name": "T-14 策略買進",
+        "date": "2026-06-16",
+        "status": "completed",
+        "description": "開盤以 $142.5 元買進普通股現貨。"
+      },
+      {
+        "name": "T日 掛牌上市",
+        "date": "2026-07-06",
+        "status": "active",
+        "description": "即將正式掛牌發行，預期現貨有拉抬動能。"
+      },
+      {
+        "name": "T+1~18 拆解拉抬",
+        "date": "2026-07-07",
+        "status": "upcoming",
+        "description": "持有至選擇權拆解日，鎖定槓桿買盤行情。"
+      },
+      {
+        "name": "T+19 結算出場",
+        "date": "2026-08-03",
+        "status": "upcoming",
+        "description": "預定收盤無條件賣出結算。"
+      }
+    ],
+    "performance": {
+      "buy_price": 142.5,
+      "current_price": 150.0,
+      "return_pct": 5.26
+    }
+  },
+  {
+    "stock_code": "3260",
+    "company_name": "威剛",
+    "bond_name": "威剛八",
+    "expected_listing_date": "2026-07-13",
+    "current_stage_index": 1,
+    "status_text": "已發布競拍公告，靜待 T-15 籌碼判定點",
+    "status_type": "pending",
+    "stations": [
+      {
+        "name": "競拍公告發布",
+        "date": "2026-06-16",
+        "status": "completed",
+        "description": "公會已公告威剛八競拍辦法，預計 2026-07-13 掛牌。"
+      },
+      {
+        "name": "T-15 籌碼審查",
+        "date": "2026-06-22",
+        "status": "active",
+        "description": "預定 6/22 收盤判定外資/投信累積張數。"
+      },
+      {
+        "name": "T-14 策略買進",
+        "date": "2026-06-23",
+        "status": "upcoming",
+        "description": "若審查通過，將於開盤進行買入。"
+      },
+      {
+        "name": "T日 掛牌上市",
+        "date": "2026-07-13",
+        "status": "upcoming",
+        "description": "預定掛牌日。"
+      },
+      {
+        "name": "T+1~18 拆解拉抬",
+        "date": "2026-07-14",
+        "status": "upcoming",
+        "description": "待執行持股波段。"
+      },
+      {
+        "name": "T+19 結算出場",
+        "date": "2026-08-10",
+        "status": "upcoming",
+        "description": "預定出場日。"
+      }
+    ],
+    "performance": null
+  },
+  {
+    "stock_code": "2467",
+    "company_name": "志皓",
+    "bond_name": "志皓二",
+    "expected_listing_date": "2026-07-02",
+    "current_stage_index": 2,
+    "status_text": "T-15 籌碼審查不符條件，已放棄交易",
+    "status_type": "failed",
+    "stations": [
+      {
+        "name": "競拍公告發布",
+        "date": "2026-06-08",
+        "status": "completed",
+        "description": "志皓二競拍時程公告，預定 2026-07-02 掛牌。"
+      },
+      {
+        "name": "T-15 籌碼審查",
+        "date": "2026-06-11",
+        "status": "failed",
+        "description": "外資累計買超僅 120 張，投信 0 張。未達 2,000 張最低門檻，已剔除交易。"
+      },
+      {
+        "name": "T-14 策略買進",
+        "date": "2026-06-12",
+        "status": "upcoming",
+        "description": "已放棄買進。"
+      },
+      {
+        "name": "T日 掛牌上市",
+        "date": "2026-07-02",
+        "status": "upcoming",
+        "description": "無持股掛牌。"
+      },
+      {
+        "name": "T+1~18 拆解拉抬",
+        "date": "2026-07-03",
+        "status": "upcoming",
+        "description": "無動作。"
+      },
+      {
+        "name": "T+19 結算出場",
+        "date": "2026-07-29",
+        "status": "upcoming",
+        "description": "無動作。"
+      }
+    ],
+    "performance": null
+  }
+]

@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="zh-Hant-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>台灣公司債策略交易大數據分析系統</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="index.css">
+    <!-- Chart.js CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <div class="app-container">
+        <!-- Sidebar / Header -->
+        <header class="app-header">
+            <div class="logo-area">
+                <div class="logo-icon">📊</div>
+                <div>
+                    <h1 style="display: flex; align-items: center; gap: 0.75rem;">
+                        <span>BondTrade AI</span>
+                        <span style="font-size: 0.75rem; color: #a5b4fc; background: rgba(99, 102, 241, 0.2); border: 1px solid rgba(99, 102, 241, 0.3); padding: 0.15rem 0.5rem; border-radius: 4px; font-weight: 500;">製作者: pioter | 分析師+1000</span>
+                    </h1>
+                    <p class="subtitle">可轉債事件套利大數據系統</p>
+                </div>
+            </div>
+            <div class="nav-tab-links">
+                <button class="nav-tab-btn active-tab" id="tab-btn-active-tracks" onclick="switchTab('active-tracks')">🚇 執行中SOP軌道</button>
+                <button class="nav-tab-btn" id="tab-btn-success-cases" onclick="switchTab('success-cases')">🏆 成功案例庫</button>
+                <button class="nav-tab-btn" id="tab-btn-dashboard" onclick="switchTab('dashboard')">📊 分析與回測大師</button>
+            </div>
+            <div class="nav-links">
+                <span class="badge live-badge">● 系統時間: 2026年6月</span>
+            </div>
+        </header>
+
+        <!-- Main Dashboard Content -->
+        <main class="dashboard-main">
+            <!-- 1. Dashboard Panel -->
+            <div id="panel-dashboard" class="tab-content-panel">
+                <!-- Summary Stats Rows -->
+                <section class="stats-grid">
+                    <div class="stat-card">
+                        <div class="stat-icon">📄</div>
+                        <div class="stat-info">
+                            <span class="stat-label">分析債券總數</span>
+                            <span class="stat-value" id="stat-total-bonds">-</span>
+                        </div>
+                    </div>
+                    <div class="stat-card accent-card">
+                        <div class="stat-icon">📈</div>
+                        <div class="stat-info">
+                            <span class="stat-label">預設策略勝率 (-5d 到 +5d)</span>
+                            <span class="stat-value" id="stat-win-rate">-</span>
+                        </div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-icon">💰</div>
+                        <div class="stat-info">
+                            <span class="stat-label">預設平均報酬率</span>
+                            <span class="stat-value" id="stat-avg-return">-</span>
+                        </div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-icon">⚡</div>
+                        <div class="stat-info">
+                            <span class="stat-label">平均高低波動度</span>
+                            <span class="stat-value" id="stat-avg-volatility">-</span>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Multi-Stage Event Trading Strategies -->
+                <section class="card strategy-results-section" style="margin-bottom: 2rem;">
+                    <h2 class="card-title" style="margin-bottom: 1rem;">重大訊息事件驅動策略統計</h2>
+                    <div class="strategy-cards-grid" id="strategy-cards-container">
+                        <!-- Dynamic strategy cards loaded from app.js -->
+                    </div>
+                </section>
+
+                <!-- Chart & Configuration Section -->
+                <div class="content-row">
+                    <!-- Stock Chart Card -->
+                    <section class="card chart-card">
+                        <div class="card-header">
+                            <div class="card-title-group">
+                                <span class="card-tag" id="stock-ticker-tag">6672</span>
+                                <h2 class="card-title" id="selected-stock-title">騰輝電子國際集團 (6672) 股價波動圖</h2>
+                            </div>
+                            <div class="chart-legend">
+                                <span class="legend-item"><span class="dot ann-dot"></span> 公告日</span>
+                                <span class="legend-item"><span class="dot iss-dot"></span> 發行日 (上市日)</span>
+                            </div>
+                        </div>
+                        <div class="chart-container">
+                            <canvas id="stockChart"></canvas>
+                        </div>
+                    </section>
+
+                    <!-- Backtest Simulator Control Panel -->
+                    <section class="card config-card">
+                        <h2 class="card-title">事件策略回測模擬器</h2>
+                        <p class="card-desc">自訂買賣點相對於「發行日 (T日)」的交易日偏差，計算歷史大數據統計：</p>
+                        
+                        <div class="config-form">
+                            <div class="form-group">
+                                <label for="entry-days">買入點 (發行日前 N 天)</label>
+                                <div class="input-wrapper">
+                                    <input type="number" id="entry-days" value="-5" max="-1" min="-30">
+                                    <span class="unit">交易日 (T-N)</span>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="exit-days">賣出點 (發行日後 M 天)</label>
+                                <div class="input-wrapper">
+                                    <input type="number" id="exit-days" value="5" min="0" max="30">
+                                    <span class="unit">交易日 (T+M)</span>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="filter-foreign-min">公告前 10 日外資累計買超大於</label>
+                                <div class="input-wrapper">
+                                    <input type="number" id="filter-foreign-min" value="0">
+                                    <span class="unit">張</span>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="filter-trust-min">公告前 10 日投信累計買超大於</label>
+                                <div class="input-wrapper">
+                                    <input type="number" id="filter-trust-min" value="0">
+                                    <span class="unit">張</span>
+                                </div>
+                            </div>
+                            <button class="btn btn-primary btn-block" id="btn-run-backtest">
+                                <span>執行策略回測</span>
+                            </button>
+                        </div>
+
+                        <div class="divider"></div>
+
+                        <div class="backtest-results-panel">
+                            <h3>回測統計結果</h3>
+                            <div class="backtest-results-grid">
+                                <div class="res-item">
+                                    <span class="res-label">回測總交易筆數</span>
+                                    <span class="res-val" id="res-total-trades">-</span>
+                                </div>
+                                <div class="res-item">
+                                    <span class="res-label">策略勝率</span>
+                                    <span class="res-val text-green" id="res-win-rate">-</span>
+                                </div>
+                                <div class="res-item">
+                                    <span class="res-label">平均報酬率</span>
+                                    <span class="res-val" id="res-avg-return">-</span>
+                                </div>
+                                <div class="res-item">
+                                    <span class="res-label">正報酬筆數 / 負報酬</span>
+                                    <span class="res-val" id="res-win-loss-ratio">-</span>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+
+                <!-- Detailed Bonds Data Table -->
+                <section class="card table-card">
+                    <div class="table-header">
+                        <h2 class="card-title">可轉債發行明細與波動度大數據</h2>
+                        <div class="table-actions">
+                            <select id="sector-filter" class="filter-select">
+                                <option value="">所有產業族群</option>
+                            </select>
+                            <input type="text" id="search-input" placeholder="搜尋公司名稱或代號...">
+                        </div>
+                    </div>
+                    <div class="table-responsive">
+                        <table class="data-table">
+                            <thead>
+                                <tr>
+                                    <th>公司簡稱</th>
+                                    <th>股號</th>
+                                    <th>產業族群</th>
+                                    <th>發文公告日</th>
+                                    <th>發行/買賣日</th>
+                                    <th>公告前外資(張)</th>
+                                    <th>公告前投信(張)</th>
+                                    <th>公告日股價</th>
+                                    <th>發行日股價</th>
+                                    <th>公告到發行漲跌</th>
+                                    <th>前15日低點日期</th>
+                                    <th>前15日最低點</th>
+                                    <th>後15日最高點</th>
+                                    <th>高低點波段漲幅</th>
+                                    <th>操作</th>
+                                </tr>
+                            </thead>
+                            <tbody id="bonds-table-body">
+                                <tr>
+                                    <td colspan="15" class="text-center text-muted">正在載入數據...</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </section>
+            </div>
+
+            <!-- 2. Active Tracks (Subway Route Maps) Panel -->
+            <div id="panel-active-tracks" class="tab-content-panel active-panel">
+                <section class="card">
+                    <div class="table-header">
+                        <div>
+                            <h2 class="card-title">🚇 執行中 SOP 軌道監控看板</h2>
+                            <p class="card-desc" style="margin-top: 0.25rem;">即時追蹤公會發布之最新競拍公告，並依 SOP 自動進行 T-15 籌碼判定、買入與賣出動作。</p>
+                        </div>
+                    </div>
+                    <div class="active-tracks-container" id="active-tracks-list">
+                        <!-- Dynamic subway route maps will be rendered here -->
+                        <div class="text-center text-muted py-4">正在加載執行軌跡資料...</div>
+                    </div>
+                </section>
+            </div>
+
+            <!-- 3. Success Cases Panel -->
+            <div id="panel-success-cases" class="tab-content-panel">
+                <section class="card">
+                    <div class="table-header">
+                        <div>
+                            <h2 class="card-title">🏆 歷史優化策略成功案例庫</h2>
+                            <p class="card-desc" style="margin-top: 0.25rem;">經回測大數據篩選出 100% 勝率之最佳籌碼與時程參數組合，展示其歷史所有交易實績。</p>
+                        </div>
+                    </div>
+                    
+                    <!-- Strategy selector tabs -->
+                    <div class="case-tabs-container" id="case-tabs-list">
+                        <!-- Dynamic case tabs will be loaded here -->
+                    </div>
+
+                    <!-- Selected Strategy performance card -->
+                    <div id="selected-case-summary" style="margin-bottom: 2rem;"></div>
+
+                    <!-- Trades table -->
+                    <div class="table-responsive">
+                        <table class="data-table">
+                            <thead>
+                                <tr>
+                                    <th>股票名稱</th>
+                                    <th>代號</th>
+                                    <th>買入日期</th>
+                                    <th>買入價格</th>
+                                    <th>賣出日期</th>
+                                    <th>賣出價格</th>
+                                    <th>持有天數</th>
+                                    <th>交易回報</th>
+                                </tr>
+                            </thead>
+                            <tbody id="case-trades-table-body">
+                                <tr>
+                                    <td colspan="8" class="text-center text-muted">請選擇上方策略查看交易明細。</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </section>
+            </div>
+        </main>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>

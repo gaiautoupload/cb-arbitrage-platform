@@ -1,0 +1,634 @@
+{
+  "1436": {
+    "ticker": "1436.TW",
+    "data_points": 591
+  },
+  "1466": {
+    "ticker": "1466.TW",
+    "data_points": 591
+  },
+  "1472": {
+    "ticker": "1472.TW",
+    "data_points": 591
+  },
+  "1474": {
+    "ticker": "1474.TW",
+    "data_points": 591
+  },
+  "1514": {
+    "ticker": "1514.TW",
+    "data_points": 591
+  },
+  "1598": {
+    "ticker": "1598.TW",
+    "data_points": 591
+  },
+  "1717": {
+    "ticker": "1717.TW",
+    "data_points": 591
+  },
+  "1786": {
+    "ticker": "1786.TW",
+    "data_points": 591
+  },
+  "2063": {
+    "ticker": "2063.TWO",
+    "data_points": 591
+  },
+  "2230": {
+    "ticker": "2230.TWO",
+    "data_points": 591
+  },
+  "2233": {
+    "ticker": "2233.TW",
+    "data_points": 591
+  },
+  "2247": {
+    "ticker": "2247.TW",
+    "data_points": 591
+  },
+  "2329": {
+    "ticker": "2329.TW",
+    "data_points": 591
+  },
+  "2337": {
+    "ticker": "2337.TW",
+    "data_points": 591
+  },
+  "2351": {
+    "ticker": "2351.TW",
+    "data_points": 591
+  },
+  "2368": {
+    "ticker": "2368.TW",
+    "data_points": 591
+  },
+  "2374": {
+    "ticker": "2374.TW",
+    "data_points": 591
+  },
+  "2383": {
+    "ticker": "2383.TW",
+    "data_points": 591
+  },
+  "2402": {
+    "ticker": "2402.TW",
+    "data_points": 592
+  },
+  "2455": {
+    "ticker": "2455.TW",
+    "data_points": 591
+  },
+  "2467": {
+    "ticker": "2467.TW",
+    "data_points": 591
+  },
+  "2486": {
+    "ticker": "2486.TW",
+    "data_points": 591
+  },
+  "2528": {
+    "ticker": "2528.TW",
+    "data_points": 591
+  },
+  "2530": {
+    "ticker": "2530.TW",
+    "data_points": 591
+  },
+  "2641": {
+    "ticker": "2641.TWO",
+    "data_points": 591
+  },
+  "2732": {
+    "ticker": "2732.TWO",
+    "data_points": 591
+  },
+  "2743": {
+    "ticker": "2743.TWO",
+    "data_points": 591
+  },
+  "2745": {
+    "ticker": "2745.TWO",
+    "data_points": 591
+  },
+  "2753": {
+    "ticker": "2753.TW",
+    "data_points": 591
+  },
+  "2755": {
+    "ticker": "2755.TWO",
+    "data_points": 591
+  },
+  "3006": {
+    "ticker": "3006.TW",
+    "data_points": 591
+  },
+  "3011": {
+    "ticker": "3011.TW",
+    "data_points": 591
+  },
+  "3032": {
+    "ticker": "3032.TW",
+    "data_points": 591
+  },
+  "3037": {
+    "ticker": "3037.TW",
+    "data_points": 591
+  },
+  "3040": {
+    "ticker": "3040.TW",
+    "data_points": 591
+  },
+  "3045": {
+    "ticker": "3045.TW",
+    "data_points": 591
+  },
+  "3095": {
+    "ticker": "3095.TWO",
+    "data_points": 591
+  },
+  "3131": {
+    "ticker": "3131.TWO",
+    "data_points": 591
+  },
+  "3135": {
+    "ticker": "3135.TW",
+    "data_points": 426
+  },
+  "3138": {
+    "ticker": "3138.TW",
+    "data_points": 591
+  },
+  "3167": {
+    "ticker": "3167.TW",
+    "data_points": 591
+  },
+  "3188": {
+    "ticker": "3188.TWO",
+    "data_points": 591
+  },
+  "3260": {
+    "ticker": "3260.TWO",
+    "data_points": 591
+  },
+  "3284": {
+    "ticker": "3284.TWO",
+    "data_points": 591
+  },
+  "3294": {
+    "ticker": "3294.TWO",
+    "data_points": 591
+  },
+  "3324": {
+    "ticker": "3324.TWO",
+    "data_points": 591
+  },
+  "3390": {
+    "ticker": "3390.TWO",
+    "data_points": 591
+  },
+  "3434": {
+    "ticker": "3434.TWO",
+    "data_points": 591
+  },
+  "3465": {
+    "ticker": "3465.TWO",
+    "data_points": 591
+  },
+  "3491": {
+    "ticker": "3491.TWO",
+    "data_points": 591
+  },
+  "3526": {
+    "ticker": "3526.TWO",
+    "data_points": 591
+  },
+  "3543": {
+    "ticker": "3543.TW",
+    "data_points": 591
+  },
+  "3548": {
+    "ticker": "3548.TWO",
+    "data_points": 591
+  },
+  "3551": {
+    "ticker": "3551.TWO",
+    "data_points": 591
+  },
+  "3583": {
+    "ticker": "3583.TW",
+    "data_points": 591
+  },
+  "3587": {
+    "ticker": "3587.TWO",
+    "data_points": 591
+  },
+  "3617": {
+    "ticker": "3617.TW",
+    "data_points": 591
+  },
+  "3645": {
+    "ticker": "3645.TW",
+    "data_points": 591
+  },
+  "3653": {
+    "ticker": "3653.TW",
+    "data_points": 591
+  },
+  "3680": {
+    "ticker": "3680.TWO",
+    "data_points": 591
+  },
+  "3684": {
+    "ticker": "3684.TWO",
+    "data_points": 591
+  },
+  "3702": {
+    "ticker": "3702.TW",
+    "data_points": 591
+  },
+  "3707": {
+    "ticker": "3707.TWO",
+    "data_points": 591
+  },
+  "3715": {
+    "ticker": "3715.TW",
+    "data_points": 590
+  },
+  "4113": {
+    "ticker": "4113.TWO",
+    "data_points": 591
+  },
+  "4123": {
+    "ticker": "4123.TWO",
+    "data_points": 591
+  },
+  "4129": {
+    "ticker": "4129.TWO",
+    "data_points": 591
+  },
+  "4438": {
+    "ticker": "4438.TW",
+    "data_points": 591
+  },
+  "4503": {
+    "ticker": "4503.TWO",
+    "data_points": 591
+  },
+  "4510": {
+    "ticker": "4510.TWO",
+    "data_points": 591
+  },
+  "4555": {
+    "ticker": "4555.TW",
+    "data_points": 591
+  },
+  "4558": {
+    "ticker": "4558.TWO",
+    "data_points": 591
+  },
+  "4714": {
+    "ticker": "4714.TWO",
+    "data_points": 591
+  },
+  "4722": {
+    "ticker": "4722.TW",
+    "data_points": 591
+  },
+  "4739": {
+    "ticker": "4739.TW",
+    "data_points": 591
+  },
+  "4749": {
+    "ticker": "4749.TWO",
+    "data_points": 591
+  },
+  "4760": {
+    "ticker": "4760.TWO",
+    "data_points": 591
+  },
+  "4772": {
+    "ticker": "4772.TWO",
+    "data_points": 590
+  },
+  "4916": {
+    "ticker": "4916.TW",
+    "data_points": 591
+  },
+  "4923": {
+    "ticker": "4923.TWO",
+    "data_points": 591
+  },
+  "4931": {
+    "ticker": "4931.TWO",
+    "data_points": 591
+  },
+  "4967": {
+    "ticker": "4967.TW",
+    "data_points": 591
+  },
+  "5201": {
+    "ticker": "5201.TWO",
+    "data_points": 591
+  },
+  "5284": {
+    "ticker": "5284.TW",
+    "data_points": 591
+  },
+  "5309": {
+    "ticker": "5309.TWO",
+    "data_points": 591
+  },
+  "5351": {
+    "ticker": "5351.TWO",
+    "data_points": 591
+  },
+  "5439": {
+    "ticker": "5439.TWO",
+    "data_points": 591
+  },
+  "5464": {
+    "ticker": "5464.TWO",
+    "data_points": 591
+  },
+  "5534": {
+    "ticker": "5534.TW",
+    "data_points": 591
+  },
+  "6101": {
+    "ticker": "6101.TWO",
+    "data_points": 591
+  },
+  "6117": {
+    "ticker": "6117.TW",
+    "data_points": 591
+  },
+  "6134": {
+    "ticker": "6134.TWO",
+    "data_points": 591
+  },
+  "6139": {
+    "ticker": "6139.TW",
+    "data_points": 591
+  },
+  "6156": {
+    "ticker": "6156.TWO",
+    "data_points": 591
+  },
+  "6163": {
+    "ticker": "6163.TWO",
+    "data_points": 591
+  },
+  "6177": {
+    "ticker": "6177.TW",
+    "data_points": 591
+  },
+  "6187": {
+    "ticker": "6187.TWO",
+    "data_points": 591
+  },
+  "6190": {
+    "ticker": "6190.TWO",
+    "data_points": 591
+  },
+  "6196": {
+    "ticker": "6196.TW",
+    "data_points": 591
+  },
+  "6199": {
+    "ticker": "6199.TWO",
+    "data_points": 591
+  },
+  "6207": {
+    "ticker": "6207.TWO",
+    "data_points": 591
+  },
+  "6209": {
+    "ticker": "6209.TW",
+    "data_points": 591
+  },
+  "6219": {
+    "ticker": "6219.TWO",
+    "data_points": 591
+  },
+  "6220": {
+    "ticker": "6220.TWO",
+    "data_points": 591
+  },
+  "6223": {
+    "ticker": "6223.TWO",
+    "data_points": 591
+  },
+  "6274": {
+    "ticker": "6274.TWO",
+    "data_points": 591
+  },
+  "6275": {
+    "ticker": "6275.TWO",
+    "data_points": 591
+  },
+  "6279": {
+    "ticker": "6279.TWO",
+    "data_points": 591
+  },
+  "6290": {
+    "ticker": "6290.TWO",
+    "data_points": 591
+  },
+  "6414": {
+    "ticker": "6414.TW",
+    "data_points": 591
+  },
+  "6438": {
+    "ticker": "6438.TW",
+    "data_points": 591
+  },
+  "6442": {
+    "ticker": "6442.TW",
+    "data_points": 591
+  },
+  "6469": {
+    "ticker": "6469.TWO",
+    "data_points": 591
+  },
+  "6472": {
+    "ticker": "6472.TW",
+    "data_points": 591
+  },
+  "6477": {
+    "ticker": "6477.TW",
+    "data_points": 591
+  },
+  "6510": {
+    "ticker": "6510.TWO",
+    "data_points": 591
+  },
+  "6515": {
+    "ticker": "6515.TW",
+    "data_points": 591
+  },
+  "6533": {
+    "ticker": "6533.TW",
+    "data_points": 591
+  },
+  "6538": {
+    "ticker": "6538.TWO",
+    "data_points": 591
+  },
+  "6546": {
+    "ticker": "6546.TWO",
+    "data_points": 591
+  },
+  "6576": {
+    "ticker": "6576.TWO",
+    "data_points": 591
+  },
+  "6584": {
+    "ticker": "6584.TWO",
+    "data_points": 591
+  },
+  "6603": {
+    "ticker": "6603.TWO",
+    "data_points": 591
+  },
+  "6613": {
+    "ticker": "6613.TWO",
+    "data_points": 591
+  },
+  "6670": {
+    "ticker": "6670.TW",
+    "data_points": 591
+  },
+  "6715": {
+    "ticker": "6715.TW",
+    "data_points": 591
+  },
+  "6771": {
+    "ticker": "6771.TW",
+    "data_points": 591
+  },
+  "6796": {
+    "ticker": "6796.TW",
+    "data_points": 590
+  },
+  "6803": {
+    "ticker": "6803.TWO",
+    "data_points": 591
+  },
+  "6806": {
+    "ticker": "6806.TW",
+    "data_points": 590
+  },
+  "6821": {
+    "ticker": "6821.TWO",
+    "data_points": 590
+  },
+  "6843": {
+    "ticker": "6843.TWO",
+    "data_points": 590
+  },
+  "6846": {
+    "ticker": "6846.TWO",
+    "data_points": 590
+  },
+  "6873": {
+    "ticker": "6873.TW",
+    "data_points": 590
+  },
+  "6894": {
+    "ticker": "6894.TWO",
+    "data_points": 590
+  },
+  "6904": {
+    "ticker": "6904.TWO",
+    "data_points": 589
+  },
+  "6913": {
+    "ticker": "6913.TWO",
+    "data_points": 592
+  },
+  "6982": {
+    "ticker": "6982.TWO",
+    "data_points": 591
+  },
+  "7402": {
+    "ticker": "7402.TWO",
+    "data_points": 591
+  },
+  "7556": {
+    "ticker": "7556.TWO",
+    "data_points": 591
+  },
+  "7610": {
+    "ticker": "7610.TW",
+    "data_points": 591
+  },
+  "7713": {
+    "ticker": "7713.TWO",
+    "data_points": 591
+  },
+  "8021": {
+    "ticker": "8021.TW",
+    "data_points": 591
+  },
+  "8028": {
+    "ticker": "8028.TW",
+    "data_points": 591
+  },
+  "8074": {
+    "ticker": "8074.TWO",
+    "data_points": 591
+  },
+  "8087": {
+    "ticker": "8087.TWO",
+    "data_points": 591
+  },
+  "8111": {
+    "ticker": "8111.TWO",
+    "data_points": 591
+  },
+  "8112": {
+    "ticker": "8112.TW",
+    "data_points": 591
+  },
+  "8155": {
+    "ticker": "8155.TWO",
+    "data_points": 591
+  },
+  "8210": {
+    "ticker": "8210.TW",
+    "data_points": 591
+  },
+  "8271": {
+    "ticker": "8271.TW",
+    "data_points": 591
+  },
+  "8299": {
+    "ticker": "8299.TWO",
+    "data_points": 591
+  },
+  "8422": {
+    "ticker": "8422.TW",
+    "data_points": 591
+  },
+  "8431": {
+    "ticker": "8431.TWO",
+    "data_points": 591
+  },
+  "8462": {
+    "ticker": "8462.TW",
+    "data_points": 591
+  },
+  "8476": {
+    "ticker": "8476.TW",
+    "data_points": 591
+  },
+  "9906": {
+    "ticker": "9906.TW",
+    "data_points": 591
+  },
+  "9921": {
+    "ticker": "9921.TW",
+    "data_points": 591
+  }
+}
