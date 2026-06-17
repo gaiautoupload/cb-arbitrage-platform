@@ -92,10 +92,16 @@ def main():
     # 2. Check tokens
     notify_token = config.get("line_notify_token")
     channel_access_token = config.get("line_channel_access_token")
-    user_id = config.get("line_user_id") or config.get("line_group_id")
     web_url = config.get("website_url", "https://gaiautoupload.github.io/cb-arbitrage-platform/")
 
-    if not notify_token and not (channel_access_token and user_id):
+    # Collect all valid Line Messaging API target IDs
+    to_ids = []
+    if config.get("line_user_id"):
+        to_ids.append(config.get("line_user_id"))
+    if config.get("line_group_id"):
+        to_ids.append(config.get("line_group_id"))
+
+    if not notify_token and not (channel_access_token and to_ids):
         print("Line notifications are not configured. Skipping active push.")
         return
 
@@ -166,8 +172,9 @@ def main():
         
         if notify_token:
             send_line_notify(notify_token, combined_message)
-        if channel_access_token and user_id:
-            send_line_messaging_api(channel_access_token, user_id, combined_message)
+        if channel_access_token and to_ids:
+            for target_id in to_ids:
+                send_line_messaging_api(channel_access_token, target_id, combined_message)
     else:
         print("No buy or sell signals triggered today.")
 
