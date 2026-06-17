@@ -5,7 +5,7 @@
     "bond_name": "博智二",
     "expected_listing_date": "2026-07-06",
     "current_stage_index": 4,
-    "status_text": "籌碼審查通過，持股待售中",
+    "status_text": "符合條件：籌碼判定通過，買入持股中",
     "status_type": "success",
     "strategy_info": {
       "name": "策略 1: 外資定價前卡位",
@@ -17,7 +17,7 @@
         "name": "競拍公告發布",
         "date": "2026-06-10",
         "status": "completed",
-        "description": "公會公告博智二發行時程，訂定掛牌日為 2026-07-06。"
+        "description": "公會公告博智二發行時程，定價掛牌日為 2026-07-06。"
       },
       {
         "name": "T-15 籌碼審查",
@@ -62,7 +62,7 @@
     "bond_name": "萬潤六",
     "expected_listing_date": "2026-07-02",
     "current_stage_index": 0,
-    "status_text": "競拍投標進行中，開標日 06/23，靜待掛牌公告",
+    "status_text": "正在競拍中，開標日 06/23，靜待掛牌公告與複審",
     "status_type": "pending",
     "strategy_info": {
       "name": "策略 4: 投信卡位 + 股本佔比型",
@@ -163,12 +163,118 @@
     "performance": null
   },
   {
+    "stock_code": "6584",
+    "company_name": "南俊國際",
+    "bond_name": "南俊國際一",
+    "expected_listing_date": "2026-07-10",
+    "current_stage_index": 1,
+    "status_text": "已發布競拍公告，靜待 T-15 籌碼判定點",
+    "status_type": "pending",
+    "strategy_info": {
+      "name": "策略 4: 投信卡位 + 股本佔比型",
+      "win_rate": 100.0,
+      "avg_return": 43.6
+    },
+    "stations": [
+      {
+        "name": "競拍公告發布",
+        "date": "2026-06-16",
+        "status": "completed",
+        "description": "公會已公告南俊國際一競拍時程，預計 2026-07-10 掛牌。"
+      },
+      {
+        "name": "T-15 籌碼審查",
+        "date": "2026-06-19",
+        "status": "active",
+        "description": "預定 06/19 收盤判定投信累積買超張數與公司股本佔比是否符合條件。"
+      },
+      {
+        "name": "T-14 策略買進",
+        "date": "2026-06-22",
+        "status": "upcoming",
+        "description": "若審查通過，將於開盤進行買入。"
+      },
+      {
+        "name": "T日 掛牌上市",
+        "date": "2026-07-10",
+        "status": "upcoming",
+        "description": "南俊國際一預定掛牌日。"
+      },
+      {
+        "name": "T+1~18 拆解拉抬",
+        "date": "2026-07-13",
+        "status": "upcoming",
+        "description": "待執行持股波段。"
+      },
+      {
+        "name": "T+19 結算出場",
+        "date": "2026-08-06",
+        "status": "upcoming",
+        "description": "預定結算出場日。"
+      }
+    ],
+    "performance": null
+  },
+  {
+    "stock_code": "3702",
+    "company_name": "大聯大",
+    "bond_name": "大聯大二",
+    "expected_listing_date": "2026-07-03",
+    "current_stage_index": 2,
+    "status_text": "不符合條件：T-15 籌碼審查不符，已放棄交易",
+    "status_type": "failed",
+    "strategy_info": {
+      "name": "策略 2: 投信定價前卡位",
+      "win_rate": 100.0,
+      "avg_return": 42.9
+    },
+    "stations": [
+      {
+        "name": "競拍公告發布",
+        "date": "2026-06-12",
+        "status": "completed",
+        "description": "大聯大二競拍時程公告，預計 2026-07-03 掛牌。"
+      },
+      {
+        "name": "T-15 籌碼審查",
+        "date": "2026-06-15",
+        "status": "failed",
+        "description": "❌ 籌碼不符：投信累積買超僅 250 張，未達 2,000 張門檻且佔股本 0.015% 未達 0.5%。"
+      },
+      {
+        "name": "T-14 策略買進",
+        "date": "2026-06-16",
+        "status": "upcoming",
+        "description": "已放棄買進。"
+      },
+      {
+        "name": "T日 掛牌上市",
+        "date": "2026-07-03",
+        "status": "upcoming",
+        "description": "無持股掛牌。"
+      },
+      {
+        "name": "T+1~18 拆解拉抬",
+        "date": "2026-07-06",
+        "status": "upcoming",
+        "description": "無動作。"
+      },
+      {
+        "name": "T+19 結算出場",
+        "date": "2026-07-30",
+        "status": "upcoming",
+        "description": "無動作。"
+      }
+    ],
+    "performance": null
+  },
+  {
     "stock_code": "2467",
     "company_name": "志皓",
     "bond_name": "志皓二",
     "expected_listing_date": "2026-07-02",
     "current_stage_index": 2,
-    "status_text": "T-15 籌碼審查不符條件，已放棄交易",
+    "status_text": "不符合條件：T-15 籌碼審查不符，已放棄交易",
     "status_type": "failed",
     "strategy_info": {
       "name": "策略 1 & 2: 籌碼卡位型",
@@ -186,7 +292,7 @@
         "name": "T-15 籌碼審查",
         "date": "2026-06-11",
         "status": "failed",
-        "description": "外資累計買超僅 120 張，投信 0 張。未達 2,000 張最低門檻，已剔除交易。"
+        "description": "❌ 籌碼不符：外資累計買超僅 120 張，投信 0 張。未達 2,000 張最低門檻且股本佔比未達 0.5%。"
       },
       {
         "name": "T-14 策略買進",
