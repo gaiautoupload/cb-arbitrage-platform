@@ -44,8 +44,12 @@ echo 📊 [9/10] 重算量化策略回測指標 (analyzer.py)...
 python backend/analyzer.py
 if %errorlevel% neq 0 (echo ❌ 執行失敗! && pause && exit /b %errorlevel%)
 
-echo 🚇 [10/10] 更新執行中 SOP 軌道路線狀態 (daily_monitor.py)...
+echo 🚇 [10/11] 更新執行中 SOP 軌道路線狀態 (daily_monitor.py)...
 python backend/daily_monitor.py
+if %errorlevel% neq 0 (echo ❌ 執行失敗! && pause && exit /b %errorlevel%)
+
+echo 💬 [11/11] 發送 Line 策略買賣訊號推播通知 (line_notifier.py)...
+python backend/line_notifier.py
 if %errorlevel% neq 0 (echo ❌ 執行失敗! && pause && exit /b %errorlevel%)
 
 echo.

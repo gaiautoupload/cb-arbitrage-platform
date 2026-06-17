@@ -12,3 +12,5 @@ backend/data/html_cache/
 *.webp
 *.png
 *.mp4
+
+backend/config.json
