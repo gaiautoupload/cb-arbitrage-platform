@@ -313,28 +313,28 @@
                     <div class="stat-card">
                         <div class="stat-icon">📈</div>
                         <div class="stat-info">
-                            <span class="stat-label">最佳策略平均報酬</span>
-                            <span class="stat-value text-green" id="bond-best-return">-</span>
+                            <span class="stat-label">精華策略年化報酬</span>
+                            <span class="stat-value text-green" id="bond-annualized-return">-</span>
                         </div>
                     </div>
                     <div class="stat-card">
-                        <div class="stat-icon">📉</div>
+                        <div class="stat-icon">💰</div>
                         <div class="stat-info">
-                            <span class="stat-label">最弱策略平均報酬</span>
-                            <span class="stat-value text-red" id="bond-worst-return">-</span>
+                            <span class="stat-label">精華策略平均報酬</span>
+                            <span class="stat-value text-green" id="bond-elite-avg-return">-</span>
                         </div>
                     </div>
                     <div class="stat-card">
                         <div class="stat-icon">⚖️</div>
                         <div class="stat-info">
-                            <span class="stat-label">策略總交易數</span>
+                            <span class="stat-label">精華交易筆數</span>
                             <span class="stat-value text-blue" id="bond-total-trades">-</span>
                         </div>
                     </div>
                     <div class="stat-card">
                         <div class="stat-icon">🎯</div>
                         <div class="stat-info">
-                            <span class="stat-label">整體歷史勝率</span>
+                            <span class="stat-label">精華策略勝率</span>
                             <span class="stat-value" id="bond-overall-win-rate">-</span>
                         </div>
                     </div>
@@ -374,7 +374,7 @@
                 <!-- A. Overview Tab -->
                 <div id="sub-panel-overview" class="sub-tab-panel active-panel card animate-fadeIn" style="padding: 1.5rem;">
                     <div class="flex items-center justify-between flex-wrap gap-3 mb-4">
-                        <h3 class="card-title" style="margin: 0; font-size: 1.1rem;">策略平均報酬與勝率排行</h3>
+                        <h3 class="card-title" style="margin: 0; font-size: 1.1rem;">精華策略年化報酬與勝率排行</h3>
                     </div>
                     <div style="height: 300px; position: relative;">
                         <canvas id="bondStrategyChart"></canvas>
@@ -389,6 +389,7 @@
                                     <th>交易筆數</th>
                                     <th>勝率</th>
                                     <th>平均報酬</th>
+                                    <th>平均年化</th>
                                     <th>最佳交易</th>
                                     <th>最差交易</th>
                                 </tr>
@@ -451,6 +452,7 @@
                                     <th>賣出日期</th>
                                     <th>出場價格</th>
                                     <th>報酬率 (%)</th>
+                                    <th>年化報酬 (%)</th>
                                 </tr>
                             </thead>
                             <tbody id="bond-trades-tbody">
@@ -470,7 +472,7 @@
 
                 <!-- D. Yearly Comparison Tab -->
                 <div id="sub-panel-yearly" class="sub-tab-panel card animate-fadeIn" style="padding: 1.5rem;">
-                    <h3 class="card-title" style="margin-bottom: 1rem; font-size: 1.1rem;">公司債策略年度平均報酬率 (%)</h3>
+                    <h3 class="card-title" style="margin-bottom: 1rem; font-size: 1.1rem;">精華策略年度平均年化報酬率 (%)</h3>
                     <div style="height: 300px; position: relative;">
                         <canvas id="bondYearlyChart"></canvas>
                     </div>
