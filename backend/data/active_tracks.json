@@ -20,13 +20,13 @@
         "description": "公會公告博智二發行時程，定價掛牌日為 2026-07-06。"
       },
       {
-        "name": "T-15 籌碼審查",
+        "name": "T-16 籌碼審查",
         "date": "2026-06-15",
         "status": "completed",
         "description": "累積外資買超 2,450 張，大於 2,000 張門檻，符合進場條件！"
       },
       {
-        "name": "T-14 策略買進",
+        "name": "T-15 策略買進",
         "date": "2026-06-16",
         "status": "completed",
         "description": "開盤以 $142.5 元買進普通股現貨。"
@@ -89,7 +89,7 @@
         "description": "掛牌日回推 15 日為 06/11。因尚在競拍程序中，將於 06/23 開標後重新複審投信籌碼是否符合大於 2,000 張且佔比大於 0.5%。"
       },
       {
-        "name": "T-14 策略買進",
+        "name": "T-15 策略買進",
         "date": "2026-06-12",
         "status": "upcoming",
         "description": "若判定符合條件，開盤買進現貨股票。"
@@ -142,7 +142,7 @@
         "description": "掛牌日回推 15 日為 06/09。因尚在競拍程序中，將於 06/22 開標後重新複審投信籌碼是否符合大於 2,000 張且佔比大於 0.5%。"
       },
       {
-        "name": "T-14 策略買進",
+        "name": "T-15 策略買進",
         "date": "2026-06-10",
         "status": "upcoming",
         "description": "若判定符合條件，開盤買進現貨股票。"
@@ -195,7 +195,7 @@
         "description": "掛牌日回推 15 日為 06/05。因尚在競拍程序中，將於 06/18 開標後重新複審投信籌碼是否符合大於 2,000 張且佔比大於 0.5%。"
       },
       {
-        "name": "T-14 策略買進",
+        "name": "T-15 策略買進",
         "date": "2026-06-08",
         "status": "upcoming",
         "description": "若判定符合條件，開盤買進現貨股票。"
@@ -248,7 +248,7 @@
         "description": "掛牌日回推 15 日為 06/05。因尚在競拍程序中，將於 06/18 開標後重新複審外資籌碼是否符合大於 2,000 張門檻。"
       },
       {
-        "name": "T-14 策略買進",
+        "name": "T-15 策略買進",
         "date": "2026-06-08",
         "status": "upcoming",
         "description": "若判定符合條件，開盤買進現貨股票。"
@@ -289,13 +289,13 @@
         "description": "公會已公告威剛八競拍辦法，預計 2026-07-13 掛牌。"
       },
       {
-        "name": "T-15 籌碼審查",
+        "name": "T-16 籌碼審查",
         "date": "2026-06-22",
         "status": "active",
         "description": "預定 6/22 收盤判定外資/投信累積張數。"
       },
       {
-        "name": "T-14 策略買進",
+        "name": "T-15 策略買進",
         "date": "2026-06-23",
         "status": "upcoming",
         "description": "若審查通過，將於開盤進行買入。"
@@ -342,13 +342,13 @@
         "description": "公會已公告南俊國際一競拍時程，預計 2026-07-10 掛牌。"
       },
       {
-        "name": "T-15 籌碼審查",
+        "name": "T-16 籌碼審查",
         "date": "2026-06-19",
         "status": "active",
         "description": "預定 06/19 收盤判定投信累積買超張數與公司股本佔比是否符合條件。"
       },
       {
-        "name": "T-14 策略買進",
+        "name": "T-15 策略買進",
         "date": "2026-06-22",
         "status": "upcoming",
         "description": "若審查通過，將於開盤進行買入。"
@@ -380,7 +380,7 @@
     "bond_name": "英濟三",
     "expected_listing_date": "2026-06-16",
     "current_stage_index": 2,
-    "status_text": "不符合條件：T-15 籌碼審查不符，已放棄交易",
+    "status_text": "不符合條件：T-16 籌碼審查不符，已放棄交易",
     "status_type": "failed",
     "strategy_info": {
       "name": "策略 1: 外資定價前卡位",
@@ -395,13 +395,13 @@
         "description": "公會公告英濟三發行時程，競拍投標期間為 2026-06-03 至 2026-06-05。"
       },
       {
-        "name": "T-15 籌碼審查",
+        "name": "T-16 籌碼審查",
         "date": "2026-05-26",
         "status": "failed",
         "description": "❌ 籌碼不符：外資累積買超僅 310 張，未達 2,000 張門檻且股本佔比未達 0.5%。"
       },
       {
-        "name": "T-14 策略買進",
+        "name": "T-15 策略買進",
         "date": "2026-05-27",
         "status": "upcoming",
         "description": "已放棄買進。"
@@ -427,7 +427,7 @@
     "bond_name": "大聯大二",
     "expected_listing_date": "2026-07-03",
     "current_stage_index": 2,
-    "status_text": "不符合條件：T-15 籌碼審查不符，已放棄交易",
+    "status_text": "不符合條件：T-16 籌碼審查不符，已放棄交易",
     "status_type": "failed",
     "strategy_info": {
       "name": "策略 2: 投信定價前卡位",
@@ -442,13 +442,13 @@
         "description": "大聯大二競拍時程公告，預計 2026-07-03 掛牌。"
       },
       {
-        "name": "T-15 籌碼審查",
+        "name": "T-16 籌碼審查",
         "date": "2026-06-15",
         "status": "failed",
         "description": "❌ 籌碼不符：投信累積買超僅 250 張，未達 2,000 張門檻且佔股本 0.015% 未達 0.5%。"
       },
       {
-        "name": "T-14 策略買進",
+        "name": "T-15 策略買進",
         "date": "2026-06-16",
         "status": "upcoming",
         "description": "已放棄買進。"
@@ -480,7 +480,7 @@
     "bond_name": "志皓二",
     "expected_listing_date": "2026-07-02",
     "current_stage_index": 2,
-    "status_text": "不符合條件：T-15 籌碼審查不符，已放棄交易",
+    "status_text": "不符合條件：T-16 籌碼審查不符，已放棄交易",
     "status_type": "failed",
     "strategy_info": {
       "name": "策略 1 & 2: 籌碼卡位型",
@@ -495,13 +495,13 @@
         "description": "志皓二競拍時程公告，預定 2026-07-02 掛牌。"
       },
       {
-        "name": "T-15 籌碼審查",
+        "name": "T-16 籌碼審查",
         "date": "2026-06-11",
         "status": "failed",
         "description": "❌ 籌碼不符：外資累計買超僅 120 張，投信 0 張。未達 2,000 張最低門檻且股本佔比未達 0.5%。"
       },
       {
-        "name": "T-14 策略買進",
+        "name": "T-15 策略買進",
         "date": "2026-06-12",
         "status": "upcoming",
         "description": "已放棄買進。"
