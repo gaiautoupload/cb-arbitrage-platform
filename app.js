@@ -5,13 +5,18 @@ let stockPricesCache = {};
 let myChart = null;
 let sharesOutstandingDb = {};
 
-const todayTime = new Date(new Date().toISOString().slice(0, 10)).getTime();
+function localDayTime(date = new Date()) {
+    return new Date(date.getFullYear(), date.getMonth(), date.getDate()).getTime();
+}
+
+const todayTime = localDayTime();
 
 function parseDateTime(value) {
     if (typeof value !== "string") return null;
     const text = value.slice(0, 10);
     if (!/^\d{4}-\d{2}-\d{2}$/.test(text)) return null;
-    const time = new Date(`${text}T00:00:00`).getTime();
+    const [year, month, day] = text.split("-").map(Number);
+    const time = new Date(year, month - 1, day).getTime();
     return Number.isFinite(time) ? time : null;
 }
 
@@ -45,11 +50,72 @@ function trackFocusTime(track) {
     return expected || 0;
 }
 
-function sortTracksByNearestDate(tracks) {
+function sortStationsByDate(stations) {
+    return [...(stations || [])].sort((a, b) => {
+        const timeA = parseDateTime(a.date) || 0;
+        const timeB = parseDateTime(b.date) || 0;
+        return timeA - timeB;
+    });
+}
+
+function stationStatusForDate(station) {
+    const time = parseDateTime(station.date);
+    if (station.status === "upcoming" && Number.isFinite(time) && time < todayTime) {
+        return "completed";
+    }
+    return station.status;
+}
+
+function normalizeTrackStations(track) {
+    return {
+        ...track,
+        stations: sortStationsByDate(track.stations).map(station => ({
+            ...station,
+            status: stationStatusForDate(station)
+        }))
+    };
+}
+
+function latestPastStationTime(track) {
+    const times = (track.stations || [])
+        .map(station => parseDateTime(station.date))
+        .filter(time => Number.isFinite(time) && time <= todayTime);
+    return times.length ? Math.max(...times) : 0;
+}
+
+function nextFutureStationTime(track) {
+    const stationTimes = (track.stations || [])
+        .map(station => parseDateTime(station.date))
+        .filter(time => Number.isFinite(time) && time >= todayTime);
+    const expected = parseDateTime(track.expected_listing_date);
+    const times = [...stationTimes, expected].filter(time => Number.isFinite(time) && time >= todayTime);
+    return times.length ? Math.min(...times) : Number.MAX_SAFE_INTEGER;
+}
+
+function trackStatusRank(track) {
+    if (track.performance || track.current_stage_index >= 4 || track.status_type === "success") return 0;
+    if (track.status_type === "failed") return 3;
+    if (latestPastStationTime(track)) return 1;
+    return 2;
+}
+
+function sortTracksByOperationalPriority(tracks) {
     return [...(tracks || [])].sort((a, b) => {
-        const deltaA = Math.abs(trackFocusTime(a) - todayTime);
-        const deltaB = Math.abs(trackFocusTime(b) - todayTime);
-        return deltaA - deltaB;
+        const rankA = trackStatusRank(a);
+        const rankB = trackStatusRank(b);
+        if (rankA !== rankB) return rankA - rankB;
+
+        if (rankA <= 1) {
+            const latestA = latestPastStationTime(a);
+            const latestB = latestPastStationTime(b);
+            if (latestA !== latestB) return latestB - latestA;
+        }
+
+        const nextA = nextFutureStationTime(a);
+        const nextB = nextFutureStationTime(b);
+        if (nextA !== nextB) return nextA - nextB;
+
+        return trackFocusTime(a) - trackFocusTime(b);
     });
 }
 
@@ -614,7 +680,7 @@ async function loadActiveTracks() {
     try {
         const response = await fetch(`backend/data/active_tracks.json?t=${Date.now()}`);
         if (!response.ok) throw new Error("無法載入執行軌道資料");
-        const tracks = sortTracksByNearestDate(await response.json());
+        const tracks = sortTracksByOperationalPriority((await response.json()).map(normalizeTrackStations));
         updateDataLastUpdated(tracks.flatMap(track => [
             track.expected_listing_date,
             ...(track.stations || []).map(station => station.date)
