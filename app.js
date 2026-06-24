@@ -5,6 +5,74 @@ let stockPricesCache = {};
 let myChart = null;
 let sharesOutstandingDb = {};
 
+const todayTime = new Date(new Date().toISOString().slice(0, 10)).getTime();
+
+function parseDateTime(value) {
+    if (typeof value !== "string") return null;
+    const text = value.slice(0, 10);
+    if (!/^\d{4}-\d{2}-\d{2}$/.test(text)) return null;
+    const time = new Date(`${text}T00:00:00`).getTime();
+    return Number.isFinite(time) ? time : null;
+}
+
+function latestDateString(values) {
+    return values
+        .filter(value => typeof value === "string" && /^\d{4}-\d{2}-\d{2}/.test(value))
+        .map(value => value.slice(0, 10))
+        .sort()
+        .pop() || null;
+}
+
+function bondSortTime(bond) {
+    const dates = [bond.announcement_date, bond.issue_date, bond.high_after_date, bond.low_before_date]
+        .map(parseDateTime)
+        .filter(Number.isFinite);
+    return dates.length ? Math.max(...dates) : 0;
+}
+
+function sortBondsByRecentDate(bonds) {
+    return [...(bonds || [])].sort((a, b) => bondSortTime(b) - bondSortTime(a));
+}
+
+function trackFocusTime(track) {
+    const stationTimes = (track.stations || [])
+        .map(station => parseDateTime(station.date))
+        .filter(Number.isFinite);
+    const expected = parseDateTime(track.expected_listing_date);
+    const futureTimes = [...stationTimes, expected].filter(time => Number.isFinite(time) && time >= todayTime);
+    if (futureTimes.length) return Math.min(...futureTimes);
+    if (stationTimes.length) return Math.max(...stationTimes);
+    return expected || 0;
+}
+
+function sortTracksByNearestDate(tracks) {
+    return [...(tracks || [])].sort((a, b) => {
+        const deltaA = Math.abs(trackFocusTime(a) - todayTime);
+        const deltaB = Math.abs(trackFocusTime(b) - todayTime);
+        return deltaA - deltaB;
+    });
+}
+
+function updateDataLastUpdated(extraDates = []) {
+    const bondDates = (analysisData?.bonds_analysis || []).flatMap(bond => [
+        bond.announcement_date,
+        bond.issue_date,
+        bond.high_after_date,
+        bond.low_before_date
+    ]);
+    const latest = latestDateString([...bondDates, ...extraDates]);
+    const target = document.getElementById("data-last-updated");
+    if (target) target.innerText = latest ? `Latest date: ${latest}` : "Latest date: -";
+}
+
+function debounce(fn, delay = 120) {
+    let timer = null;
+    return (...args) => {
+        clearTimeout(timer);
+        timer = setTimeout(() => fn(...args), delay);
+    };
+}
+
 // Initialize Dashboard
 document.addEventListener("DOMContentLoaded", async () => {
     await loadDashboardData();
@@ -21,6 +89,7 @@ async function loadDashboardData() {
         
         if (!analysisResponse.ok) throw new Error("無法載入分析結果數據");
         analysisData = await analysisResponse.json();
+        analysisData.bonds_analysis = sortBondsByRecentDate(analysisData.bonds_analysis || []);
         
         if (sharesResponse && sharesResponse.ok) {
             sharesOutstandingDb = await sharesResponse.json();
@@ -40,6 +109,7 @@ async function loadDashboardData() {
         
         // Populate Summary Stats
         populateStats();
+        updateDataLastUpdated();
         
         // Populate Table
         populateTable(analysisData.bonds_analysis);
@@ -67,7 +137,8 @@ function populateStats() {
     
     // Average volatility
     const avgVol = bonds.reduce((sum, b) => sum + b.fluctuation_pct, 0) / bonds.length;
-    document.getElementById("stat-avg-volatility").innerText = avgVol.toFixed(2) + "%";
+    const avgVolatilityEl = document.getElementById("stat-avg-volatility");
+    if (avgVolatilityEl) avgVolatilityEl.innerText = avgVol.toFixed(2) + "%";
 }
 
 function renderStrategyCards() {
@@ -127,13 +198,15 @@ function renderStrategyCards() {
 function populateTable(bonds) {
     const tbody = document.getElementById("bonds-table-body");
     tbody.innerHTML = "";
+    const orderedBonds = sortBondsByRecentDate(bonds);
     
-    if (bonds.length === 0) {
+    if (orderedBonds.length === 0) {
         tbody.innerHTML = `<tr><td colspan="15" class="text-center text-muted">無符合的轉換公司債數據</td></tr>`;
         return;
     }
     
-    bonds.forEach(bond => {
+    const fragment = document.createDocumentFragment();
+    orderedBonds.forEach(bond => {
         const tr = document.createElement("tr");
         tr.id = `row-${bond.ticker}`;
         
@@ -162,8 +235,9 @@ function populateTable(bonds) {
             <td><a class="action-link" onclick="selectStock('${bond.ticker}', '${bond.company_name}')">查看圖表</a></td>
         `;
         
-        tbody.appendChild(tr);
+        fragment.appendChild(tr);
     });
+    tbody.appendChild(fragment);
 }
 
 function filterAndRenderTable() {
@@ -186,15 +260,17 @@ function filterAndRenderTable() {
 }
 
 function setupEventListeners() {
+    const debouncedFilterAndRenderTable = debounce(filterAndRenderTable, 120);
+
     // Search input
-    document.getElementById("search-input").addEventListener("input", filterAndRenderTable);
+    document.getElementById("search-input").addEventListener("input", debouncedFilterAndRenderTable);
     
     // Sector Filter
     document.getElementById("sector-filter").addEventListener("change", filterAndRenderTable);
     
     // Inst Filters
-    document.getElementById("filter-foreign-min").addEventListener("input", filterAndRenderTable);
-    document.getElementById("filter-trust-min").addEventListener("input", filterAndRenderTable);
+    document.getElementById("filter-foreign-min").addEventListener("input", debouncedFilterAndRenderTable);
+    document.getElementById("filter-trust-min").addEventListener("input", debouncedFilterAndRenderTable);
     
     // Run Backtest button
     document.getElementById("btn-run-backtest").addEventListener("click", () => {
@@ -538,7 +614,11 @@ async function loadActiveTracks() {
     try {
         const response = await fetch(`backend/data/active_tracks.json?t=${Date.now()}`);
         if (!response.ok) throw new Error("無法載入執行軌道資料");
-        const tracks = await response.json();
+        const tracks = sortTracksByNearestDate(await response.json());
+        updateDataLastUpdated(tracks.flatMap(track => [
+            track.expected_listing_date,
+            ...(track.stations || []).map(station => station.date)
+        ]));
 
         listContainer.innerHTML = "";
 
@@ -547,6 +627,7 @@ async function loadActiveTracks() {
             return;
         }
 
+        const fragment = document.createDocumentFragment();
         tracks.forEach(track => {
             const card = document.createElement("div");
             card.className = "route-card";
@@ -625,8 +706,9 @@ async function loadActiveTracks() {
                     ${stationsHtml}
                 </div>
             `;
-            listContainer.appendChild(card);
+            fragment.appendChild(card);
         });
+        listContainer.appendChild(fragment);
 
     } catch (e) {
         console.error("Error loading active tracks:", e);
