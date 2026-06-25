@@ -708,8 +708,8 @@
     ],
     "performance": {
       "buy_price": 1785.0,
-      "current_price": 1370.0,
-      "return_pct": -23.25,
+      "current_price": 1340.0,
+      "return_pct": -24.93,
       "state": "holding",
       "capital": 1000000
     }
@@ -773,8 +773,8 @@
     ],
     "performance": {
       "buy_price": 31.15,
-      "current_price": 39.25,
-      "return_pct": 26.0,
+      "current_price": 39.3,
+      "return_pct": 26.16,
       "state": "holding",
       "capital": 1000000
     }
