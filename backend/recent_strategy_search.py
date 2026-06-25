@@ -180,7 +180,14 @@ def evaluate_strategies(base_trades, args):
 
                             win_rate = sum(1 for trade in trades if trade["return_pct"] > 0) / len(trades) * 100
                             avg_return = sum(trade["return_pct"] for trade in trades) / len(trades)
-                            if win_rate >= args.min_win_rate or avg_return >= args.min_avg_return:
+                            win_rate_passes = win_rate >= args.min_win_rate
+                            avg_return_passes = avg_return >= args.min_avg_return
+                            if args.match_logic == "and":
+                                strategy_passes = win_rate_passes and avg_return_passes
+                            else:
+                                strategy_passes = win_rate_passes or avg_return_passes
+
+                            if strategy_passes:
                                 matches.append({
                                     "name": strategy_name(entry_offset, exit_offset, lookback, mode, foreign_threshold, trust_threshold),
                                     "entry_offset": entry_offset,
@@ -244,6 +251,7 @@ def parse_args():
     parser.add_argument("--min-trades", type=int, default=3)
     parser.add_argument("--min-win-rate", type=float, default=80.0)
     parser.add_argument("--min-avg-return", type=float, default=50.0)
+    parser.add_argument("--match-logic", choices=["and", "or"], default="or")
     parser.add_argument("--top", type=int, default=30)
     parser.add_argument("--output", default=OUTPUT_PATH)
     parser.set_defaults(
@@ -274,7 +282,7 @@ def main():
             "min_trades": args.min_trades,
             "min_win_rate": args.min_win_rate,
             "min_avg_return": args.min_avg_return,
-            "match_logic": "win_rate >= min_win_rate OR avg_return >= min_avg_return",
+            "match_logic": f"win_rate >= min_win_rate {args.match_logic.upper()} avg_return >= min_avg_return",
         },
         "sample": {
             "events": len(events),
