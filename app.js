@@ -28,6 +28,14 @@ function latestDateString(values) {
         .pop() || null;
 }
 
+function formatDateOnly(time = todayTime) {
+    const date = new Date(time);
+    const year = date.getFullYear();
+    const month = String(date.getMonth() + 1).padStart(2, "0");
+    const day = String(date.getDate()).padStart(2, "0");
+    return `${year}-${month}-${day}`;
+}
+
 function bondSortTime(bond) {
     const dates = [bond.announcement_date, bond.issue_date, bond.high_after_date, bond.low_before_date]
         .map(parseDateTime)
@@ -60,8 +68,15 @@ function sortStationsByDate(stations) {
 
 function stationStatusForDate(station) {
     const time = parseDateTime(station.date);
-    if (station.status === "upcoming" && Number.isFinite(time) && time < todayTime) {
+    if (!Number.isFinite(time)) return station.status;
+    if (station.status === "upcoming" && time < todayTime) {
+        return "stale";
+    }
+    if (station.status === "active" && time < todayTime) {
         return "completed";
+    }
+    if (station.status === "upcoming" && time === todayTime) {
+        return "active";
     }
     return station.status;
 }
@@ -95,6 +110,7 @@ function nextFutureStationTime(track) {
 function trackStatusRank(track) {
     if (track.performance || track.current_stage_index >= 4 || track.status_type === "success") return 0;
     if (track.status_type === "failed") return 3;
+    if ((track.stations || []).some(station => station.status === "stale")) return 1;
     if (latestPastStationTime(track)) return 1;
     return 2;
 }
@@ -119,16 +135,40 @@ function sortTracksByOperationalPriority(tracks) {
     });
 }
 
-function updateDataLastUpdated(extraDates = []) {
-    const bondDates = (analysisData?.bonds_analysis || []).flatMap(bond => [
-        bond.announcement_date,
-        bond.issue_date,
-        bond.high_after_date,
-        bond.low_before_date
-    ]);
-    const latest = latestDateString([...bondDates, ...extraDates]);
+function trackActionSummary(track) {
+    if (track.performance || track.current_stage_index >= 4 || track.status_type === "success") {
+        return "持有中，追蹤掛牌後出場";
+    }
+    if (track.status_type === "failed") {
+        return "策略已排除";
+    }
+
+    const staleStations = (track.stations || []).filter(station => station.status === "stale");
+    if (staleStations.length) {
+        return `${staleStations.length} 個節點待確認`;
+    }
+
+    const nextStation = (track.stations || [])
+        .filter(station => {
+            const time = parseDateTime(station.date);
+            return Number.isFinite(time) && time >= todayTime;
+        })
+        .sort((a, b) => parseDateTime(a.date) - parseDateTime(b.date))[0];
+
+    if (nextStation) return `下一步 ${nextStation.date}：${nextStation.name}`;
+    return "時程已走完，待後台更新";
+}
+
+function trackProgressPercent(track) {
+    const stations = track.stations || [];
+    if (stations.length <= 1) return 0;
+    const progressed = stations.filter(station => ["completed", "active", "stale", "failed"].includes(station.status)).length;
+    return Math.min(100, Math.max(0, ((progressed - 1) / (stations.length - 1)) * 100));
+}
+
+function updateDataLastUpdated() {
     const target = document.getElementById("data-last-updated");
-    if (target) target.innerText = latest ? `Latest date: ${latest}` : "Latest date: -";
+    if (target) target.innerText = `檢視日: ${formatDateOnly()}`;
 }
 
 function debounce(fn, delay = 120) {
@@ -702,6 +742,7 @@ async function loadActiveTracks() {
             let badgeClass = "route-badge";
             if (track.status_type === "success") badgeClass += " success";
             if (track.status_type === "failed") badgeClass += " failed";
+            if ((track.stations || []).some(station => station.status === "stale")) badgeClass += " stale";
 
             // Performance string
             let perfHtml = "";
@@ -730,12 +771,18 @@ async function loadActiveTracks() {
                 if (station.status === "active") stationClass += " active";
                 if (station.status === "failed") stationClass += " failed";
                 if (station.status === "upcoming") stationClass += " upcoming";
+                if (station.status === "stale") stationClass += " stale";
+
+                const stationLabel = station.status === "stale"
+                    ? `<div class="station-state-label">待確認</div>`
+                    : "";
 
                 stationsHtml += `
                     <div class="${stationClass}">
                         <div class="station-dot">${idx + 1}</div>
                         <div class="station-name">${station.name}</div>
                         <div class="station-date">${station.date}</div>
+                        ${stationLabel}
                         <div class="station-desc-tooltip">
                             <strong>${station.name}</strong><br>
                             ${station.description}
@@ -762,13 +809,13 @@ async function loadActiveTracks() {
                         <div class="route-title-group flex items-center gap-2 flex-wrap">
                             <span class="card-tag">${track.stock_code}</span>
                             <h3 class="font-bold text-slate-100" style="margin: 0;">${track.company_name} (${track.stock_code}) - ${track.bond_name}</h3>
-                            <span class="${badgeClass}">${track.status_text}</span>
+                            <span class="${badgeClass}">${trackActionSummary(track)}</span>
                         </div>
                         ${strategyHtml}
                     </div>
                     ${perfHtml}
                 </div>
-                <div class="${mapClass}">
+                <div class="${mapClass}" style="--route-progress: ${trackProgressPercent(track)}%;">
                     ${stationsHtml}
                 </div>
             `;
