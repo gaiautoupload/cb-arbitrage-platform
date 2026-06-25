@@ -310,6 +310,8 @@ def build_performance(prices, indexes, today):
     sell_idx = indexes.get("sell_idx")
     buy_price = price_at(prices, buy_idx, "open")
     if buy_price is None or buy_price <= 0:
+        buy_price = price_at(prices, buy_idx, "close")
+    if buy_price is None or buy_price <= 0:
         return None
 
     sell_date = parse_day(index_date(prices, sell_idx, None))
@@ -337,18 +339,19 @@ def build_performance(prices, indexes, today):
 
 
 def summarize_track(stations, performance, today):
-    stale_count = sum(1 for s in stations if s["status"] == "stale")
-    if stale_count:
-        return f"{stale_count} 個節點待後台資料確認", "pending"
     if performance and performance.get("state") == "closed":
         return "交易已完成，績效已更新", "success"
     if performance and performance.get("state") == "holding":
-        return "持有中，等待出場日", "success"
+        return "持有中，開始計算報酬", "success"
+
+    stale_count = sum(1 for s in stations if s["status"] == "stale")
+    if stale_count:
+        return f"{stale_count} 個節點待後台資料確認", "pending"
 
     future = [s for s in stations if parse_day(s["date"]) and parse_day(s["date"]) >= today]
     if future:
         return f"下一步 {future[0]['date']}：{future[0]['name']}", "pending"
-    return "時程已完成，等待價格資料", "pending"
+    return "待出場或待補資料", "pending"
 
 
 def build_tracks(today=None):

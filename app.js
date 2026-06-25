@@ -868,13 +868,16 @@ function renderYearPerformance(tracks) {
     const performanceTracks = yearTracks.filter(track => track.performance && Number.isFinite(Number(track.performance.return_pct)));
     const closed = performanceTracks.filter(isClosedTrack);
     const holding = performanceTracks.filter(isHoldingTrack);
-    const avgReturn = performanceTracks.length
-        ? performanceTracks.reduce((sum, track) => sum + Number(track.performance.return_pct), 0) / performanceTracks.length
+    const realizedAvgReturn = closed.length
+        ? closed.reduce((sum, track) => sum + Number(track.performance.return_pct), 0) / closed.length
         : 0;
-    const winRate = performanceTracks.length
+    const realizedWinRate = closed.length
+        ? closed.filter(track => Number(track.performance.return_pct) > 0).length / closed.length * 100
+        : 0;
+    const floatingWinRate = performanceTracks.length
         ? performanceTracks.filter(track => Number(track.performance.return_pct) > 0).length / performanceTracks.length * 100
         : 0;
-    const totalReturn = performanceTracks.reduce((sum, track) => sum + Number(track.performance.return_pct), 0);
+    const totalReturn = closed.reduce((sum, track) => sum + Number(track.performance.return_pct), 0);
 
     const wrap = document.createElement("div");
     wrap.className = "year-performance-panel";
@@ -883,9 +886,10 @@ function renderYearPerformance(tracks) {
             <div class="year-stat"><span>今年追蹤</span><strong>${yearTracks.length}</strong></div>
             <div class="year-stat"><span>已出場</span><strong>${closed.length}</strong></div>
             <div class="year-stat"><span>持有中</span><strong>${holding.length}</strong></div>
-            <div class="year-stat"><span>平均報酬</span><strong class="${avgReturn >= 0 ? "text-green" : "text-red"}">${formatPct(avgReturn, 2)}</strong></div>
-            <div class="year-stat"><span>勝率</span><strong>${winRate.toFixed(1)}%</strong></div>
-            <div class="year-stat"><span>報酬合計</span><strong class="${totalReturn >= 0 ? "text-green" : "text-red"}">${formatPct(totalReturn, 2)}</strong></div>
+            <div class="year-stat"><span>已實現平均報酬</span><strong class="${realizedAvgReturn >= 0 ? "text-green" : "text-red"}">${formatPct(realizedAvgReturn, 2)}</strong></div>
+            <div class="year-stat"><span>已實現勝率</span><strong>${realizedWinRate.toFixed(1)}%</strong></div>
+            <div class="year-stat"><span>浮動勝率</span><strong>${floatingWinRate.toFixed(1)}%</strong></div>
+            <div class="year-stat"><span>已實現報酬合計</span><strong class="${totalReturn >= 0 ? "text-green" : "text-red"}">${formatPct(totalReturn, 2)}</strong></div>
         </div>
     `;
     wrap.appendChild(renderTrackSection("今年有績效紀錄", "含已出場與持有中的標的", performanceTracks, true));

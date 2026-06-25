@@ -330,8 +330,8 @@
     "bond_name": "崑鼎綠能環保 可轉債",
     "expected_listing_date": "2026-05-22",
     "current_stage_index": 6,
-    "status_text": "1 個節點待後台資料確認",
-    "status_type": "pending",
+    "status_text": "持有中，開始計算報酬",
+    "status_type": "success",
     "strategy_info": {
       "name": "策略 4: 法人卡位 + 股本佔比",
       "win_rate": 100.0,
@@ -395,8 +395,8 @@
     "bond_name": "霖宏 可轉債",
     "expected_listing_date": "2026-05-26",
     "current_stage_index": 6,
-    "status_text": "1 個節點待後台資料確認",
-    "status_type": "pending",
+    "status_text": "持有中，開始計算報酬",
+    "status_type": "success",
     "strategy_info": {
       "name": "策略 4: 法人卡位 + 股本佔比",
       "win_rate": 100.0,
@@ -460,7 +460,7 @@
     "bond_name": "新應材 可轉債",
     "expected_listing_date": "2026-05-29",
     "current_stage_index": 6,
-    "status_text": "持有中，等待出場日",
+    "status_text": "持有中，開始計算報酬",
     "status_type": "success",
     "strategy_info": {
       "name": "策略 4: 法人卡位 + 股本佔比",
@@ -525,7 +525,7 @@
     "bond_name": "新盛力 可轉債",
     "expected_listing_date": "2026-06-01",
     "current_stage_index": 5,
-    "status_text": "持有中，等待出場日",
+    "status_text": "持有中，開始計算報酬",
     "status_type": "success",
     "strategy_info": {
       "name": "策略 4: 法人卡位 + 股本佔比",
@@ -590,7 +590,7 @@
     "bond_name": "長興材料 可轉債",
     "expected_listing_date": "2026-06-09",
     "current_stage_index": 5,
-    "status_text": "持有中，等待出場日",
+    "status_text": "持有中，開始計算報酬",
     "status_type": "success",
     "strategy_info": {
       "name": "策略 4: 法人卡位 + 股本佔比",
@@ -655,7 +655,7 @@
     "bond_name": "昇達 可轉債",
     "expected_listing_date": "2026-06-10",
     "current_stage_index": 5,
-    "status_text": "持有中，等待出場日",
+    "status_text": "持有中，開始計算報酬",
     "status_type": "success",
     "strategy_info": {
       "name": "策略 4: 法人卡位 + 股本佔比",
@@ -720,7 +720,7 @@
     "bond_name": "岳豐 可轉債",
     "expected_listing_date": "2026-06-11",
     "current_stage_index": 5,
-    "status_text": "持有中，等待出場日",
+    "status_text": "持有中，開始計算報酬",
     "status_type": "success",
     "strategy_info": {
       "name": "策略 4: 法人卡位 + 股本佔比",
@@ -785,7 +785,7 @@
     "bond_name": "英濟三",
     "expected_listing_date": "2026-06-16",
     "current_stage_index": 2,
-    "status_text": "持有中，等待出場日",
+    "status_text": "持有中，開始計算報酬",
     "status_type": "success",
     "strategy_info": {
       "name": "策略 1: 外資定價前卡位",
@@ -838,7 +838,7 @@
     "bond_name": "博智二",
     "expected_listing_date": "2026-07-06",
     "current_stage_index": 2,
-    "status_text": "持有中，等待出場日",
+    "status_text": "持有中，開始計算報酬",
     "status_type": "success",
     "strategy_info": {
       "name": "策略 1: 外資定價前卡位",
