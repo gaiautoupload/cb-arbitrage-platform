@@ -254,6 +254,7 @@ def main():
 
     # Find all unique trading dates from price files
     all_dates = set()
+    today_str = datetime.today().strftime("%Y-%m-%d")
     for code in stock_codes:
         price_file = os.path.join(PRICES_DIR, f"{code}.json")
         if os.path.exists(price_file):
@@ -261,10 +262,13 @@ def main():
                 prices = json.load(pf)
                 for p in prices:
                     d = p["date"]
-                    if "2024-11-01" <= d <= "2026-06-30":
+                    if "2024-11-01" <= d <= today_str:
                         all_dates.add(d)
 
     sorted_dates = sorted(list(all_dates))
+    if not sorted_dates:
+        print("No trading dates found in price files. Run stock_fetcher.py first.")
+        return
     print(f"Compiled {len(sorted_dates)} trading dates from {sorted_dates[0]} to {sorted_dates[-1]}")
 
     # Load existing database

@@ -1,6 +1,7 @@
 import os
 import json
 import time
+from datetime import date as date_cls, timedelta
 import yfinance as yf
 import pandas as pd
 
@@ -11,7 +12,7 @@ PRICES_DIR = os.path.join(DATA_DIR, "prices")
 
 os.makedirs(PRICES_DIR, exist_ok=True)
 
-def fetch_stock_prices(stock_code, start_date="2024-01-01", end_date="2026-07-01"):
+def fetch_stock_prices(stock_code, start_date="2020-01-01", end_date=None):
     """
     Fetch historical prices for a Taiwan stock ticker.
     We try .TWO first (OTC/TPEx), and if that yields no data, we try .TW (TWSE).
@@ -19,6 +20,7 @@ def fetch_stock_prices(stock_code, start_date="2024-01-01", end_date="2026-07-01
     suffixes = [".TWO", ".TW"]
     df = None
     successful_suffix = None
+    end_date = end_date or (date_cls.today() + timedelta(days=1)).strftime("%Y-%m-%d")
     
     for suffix in suffixes:
         ticker = f"{stock_code}{suffix}"
@@ -39,9 +41,9 @@ def fetch_stock_prices(stock_code, start_date="2024-01-01", end_date="2026-07-01
         df.index = df.index.strftime('%Y-%m-%d')
         # Format the dataframe into a dict/JSON list
         records = []
-        for date, row in df.iterrows():
+        for trade_date, row in df.iterrows():
             records.append({
-                "date": date,
+                "date": trade_date,
                 "open": float(row["Open"]),
                 "high": float(row["High"]),
                 "low": float(row["Low"]),

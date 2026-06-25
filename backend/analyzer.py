@@ -195,6 +195,8 @@ def backtest_private_placement(event, prices):
         
     buy_price = prices[buy_idx]["open"]
     sell_price = prices[sell_idx]["close"]
+    if buy_price is None or sell_price is None or buy_price == 0:
+        return None
     ret = (sell_price - buy_price) / buy_price * 100
     
     return {
@@ -226,7 +228,7 @@ def backtest_buyback(event, prices):
         if test_idx >= len(prices):
             break
         close = prices[test_idx]["close"]
-        if close <= lower_limit * 1.05:
+        if close is not None and close <= lower_limit * 1.05:
             buy_idx = test_idx
             break
             
@@ -239,6 +241,8 @@ def backtest_buyback(event, prices):
         
     buy_price = prices[buy_idx]["open"]
     sell_price = prices[sell_idx]["close"]
+    if buy_price is None or sell_price is None or buy_price == 0:
+        return None
     ret = (sell_price - buy_price) / buy_price * 100
     
     return {
@@ -270,6 +274,8 @@ def backtest_tender_offer(event, prices):
         return None
         
     buy_price = prices[buy_idx]["open"]
+    if buy_price is None or buy_price == 0:
+        return None
     # We sell at the tender offer price (tender succeeds)
     ret = (offer_price - buy_price) / buy_price * 100
     
@@ -420,6 +426,8 @@ def main():
                 return None
             p1 = prices[idx1]["close"]
             p2 = prices[idx2]["close"]
+            if p1 is None or p2 is None or p1 == 0:
+                return None
             return {
                 "buy_date": prices[idx1]["date"],
                 "buy_price": p1,
@@ -472,6 +480,8 @@ def main():
                 return None
             p1 = prices[idx1]["close"]
             p2 = prices[idx2]["close"]
+            if p1 is None or p2 is None or p1 == 0:
+                return None
             return {
                 "buy_date": prices[idx1]["date"],
                 "buy_price": p1,

@@ -1,6 +1,7 @@
 # Python temporary files
 __pycache__/
 *.pyc
+.venv/
 
 # Local Crawler Raw Cache
 backend/data/inst_cache/
@@ -12,5 +13,6 @@ backend/data/html_cache/
 *.webp
 *.png
 *.mp4
+backend/data/update_status.json
 
 backend/config.json

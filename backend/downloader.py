@@ -4,9 +4,11 @@ import time
 import base64
 import json
 import urllib.parse
-import requests
+import urllib.error
+import urllib.request
 import random
 from datetime import datetime
+import argparse
 
 # Reconfigure stdout for UTF-8 output on Windows
 sys.stdout.reconfigure(encoding='utf-8')
@@ -39,6 +41,25 @@ def get_headers():
         "X-Requested-With": "XMLHttpRequest"
     }
 
+
+class HttpResponse:
+    def __init__(self, status_code, body):
+        self.status_code = status_code
+        self._body = body
+        self.text = body.decode("utf-8-sig", errors="replace")
+
+    def json(self):
+        return json.loads(self.text)
+
+
+def http_get(url, headers, timeout):
+    req = urllib.request.Request(url, headers=headers, method="GET")
+    try:
+        with urllib.request.urlopen(req, timeout=timeout) as response:
+            return HttpResponse(response.getcode(), response.read())
+    except urllib.error.HTTPError as exc:
+        return HttpResponse(exc.code, exc.read())
+
 def decode_base64(s):
     try:
         # Add padding if needed
@@ -61,7 +82,7 @@ def fetch_monthly_announcements(date_str):
         try:
             headers = get_headers()
             time.sleep(random.uniform(1.5, 3.5))  # Randomized delay
-            response = requests.get(url, headers=headers, timeout=15)
+            response = http_get(url, headers=headers, timeout=15)
             if response.status_code == 200:
                 return response.json()
             elif response.status_code == 429:
@@ -117,7 +138,7 @@ def download_detail_html(data_date, detail_param):
             headers["Accept"] = "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8"
             del headers["X-Requested-With"] # For regular file download
             
-            resp = requests.get(download_url, headers=headers, timeout=15)
+            resp = http_get(download_url, headers=headers, timeout=15)
             if resp.status_code == 200:
                 with open(local_path, "w", encoding="utf-8") as f:
                     f.write(resp.text)
@@ -134,15 +155,30 @@ def download_detail_html(data_date, detail_param):
             time.sleep(5)
     return None
 
+def iter_month_starts(start_year, start_month, end_year, end_month):
+    year = start_year
+    month = start_month
+    while (year, month) <= (end_year, end_month):
+        yield f"{year}/{month:02d}/01"
+        month += 1
+        if month == 13:
+            year += 1
+            month = 1
+
+
+def parse_args():
+    today = datetime.today()
+    parser = argparse.ArgumentParser(description="Download TPEx convertible bond announcements.")
+    parser.add_argument("--start-year", type=int, default=2020)
+    parser.add_argument("--start-month", type=int, default=1)
+    parser.add_argument("--end-year", type=int, default=today.year)
+    parser.add_argument("--end-month", type=int, default=today.month)
+    return parser.parse_args()
+
+
 def main():
-    # Loop from Jan 2025 to June 2026
-    months = []
-    # 2025
-    for m in range(1, 13):
-        months.append(f"2025/{m:02d}/01")
-    # 2026
-    for m in range(1, 7):
-        months.append(f"2026/{m:02d}/01")
+    args = parse_args()
+    months = list(iter_month_starts(args.start_year, args.start_month, args.end_year, args.end_month))
     
     print(f"Crawling months: {months}")
     
@@ -231,4 +267,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-

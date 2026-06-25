@@ -7318,5 +7318,20 @@
     "maturity_date_minguo": null,
     "maturity_date": null,
     "issue_amount": null
+  },
+  {
+    "file_id": "11500040871",
+    "company_name": "正基科技股份有限公司",
+    "bond_name": "正基科技股份有限公司國內第三次無擔保轉換公司債",
+    "cb_code": "65463",
+    "stock_code": "6546",
+    "short_name": "正基三",
+    "announcement_date_minguo": "115年6月22日",
+    "announcement_date": "2026-06-22",
+    "issue_date_minguo": "115年6月30日",
+    "issue_date": "2026-06-30",
+    "maturity_date_minguo": "118年6月30日",
+    "maturity_date": "2029-06-30",
+    "issue_amount": "新台幣2億元整"
   }
 ]

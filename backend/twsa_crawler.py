@@ -4,6 +4,7 @@ import json
 import requests
 from bs4 import BeautifulSoup
 from datetime import datetime
+import time
 
 # Reconfigure stdout/stderr for Windows UTF-8 terminal
 sys.stdout.reconfigure(encoding='utf-8')
@@ -49,8 +50,25 @@ def save_raw_dataset(source_folder, filename, content):
     except Exception as e:
         print(f"Failed to save raw dataset to D:\\dataset: {e}")
 
+
+def request_with_retry(session, method, url, **kwargs):
+    last_error = None
+    for attempt in range(1, 4):
+        try:
+            response = session.request(method, url, timeout=15, **kwargs)
+            if response.status_code in {429, 500, 502, 503, 504} and attempt < 3:
+                time.sleep(10 * attempt)
+                continue
+            return response
+        except Exception as exc:
+            last_error = exc
+            if attempt < 3:
+                time.sleep(10 * attempt)
+    raise last_error
+
 def main():
-    url = "https://web.twsa.org.tw/Edoc2/Default.aspx?Year=2026"
+    current_year = datetime.today().year
+    url = f"https://web.twsa.org.tw/Edoc2/Default.aspx?Year={current_year}"
     headers = {
         "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
         "Content-Type": "application/x-www-form-urlencoded",
@@ -122,7 +140,7 @@ def main():
     print("Fetching TWSA Edoc2 initial page...")
     session = requests.Session()
     try:
-        get_res = session.get(url, headers=headers, timeout=15)
+        get_res = request_with_retry(session, "GET", url, headers=headers)
         if get_res.status_code != 200:
             print("Failed to GET TWSA page")
             return
@@ -139,12 +157,12 @@ def main():
             "__VIEWSTATE": viewstate,
             "__VIEWSTATEGENERATOR": generator,
             "__EVENTVALIDATION": validation,
-            "ctl00$cphMain$ddlYear": "2026",
+            "ctl00$cphMain$ddlYear": str(current_year),
             "ctl00$cphMain$rblReportType": "Auction"
         }
         
         print("Sending PostBack POST to switch to Auction Announcements...")
-        post_res = session.post(url, data=payload, headers=headers, timeout=15)
+        post_res = request_with_retry(session, "POST", url, data=payload, headers=headers)
         if post_res.status_code != 200:
             print("Failed to POST TWSA page")
             return

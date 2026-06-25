@@ -3,7 +3,8 @@ import sys
 import json
 import csv
 import io
-import requests
+import urllib.error
+import urllib.request
 import re
 from datetime import datetime
 
@@ -67,16 +68,23 @@ def save_raw_dataset(source_folder, filename, content):
     except Exception as e:
         print(f"Failed to save raw dataset to D:\\dataset: {e}")
 
+
+def http_get_text(url):
+    req = urllib.request.Request(url, headers=HEADERS, method="GET")
+    with urllib.request.urlopen(req, timeout=30) as resp:
+        raw = resp.read()
+    return resp.getcode(), raw.decode("utf-8-sig", errors="replace")
+
 def fetch_listed_json():
     url = "https://openapi.twse.com.tw/v1/opendata/t187ap04_L"
     print("Fetching Listed JSON from TWSE OpenAPI...")
     try:
-        resp = requests.get(url, headers=HEADERS, timeout=30)
-        if resp.status_code == 200:
+        status, text = http_get_text(url)
+        if status == 200:
             # Save original raw data
-            save_raw_dataset("mops", "t187ap04_L.json", resp.text)
+            save_raw_dataset("mops", "t187ap04_L.json", text)
             
-            records = resp.json()
+            records = json.loads(text)
             standardized = []
             for r in records:
                 standardized.append({
@@ -89,7 +97,7 @@ def fetch_listed_json():
                 })
             return standardized
         else:
-            print(f"Failed to fetch Listed JSON: HTTP {resp.status_code}")
+            print(f"Failed to fetch Listed JSON: HTTP {status}")
     except Exception as e:
         print(f"Error fetching Listed JSON: {e}")
     return []
@@ -98,13 +106,12 @@ def fetch_otc_csv():
     url = "https://mopsfin.twse.com.tw/opendata/t187ap04_O.csv"
     print("Fetching OTC CSV from MOPS...")
     try:
-        resp = requests.get(url, headers=HEADERS, timeout=30)
-        if resp.status_code == 200:
+        status, text = http_get_text(url)
+        if status == 200:
             # Save original raw data
-            save_raw_dataset("mops", "t187ap04_O.csv", resp.text)
+            save_raw_dataset("mops", "t187ap04_O.csv", text)
             
-            resp.encoding = 'utf-8-sig'
-            f = io.StringIO(resp.text)
+            f = io.StringIO(text)
             reader = csv.DictReader(f)
             standardized = []
             for r in reader:
@@ -118,7 +125,7 @@ def fetch_otc_csv():
                 })
             return standardized
         else:
-            print(f"Failed to fetch OTC CSV: HTTP {resp.status_code}")
+            print(f"Failed to fetch OTC CSV: HTTP {status}")
     except Exception as e:
         print(f"Error fetching OTC CSV: {e}")
     return []
