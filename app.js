@@ -713,6 +713,219 @@ window.switchTab = switchTab;
 // ------------------------------------------------------------------
 // Subway Route Timeline Map Renderer
 // ------------------------------------------------------------------
+let activeTrackTab = "today";
+let activeTracksCache = [];
+
+function isClosedTrack(track) {
+    return track.performance?.state === "closed" || String(track.status_text || "").includes("交易已完成");
+}
+
+function isHoldingTrack(track) {
+    return !isClosedTrack(track) && !!track.performance && track.status_type !== "failed";
+}
+
+function isFailedTrack(track) {
+    return track.status_type === "failed" || (track.stations || []).some(station => station.status === "failed");
+}
+
+function stationInDays(station, days) {
+    const time = parseDateTime(station?.date);
+    if (!Number.isFinite(time)) return false;
+    return time >= todayTime && time <= todayTime + days * 24 * 60 * 60 * 1000;
+}
+
+function isExitDueTrack(track) {
+    if (isClosedTrack(track) || isFailedTrack(track)) return false;
+    return (track.stations || []).some(station => (
+        stationInDays(station, 2) &&
+        (station.name.includes("T+19") || station.name.includes("出場") || station.name.includes("結算"))
+    ));
+}
+
+function isUpcomingBuyTrack(track) {
+    if (isHoldingTrack(track) || isClosedTrack(track) || isFailedTrack(track)) return false;
+    return (track.stations || []).some(station => (
+        parseDateTime(station.date) <= todayTime + 7 * 24 * 60 * 60 * 1000 &&
+        (station.name.includes("買進") || station.name.includes("策略買進"))
+    ));
+}
+
+function classifyActiveTracks(tracks) {
+    return {
+        exitDue: tracks.filter(isExitDueTrack),
+        upcomingBuy: tracks.filter(isUpcomingBuyTrack),
+        holding: tracks.filter(isHoldingTrack),
+        closed: tracks.filter(isClosedTrack),
+        failed: tracks.filter(track => isFailedTrack(track) && !isClosedTrack(track))
+    };
+}
+
+function renderRouteCard(track) {
+    const card = document.createElement("div");
+    card.className = "route-card";
+
+    let badgeClass = "route-badge";
+    if (track.status_type === "success") badgeClass += " success";
+    if (track.status_type === "failed") badgeClass += " failed";
+    if ((track.stations || []).some(station => station.status === "stale")) badgeClass += " stale";
+
+    let perfHtml = "";
+    if (track.performance) {
+        const ret = Number(track.performance.return_pct);
+        const retClass = ret >= 0 ? "text-green" : "text-red";
+        perfHtml = `
+            <div class="route-perf-badge ${retClass}">
+                報酬: ${ret >= 0 ? "+" : ""}${ret.toFixed(2)}%
+                ($${Number(track.performance.buy_price).toFixed(2)} ➔ $${Number(track.performance.current_price).toFixed(2)})
+            </div>
+        `;
+    }
+
+    let mapClass = "route-timeline-map";
+    if (track.status_type === "success") mapClass += " route-success";
+    if (track.status_type === "failed") mapClass += " route-failed";
+    if (track.status_type === "pending") mapClass += " route-pending";
+
+    const stationsHtml = (track.stations || []).map((station, idx) => {
+        let stationClass = "station-node";
+        if (station.status === "completed") stationClass += " completed";
+        if (station.status === "active") stationClass += " active";
+        if (station.status === "failed") stationClass += " failed";
+        if (station.status === "upcoming") stationClass += " upcoming";
+        if (station.status === "stale") stationClass += " stale";
+        const stationLabel = station.status === "stale" ? `<div class="station-state-label">待確認</div>` : "";
+
+        return `
+            <div class="${stationClass}">
+                <div class="station-dot">${idx + 1}</div>
+                <div class="station-name">${station.name}</div>
+                <div class="station-date">${station.date}</div>
+                ${stationLabel}
+                <div class="station-desc-tooltip">
+                    <strong>${station.name}</strong><br>
+                    ${station.description || ""}
+                </div>
+            </div>
+        `;
+    }).join("");
+
+    const strategyHtml = track.strategy_info ? `
+        <div class="route-strategy-info text-xs text-slate-400 mt-2.5 flex items-center gap-2 flex-wrap">
+            <span class="route-info-pill">${track.strategy_info.name}</span>
+            <span class="route-info-pill success">勝率: ${Number(track.strategy_info.win_rate || 0).toFixed(1)}%</span>
+            <span class="route-info-pill accent">平均報酬: +${Number(track.strategy_info.avg_return || 0).toFixed(1)}%</span>
+        </div>
+    ` : "";
+
+    card.innerHTML = `
+        <div class="route-header">
+            <div style="flex: 1;">
+                <div class="route-title-group flex items-center gap-2 flex-wrap">
+                    <span class="card-tag">${track.stock_code}</span>
+                    <h3 class="font-bold text-slate-100" style="margin: 0;">${track.company_name} (${track.stock_code}) - ${track.bond_name}</h3>
+                    <span class="${badgeClass}">${trackActionSummary(track)}</span>
+                </div>
+                ${strategyHtml}
+            </div>
+            ${perfHtml}
+        </div>
+        <div class="${mapClass}" style="--route-progress: ${trackProgressPercent(track)}%;">
+            ${stationsHtml}
+        </div>
+    `;
+    return card;
+}
+
+function renderTrackSection(title, subtitle, tracks, open = true) {
+    const details = document.createElement("details");
+    details.className = "ops-section";
+    details.open = open;
+    details.innerHTML = `
+        <summary>
+            <span>
+                <strong>${title}</strong>
+                <small>${subtitle}</small>
+            </span>
+            <b>${tracks.length}</b>
+        </summary>
+        <div class="ops-section-body"></div>
+    `;
+    const body = details.querySelector(".ops-section-body");
+    if (!tracks.length) {
+        body.innerHTML = `<div class="empty-state">目前沒有符合條件的標的</div>`;
+    } else {
+        tracks.forEach(track => body.appendChild(renderRouteCard(track)));
+    }
+    return details;
+}
+
+function renderYearPerformance(tracks) {
+    const thisYear = String(new Date().getFullYear());
+    const yearTracks = tracks.filter(track => (
+        String(track.expected_listing_date || "").startsWith(thisYear) ||
+        (track.stations || []).some(station => String(station.date || "").startsWith(thisYear))
+    ));
+    const performanceTracks = yearTracks.filter(track => track.performance && Number.isFinite(Number(track.performance.return_pct)));
+    const closed = performanceTracks.filter(isClosedTrack);
+    const holding = performanceTracks.filter(isHoldingTrack);
+    const avgReturn = performanceTracks.length
+        ? performanceTracks.reduce((sum, track) => sum + Number(track.performance.return_pct), 0) / performanceTracks.length
+        : 0;
+    const winRate = performanceTracks.length
+        ? performanceTracks.filter(track => Number(track.performance.return_pct) > 0).length / performanceTracks.length * 100
+        : 0;
+    const totalReturn = performanceTracks.reduce((sum, track) => sum + Number(track.performance.return_pct), 0);
+
+    const wrap = document.createElement("div");
+    wrap.className = "year-performance-panel";
+    wrap.innerHTML = `
+        <div class="year-stats-grid">
+            <div class="year-stat"><span>今年追蹤</span><strong>${yearTracks.length}</strong></div>
+            <div class="year-stat"><span>已出場</span><strong>${closed.length}</strong></div>
+            <div class="year-stat"><span>持有中</span><strong>${holding.length}</strong></div>
+            <div class="year-stat"><span>平均報酬</span><strong class="${avgReturn >= 0 ? "text-green" : "text-red"}">${formatPct(avgReturn, 2)}</strong></div>
+            <div class="year-stat"><span>勝率</span><strong>${winRate.toFixed(1)}%</strong></div>
+            <div class="year-stat"><span>報酬合計</span><strong class="${totalReturn >= 0 ? "text-green" : "text-red"}">${formatPct(totalReturn, 2)}</strong></div>
+        </div>
+    `;
+    wrap.appendChild(renderTrackSection("今年有績效紀錄", "含已出場與持有中的標的", performanceTracks, true));
+    return wrap;
+}
+
+function renderActiveTrackTab() {
+    const listContainer = document.getElementById("active-tracks-list");
+    if (!listContainer) return;
+
+    document.querySelectorAll("[data-track-tab]").forEach(btn => {
+        btn.classList.toggle("active", btn.dataset.trackTab === activeTrackTab);
+    });
+
+    const groups = classifyActiveTracks(activeTracksCache);
+    listContainer.innerHTML = "";
+    const fragment = document.createDocumentFragment();
+
+    if (activeTrackTab === "today") {
+        fragment.appendChild(renderTrackSection("這兩天要出清", "T+19 或結算日落在今天到後兩天", groups.exitDue, true));
+        fragment.appendChild(renderTrackSection("即將買入，尚未買入", "買進日已到或未來 7 天內，但尚未有持有績效", groups.upcomingBuy, true));
+    } else if (activeTrackTab === "holding") {
+        fragment.appendChild(renderTrackSection("持有中", "已買入，等待掛牌後出場或結算", groups.holding, true));
+    } else if (activeTrackTab === "closed") {
+        fragment.appendChild(renderTrackSection("已出場", "交易已完成並寫入績效", groups.closed, true));
+        fragment.appendChild(renderTrackSection("籌碼判定失敗", "未通過策略條件，放棄交易", groups.failed, true));
+    } else if (activeTrackTab === "year") {
+        fragment.appendChild(renderYearPerformance(activeTracksCache));
+    }
+
+    listContainer.appendChild(fragment);
+}
+
+function switchActiveTrackTab(tabId) {
+    activeTrackTab = tabId;
+    renderActiveTrackTab();
+}
+
+window.switchActiveTrackTab = switchActiveTrackTab;
+
 async function loadActiveTracks() {
     const listContainer = document.getElementById("active-tracks-list");
     if (!listContainer) return;
@@ -732,6 +945,10 @@ async function loadActiveTracks() {
             listContainer.innerHTML = `<div class="text-center text-muted py-4">目前無進行中的 SOP 監控個股</div>`;
             return;
         }
+
+        activeTracksCache = tracks;
+        renderActiveTrackTab();
+        return;
 
         const fragment = document.createDocumentFragment();
         tracks.forEach(track => {

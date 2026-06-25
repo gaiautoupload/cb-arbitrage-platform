@@ -240,13 +240,18 @@
             <div id="panel-active-tracks" class="tab-content-panel active-panel">
                 <div class="table-header" style="margin-bottom: 1.5rem;">
                     <div>
-                        <h2 class="card-title" style="font-size: 1.5rem; font-weight: 700; margin-bottom: 0.25rem;">🚇 執行中 SOP 軌道監控看板</h2>
-                        <p class="card-desc" style="margin-bottom: 0;">即時追蹤公會發布之最新競拍公告，並依 SOP 自動進行 T-15 籌碼判定、買入與賣出動作。</p>
+                        <h2 class="card-title" style="font-size: 1.5rem; font-weight: 700; margin-bottom: 0.25rem;">公司債策略操作看板</h2>
+                        <p class="card-desc" style="margin-bottom: 0;">依照出清、買入、持有、已結束與年度績效分流。</p>
                     </div>
                 </div>
+                <div class="ops-tab-bar" id="active-track-subtabs">
+                    <button class="ops-tab-btn active" data-track-tab="today" onclick="switchActiveTrackTab('today')">今日操作</button>
+                    <button class="ops-tab-btn" data-track-tab="holding" onclick="switchActiveTrackTab('holding')">持有中</button>
+                    <button class="ops-tab-btn" data-track-tab="closed" onclick="switchActiveTrackTab('closed')">已結束</button>
+                    <button class="ops-tab-btn" data-track-tab="year" onclick="switchActiveTrackTab('year')">今年績效</button>
+                </div>
                 <div class="active-tracks-container" id="active-tracks-list">
-                    <!-- Dynamic subway route maps will be rendered here -->
-                    <div class="text-center text-muted py-4">正在加載執行軌跡資料...</div>
+                    <div class="text-center text-muted py-4">正在載入策略操作資料...</div>
                 </div>
             </div>
 
