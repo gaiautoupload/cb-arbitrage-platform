@@ -7333,5 +7333,50 @@
     "maturity_date_minguo": "118年6月30日",
     "maturity_date": "2029-06-30",
     "issue_amount": "新台幣2億元整"
+  },
+  {
+    "file_id": "11500041321",
+    "company_name": "宜鼎國際股份有限公司",
+    "bond_name": "宜鼎國際股份有限公司國內第二次無擔保轉換公司債",
+    "cb_code": "52892",
+    "stock_code": "5289",
+    "short_name": "宜鼎二",
+    "announcement_date_minguo": "115年6月25日",
+    "announcement_date": "2026-06-25",
+    "issue_date_minguo": "115年7月1日",
+    "issue_date": "2026-07-01",
+    "maturity_date_minguo": "118年7月1日",
+    "maturity_date": "2029-07-01",
+    "issue_amount": "新臺幣30億元整"
+  },
+  {
+    "file_id": "11500042041",
+    "company_name": "擎亞電子股份有限公司",
+    "bond_name": "擎亞電子股份有限公司國內第二次無擔保轉換公司債",
+    "cb_code": "80962",
+    "stock_code": "8096",
+    "short_name": "擎亞二",
+    "announcement_date_minguo": "115年6月26日",
+    "announcement_date": "2026-06-26",
+    "issue_date_minguo": "115年7月2日",
+    "issue_date": "2026-07-02",
+    "maturity_date_minguo": "118年7月2日",
+    "maturity_date": "2029-07-02",
+    "issue_amount": "新台幣8億元整"
+  },
+  {
+    "file_id": "11500042121",
+    "company_name": "南俊國際股份有限公司",
+    "bond_name": "南俊國際股份有限公司國內第三次無擔保轉換公司債",
+    "cb_code": "65843",
+    "stock_code": "6584",
+    "short_name": "南俊國際三",
+    "announcement_date_minguo": "115年6月26日",
+    "announcement_date": "2026-06-26",
+    "issue_date_minguo": "115年7月2日",
+    "issue_date": "2026-07-02",
+    "maturity_date_minguo": "118年7月2日",
+    "maturity_date": "2029-07-02",
+    "issue_amount": "新台幣8億元整"
   }
 ]

@@ -1,70 +1,5 @@
 [
   {
-    "stock_code": "5284",
-    "company_name": "經寶精密控股",
-    "bond_name": "經寶精密控股 可轉債",
-    "expected_listing_date": "2026-05-11",
-    "current_stage_index": 6,
-    "status_text": "交易已完成，績效已更新",
-    "status_type": "success",
-    "strategy_info": {
-      "name": "策略 4: 法人卡位 + 股本佔比",
-      "win_rate": 100.0,
-      "avg_return": 43.6
-    },
-    "stations": [
-      {
-        "name": "T-16 籌碼檢查",
-        "date": "2026-04-16",
-        "status": "completed",
-        "description": "檢查外資與投信累積買超是否符合策略門檻。"
-      },
-      {
-        "name": "T-15 策略買進",
-        "date": "2026-04-17",
-        "status": "completed",
-        "description": "符合策略條件時，以隔日開盤價模擬買進。"
-      },
-      {
-        "name": "競拍公告與定價",
-        "date": "2026-04-23",
-        "status": "completed",
-        "description": "確認可轉債競拍公告、發行條件與掛牌時程。"
-      },
-      {
-        "name": "競拍開標與結果",
-        "date": "2026-04-29",
-        "status": "completed",
-        "description": "確認競拍是否完成、承銷價格與後續掛牌節點。"
-      },
-      {
-        "name": "T日 掛牌上市",
-        "date": "2026-05-11",
-        "status": "completed",
-        "description": "可轉債掛牌日，持續追蹤標的股表現。"
-      },
-      {
-        "name": "T+1~18 持有觀察",
-        "date": "2026-05-12",
-        "status": "completed",
-        "description": "持有期間監控價格與法人籌碼變化。"
-      },
-      {
-        "name": "T+19 結算出場",
-        "date": "2026-06-05",
-        "status": "completed",
-        "description": "以 T+19 收盤價模擬賣出並更新策略報酬。"
-      }
-    ],
-    "performance": {
-      "buy_price": 317.0,
-      "current_price": 406.5,
-      "return_pct": 28.23,
-      "state": "closed",
-      "capital": 1000000
-    }
-  },
-  {
     "stock_code": "4503",
     "company_name": "金雨企業",
     "bond_name": "金雨企業 可轉債",
@@ -507,7 +442,7 @@
       {
         "name": "T+19 結算出場",
         "date": "2026-06-25",
-        "status": "active",
+        "status": "stale",
         "description": "以 T+19 收盤價模擬賣出並更新策略報酬。"
       }
     ],
@@ -708,8 +643,8 @@
     ],
     "performance": {
       "buy_price": 1785.0,
-      "current_price": 1340.0,
-      "return_pct": -24.93,
+      "current_price": 1230.0,
+      "return_pct": -31.09,
       "state": "holding",
       "capital": 1000000
     }
@@ -773,8 +708,8 @@
     ],
     "performance": {
       "buy_price": 31.15,
-      "current_price": 39.3,
-      "return_pct": 26.16,
+      "current_price": 36.9,
+      "return_pct": 18.46,
       "state": "holding",
       "capital": 1000000
     }
@@ -828,6 +763,65 @@
       "buy_price": 42.5,
       "current_price": 38.15,
       "return_pct": -10.24,
+      "state": "holding",
+      "capital": 1000000
+    }
+  },
+  {
+    "stock_code": "6546",
+    "company_name": "正基",
+    "bond_name": "正基二",
+    "expected_listing_date": "2026-06-26",
+    "current_stage_index": 4,
+    "status_text": "持有中，開始計算報酬",
+    "status_type": "success",
+    "strategy_info": {
+      "name": "策略 2: 投信定價前卡位",
+      "win_rate": 100.0,
+      "avg_return": 42.9
+    },
+    "stations": [
+      {
+        "name": "T-15 籌碼複審",
+        "date": "2026-06-05",
+        "status": "completed",
+        "description": "掛牌日回推 15 日為 06/05。因尚在競拍程序中，將於 06/18 開標後重新複審投信籌碼是否符合大於 2,000 張且佔比大於 0.5%。"
+      },
+      {
+        "name": "T-15 策略買進",
+        "date": "2026-06-08",
+        "status": "completed",
+        "description": "若判定符合條件，開盤買進現貨股票。"
+      },
+      {
+        "name": "競拍公告與投標",
+        "date": "2026-06-12",
+        "status": "completed",
+        "description": "公會公告正基二發行時程，競拍投標期間為 2026-06-12 至 2026-06-16（已截標）。"
+      },
+      {
+        "name": "競拍開標與結果",
+        "date": "2026-06-18",
+        "status": "completed",
+        "description": "明日 06/18 將進行開標並公告競拍結果。"
+      },
+      {
+        "name": "T日 掛牌上市",
+        "date": "2026-06-26",
+        "status": "active",
+        "description": "正基二預計正式掛牌上市交易。"
+      },
+      {
+        "name": "T+19 結算出場",
+        "date": "2026-07-23",
+        "status": "upcoming",
+        "description": "預定收盤無條件賣出結算。"
+      }
+    ],
+    "performance": {
+      "buy_price": 80.7,
+      "current_price": 68.2,
+      "return_pct": -15.49,
       "state": "holding",
       "capital": 1000000
     }
@@ -895,7 +889,7 @@
     "company_name": "佐登-KY",
     "bond_name": "佐登一",
     "expected_listing_date": "2026-06-26",
-    "current_stage_index": 3,
+    "current_stage_index": 4,
     "status_text": "4 個節點待後台資料確認",
     "status_type": "pending",
     "strategy_info": {
@@ -931,61 +925,8 @@
       {
         "name": "T日 掛牌上市",
         "date": "2026-06-26",
-        "status": "upcoming",
+        "status": "active",
         "description": "佐登一預計正式掛牌上市交易。"
-      },
-      {
-        "name": "T+19 結算出場",
-        "date": "2026-07-23",
-        "status": "upcoming",
-        "description": "預定收盤無條件賣出結算。"
-      }
-    ],
-    "performance": null
-  },
-  {
-    "stock_code": "6546",
-    "company_name": "正基",
-    "bond_name": "正基二",
-    "expected_listing_date": "2026-06-26",
-    "current_stage_index": 3,
-    "status_text": "下一步 2026-06-26：T日 掛牌上市",
-    "status_type": "pending",
-    "strategy_info": {
-      "name": "策略 4: 投信卡位 + 股本佔比型",
-      "win_rate": 100.0,
-      "avg_return": 43.6
-    },
-    "stations": [
-      {
-        "name": "T-15 籌碼複審",
-        "date": "2026-06-05",
-        "status": "completed",
-        "description": "掛牌日回推 15 日為 06/05。因尚在競拍程序中，將於 06/18 開標後重新複審投信籌碼是否符合大於 2,000 張且佔比大於 0.5%。"
-      },
-      {
-        "name": "T-15 策略買進",
-        "date": "2026-06-08",
-        "status": "completed",
-        "description": "若判定符合條件，開盤買進現貨股票。"
-      },
-      {
-        "name": "競拍公告與投標",
-        "date": "2026-06-12",
-        "status": "completed",
-        "description": "公會公告正基二發行時程，競拍投標期間為 2026-06-12 至 2026-06-16（已截標）。"
-      },
-      {
-        "name": "競拍開標與結果",
-        "date": "2026-06-18",
-        "status": "completed",
-        "description": "明日 06/18 將進行開標並公告競拍結果。"
-      },
-      {
-        "name": "T日 掛牌上市",
-        "date": "2026-06-26",
-        "status": "upcoming",
-        "description": "正基二預計正式掛牌上市交易。"
       },
       {
         "name": "T+19 結算出場",
@@ -1002,7 +943,7 @@
     "bond_name": "宜鼎二",
     "expected_listing_date": "2026-06-30",
     "current_stage_index": 3,
-    "status_text": "4 個節點待後台資料確認",
+    "status_text": "下一步 2026-06-30：T日 掛牌上市",
     "status_type": "pending",
     "strategy_info": {
       "name": "策略 4: 投信卡位 + 股本佔比型",
@@ -1013,25 +954,25 @@
       {
         "name": "T-15 籌碼複審",
         "date": "2026-06-09",
-        "status": "stale",
+        "status": "completed",
         "description": "掛牌日回推 15 日為 06/09。因尚在競拍程序中，將於 06/22 開標後重新複審投信籌碼是否符合大於 2,000 張且佔比大於 0.5%。"
       },
       {
         "name": "T-15 策略買進",
         "date": "2026-06-10",
-        "status": "stale",
+        "status": "completed",
         "description": "若判定符合條件，開盤買進現貨股票。"
       },
       {
         "name": "競拍公告與投標",
         "date": "2026-06-15",
-        "status": "stale",
+        "status": "completed",
         "description": "公會公告宜鼎二發行時程，競拍投標期間為 2026-06-15 至 2026-06-17。"
       },
       {
         "name": "競拍開標與結果",
         "date": "2026-06-22",
-        "status": "stale",
+        "status": "completed",
         "description": "訂於 06/22 進行開標並公告結果。"
       },
       {
@@ -1151,6 +1092,65 @@
         "date": "2026-07-29",
         "status": "upcoming",
         "description": "預定收盤無條件賣出結算。"
+      }
+    ],
+    "performance": null
+  },
+  {
+    "stock_code": "8096",
+    "company_name": "擎亞電子股份有限公司",
+    "bond_name": "擎亞電子股份有限公司國內第二次無擔保轉換公司債",
+    "expected_listing_date": "2026-07-02",
+    "current_stage_index": 2,
+    "status_text": "下一步 2026-06-26：競拍公告與定價",
+    "status_type": "pending",
+    "strategy_info": {
+      "name": "策略 4: 法人卡位 + 股本佔比",
+      "win_rate": 100.0,
+      "avg_return": 43.6
+    },
+    "stations": [
+      {
+        "name": "T-16 籌碼檢查",
+        "date": "2026-06-16",
+        "status": "completed",
+        "description": "檢查外資與投信累積買超是否符合策略門檻。"
+      },
+      {
+        "name": "T-15 策略買進",
+        "date": "2026-06-17",
+        "status": "completed",
+        "description": "符合策略條件時，以隔日開盤價模擬買進。"
+      },
+      {
+        "name": "競拍公告與定價",
+        "date": "2026-06-26",
+        "status": "active",
+        "description": "確認可轉債競拍公告、發行條件與掛牌時程。"
+      },
+      {
+        "name": "競拍開標與結果",
+        "date": "2026-07-02",
+        "status": "upcoming",
+        "description": "確認競拍是否完成、承銷價格與後續掛牌節點。"
+      },
+      {
+        "name": "T日 掛牌上市",
+        "date": "2026-07-02",
+        "status": "upcoming",
+        "description": "可轉債掛牌日，持續追蹤標的股表現。"
+      },
+      {
+        "name": "T+1~18 持有觀察",
+        "date": "2026-07-03",
+        "status": "upcoming",
+        "description": "持有期間監控價格與法人籌碼變化。"
+      },
+      {
+        "name": "T+19 結算出場",
+        "date": "2026-07-29",
+        "status": "upcoming",
+        "description": "以 T+19 收盤價模擬賣出並更新策略報酬。"
       }
     ],
     "performance": null

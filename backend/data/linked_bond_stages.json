@@ -15127,5 +15127,98 @@
         "summary": "可轉債正式掛牌交易"
       }
     }
+  },
+  {
+    "stock_code": "5289",
+    "company_name": "宜鼎國際股份有限公司",
+    "short_name": "宜鼎二",
+    "stages": {
+      "BOARD_RESOLUTION": {
+        "date": "2026-04-17",
+        "title": "董事會決議發行無擔保轉換公司債",
+        "sentiment": "NEUTRAL",
+        "summary": "董事會通過發行可轉債以充實營運資金或償還債務"
+      },
+      "EFFECTIVE": {
+        "date": "2026-05-27",
+        "title": "金管會申報生效發行無擔保轉換公司債",
+        "sentiment": "BULLISH",
+        "summary": "可轉債申報生效，正式進入定價與發行準備期"
+      },
+      "PRICING": {
+        "date": "2026-06-25",
+        "title": "公告「宜鼎二」發行及訂價等事宜 (櫃買公告)",
+        "sentiment": "NEUTRAL",
+        "summary": "櫃檯買賣中心公告發行資料"
+      },
+      "LISTING": {
+        "date": "2026-07-01",
+        "title": "「宜鼎二」掛牌買賣/發行日",
+        "sentiment": "BULLISH",
+        "summary": "可轉債正式掛牌交易"
+      }
+    }
+  },
+  {
+    "stock_code": "8096",
+    "company_name": "擎亞電子股份有限公司",
+    "short_name": "擎亞二",
+    "stages": {
+      "BOARD_RESOLUTION": {
+        "date": "2026-04-17",
+        "title": "董事會決議發行無擔保轉換公司債",
+        "sentiment": "NEUTRAL",
+        "summary": "董事會通過發行可轉債以充實營運資金或償還債務"
+      },
+      "EFFECTIVE": {
+        "date": "2026-05-28",
+        "title": "金管會申報生效發行無擔保轉換公司債",
+        "sentiment": "BULLISH",
+        "summary": "可轉債申報生效，正式進入定價與發行準備期"
+      },
+      "PRICING": {
+        "date": "2026-06-26",
+        "title": "公告「擎亞二」發行及訂價等事宜 (櫃買公告)",
+        "sentiment": "NEUTRAL",
+        "summary": "櫃檯買賣中心公告發行資料"
+      },
+      "LISTING": {
+        "date": "2026-07-02",
+        "title": "「擎亞二」掛牌買賣/發行日",
+        "sentiment": "BULLISH",
+        "summary": "可轉債正式掛牌交易"
+      }
+    }
+  },
+  {
+    "stock_code": "6584",
+    "company_name": "南俊國際股份有限公司",
+    "short_name": "南俊國際三",
+    "stages": {
+      "BOARD_RESOLUTION": {
+        "date": "2026-04-17",
+        "title": "董事會決議發行無擔保轉換公司債",
+        "sentiment": "NEUTRAL",
+        "summary": "董事會通過發行可轉債以充實營運資金或償還債務"
+      },
+      "EFFECTIVE": {
+        "date": "2026-05-28",
+        "title": "金管會申報生效發行無擔保轉換公司債",
+        "sentiment": "BULLISH",
+        "summary": "可轉債申報生效，正式進入定價與發行準備期"
+      },
+      "PRICING": {
+        "date": "2026-06-26",
+        "title": "公告「南俊國際三」發行及訂價等事宜 (櫃買公告)",
+        "sentiment": "NEUTRAL",
+        "summary": "櫃檯買賣中心公告發行資料"
+      },
+      "LISTING": {
+        "date": "2026-07-02",
+        "title": "「南俊國際三」掛牌買賣/發行日",
+        "sentiment": "BULLISH",
+        "summary": "可轉債正式掛牌交易"
+      }
+    }
   }
 ]
