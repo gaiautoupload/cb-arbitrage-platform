@@ -808,7 +808,7 @@
       {
         "name": "T日 掛牌上市",
         "date": "2026-06-26",
-        "status": "active",
+        "status": "completed",
         "description": "正基二預計正式掛牌上市交易。"
       },
       {
@@ -890,7 +890,7 @@
     "bond_name": "佐登一",
     "expected_listing_date": "2026-06-26",
     "current_stage_index": 4,
-    "status_text": "4 個節點待後台資料確認",
+    "status_text": "5 個節點待後台資料確認",
     "status_type": "pending",
     "strategy_info": {
       "name": "策略 1: 外資定價前卡位",
@@ -925,7 +925,7 @@
       {
         "name": "T日 掛牌上市",
         "date": "2026-06-26",
-        "status": "active",
+        "status": "stale",
         "description": "佐登一預計正式掛牌上市交易。"
       },
       {
@@ -1102,7 +1102,7 @@
     "bond_name": "擎亞電子股份有限公司國內第二次無擔保轉換公司債",
     "expected_listing_date": "2026-07-02",
     "current_stage_index": 2,
-    "status_text": "下一步 2026-06-26：競拍公告與定價",
+    "status_text": "下一步 2026-07-02：競拍開標與結果",
     "status_type": "pending",
     "strategy_info": {
       "name": "策略 4: 法人卡位 + 股本佔比",
@@ -1125,7 +1125,7 @@
       {
         "name": "競拍公告與定價",
         "date": "2026-06-26",
-        "status": "active",
+        "status": "completed",
         "description": "確認可轉債競拍公告、發行條件與掛牌時程。"
       },
       {
