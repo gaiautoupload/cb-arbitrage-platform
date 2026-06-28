@@ -1,70 +1,5 @@
 [
   {
-    "stock_code": "4503",
-    "company_name": "金雨企業",
-    "bond_name": "金雨企業 可轉債",
-    "expected_listing_date": "2026-05-13",
-    "current_stage_index": 6,
-    "status_text": "交易已完成，績效已更新",
-    "status_type": "success",
-    "strategy_info": {
-      "name": "策略 4: 法人卡位 + 股本佔比",
-      "win_rate": 100.0,
-      "avg_return": 43.6
-    },
-    "stations": [
-      {
-        "name": "T-16 籌碼檢查",
-        "date": "2026-04-20",
-        "status": "completed",
-        "description": "檢查外資與投信累積買超是否符合策略門檻。"
-      },
-      {
-        "name": "T-15 策略買進",
-        "date": "2026-04-21",
-        "status": "completed",
-        "description": "符合策略條件時，以隔日開盤價模擬買進。"
-      },
-      {
-        "name": "競拍公告與定價",
-        "date": "2026-04-27",
-        "status": "completed",
-        "description": "確認可轉債競拍公告、發行條件與掛牌時程。"
-      },
-      {
-        "name": "競拍開標與結果",
-        "date": "2026-05-01",
-        "status": "completed",
-        "description": "確認競拍是否完成、承銷價格與後續掛牌節點。"
-      },
-      {
-        "name": "T日 掛牌上市",
-        "date": "2026-05-13",
-        "status": "completed",
-        "description": "可轉債掛牌日，持續追蹤標的股表現。"
-      },
-      {
-        "name": "T+1~18 持有觀察",
-        "date": "2026-05-14",
-        "status": "completed",
-        "description": "持有期間監控價格與法人籌碼變化。"
-      },
-      {
-        "name": "T+19 結算出場",
-        "date": "2026-06-09",
-        "status": "completed",
-        "description": "以 T+19 收盤價模擬賣出並更新策略報酬。"
-      }
-    ],
-    "performance": {
-      "buy_price": 44.8,
-      "current_price": 37.85,
-      "return_pct": -15.51,
-      "state": "closed",
-      "capital": 1000000
-    }
-  },
-  {
     "stock_code": "4123",
     "company_name": "晟德大藥廠",
     "bond_name": "晟德大藥廠 可轉債",
@@ -459,7 +394,7 @@
     "company_name": "新盛力",
     "bond_name": "新盛力 可轉債",
     "expected_listing_date": "2026-06-01",
-    "current_stage_index": 5,
+    "current_stage_index": 6,
     "status_text": "持有中，開始計算報酬",
     "status_type": "success",
     "strategy_info": {
@@ -507,7 +442,7 @@
       {
         "name": "T+19 結算出場",
         "date": "2026-06-28",
-        "status": "upcoming",
+        "status": "active",
         "description": "以 T+19 收盤價模擬賣出並更新策略報酬。"
       }
     ],
