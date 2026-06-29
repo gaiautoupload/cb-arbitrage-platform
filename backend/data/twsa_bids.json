@@ -442,5 +442,17 @@
     "bidding_shares_thousand": "25,500",
     "bidding_period": "2026/06/16~2026/06/18",
     "min_price": "102.00"
+  },
+  {
+    "serial": "115042",
+    "company_name": "擎亞",
+    "full_company_name": "擎亞電子股份有限公司",
+    "ticker": "8096",
+    "underwriter": "統一綜合證券股份有限公司",
+    "bond_type": "無擔保轉換公司債",
+    "shares_thousand": "5,000",
+    "bidding_shares_thousand": "4,250",
+    "bidding_period": "2026/06/29~2026/07/01",
+    "min_price": "100.00"
   }
 ]

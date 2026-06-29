@@ -1,43 +1,9 @@
 [
   {
     "date": "2026-06-15",
-    "time": "835",
-    "stock_code": "1419",
-    "company_name": "新紡",
-    "event_title": "",
-    "event_type": "OTHER",
-    "stage": "EFFECTIVE",
-    "wiki_details": {
-      "amount": null,
-      "price": null,
-      "partners": [],
-      "buyback_range": []
-    },
-    "sentiment": "NEUTRAL",
-    "summary": "新光金董監事任期屆滿改選，吳東進連任董事長，屬常規人事變動，對股價影響中性。"
-  },
-  {
-    "date": "2026-06-15",
-    "time": "70003",
-    "stock_code": "3708",
-    "company_name": "上緯投控",
-    "event_title": "",
-    "event_type": "OTHER",
-    "stage": "EFFECTIVE",
-    "wiki_details": {
-      "amount": null,
-      "price": null,
-      "partners": [],
-      "buyback_range": []
-    },
-    "sentiment": "NEUTRAL",
-    "summary": "公司更名完成且股票代號不變，屬行政程序變更，對股價無直接影響"
-  },
-  {
-    "date": "2026-06-15",
-    "time": "113731",
-    "stock_code": "3533",
-    "company_name": "嘉澤",
+    "time": "184134",
+    "stock_code": "1314",
+    "company_name": "中石化",
     "event_title": "",
     "event_type": "OTHER",
     "stage": "N/A",
@@ -48,30 +14,13 @@
       "buyback_range": []
     },
     "sentiment": "NEUTRAL",
-    "summary": "公司澄清媒體報導為法人臆測，無實質資本運作或重大營運變動，屬中性訊息"
+    "summary": "公司資訊安全長人事異動，屬一般行政變動，對股價無直接影響。"
   },
   {
     "date": "2026-06-15",
-    "time": "114630",
-    "stock_code": "1736",
-    "company_name": "喬山",
-    "event_title": "",
-    "event_type": "OTHER",
-    "stage": "N/A",
-    "wiki_details": {
-      "amount": null,
-      "price": null,
-      "partners": [],
-      "buyback_range": []
-    },
-    "sentiment": "NEUTRAL",
-    "summary": "公司澄清媒體報導之營收預估為法人臆測，強調以官方公告為準，屬一般資訊澄清事件，無直接交易策略意義。"
-  },
-  {
-    "date": "2026-06-15",
-    "time": "132904",
-    "stock_code": "3704",
-    "company_name": "合勤控",
+    "time": "222613",
+    "stock_code": "1340",
+    "company_name": "勝悅-KY",
     "event_title": "",
     "event_type": "OTHER",
     "stage": "EFFECTIVE",
@@ -82,24 +31,7 @@
       "buyback_range": []
     },
     "sentiment": "NEUTRAL",
-    "summary": "合勤投資補選董事，屬常規人事變動，對股價影響中性。"
-  },
-  {
-    "date": "2026-06-15",
-    "time": "140023",
-    "stock_code": "7768",
-    "company_name": "頌勝科技",
-    "event_title": "",
-    "event_type": "OTHER",
-    "stage": "N/A",
-    "wiki_details": {
-      "amount": null,
-      "price": null,
-      "partners": [],
-      "buyback_range": []
-    },
-    "sentiment": "NEUTRAL",
-    "summary": "副總經理職務調整屬一般人事異動，對公司營運與股價影響中性，無顯著交易策略含意。"
+    "summary": "薪資報酬委員會任期屆滿全面改選，屬例行性人事異動，對股價無直接影響"
   },
   {
     "date": "2026-06-15",
@@ -120,12 +52,12 @@
   },
   {
     "date": "2026-06-15",
-    "time": "141518",
-    "stock_code": "6477",
-    "company_name": "安集",
+    "time": "835",
+    "stock_code": "1419",
+    "company_name": "新紡",
     "event_title": "",
     "event_type": "OTHER",
-    "stage": "BOARD_RESOLUTION",
+    "stage": "EFFECTIVE",
     "wiki_details": {
       "amount": null,
       "price": null,
@@ -133,24 +65,7 @@
       "buyback_range": []
     },
     "sentiment": "NEUTRAL",
-    "summary": "公司宣布除息方案，每股配發現金股利0.35元，屬常規財務分配，對股價影響中性。"
-  },
-  {
-    "date": "2026-06-15",
-    "time": "142412",
-    "stock_code": "3008",
-    "company_name": "大立光",
-    "event_title": "",
-    "event_type": "OTHER",
-    "stage": "N/A",
-    "wiki_details": {
-      "amount": "新台幣647,560,741元",
-      "price": null,
-      "partners": [],
-      "buyback_range": []
-    },
-    "sentiment": "NEUTRAL",
-    "summary": "公司處分一批機器設備給無關係人大族激光，交易金額約6.47億元，屬資產處分行為，對財務結構影響中性。"
+    "summary": "新光金董監事任期屆滿改選，吳東進連任董事長，屬常規人事變動，對股價影響中性。"
   },
   {
     "date": "2026-06-15",
@@ -171,12 +86,12 @@
   },
   {
     "date": "2026-06-15",
-    "time": "144051",
-    "stock_code": "3607",
-    "company_name": "谷崧",
+    "time": "171045",
+    "stock_code": "1468",
+    "company_name": "昶和",
     "event_title": "",
-    "event_type": "PRIVATE_PLACEMENT",
-    "stage": "BOARD_RESOLUTION",
+    "event_type": "OTHER",
+    "stage": "EFFECTIVE",
     "wiki_details": {
       "amount": null,
       "price": null,
@@ -184,14 +99,14 @@
       "buyback_range": []
     },
     "sentiment": "NEUTRAL",
-    "summary": "股東會通過私募案但尚未揭露認購對象與價格，市場影響待觀察，屬中性消息"
+    "summary": "董事會任期屆滿全面改選，屬例行性人事變動，對股價無直接重大影響。"
   },
   {
     "date": "2026-06-15",
-    "time": "150346",
-    "stock_code": "6257",
-    "company_name": "矽格",
-    "event_title": "",
+    "time": "151608",
+    "stock_code": "1599",
+    "company_name": "宏佳騰",
+    "event_title": "公告本公司115年股東常會重要決議事項",
     "event_type": "OTHER",
     "stage": "N/A",
     "wiki_details": {
@@ -201,36 +116,16 @@
       "buyback_range": []
     },
     "sentiment": "NEUTRAL",
-    "summary": "僅為線上法人說明會公告，屬常規資訊披露，無直接影響股價之重大資本運作或財務變動"
+    "summary": "股東常會通過盈餘分配、財務報表承認及董事補選等常規決議，屬例行性公司治理事項，對股價無顯著直接影響。"
   },
   {
     "date": "2026-06-15",
-    "time": "150513",
-    "stock_code": "8473",
-    "company_name": "山林水",
-    "event_title": "",
+    "time": "151807",
+    "stock_code": "1599",
+    "company_name": "宏佳騰",
+    "event_title": "公告本公司115年股東常會補選董事當選名單",
     "event_type": "OTHER",
-    "stage": "BOARD_RESOLUTION",
-    "wiki_details": {
-      "amount": "新台幣766,157仟元",
-      "price": null,
-      "partners": [
-        "山林水環境工程(股)公司",
-        "聚勃國際股份有限公司"
-      ],
-      "buyback_range": []
-    },
-    "sentiment": "NEUTRAL",
-    "summary": "公司取得與ROT合約相關之無形資產，屬關係人交易，主要為技術延續及營運整合，對股價影響中性。"
-  },
-  {
-    "date": "2026-06-15",
-    "time": "151036",
-    "stock_code": "2423",
-    "company_name": "固緯",
-    "event_title": "",
-    "event_type": "OTHER",
-    "stage": "BOARD_RESOLUTION",
+    "stage": "EFFECTIVE",
     "wiki_details": {
       "amount": null,
       "price": null,
@@ -238,7 +133,24 @@
       "buyback_range": []
     },
     "sentiment": "NEUTRAL",
-    "summary": "調整事業分割基準日，屬內部組織調整，對財務業務無重大影響"
+    "summary": "董事補選屬一般公司治理變動，非重大資本運作，對股價無直接影響"
+  },
+  {
+    "date": "2026-06-15",
+    "time": "151917",
+    "stock_code": "1599",
+    "company_name": "宏佳騰",
+    "event_title": "公告本公司股東會決議解除新選任董事競業禁止之限制案",
+    "event_type": "OTHER",
+    "stage": "N/A",
+    "wiki_details": {
+      "amount": null,
+      "price": null,
+      "partners": [],
+      "buyback_range": []
+    },
+    "sentiment": "NEUTRAL",
+    "summary": "解除董事競業禁止限制屬常規公司治理事項，對股價無直接財務影響或交易策略意義"
   },
   {
     "date": "2026-06-15",
@@ -259,9 +171,9 @@
   },
   {
     "date": "2026-06-15",
-    "time": "151354",
-    "stock_code": "2354",
-    "company_name": "鴻準",
+    "time": "114630",
+    "stock_code": "1736",
+    "company_name": "喬山",
     "event_title": "",
     "event_type": "OTHER",
     "stage": "N/A",
@@ -272,266 +184,41 @@
       "buyback_range": []
     },
     "sentiment": "NEUTRAL",
-    "summary": "會計主管職務調整屬一般人事異動，對公司營運與股價無重大影響，屬中性消息。"
+    "summary": "公司澄清媒體報導之營收預估為法人臆測，強調以官方公告為準，屬一般資訊澄清事件，無直接交易策略意義。"
   },
   {
     "date": "2026-06-15",
-    "time": "153328",
-    "stock_code": "2885",
-    "company_name": "元大金",
-    "event_title": "",
+    "time": "134556",
+    "stock_code": "2230",
+    "company_name": "泰茂",
+    "event_title": "本公司董事長訂定除息基準日及調整配息率等相關事宜",
     "event_type": "OTHER",
     "stage": "BOARD_RESOLUTION",
     "wiki_details": {
-      "amount": "新台幣150億元",
-      "price": null,
-      "partners": [],
-      "buyback_range": []
-    },
-    "sentiment": "NEUTRAL",
-    "summary": "元大銀行發行次順位金融債券以充實資本適足率，屬一般性籌資行為，對股價影響中性。"
-  },
-  {
-    "date": "2026-06-15",
-    "time": "155028",
-    "stock_code": "6715",
-    "company_name": "嘉基",
-    "event_title": "",
-    "event_type": "OTHER",
-    "stage": "N/A",
-    "wiki_details": {
       "amount": null,
       "price": null,
       "partners": [],
       "buyback_range": []
     },
     "sentiment": "NEUTRAL",
-    "summary": "因可轉債轉換導致流通股本增加，董事會授權調整每股配息金額以維持總股利不變，屬常規財務調整，對股價影響中性。"
+    "summary": "公司因執行庫藏股導致流通在外股數變動，依董事會決議調整現金股利配息率，屬常規性除息公告，對股價無顯著多空影響。"
   },
   {
     "date": "2026-06-15",
-    "time": "155410",
-    "stock_code": "3013",
-    "company_name": "晟銘電",
+    "time": "211021",
+    "stock_code": "2314",
+    "company_name": "台揚",
     "event_title": "",
-    "event_type": "OTHER",
+    "event_type": "PRIVATE_PLACEMENT",
     "stage": "BOARD_RESOLUTION",
     "wiki_details": {
-      "amount": "新台幣82,055,572元",
-      "price": null,
+      "amount": "81,300,813股",
+      "price": "12.30",
       "partners": [],
       "buyback_range": []
     },
     "sentiment": "NEUTRAL",
-    "summary": "公司宣布除息及現金股利發放時程，屬常規財務作業，對股價影響中性。"
-  },
-  {
-    "date": "2026-06-15",
-    "time": "160251",
-    "stock_code": "2611",
-    "company_name": "志信",
-    "event_title": "",
-    "event_type": "OTHER",
-    "stage": "EFFECTIVE",
-    "wiki_details": {
-      "amount": null,
-      "price": null,
-      "partners": [],
-      "buyback_range": []
-    },
-    "sentiment": "NEUTRAL",
-    "summary": "薪資報酬委員會因任期屆滿配合股東常會改選而重新委任，屬例行性人事異動，對股價無顯著影響。"
-  },
-  {
-    "date": "2026-06-15",
-    "time": "160909",
-    "stock_code": "8499",
-    "company_name": "鼎炫-KY",
-    "event_title": "",
-    "event_type": "OTHER",
-    "stage": "N/A",
-    "wiki_details": {
-      "amount": "新台幣1,010,000元",
-      "price": null,
-      "partners": [],
-      "buyback_range": []
-    },
-    "sentiment": "NEUTRAL",
-    "summary": "公司運用自有資金進行短期結構性存款及理財產品投資，獲取約新台幣53萬元利息收入，屬常規資金管理行為，對股價影響中性。"
-  },
-  {
-    "date": "2026-06-15",
-    "time": "161300",
-    "stock_code": "2424",
-    "company_name": "隴華",
-    "event_title": "",
-    "event_type": "OTHER",
-    "stage": "EFFECTIVE",
-    "wiki_details": {
-      "amount": null,
-      "price": null,
-      "partners": [],
-      "buyback_range": []
-    },
-    "sentiment": "NEUTRAL",
-    "summary": "自然人董事因個人因素辭職，但辭任者仍擔任總經理，對公司經營權與日常營運無重大影響，屬中性消息。"
-  },
-  {
-    "date": "2026-06-15",
-    "time": "161530",
-    "stock_code": "3003",
-    "company_name": "健和興",
-    "event_title": "",
-    "event_type": "OTHER",
-    "stage": "N/A",
-    "wiki_details": {
-      "amount": null,
-      "price": null,
-      "partners": [],
-      "buyback_range": []
-    },
-    "sentiment": "BULLISH",
-    "summary": "營收與稅前損益雙雙大幅優於去年同期，顯示營運強勁復甦，單月轉虧為盈，累計EPS達1.51元，屬基本面利多"
-  },
-  {
-    "date": "2026-06-15",
-    "time": "164207",
-    "stock_code": "3593",
-    "company_name": "力銘",
-    "event_title": "",
-    "event_type": "OTHER",
-    "stage": "N/A",
-    "wiki_details": {
-      "amount": null,
-      "price": null,
-      "partners": [],
-      "buyback_range": []
-    },
-    "sentiment": "NEUTRAL",
-    "summary": "公司進行海外事業處副總經理人事異動，屬一般營運管理調整，對股價無直接重大影響。"
-  },
-  {
-    "date": "2026-06-15",
-    "time": "164532",
-    "stock_code": "6965",
-    "company_name": "中傑-KY",
-    "event_title": "",
-    "event_type": "OTHER",
-    "stage": "EFFECTIVE",
-    "wiki_details": {
-      "amount": null,
-      "price": null,
-      "partners": [],
-      "buyback_range": []
-    },
-    "sentiment": "NEUTRAL",
-    "summary": "董事會任期屆滿全面改選，原有經營團隊與獨立董事皆連任，顯示公司治理結構穩定，無重大人事變動風險。"
-  },
-  {
-    "date": "2026-06-15",
-    "time": "170009",
-    "stock_code": "2883",
-    "company_name": "凱基金",
-    "event_title": "",
-    "event_type": "OTHER",
-    "stage": "EFFECTIVE",
-    "wiki_details": {
-      "amount": null,
-      "price": null,
-      "partners": [],
-      "buyback_range": []
-    },
-    "sentiment": "NEUTRAL",
-    "summary": "印尼子公司董事會任期屆滿正常換屆，屬例行性人事變動，對股價無顯著影響。"
-  },
-  {
-    "date": "2026-06-15",
-    "time": "170051",
-    "stock_code": "2498",
-    "company_name": "宏達電",
-    "event_title": "",
-    "event_type": "OTHER",
-    "stage": "N/A",
-    "wiki_details": {
-      "amount": "不超過美金18,000,000元",
-      "price": null,
-      "partners": [
-        "SIF XII-Scale Cayman, L.P."
-      ],
-      "buyback_range": []
-    },
-    "sentiment": "NEUTRAL",
-    "summary": "公司進行非關係人之資產處分或投資，金額約1,800萬美元，佔總資產4.81%，屬一般資金運用，無明顯利多或利空訊號。"
-  },
-  {
-    "date": "2026-06-15",
-    "time": "170528",
-    "stock_code": "2882",
-    "company_name": "國泰金",
-    "event_title": "",
-    "event_type": "OTHER",
-    "stage": "N/A",
-    "wiki_details": {
-      "amount": null,
-      "price": null,
-      "partners": [],
-      "buyback_range": []
-    },
-    "sentiment": "NEUTRAL",
-    "summary": "國泰投信代理發言人職務調整，屬一般人事異動，對股價無顯著影響"
-  },
-  {
-    "date": "2026-06-15",
-    "time": "170709",
-    "stock_code": "6456",
-    "company_name": "GIS-KY",
-    "event_title": "",
-    "event_type": "OTHER",
-    "stage": "BOARD_RESOLUTION",
-    "wiki_details": {
-      "amount": "新台幣10.78億元",
-      "price": null,
-      "partners": [
-        "業桓科技(成都)有限公司"
-      ],
-      "buyback_range": []
-    },
-    "sentiment": "NEUTRAL",
-    "summary": "集團內部生產設備處分，基於營運效益最大化考量，對財務業務無重大影響，屬中性常規交易。"
-  },
-  {
-    "date": "2026-06-15",
-    "time": "171045",
-    "stock_code": "1468",
-    "company_name": "昶和",
-    "event_title": "",
-    "event_type": "OTHER",
-    "stage": "EFFECTIVE",
-    "wiki_details": {
-      "amount": null,
-      "price": null,
-      "partners": [],
-      "buyback_range": []
-    },
-    "sentiment": "NEUTRAL",
-    "summary": "董事會任期屆滿全面改選，屬例行性人事變動，對股價無直接重大影響。"
-  },
-  {
-    "date": "2026-06-15",
-    "time": "171413",
-    "stock_code": "2881",
-    "company_name": "富邦金",
-    "event_title": "",
-    "event_type": "OTHER",
-    "stage": "N/A",
-    "wiki_details": {
-      "amount": null,
-      "price": null,
-      "partners": [],
-      "buyback_range": []
-    },
-    "sentiment": "NEUTRAL",
-    "summary": "董事任期屆滿正常換屆，無重大戰略變動或資金操作意圖，對股價影響中性。"
+    "summary": "公司擬以80%折價私募普通股充實營運週轉金，雖具資金挹注效應，但折價幅度較大且對象未公開，對現有股東權益稀釋影響需留意，整體屬中性消息。"
   },
   {
     "date": "2026-06-15",
@@ -571,42 +258,277 @@
   },
   {
     "date": "2026-06-15",
-    "time": "172655",
-    "stock_code": "3024",
-    "company_name": "憶聲",
+    "time": "151354",
+    "stock_code": "2354",
+    "company_name": "鴻準",
     "event_title": "",
-    "event_type": "BUYBACK",
+    "event_type": "OTHER",
     "stage": "N/A",
     "wiki_details": {
       "amount": null,
       "price": null,
       "partners": [],
-      "buyback_range": [
-        9.8,
-        12.0
-      ]
+      "buyback_range": []
     },
     "sentiment": "NEUTRAL",
-    "summary": "因市價高於買回區間導致庫藏股買回計畫未能執行，反映當前股價相對堅強或公司未達護盤條件"
+    "summary": "會計主管職務調整屬一般人事異動，對公司營運與股價無重大影響，屬中性消息。"
   },
   {
     "date": "2026-06-15",
-    "time": "172700",
-    "stock_code": "9933",
-    "company_name": "中鼎",
+    "time": "151036",
+    "stock_code": "2423",
+    "company_name": "固緯",
+    "event_title": "",
+    "event_type": "OTHER",
+    "stage": "BOARD_RESOLUTION",
+    "wiki_details": {
+      "amount": null,
+      "price": null,
+      "partners": [],
+      "buyback_range": []
+    },
+    "sentiment": "NEUTRAL",
+    "summary": "調整事業分割基準日，屬內部組織調整，對財務業務無重大影響"
+  },
+  {
+    "date": "2026-06-15",
+    "time": "161300",
+    "stock_code": "2424",
+    "company_name": "隴華",
     "event_title": "",
     "event_type": "OTHER",
     "stage": "EFFECTIVE",
     "wiki_details": {
-      "amount": "27,000,000股",
-      "price": "19.70",
+      "amount": null,
+      "price": null,
+      "partners": [],
+      "buyback_range": []
+    },
+    "sentiment": "NEUTRAL",
+    "summary": "自然人董事因個人因素辭職，但辭任者仍擔任總經理，對公司經營權與日常營運無重大影響，屬中性消息。"
+  },
+  {
+    "date": "2026-06-15",
+    "time": "170051",
+    "stock_code": "2498",
+    "company_name": "宏達電",
+    "event_title": "",
+    "event_type": "OTHER",
+    "stage": "N/A",
+    "wiki_details": {
+      "amount": "不超過美金18,000,000元",
+      "price": null,
       "partners": [
-        "緯來電視網股份有限公司"
+        "SIF XII-Scale Cayman, L.P."
       ],
       "buyback_range": []
     },
     "sentiment": "NEUTRAL",
-    "summary": "公司處分開發國際投資股權以聚焦核心業務，屬策略性資產配置，非關係人交易，對損益無直接影響。"
+    "summary": "公司進行非關係人之資產處分或投資，金額約1,800萬美元，佔總資產4.81%，屬一般資金運用，無明顯利多或利空訊號。"
+  },
+  {
+    "date": "2026-06-15",
+    "time": "160251",
+    "stock_code": "2611",
+    "company_name": "志信",
+    "event_title": "",
+    "event_type": "OTHER",
+    "stage": "EFFECTIVE",
+    "wiki_details": {
+      "amount": null,
+      "price": null,
+      "partners": [],
+      "buyback_range": []
+    },
+    "sentiment": "NEUTRAL",
+    "summary": "薪資報酬委員會因任期屆滿配合股東常會改選而重新委任，屬例行性人事異動，對股價無顯著影響。"
+  },
+  {
+    "date": "2026-06-15",
+    "time": "172737",
+    "stock_code": "2736",
+    "company_name": "富野",
+    "event_title": "公告本公司115年股東常會重要決議事項",
+    "event_type": "OTHER",
+    "stage": "EFFECTIVE",
+    "wiki_details": {
+      "amount": null,
+      "price": null,
+      "partners": [],
+      "buyback_range": []
+    },
+    "sentiment": "NEUTRAL",
+    "summary": "股東常會通過虧損撥補及董事補選，屬常規公司治理事項，對股價無顯著直接影響。"
+  },
+  {
+    "date": "2026-06-15",
+    "time": "174002",
+    "stock_code": "2736",
+    "company_name": "富野",
+    "event_title": "公告本公司民國115年股東常會董事補選名單",
+    "event_type": "OTHER",
+    "stage": "EFFECTIVE",
+    "wiki_details": {
+      "amount": null,
+      "price": null,
+      "partners": [],
+      "buyback_range": []
+    },
+    "sentiment": "NEUTRAL",
+    "summary": "董事補選完成，屬正常公司治理變動，對股價無直接重大影響"
+  },
+  {
+    "date": "2026-06-15",
+    "time": "174312",
+    "stock_code": "2736",
+    "company_name": "富野",
+    "event_title": "公告本公司新任法人董事指派代表人",
+    "event_type": "OTHER",
+    "stage": "EFFECTIVE",
+    "wiki_details": {
+      "amount": null,
+      "price": null,
+      "partners": [],
+      "buyback_range": []
+    },
+    "sentiment": "NEUTRAL",
+    "summary": "法人董事代表人異動屬公司治理常規調整，對股價無直接財務影響，屬中性消息。"
+  },
+  {
+    "date": "2026-06-15",
+    "time": "174522",
+    "stock_code": "2736",
+    "company_name": "富野",
+    "event_title": "公告本公司115年股東常會決議通過解除新任董事及其代表人\r\n競業禁止之限制案",
+    "event_type": "OTHER",
+    "stage": "N/A",
+    "wiki_details": {
+      "amount": null,
+      "price": null,
+      "partners": [],
+      "buyback_range": []
+    },
+    "sentiment": "NEUTRAL",
+    "summary": "解除董事競業禁止限制屬常規公司治理事項，對財務業務無影響，屬中性消息。"
+  },
+  {
+    "date": "2026-06-15",
+    "time": "152818",
+    "stock_code": "2745",
+    "company_name": "五福",
+    "event_title": "公告本公司115年股東常會重要決議事項",
+    "event_type": "OTHER",
+    "stage": "N/A",
+    "wiki_details": {
+      "amount": null,
+      "price": null,
+      "partners": [],
+      "buyback_range": []
+    },
+    "sentiment": "NEUTRAL",
+    "summary": "股東常會通過盈餘分配及章程修訂，屬例行性公司治理事項，對股價無顯著直接影響。"
+  },
+  {
+    "date": "2026-06-15",
+    "time": "171413",
+    "stock_code": "2881",
+    "company_name": "富邦金",
+    "event_title": "",
+    "event_type": "OTHER",
+    "stage": "N/A",
+    "wiki_details": {
+      "amount": null,
+      "price": null,
+      "partners": [],
+      "buyback_range": []
+    },
+    "sentiment": "NEUTRAL",
+    "summary": "董事任期屆滿正常換屆，無重大戰略變動或資金操作意圖，對股價影響中性。"
+  },
+  {
+    "date": "2026-06-15",
+    "time": "170528",
+    "stock_code": "2882",
+    "company_name": "國泰金",
+    "event_title": "",
+    "event_type": "OTHER",
+    "stage": "N/A",
+    "wiki_details": {
+      "amount": null,
+      "price": null,
+      "partners": [],
+      "buyback_range": []
+    },
+    "sentiment": "NEUTRAL",
+    "summary": "國泰投信代理發言人職務調整，屬一般人事異動，對股價無顯著影響"
+  },
+  {
+    "date": "2026-06-15",
+    "time": "170009",
+    "stock_code": "2883",
+    "company_name": "凱基金",
+    "event_title": "",
+    "event_type": "OTHER",
+    "stage": "EFFECTIVE",
+    "wiki_details": {
+      "amount": null,
+      "price": null,
+      "partners": [],
+      "buyback_range": []
+    },
+    "sentiment": "NEUTRAL",
+    "summary": "印尼子公司董事會任期屆滿正常換屆，屬例行性人事變動，對股價無顯著影響。"
+  },
+  {
+    "date": "2026-06-15",
+    "time": "153328",
+    "stock_code": "2885",
+    "company_name": "元大金",
+    "event_title": "",
+    "event_type": "OTHER",
+    "stage": "BOARD_RESOLUTION",
+    "wiki_details": {
+      "amount": "新台幣150億元",
+      "price": null,
+      "partners": [],
+      "buyback_range": []
+    },
+    "sentiment": "NEUTRAL",
+    "summary": "元大銀行發行次順位金融債券以充實資本適足率，屬一般性籌資行為，對股價影響中性。"
+  },
+  {
+    "date": "2026-06-15",
+    "time": "182658",
+    "stock_code": "2887",
+    "company_name": "台新新光金",
+    "event_title": "",
+    "event_type": "OTHER",
+    "stage": "EFFECTIVE",
+    "wiki_details": {
+      "amount": null,
+      "price": null,
+      "partners": [],
+      "buyback_range": []
+    },
+    "sentiment": "NEUTRAL",
+    "summary": "子公司更名生效屬行政程序變更，對財務與營運無實質影響，屬中性消息。"
+  },
+  {
+    "date": "2026-06-15",
+    "time": "182746",
+    "stock_code": "2889",
+    "company_name": "國票金",
+    "event_title": "",
+    "event_type": "OTHER",
+    "stage": "BOARD_RESOLUTION",
+    "wiki_details": {
+      "amount": null,
+      "price": null,
+      "partners": [],
+      "buyback_range": []
+    },
+    "sentiment": "NEUTRAL",
+    "summary": "董事長退休並改選，屬正常人事異動，對股價影響中性"
   },
   {
     "date": "2026-06-15",
@@ -648,9 +570,284 @@
   },
   {
     "date": "2026-06-15",
-    "time": "180739",
-    "stock_code": "7760",
-    "company_name": "享溫馨",
+    "time": "161530",
+    "stock_code": "3003",
+    "company_name": "健和興",
+    "event_title": "",
+    "event_type": "OTHER",
+    "stage": "N/A",
+    "wiki_details": {
+      "amount": null,
+      "price": null,
+      "partners": [],
+      "buyback_range": []
+    },
+    "sentiment": "BULLISH",
+    "summary": "營收與稅前損益雙雙大幅優於去年同期，顯示營運強勁復甦，單月轉虧為盈，累計EPS達1.51元，屬基本面利多"
+  },
+  {
+    "date": "2026-06-15",
+    "time": "142412",
+    "stock_code": "3008",
+    "company_name": "大立光",
+    "event_title": "",
+    "event_type": "OTHER",
+    "stage": "N/A",
+    "wiki_details": {
+      "amount": "新台幣647,560,741元",
+      "price": null,
+      "partners": [],
+      "buyback_range": []
+    },
+    "sentiment": "NEUTRAL",
+    "summary": "公司處分一批機器設備給無關係人大族激光，交易金額約6.47億元，屬資產處分行為，對財務結構影響中性。"
+  },
+  {
+    "date": "2026-06-15",
+    "time": "155410",
+    "stock_code": "3013",
+    "company_name": "晟銘電",
+    "event_title": "",
+    "event_type": "OTHER",
+    "stage": "BOARD_RESOLUTION",
+    "wiki_details": {
+      "amount": "新台幣82,055,572元",
+      "price": null,
+      "partners": [],
+      "buyback_range": []
+    },
+    "sentiment": "NEUTRAL",
+    "summary": "公司宣布除息及現金股利發放時程，屬常規財務作業，對股價影響中性。"
+  },
+  {
+    "date": "2026-06-15",
+    "time": "172655",
+    "stock_code": "3024",
+    "company_name": "憶聲",
+    "event_title": "",
+    "event_type": "BUYBACK",
+    "stage": "N/A",
+    "wiki_details": {
+      "amount": null,
+      "price": null,
+      "partners": [],
+      "buyback_range": [
+        9.8,
+        12.0
+      ]
+    },
+    "sentiment": "NEUTRAL",
+    "summary": "因市價高於買回區間導致庫藏股買回計畫未能執行，反映當前股價相對堅強或公司未達護盤條件"
+  },
+  {
+    "date": "2026-06-15",
+    "time": "165528",
+    "stock_code": "3064",
+    "company_name": "泰偉",
+    "event_title": "公告本公司未來三個月預計之現金收支狀況及上一月份之銀\r\n行融資額度使用情形",
+    "event_type": "OTHER",
+    "stage": "N/A",
+    "wiki_details": {
+      "amount": null,
+      "price": null,
+      "partners": [],
+      "buyback_range": []
+    },
+    "sentiment": "NEUTRAL",
+    "summary": "例行性現金收支與融資額度公告，無特殊資本運作或重大戰略變動，對股價影響中性。"
+  },
+  {
+    "date": "2026-06-15",
+    "time": "161204",
+    "stock_code": "3071",
+    "company_name": "協禧",
+    "event_title": "代重要子公司增達電子(惠州)有限公司公告\r\n董事會決議盈餘分配案",
+    "event_type": "OTHER",
+    "stage": "BOARD_RESOLUTION",
+    "wiki_details": {
+      "amount": "null",
+      "price": null,
+      "partners": [],
+      "buyback_range": []
+    },
+    "sentiment": "NEUTRAL",
+    "summary": "子公司增達電子宣告發放現金股利，屬常規盈餘分配，對母公司股價影響中性。"
+  },
+  {
+    "date": "2026-06-15",
+    "time": "161231",
+    "stock_code": "3071",
+    "company_name": "協禧",
+    "event_title": "代重要子公司增達電子(惠州)有限公司\r\n公告股東會重要決議事項",
+    "event_type": "OTHER",
+    "stage": "EFFECTIVE",
+    "wiki_details": {
+      "amount": null,
+      "price": null,
+      "partners": [],
+      "buyback_range": []
+    },
+    "sentiment": "NEUTRAL",
+    "summary": "子公司股東會通過2025年度盈餘分派案，屬常規財務決議，對股價無顯著影響。"
+  },
+  {
+    "date": "2026-06-15",
+    "time": "134449",
+    "stock_code": "3095",
+    "company_name": "及成",
+    "event_title": "公告本公司115年5月份自結合併財務報表之流動比率、速動\r\n比率及負債比率",
+    "event_type": "OTHER",
+    "stage": "N/A",
+    "wiki_details": {
+      "amount": null,
+      "price": null,
+      "partners": [],
+      "buyback_range": []
+    },
+    "sentiment": "NEUTRAL",
+    "summary": "例行性財務指標公告，流動與速動比率顯示短期償債能力良好，但負債比率偏高，屬常規資訊披露，無直接交易策略含意。"
+  },
+  {
+    "date": "2026-06-15",
+    "time": "134518",
+    "stock_code": "3095",
+    "company_name": "及成",
+    "event_title": "公告本公司未來三個月預計之現金收支狀況，及上一月份\r\n之銀行融資額度使用情形",
+    "event_type": "OTHER",
+    "stage": "N/A",
+    "wiki_details": {
+      "amount": null,
+      "price": null,
+      "partners": [],
+      "buyback_range": []
+    },
+    "sentiment": "NEUTRAL",
+    "summary": "例行性現金收支與融資額度公告，屬財務資訊揭露，無直接影響股價之重大資本運作訊號"
+  },
+  {
+    "date": "2026-06-15",
+    "time": "145347",
+    "stock_code": "3265",
+    "company_name": "台星科",
+    "event_title": "公告本公司董事長訂定除息基準日等相關事宜。",
+    "event_type": "OTHER",
+    "stage": "N/A",
+    "wiki_details": {
+      "amount": null,
+      "price": null,
+      "partners": [],
+      "buyback_range": []
+    },
+    "sentiment": "NEUTRAL",
+    "summary": "公告現金股利除息基準日及發放日期，屬常規財務作業，對股價短期影響中性。"
+  },
+  {
+    "date": "2026-06-15",
+    "time": "182643",
+    "stock_code": "3522",
+    "company_name": "御嵿",
+    "event_title": "代重要子公司海峽會美食股份有限公司\r\n公告115年股東會重要決議事項",
+    "event_type": "OTHER",
+    "stage": "N/A",
+    "wiki_details": {
+      "amount": null,
+      "price": null,
+      "partners": [],
+      "buyback_range": []
+    },
+    "sentiment": "NEUTRAL",
+    "summary": "子公司股東會決議承認虧損撥補及財務報表，屬常規性財務程序，無重大資本運作或戰略佈局，對股價影響中性。"
+  },
+  {
+    "date": "2026-06-15",
+    "time": "182712",
+    "stock_code": "3522",
+    "company_name": "御嵿",
+    "event_title": "代重要子公司海峽會美食股份有限公司公告\r\n董事會決議通過現金增資案",
+    "event_type": "OTHER",
+    "stage": "BOARD_RESOLUTION",
+    "wiki_details": {
+      "amount": "新台幣20,000仟元",
+      "price": "10",
+      "partners": [],
+      "buyback_range": []
+    },
+    "sentiment": "NEUTRAL",
+    "summary": "子公司現金增資充實營運資金，屬常規財務操作，對母公司股價影響中性"
+  },
+  {
+    "date": "2026-06-15",
+    "time": "113731",
+    "stock_code": "3533",
+    "company_name": "嘉澤",
+    "event_title": "",
+    "event_type": "OTHER",
+    "stage": "N/A",
+    "wiki_details": {
+      "amount": null,
+      "price": null,
+      "partners": [],
+      "buyback_range": []
+    },
+    "sentiment": "NEUTRAL",
+    "summary": "公司澄清媒體報導為法人臆測，無實質資本運作或重大營運變動，屬中性訊息"
+  },
+  {
+    "date": "2026-06-15",
+    "time": "164207",
+    "stock_code": "3593",
+    "company_name": "力銘",
+    "event_title": "",
+    "event_type": "OTHER",
+    "stage": "N/A",
+    "wiki_details": {
+      "amount": null,
+      "price": null,
+      "partners": [],
+      "buyback_range": []
+    },
+    "sentiment": "NEUTRAL",
+    "summary": "公司進行海外事業處副總經理人事異動，屬一般營運管理調整，對股價無直接重大影響。"
+  },
+  {
+    "date": "2026-06-15",
+    "time": "144051",
+    "stock_code": "3607",
+    "company_name": "谷崧",
+    "event_title": "",
+    "event_type": "PRIVATE_PLACEMENT",
+    "stage": "BOARD_RESOLUTION",
+    "wiki_details": {
+      "amount": null,
+      "price": null,
+      "partners": [],
+      "buyback_range": []
+    },
+    "sentiment": "NEUTRAL",
+    "summary": "股東會通過私募案但尚未揭露認購對象與價格，市場影響待觀察，屬中性消息"
+  },
+  {
+    "date": "2026-06-15",
+    "time": "180338",
+    "stock_code": "3664",
+    "company_name": "安瑞-KY",
+    "event_title": "公告本公司115年05月份自結報表之負債比率、流動\r\n比率、速動比率、現金餘額及銀行融資情形、應收款項、預\r\n估未來三個月現金收支",
+    "event_type": "OTHER",
+    "stage": "N/A",
+    "wiki_details": {
+      "amount": null,
+      "price": null,
+      "partners": [],
+      "buyback_range": []
+    },
+    "sentiment": "BEARISH",
+    "summary": "負債比率達86.14%且流動比率低於100%，顯示財務槓桿高且短期流動性緊繃，雖現金流預估持平但應收帳款逾期金額龐大，反映營運資金回收風險與財務結構脆弱性。"
+  },
+  {
+    "date": "2026-06-15",
+    "time": "132904",
+    "stock_code": "3704",
+    "company_name": "合勤控",
     "event_title": "",
     "event_type": "OTHER",
     "stage": "EFFECTIVE",
@@ -661,7 +858,126 @@
       "buyback_range": []
     },
     "sentiment": "NEUTRAL",
-    "summary": "獨立董事任期屆滿改選，人事結構維持穩定，對股價無顯著影響"
+    "summary": "合勤投資補選董事，屬常規人事變動，對股價影響中性。"
+  },
+  {
+    "date": "2026-06-15",
+    "time": "70003",
+    "stock_code": "3708",
+    "company_name": "上緯投控",
+    "event_title": "",
+    "event_type": "OTHER",
+    "stage": "EFFECTIVE",
+    "wiki_details": {
+      "amount": null,
+      "price": null,
+      "partners": [],
+      "buyback_range": []
+    },
+    "sentiment": "NEUTRAL",
+    "summary": "公司更名完成且股票代號不變，屬行政程序變更，對股價無直接影響"
+  },
+  {
+    "date": "2026-06-15",
+    "time": "162427",
+    "stock_code": "3710",
+    "company_name": "連展投控",
+    "event_title": "代子公司連展科技(深圳)有限公司\r\n依「公開發行公司資金貸與及背書保證處理準則」\r\n第二十五條第一項第二款、第一項第三款之規定公告",
+    "event_type": "OTHER",
+    "stage": "N/A",
+    "wiki_details": {
+      "amount": null,
+      "price": null,
+      "partners": [],
+      "buyback_range": []
+    },
+    "sentiment": "NEUTRAL",
+    "summary": "子公司提供聯屬公司背書保證用於營運週轉，屬常規資金調度行為，對股價無顯著直接影響。"
+  },
+  {
+    "date": "2026-06-15",
+    "time": "162453",
+    "stock_code": "3710",
+    "company_name": "連展投控",
+    "event_title": "依「公開發行公司資金貸與及背書保證處理準則」\r\n第二十五條第一項第二款、第一項第三款之規定公告",
+    "event_type": "OTHER",
+    "stage": "N/A",
+    "wiki_details": {
+      "amount": null,
+      "price": null,
+      "partners": [],
+      "buyback_range": []
+    },
+    "sentiment": "NEUTRAL",
+    "summary": "母公司對100%轉投資子公司提供背書保證以支援營運週轉，屬集團內部資金調度，對市場面影響中性。"
+  },
+  {
+    "date": "2026-06-15",
+    "time": "164502",
+    "stock_code": "3710",
+    "company_name": "連展投控",
+    "event_title": "代重要子公司連展科技股份有限公司公告董事會\r\n決議通過辦理減資彌補虧損",
+    "event_type": "OTHER",
+    "stage": "BOARD_RESOLUTION",
+    "wiki_details": {
+      "amount": "新台幣200,000,000元",
+      "price": null,
+      "partners": [],
+      "buyback_range": []
+    },
+    "sentiment": "NEUTRAL",
+    "summary": "連展科技董事會決議辦理減資彌補虧損，旨在改善財務結構，屬常規財務調整，對股價影響中性。"
+  },
+  {
+    "date": "2026-06-15",
+    "time": "164823",
+    "stock_code": "3710",
+    "company_name": "連展投控",
+    "event_title": "代重要子公司連展科技股份有限公司公告董事會決議\r\n現金增資發行新股",
+    "event_type": "OTHER",
+    "stage": "BOARD_RESOLUTION",
+    "wiki_details": {
+      "amount": "新台幣200,000,000元",
+      "price": "10",
+      "partners": [],
+      "buyback_range": []
+    },
+    "sentiment": "NEUTRAL",
+    "summary": "子公司現金增資充實營運資金，屬常規財務操作，對母公司股價影響中性"
+  },
+  {
+    "date": "2026-06-15",
+    "time": "164939",
+    "stock_code": "3710",
+    "company_name": "連展投控",
+    "event_title": "代重要子公司Grand Assets Limited公告新任財務主管",
+    "event_type": "OTHER",
+    "stage": "N/A",
+    "wiki_details": {
+      "amount": null,
+      "price": null,
+      "partners": [],
+      "buyback_range": []
+    },
+    "sentiment": "NEUTRAL",
+    "summary": "子公司財務主管異動屬一般人事變動，對公司營運與股價無重大影響"
+  },
+  {
+    "date": "2026-06-15",
+    "time": "165033",
+    "stock_code": "3710",
+    "company_name": "連展投控",
+    "event_title": "公告本公司董事會決議現金增資發行新股事宜",
+    "event_type": "OTHER",
+    "stage": "BOARD_RESOLUTION",
+    "wiki_details": {
+      "amount": "新台幣300,000,000元；發行普通股30,000,000股",
+      "price": null,
+      "partners": [],
+      "buyback_range": []
+    },
+    "sentiment": "NEUTRAL",
+    "summary": "董事會決議現金增資，資金用於改善財務結構，價格授權董事長於面額至12元間決定，屬中性財務操作。"
   },
   {
     "date": "2026-06-15",
@@ -682,95 +998,44 @@
   },
   {
     "date": "2026-06-15",
-    "time": "182433",
-    "stock_code": "7769",
-    "company_name": "鴻勁",
-    "event_title": "",
+    "time": "134528",
+    "stock_code": "4175",
+    "company_name": "杏一",
+    "event_title": "公告本公司董事會決議股利配發基準日",
     "event_type": "OTHER",
     "stage": "BOARD_RESOLUTION",
     "wiki_details": {
-      "amount": null,
+      "amount": "新台幣126,969,921元",
       "price": null,
       "partners": [],
       "buyback_range": []
     },
-    "sentiment": "BULLISH",
-    "summary": "公司宣布除息並調整配息率，反映獲利穩定與股東回報意願，對股價具支撐作用"
+    "sentiment": "NEUTRAL",
+    "summary": "公告現金股利配發相關時程，屬常規財務作業，對股價影響中性"
   },
   {
     "date": "2026-06-15",
-    "time": "182658",
-    "stock_code": "2887",
-    "company_name": "台新新光金",
-    "event_title": "",
+    "time": "135607",
+    "stock_code": "4402",
+    "company_name": "郡都開發",
+    "event_title": "本公司有價證券近期多次達公布注意交易資訊標準，\r\n故公告相關訊息，以利投資人區別暸解",
     "event_type": "OTHER",
-    "stage": "EFFECTIVE",
+    "stage": "N/A",
     "wiki_details": {
       "amount": null,
       "price": null,
       "partners": [],
       "buyback_range": []
     },
-    "sentiment": "NEUTRAL",
-    "summary": "子公司更名生效屬行政程序變更，對財務與營運無實質影響，屬中性消息。"
+    "sentiment": "BEARISH",
+    "summary": "營收與淨利雙雙大幅衰退且持續虧損，觸發注意交易資訊標準，反映基本面惡化，投資人應警惕股價波動風險。"
   },
   {
     "date": "2026-06-15",
-    "time": "182746",
-    "stock_code": "2889",
-    "company_name": "國票金",
-    "event_title": "",
-    "event_type": "OTHER",
-    "stage": "BOARD_RESOLUTION",
-    "wiki_details": {
-      "amount": null,
-      "price": null,
-      "partners": [],
-      "buyback_range": []
-    },
-    "sentiment": "NEUTRAL",
-    "summary": "董事長退休並改選，屬正常人事異動，對股價影響中性"
-  },
-  {
-    "date": "2026-06-15",
-    "time": "183404",
-    "stock_code": "5880",
-    "company_name": "合庫金",
-    "event_title": "",
-    "event_type": "OTHER",
-    "stage": "EFFECTIVE",
-    "wiki_details": {
-      "amount": null,
-      "price": null,
-      "partners": [],
-      "buyback_range": []
-    },
-    "sentiment": "NEUTRAL",
-    "summary": "獨立董事任期屆滿辭職，屬正常人事變動，對公司營運與股價無重大影響。"
-  },
-  {
-    "date": "2026-06-15",
-    "time": "183544",
-    "stock_code": "9917",
-    "company_name": "中保科",
-    "event_title": "",
-    "event_type": "OTHER",
-    "stage": "EFFECTIVE",
-    "wiki_details": {
-      "amount": null,
-      "price": null,
-      "partners": [],
-      "buyback_range": []
-    },
-    "sentiment": "NEUTRAL",
-    "summary": "法人董事代表人異動，屬常規人事調整，對股價無顯著影響"
-  },
-  {
-    "date": "2026-06-15",
-    "time": "184134",
-    "stock_code": "1314",
-    "company_name": "中石化",
-    "event_title": "",
+    "time": "191311",
+    "stock_code": "4416",
+    "company_name": "三圓",
+    "event_title": "公告本公司本週到期票據、應償還借款及利息等相關資訊",
     "event_type": "OTHER",
     "stage": "N/A",
     "wiki_details": {
@@ -780,24 +1045,228 @@
       "buyback_range": []
     },
     "sentiment": "NEUTRAL",
-    "summary": "公司資訊安全長人事異動，屬一般行政變動，對股價無直接影響。"
+    "summary": "例行性財務資訊公告，顯示公司資金調度正常且無資金缺口，對股價無顯著影響。"
   },
   {
     "date": "2026-06-15",
-    "time": "195209",
-    "stock_code": "6431",
-    "company_name": "光麗-KY",
-    "event_title": "",
+    "time": "191344",
+    "stock_code": "4416",
+    "company_name": "三圓",
+    "event_title": "公告本公司董事變動達三分之一",
     "event_type": "OTHER",
-    "stage": "BOARD_RESOLUTION",
+    "stage": "EFFECTIVE",
     "wiki_details": {
-      "amount": "新台幣25,000仟元",
+      "amount": null,
       "price": null,
       "partners": [],
       "buyback_range": []
     },
-    "sentiment": "BULLISH",
-    "summary": "子公司以自有資金收購嘉蒂保醫藥100%股權，旨在擴展藥局行銷通路與強化醫療整合服務，預期對每股淨值及盈餘有正面助益。"
+    "sentiment": "NEUTRAL",
+    "summary": "董事變動達三分之一屬公司治理結構調整，無直接財務影響，市場反應通常為中性。"
+  },
+  {
+    "date": "2026-06-15",
+    "time": "191416",
+    "stock_code": "4416",
+    "company_name": "三圓",
+    "event_title": "公告本公司之關係人退票事宜",
+    "event_type": "OTHER",
+    "stage": "N/A",
+    "wiki_details": {
+      "amount": null,
+      "price": null,
+      "partners": [],
+      "buyback_range": []
+    },
+    "sentiment": "BEARISH",
+    "summary": "關係人支票退票顯示信用風險，雖金額不大但反映內部控制或資金鏈潛在問題，屬負面消息"
+  },
+  {
+    "date": "2026-06-15",
+    "time": "191447",
+    "stock_code": "4416",
+    "company_name": "三圓",
+    "event_title": "本公司董事長王雅麟先生退票事由說明",
+    "event_type": "OTHER",
+    "stage": "N/A",
+    "wiki_details": {
+      "amount": "8張，$100,500,000",
+      "price": null,
+      "partners": [],
+      "buyback_range": []
+    },
+    "sentiment": "NEUTRAL",
+    "summary": "董事長個人退票與公司營運無涉，對股價無重大影響，屬中性消息"
+  },
+  {
+    "date": "2026-06-15",
+    "time": "165010",
+    "stock_code": "4523",
+    "company_name": "永彰",
+    "event_title": "公告本公司現金股利除息基準日相關事宜",
+    "event_type": "OTHER",
+    "stage": "N/A",
+    "wiki_details": {
+      "amount": "新台幣171,591,385元",
+      "price": null,
+      "partners": [],
+      "buyback_range": []
+    },
+    "sentiment": "NEUTRAL",
+    "summary": "公告現金股利除息基準日及發放日期，屬常規財務作業，對股價影響中性。"
+  },
+  {
+    "date": "2026-06-15",
+    "time": "112321",
+    "stock_code": "4529",
+    "company_name": "淳紳",
+    "event_title": "代重要子公司萊陽能源(股)公司及金萊陽能源(股)公司公告\r\n董事會重要決議事項。",
+    "event_type": "OTHER",
+    "stage": "BOARD_RESOLUTION",
+    "wiki_details": {
+      "amount": null,
+      "price": null,
+      "partners": [],
+      "buyback_range": []
+    },
+    "sentiment": "NEUTRAL",
+    "summary": "子公司通過114年度盈餘分配及財務報表承認，屬例行性股東會決議，無重大資本運作或戰略變動，對股價影響中性。"
+  },
+  {
+    "date": "2026-06-15",
+    "time": "114413",
+    "stock_code": "4529",
+    "company_name": "淳紳",
+    "event_title": "代重要子公司公告董事會決議發放114年度股利。",
+    "event_type": "OTHER",
+    "stage": "BOARD_RESOLUTION",
+    "wiki_details": {
+      "amount": null,
+      "price": null,
+      "partners": [],
+      "buyback_range": []
+    },
+    "sentiment": "NEUTRAL",
+    "summary": "子公司發放現金股利屬常規財務作業，對母公司股價影響中性"
+  },
+  {
+    "date": "2026-06-15",
+    "time": "134723",
+    "stock_code": "4556",
+    "company_name": "旭然",
+    "event_title": "本公司有價證券近期多次達公布注意交易資訊標準，故公告\r\n相關訊息，以利投資人區別暸解",
+    "event_type": "OTHER",
+    "stage": "N/A",
+    "wiki_details": {
+      "amount": null,
+      "price": null,
+      "partners": [],
+      "buyback_range": []
+    },
+    "sentiment": "NEUTRAL",
+    "summary": "公司因股價波動達標準而發布財務資訊公告，單月獲利衰退但季增表現強勁，屬例行性資訊揭露，無直接重大資本運作影響。"
+  },
+  {
+    "date": "2026-06-15",
+    "time": "185317",
+    "stock_code": "4721",
+    "company_name": "美琪瑪",
+    "event_title": "更正-公告本公司115年股東常會董事改選當選名單\r\n暨董事變動達三分之一",
+    "event_type": "OTHER",
+    "stage": "EFFECTIVE",
+    "wiki_details": {
+      "amount": null,
+      "price": null,
+      "partners": [],
+      "buyback_range": []
+    },
+    "sentiment": "NEUTRAL",
+    "summary": "董事會全面改選且變動達三分之一，屬例行性人事更動，對公司營運與股價影響中性。"
+  },
+  {
+    "date": "2026-06-15",
+    "time": "185453",
+    "stock_code": "4721",
+    "company_name": "美琪瑪",
+    "event_title": "公告本公司決定除息基準日及配息相關事宜",
+    "event_type": "OTHER",
+    "stage": "N/A",
+    "wiki_details": {
+      "amount": null,
+      "price": null,
+      "partners": [],
+      "buyback_range": []
+    },
+    "sentiment": "NEUTRAL",
+    "summary": "公司宣告除息基準日及配息事宜，每股配發現金2.3元，屬常規財務作業，對股價影響中性。"
+  },
+  {
+    "date": "2026-06-15",
+    "time": "174021",
+    "stock_code": "4728",
+    "company_name": "雙美",
+    "event_title": "公告本公司115年股東常會重要決議事項",
+    "event_type": "OTHER",
+    "stage": "EFFECTIVE",
+    "wiki_details": {
+      "amount": null,
+      "price": null,
+      "partners": [],
+      "buyback_range": []
+    },
+    "sentiment": "NEUTRAL",
+    "summary": "股東常會通過盈餘分配、章程修訂及財務報表承認，屬例行性公司治理事項，無重大資本運作或戰略變動，對股價影響中性。"
+  },
+  {
+    "date": "2026-06-15",
+    "time": "145424",
+    "stock_code": "4745",
+    "company_name": "合富-KY",
+    "event_title": "公告本公司115年5月份自結應收帳款餘額及回收情形",
+    "event_type": "OTHER",
+    "stage": "N/A",
+    "wiki_details": {
+      "amount": null,
+      "price": null,
+      "partners": [],
+      "buyback_range": []
+    },
+    "sentiment": "NEUTRAL",
+    "summary": "例行性應收帳款公告，顯示逾期款項主要因公立醫院醫保補助延宕，公司加強催收機制且5月回款提升36%，屬正常營運資訊，無重大股價影響。"
+  },
+  {
+    "date": "2026-06-15",
+    "time": "175713",
+    "stock_code": "4804",
+    "company_name": "大略-KY",
+    "event_title": "公告本公司贖回可轉換公司債後，115年06月-115年08月現金\r\n收支狀況及相關資金調度情形",
+    "event_type": "OTHER",
+    "stage": "N/A",
+    "wiki_details": {
+      "amount": null,
+      "price": null,
+      "partners": [],
+      "buyback_range": []
+    },
+    "sentiment": "NEUTRAL",
+    "summary": "公司已完成可轉債贖回，公告未來三個月現金收支及資金調度，顯示營運現金流穩定且無額外資金缺口，財務狀況中性。"
+  },
+  {
+    "date": "2026-06-15",
+    "time": "70003",
+    "stock_code": "4953",
+    "company_name": "緯致",
+    "event_title": "公告本公司名稱由「緯創軟體股份有限公司」\r\n更名為「緯致科技股份有限公司」，\r\n公告期間：115年6月2日至115年9月1日。",
+    "event_type": "OTHER",
+    "stage": "EFFECTIVE",
+    "wiki_details": {
+      "amount": null,
+      "price": null,
+      "partners": [],
+      "buyback_range": []
+    },
+    "sentiment": "NEUTRAL",
+    "summary": "公司更名完成，股票代號不變，屬行政程序調整，對股價無直接影響"
   },
   {
     "date": "2026-06-15",
@@ -818,27 +1287,44 @@
   },
   {
     "date": "2026-06-15",
-    "time": "211021",
-    "stock_code": "2314",
-    "company_name": "台揚",
-    "event_title": "",
+    "time": "160227",
+    "stock_code": "5015",
+    "company_name": "華祺",
+    "event_title": "公告本公司訂定配息基準日",
+    "event_type": "OTHER",
+    "stage": "N/A",
+    "wiki_details": {
+      "amount": null,
+      "price": null,
+      "partners": [],
+      "buyback_range": []
+    },
+    "sentiment": "NEUTRAL",
+    "summary": "公告除息基準日與配息資訊，屬常規財務作業，對股價無顯著方向性影響"
+  },
+  {
+    "date": "2026-06-15",
+    "time": "181345",
+    "stock_code": "5301",
+    "company_name": "寶得利",
+    "event_title": "公告本公司115年股東常會重要決議事項",
     "event_type": "PRIVATE_PLACEMENT",
     "stage": "BOARD_RESOLUTION",
     "wiki_details": {
-      "amount": "81,300,813股",
-      "price": "12.30",
+      "amount": null,
+      "price": null,
       "partners": [],
       "buyback_range": []
     },
     "sentiment": "NEUTRAL",
-    "summary": "公司擬以80%折價私募普通股充實營運週轉金，雖具資金挹注效應，但折價幅度較大且對象未公開，對現有股東權益稀釋影響需留意，整體屬中性消息。"
+    "summary": "股東常會通過私募發行普通股及減資彌補虧損案，屬常規財務調整，短期市場影響中性"
   },
   {
     "date": "2026-06-15",
-    "time": "222613",
-    "stock_code": "1340",
-    "company_name": "勝悅-KY",
-    "event_title": "",
+    "time": "182037",
+    "stock_code": "5301",
+    "company_name": "寶得利",
+    "event_title": "公告本公司115年股東常會獨立董事補選名單暨董事變動達\r\n三分之一",
     "event_type": "OTHER",
     "stage": "EFFECTIVE",
     "wiki_details": {
@@ -848,14 +1334,48 @@
       "buyback_range": []
     },
     "sentiment": "NEUTRAL",
-    "summary": "薪資報酬委員會任期屆滿全面改選，屬例行性人事異動，對股價無直接影響"
+    "summary": "獨立董事補選生效，董事變動達三分之一屬法定公告事項，對股價無直接財務影響，屬中性消息。"
   },
   {
     "date": "2026-06-15",
-    "time": "232729",
-    "stock_code": "7765",
-    "company_name": "中華資安",
-    "event_title": "",
+    "time": "182154",
+    "stock_code": "5301",
+    "company_name": "寶得利",
+    "event_title": "公告本公司115年股東常會通過解除新任董事競業禁止限制案",
+    "event_type": "OTHER",
+    "stage": "N/A",
+    "wiki_details": {
+      "amount": null,
+      "price": null,
+      "partners": [],
+      "buyback_range": []
+    },
+    "sentiment": "NEUTRAL",
+    "summary": "解除董事競業禁止限制屬常規公司治理事項，對財務業務無影響，屬中性消息。"
+  },
+  {
+    "date": "2026-06-15",
+    "time": "182302",
+    "stock_code": "5301",
+    "company_name": "寶得利",
+    "event_title": "本公司115年股東常會決議辦理減資彌補虧損致債權人公告",
+    "event_type": "OTHER",
+    "stage": "BOARD_RESOLUTION",
+    "wiki_details": {
+      "amount": "11,961,458股",
+      "price": null,
+      "partners": [],
+      "buyback_range": []
+    },
+    "sentiment": "NEUTRAL",
+    "summary": "寶得利辦理減資彌補虧損，旨在改善財務結構，屬常規財務調整，對股價無直接利多或利空影響。"
+  },
+  {
+    "date": "2026-06-15",
+    "time": "183704",
+    "stock_code": "5301",
+    "company_name": "寶得利",
+    "event_title": "公告本公司遷址案",
     "event_type": "OTHER",
     "stage": "BOARD_RESOLUTION",
     "wiki_details": {
@@ -865,14 +1385,99 @@
       "buyback_range": []
     },
     "sentiment": "NEUTRAL",
-    "summary": "董事長因法人董事改派而退休，屬正常人事異動，對公司營運與股價影響中性，新任董事長選出前暫無重大策略變動。"
+    "summary": "公司遷址屬行政變更，對財務與營運無重大影響，屬中性消息。"
   },
   {
     "date": "2026-06-15",
-    "time": "70003",
-    "stock_code": "4953",
-    "company_name": "緯致",
-    "event_title": "公告本公司名稱由「緯創軟體股份有限公司」\r\n更名為「緯致科技股份有限公司」，\r\n公告期間：115年6月2日至115年9月1日。",
+    "time": "183922",
+    "stock_code": "5301",
+    "company_name": "寶得利",
+    "event_title": "公告本公司內部稽核主管異動",
+    "event_type": "OTHER",
+    "stage": "BOARD_RESOLUTION",
+    "wiki_details": {
+      "amount": null,
+      "price": null,
+      "partners": [],
+      "buyback_range": []
+    },
+    "sentiment": "NEUTRAL",
+    "summary": "內部稽核主管職務調整，屬一般人事異動，對股價無顯著影響"
+  },
+  {
+    "date": "2026-06-15",
+    "time": "134852",
+    "stock_code": "5328",
+    "company_name": "華容",
+    "event_title": "本公司有價證券近期股價異常，故公告相關訊息，\r\n以利投資人區別暸解",
+    "event_type": "OTHER",
+    "stage": "N/A",
+    "wiki_details": {
+      "amount": null,
+      "price": null,
+      "partners": [],
+      "buyback_range": []
+    },
+    "sentiment": "NEUTRAL",
+    "summary": "股價異常波動公告，屬例行性資訊揭露，無直接資金面利多利空，建議投資人注意風險並審慎評估。"
+  },
+  {
+    "date": "2026-06-15",
+    "time": "133651",
+    "stock_code": "5345",
+    "company_name": "馥鴻",
+    "event_title": "本公司有價證券近期多次達公布注意交易資訊標準，\r\n故公告相關訊息，以利投資人區別暸解",
+    "event_type": "OTHER",
+    "stage": "N/A",
+    "wiki_details": {
+      "amount": null,
+      "price": null,
+      "partners": [],
+      "buyback_range": []
+    },
+    "sentiment": "NEUTRAL",
+    "summary": "公司因營收大幅成長但持續虧損，觸發櫃買中心注意交易資訊標準，屬例行性財務揭露，無特殊資本運作訊號。"
+  },
+  {
+    "date": "2026-06-15",
+    "time": "143644",
+    "stock_code": "5353",
+    "company_name": "台林",
+    "event_title": "公告本公司現金股利配息基準日",
+    "event_type": "OTHER",
+    "stage": "N/A",
+    "wiki_details": {
+      "amount": "新台幣75,000,000元",
+      "price": null,
+      "partners": [],
+      "buyback_range": []
+    },
+    "sentiment": "NEUTRAL",
+    "summary": "公告現金股利除息基準日與發放資訊，屬常規財務作業，對股價無顯著方向性影響"
+  },
+  {
+    "date": "2026-06-15",
+    "time": "185818",
+    "stock_code": "5353",
+    "company_name": "台林",
+    "event_title": "公告本公司現金股利配息基準日及調整配息率",
+    "event_type": "OTHER",
+    "stage": "N/A",
+    "wiki_details": {
+      "amount": null,
+      "price": null,
+      "partners": [],
+      "buyback_range": []
+    },
+    "sentiment": "NEUTRAL",
+    "summary": "現金股利配息基準日公告，因限制員工權利新股既得導致流通在外股數變化而微調配息率，屬常規財務作業，對股價無顯著影響"
+  },
+  {
+    "date": "2026-06-15",
+    "time": "161003",
+    "stock_code": "5398",
+    "company_name": "慕康生醫",
+    "event_title": "代子公司育新企業股份有限公司公告法人董事代表人三分之一以上\r\n董事變動",
     "event_type": "OTHER",
     "stage": "EFFECTIVE",
     "wiki_details": {
@@ -882,7 +1487,147 @@
       "buyback_range": []
     },
     "sentiment": "NEUTRAL",
-    "summary": "公司更名完成，股票代號不變，屬行政程序調整，對股價無直接影響"
+    "summary": "代子公司董事會任期屆滿進行常規改選，屬正常公司治理變動，對股價無顯著影響。"
+  },
+  {
+    "date": "2026-06-15",
+    "time": "161932",
+    "stock_code": "5398",
+    "company_name": "慕康生醫",
+    "event_title": "代子公司育新企業股份有限公司公告董事長異動",
+    "event_type": "OTHER",
+    "stage": "BOARD_RESOLUTION",
+    "wiki_details": {
+      "amount": null,
+      "price": null,
+      "partners": [],
+      "buyback_range": []
+    },
+    "sentiment": "NEUTRAL",
+    "summary": "代子公司董事長因任期屆滿及法人改派而異動，屬一般公司治理變動，對股價無直接重大影響。"
+  },
+  {
+    "date": "2026-06-15",
+    "time": "162041",
+    "stock_code": "5398",
+    "company_name": "慕康生醫",
+    "event_title": "代子公司聯崴生技股份有限公司公告法人董事代表人三分之一以上\r\n董事變動",
+    "event_type": "OTHER",
+    "stage": "EFFECTIVE",
+    "wiki_details": {
+      "amount": null,
+      "price": null,
+      "partners": [],
+      "buyback_range": []
+    },
+    "sentiment": "NEUTRAL",
+    "summary": "聯崴生技董事會人事異動，法人董事代表人變動比率達66.67%，屬一般公司治理變動，對股價無直接重大影響。"
+  },
+  {
+    "date": "2026-06-15",
+    "time": "162118",
+    "stock_code": "5398",
+    "company_name": "慕康生醫",
+    "event_title": "代子公司聯崴生技股份有限公司公告董事長異動",
+    "event_type": "OTHER",
+    "stage": "BOARD_RESOLUTION",
+    "wiki_details": {
+      "amount": null,
+      "price": null,
+      "partners": [],
+      "buyback_range": []
+    },
+    "sentiment": "NEUTRAL",
+    "summary": "聯崴生技董事長由法人改派新選任，屬一般人事異動，對股價影響中性。"
+  },
+  {
+    "date": "2026-06-15",
+    "time": "162237",
+    "stock_code": "5398",
+    "company_name": "慕康生醫",
+    "event_title": "公告本公司董事會決議通過設立子公司",
+    "event_type": "OTHER",
+    "stage": "BOARD_RESOLUTION",
+    "wiki_details": {
+      "amount": "新台幣5000萬元",
+      "price": null,
+      "partners": [],
+      "buyback_range": []
+    },
+    "sentiment": "NEUTRAL",
+    "summary": "慕康生技設立子公司以擴展生技通路，屬營運擴張策略，對股價影響中性"
+  },
+  {
+    "date": "2026-06-15",
+    "time": "171109",
+    "stock_code": "5398",
+    "company_name": "慕康生醫",
+    "event_title": "公告本公司擬以現金為對價取得博聯生技股份有限公司所有股權，\r\n成為本公司百分之百持股之子公司",
+    "event_type": "OTHER",
+    "stage": "BOARD_RESOLUTION",
+    "wiki_details": {
+      "amount": "新台幣287,000仟元",
+      "price": null,
+      "partners": [],
+      "buyback_range": []
+    },
+    "sentiment": "BULLISH",
+    "summary": "公司以自有資金收購博聯生技100%股權，旨在整合健檢事業並立即貢獻營收獲利，符合長期成長策略"
+  },
+  {
+    "date": "2026-06-15",
+    "time": "171200",
+    "stock_code": "5398",
+    "company_name": "慕康生醫",
+    "event_title": "公告本公司董事會決議通過擬以現金為對價取得博聯生技股份有限公司100%股權",
+    "event_type": "OTHER",
+    "stage": "BOARD_RESOLUTION",
+    "wiki_details": {
+      "amount": "2,980,000股",
+      "price": "96.31",
+      "partners": [
+        "宇博控股股份有限公司"
+      ],
+      "buyback_range": []
+    },
+    "sentiment": "NEUTRAL",
+    "summary": "公司透過關係人交易以現金收購博聯生技100%股權，旨在擴展預防醫學及企業健康管理市場佈局，屬戰略性併購，需經股東會決議。"
+  },
+  {
+    "date": "2026-06-15",
+    "time": "171702",
+    "stock_code": "5398",
+    "company_name": "慕康生醫",
+    "event_title": "公告本公司董事會決議召開115年股東臨時會相關事宜",
+    "event_type": "OTHER",
+    "stage": "BOARD_RESOLUTION",
+    "wiki_details": {
+      "amount": null,
+      "price": null,
+      "partners": [
+        "博聯生技股份有限公司"
+      ],
+      "buyback_range": []
+    },
+    "sentiment": "NEUTRAL",
+    "summary": "董事會決議以現金取得博聯生技100%股權，屬公司併購擴張行為，對股價影響視併購效益而定，目前為中性消息。"
+  },
+  {
+    "date": "2026-06-15",
+    "time": "135408",
+    "stock_code": "5452",
+    "company_name": "佶優",
+    "event_title": "公告本公司115年股東常會重要決議事項",
+    "event_type": "OTHER",
+    "stage": "N/A",
+    "wiki_details": {
+      "amount": null,
+      "price": null,
+      "partners": [],
+      "buyback_range": []
+    },
+    "sentiment": "NEUTRAL",
+    "summary": "股東常會決議114年度盈餘分派，屬常規性財務分配，對股價影響中性。"
   },
   {
     "date": "2026-06-15",
@@ -940,95 +1685,10 @@
   },
   {
     "date": "2026-06-15",
-    "time": "112321",
-    "stock_code": "4529",
-    "company_name": "淳紳",
-    "event_title": "代重要子公司萊陽能源(股)公司及金萊陽能源(股)公司公告\r\n董事會重要決議事項。",
-    "event_type": "OTHER",
-    "stage": "BOARD_RESOLUTION",
-    "wiki_details": {
-      "amount": null,
-      "price": null,
-      "partners": [],
-      "buyback_range": []
-    },
-    "sentiment": "NEUTRAL",
-    "summary": "子公司通過114年度盈餘分配及財務報表承認，屬例行性股東會決議，無重大資本運作或戰略變動，對股價影響中性。"
-  },
-  {
-    "date": "2026-06-15",
-    "time": "114413",
-    "stock_code": "4529",
-    "company_name": "淳紳",
-    "event_title": "代重要子公司公告董事會決議發放114年度股利。",
-    "event_type": "OTHER",
-    "stage": "BOARD_RESOLUTION",
-    "wiki_details": {
-      "amount": null,
-      "price": null,
-      "partners": [],
-      "buyback_range": []
-    },
-    "sentiment": "NEUTRAL",
-    "summary": "子公司發放現金股利屬常規財務作業，對母公司股價影響中性"
-  },
-  {
-    "date": "2026-06-15",
-    "time": "132742",
-    "stock_code": "6584",
-    "company_name": "南俊國際",
-    "event_title": "公告南俊國際股份有限公司國內第一次有擔保轉換公司債(簡稱：南俊國際一，代碼：65841)發行公司行使債券贖回權暨訂於115年08月10日終止櫃檯買賣等相關事宜。",
-    "event_type": "OTHER",
-    "stage": "N/A",
-    "wiki_details": {
-      "amount": null,
-      "price": null,
-      "partners": [],
-      "buyback_range": []
-    },
-    "sentiment": "NEUTRAL",
-    "summary": "轉換公司債因股價達贖回條件而被發行公司強制贖回，債券將終止櫃檯買賣並按面額現金收回，投資人需注意轉換或出售時限以免失去轉換權。"
-  },
-  {
-    "date": "2026-06-15",
-    "time": "132851",
-    "stock_code": "6584",
-    "company_name": "南俊國際",
-    "event_title": "公告南俊國際股份有限公司國內第二次無擔保轉換公司債(簡稱：南俊國際二，代碼：65842)發行公司行使債券贖回權暨訂於115年08月10日終止櫃檯買賣等相關事宜。",
-    "event_type": "OTHER",
-    "stage": "N/A",
-    "wiki_details": {
-      "amount": null,
-      "price": null,
-      "partners": [],
-      "buyback_range": []
-    },
-    "sentiment": "NEUTRAL",
-    "summary": "南俊國際二轉換公司債因股價達標被發行公司行使贖回權，債券將以面額現金收回並終止櫃檯買賣，投資人需於期限前選擇轉換或接受贖回，屬常規債券到期機制，對普通股股價無直接重大影響。"
-  },
-  {
-    "date": "2026-06-15",
-    "time": "133118",
-    "stock_code": "6693",
-    "company_name": "廣閎科",
-    "event_title": "公告本公司民國115年度股東常會重要決議事項",
-    "event_type": "OTHER",
-    "stage": "N/A",
-    "wiki_details": {
-      "amount": null,
-      "price": null,
-      "partners": [],
-      "buyback_range": []
-    },
-    "sentiment": "NEUTRAL",
-    "summary": "股東常會通過盈餘分配及章程修訂等例行事項，屬常規公司治理動作，對股價無顯著直接影響"
-  },
-  {
-    "date": "2026-06-15",
-    "time": "133128",
-    "stock_code": "6693",
-    "company_name": "廣閎科",
-    "event_title": "公告本公司民國115年股東常會同意解除董事及獨立董事\r\n競業禁止之限制",
+    "time": "183404",
+    "stock_code": "5880",
+    "company_name": "合庫金",
+    "event_title": "",
     "event_type": "OTHER",
     "stage": "EFFECTIVE",
     "wiki_details": {
@@ -1038,82 +1698,14 @@
       "buyback_range": []
     },
     "sentiment": "NEUTRAL",
-    "summary": "解除董事競業禁止限制屬常規公司治理事項，對股價無直接財務影響，屬中性消息。"
+    "summary": "獨立董事任期屆滿辭職，屬正常人事變動，對公司營運與股價無重大影響。"
   },
   {
     "date": "2026-06-15",
-    "time": "133651",
-    "stock_code": "5345",
-    "company_name": "馥鴻",
-    "event_title": "本公司有價證券近期多次達公布注意交易資訊標準，\r\n故公告相關訊息，以利投資人區別暸解",
-    "event_type": "OTHER",
-    "stage": "N/A",
-    "wiki_details": {
-      "amount": null,
-      "price": null,
-      "partners": [],
-      "buyback_range": []
-    },
-    "sentiment": "NEUTRAL",
-    "summary": "公司因營收大幅成長但持續虧損，觸發櫃買中心注意交易資訊標準，屬例行性財務揭露，無特殊資本運作訊號。"
-  },
-  {
-    "date": "2026-06-15",
-    "time": "134449",
-    "stock_code": "3095",
-    "company_name": "及成",
-    "event_title": "公告本公司115年5月份自結合併財務報表之流動比率、速動\r\n比率及負債比率",
-    "event_type": "OTHER",
-    "stage": "N/A",
-    "wiki_details": {
-      "amount": null,
-      "price": null,
-      "partners": [],
-      "buyback_range": []
-    },
-    "sentiment": "NEUTRAL",
-    "summary": "例行性財務指標公告，流動與速動比率顯示短期償債能力良好，但負債比率偏高，屬常規資訊披露，無直接交易策略含意。"
-  },
-  {
-    "date": "2026-06-15",
-    "time": "134518",
-    "stock_code": "3095",
-    "company_name": "及成",
-    "event_title": "公告本公司未來三個月預計之現金收支狀況，及上一月份\r\n之銀行融資額度使用情形",
-    "event_type": "OTHER",
-    "stage": "N/A",
-    "wiki_details": {
-      "amount": null,
-      "price": null,
-      "partners": [],
-      "buyback_range": []
-    },
-    "sentiment": "NEUTRAL",
-    "summary": "例行性現金收支與融資額度公告，屬財務資訊揭露，無直接影響股價之重大資本運作訊號"
-  },
-  {
-    "date": "2026-06-15",
-    "time": "134528",
-    "stock_code": "4175",
-    "company_name": "杏一",
-    "event_title": "公告本公司董事會決議股利配發基準日",
-    "event_type": "OTHER",
-    "stage": "BOARD_RESOLUTION",
-    "wiki_details": {
-      "amount": "新台幣126,969,921元",
-      "price": null,
-      "partners": [],
-      "buyback_range": []
-    },
-    "sentiment": "NEUTRAL",
-    "summary": "公告現金股利配發相關時程，屬常規財務作業，對股價影響中性"
-  },
-  {
-    "date": "2026-06-15",
-    "time": "134556",
-    "stock_code": "2230",
-    "company_name": "泰茂",
-    "event_title": "本公司董事長訂定除息基準日及調整配息率等相關事宜",
+    "time": "193951",
+    "stock_code": "6126",
+    "company_name": "信音",
+    "event_title": "公告本公司知悉經理人從事大陸地區之競業情形",
     "event_type": "OTHER",
     "stage": "BOARD_RESOLUTION",
     "wiki_details": {
@@ -1123,14 +1715,14 @@
       "buyback_range": []
     },
     "sentiment": "NEUTRAL",
-    "summary": "公司因執行庫藏股導致流通在外股數變動，依董事會決議調整現金股利配息率，屬常規性除息公告，對股價無顯著多空影響。"
+    "summary": "總經理兼任大陸子公司職務屬集團內部正常營運安排，擬解除競業禁止限制為程序性事項，對股價無顯著影響。"
   },
   {
     "date": "2026-06-15",
-    "time": "134723",
-    "stock_code": "4556",
-    "company_name": "旭然",
-    "event_title": "本公司有價證券近期多次達公布注意交易資訊標準，故公告\r\n相關訊息，以利投資人區別暸解",
+    "time": "194119",
+    "stock_code": "6126",
+    "company_name": "信音",
+    "event_title": "代重要子公司信音電子(中國)股份有限公司公告\r\n除息基準日及現金股利發放日期",
     "event_type": "OTHER",
     "stage": "N/A",
     "wiki_details": {
@@ -1140,14 +1732,14 @@
       "buyback_range": []
     },
     "sentiment": "NEUTRAL",
-    "summary": "公司因股價波動達標準而發布財務資訊公告，單月獲利衰退但季增表現強勁，屬例行性資訊揭露，無直接重大資本運作影響。"
+    "summary": "子公司信音電子公告除息基準日及現金股利發放日期，屬常規財務資訊，對股價無顯著影響"
   },
   {
     "date": "2026-06-15",
-    "time": "134852",
-    "stock_code": "5328",
-    "company_name": "華容",
-    "event_title": "本公司有價證券近期股價異常，故公告相關訊息，\r\n以利投資人區別暸解",
+    "time": "194239",
+    "stock_code": "6126",
+    "company_name": "信音",
+    "event_title": "代子公司信音科技(香港)有限公司公告\r\n董事異動",
     "event_type": "OTHER",
     "stage": "N/A",
     "wiki_details": {
@@ -1157,101 +1749,14 @@
       "buyback_range": []
     },
     "sentiment": "NEUTRAL",
-    "summary": "股價異常波動公告，屬例行性資訊揭露，無直接資金面利多利空，建議投資人注意風險並審慎評估。"
+    "summary": "子公司董事因退休辭職，屬正常人事異動，對公司營運與股價無重大影響。"
   },
   {
     "date": "2026-06-15",
-    "time": "135408",
-    "stock_code": "5452",
-    "company_name": "佶優",
-    "event_title": "公告本公司115年股東常會重要決議事項",
-    "event_type": "OTHER",
-    "stage": "N/A",
-    "wiki_details": {
-      "amount": null,
-      "price": null,
-      "partners": [],
-      "buyback_range": []
-    },
-    "sentiment": "NEUTRAL",
-    "summary": "股東常會決議114年度盈餘分派，屬常規性財務分配，對股價影響中性。"
-  },
-  {
-    "date": "2026-06-15",
-    "time": "135607",
-    "stock_code": "4402",
-    "company_name": "郡都開發",
-    "event_title": "本公司有價證券近期多次達公布注意交易資訊標準，\r\n故公告相關訊息，以利投資人區別暸解",
-    "event_type": "OTHER",
-    "stage": "N/A",
-    "wiki_details": {
-      "amount": null,
-      "price": null,
-      "partners": [],
-      "buyback_range": []
-    },
-    "sentiment": "BEARISH",
-    "summary": "營收與淨利雙雙大幅衰退且持續虧損，觸發注意交易資訊標準，反映基本面惡化，投資人應警惕股價波動風險。"
-  },
-  {
-    "date": "2026-06-15",
-    "time": "135708",
-    "stock_code": "6199",
-    "company_name": "天品",
-    "event_title": "(更正契約總金額)代&#12070;公司天品國際(股)公司公告以&#12163;地委建&#12101;式\r\n與關係&#12040;簽訂&#12079;程承攬契約書",
-    "event_type": "OTHER",
-    "stage": "BOARD_RESOLUTION",
-    "wiki_details": {
-      "amount": "新台幣372,791,635元",
-      "price": null,
-      "partners": [
-        "宏固營造工程股份有限公司"
-      ],
-      "buyback_range": []
-    },
-    "sentiment": "NEUTRAL",
-    "summary": "天品國際與關係人宏固營造簽訂基隆孝光閣新建工程承攬契約，屬一般營建業務支出，對股價影響中性。"
-  },
-  {
-    "date": "2026-06-15",
-    "time": "141846",
-    "stock_code": "6945",
-    "company_name": "圓祥生技",
-    "event_title": "公告本公司初次上櫃掛牌首五個營業日\r\n穩定價格操作結果",
-    "event_type": "OTHER",
-    "stage": "LISTING",
-    "wiki_details": {
-      "amount": "500,000股",
-      "price": "105.4",
-      "partners": [],
-      "buyback_range": []
-    },
-    "sentiment": "NEUTRAL",
-    "summary": "圓祥生技上櫃首五日穩定價格操作完成，承銷商買進500,000股，屬常規掛牌後護盤機制，無特殊利多或利空影響。"
-  },
-  {
-    "date": "2026-06-15",
-    "time": "142139",
-    "stock_code": "8921",
-    "company_name": "沈氏",
-    "event_title": "公告本公司法人董事代表人變更",
-    "event_type": "OTHER",
-    "stage": "N/A",
-    "wiki_details": {
-      "amount": null,
-      "price": null,
-      "partners": [],
-      "buyback_range": []
-    },
-    "sentiment": "NEUTRAL",
-    "summary": "法人董事代表人異動屬常規行政作業，對公司基本面與股價無直接重大影響"
-  },
-  {
-    "date": "2026-06-15",
-    "time": "142423",
-    "stock_code": "8049",
-    "company_name": "晶采",
-    "event_title": "公告本公司推選之新任董事長",
+    "time": "201211",
+    "stock_code": "6126",
+    "company_name": "信音",
+    "event_title": "代子公司東莞市國聯電子有限公司公告\r\n召開股東會",
     "event_type": "OTHER",
     "stage": "BOARD_RESOLUTION",
     "wiki_details": {
@@ -1261,58 +1766,7 @@
       "buyback_range": []
     },
     "sentiment": "NEUTRAL",
-    "summary": "董事長因逝世異動，新任者為現任總經理，屬內部升遷，對公司營運與股價影響中性"
-  },
-  {
-    "date": "2026-06-15",
-    "time": "143644",
-    "stock_code": "5353",
-    "company_name": "台林",
-    "event_title": "公告本公司現金股利配息基準日",
-    "event_type": "OTHER",
-    "stage": "N/A",
-    "wiki_details": {
-      "amount": "新台幣75,000,000元",
-      "price": null,
-      "partners": [],
-      "buyback_range": []
-    },
-    "sentiment": "NEUTRAL",
-    "summary": "公告現金股利除息基準日與發放資訊，屬常規財務作業，對股價無顯著方向性影響"
-  },
-  {
-    "date": "2026-06-15",
-    "time": "145347",
-    "stock_code": "3265",
-    "company_name": "台星科",
-    "event_title": "公告本公司董事長訂定除息基準日等相關事宜。",
-    "event_type": "OTHER",
-    "stage": "N/A",
-    "wiki_details": {
-      "amount": null,
-      "price": null,
-      "partners": [],
-      "buyback_range": []
-    },
-    "sentiment": "NEUTRAL",
-    "summary": "公告現金股利除息基準日及發放日期，屬常規財務作業，對股價短期影響中性。"
-  },
-  {
-    "date": "2026-06-15",
-    "time": "145424",
-    "stock_code": "4745",
-    "company_name": "合富-KY",
-    "event_title": "公告本公司115年5月份自結應收帳款餘額及回收情形",
-    "event_type": "OTHER",
-    "stage": "N/A",
-    "wiki_details": {
-      "amount": null,
-      "price": null,
-      "partners": [],
-      "buyback_range": []
-    },
-    "sentiment": "NEUTRAL",
-    "summary": "例行性應收帳款公告，顯示逾期款項主要因公立醫院醫保補助延宕，公司加強催收機制且5月回款提升36%，屬正常營運資訊，無重大股價影響。"
+    "summary": "代子公司召開股東會進行住所變更、章程修改及董監事改選，屬一般行政事務，對母公司股價無顯著影響。"
   },
   {
     "date": "2026-06-15",
@@ -1330,23 +1784,6 @@
     },
     "sentiment": "NEUTRAL",
     "summary": "股東會通過私募普通股增資案，具體認購對象與價格尚未揭露，市場影響待觀察"
-  },
-  {
-    "date": "2026-06-15",
-    "time": "145718",
-    "stock_code": "8291",
-    "company_name": "尚茂",
-    "event_title": "本公司有價證券近期多次達公布注意交易資訊標準，\r\n故公告相關訊息，以利投資人區別暸解",
-    "event_type": "OTHER",
-    "stage": "N/A",
-    "wiki_details": {
-      "amount": null,
-      "price": null,
-      "partners": [],
-      "buyback_range": []
-    },
-    "sentiment": "NEUTRAL",
-    "summary": "公司營收大幅成長但持續虧損，因觸發注意交易標準而公告，屬常規資訊披露，無直接資本運作策略意義"
   },
   {
     "date": "2026-06-15",
@@ -1469,10 +1906,10 @@
   },
   {
     "date": "2026-06-15",
-    "time": "150441",
-    "stock_code": "7805",
-    "company_name": "威聯通",
-    "event_title": "公告本公司副總經理異動",
+    "time": "151747",
+    "stock_code": "6156",
+    "company_name": "松上",
+    "event_title": "公告本公司除息基準日暨轉換公司債停止轉換期間相關事宜",
     "event_type": "OTHER",
     "stage": "N/A",
     "wiki_details": {
@@ -1482,7 +1919,353 @@
       "buyback_range": []
     },
     "sentiment": "NEUTRAL",
-    "summary": "副總經理辭職屬一般人事異動，對公司營運與股價影響有限，屬中性消息。"
+    "summary": "例行性除息與可轉債停止轉換公告，屬常規公司行動，對股價無顯著方向性影響"
+  },
+  {
+    "date": "2026-06-15",
+    "time": "161122",
+    "stock_code": "6170",
+    "company_name": "統振",
+    "event_title": "代子公司東旺利股份有限公司公告\r\n董事會決議通過新任執行長任職案",
+    "event_type": "OTHER",
+    "stage": "BOARD_RESOLUTION",
+    "wiki_details": {
+      "amount": null,
+      "price": null,
+      "partners": [],
+      "buyback_range": []
+    },
+    "sentiment": "NEUTRAL",
+    "summary": "董事長兼任執行長屬內部人事調整，對股價影響中性"
+  },
+  {
+    "date": "2026-06-15",
+    "time": "135708",
+    "stock_code": "6199",
+    "company_name": "天品",
+    "event_title": "(更正契約總金額)代&#12070;公司天品國際(股)公司公告以&#12163;地委建&#12101;式\r\n與關係&#12040;簽訂&#12079;程承攬契約書",
+    "event_type": "OTHER",
+    "stage": "BOARD_RESOLUTION",
+    "wiki_details": {
+      "amount": "新台幣372,791,635元",
+      "price": null,
+      "partners": [
+        "宏固營造工程股份有限公司"
+      ],
+      "buyback_range": []
+    },
+    "sentiment": "NEUTRAL",
+    "summary": "天品國際與關係人宏固營造簽訂基隆孝光閣新建工程承攬契約，屬一般營建業務支出，對股價影響中性。"
+  },
+  {
+    "date": "2026-06-15",
+    "time": "191216",
+    "stock_code": "6203",
+    "company_name": "海韻電",
+    "event_title": "公告本公司115年股東常會重要決議事項",
+    "event_type": "OTHER",
+    "stage": "EFFECTIVE",
+    "wiki_details": {
+      "amount": null,
+      "price": null,
+      "partners": [],
+      "buyback_range": []
+    },
+    "sentiment": "NEUTRAL",
+    "summary": "股東常會通過盈餘分配、章程修訂及董監事改選，屬例行性公司治理事項，無重大資本運作或市場影響因子。"
+  },
+  {
+    "date": "2026-06-15",
+    "time": "191332",
+    "stock_code": "6203",
+    "company_name": "海韻電",
+    "event_title": "公告本公司115年股東常會通過解除新任董事及其代表人\r\n競業禁止之限制案",
+    "event_type": "OTHER",
+    "stage": "EFFECTIVE",
+    "wiki_details": {
+      "amount": null,
+      "price": null,
+      "partners": [],
+      "buyback_range": []
+    },
+    "sentiment": "NEUTRAL",
+    "summary": "解除董事競業禁止限制屬常規公司治理事項，對股價無直接財務影響，屬中性消息。"
+  },
+  {
+    "date": "2026-06-15",
+    "time": "191454",
+    "stock_code": "6203",
+    "company_name": "海韻電",
+    "event_title": "公告本公司董事會選任董事長",
+    "event_type": "OTHER",
+    "stage": "BOARD_RESOLUTION",
+    "wiki_details": {
+      "amount": null,
+      "price": null,
+      "partners": [],
+      "buyback_range": []
+    },
+    "sentiment": "NEUTRAL",
+    "summary": "董事長任期屆滿改選，屬正常公司治理變動，對股價無顯著影響"
+  },
+  {
+    "date": "2026-06-15",
+    "time": "191535",
+    "stock_code": "6203",
+    "company_name": "海韻電",
+    "event_title": "公告本公司第三屆審計委員會委員及選任召集人",
+    "event_type": "OTHER",
+    "stage": "EFFECTIVE",
+    "wiki_details": {
+      "amount": null,
+      "price": null,
+      "partners": [],
+      "buyback_range": []
+    },
+    "sentiment": "NEUTRAL",
+    "summary": "審計委員會人事異動屬例行性公司治理事項，對股價無直接影響"
+  },
+  {
+    "date": "2026-06-15",
+    "time": "191626",
+    "stock_code": "6203",
+    "company_name": "海韻電",
+    "event_title": "公告本公司第六屆薪酬委員會委員及選任召集人",
+    "event_type": "OTHER",
+    "stage": "N/A",
+    "wiki_details": {
+      "amount": null,
+      "price": null,
+      "partners": [],
+      "buyback_range": []
+    },
+    "sentiment": "NEUTRAL",
+    "summary": "薪酬委員會人事異動屬常規公司治理事項，對股價無直接影響，屬中性消息。"
+  },
+  {
+    "date": "2026-06-15",
+    "time": "191703",
+    "stock_code": "6203",
+    "company_name": "海韻電",
+    "event_title": "公告本公司第三屆永續發展委員會委員及選任召集人",
+    "event_type": "OTHER",
+    "stage": "N/A",
+    "wiki_details": {
+      "amount": null,
+      "price": null,
+      "partners": [],
+      "buyback_range": []
+    },
+    "sentiment": "NEUTRAL",
+    "summary": "公司進行永續發展委員會委員任期屆滿改選，屬常規公司治理變動，對股價無直接影響。"
+  },
+  {
+    "date": "2026-06-15",
+    "time": "195201",
+    "stock_code": "6203",
+    "company_name": "海韻電",
+    "event_title": "公告本公司115年股東常會全面改選董事(含獨立董事)\r\n當選名單暨董事變動達三分之一以上",
+    "event_type": "OTHER",
+    "stage": "EFFECTIVE",
+    "wiki_details": {
+      "amount": null,
+      "price": null,
+      "partners": [],
+      "buyback_range": []
+    },
+    "sentiment": "NEUTRAL",
+    "summary": "董事會全面改選屬例行性人事變動，雖變動達三分之一以上需公告，但無重大經營策略改變或資金動向，對股價影響中性。"
+  },
+  {
+    "date": "2026-06-15",
+    "time": "150346",
+    "stock_code": "6257",
+    "company_name": "矽格",
+    "event_title": "",
+    "event_type": "OTHER",
+    "stage": "N/A",
+    "wiki_details": {
+      "amount": null,
+      "price": null,
+      "partners": [],
+      "buyback_range": []
+    },
+    "sentiment": "NEUTRAL",
+    "summary": "僅為線上法人說明會公告，屬常規資訊披露，無直接影響股價之重大資本運作或財務變動"
+  },
+  {
+    "date": "2026-06-15",
+    "time": "165135",
+    "stock_code": "6425",
+    "company_name": "易發",
+    "event_title": "公告本公司調整現金股利配息率公告",
+    "event_type": "OTHER",
+    "stage": "N/A",
+    "wiki_details": {
+      "amount": null,
+      "price": null,
+      "partners": [],
+      "buyback_range": []
+    },
+    "sentiment": "NEUTRAL",
+    "summary": "因可轉債轉換導致股數變動而微調每股配息率，屬常規性財務調整，對股價無顯著影響"
+  },
+  {
+    "date": "2026-06-15",
+    "time": "195209",
+    "stock_code": "6431",
+    "company_name": "光麗-KY",
+    "event_title": "",
+    "event_type": "OTHER",
+    "stage": "BOARD_RESOLUTION",
+    "wiki_details": {
+      "amount": "新台幣25,000仟元",
+      "price": null,
+      "partners": [],
+      "buyback_range": []
+    },
+    "sentiment": "BULLISH",
+    "summary": "子公司以自有資金收購嘉蒂保醫藥100%股權，旨在擴展藥局行銷通路與強化醫療整合服務，預期對每股淨值及盈餘有正面助益。"
+  },
+  {
+    "date": "2026-06-15",
+    "time": "170709",
+    "stock_code": "6456",
+    "company_name": "GIS-KY",
+    "event_title": "",
+    "event_type": "OTHER",
+    "stage": "BOARD_RESOLUTION",
+    "wiki_details": {
+      "amount": "新台幣10.78億元",
+      "price": null,
+      "partners": [
+        "業桓科技(成都)有限公司"
+      ],
+      "buyback_range": []
+    },
+    "sentiment": "NEUTRAL",
+    "summary": "集團內部生產設備處分，基於營運效益最大化考量，對財務業務無重大影響，屬中性常規交易。"
+  },
+  {
+    "date": "2026-06-15",
+    "time": "164127",
+    "stock_code": "6474",
+    "company_name": "華豫寧",
+    "event_title": "公告本公司董事會決議以分割方式轉型為投資控股公司",
+    "event_type": "OTHER",
+    "stage": "BOARD_RESOLUTION",
+    "wiki_details": {
+      "amount": "525,261,990元",
+      "price": null,
+      "partners": [],
+      "buyback_range": []
+    },
+    "sentiment": "NEUTRAL",
+    "summary": "公司決議轉型為投資控股公司，屬企業結構調整，短期對股價影響中性，需觀察後續營運整合成效。"
+  },
+  {
+    "date": "2026-06-15",
+    "time": "164157",
+    "stock_code": "6474",
+    "company_name": "華豫寧",
+    "event_title": "公告本公司今日召開重大訊息說明記者會內容",
+    "event_type": "OTHER",
+    "stage": "BOARD_RESOLUTION",
+    "wiki_details": {
+      "amount": "新台幣 111,930,000 元",
+      "price": "10.66",
+      "partners": [],
+      "buyback_range": []
+    },
+    "sentiment": "NEUTRAL",
+    "summary": "公司進行組織重組轉型為投資控股公司並分割事業，屬內部架構調整，對現有股東權益無影響，屬中性消息。"
+  },
+  {
+    "date": "2026-06-15",
+    "time": "164600",
+    "stock_code": "6474",
+    "company_name": "華豫寧",
+    "event_title": "公告本公司董事會決議通過分割電子零組件事業之相關營業",
+    "event_type": "OTHER",
+    "stage": "BOARD_RESOLUTION",
+    "wiki_details": {
+      "amount": "新台幣111,930,000元",
+      "price": "10.66",
+      "partners": [
+        "華豫寧科技股份有限公司"
+      ],
+      "buyback_range": []
+    },
+    "sentiment": "NEUTRAL",
+    "summary": "集團內部組織重組與事業體獨立發展策略，對股東權益無重大影響，屬中性消息。"
+  },
+  {
+    "date": "2026-06-15",
+    "time": "141518",
+    "stock_code": "6477",
+    "company_name": "安集",
+    "event_title": "",
+    "event_type": "OTHER",
+    "stage": "BOARD_RESOLUTION",
+    "wiki_details": {
+      "amount": null,
+      "price": null,
+      "partners": [],
+      "buyback_range": []
+    },
+    "sentiment": "NEUTRAL",
+    "summary": "公司宣布除息方案，每股配發現金股利0.35元，屬常規財務分配，對股價影響中性。"
+  },
+  {
+    "date": "2026-06-15",
+    "time": "132742",
+    "stock_code": "6584",
+    "company_name": "南俊國際",
+    "event_title": "公告南俊國際股份有限公司國內第一次有擔保轉換公司債(簡稱：南俊國際一，代碼：65841)發行公司行使債券贖回權暨訂於115年08月10日終止櫃檯買賣等相關事宜。",
+    "event_type": "OTHER",
+    "stage": "N/A",
+    "wiki_details": {
+      "amount": null,
+      "price": null,
+      "partners": [],
+      "buyback_range": []
+    },
+    "sentiment": "NEUTRAL",
+    "summary": "轉換公司債因股價達贖回條件而被發行公司強制贖回，債券將終止櫃檯買賣並按面額現金收回，投資人需注意轉換或出售時限以免失去轉換權。"
+  },
+  {
+    "date": "2026-06-15",
+    "time": "132851",
+    "stock_code": "6584",
+    "company_name": "南俊國際",
+    "event_title": "公告南俊國際股份有限公司國內第二次無擔保轉換公司債(簡稱：南俊國際二，代碼：65842)發行公司行使債券贖回權暨訂於115年08月10日終止櫃檯買賣等相關事宜。",
+    "event_type": "OTHER",
+    "stage": "N/A",
+    "wiki_details": {
+      "amount": null,
+      "price": null,
+      "partners": [],
+      "buyback_range": []
+    },
+    "sentiment": "NEUTRAL",
+    "summary": "南俊國際二轉換公司債因股價達標被發行公司行使贖回權，債券將以面額現金收回並終止櫃檯買賣，投資人需於期限前選擇轉換或接受贖回，屬常規債券到期機制，對普通股股價無直接重大影響。"
+  },
+  {
+    "date": "2026-06-15",
+    "time": "174529",
+    "stock_code": "6597",
+    "company_name": "立誠",
+    "event_title": "公告本公司最近一年累積取得有價證券達公告標準",
+    "event_type": "OTHER",
+    "stage": "N/A",
+    "wiki_details": {
+      "amount": "30,000股",
+      "price": "2393.68",
+      "partners": [],
+      "buyback_range": []
+    },
+    "sentiment": "NEUTRAL",
+    "summary": "公司進行財務性投資取得群聯電子股票，持股比例極低且無關係人交易，對股價影響中性。"
   },
   {
     "date": "2026-06-15",
@@ -1503,10 +2286,10 @@
   },
   {
     "date": "2026-06-15",
-    "time": "151608",
-    "stock_code": "1599",
-    "company_name": "宏佳騰",
-    "event_title": "公告本公司115年股東常會重要決議事項",
+    "time": "133118",
+    "stock_code": "6693",
+    "company_name": "廣閎科",
+    "event_title": "公告本公司民國115年度股東常會重要決議事項",
     "event_type": "OTHER",
     "stage": "N/A",
     "wiki_details": {
@@ -1516,31 +2299,14 @@
       "buyback_range": []
     },
     "sentiment": "NEUTRAL",
-    "summary": "股東常會通過盈餘分配、財務報表承認及董事補選等常規決議，屬例行性公司治理事項，對股價無顯著直接影響。"
+    "summary": "股東常會通過盈餘分配及章程修訂等例行事項，屬常規公司治理動作，對股價無顯著直接影響"
   },
   {
     "date": "2026-06-15",
-    "time": "151747",
-    "stock_code": "6156",
-    "company_name": "松上",
-    "event_title": "公告本公司除息基準日暨轉換公司債停止轉換期間相關事宜",
-    "event_type": "OTHER",
-    "stage": "N/A",
-    "wiki_details": {
-      "amount": null,
-      "price": null,
-      "partners": [],
-      "buyback_range": []
-    },
-    "sentiment": "NEUTRAL",
-    "summary": "例行性除息與可轉債停止轉換公告，屬常規公司行動，對股價無顯著方向性影響"
-  },
-  {
-    "date": "2026-06-15",
-    "time": "151807",
-    "stock_code": "1599",
-    "company_name": "宏佳騰",
-    "event_title": "公告本公司115年股東常會補選董事當選名單",
+    "time": "133128",
+    "stock_code": "6693",
+    "company_name": "廣閎科",
+    "event_title": "公告本公司民國115年股東常會同意解除董事及獨立董事\r\n競業禁止之限制",
     "event_type": "OTHER",
     "stage": "EFFECTIVE",
     "wiki_details": {
@@ -1550,14 +2316,14 @@
       "buyback_range": []
     },
     "sentiment": "NEUTRAL",
-    "summary": "董事補選屬一般公司治理變動，非重大資本運作，對股價無直接影響"
+    "summary": "解除董事競業禁止限制屬常規公司治理事項，對股價無直接財務影響，屬中性消息。"
   },
   {
     "date": "2026-06-15",
-    "time": "151917",
-    "stock_code": "1599",
-    "company_name": "宏佳騰",
-    "event_title": "公告本公司股東會決議解除新選任董事競業禁止之限制案",
+    "time": "155028",
+    "stock_code": "6715",
+    "company_name": "嘉基",
+    "event_title": "",
     "event_type": "OTHER",
     "stage": "N/A",
     "wiki_details": {
@@ -1567,14 +2333,14 @@
       "buyback_range": []
     },
     "sentiment": "NEUTRAL",
-    "summary": "解除董事競業禁止限制屬常規公司治理事項，對股價無直接財務影響或交易策略意義"
+    "summary": "因可轉債轉換導致流通股本增加，董事會授權調整每股配息金額以維持總股利不變，屬常規財務調整，對股價影響中性。"
   },
   {
     "date": "2026-06-15",
-    "time": "152818",
-    "stock_code": "2745",
-    "company_name": "五福",
-    "event_title": "公告本公司115年股東常會重要決議事項",
+    "time": "173033",
+    "stock_code": "6763",
+    "company_name": "綠界科技*",
+    "event_title": "公告金融監督管理委員會同意廢止本公司申請撤銷114年度\r\n現金增資發行新股案",
     "event_type": "OTHER",
     "stage": "N/A",
     "wiki_details": {
@@ -1584,7 +2350,7 @@
       "buyback_range": []
     },
     "sentiment": "NEUTRAL",
-    "summary": "股東常會通過盈餘分配及章程修訂，屬例行性公司治理事項，對股價無顯著直接影響。"
+    "summary": "公司撤銷現金增資案，無資金募集影響，對財務業務無重大影響，屬中性消息。"
   },
   {
     "date": "2026-06-15",
@@ -1707,23 +2473,6 @@
   },
   {
     "date": "2026-06-15",
-    "time": "160045",
-    "stock_code": "8064",
-    "company_name": "東捷",
-    "event_title": "公告本公司發言人及代理發言人異動",
-    "event_type": "OTHER",
-    "stage": "N/A",
-    "wiki_details": {
-      "amount": null,
-      "price": null,
-      "partners": [],
-      "buyback_range": []
-    },
-    "sentiment": "NEUTRAL",
-    "summary": "發言人人事異動屬常規公司治理調整，對股價無直接影響"
-  },
-  {
-    "date": "2026-06-15",
     "time": "160109",
     "stock_code": "6843",
     "company_name": "進典",
@@ -1738,794 +2487,6 @@
     },
     "sentiment": "NEUTRAL",
     "summary": "董事會人事異動屬例行性改選，新任者與舊任者為同一人且簡歷未變，對公司營運與股價無實質影響。"
-  },
-  {
-    "date": "2026-06-15",
-    "time": "160227",
-    "stock_code": "5015",
-    "company_name": "華祺",
-    "event_title": "公告本公司訂定配息基準日",
-    "event_type": "OTHER",
-    "stage": "N/A",
-    "wiki_details": {
-      "amount": null,
-      "price": null,
-      "partners": [],
-      "buyback_range": []
-    },
-    "sentiment": "NEUTRAL",
-    "summary": "公告除息基準日與配息資訊，屬常規財務作業，對股價無顯著方向性影響"
-  },
-  {
-    "date": "2026-06-15",
-    "time": "161003",
-    "stock_code": "5398",
-    "company_name": "慕康生醫",
-    "event_title": "代子公司育新企業股份有限公司公告法人董事代表人三分之一以上\r\n董事變動",
-    "event_type": "OTHER",
-    "stage": "EFFECTIVE",
-    "wiki_details": {
-      "amount": null,
-      "price": null,
-      "partners": [],
-      "buyback_range": []
-    },
-    "sentiment": "NEUTRAL",
-    "summary": "代子公司董事會任期屆滿進行常規改選，屬正常公司治理變動，對股價無顯著影響。"
-  },
-  {
-    "date": "2026-06-15",
-    "time": "161122",
-    "stock_code": "6170",
-    "company_name": "統振",
-    "event_title": "代子公司東旺利股份有限公司公告\r\n董事會決議通過新任執行長任職案",
-    "event_type": "OTHER",
-    "stage": "BOARD_RESOLUTION",
-    "wiki_details": {
-      "amount": null,
-      "price": null,
-      "partners": [],
-      "buyback_range": []
-    },
-    "sentiment": "NEUTRAL",
-    "summary": "董事長兼任執行長屬內部人事調整，對股價影響中性"
-  },
-  {
-    "date": "2026-06-15",
-    "time": "161204",
-    "stock_code": "3071",
-    "company_name": "協禧",
-    "event_title": "代重要子公司增達電子(惠州)有限公司公告\r\n董事會決議盈餘分配案",
-    "event_type": "OTHER",
-    "stage": "BOARD_RESOLUTION",
-    "wiki_details": {
-      "amount": "null",
-      "price": null,
-      "partners": [],
-      "buyback_range": []
-    },
-    "sentiment": "NEUTRAL",
-    "summary": "子公司增達電子宣告發放現金股利，屬常規盈餘分配，對母公司股價影響中性。"
-  },
-  {
-    "date": "2026-06-15",
-    "time": "161231",
-    "stock_code": "3071",
-    "company_name": "協禧",
-    "event_title": "代重要子公司增達電子(惠州)有限公司\r\n公告股東會重要決議事項",
-    "event_type": "OTHER",
-    "stage": "EFFECTIVE",
-    "wiki_details": {
-      "amount": null,
-      "price": null,
-      "partners": [],
-      "buyback_range": []
-    },
-    "sentiment": "NEUTRAL",
-    "summary": "子公司股東會通過2025年度盈餘分派案，屬常規財務決議，對股價無顯著影響。"
-  },
-  {
-    "date": "2026-06-15",
-    "time": "161932",
-    "stock_code": "5398",
-    "company_name": "慕康生醫",
-    "event_title": "代子公司育新企業股份有限公司公告董事長異動",
-    "event_type": "OTHER",
-    "stage": "BOARD_RESOLUTION",
-    "wiki_details": {
-      "amount": null,
-      "price": null,
-      "partners": [],
-      "buyback_range": []
-    },
-    "sentiment": "NEUTRAL",
-    "summary": "代子公司董事長因任期屆滿及法人改派而異動，屬一般公司治理變動，對股價無直接重大影響。"
-  },
-  {
-    "date": "2026-06-15",
-    "time": "162041",
-    "stock_code": "5398",
-    "company_name": "慕康生醫",
-    "event_title": "代子公司聯崴生技股份有限公司公告法人董事代表人三分之一以上\r\n董事變動",
-    "event_type": "OTHER",
-    "stage": "EFFECTIVE",
-    "wiki_details": {
-      "amount": null,
-      "price": null,
-      "partners": [],
-      "buyback_range": []
-    },
-    "sentiment": "NEUTRAL",
-    "summary": "聯崴生技董事會人事異動，法人董事代表人變動比率達66.67%，屬一般公司治理變動，對股價無直接重大影響。"
-  },
-  {
-    "date": "2026-06-15",
-    "time": "162118",
-    "stock_code": "5398",
-    "company_name": "慕康生醫",
-    "event_title": "代子公司聯崴生技股份有限公司公告董事長異動",
-    "event_type": "OTHER",
-    "stage": "BOARD_RESOLUTION",
-    "wiki_details": {
-      "amount": null,
-      "price": null,
-      "partners": [],
-      "buyback_range": []
-    },
-    "sentiment": "NEUTRAL",
-    "summary": "聯崴生技董事長由法人改派新選任，屬一般人事異動，對股價影響中性。"
-  },
-  {
-    "date": "2026-06-15",
-    "time": "162237",
-    "stock_code": "5398",
-    "company_name": "慕康生醫",
-    "event_title": "公告本公司董事會決議通過設立子公司",
-    "event_type": "OTHER",
-    "stage": "BOARD_RESOLUTION",
-    "wiki_details": {
-      "amount": "新台幣5000萬元",
-      "price": null,
-      "partners": [],
-      "buyback_range": []
-    },
-    "sentiment": "NEUTRAL",
-    "summary": "慕康生技設立子公司以擴展生技通路，屬營運擴張策略，對股價影響中性"
-  },
-  {
-    "date": "2026-06-15",
-    "time": "162427",
-    "stock_code": "3710",
-    "company_name": "連展投控",
-    "event_title": "代子公司連展科技(深圳)有限公司\r\n依「公開發行公司資金貸與及背書保證處理準則」\r\n第二十五條第一項第二款、第一項第三款之規定公告",
-    "event_type": "OTHER",
-    "stage": "N/A",
-    "wiki_details": {
-      "amount": null,
-      "price": null,
-      "partners": [],
-      "buyback_range": []
-    },
-    "sentiment": "NEUTRAL",
-    "summary": "子公司提供聯屬公司背書保證用於營運週轉，屬常規資金調度行為，對股價無顯著直接影響。"
-  },
-  {
-    "date": "2026-06-15",
-    "time": "162453",
-    "stock_code": "3710",
-    "company_name": "連展投控",
-    "event_title": "依「公開發行公司資金貸與及背書保證處理準則」\r\n第二十五條第一項第二款、第一項第三款之規定公告",
-    "event_type": "OTHER",
-    "stage": "N/A",
-    "wiki_details": {
-      "amount": null,
-      "price": null,
-      "partners": [],
-      "buyback_range": []
-    },
-    "sentiment": "NEUTRAL",
-    "summary": "母公司對100%轉投資子公司提供背書保證以支援營運週轉，屬集團內部資金調度，對市場面影響中性。"
-  },
-  {
-    "date": "2026-06-15",
-    "time": "164127",
-    "stock_code": "6474",
-    "company_name": "華豫寧",
-    "event_title": "公告本公司董事會決議以分割方式轉型為投資控股公司",
-    "event_type": "OTHER",
-    "stage": "BOARD_RESOLUTION",
-    "wiki_details": {
-      "amount": "525,261,990元",
-      "price": null,
-      "partners": [],
-      "buyback_range": []
-    },
-    "sentiment": "NEUTRAL",
-    "summary": "公司決議轉型為投資控股公司，屬企業結構調整，短期對股價影響中性，需觀察後續營運整合成效。"
-  },
-  {
-    "date": "2026-06-15",
-    "time": "164157",
-    "stock_code": "6474",
-    "company_name": "華豫寧",
-    "event_title": "公告本公司今日召開重大訊息說明記者會內容",
-    "event_type": "OTHER",
-    "stage": "BOARD_RESOLUTION",
-    "wiki_details": {
-      "amount": "新台幣 111,930,000 元",
-      "price": "10.66",
-      "partners": [],
-      "buyback_range": []
-    },
-    "sentiment": "NEUTRAL",
-    "summary": "公司進行組織重組轉型為投資控股公司並分割事業，屬內部架構調整，對現有股東權益無影響，屬中性消息。"
-  },
-  {
-    "date": "2026-06-15",
-    "time": "164502",
-    "stock_code": "3710",
-    "company_name": "連展投控",
-    "event_title": "代重要子公司連展科技股份有限公司公告董事會\r\n決議通過辦理減資彌補虧損",
-    "event_type": "OTHER",
-    "stage": "BOARD_RESOLUTION",
-    "wiki_details": {
-      "amount": "新台幣200,000,000元",
-      "price": null,
-      "partners": [],
-      "buyback_range": []
-    },
-    "sentiment": "NEUTRAL",
-    "summary": "連展科技董事會決議辦理減資彌補虧損，旨在改善財務結構，屬常規財務調整，對股價影響中性。"
-  },
-  {
-    "date": "2026-06-15",
-    "time": "164600",
-    "stock_code": "6474",
-    "company_name": "華豫寧",
-    "event_title": "公告本公司董事會決議通過分割電子零組件事業之相關營業",
-    "event_type": "OTHER",
-    "stage": "BOARD_RESOLUTION",
-    "wiki_details": {
-      "amount": "新台幣111,930,000元",
-      "price": "10.66",
-      "partners": [
-        "華豫寧科技股份有限公司"
-      ],
-      "buyback_range": []
-    },
-    "sentiment": "NEUTRAL",
-    "summary": "集團內部組織重組與事業體獨立發展策略，對股東權益無重大影響，屬中性消息。"
-  },
-  {
-    "date": "2026-06-15",
-    "time": "164823",
-    "stock_code": "3710",
-    "company_name": "連展投控",
-    "event_title": "代重要子公司連展科技股份有限公司公告董事會決議\r\n現金增資發行新股",
-    "event_type": "OTHER",
-    "stage": "BOARD_RESOLUTION",
-    "wiki_details": {
-      "amount": "新台幣200,000,000元",
-      "price": "10",
-      "partners": [],
-      "buyback_range": []
-    },
-    "sentiment": "NEUTRAL",
-    "summary": "子公司現金增資充實營運資金，屬常規財務操作，對母公司股價影響中性"
-  },
-  {
-    "date": "2026-06-15",
-    "time": "164939",
-    "stock_code": "3710",
-    "company_name": "連展投控",
-    "event_title": "代重要子公司Grand Assets Limited公告新任財務主管",
-    "event_type": "OTHER",
-    "stage": "N/A",
-    "wiki_details": {
-      "amount": null,
-      "price": null,
-      "partners": [],
-      "buyback_range": []
-    },
-    "sentiment": "NEUTRAL",
-    "summary": "子公司財務主管異動屬一般人事變動，對公司營運與股價無重大影響"
-  },
-  {
-    "date": "2026-06-15",
-    "time": "165010",
-    "stock_code": "4523",
-    "company_name": "永彰",
-    "event_title": "公告本公司現金股利除息基準日相關事宜",
-    "event_type": "OTHER",
-    "stage": "N/A",
-    "wiki_details": {
-      "amount": "新台幣171,591,385元",
-      "price": null,
-      "partners": [],
-      "buyback_range": []
-    },
-    "sentiment": "NEUTRAL",
-    "summary": "公告現金股利除息基準日及發放日期，屬常規財務作業，對股價影響中性。"
-  },
-  {
-    "date": "2026-06-15",
-    "time": "165033",
-    "stock_code": "3710",
-    "company_name": "連展投控",
-    "event_title": "公告本公司董事會決議現金增資發行新股事宜",
-    "event_type": "OTHER",
-    "stage": "BOARD_RESOLUTION",
-    "wiki_details": {
-      "amount": "新台幣300,000,000元；發行普通股30,000,000股",
-      "price": null,
-      "partners": [],
-      "buyback_range": []
-    },
-    "sentiment": "NEUTRAL",
-    "summary": "董事會決議現金增資，資金用於改善財務結構，價格授權董事長於面額至12元間決定，屬中性財務操作。"
-  },
-  {
-    "date": "2026-06-15",
-    "time": "165135",
-    "stock_code": "6425",
-    "company_name": "易發",
-    "event_title": "公告本公司調整現金股利配息率公告",
-    "event_type": "OTHER",
-    "stage": "N/A",
-    "wiki_details": {
-      "amount": null,
-      "price": null,
-      "partners": [],
-      "buyback_range": []
-    },
-    "sentiment": "NEUTRAL",
-    "summary": "因可轉債轉換導致股數變動而微調每股配息率，屬常規性財務調整，對股價無顯著影響"
-  },
-  {
-    "date": "2026-06-15",
-    "time": "165528",
-    "stock_code": "3064",
-    "company_name": "泰偉",
-    "event_title": "公告本公司未來三個月預計之現金收支狀況及上一月份之銀\r\n行融資額度使用情形",
-    "event_type": "OTHER",
-    "stage": "N/A",
-    "wiki_details": {
-      "amount": null,
-      "price": null,
-      "partners": [],
-      "buyback_range": []
-    },
-    "sentiment": "NEUTRAL",
-    "summary": "例行性現金收支與融資額度公告，無特殊資本運作或重大戰略變動，對股價影響中性。"
-  },
-  {
-    "date": "2026-06-15",
-    "time": "165800",
-    "stock_code": "8255",
-    "company_name": "朋程",
-    "event_title": "公告本公司調整配息率",
-    "event_type": "OTHER",
-    "stage": "BOARD_RESOLUTION",
-    "wiki_details": {
-      "amount": null,
-      "price": null,
-      "partners": [],
-      "buyback_range": []
-    },
-    "sentiment": "NEUTRAL",
-    "summary": "因員工認股權轉換導致股數變動而微調每股配息金額，屬常規會計調整，對股價影響中性。"
-  },
-  {
-    "date": "2026-06-15",
-    "time": "171109",
-    "stock_code": "5398",
-    "company_name": "慕康生醫",
-    "event_title": "公告本公司擬以現金為對價取得博聯生技股份有限公司所有股權，\r\n成為本公司百分之百持股之子公司",
-    "event_type": "OTHER",
-    "stage": "BOARD_RESOLUTION",
-    "wiki_details": {
-      "amount": "新台幣287,000仟元",
-      "price": null,
-      "partners": [],
-      "buyback_range": []
-    },
-    "sentiment": "BULLISH",
-    "summary": "公司以自有資金收購博聯生技100%股權，旨在整合健檢事業並立即貢獻營收獲利，符合長期成長策略"
-  },
-  {
-    "date": "2026-06-15",
-    "time": "171200",
-    "stock_code": "5398",
-    "company_name": "慕康生醫",
-    "event_title": "公告本公司董事會決議通過擬以現金為對價取得博聯生技股份有限公司100%股權",
-    "event_type": "OTHER",
-    "stage": "BOARD_RESOLUTION",
-    "wiki_details": {
-      "amount": "2,980,000股",
-      "price": "96.31",
-      "partners": [
-        "宇博控股股份有限公司"
-      ],
-      "buyback_range": []
-    },
-    "sentiment": "NEUTRAL",
-    "summary": "公司透過關係人交易以現金收購博聯生技100%股權，旨在擴展預防醫學及企業健康管理市場佈局，屬戰略性併購，需經股東會決議。"
-  },
-  {
-    "date": "2026-06-15",
-    "time": "171702",
-    "stock_code": "5398",
-    "company_name": "慕康生醫",
-    "event_title": "公告本公司董事會決議召開115年股東臨時會相關事宜",
-    "event_type": "OTHER",
-    "stage": "BOARD_RESOLUTION",
-    "wiki_details": {
-      "amount": null,
-      "price": null,
-      "partners": [
-        "博聯生技股份有限公司"
-      ],
-      "buyback_range": []
-    },
-    "sentiment": "NEUTRAL",
-    "summary": "董事會決議以現金取得博聯生技100%股權，屬公司併購擴張行為，對股價影響視併購效益而定，目前為中性消息。"
-  },
-  {
-    "date": "2026-06-15",
-    "time": "172737",
-    "stock_code": "2736",
-    "company_name": "富野",
-    "event_title": "公告本公司115年股東常會重要決議事項",
-    "event_type": "OTHER",
-    "stage": "EFFECTIVE",
-    "wiki_details": {
-      "amount": null,
-      "price": null,
-      "partners": [],
-      "buyback_range": []
-    },
-    "sentiment": "NEUTRAL",
-    "summary": "股東常會通過虧損撥補及董事補選，屬常規公司治理事項，對股價無顯著直接影響。"
-  },
-  {
-    "date": "2026-06-15",
-    "time": "173033",
-    "stock_code": "6763",
-    "company_name": "綠界科技*",
-    "event_title": "公告金融監督管理委員會同意廢止本公司申請撤銷114年度\r\n現金增資發行新股案",
-    "event_type": "OTHER",
-    "stage": "N/A",
-    "wiki_details": {
-      "amount": null,
-      "price": null,
-      "partners": [],
-      "buyback_range": []
-    },
-    "sentiment": "NEUTRAL",
-    "summary": "公司撤銷現金增資案，無資金募集影響，對財務業務無重大影響，屬中性消息。"
-  },
-  {
-    "date": "2026-06-15",
-    "time": "174002",
-    "stock_code": "2736",
-    "company_name": "富野",
-    "event_title": "公告本公司民國115年股東常會董事補選名單",
-    "event_type": "OTHER",
-    "stage": "EFFECTIVE",
-    "wiki_details": {
-      "amount": null,
-      "price": null,
-      "partners": [],
-      "buyback_range": []
-    },
-    "sentiment": "NEUTRAL",
-    "summary": "董事補選完成，屬正常公司治理變動，對股價無直接重大影響"
-  },
-  {
-    "date": "2026-06-15",
-    "time": "174021",
-    "stock_code": "4728",
-    "company_name": "雙美",
-    "event_title": "公告本公司115年股東常會重要決議事項",
-    "event_type": "OTHER",
-    "stage": "EFFECTIVE",
-    "wiki_details": {
-      "amount": null,
-      "price": null,
-      "partners": [],
-      "buyback_range": []
-    },
-    "sentiment": "NEUTRAL",
-    "summary": "股東常會通過盈餘分配、章程修訂及財務報表承認，屬例行性公司治理事項，無重大資本運作或戰略變動，對股價影響中性。"
-  },
-  {
-    "date": "2026-06-15",
-    "time": "174312",
-    "stock_code": "2736",
-    "company_name": "富野",
-    "event_title": "公告本公司新任法人董事指派代表人",
-    "event_type": "OTHER",
-    "stage": "EFFECTIVE",
-    "wiki_details": {
-      "amount": null,
-      "price": null,
-      "partners": [],
-      "buyback_range": []
-    },
-    "sentiment": "NEUTRAL",
-    "summary": "法人董事代表人異動屬公司治理常規調整，對股價無直接財務影響，屬中性消息。"
-  },
-  {
-    "date": "2026-06-15",
-    "time": "174522",
-    "stock_code": "2736",
-    "company_name": "富野",
-    "event_title": "公告本公司115年股東常會決議通過解除新任董事及其代表人\r\n競業禁止之限制案",
-    "event_type": "OTHER",
-    "stage": "N/A",
-    "wiki_details": {
-      "amount": null,
-      "price": null,
-      "partners": [],
-      "buyback_range": []
-    },
-    "sentiment": "NEUTRAL",
-    "summary": "解除董事競業禁止限制屬常規公司治理事項，對財務業務無影響，屬中性消息。"
-  },
-  {
-    "date": "2026-06-15",
-    "time": "174529",
-    "stock_code": "6597",
-    "company_name": "立誠",
-    "event_title": "公告本公司最近一年累積取得有價證券達公告標準",
-    "event_type": "OTHER",
-    "stage": "N/A",
-    "wiki_details": {
-      "amount": "30,000股",
-      "price": "2393.68",
-      "partners": [],
-      "buyback_range": []
-    },
-    "sentiment": "NEUTRAL",
-    "summary": "公司進行財務性投資取得群聯電子股票，持股比例極低且無關係人交易，對股價影響中性。"
-  },
-  {
-    "date": "2026-06-15",
-    "time": "175713",
-    "stock_code": "4804",
-    "company_name": "大略-KY",
-    "event_title": "公告本公司贖回可轉換公司債後，115年06月-115年08月現金\r\n收支狀況及相關資金調度情形",
-    "event_type": "OTHER",
-    "stage": "N/A",
-    "wiki_details": {
-      "amount": null,
-      "price": null,
-      "partners": [],
-      "buyback_range": []
-    },
-    "sentiment": "NEUTRAL",
-    "summary": "公司已完成可轉債贖回，公告未來三個月現金收支及資金調度，顯示營運現金流穩定且無額外資金缺口，財務狀況中性。"
-  },
-  {
-    "date": "2026-06-15",
-    "time": "180338",
-    "stock_code": "3664",
-    "company_name": "安瑞-KY",
-    "event_title": "公告本公司115年05月份自結報表之負債比率、流動\r\n比率、速動比率、現金餘額及銀行融資情形、應收款項、預\r\n估未來三個月現金收支",
-    "event_type": "OTHER",
-    "stage": "N/A",
-    "wiki_details": {
-      "amount": null,
-      "price": null,
-      "partners": [],
-      "buyback_range": []
-    },
-    "sentiment": "BEARISH",
-    "summary": "負債比率達86.14%且流動比率低於100%，顯示財務槓桿高且短期流動性緊繃，雖現金流預估持平但應收帳款逾期金額龐大，反映營運資金回收風險與財務結構脆弱性。"
-  },
-  {
-    "date": "2026-06-15",
-    "time": "181345",
-    "stock_code": "5301",
-    "company_name": "寶得利",
-    "event_title": "公告本公司115年股東常會重要決議事項",
-    "event_type": "PRIVATE_PLACEMENT",
-    "stage": "BOARD_RESOLUTION",
-    "wiki_details": {
-      "amount": null,
-      "price": null,
-      "partners": [],
-      "buyback_range": []
-    },
-    "sentiment": "NEUTRAL",
-    "summary": "股東常會通過私募發行普通股及減資彌補虧損案，屬常規財務調整，短期市場影響中性"
-  },
-  {
-    "date": "2026-06-15",
-    "time": "182037",
-    "stock_code": "5301",
-    "company_name": "寶得利",
-    "event_title": "公告本公司115年股東常會獨立董事補選名單暨董事變動達\r\n三分之一",
-    "event_type": "OTHER",
-    "stage": "EFFECTIVE",
-    "wiki_details": {
-      "amount": null,
-      "price": null,
-      "partners": [],
-      "buyback_range": []
-    },
-    "sentiment": "NEUTRAL",
-    "summary": "獨立董事補選生效，董事變動達三分之一屬法定公告事項，對股價無直接財務影響，屬中性消息。"
-  },
-  {
-    "date": "2026-06-15",
-    "time": "182154",
-    "stock_code": "5301",
-    "company_name": "寶得利",
-    "event_title": "公告本公司115年股東常會通過解除新任董事競業禁止限制案",
-    "event_type": "OTHER",
-    "stage": "N/A",
-    "wiki_details": {
-      "amount": null,
-      "price": null,
-      "partners": [],
-      "buyback_range": []
-    },
-    "sentiment": "NEUTRAL",
-    "summary": "解除董事競業禁止限制屬常規公司治理事項，對財務業務無影響，屬中性消息。"
-  },
-  {
-    "date": "2026-06-15",
-    "time": "182302",
-    "stock_code": "5301",
-    "company_name": "寶得利",
-    "event_title": "本公司115年股東常會決議辦理減資彌補虧損致債權人公告",
-    "event_type": "OTHER",
-    "stage": "BOARD_RESOLUTION",
-    "wiki_details": {
-      "amount": "11,961,458股",
-      "price": null,
-      "partners": [],
-      "buyback_range": []
-    },
-    "sentiment": "NEUTRAL",
-    "summary": "寶得利辦理減資彌補虧損，旨在改善財務結構，屬常規財務調整，對股價無直接利多或利空影響。"
-  },
-  {
-    "date": "2026-06-15",
-    "time": "182613",
-    "stock_code": "8444",
-    "company_name": "綠河-KY",
-    "event_title": "公告本公司董事會決議114年股東常會通過之私募普通股剩餘額度\r\n於115年股東常會後不繼續辦理",
-    "event_type": "PRIVATE_PLACEMENT",
-    "stage": "BOARD_RESOLUTION",
-    "wiki_details": {
-      "amount": "剩餘額度19,300,000股",
-      "price": null,
-      "partners": [],
-      "buyback_range": []
-    },
-    "sentiment": "NEUTRAL",
-    "summary": "公司決議不再繼續辦理剩餘私募額度，顯示資金需求已滿足或策略調整，無新增籌資壓力。"
-  },
-  {
-    "date": "2026-06-15",
-    "time": "182643",
-    "stock_code": "3522",
-    "company_name": "御嵿",
-    "event_title": "代重要子公司海峽會美食股份有限公司\r\n公告115年股東會重要決議事項",
-    "event_type": "OTHER",
-    "stage": "N/A",
-    "wiki_details": {
-      "amount": null,
-      "price": null,
-      "partners": [],
-      "buyback_range": []
-    },
-    "sentiment": "NEUTRAL",
-    "summary": "子公司股東會決議承認虧損撥補及財務報表，屬常規性財務程序，無重大資本運作或戰略佈局，對股價影響中性。"
-  },
-  {
-    "date": "2026-06-15",
-    "time": "182700",
-    "stock_code": "8088",
-    "company_name": "品安",
-    "event_title": "公告本公司董事會決議除息基準日",
-    "event_type": "OTHER",
-    "stage": "BOARD_RESOLUTION",
-    "wiki_details": {
-      "amount": "新台幣91,382,624元",
-      "price": null,
-      "partners": [],
-      "buyback_range": []
-    },
-    "sentiment": "NEUTRAL",
-    "summary": "董事會決議發放每股1.5元現金股利，屬常規盈餘分配，對股價影響中性。"
-  },
-  {
-    "date": "2026-06-15",
-    "time": "182712",
-    "stock_code": "3522",
-    "company_name": "御嵿",
-    "event_title": "代重要子公司海峽會美食股份有限公司公告\r\n董事會決議通過現金增資案",
-    "event_type": "OTHER",
-    "stage": "BOARD_RESOLUTION",
-    "wiki_details": {
-      "amount": "新台幣20,000仟元",
-      "price": "10",
-      "partners": [],
-      "buyback_range": []
-    },
-    "sentiment": "NEUTRAL",
-    "summary": "子公司現金增資充實營運資金，屬常規財務操作，對母公司股價影響中性"
-  },
-  {
-    "date": "2026-06-15",
-    "time": "182814",
-    "stock_code": "8431",
-    "company_name": "匯鑽科",
-    "event_title": "公告本公司115年度股東常會重要決議事項",
-    "event_type": "PRIVATE_PLACEMENT",
-    "stage": "EFFECTIVE",
-    "wiki_details": {
-      "amount": null,
-      "price": null,
-      "partners": [],
-      "buyback_range": []
-    },
-    "sentiment": "NEUTRAL",
-    "summary": "股東會通過私募現金增資及限制員工權利新股，顯示公司籌資與激勵員工意圖，但缺乏具體認購對象與價格資訊，市場影響待觀察"
-  },
-  {
-    "date": "2026-06-15",
-    "time": "183149",
-    "stock_code": "8444",
-    "company_name": "綠河-KY",
-    "event_title": "代重要子公司Happy Magic International Limited依公開發行\r\n公司資金貸與及背書保證處理準則第二十二條第一項第三款公告",
-    "event_type": "OTHER",
-    "stage": "N/A",
-    "wiki_details": {
-      "amount": null,
-      "price": null,
-      "partners": [],
-      "buyback_range": []
-    },
-    "sentiment": "NEUTRAL",
-    "summary": "子公司間資金貸與屬常規營運資金調度，對母公司股價影響中性"
-  },
-  {
-    "date": "2026-06-15",
-    "time": "183704",
-    "stock_code": "5301",
-    "company_name": "寶得利",
-    "event_title": "公告本公司遷址案",
-    "event_type": "OTHER",
-    "stage": "BOARD_RESOLUTION",
-    "wiki_details": {
-      "amount": null,
-      "price": null,
-      "partners": [],
-      "buyback_range": []
-    },
-    "sentiment": "NEUTRAL",
-    "summary": "公司遷址屬行政變更，對財務與營運無重大影響，屬中性消息。"
-  },
-  {
-    "date": "2026-06-15",
-    "time": "183922",
-    "stock_code": "5301",
-    "company_name": "寶得利",
-    "event_title": "公告本公司內部稽核主管異動",
-    "event_type": "OTHER",
-    "stage": "BOARD_RESOLUTION",
-    "wiki_details": {
-      "amount": null,
-      "price": null,
-      "partners": [],
-      "buyback_range": []
-    },
-    "sentiment": "NEUTRAL",
-    "summary": "內部稽核主管職務調整，屬一般人事異動，對股價無顯著影響"
   },
   {
     "date": "2026-06-15",
@@ -2546,10 +2507,27 @@
   },
   {
     "date": "2026-06-15",
-    "time": "185317",
-    "stock_code": "4721",
-    "company_name": "美琪瑪",
-    "event_title": "更正-公告本公司115年股東常會董事改選當選名單\r\n暨董事變動達三分之一",
+    "time": "141846",
+    "stock_code": "6945",
+    "company_name": "圓祥生技",
+    "event_title": "公告本公司初次上櫃掛牌首五個營業日\r\n穩定價格操作結果",
+    "event_type": "OTHER",
+    "stage": "LISTING",
+    "wiki_details": {
+      "amount": "500,000股",
+      "price": "105.4",
+      "partners": [],
+      "buyback_range": []
+    },
+    "sentiment": "NEUTRAL",
+    "summary": "圓祥生技上櫃首五日穩定價格操作完成，承銷商買進500,000股，屬常規掛牌後護盤機制，無特殊利多或利空影響。"
+  },
+  {
+    "date": "2026-06-15",
+    "time": "164532",
+    "stock_code": "6965",
+    "company_name": "中傑-KY",
+    "event_title": "",
     "event_type": "OTHER",
     "stage": "EFFECTIVE",
     "wiki_details": {
@@ -2559,14 +2537,48 @@
       "buyback_range": []
     },
     "sentiment": "NEUTRAL",
-    "summary": "董事會全面改選且變動達三分之一，屬例行性人事更動，對公司營運與股價影響中性。"
+    "summary": "董事會任期屆滿全面改選，原有經營團隊與獨立董事皆連任，顯示公司治理結構穩定，無重大人事變動風險。"
   },
   {
     "date": "2026-06-15",
-    "time": "185453",
-    "stock_code": "4721",
-    "company_name": "美琪瑪",
-    "event_title": "公告本公司決定除息基準日及配息相關事宜",
+    "time": "180739",
+    "stock_code": "7760",
+    "company_name": "享溫馨",
+    "event_title": "",
+    "event_type": "OTHER",
+    "stage": "EFFECTIVE",
+    "wiki_details": {
+      "amount": null,
+      "price": null,
+      "partners": [],
+      "buyback_range": []
+    },
+    "sentiment": "NEUTRAL",
+    "summary": "獨立董事任期屆滿改選，人事結構維持穩定，對股價無顯著影響"
+  },
+  {
+    "date": "2026-06-15",
+    "time": "232729",
+    "stock_code": "7765",
+    "company_name": "中華資安",
+    "event_title": "",
+    "event_type": "OTHER",
+    "stage": "BOARD_RESOLUTION",
+    "wiki_details": {
+      "amount": null,
+      "price": null,
+      "partners": [],
+      "buyback_range": []
+    },
+    "sentiment": "NEUTRAL",
+    "summary": "董事長因法人董事改派而退休，屬正常人事異動，對公司營運與股價影響中性，新任董事長選出前暫無重大策略變動。"
+  },
+  {
+    "date": "2026-06-15",
+    "time": "140023",
+    "stock_code": "7768",
+    "company_name": "頌勝科技",
+    "event_title": "",
     "event_type": "OTHER",
     "stage": "N/A",
     "wiki_details": {
@@ -2576,7 +2588,177 @@
       "buyback_range": []
     },
     "sentiment": "NEUTRAL",
-    "summary": "公司宣告除息基準日及配息事宜，每股配發現金2.3元，屬常規財務作業，對股價影響中性。"
+    "summary": "副總經理職務調整屬一般人事異動，對公司營運與股價影響中性，無顯著交易策略含意。"
+  },
+  {
+    "date": "2026-06-15",
+    "time": "182433",
+    "stock_code": "7769",
+    "company_name": "鴻勁",
+    "event_title": "",
+    "event_type": "OTHER",
+    "stage": "BOARD_RESOLUTION",
+    "wiki_details": {
+      "amount": null,
+      "price": null,
+      "partners": [],
+      "buyback_range": []
+    },
+    "sentiment": "BULLISH",
+    "summary": "公司宣布除息並調整配息率，反映獲利穩定與股東回報意願，對股價具支撐作用"
+  },
+  {
+    "date": "2026-06-15",
+    "time": "150441",
+    "stock_code": "7805",
+    "company_name": "威聯通",
+    "event_title": "公告本公司副總經理異動",
+    "event_type": "OTHER",
+    "stage": "N/A",
+    "wiki_details": {
+      "amount": null,
+      "price": null,
+      "partners": [],
+      "buyback_range": []
+    },
+    "sentiment": "NEUTRAL",
+    "summary": "副總經理辭職屬一般人事異動，對公司營運與股價影響有限，屬中性消息。"
+  },
+  {
+    "date": "2026-06-15",
+    "time": "142423",
+    "stock_code": "8049",
+    "company_name": "晶采",
+    "event_title": "公告本公司推選之新任董事長",
+    "event_type": "OTHER",
+    "stage": "BOARD_RESOLUTION",
+    "wiki_details": {
+      "amount": null,
+      "price": null,
+      "partners": [],
+      "buyback_range": []
+    },
+    "sentiment": "NEUTRAL",
+    "summary": "董事長因逝世異動，新任者為現任總經理，屬內部升遷，對公司營運與股價影響中性"
+  },
+  {
+    "date": "2026-06-15",
+    "time": "160045",
+    "stock_code": "8064",
+    "company_name": "東捷",
+    "event_title": "公告本公司發言人及代理發言人異動",
+    "event_type": "OTHER",
+    "stage": "N/A",
+    "wiki_details": {
+      "amount": null,
+      "price": null,
+      "partners": [],
+      "buyback_range": []
+    },
+    "sentiment": "NEUTRAL",
+    "summary": "發言人人事異動屬常規公司治理調整，對股價無直接影響"
+  },
+  {
+    "date": "2026-06-15",
+    "time": "182700",
+    "stock_code": "8088",
+    "company_name": "品安",
+    "event_title": "公告本公司董事會決議除息基準日",
+    "event_type": "OTHER",
+    "stage": "BOARD_RESOLUTION",
+    "wiki_details": {
+      "amount": "新台幣91,382,624元",
+      "price": null,
+      "partners": [],
+      "buyback_range": []
+    },
+    "sentiment": "NEUTRAL",
+    "summary": "董事會決議發放每股1.5元現金股利，屬常規盈餘分配，對股價影響中性。"
+  },
+  {
+    "date": "2026-06-15",
+    "time": "165800",
+    "stock_code": "8255",
+    "company_name": "朋程",
+    "event_title": "公告本公司調整配息率",
+    "event_type": "OTHER",
+    "stage": "BOARD_RESOLUTION",
+    "wiki_details": {
+      "amount": null,
+      "price": null,
+      "partners": [],
+      "buyback_range": []
+    },
+    "sentiment": "NEUTRAL",
+    "summary": "因員工認股權轉換導致股數變動而微調每股配息金額，屬常規會計調整，對股價影響中性。"
+  },
+  {
+    "date": "2026-06-15",
+    "time": "145718",
+    "stock_code": "8291",
+    "company_name": "尚茂",
+    "event_title": "本公司有價證券近期多次達公布注意交易資訊標準，\r\n故公告相關訊息，以利投資人區別暸解",
+    "event_type": "OTHER",
+    "stage": "N/A",
+    "wiki_details": {
+      "amount": null,
+      "price": null,
+      "partners": [],
+      "buyback_range": []
+    },
+    "sentiment": "NEUTRAL",
+    "summary": "公司營收大幅成長但持續虧損，因觸發注意交易標準而公告，屬常規資訊披露，無直接資本運作策略意義"
+  },
+  {
+    "date": "2026-06-15",
+    "time": "182814",
+    "stock_code": "8431",
+    "company_name": "匯鑽科",
+    "event_title": "公告本公司115年度股東常會重要決議事項",
+    "event_type": "PRIVATE_PLACEMENT",
+    "stage": "EFFECTIVE",
+    "wiki_details": {
+      "amount": null,
+      "price": null,
+      "partners": [],
+      "buyback_range": []
+    },
+    "sentiment": "NEUTRAL",
+    "summary": "股東會通過私募現金增資及限制員工權利新股，顯示公司籌資與激勵員工意圖，但缺乏具體認購對象與價格資訊，市場影響待觀察"
+  },
+  {
+    "date": "2026-06-15",
+    "time": "182613",
+    "stock_code": "8444",
+    "company_name": "綠河-KY",
+    "event_title": "公告本公司董事會決議114年股東常會通過之私募普通股剩餘額度\r\n於115年股東常會後不繼續辦理",
+    "event_type": "PRIVATE_PLACEMENT",
+    "stage": "BOARD_RESOLUTION",
+    "wiki_details": {
+      "amount": "剩餘額度19,300,000股",
+      "price": null,
+      "partners": [],
+      "buyback_range": []
+    },
+    "sentiment": "NEUTRAL",
+    "summary": "公司決議不再繼續辦理剩餘私募額度，顯示資金需求已滿足或策略調整，無新增籌資壓力。"
+  },
+  {
+    "date": "2026-06-15",
+    "time": "183149",
+    "stock_code": "8444",
+    "company_name": "綠河-KY",
+    "event_title": "代重要子公司Happy Magic International Limited依公開發行\r\n公司資金貸與及背書保證處理準則第二十二條第一項第三款公告",
+    "event_type": "OTHER",
+    "stage": "N/A",
+    "wiki_details": {
+      "amount": null,
+      "price": null,
+      "partners": [],
+      "buyback_range": []
+    },
+    "sentiment": "NEUTRAL",
+    "summary": "子公司間資金貸與屬常規營運資金調度，對母公司股價影響中性"
   },
   {
     "date": "2026-06-15",
@@ -2597,146 +2779,64 @@
   },
   {
     "date": "2026-06-15",
-    "time": "185818",
-    "stock_code": "5353",
-    "company_name": "台林",
-    "event_title": "公告本公司現金股利配息基準日及調整配息率",
-    "event_type": "OTHER",
-    "stage": "N/A",
-    "wiki_details": {
-      "amount": null,
-      "price": null,
-      "partners": [],
-      "buyback_range": []
-    },
-    "sentiment": "NEUTRAL",
-    "summary": "現金股利配息基準日公告，因限制員工權利新股既得導致流通在外股數變化而微調配息率，屬常規財務作業，對股價無顯著影響"
-  },
-  {
-    "date": "2026-06-15",
-    "time": "191216",
-    "stock_code": "6203",
-    "company_name": "海韻電",
-    "event_title": "公告本公司115年股東常會重要決議事項",
-    "event_type": "OTHER",
-    "stage": "EFFECTIVE",
-    "wiki_details": {
-      "amount": null,
-      "price": null,
-      "partners": [],
-      "buyback_range": []
-    },
-    "sentiment": "NEUTRAL",
-    "summary": "股東常會通過盈餘分配、章程修訂及董監事改選，屬例行性公司治理事項，無重大資本運作或市場影響因子。"
-  },
-  {
-    "date": "2026-06-15",
-    "time": "191311",
-    "stock_code": "4416",
-    "company_name": "三圓",
-    "event_title": "公告本公司本週到期票據、應償還借款及利息等相關資訊",
-    "event_type": "OTHER",
-    "stage": "N/A",
-    "wiki_details": {
-      "amount": null,
-      "price": null,
-      "partners": [],
-      "buyback_range": []
-    },
-    "sentiment": "NEUTRAL",
-    "summary": "例行性財務資訊公告，顯示公司資金調度正常且無資金缺口，對股價無顯著影響。"
-  },
-  {
-    "date": "2026-06-15",
-    "time": "191332",
-    "stock_code": "6203",
-    "company_name": "海韻電",
-    "event_title": "公告本公司115年股東常會通過解除新任董事及其代表人\r\n競業禁止之限制案",
-    "event_type": "OTHER",
-    "stage": "EFFECTIVE",
-    "wiki_details": {
-      "amount": null,
-      "price": null,
-      "partners": [],
-      "buyback_range": []
-    },
-    "sentiment": "NEUTRAL",
-    "summary": "解除董事競業禁止限制屬常規公司治理事項，對股價無直接財務影響，屬中性消息。"
-  },
-  {
-    "date": "2026-06-15",
-    "time": "191344",
-    "stock_code": "4416",
-    "company_name": "三圓",
-    "event_title": "公告本公司董事變動達三分之一",
-    "event_type": "OTHER",
-    "stage": "EFFECTIVE",
-    "wiki_details": {
-      "amount": null,
-      "price": null,
-      "partners": [],
-      "buyback_range": []
-    },
-    "sentiment": "NEUTRAL",
-    "summary": "董事變動達三分之一屬公司治理結構調整，無直接財務影響，市場反應通常為中性。"
-  },
-  {
-    "date": "2026-06-15",
-    "time": "191416",
-    "stock_code": "4416",
-    "company_name": "三圓",
-    "event_title": "公告本公司之關係人退票事宜",
-    "event_type": "OTHER",
-    "stage": "N/A",
-    "wiki_details": {
-      "amount": null,
-      "price": null,
-      "partners": [],
-      "buyback_range": []
-    },
-    "sentiment": "BEARISH",
-    "summary": "關係人支票退票顯示信用風險，雖金額不大但反映內部控制或資金鏈潛在問題，屬負面消息"
-  },
-  {
-    "date": "2026-06-15",
-    "time": "191447",
-    "stock_code": "4416",
-    "company_name": "三圓",
-    "event_title": "本公司董事長王雅麟先生退票事由說明",
-    "event_type": "OTHER",
-    "stage": "N/A",
-    "wiki_details": {
-      "amount": "8張，$100,500,000",
-      "price": null,
-      "partners": [],
-      "buyback_range": []
-    },
-    "sentiment": "NEUTRAL",
-    "summary": "董事長個人退票與公司營運無涉，對股價無重大影響，屬中性消息"
-  },
-  {
-    "date": "2026-06-15",
-    "time": "191454",
-    "stock_code": "6203",
-    "company_name": "海韻電",
-    "event_title": "公告本公司董事會選任董事長",
+    "time": "150513",
+    "stock_code": "8473",
+    "company_name": "山林水",
+    "event_title": "",
     "event_type": "OTHER",
     "stage": "BOARD_RESOLUTION",
     "wiki_details": {
+      "amount": "新台幣766,157仟元",
+      "price": null,
+      "partners": [
+        "山林水環境工程(股)公司",
+        "聚勃國際股份有限公司"
+      ],
+      "buyback_range": []
+    },
+    "sentiment": "NEUTRAL",
+    "summary": "公司取得與ROT合約相關之無形資產，屬關係人交易，主要為技術延續及營運整合，對股價影響中性。"
+  },
+  {
+    "date": "2026-06-15",
+    "time": "160909",
+    "stock_code": "8499",
+    "company_name": "鼎炫-KY",
+    "event_title": "",
+    "event_type": "OTHER",
+    "stage": "N/A",
+    "wiki_details": {
+      "amount": "新台幣1,010,000元",
+      "price": null,
+      "partners": [],
+      "buyback_range": []
+    },
+    "sentiment": "NEUTRAL",
+    "summary": "公司運用自有資金進行短期結構性存款及理財產品投資，獲取約新台幣53萬元利息收入，屬常規資金管理行為，對股價影響中性。"
+  },
+  {
+    "date": "2026-06-15",
+    "time": "142139",
+    "stock_code": "8921",
+    "company_name": "沈氏",
+    "event_title": "公告本公司法人董事代表人變更",
+    "event_type": "OTHER",
+    "stage": "N/A",
+    "wiki_details": {
       "amount": null,
       "price": null,
       "partners": [],
       "buyback_range": []
     },
     "sentiment": "NEUTRAL",
-    "summary": "董事長任期屆滿改選，屬正常公司治理變動，對股價無顯著影響"
+    "summary": "法人董事代表人異動屬常規行政作業，對公司基本面與股價無直接重大影響"
   },
   {
     "date": "2026-06-15",
-    "time": "191535",
-    "stock_code": "6203",
-    "company_name": "海韻電",
-    "event_title": "公告本公司第三屆審計委員會委員及選任召集人",
+    "time": "183544",
+    "stock_code": "9917",
+    "company_name": "中保科",
+    "event_title": "",
     "event_type": "OTHER",
     "stage": "EFFECTIVE",
     "wiki_details": {
@@ -2746,126 +2846,26 @@
       "buyback_range": []
     },
     "sentiment": "NEUTRAL",
-    "summary": "審計委員會人事異動屬例行性公司治理事項，對股價無直接影響"
+    "summary": "法人董事代表人異動，屬常規人事調整，對股價無顯著影響"
   },
   {
     "date": "2026-06-15",
-    "time": "191626",
-    "stock_code": "6203",
-    "company_name": "海韻電",
-    "event_title": "公告本公司第六屆薪酬委員會委員及選任召集人",
-    "event_type": "OTHER",
-    "stage": "N/A",
-    "wiki_details": {
-      "amount": null,
-      "price": null,
-      "partners": [],
-      "buyback_range": []
-    },
-    "sentiment": "NEUTRAL",
-    "summary": "薪酬委員會人事異動屬常規公司治理事項，對股價無直接影響，屬中性消息。"
-  },
-  {
-    "date": "2026-06-15",
-    "time": "191703",
-    "stock_code": "6203",
-    "company_name": "海韻電",
-    "event_title": "公告本公司第三屆永續發展委員會委員及選任召集人",
-    "event_type": "OTHER",
-    "stage": "N/A",
-    "wiki_details": {
-      "amount": null,
-      "price": null,
-      "partners": [],
-      "buyback_range": []
-    },
-    "sentiment": "NEUTRAL",
-    "summary": "公司進行永續發展委員會委員任期屆滿改選，屬常規公司治理變動，對股價無直接影響。"
-  },
-  {
-    "date": "2026-06-15",
-    "time": "193951",
-    "stock_code": "6126",
-    "company_name": "信音",
-    "event_title": "公告本公司知悉經理人從事大陸地區之競業情形",
-    "event_type": "OTHER",
-    "stage": "BOARD_RESOLUTION",
-    "wiki_details": {
-      "amount": null,
-      "price": null,
-      "partners": [],
-      "buyback_range": []
-    },
-    "sentiment": "NEUTRAL",
-    "summary": "總經理兼任大陸子公司職務屬集團內部正常營運安排，擬解除競業禁止限制為程序性事項，對股價無顯著影響。"
-  },
-  {
-    "date": "2026-06-15",
-    "time": "194119",
-    "stock_code": "6126",
-    "company_name": "信音",
-    "event_title": "代重要子公司信音電子(中國)股份有限公司公告\r\n除息基準日及現金股利發放日期",
-    "event_type": "OTHER",
-    "stage": "N/A",
-    "wiki_details": {
-      "amount": null,
-      "price": null,
-      "partners": [],
-      "buyback_range": []
-    },
-    "sentiment": "NEUTRAL",
-    "summary": "子公司信音電子公告除息基準日及現金股利發放日期，屬常規財務資訊，對股價無顯著影響"
-  },
-  {
-    "date": "2026-06-15",
-    "time": "194239",
-    "stock_code": "6126",
-    "company_name": "信音",
-    "event_title": "代子公司信音科技(香港)有限公司公告\r\n董事異動",
-    "event_type": "OTHER",
-    "stage": "N/A",
-    "wiki_details": {
-      "amount": null,
-      "price": null,
-      "partners": [],
-      "buyback_range": []
-    },
-    "sentiment": "NEUTRAL",
-    "summary": "子公司董事因退休辭職，屬正常人事異動，對公司營運與股價無重大影響。"
-  },
-  {
-    "date": "2026-06-15",
-    "time": "195201",
-    "stock_code": "6203",
-    "company_name": "海韻電",
-    "event_title": "公告本公司115年股東常會全面改選董事(含獨立董事)\r\n當選名單暨董事變動達三分之一以上",
+    "time": "172700",
+    "stock_code": "9933",
+    "company_name": "中鼎",
+    "event_title": "",
     "event_type": "OTHER",
     "stage": "EFFECTIVE",
     "wiki_details": {
-      "amount": null,
-      "price": null,
-      "partners": [],
+      "amount": "27,000,000股",
+      "price": "19.70",
+      "partners": [
+        "緯來電視網股份有限公司"
+      ],
       "buyback_range": []
     },
     "sentiment": "NEUTRAL",
-    "summary": "董事會全面改選屬例行性人事變動，雖變動達三分之一以上需公告，但無重大經營策略改變或資金動向，對股價影響中性。"
-  },
-  {
-    "date": "2026-06-15",
-    "time": "201211",
-    "stock_code": "6126",
-    "company_name": "信音",
-    "event_title": "代子公司東莞市國聯電子有限公司公告\r\n召開股東會",
-    "event_type": "OTHER",
-    "stage": "BOARD_RESOLUTION",
-    "wiki_details": {
-      "amount": null,
-      "price": null,
-      "partners": [],
-      "buyback_range": []
-    },
-    "sentiment": "NEUTRAL",
-    "summary": "代子公司召開股東會進行住所變更、章程修改及董監事改選，屬一般行政事務，對母公司股價無顯著影響。"
+    "summary": "公司處分開發國際投資股權以聚焦核心業務，屬策略性資產配置，非關係人交易，對損益無直接影響。"
   },
   {
     "date": "2026-02-12",

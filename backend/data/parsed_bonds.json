@@ -7350,6 +7350,21 @@
     "issue_amount": "新臺幣30億元整"
   },
   {
+    "file_id": "11500041801",
+    "company_name": "萬潤科技股份有限公司",
+    "bond_name": "萬潤科技股份有限公司國內第六次無擔保轉換公司債",
+    "cb_code": "61876",
+    "stock_code": "6187",
+    "short_name": "萬潤六",
+    "announcement_date_minguo": "115年6月29日",
+    "announcement_date": "2026-06-29",
+    "issue_date_minguo": "115年7月2日",
+    "issue_date": "2026-07-02",
+    "maturity_date_minguo": "118年7月2日",
+    "maturity_date": "2029-07-02",
+    "issue_amount": "新台幣30億元整"
+  },
+  {
     "file_id": "11500042041",
     "company_name": "擎亞電子股份有限公司",
     "bond_name": "擎亞電子股份有限公司國內第二次無擔保轉換公司債",

@@ -15160,6 +15160,37 @@
     }
   },
   {
+    "stock_code": "6187",
+    "company_name": "萬潤科技股份有限公司",
+    "short_name": "萬潤六",
+    "stages": {
+      "BOARD_RESOLUTION": {
+        "date": "2026-04-17",
+        "title": "董事會決議發行無擔保轉換公司債",
+        "sentiment": "NEUTRAL",
+        "summary": "董事會通過發行可轉債以充實營運資金或償還債務"
+      },
+      "EFFECTIVE": {
+        "date": "2026-05-28",
+        "title": "金管會申報生效發行無擔保轉換公司債",
+        "sentiment": "BULLISH",
+        "summary": "可轉債申報生效，正式進入定價與發行準備期"
+      },
+      "PRICING": {
+        "date": "2026-06-29",
+        "title": "公告「萬潤六」發行及訂價等事宜 (櫃買公告)",
+        "sentiment": "NEUTRAL",
+        "summary": "櫃檯買賣中心公告發行資料"
+      },
+      "LISTING": {
+        "date": "2026-07-02",
+        "title": "「萬潤六」掛牌買賣/發行日",
+        "sentiment": "BULLISH",
+        "summary": "可轉債正式掛牌交易"
+      }
+    }
+  },
+  {
     "stock_code": "8096",
     "company_name": "擎亞電子股份有限公司",
     "short_name": "擎亞二",

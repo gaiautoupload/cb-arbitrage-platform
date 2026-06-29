@@ -448,8 +448,8 @@
     ],
     "performance": {
       "buy_price": 1785.0,
-      "current_price": 1230.0,
-      "return_pct": -31.09,
+      "current_price": 1310.0,
+      "return_pct": -26.61,
       "state": "holding",
       "capital": 1000000
     }
@@ -513,8 +513,8 @@
     ],
     "performance": {
       "buy_price": 31.15,
-      "current_price": 36.9,
-      "return_pct": 18.46,
+      "current_price": 34.2,
+      "return_pct": 9.79,
       "state": "holding",
       "capital": 1000000
     }
@@ -572,8 +572,8 @@
     ],
     "performance": {
       "buy_price": 70.9,
-      "current_price": 68.2,
-      "return_pct": -3.81,
+      "current_price": 67.6,
+      "return_pct": -4.65,
       "state": "holding",
       "capital": 1000000
     }
@@ -631,8 +631,8 @@
     ],
     "performance": {
       "buy_price": 1950.0,
-      "current_price": 1605.0,
-      "return_pct": -17.69,
+      "current_price": 1595.0,
+      "return_pct": -18.21,
       "state": "holding",
       "capital": 1000000
     }
@@ -690,8 +690,8 @@
     ],
     "performance": {
       "buy_price": 1100.0,
-      "current_price": 1075.0,
-      "return_pct": -2.27,
+      "current_price": 980.0,
+      "return_pct": -10.91,
       "state": "holding",
       "capital": 1000000
     }
@@ -873,8 +873,8 @@
     ],
     "performance": {
       "buy_price": 637.0,
-      "current_price": 708.0,
-      "return_pct": 11.15,
+      "current_price": 685.0,
+      "return_pct": 7.54,
       "state": "holding",
       "capital": 1000000
     }
@@ -932,8 +932,8 @@
     ],
     "performance": {
       "buy_price": 436.0,
-      "current_price": 397.5,
-      "return_pct": -8.83,
+      "current_price": 404.0,
+      "return_pct": -7.34,
       "state": "holding",
       "capital": 1000000
     }

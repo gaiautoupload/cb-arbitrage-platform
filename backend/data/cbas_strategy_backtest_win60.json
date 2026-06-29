@@ -1,0 +1,39 @@
+{
+  "generated_at": "2026-06-29T16:21:29",
+  "rule": "Buy at auction start/end or pricing/underwriting date; sell on nearest trading day after CB issue date + 6/7/8 calendar days.",
+  "start": "2020-01-01",
+  "end": "2026-06-29",
+  "summary": {
+    "base_trades": 1437,
+    "matching_strategies": 0,
+    "base_trades_by_anchor": {
+      "PRICING_issue_plus_6": 479,
+      "PRICING_issue_plus_7": 479,
+      "PRICING_issue_plus_8": 479
+    },
+    "unfiltered_anchor_stats": {
+      "PRICING_issue_plus_6": {
+        "num_trades": 479,
+        "win_rate": 44.3,
+        "avg_return": -0.25,
+        "best_return": 67.02,
+        "worst_return": -32.48
+      },
+      "PRICING_issue_plus_7": {
+        "num_trades": 479,
+        "win_rate": 44.7,
+        "avg_return": -0.16,
+        "best_return": 67.02,
+        "worst_return": -32.48
+      },
+      "PRICING_issue_plus_8": {
+        "num_trades": 479,
+        "win_rate": 47.4,
+        "avg_return": 0.03,
+        "best_return": 67.02,
+        "worst_return": -28.87
+      }
+    }
+  },
+  "top_strategies": []
+}

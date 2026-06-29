@@ -1,0 +1,231 @@
+{
+  "generated_at": "2026-06-29T16:35:15",
+  "rule": "Buy at auction start/end or pricing/underwriting date; sell on nearest trading day after CB issue date + 6/7/8 calendar days.",
+  "start": "2020-01-01",
+  "end": "2026-06-29",
+  "summary": {
+    "base_trades": 12933,
+    "matching_strategies": 0,
+    "base_trades_by_anchor": {
+      "ISSUE_MINUS_10_issue_plus_6": 479,
+      "ISSUE_MINUS_10_issue_plus_7": 479,
+      "ISSUE_MINUS_10_issue_plus_8": 479,
+      "ISSUE_MINUS_15_issue_plus_6": 479,
+      "ISSUE_MINUS_15_issue_plus_7": 479,
+      "ISSUE_MINUS_15_issue_plus_8": 479,
+      "ISSUE_MINUS_20_issue_plus_6": 479,
+      "ISSUE_MINUS_20_issue_plus_7": 479,
+      "ISSUE_MINUS_20_issue_plus_8": 479,
+      "ISSUE_MINUS_30_issue_plus_6": 479,
+      "ISSUE_MINUS_30_issue_plus_7": 479,
+      "ISSUE_MINUS_30_issue_plus_8": 479,
+      "ISSUE_MINUS_5_issue_plus_6": 479,
+      "ISSUE_MINUS_5_issue_plus_7": 479,
+      "ISSUE_MINUS_5_issue_plus_8": 479,
+      "PRICING_MINUS_10_issue_plus_6": 479,
+      "PRICING_MINUS_10_issue_plus_7": 479,
+      "PRICING_MINUS_10_issue_plus_8": 479,
+      "PRICING_MINUS_3_issue_plus_6": 479,
+      "PRICING_MINUS_3_issue_plus_7": 479,
+      "PRICING_MINUS_3_issue_plus_8": 479,
+      "PRICING_MINUS_5_issue_plus_6": 479,
+      "PRICING_MINUS_5_issue_plus_7": 479,
+      "PRICING_MINUS_5_issue_plus_8": 479,
+      "PRICING_issue_plus_6": 479,
+      "PRICING_issue_plus_7": 479,
+      "PRICING_issue_plus_8": 479
+    },
+    "unfiltered_anchor_stats": {
+      "ISSUE_MINUS_10_issue_plus_6": {
+        "num_trades": 479,
+        "win_rate": 49.1,
+        "avg_return": 1.04,
+        "best_return": 76.37,
+        "worst_return": -34.65
+      },
+      "ISSUE_MINUS_10_issue_plus_7": {
+        "num_trades": 479,
+        "win_rate": 49.5,
+        "avg_return": 1.14,
+        "best_return": 76.37,
+        "worst_return": -34.65
+      },
+      "ISSUE_MINUS_10_issue_plus_8": {
+        "num_trades": 479,
+        "win_rate": 49.7,
+        "avg_return": 1.34,
+        "best_return": 76.37,
+        "worst_return": -33.55
+      },
+      "ISSUE_MINUS_15_issue_plus_6": {
+        "num_trades": 479,
+        "win_rate": 54.9,
+        "avg_return": 2.81,
+        "best_return": 81.54,
+        "worst_return": -37.59
+      },
+      "ISSUE_MINUS_15_issue_plus_7": {
+        "num_trades": 479,
+        "win_rate": 55.1,
+        "avg_return": 2.92,
+        "best_return": 86.57,
+        "worst_return": -37.59
+      },
+      "ISSUE_MINUS_15_issue_plus_8": {
+        "num_trades": 479,
+        "win_rate": 54.5,
+        "avg_return": 3.12,
+        "best_return": 99.23,
+        "worst_return": -33.47
+      },
+      "ISSUE_MINUS_20_issue_plus_6": {
+        "num_trades": 479,
+        "win_rate": 59.3,
+        "avg_return": 4.17,
+        "best_return": 85.73,
+        "worst_return": -39.3
+      },
+      "ISSUE_MINUS_20_issue_plus_7": {
+        "num_trades": 479,
+        "win_rate": 60.1,
+        "avg_return": 4.26,
+        "best_return": 85.73,
+        "worst_return": -35.64
+      },
+      "ISSUE_MINUS_20_issue_plus_8": {
+        "num_trades": 479,
+        "win_rate": 57.6,
+        "avg_return": 4.46,
+        "best_return": 100.55,
+        "worst_return": -39.77
+      },
+      "ISSUE_MINUS_30_issue_plus_6": {
+        "num_trades": 479,
+        "win_rate": 63.0,
+        "avg_return": 6.64,
+        "best_return": 100.14,
+        "worst_return": -37.88
+      },
+      "ISSUE_MINUS_30_issue_plus_7": {
+        "num_trades": 479,
+        "win_rate": 62.0,
+        "avg_return": 6.74,
+        "best_return": 100.14,
+        "worst_return": -37.88
+      },
+      "ISSUE_MINUS_30_issue_plus_8": {
+        "num_trades": 479,
+        "win_rate": 62.8,
+        "avg_return": 6.96,
+        "best_return": 114.77,
+        "worst_return": -37.2
+      },
+      "ISSUE_MINUS_5_issue_plus_6": {
+        "num_trades": 479,
+        "win_rate": 44.9,
+        "avg_return": -0.17,
+        "best_return": 52.91,
+        "worst_return": -28.31
+      },
+      "ISSUE_MINUS_5_issue_plus_7": {
+        "num_trades": 479,
+        "win_rate": 45.3,
+        "avg_return": -0.08,
+        "best_return": 52.91,
+        "worst_return": -27.47
+      },
+      "ISSUE_MINUS_5_issue_plus_8": {
+        "num_trades": 479,
+        "win_rate": 47.4,
+        "avg_return": 0.11,
+        "best_return": 52.91,
+        "worst_return": -28.87
+      },
+      "PRICING_MINUS_10_issue_plus_6": {
+        "num_trades": 479,
+        "win_rate": 52.8,
+        "avg_return": 2.39,
+        "best_return": 81.54,
+        "worst_return": -37.59
+      },
+      "PRICING_MINUS_10_issue_plus_7": {
+        "num_trades": 479,
+        "win_rate": 53.7,
+        "avg_return": 2.5,
+        "best_return": 81.54,
+        "worst_return": -37.59
+      },
+      "PRICING_MINUS_10_issue_plus_8": {
+        "num_trades": 479,
+        "win_rate": 53.9,
+        "avg_return": 2.7,
+        "best_return": 99.23,
+        "worst_return": -33.47
+      },
+      "PRICING_MINUS_3_issue_plus_6": {
+        "num_trades": 479,
+        "win_rate": 45.7,
+        "avg_return": 0.31,
+        "best_return": 76.37,
+        "worst_return": -34.65
+      },
+      "PRICING_MINUS_3_issue_plus_7": {
+        "num_trades": 479,
+        "win_rate": 46.3,
+        "avg_return": 0.41,
+        "best_return": 76.37,
+        "worst_return": -34.65
+      },
+      "PRICING_MINUS_3_issue_plus_8": {
+        "num_trades": 479,
+        "win_rate": 48.6,
+        "avg_return": 0.6,
+        "best_return": 76.37,
+        "worst_return": -29.74
+      },
+      "PRICING_MINUS_5_issue_plus_6": {
+        "num_trades": 479,
+        "win_rate": 48.2,
+        "avg_return": 0.9,
+        "best_return": 75.98,
+        "worst_return": -36.23
+      },
+      "PRICING_MINUS_5_issue_plus_7": {
+        "num_trades": 479,
+        "win_rate": 48.0,
+        "avg_return": 1.0,
+        "best_return": 75.98,
+        "worst_return": -36.23
+      },
+      "PRICING_MINUS_5_issue_plus_8": {
+        "num_trades": 479,
+        "win_rate": 49.1,
+        "avg_return": 1.19,
+        "best_return": 75.98,
+        "worst_return": -33.55
+      },
+      "PRICING_issue_plus_6": {
+        "num_trades": 479,
+        "win_rate": 44.3,
+        "avg_return": -0.25,
+        "best_return": 67.02,
+        "worst_return": -32.48
+      },
+      "PRICING_issue_plus_7": {
+        "num_trades": 479,
+        "win_rate": 44.7,
+        "avg_return": -0.16,
+        "best_return": 67.02,
+        "worst_return": -32.48
+      },
+      "PRICING_issue_plus_8": {
+        "num_trades": 479,
+        "win_rate": 47.4,
+        "avg_return": 0.03,
+        "best_return": 67.02,
+        "worst_return": -28.87
+      }
+    }
+  },
+  "top_strategies": []
+}
