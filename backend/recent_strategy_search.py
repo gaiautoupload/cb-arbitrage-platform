@@ -100,6 +100,7 @@ def precompute_trades(events, end_day, entry_offsets, exit_offsets, lookbacks):
                     "foreign_net": round(sum(float(row.get("foreign_net") or 0) for row in window), 1),
                     "trust_net": round(sum(float(row.get("trust_net") or 0) for row in window), 1),
                 }
+            price_windows = build_price_windows(prices, buy_idx)
 
             for exit_offset in exit_offsets:
                 sell_idx = nearest_trading_index(prices, event["listing_day"] + timedelta(days=exit_offset))
@@ -127,8 +128,43 @@ def precompute_trades(events, end_day, entry_offsets, exit_offsets, lookbacks):
                     "sell_price": round(float(sell_price), 2),
                     "return_pct": round(return_pct, 2),
                     "institutional_windows": inst_windows,
+                    "price_windows": price_windows,
                 })
     return trades
+
+
+def build_price_windows(prices, buy_idx):
+    result = {"none": True}
+    checks = [
+        ("momentum_5d_min_0", 5, 0, "min"),
+        ("momentum_10d_min_0", 10, 0, "min"),
+        ("momentum_20d_min_0", 20, 0, "min"),
+        ("momentum_5d_min_5", 5, 5, "min"),
+        ("momentum_10d_min_5", 10, 5, "min"),
+        ("pullback_5d", 5, 0, "max"),
+        ("pullback_10d", 10, 0, "max"),
+    ]
+    for name, window, threshold, direction in checks:
+        change = price_change_pct(prices, buy_idx - window, buy_idx - 1)
+        if change is None:
+            result[name] = False
+        elif direction == "min":
+            result[name] = change >= threshold
+        else:
+            result[name] = change <= threshold
+    return result
+
+
+def price_change_pct(prices, start_idx, end_idx):
+    if start_idx is None or end_idx is None or start_idx < 0 or end_idx < 0:
+        return None
+    if start_idx >= len(prices) or end_idx >= len(prices) or start_idx >= end_idx:
+        return None
+    start_price = prices[start_idx].get("close")
+    end_price = prices[end_idx].get("close")
+    if not start_price or not end_price:
+        return None
+    return (float(end_price) - float(start_price)) / float(start_price) * 100
 
 
 def passes_filter(foreign_net, trust_net, mode, foreign_threshold, trust_threshold):
@@ -161,6 +197,8 @@ def evaluate_strategies(base_trades, args):
                         for trust_threshold in args.trust_thresholds:
                             trades = []
                             for trade in pool:
+                                if not trade["price_windows"].get(args.price_filter, False):
+                                    continue
                                 inst = trade["institutional_windows"][lookback_key]
                                 if passes_filter(
                                     inst["foreign_net"],
@@ -173,6 +211,7 @@ def evaluate_strategies(base_trades, args):
                                     item["foreign_net"] = inst["foreign_net"]
                                     item["trust_net"] = inst["trust_net"]
                                     item.pop("institutional_windows", None)
+                                    item.pop("price_windows", None)
                                     trades.append(item)
 
                             if len(trades) < args.min_trades:
@@ -196,6 +235,7 @@ def evaluate_strategies(base_trades, args):
                                     "filter_mode": mode,
                                     "foreign_threshold": foreign_threshold,
                                     "trust_threshold": trust_threshold,
+                                    "price_filter": args.price_filter,
                                     "num_trades": len(trades),
                                     "win_rate": round(win_rate, 1),
                                     "avg_return": round(avg_return, 2),
@@ -234,6 +274,17 @@ def representative_strategies(matches, limit):
     return rows[:limit]
 
 
+def has_positive_institutional_filter(strategy):
+    mode = strategy["filter_mode"]
+    if mode == "foreign":
+        return strategy["foreign_threshold"] >= 0
+    if mode == "trust":
+        return strategy["trust_threshold"] >= 0
+    if mode in {"and", "or"}:
+        return strategy["foreign_threshold"] >= 0 and strategy["trust_threshold"] >= 0
+    return False
+
+
 def strategy_name(entry_offset, exit_offset, lookback, mode, foreign_threshold, trust_threshold):
     mode_text = {
         "foreign": f"外資 {lookback} 日 >= {foreign_threshold}",
@@ -244,6 +295,23 @@ def strategy_name(entry_offset, exit_offset, lookback, mode, foreign_threshold, 
     return f"T{entry_offset:+d} 買進 / T{exit_offset:+d} 出場 / {mode_text}"
 
 
+def strategy_display_name(strategy):
+    base = strategy["name"]
+    price_filter = strategy.get("price_filter", "none")
+    if price_filter == "none":
+        return base
+    labels = {
+        "momentum_5d_min_0": "買進前 5 日動能 > 0",
+        "momentum_10d_min_0": "買進前 10 日動能 > 0",
+        "momentum_20d_min_0": "買進前 20 日動能 > 0",
+        "momentum_5d_min_5": "買進前 5 日動能 >= 5%",
+        "momentum_10d_min_5": "買進前 10 日動能 >= 5%",
+        "pullback_5d": "買進前 5 日回檔",
+        "pullback_10d": "買進前 10 日回檔",
+    }
+    return f"{base} / {labels.get(price_filter, price_filter)}"
+
+
 def parse_args():
     parser = argparse.ArgumentParser(description="Search recent CB auction strategies.")
     parser.add_argument("--as-of", default="2026-06-25")
@@ -252,11 +320,21 @@ def parse_args():
     parser.add_argument("--min-win-rate", type=float, default=80.0)
     parser.add_argument("--min-avg-return", type=float, default=50.0)
     parser.add_argument("--match-logic", choices=["and", "or"], default="or")
+    parser.add_argument("--price-filter", default="none", choices=[
+        "none",
+        "momentum_5d_min_0",
+        "momentum_10d_min_0",
+        "momentum_20d_min_0",
+        "momentum_5d_min_5",
+        "momentum_10d_min_5",
+        "pullback_5d",
+        "pullback_10d",
+    ])
     parser.add_argument("--top", type=int, default=30)
     parser.add_argument("--output", default=OUTPUT_PATH)
     parser.set_defaults(
-        entry_offsets=[-25, -20, -16, -15, -12, -10, -7, -5, 0],
-        exit_offsets=[0, 3, 5, 10, 15, 19, 25, 30, 40, 60],
+        entry_offsets=[-45, -40, -35, -30, -25, -20, -16, -15, -12, -10, -7, -5, 0],
+        exit_offsets=[0, 1, 2, 3, 5, 10, 15, 19, 25, 30, 40, 60],
         lookbacks=[5, 10, 20],
         modes=["foreign", "trust", "and", "or"],
         foreign_thresholds=[-5000, -3000, -1000, 0, 500, 1000, 2000, 3000, 5000],
@@ -283,6 +361,7 @@ def main():
             "min_win_rate": args.min_win_rate,
             "min_avg_return": args.min_avg_return,
             "match_logic": f"win_rate >= min_win_rate {args.match_logic.upper()} avg_return >= min_avg_return",
+            "price_filter": args.price_filter,
         },
         "sample": {
             "events": len(events),
@@ -299,6 +378,14 @@ def main():
             ),
             args.top,
         ),
+        "positive_institutional_strategies": representative_strategies(
+            sorted(
+                [row for row in matches if has_positive_institutional_filter(row)],
+                key=lambda item: (item["avg_return"], item["win_rate"], item["num_trades"]),
+                reverse=True,
+            ),
+            args.top,
+        ),
         "representative_strategies": representative_strategies(matches, args.top),
         "top_strategies": matches[:args.top],
     }
@@ -308,7 +395,7 @@ def main():
     print(f"Sample: {len(events)} events, {len(base_trades)} completed candidate trades")
     for idx, row in enumerate(matches[:10], 1):
         print(
-            f"{idx:02d}. {row['name']} | trades={row['num_trades']} "
+            f"{idx:02d}. {strategy_display_name(row)} | trades={row['num_trades']} "
             f"win={row['win_rate']}% avg={row['avg_return']}%"
         )
 

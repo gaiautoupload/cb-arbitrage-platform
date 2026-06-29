@@ -1,135 +1,5 @@
 [
   {
-    "stock_code": "4123",
-    "company_name": "晟德大藥廠",
-    "bond_name": "晟德大藥廠 可轉債",
-    "expected_listing_date": "2026-05-14",
-    "current_stage_index": 6,
-    "status_text": "交易已完成，績效已更新",
-    "status_type": "success",
-    "strategy_info": {
-      "name": "策略 4: 法人卡位 + 股本佔比",
-      "win_rate": 100.0,
-      "avg_return": 43.6
-    },
-    "stations": [
-      {
-        "name": "T-16 籌碼檢查",
-        "date": "2026-04-21",
-        "status": "completed",
-        "description": "檢查外資與投信累積買超是否符合策略門檻。"
-      },
-      {
-        "name": "T-15 策略買進",
-        "date": "2026-04-22",
-        "status": "completed",
-        "description": "符合策略條件時，以隔日開盤價模擬買進。"
-      },
-      {
-        "name": "競拍公告與定價",
-        "date": "2026-04-28",
-        "status": "completed",
-        "description": "確認可轉債競拍公告、發行條件與掛牌時程。"
-      },
-      {
-        "name": "競拍開標與結果",
-        "date": "2026-05-02",
-        "status": "completed",
-        "description": "確認競拍是否完成、承銷價格與後續掛牌節點。"
-      },
-      {
-        "name": "T日 掛牌上市",
-        "date": "2026-05-14",
-        "status": "completed",
-        "description": "可轉債掛牌日，持續追蹤標的股表現。"
-      },
-      {
-        "name": "T+1~18 持有觀察",
-        "date": "2026-05-15",
-        "status": "completed",
-        "description": "持有期間監控價格與法人籌碼變化。"
-      },
-      {
-        "name": "T+19 結算出場",
-        "date": "2026-06-10",
-        "status": "completed",
-        "description": "以 T+19 收盤價模擬賣出並更新策略報酬。"
-      }
-    ],
-    "performance": {
-      "buy_price": 39.55,
-      "current_price": 37.95,
-      "return_pct": -4.05,
-      "state": "closed",
-      "capital": 1000000
-    }
-  },
-  {
-    "stock_code": "8074",
-    "company_name": "鉅橡企業",
-    "bond_name": "鉅橡企業 可轉債",
-    "expected_listing_date": "2026-05-14",
-    "current_stage_index": 6,
-    "status_text": "交易已完成，績效已更新",
-    "status_type": "success",
-    "strategy_info": {
-      "name": "策略 3: 雙法人共振",
-      "win_rate": 100.0,
-      "avg_return": 43.6
-    },
-    "stations": [
-      {
-        "name": "T-16 籌碼檢查",
-        "date": "2026-04-21",
-        "status": "completed",
-        "description": "檢查外資與投信累積買超是否符合策略門檻。"
-      },
-      {
-        "name": "T-15 策略買進",
-        "date": "2026-04-22",
-        "status": "completed",
-        "description": "符合策略條件時，以隔日開盤價模擬買進。"
-      },
-      {
-        "name": "競拍公告與定價",
-        "date": "2026-04-28",
-        "status": "completed",
-        "description": "確認可轉債競拍公告、發行條件與掛牌時程。"
-      },
-      {
-        "name": "競拍開標與結果",
-        "date": "2026-05-02",
-        "status": "completed",
-        "description": "確認競拍是否完成、承銷價格與後續掛牌節點。"
-      },
-      {
-        "name": "T日 掛牌上市",
-        "date": "2026-05-14",
-        "status": "completed",
-        "description": "可轉債掛牌日，持續追蹤標的股表現。"
-      },
-      {
-        "name": "T+1~18 持有觀察",
-        "date": "2026-05-15",
-        "status": "completed",
-        "description": "持有期間監控價格與法人籌碼變化。"
-      },
-      {
-        "name": "T+19 結算出場",
-        "date": "2026-06-10",
-        "status": "completed",
-        "description": "以 T+19 收盤價模擬賣出並更新策略報酬。"
-      }
-    ],
-    "performance": {
-      "buy_price": 77.27,
-      "current_price": 71.1,
-      "return_pct": -7.99,
-      "state": "closed",
-      "capital": 1000000
-    }
-  },
-  {
     "stock_code": "3680",
     "company_name": "家登精密",
     "bond_name": "家登精密 可轉債",
@@ -442,7 +312,7 @@
       {
         "name": "T+19 結算出場",
         "date": "2026-06-28",
-        "status": "active",
+        "status": "stale",
         "description": "以 T+19 收盤價模擬賣出並更新策略報酬。"
       }
     ],
@@ -650,59 +520,6 @@
     }
   },
   {
-    "stock_code": "3294",
-    "company_name": "英濟",
-    "bond_name": "英濟三",
-    "expected_listing_date": "2026-06-16",
-    "current_stage_index": 2,
-    "status_text": "持有中，開始計算報酬",
-    "status_type": "success",
-    "strategy_info": {
-      "name": "策略 1: 外資定價前卡位",
-      "win_rate": 100.0,
-      "avg_return": 45.0
-    },
-    "stations": [
-      {
-        "name": "T-16 籌碼審查",
-        "date": "2026-05-26",
-        "status": "failed",
-        "description": "❌ 籌碼不符：外資累積買超僅 310 張，未達 2,000 張門檻且股本佔比未達 0.5%。"
-      },
-      {
-        "name": "T-15 策略買進",
-        "date": "2026-05-27",
-        "status": "completed",
-        "description": "已放棄買進。"
-      },
-      {
-        "name": "競拍公告與投標",
-        "date": "2026-06-03",
-        "status": "completed",
-        "description": "公會公告英濟三發行時程，競拍投標期間為 2026-06-03 至 2026-06-05。"
-      },
-      {
-        "name": "T日 掛牌上市",
-        "date": "2026-06-16",
-        "status": "completed",
-        "description": "無持股掛牌。"
-      },
-      {
-        "name": "T+19 結算出場",
-        "date": "2026-07-13",
-        "status": "upcoming",
-        "description": "無動作。"
-      }
-    ],
-    "performance": {
-      "buy_price": 42.5,
-      "current_price": 38.15,
-      "return_pct": -10.24,
-      "state": "holding",
-      "capital": 1000000
-    }
-  },
-  {
     "stock_code": "6546",
     "company_name": "正基",
     "bond_name": "正基二",
@@ -754,9 +571,192 @@
       }
     ],
     "performance": {
-      "buy_price": 80.7,
+      "buy_price": 70.9,
       "current_price": 68.2,
-      "return_pct": -15.49,
+      "return_pct": -3.81,
+      "state": "holding",
+      "capital": 1000000
+    }
+  },
+  {
+    "stock_code": "5289",
+    "company_name": "宜鼎",
+    "bond_name": "宜鼎二",
+    "expected_listing_date": "2026-06-30",
+    "current_stage_index": 3,
+    "status_text": "持有中，開始計算報酬",
+    "status_type": "success",
+    "strategy_info": {
+      "name": "策略 4: 投信卡位 + 股本佔比型",
+      "win_rate": 100.0,
+      "avg_return": 43.6
+    },
+    "stations": [
+      {
+        "name": "T-15 籌碼複審",
+        "date": "2026-06-09",
+        "status": "completed",
+        "description": "掛牌日回推 15 日為 06/09。因尚在競拍程序中，將於 06/22 開標後重新複審投信籌碼是否符合大於 2,000 張且佔比大於 0.5%。"
+      },
+      {
+        "name": "T-15 策略買進",
+        "date": "2026-06-10",
+        "status": "completed",
+        "description": "若判定符合條件，開盤買進現貨股票。"
+      },
+      {
+        "name": "競拍公告與投標",
+        "date": "2026-06-15",
+        "status": "completed",
+        "description": "公會公告宜鼎二發行時程，競拍投標期間為 2026-06-15 至 2026-06-17。"
+      },
+      {
+        "name": "競拍開標與結果",
+        "date": "2026-06-22",
+        "status": "completed",
+        "description": "訂於 06/22 進行開標並公告結果。"
+      },
+      {
+        "name": "T日 掛牌上市",
+        "date": "2026-06-30",
+        "status": "upcoming",
+        "description": "宜鼎二預計正式掛牌上市交易。"
+      },
+      {
+        "name": "T+19 結算出場",
+        "date": "2026-07-27",
+        "status": "upcoming",
+        "description": "預定收盤無條件賣出結算。"
+      }
+    ],
+    "performance": {
+      "buy_price": 1950.0,
+      "current_price": 1605.0,
+      "return_pct": -17.69,
+      "state": "holding",
+      "capital": 1000000
+    }
+  },
+  {
+    "stock_code": "6187",
+    "company_name": "萬潤",
+    "bond_name": "萬潤六",
+    "expected_listing_date": "2026-07-02",
+    "current_stage_index": 3,
+    "status_text": "持有中，開始計算報酬",
+    "status_type": "success",
+    "strategy_info": {
+      "name": "策略 4: 投信卡位 + 股本佔比型",
+      "win_rate": 100.0,
+      "avg_return": 43.6
+    },
+    "stations": [
+      {
+        "name": "T-15 籌碼複審",
+        "date": "2026-06-11",
+        "status": "completed",
+        "description": "掛牌日回推 15 日為 06/11。因尚在競拍程序中，將於 06/23 開標後重新複審投信籌碼是否符合大於 2,000 張且佔比大於 0.5%。"
+      },
+      {
+        "name": "T-15 策略買進",
+        "date": "2026-06-12",
+        "status": "completed",
+        "description": "若判定符合條件，開盤買進現貨股票。"
+      },
+      {
+        "name": "競拍公告與投標",
+        "date": "2026-06-16",
+        "status": "completed",
+        "description": "公會公告萬潤六發行時程，競拍投標期間為 2026-06-16 至 2026-06-18。"
+      },
+      {
+        "name": "競拍開標與結果",
+        "date": "2026-06-23",
+        "status": "completed",
+        "description": "訂於 06/23 進行公開競價拍賣開標並公告結果。"
+      },
+      {
+        "name": "T日 掛牌上市",
+        "date": "2026-07-02",
+        "status": "upcoming",
+        "description": "萬潤六預計正式掛牌上市交易。"
+      },
+      {
+        "name": "T+19 結算出場",
+        "date": "2026-07-29",
+        "status": "upcoming",
+        "description": "預定收盤無條件賣出結算。"
+      }
+    ],
+    "performance": {
+      "buy_price": 1100.0,
+      "current_price": 1075.0,
+      "return_pct": -2.27,
+      "state": "holding",
+      "capital": 1000000
+    }
+  },
+  {
+    "stock_code": "8096",
+    "company_name": "擎亞電子股份有限公司",
+    "bond_name": "擎亞電子股份有限公司國內第二次無擔保轉換公司債",
+    "expected_listing_date": "2026-07-02",
+    "current_stage_index": 2,
+    "status_text": "持有中，開始計算報酬",
+    "status_type": "success",
+    "strategy_info": {
+      "name": "策略 4: 法人卡位 + 股本佔比",
+      "win_rate": 100.0,
+      "avg_return": 43.6
+    },
+    "stations": [
+      {
+        "name": "T-16 籌碼檢查",
+        "date": "2026-06-16",
+        "status": "completed",
+        "description": "檢查外資與投信累積買超是否符合策略門檻。"
+      },
+      {
+        "name": "T-15 策略買進",
+        "date": "2026-06-17",
+        "status": "completed",
+        "description": "符合策略條件時，以隔日開盤價模擬買進。"
+      },
+      {
+        "name": "競拍公告與定價",
+        "date": "2026-06-26",
+        "status": "completed",
+        "description": "確認可轉債競拍公告、發行條件與掛牌時程。"
+      },
+      {
+        "name": "競拍開標與結果",
+        "date": "2026-07-02",
+        "status": "upcoming",
+        "description": "確認競拍是否完成、承銷價格與後續掛牌節點。"
+      },
+      {
+        "name": "T日 掛牌上市",
+        "date": "2026-07-02",
+        "status": "upcoming",
+        "description": "可轉債掛牌日，持續追蹤標的股表現。"
+      },
+      {
+        "name": "T+1~18 持有觀察",
+        "date": "2026-07-03",
+        "status": "upcoming",
+        "description": "持有期間監控價格與法人籌碼變化。"
+      },
+      {
+        "name": "T+19 結算出場",
+        "date": "2026-07-29",
+        "status": "upcoming",
+        "description": "以 T+19 收盤價模擬賣出並更新策略報酬。"
+      }
+    ],
+    "performance": {
+      "buy_price": 144.5,
+      "current_price": 145.0,
+      "return_pct": 0.35,
       "state": "holding",
       "capital": 1000000
     }
@@ -813,11 +813,177 @@
       }
     ],
     "performance": {
-      "buy_price": 142.5,
-      "current_price": 150.0,
-      "return_pct": 5.26,
-      "state": "holding"
+      "buy_price": 377.0,
+      "current_price": 404.0,
+      "return_pct": 7.16,
+      "state": "holding",
+      "capital": 1000000
     }
+  },
+  {
+    "stock_code": "6584",
+    "company_name": "南俊國際",
+    "bond_name": "南俊國際一",
+    "expected_listing_date": "2026-07-10",
+    "current_stage_index": 2,
+    "status_text": "持有中，開始計算報酬",
+    "status_type": "success",
+    "strategy_info": {
+      "name": "策略 4: 法人卡位 + 股本佔比",
+      "win_rate": 100.0,
+      "avg_return": 43.6
+    },
+    "stations": [
+      {
+        "name": "競拍公告發布",
+        "date": "2026-06-16",
+        "status": "completed",
+        "description": "公會已公告南俊國際一競拍時程，預計 2026-07-10 掛牌。"
+      },
+      {
+        "name": "T-16 籌碼審查",
+        "date": "2026-06-19",
+        "status": "completed",
+        "description": "預定 06/19 收盤判定投信累積買超張數與公司股本佔比是否符合條件。"
+      },
+      {
+        "name": "T-15 策略買進",
+        "date": "2026-06-22",
+        "status": "completed",
+        "description": "若審查通過，將於開盤進行買入。"
+      },
+      {
+        "name": "T日 掛牌上市",
+        "date": "2026-07-10",
+        "status": "upcoming",
+        "description": "南俊國際一預定掛牌日。"
+      },
+      {
+        "name": "T+1~18 拆解拉抬",
+        "date": "2026-07-13",
+        "status": "upcoming",
+        "description": "待執行持股波段。"
+      },
+      {
+        "name": "T+19 結算出場",
+        "date": "2026-08-06",
+        "status": "upcoming",
+        "description": "預定結算出場日。"
+      }
+    ],
+    "performance": {
+      "buy_price": 637.0,
+      "current_price": 708.0,
+      "return_pct": 11.15,
+      "state": "holding",
+      "capital": 1000000
+    }
+  },
+  {
+    "stock_code": "3260",
+    "company_name": "威剛",
+    "bond_name": "威剛八",
+    "expected_listing_date": "2026-07-13",
+    "current_stage_index": 2,
+    "status_text": "持有中，開始計算報酬",
+    "status_type": "success",
+    "strategy_info": {
+      "name": "策略 3: 雙法人共振",
+      "win_rate": 100.0,
+      "avg_return": 43.6
+    },
+    "stations": [
+      {
+        "name": "競拍公告發布",
+        "date": "2026-06-16",
+        "status": "completed",
+        "description": "公會已公告威剛八競拍辦法，預計 2026-07-13 掛牌。"
+      },
+      {
+        "name": "T-16 籌碼審查",
+        "date": "2026-06-22",
+        "status": "completed",
+        "description": "預定 6/22 收盤判定外資/投信累積張數。"
+      },
+      {
+        "name": "T-15 策略買進",
+        "date": "2026-06-23",
+        "status": "completed",
+        "description": "若審查通過，將於開盤進行買入。"
+      },
+      {
+        "name": "T日 掛牌上市",
+        "date": "2026-07-13",
+        "status": "upcoming",
+        "description": "預定掛牌日。"
+      },
+      {
+        "name": "T+1~18 拆解拉抬",
+        "date": "2026-07-14",
+        "status": "upcoming",
+        "description": "待執行持股波段。"
+      },
+      {
+        "name": "T+19 結算出場",
+        "date": "2026-08-10",
+        "status": "upcoming",
+        "description": "預定出場日。"
+      }
+    ],
+    "performance": {
+      "buy_price": 436.0,
+      "current_price": 397.5,
+      "return_pct": -8.83,
+      "state": "holding",
+      "capital": 1000000
+    }
+  },
+  {
+    "stock_code": "3294",
+    "company_name": "英濟",
+    "bond_name": "英濟三",
+    "expected_listing_date": "2026-06-16",
+    "current_stage_index": 2,
+    "status_text": "籌碼判定失敗，放棄交易",
+    "status_type": "failed",
+    "strategy_info": {
+      "name": "策略 1: 外資定價前卡位",
+      "win_rate": 100.0,
+      "avg_return": 45.0
+    },
+    "stations": [
+      {
+        "name": "T-16 籌碼審查",
+        "date": "2026-05-26",
+        "status": "failed",
+        "description": "❌ 籌碼不符：外資累積買超僅 310 張，未達 2,000 張門檻且股本佔比未達 0.5%。"
+      },
+      {
+        "name": "T-15 策略買進",
+        "date": "2026-05-27",
+        "status": "completed",
+        "description": "已放棄買進。"
+      },
+      {
+        "name": "競拍公告與投標",
+        "date": "2026-06-03",
+        "status": "completed",
+        "description": "公會公告英濟三發行時程，競拍投標期間為 2026-06-03 至 2026-06-05。"
+      },
+      {
+        "name": "T日 掛牌上市",
+        "date": "2026-06-16",
+        "status": "completed",
+        "description": "無持股掛牌。"
+      },
+      {
+        "name": "T+19 結算出場",
+        "date": "2026-07-13",
+        "status": "upcoming",
+        "description": "無動作。"
+      }
+    ],
+    "performance": null
   },
   {
     "stock_code": "4190",
@@ -825,7 +991,7 @@
     "bond_name": "佐登一",
     "expected_listing_date": "2026-06-26",
     "current_stage_index": 4,
-    "status_text": "5 個節點待後台資料確認",
+    "status_text": "已達買進日，但缺少價格資料，待補價後轉持有",
     "status_type": "pending",
     "strategy_info": {
       "name": "策略 1: 外資定價前卡位",
@@ -873,66 +1039,13 @@
     "performance": null
   },
   {
-    "stock_code": "5289",
-    "company_name": "宜鼎",
-    "bond_name": "宜鼎二",
-    "expected_listing_date": "2026-06-30",
-    "current_stage_index": 3,
-    "status_text": "下一步 2026-06-30：T日 掛牌上市",
-    "status_type": "pending",
-    "strategy_info": {
-      "name": "策略 4: 投信卡位 + 股本佔比型",
-      "win_rate": 100.0,
-      "avg_return": 43.6
-    },
-    "stations": [
-      {
-        "name": "T-15 籌碼複審",
-        "date": "2026-06-09",
-        "status": "completed",
-        "description": "掛牌日回推 15 日為 06/09。因尚在競拍程序中，將於 06/22 開標後重新複審投信籌碼是否符合大於 2,000 張且佔比大於 0.5%。"
-      },
-      {
-        "name": "T-15 策略買進",
-        "date": "2026-06-10",
-        "status": "completed",
-        "description": "若判定符合條件，開盤買進現貨股票。"
-      },
-      {
-        "name": "競拍公告與投標",
-        "date": "2026-06-15",
-        "status": "completed",
-        "description": "公會公告宜鼎二發行時程，競拍投標期間為 2026-06-15 至 2026-06-17。"
-      },
-      {
-        "name": "競拍開標與結果",
-        "date": "2026-06-22",
-        "status": "completed",
-        "description": "訂於 06/22 進行開標並公告結果。"
-      },
-      {
-        "name": "T日 掛牌上市",
-        "date": "2026-06-30",
-        "status": "upcoming",
-        "description": "宜鼎二預計正式掛牌上市交易。"
-      },
-      {
-        "name": "T+19 結算出場",
-        "date": "2026-07-27",
-        "status": "upcoming",
-        "description": "預定收盤無條件賣出結算。"
-      }
-    ],
-    "performance": null
-  },
-  {
     "stock_code": "2467",
     "company_name": "志皓",
     "bond_name": "志皓二",
     "expected_listing_date": "2026-07-02",
     "current_stage_index": 1,
-    "status_text": "下一步 2026-07-02：T日 掛牌上市",
-    "status_type": "pending",
+    "status_text": "籌碼判定失敗，放棄交易",
+    "status_type": "failed",
     "strategy_info": {
       "name": "策略 1 & 2: 籌碼卡位型",
       "win_rate": 100.0,
@@ -979,129 +1092,17 @@
     "performance": null
   },
   {
-    "stock_code": "6187",
-    "company_name": "萬潤",
-    "bond_name": "萬潤六",
-    "expected_listing_date": "2026-07-02",
-    "current_stage_index": 3,
-    "status_text": "下一步 2026-07-02：T日 掛牌上市",
-    "status_type": "pending",
-    "strategy_info": {
-      "name": "策略 4: 投信卡位 + 股本佔比型",
-      "win_rate": 100.0,
-      "avg_return": 43.6
-    },
-    "stations": [
-      {
-        "name": "T-15 籌碼複審",
-        "date": "2026-06-11",
-        "status": "completed",
-        "description": "掛牌日回推 15 日為 06/11。因尚在競拍程序中，將於 06/23 開標後重新複審投信籌碼是否符合大於 2,000 張且佔比大於 0.5%。"
-      },
-      {
-        "name": "T-15 策略買進",
-        "date": "2026-06-12",
-        "status": "completed",
-        "description": "若判定符合條件，開盤買進現貨股票。"
-      },
-      {
-        "name": "競拍公告與投標",
-        "date": "2026-06-16",
-        "status": "completed",
-        "description": "公會公告萬潤六發行時程，競拍投標期間為 2026-06-16 至 2026-06-18。"
-      },
-      {
-        "name": "競拍開標與結果",
-        "date": "2026-06-23",
-        "status": "completed",
-        "description": "訂於 06/23 進行公開競價拍賣開標並公告結果。"
-      },
-      {
-        "name": "T日 掛牌上市",
-        "date": "2026-07-02",
-        "status": "upcoming",
-        "description": "萬潤六預計正式掛牌上市交易。"
-      },
-      {
-        "name": "T+19 結算出場",
-        "date": "2026-07-29",
-        "status": "upcoming",
-        "description": "預定收盤無條件賣出結算。"
-      }
-    ],
-    "performance": null
-  },
-  {
-    "stock_code": "8096",
-    "company_name": "擎亞電子股份有限公司",
-    "bond_name": "擎亞電子股份有限公司國內第二次無擔保轉換公司債",
-    "expected_listing_date": "2026-07-02",
-    "current_stage_index": 2,
-    "status_text": "下一步 2026-07-02：競拍開標與結果",
-    "status_type": "pending",
-    "strategy_info": {
-      "name": "策略 4: 法人卡位 + 股本佔比",
-      "win_rate": 100.0,
-      "avg_return": 43.6
-    },
-    "stations": [
-      {
-        "name": "T-16 籌碼檢查",
-        "date": "2026-06-16",
-        "status": "completed",
-        "description": "檢查外資與投信累積買超是否符合策略門檻。"
-      },
-      {
-        "name": "T-15 策略買進",
-        "date": "2026-06-17",
-        "status": "completed",
-        "description": "符合策略條件時，以隔日開盤價模擬買進。"
-      },
-      {
-        "name": "競拍公告與定價",
-        "date": "2026-06-26",
-        "status": "completed",
-        "description": "確認可轉債競拍公告、發行條件與掛牌時程。"
-      },
-      {
-        "name": "競拍開標與結果",
-        "date": "2026-07-02",
-        "status": "upcoming",
-        "description": "確認競拍是否完成、承銷價格與後續掛牌節點。"
-      },
-      {
-        "name": "T日 掛牌上市",
-        "date": "2026-07-02",
-        "status": "upcoming",
-        "description": "可轉債掛牌日，持續追蹤標的股表現。"
-      },
-      {
-        "name": "T+1~18 持有觀察",
-        "date": "2026-07-03",
-        "status": "upcoming",
-        "description": "持有期間監控價格與法人籌碼變化。"
-      },
-      {
-        "name": "T+19 結算出場",
-        "date": "2026-07-29",
-        "status": "upcoming",
-        "description": "以 T+19 收盤價模擬賣出並更新策略報酬。"
-      }
-    ],
-    "performance": null
-  },
-  {
     "stock_code": "3702",
     "company_name": "大聯大",
     "bond_name": "大聯大二",
     "expected_listing_date": "2026-07-03",
     "current_stage_index": 1,
-    "status_text": "下一步 2026-07-03：T日 掛牌上市",
-    "status_type": "pending",
+    "status_text": "籌碼判定失敗，放棄交易",
+    "status_type": "failed",
     "strategy_info": {
-      "name": "策略 2: 投信定價前卡位",
+      "name": "策略 4: 法人卡位 + 股本佔比",
       "win_rate": 100.0,
-      "avg_return": 42.9
+      "avg_return": 43.6
     },
     "stations": [
       {
@@ -1139,112 +1140,6 @@
         "date": "2026-07-30",
         "status": "upcoming",
         "description": "無動作。"
-      }
-    ],
-    "performance": null
-  },
-  {
-    "stock_code": "6584",
-    "company_name": "南俊國際",
-    "bond_name": "南俊國際一",
-    "expected_listing_date": "2026-07-10",
-    "current_stage_index": 2,
-    "status_text": "下一步 2026-07-10：T日 掛牌上市",
-    "status_type": "pending",
-    "strategy_info": {
-      "name": "策略 4: 投信卡位 + 股本佔比型",
-      "win_rate": 100.0,
-      "avg_return": 43.6
-    },
-    "stations": [
-      {
-        "name": "競拍公告發布",
-        "date": "2026-06-16",
-        "status": "completed",
-        "description": "公會已公告南俊國際一競拍時程，預計 2026-07-10 掛牌。"
-      },
-      {
-        "name": "T-16 籌碼審查",
-        "date": "2026-06-19",
-        "status": "completed",
-        "description": "預定 06/19 收盤判定投信累積買超張數與公司股本佔比是否符合條件。"
-      },
-      {
-        "name": "T-15 策略買進",
-        "date": "2026-06-22",
-        "status": "completed",
-        "description": "若審查通過，將於開盤進行買入。"
-      },
-      {
-        "name": "T日 掛牌上市",
-        "date": "2026-07-10",
-        "status": "upcoming",
-        "description": "南俊國際一預定掛牌日。"
-      },
-      {
-        "name": "T+1~18 拆解拉抬",
-        "date": "2026-07-13",
-        "status": "upcoming",
-        "description": "待執行持股波段。"
-      },
-      {
-        "name": "T+19 結算出場",
-        "date": "2026-08-06",
-        "status": "upcoming",
-        "description": "預定結算出場日。"
-      }
-    ],
-    "performance": null
-  },
-  {
-    "stock_code": "3260",
-    "company_name": "威剛",
-    "bond_name": "威剛八",
-    "expected_listing_date": "2026-07-13",
-    "current_stage_index": 2,
-    "status_text": "下一步 2026-07-13：T日 掛牌上市",
-    "status_type": "pending",
-    "strategy_info": {
-      "name": "策略 2: 投信定價前卡位",
-      "win_rate": 100.0,
-      "avg_return": 42.9
-    },
-    "stations": [
-      {
-        "name": "競拍公告發布",
-        "date": "2026-06-16",
-        "status": "completed",
-        "description": "公會已公告威剛八競拍辦法，預計 2026-07-13 掛牌。"
-      },
-      {
-        "name": "T-16 籌碼審查",
-        "date": "2026-06-22",
-        "status": "completed",
-        "description": "預定 6/22 收盤判定外資/投信累積張數。"
-      },
-      {
-        "name": "T-15 策略買進",
-        "date": "2026-06-23",
-        "status": "completed",
-        "description": "若審查通過，將於開盤進行買入。"
-      },
-      {
-        "name": "T日 掛牌上市",
-        "date": "2026-07-13",
-        "status": "upcoming",
-        "description": "預定掛牌日。"
-      },
-      {
-        "name": "T+1~18 拆解拉抬",
-        "date": "2026-07-14",
-        "status": "upcoming",
-        "description": "待執行持股波段。"
-      },
-      {
-        "name": "T+19 結算出場",
-        "date": "2026-08-10",
-        "status": "upcoming",
-        "description": "預定出場日。"
       }
     ],
     "performance": null

@@ -165,7 +165,12 @@ def trading_or_calendar_indexes(prices, listing_day):
         sell_idx = listing_idx + 19
         return listing_idx, buy_idx, check_idx, sell_idx
 
-    return None, None, None, None
+    buy_day = listing_day - timedelta(days=15)
+    sell_day = listing_day + timedelta(days=27)
+    buy_idx = nearest_index(prices, buy_day)
+    check_idx = buy_idx - 1 if buy_idx is not None else None
+    sell_idx = nearest_index(prices, sell_day)
+    return None, buy_idx, check_idx, sell_idx
 
 
 def calc_inst_window(prices, check_idx):
@@ -233,6 +238,26 @@ def build_stations(bond, prices, today):
 
         listing_day = parse_day(bond.get("issue_date"))
         listing_idx, buy_idx, check_idx, sell_idx = trading_or_calendar_indexes(prices, listing_day)
+        buy_station_day = next(
+            (parse_day(item.get("date")) for item in normalized if "買進" in item.get("name", "")),
+            None,
+        )
+        check_station_day = next(
+            (parse_day(item.get("date")) for item in normalized if "審查" in item.get("name", "") or "複審" in item.get("name", "")),
+            None,
+        )
+        sell_station_day = next(
+            (parse_day(item.get("date")) for item in normalized if "出場" in item.get("name", "") or "結算" in item.get("name", "")),
+            None,
+        )
+        if buy_station_day:
+            buy_idx = nearest_index(prices, buy_station_day)
+        if check_station_day:
+            check_idx = nearest_index(prices, check_station_day)
+        elif buy_idx is not None:
+            check_idx = buy_idx - 1
+        if sell_station_day:
+            sell_idx = nearest_index(prices, sell_station_day)
         return normalized, {"listing_idx": listing_idx, "buy_idx": buy_idx, "check_idx": check_idx, "sell_idx": sell_idx}
 
     listing_day = parse_day(bond.get("issue_date"))
@@ -308,6 +333,9 @@ def build_performance(prices, indexes, today):
         return None
     buy_idx = indexes.get("buy_idx")
     sell_idx = indexes.get("sell_idx")
+    buy_date = parse_day(index_date(prices, buy_idx, None))
+    if not buy_date or buy_date > today:
+        return None
     buy_price = price_at(prices, buy_idx, "open")
     if buy_price is None or buy_price <= 0:
         buy_price = price_at(prices, buy_idx, "close")
@@ -339,20 +367,28 @@ def build_performance(prices, indexes, today):
 
 
 def summarize_track(stations, performance, today):
+    if any(s["status"] == "failed" for s in stations):
+        return "\u7c4c\u78bc\u5224\u5b9a\u5931\u6557\uff0c\u653e\u68c4\u4ea4\u6613", "failed"
     if performance and performance.get("state") == "closed":
-        return "交易已完成，績效已更新", "success"
+        return "\u4ea4\u6613\u5df2\u5b8c\u6210\uff0c\u7e3e\u6548\u5df2\u66f4\u65b0", "success"
     if performance and performance.get("state") == "holding":
-        return "持有中，開始計算報酬", "success"
+        return "\u6301\u6709\u4e2d\uff0c\u958b\u59cb\u8a08\u7b97\u5831\u916c", "success"
 
     stale_count = sum(1 for s in stations if s["status"] == "stale")
     if stale_count:
-        return f"{stale_count} 個節點待後台資料確認", "pending"
+        return f"{stale_count} \u500b\u7bc0\u9ede\u5f85\u5f8c\u53f0\u8cc7\u6599\u78ba\u8a8d", "pending"
 
     future = [s for s in stations if parse_day(s["date"]) and parse_day(s["date"]) >= today]
     if future:
-        return f"下一步 {future[0]['date']}：{future[0]['name']}", "pending"
-    return "待出場或待補資料", "pending"
+        return f"\u4e0b\u4e00\u6b65 {future[0]['date']}\uff1a{future[0]['name']}", "pending"
+    return "\u5f85\u51fa\u5834\u6216\u5f85\u88dc\u8cc7\u6599", "pending"
 
+
+def buy_station_has_passed(stations, today):
+    return any(
+        "\u8cb7\u9032" in station.get("name", "") and parse_day(station.get("date")) and parse_day(station.get("date")) <= today
+        for station in stations
+    )
 
 def build_tracks(today=None):
     today = today or date.today()
@@ -422,10 +458,13 @@ def build_tracks(today=None):
 
         strategy = choose_strategy(bond, prices, indexes.get("check_idx") if indexes else None)
 
-        performance = build_performance(prices, indexes, today) or bond.get("seed_performance")
+        has_failed_station = any(station.get("status") == "failed" for station in stations)
+        performance = None if has_failed_station else (build_performance(prices, indexes, today) or bond.get("seed_performance"))
         if performance and not performance.get("state"):
             performance["state"] = "holding"
         status_text, status_type = summarize_track(stations, performance, today)
+        if not prices and buy_station_has_passed(stations, today) and status_type != "failed":
+            status_text, status_type = "\u5df2\u9054\u8cb7\u9032\u65e5\uff0c\u4f46\u7f3a\u5c11\u50f9\u683c\u8cc7\u6599\uff0c\u5f85\u88dc\u50f9\u5f8c\u8f49\u6301\u6709", "pending"
         completed = sum(1 for s in stations if s["status"] in {"completed", "active", "stale"})
 
         linked_row = linked_by_code.get(stock_code, {})
