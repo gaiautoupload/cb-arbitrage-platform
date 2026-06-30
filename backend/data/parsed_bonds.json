@@ -7393,5 +7393,20 @@
     "maturity_date_minguo": "118年7月2日",
     "maturity_date": "2029-07-02",
     "issue_amount": "新台幣8億元整"
+  },
+  {
+    "file_id": "11500042781",
+    "company_name": "宏致電子股份有限公司",
+    "bond_name": "宏致電子股份有限公司國內第四次無擔保轉換公司債",
+    "cb_code": "36054",
+    "stock_code": "3605",
+    "short_name": "宏致四",
+    "announcement_date_minguo": "115年6月30日",
+    "announcement_date": "2026-06-30",
+    "issue_date_minguo": "115年7月6日",
+    "issue_date": "2026-07-06",
+    "maturity_date_minguo": "118年7月6日",
+    "maturity_date": "2029-07-06",
+    "issue_amount": "新台幣10億元整"
   }
 ]

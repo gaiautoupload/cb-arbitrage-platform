@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-29T17:11:49",
+  "generated_at": "2026-06-30T17:10:07",
   "source_files": {
     "mops_wiki_db": "mops_wiki_db.json",
     "parsed_bonds": "parsed_bonds.json",
@@ -12,17 +12,17 @@
     "Generated linked BOARD_RESOLUTION/EFFECTIVE dates are retained only as low-confidence proxy events."
   ],
   "summary": {
-    "total_events": 3094,
-    "actual_or_observed_events": 1042,
-    "inferred_events": 2052,
+    "total_events": 3101,
+    "actual_or_observed_events": 1047,
+    "inferred_events": 2054,
     "by_stage": {
-      "BOARD_RESOLUTION": 480,
-      "EFFECTIVE": 484,
-      "PRICING": 482,
+      "BOARD_RESOLUTION": 483,
+      "EFFECTIVE": 485,
+      "PRICING": 484,
       "AUCTION_BID_START": 38,
       "AUCTION_BID_END": 38,
       "AUCTION_RESULT_ESTIMATED": 38,
-      "LISTING": 484,
+      "LISTING": 485,
       "CBAS_PROXY_START": 350,
       "CBAS_PROXY_END": 350,
       "T_PLUS_19_EXIT_PROXY": 350
@@ -1450,6 +1450,19 @@
       "confidence": 0.3,
       "is_inferred": true,
       "based_on": "2024-08-12"
+    },
+    {
+      "stock_code": "1538",
+      "company_name": "正峰",
+      "short_name": "",
+      "stage": "BOARD_RESOLUTION",
+      "date": "2026-06-29",
+      "source": "mops_wiki_db",
+      "confidence": 0.85,
+      "is_inferred": false,
+      "title": "公告本公司115年股東常會重要決議事項",
+      "summary": "董事會/決議階段: 公告本公司115年股東常會重要決議事項",
+      "event_type": "CB_ISSUANCE"
     },
     {
       "stock_code": "1560",
@@ -14328,6 +14341,54 @@
       "cb_code": "36053"
     },
     {
+      "stock_code": "3605",
+      "company_name": "宏致電子股份有限公司",
+      "short_name": "宏致四",
+      "stage": "BOARD_RESOLUTION",
+      "date": "2026-04-22",
+      "source": "linked_bond_stages_proxy",
+      "confidence": 0.25,
+      "is_inferred": true,
+      "title": "董事會決議發行無擔保轉換公司債",
+      "summary": "董事會通過發行可轉債以充實營運資金或償還債務"
+    },
+    {
+      "stock_code": "3605",
+      "company_name": "宏致電子股份有限公司",
+      "short_name": "宏致四",
+      "stage": "EFFECTIVE",
+      "date": "2026-06-01",
+      "source": "linked_bond_stages_proxy",
+      "confidence": 0.25,
+      "is_inferred": true,
+      "title": "金管會申報生效發行無擔保轉換公司債",
+      "summary": "可轉債申報生效，正式進入定價與發行準備期"
+    },
+    {
+      "stock_code": "3605",
+      "company_name": "宏致電子股份有限公司",
+      "short_name": "宏致四",
+      "stage": "PRICING",
+      "date": "2026-06-30",
+      "source": "parsed_bonds",
+      "confidence": 0.65,
+      "is_inferred": false,
+      "title": "宏致四 announcement/pricing date",
+      "cb_code": "36054"
+    },
+    {
+      "stock_code": "3605",
+      "company_name": "宏致電子股份有限公司",
+      "short_name": "宏致四",
+      "stage": "LISTING",
+      "date": "2026-07-06",
+      "source": "parsed_bonds",
+      "confidence": 0.65,
+      "is_inferred": false,
+      "title": "宏致四 issue/listing date",
+      "cb_code": "36054"
+    },
+    {
       "stock_code": "3617",
       "company_name": "碩天科技股份有限公司",
       "short_name": "碩天一",
@@ -14860,6 +14921,19 @@
       "confidence": 0.3,
       "is_inferred": true,
       "based_on": "2023-03-21"
+    },
+    {
+      "stock_code": "3664",
+      "company_name": "安瑞-KY",
+      "short_name": "",
+      "stage": "PRICING",
+      "date": "2026-06-29",
+      "source": "mops_wiki_db",
+      "confidence": 0.85,
+      "is_inferred": false,
+      "title": "公告本公司董事會決議辦理115年第3次私募普通股定價\r\n暨增資基準日相關事宜",
+      "summary": "訂價/承銷階段: 公告本公司董事會決議辦理115年第3次私募普通股定價\r\n暨增資基準日相關事宜",
+      "event_type": "CB_ISSUANCE"
     },
     {
       "stock_code": "3680",
@@ -28720,6 +28794,19 @@
       "confidence": 0.3,
       "is_inferred": true,
       "based_on": "2022-06-06"
+    },
+    {
+      "stock_code": "6570",
+      "company_name": "維田",
+      "short_name": "維田一",
+      "stage": "BOARD_RESOLUTION",
+      "date": "2026-06-29",
+      "source": "mops_wiki_db",
+      "confidence": 0.85,
+      "is_inferred": false,
+      "title": "公告本公司董事會決議發行國內第二次無擔保轉換公司債",
+      "summary": "董事會/決議階段: 公告本公司董事會決議發行國內第二次無擔保轉換公司債",
+      "event_type": "CB_ISSUANCE"
     },
     {
       "stock_code": "6576",

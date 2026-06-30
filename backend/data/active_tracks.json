@@ -448,8 +448,8 @@
     ],
     "performance": {
       "buy_price": 1785.0,
-      "current_price": 1310.0,
-      "return_pct": -26.61,
+      "current_price": 1335.0,
+      "return_pct": -25.21,
       "state": "holding",
       "capital": 1000000
     }
@@ -513,8 +513,8 @@
     ],
     "performance": {
       "buy_price": 31.15,
-      "current_price": 34.2,
-      "return_pct": 9.79,
+      "current_price": 33.65,
+      "return_pct": 8.03,
       "state": "holding",
       "capital": 1000000
     }
@@ -572,8 +572,8 @@
     ],
     "performance": {
       "buy_price": 70.9,
-      "current_price": 67.6,
-      "return_pct": -4.65,
+      "current_price": 69.7,
+      "return_pct": -1.69,
       "state": "holding",
       "capital": 1000000
     }
@@ -583,7 +583,7 @@
     "company_name": "宜鼎",
     "bond_name": "宜鼎二",
     "expected_listing_date": "2026-06-30",
-    "current_stage_index": 3,
+    "current_stage_index": 4,
     "status_text": "持有中，開始計算報酬",
     "status_type": "success",
     "strategy_info": {
@@ -619,7 +619,7 @@
       {
         "name": "T日 掛牌上市",
         "date": "2026-06-30",
-        "status": "upcoming",
+        "status": "active",
         "description": "宜鼎二預計正式掛牌上市交易。"
       },
       {
@@ -631,8 +631,8 @@
     ],
     "performance": {
       "buy_price": 1950.0,
-      "current_price": 1595.0,
-      "return_pct": -18.21,
+      "current_price": 1615.0,
+      "return_pct": -17.18,
       "state": "holding",
       "capital": 1000000
     }
@@ -690,8 +690,8 @@
     ],
     "performance": {
       "buy_price": 1100.0,
-      "current_price": 980.0,
-      "return_pct": -10.91,
+      "current_price": 998.0,
+      "return_pct": -9.27,
       "state": "holding",
       "capital": 1000000
     }
@@ -755,8 +755,73 @@
     ],
     "performance": {
       "buy_price": 144.5,
-      "current_price": 145.0,
-      "return_pct": 0.35,
+      "current_price": 154.5,
+      "return_pct": 6.92,
+      "state": "holding",
+      "capital": 1000000
+    }
+  },
+  {
+    "stock_code": "3605",
+    "company_name": "宏致電子股份有限公司",
+    "bond_name": "宏致電子股份有限公司國內第四次無擔保轉換公司債",
+    "expected_listing_date": "2026-07-06",
+    "current_stage_index": 2,
+    "status_text": "持有中，開始計算報酬",
+    "status_type": "success",
+    "strategy_info": {
+      "name": "策略 1: 外資定價前卡位",
+      "win_rate": 100.0,
+      "avg_return": 45.0
+    },
+    "stations": [
+      {
+        "name": "T-16 籌碼檢查",
+        "date": "2026-06-18",
+        "status": "completed",
+        "description": "檢查外資與投信累積買超是否符合策略門檻。"
+      },
+      {
+        "name": "T-15 策略買進",
+        "date": "2026-06-22",
+        "status": "completed",
+        "description": "符合策略條件時，以隔日開盤價模擬買進。"
+      },
+      {
+        "name": "競拍公告與定價",
+        "date": "2026-06-30",
+        "status": "active",
+        "description": "確認可轉債競拍公告、發行條件與掛牌時程。"
+      },
+      {
+        "name": "競拍開標與結果",
+        "date": "2026-07-06",
+        "status": "upcoming",
+        "description": "確認競拍是否完成、承銷價格與後續掛牌節點。"
+      },
+      {
+        "name": "T日 掛牌上市",
+        "date": "2026-07-06",
+        "status": "upcoming",
+        "description": "可轉債掛牌日，持續追蹤標的股表現。"
+      },
+      {
+        "name": "T+1~18 持有觀察",
+        "date": "2026-07-07",
+        "status": "upcoming",
+        "description": "持有期間監控價格與法人籌碼變化。"
+      },
+      {
+        "name": "T+19 結算出場",
+        "date": "2026-08-02",
+        "status": "upcoming",
+        "description": "以 T+19 收盤價模擬賣出並更新策略報酬。"
+      }
+    ],
+    "performance": {
+      "buy_price": 82.4,
+      "current_price": 77.9,
+      "return_pct": -5.46,
       "state": "holding",
       "capital": 1000000
     }
@@ -873,8 +938,8 @@
     ],
     "performance": {
       "buy_price": 637.0,
-      "current_price": 685.0,
-      "return_pct": 7.54,
+      "current_price": 734.0,
+      "return_pct": 15.23,
       "state": "holding",
       "capital": 1000000
     }
@@ -932,8 +997,8 @@
     ],
     "performance": {
       "buy_price": 436.0,
-      "current_price": 404.0,
-      "return_pct": -7.34,
+      "current_price": 409.0,
+      "return_pct": -6.19,
       "state": "holding",
       "capital": 1000000
     }
