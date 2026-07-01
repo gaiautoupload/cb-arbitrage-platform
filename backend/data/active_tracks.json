@@ -448,8 +448,8 @@
     ],
     "performance": {
       "buy_price": 1785.0,
-      "current_price": 1335.0,
-      "return_pct": -25.21,
+      "current_price": 1310.0,
+      "return_pct": -26.61,
       "state": "holding",
       "capital": 1000000
     }
@@ -513,8 +513,8 @@
     ],
     "performance": {
       "buy_price": 31.15,
-      "current_price": 33.65,
-      "return_pct": 8.03,
+      "current_price": 33.5,
+      "return_pct": 7.54,
       "state": "holding",
       "capital": 1000000
     }
@@ -572,8 +572,8 @@
     ],
     "performance": {
       "buy_price": 70.9,
-      "current_price": 69.7,
-      "return_pct": -1.69,
+      "current_price": 69.4,
+      "return_pct": -2.12,
       "state": "holding",
       "capital": 1000000
     }
@@ -619,7 +619,7 @@
       {
         "name": "T日 掛牌上市",
         "date": "2026-06-30",
-        "status": "active",
+        "status": "completed",
         "description": "宜鼎二預計正式掛牌上市交易。"
       },
       {
@@ -631,8 +631,8 @@
     ],
     "performance": {
       "buy_price": 1950.0,
-      "current_price": 1615.0,
-      "return_pct": -17.18,
+      "current_price": 1505.0,
+      "return_pct": -22.82,
       "state": "holding",
       "capital": 1000000
     }
@@ -690,8 +690,8 @@
     ],
     "performance": {
       "buy_price": 1100.0,
-      "current_price": 998.0,
-      "return_pct": -9.27,
+      "current_price": 1075.0,
+      "return_pct": -2.27,
       "state": "holding",
       "capital": 1000000
     }
@@ -755,8 +755,8 @@
     ],
     "performance": {
       "buy_price": 144.5,
-      "current_price": 154.5,
-      "return_pct": 6.92,
+      "current_price": 154.0,
+      "return_pct": 6.57,
       "state": "holding",
       "capital": 1000000
     }
@@ -790,7 +790,7 @@
       {
         "name": "競拍公告與定價",
         "date": "2026-06-30",
-        "status": "active",
+        "status": "completed",
         "description": "確認可轉債競拍公告、發行條件與掛牌時程。"
       },
       {
@@ -820,8 +820,8 @@
     ],
     "performance": {
       "buy_price": 82.4,
-      "current_price": 77.9,
-      "return_pct": -5.46,
+      "current_price": 80.1,
+      "return_pct": -2.79,
       "state": "holding",
       "capital": 1000000
     }
@@ -938,8 +938,8 @@
     ],
     "performance": {
       "buy_price": 637.0,
-      "current_price": 734.0,
-      "return_pct": 15.23,
+      "current_price": 709.0,
+      "return_pct": 11.3,
       "state": "holding",
       "capital": 1000000
     }
@@ -997,8 +997,8 @@
     ],
     "performance": {
       "buy_price": 436.0,
-      "current_price": 409.0,
-      "return_pct": -6.19,
+      "current_price": 398.5,
+      "return_pct": -8.6,
       "state": "holding",
       "capital": 1000000
     }
