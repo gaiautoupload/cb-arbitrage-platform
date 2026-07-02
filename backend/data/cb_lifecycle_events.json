@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-01T17:10:49",
+  "generated_at": "2026-07-02T17:11:52",
   "source_files": {
     "mops_wiki_db": "mops_wiki_db.json",
     "parsed_bonds": "parsed_bonds.json",
@@ -12,18 +12,18 @@
     "Generated linked BOARD_RESOLUTION/EFFECTIVE dates are retained only as low-confidence proxy events."
   ],
   "summary": {
-    "total_events": 3121,
-    "actual_or_observed_events": 1069,
-    "inferred_events": 2052,
+    "total_events": 3125,
+    "actual_or_observed_events": 1072,
+    "inferred_events": 2053,
     "by_stage": {
-      "BOARD_RESOLUTION": 493,
+      "BOARD_RESOLUTION": 494,
       "FILING": 1,
       "EFFECTIVE": 485,
       "PRICING": 484,
       "PAYMENT_BANK": 9,
-      "AUCTION_BID_START": 38,
-      "AUCTION_BID_END": 38,
-      "AUCTION_RESULT_ESTIMATED": 38,
+      "AUCTION_BID_START": 39,
+      "AUCTION_BID_END": 39,
+      "AUCTION_RESULT_ESTIMATED": 39,
       "LISTING": 485,
       "CBAS_PROXY_START": 350,
       "CBAS_PROXY_END": 350,
@@ -9732,6 +9732,19 @@
       "confidence": 0.3,
       "is_inferred": true,
       "based_on": "2022-07-21"
+    },
+    {
+      "stock_code": "3219",
+      "company_name": "倚強科",
+      "short_name": "",
+      "stage": "BOARD_RESOLUTION",
+      "date": "2026-07-01",
+      "source": "mops_wiki_db",
+      "confidence": 0.85,
+      "is_inferred": false,
+      "title": "公告本公司董事會決議辦理發行國內第一次無擔保轉換公司債",
+      "summary": "董事會/股東會決議: 公告本公司董事會決議辦理發行國內第一次無擔保轉換公司債",
+      "event_type": "CB_ISSUANCE"
     },
     {
       "stock_code": "3257",
@@ -23230,6 +23243,45 @@
       "title": "公告本公司國內第三次有擔保轉換公司債之代收價款行庫及存儲專\n\n戶行庫",
       "summary": "代收價款/專戶: 公告本公司國內第三次有擔保轉換公司債之代收價款行庫及存儲專\n\n戶行庫",
       "event_type": "CB_ISSUANCE"
+    },
+    {
+      "stock_code": "6134",
+      "company_name": "萬旭電業",
+      "short_name": "萬旭二",
+      "stage": "AUCTION_BID_START",
+      "date": "2026-07-02",
+      "source": "twsa_bids",
+      "confidence": 0.9,
+      "is_inferred": false,
+      "serial": "115043",
+      "underwriter": "中國信託綜合證券股份有限公司",
+      "min_price": "100.00",
+      "bidding_period": "2026/07/02~2026/07/06"
+    },
+    {
+      "stock_code": "6134",
+      "company_name": "萬旭電業",
+      "short_name": "萬旭二",
+      "stage": "AUCTION_BID_END",
+      "date": "2026-07-06",
+      "source": "twsa_bids",
+      "confidence": 0.9,
+      "is_inferred": false,
+      "serial": "115043",
+      "underwriter": "中國信託綜合證券股份有限公司",
+      "min_price": "100.00",
+      "bidding_period": "2026/07/02~2026/07/06"
+    },
+    {
+      "stock_code": "6134",
+      "company_name": "萬旭電業",
+      "short_name": "萬旭二",
+      "stage": "AUCTION_RESULT_ESTIMATED",
+      "date": "2026-07-07",
+      "source": "calendar_proxy",
+      "confidence": 0.35,
+      "is_inferred": true,
+      "serial": "115043"
     },
     {
       "stock_code": "6139",
