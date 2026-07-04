@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-30T14:05:40",
+  "generated_at": "2026-07-03T15:04:45",
   "universe": "ISSUE_MINUS_30 buy, issue+8 sell, buy_date >= 2024-01-01.",
   "top1_db": "file:///D:/mainSD/projects/top1/project_data/top1.sqlite?mode=ro&immutable=1",
   "source_rows": 121,
@@ -22374,7 +22374,7 @@
           "quarterly_rows_available": 2,
           "financial_bucket": "quality",
           "exit_reason": "stop_9",
-          "exit_date_actual": "2024-10-30",
+          "exit_date_actual": "2024-10-01",
           "risk_bucket": "normal"
         },
         {
@@ -23246,7 +23246,7 @@
           "quarterly_rows_available": 2,
           "financial_bucket": "quality",
           "exit_reason": "stop_9",
-          "exit_date_actual": "2024-10-30",
+          "exit_date_actual": "2024-10-01",
           "risk_bucket": "normal"
         },
         {
@@ -24006,7 +24006,7 @@
           "quarterly_rows_available": 2,
           "financial_bucket": "quality",
           "exit_reason": "stop_9",
-          "exit_date_actual": "2024-10-30",
+          "exit_date_actual": "2024-10-01",
           "risk_bucket": "normal"
         },
         {
@@ -24602,7 +24602,7 @@
           "quarterly_rows_available": 2,
           "financial_bucket": "quality",
           "exit_reason": "stop_9",
-          "exit_date_actual": "2024-10-30",
+          "exit_date_actual": "2024-10-01",
           "risk_bucket": "normal"
         },
         {
@@ -25310,7 +25310,7 @@
           "quarterly_rows_available": 2,
           "financial_bucket": "quality",
           "exit_reason": "stop_9",
-          "exit_date_actual": "2024-10-30",
+          "exit_date_actual": "2024-10-01",
           "risk_bucket": "normal"
         },
         {
@@ -26184,7 +26184,7 @@
           "quarterly_rows_available": 2,
           "financial_bucket": "quality",
           "exit_reason": "stop_9",
-          "exit_date_actual": "2024-10-30",
+          "exit_date_actual": "2024-10-01",
           "risk_bucket": "normal"
         },
         {
@@ -27058,7 +27058,7 @@
           "quarterly_rows_available": 2,
           "financial_bucket": "quality",
           "exit_reason": "stop_9",
-          "exit_date_actual": "2024-10-30",
+          "exit_date_actual": "2024-10-01",
           "risk_bucket": "normal"
         },
         {
@@ -27932,7 +27932,7 @@
           "quarterly_rows_available": 2,
           "financial_bucket": "quality",
           "exit_reason": "stop_9",
-          "exit_date_actual": "2024-10-30",
+          "exit_date_actual": "2024-10-01",
           "risk_bucket": "normal"
         },
         {
@@ -28806,7 +28806,7 @@
           "quarterly_rows_available": 2,
           "financial_bucket": "quality",
           "exit_reason": "stop_9",
-          "exit_date_actual": "2024-10-30",
+          "exit_date_actual": "2024-10-01",
           "risk_bucket": "normal"
         },
         {
@@ -29682,7 +29682,7 @@
           "quarterly_rows_available": 2,
           "financial_bucket": "quality",
           "exit_reason": "stop_9",
-          "exit_date_actual": "2024-10-30",
+          "exit_date_actual": "2024-10-01",
           "risk_bucket": "normal"
         },
         {
@@ -30726,7 +30726,7 @@
           "quarterly_rows_available": 2,
           "financial_bucket": "healthy",
           "exit_reason": "stop_9",
-          "exit_date_actual": "2024-11-11",
+          "exit_date_actual": "2024-11-08",
           "risk_bucket": "observe"
         },
         {
@@ -31602,7 +31602,7 @@
           "quarterly_rows_available": 2,
           "financial_bucket": "healthy",
           "exit_reason": "stop_9",
-          "exit_date_actual": "2024-11-11",
+          "exit_date_actual": "2024-11-08",
           "risk_bucket": "observe"
         },
         {
@@ -32310,7 +32310,7 @@
           "quarterly_rows_available": 2,
           "financial_bucket": "healthy",
           "exit_reason": "stop_9",
-          "exit_date_actual": "2024-11-11",
+          "exit_date_actual": "2024-11-08",
           "risk_bucket": "observe"
         },
         {
@@ -32758,7 +32758,7 @@
           "quarterly_rows_available": 2,
           "financial_bucket": "quality",
           "exit_reason": "stop_9",
-          "exit_date_actual": "2024-10-30",
+          "exit_date_actual": "2024-10-01",
           "risk_bucket": "normal"
         }
       ]
@@ -33186,7 +33186,7 @@
           "quarterly_rows_available": 2,
           "financial_bucket": "quality",
           "exit_reason": "stop_9",
-          "exit_date_actual": "2024-10-30",
+          "exit_date_actual": "2024-10-01",
           "risk_bucket": "normal"
         },
         {
@@ -34058,7 +34058,7 @@
           "quarterly_rows_available": 2,
           "financial_bucket": "quality",
           "exit_reason": "stop_9",
-          "exit_date_actual": "2024-10-30",
+          "exit_date_actual": "2024-10-01",
           "risk_bucket": "normal"
         },
         {
@@ -34930,7 +34930,7 @@
           "quarterly_rows_available": 2,
           "financial_bucket": "quality",
           "exit_reason": "stop_9",
-          "exit_date_actual": "2024-10-30",
+          "exit_date_actual": "2024-10-01",
           "risk_bucket": "normal"
         },
         {
@@ -35806,7 +35806,7 @@
           "quarterly_rows_available": 2,
           "financial_bucket": "quality",
           "exit_reason": "stop_9",
-          "exit_date_actual": "2024-10-30",
+          "exit_date_actual": "2024-10-01",
           "risk_bucket": "normal"
         },
         {
@@ -36684,7 +36684,7 @@
           "quarterly_rows_available": 2,
           "financial_bucket": "quality",
           "exit_reason": "stop_9",
-          "exit_date_actual": "2024-10-30",
+          "exit_date_actual": "2024-10-01",
           "risk_bucket": "normal"
         },
         {
@@ -37556,7 +37556,7 @@
           "quarterly_rows_available": 2,
           "financial_bucket": "quality",
           "exit_reason": "stop_9",
-          "exit_date_actual": "2024-10-30",
+          "exit_date_actual": "2024-10-01",
           "risk_bucket": "normal"
         },
         {
@@ -40164,7 +40164,7 @@
           "quarterly_rows_available": 2,
           "financial_bucket": "quality",
           "exit_reason": "stop_9",
-          "exit_date_actual": "2024-10-30",
+          "exit_date_actual": "2024-10-01",
           "risk_bucket": "normal"
         },
         {
@@ -41038,7 +41038,7 @@
           "quarterly_rows_available": 2,
           "financial_bucket": "quality",
           "exit_reason": "stop_9",
-          "exit_date_actual": "2024-10-30",
+          "exit_date_actual": "2024-10-01",
           "risk_bucket": "normal"
         },
         {
@@ -42304,7 +42304,7 @@
           "quarterly_rows_available": 2,
           "financial_bucket": "healthy",
           "exit_reason": "stop_7",
-          "exit_date_actual": "2024-11-08",
+          "exit_date_actual": "2024-10-11",
           "risk_bucket": "observe"
         },
         {
@@ -42956,7 +42956,7 @@
           "quarterly_rows_available": 2,
           "financial_bucket": "healthy",
           "exit_reason": "stop_7",
-          "exit_date_actual": "2024-11-08",
+          "exit_date_actual": "2024-10-11",
           "risk_bucket": "observe"
         },
         {
@@ -43664,7 +43664,7 @@
           "quarterly_rows_available": 2,
           "financial_bucket": "quality",
           "exit_reason": "stop_9",
-          "exit_date_actual": "2024-10-30",
+          "exit_date_actual": "2024-10-01",
           "risk_bucket": "normal"
         },
         {
@@ -44538,7 +44538,7 @@
           "quarterly_rows_available": 2,
           "financial_bucket": "quality",
           "exit_reason": "stop_9",
-          "exit_date_actual": "2024-10-30",
+          "exit_date_actual": "2024-10-01",
           "risk_bucket": "normal"
         },
         {
@@ -45412,7 +45412,7 @@
           "quarterly_rows_available": 2,
           "financial_bucket": "quality",
           "exit_reason": "stop_9",
-          "exit_date_actual": "2024-10-30",
+          "exit_date_actual": "2024-10-01",
           "risk_bucket": "normal"
         },
         {
@@ -46288,7 +46288,7 @@
           "quarterly_rows_available": 2,
           "financial_bucket": "quality",
           "exit_reason": "stop_9",
-          "exit_date_actual": "2024-10-30",
+          "exit_date_actual": "2024-10-01",
           "risk_bucket": "normal"
         },
         {
@@ -47332,7 +47332,7 @@
           "quarterly_rows_available": 2,
           "financial_bucket": "healthy",
           "exit_reason": "stop_9",
-          "exit_date_actual": "2024-11-11",
+          "exit_date_actual": "2024-11-08",
           "risk_bucket": "observe"
         },
         {
@@ -48208,7 +48208,7 @@
           "quarterly_rows_available": 2,
           "financial_bucket": "healthy",
           "exit_reason": "stop_9",
-          "exit_date_actual": "2024-11-11",
+          "exit_date_actual": "2024-11-08",
           "risk_bucket": "observe"
         },
         {
@@ -48972,7 +48972,7 @@
           "quarterly_rows_available": 2,
           "financial_bucket": "healthy",
           "exit_reason": "stop_7",
-          "exit_date_actual": "2024-11-08",
+          "exit_date_actual": "2024-10-11",
           "risk_bucket": "observe"
         },
         {
@@ -49790,7 +49790,7 @@
           "quarterly_rows_available": 2,
           "financial_bucket": "healthy",
           "exit_reason": "stop_9",
-          "exit_date_actual": "2024-11-11",
+          "exit_date_actual": "2024-11-08",
           "risk_bucket": "observe"
         },
         {
@@ -50238,7 +50238,7 @@
           "quarterly_rows_available": 2,
           "financial_bucket": "quality",
           "exit_reason": "stop_9",
-          "exit_date_actual": "2024-10-30",
+          "exit_date_actual": "2024-10-01",
           "risk_bucket": "normal"
         }
       ]
@@ -50666,7 +50666,7 @@
           "quarterly_rows_available": 2,
           "financial_bucket": "quality",
           "exit_reason": "stop_9",
-          "exit_date_actual": "2024-10-30",
+          "exit_date_actual": "2024-10-01",
           "risk_bucket": "normal"
         },
         {
@@ -51538,7 +51538,7 @@
           "quarterly_rows_available": 2,
           "financial_bucket": "quality",
           "exit_reason": "stop_9",
-          "exit_date_actual": "2024-10-30",
+          "exit_date_actual": "2024-10-01",
           "risk_bucket": "normal"
         },
         {
@@ -52578,7 +52578,7 @@
           "quarterly_rows_available": 2,
           "financial_bucket": "healthy",
           "exit_reason": "stop_7",
-          "exit_date_actual": "2024-11-08",
+          "exit_date_actual": "2024-10-11",
           "risk_bucket": "observe"
         },
         {
@@ -53398,7 +53398,7 @@
           "quarterly_rows_available": 2,
           "financial_bucket": "healthy",
           "exit_reason": "stop_7",
-          "exit_date_actual": "2024-11-08",
+          "exit_date_actual": "2024-10-11",
           "risk_bucket": "observe"
         },
         {
@@ -54162,7 +54162,7 @@
           "quarterly_rows_available": 2,
           "financial_bucket": "quality",
           "exit_reason": "stop_9",
-          "exit_date_actual": "2024-10-30",
+          "exit_date_actual": "2024-10-01",
           "risk_bucket": "normal"
         },
         {
@@ -55038,7 +55038,7 @@
           "quarterly_rows_available": 2,
           "financial_bucket": "quality",
           "exit_reason": "stop_9",
-          "exit_date_actual": "2024-10-30",
+          "exit_date_actual": "2024-10-01",
           "risk_bucket": "normal"
         },
         {
@@ -55970,7 +55970,7 @@
           "quarterly_rows_available": 2,
           "financial_bucket": "quality",
           "exit_reason": "stop_9",
-          "exit_date_actual": "2024-10-30",
+          "exit_date_actual": "2024-10-01",
           "risk_bucket": "normal"
         },
         {
@@ -56790,7 +56790,7 @@
           "quarterly_rows_available": 2,
           "financial_bucket": "quality",
           "exit_reason": "stop_9",
-          "exit_date_actual": "2024-10-30",
+          "exit_date_actual": "2024-10-01",
           "risk_bucket": "normal"
         },
         {
@@ -57662,7 +57662,7 @@
           "quarterly_rows_available": 2,
           "financial_bucket": "quality",
           "exit_reason": "stop_9",
-          "exit_date_actual": "2024-10-30",
+          "exit_date_actual": "2024-10-01",
           "risk_bucket": "normal"
         },
         {

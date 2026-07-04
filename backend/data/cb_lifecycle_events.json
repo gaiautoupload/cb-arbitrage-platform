@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-02T17:11:52",
+  "generated_at": "2026-07-04T17:11:45",
   "source_files": {
     "mops_wiki_db": "mops_wiki_db.json",
     "parsed_bonds": "parsed_bonds.json",
@@ -12,15 +12,15 @@
     "Generated linked BOARD_RESOLUTION/EFFECTIVE dates are retained only as low-confidence proxy events."
   ],
   "summary": {
-    "total_events": 3125,
-    "actual_or_observed_events": 1072,
+    "total_events": 3128,
+    "actual_or_observed_events": 1075,
     "inferred_events": 2053,
     "by_stage": {
-      "BOARD_RESOLUTION": 494,
+      "BOARD_RESOLUTION": 495,
       "FILING": 1,
       "EFFECTIVE": 485,
       "PRICING": 484,
-      "PAYMENT_BANK": 9,
+      "PAYMENT_BANK": 11,
       "AUCTION_BID_START": 39,
       "AUCTION_BID_END": 39,
       "AUCTION_RESULT_ESTIMATED": 39,
@@ -14523,6 +14523,19 @@
     },
     {
       "stock_code": "3605",
+      "company_name": "宏致",
+      "short_name": "宏致二",
+      "stage": "PAYMENT_BANK",
+      "date": "2026-07-03",
+      "source": "mops_wiki_db",
+      "confidence": 0.85,
+      "is_inferred": false,
+      "title": "公告本公司國內第四次無擔保轉換公司債收足債款",
+      "summary": "代收價款/專戶: 公告本公司國內第四次無擔保轉換公司債收足債款",
+      "event_type": "CB_ISSUANCE"
+    },
+    {
+      "stock_code": "3605",
       "company_name": "宏致電子股份有限公司",
       "short_name": "宏致四",
       "stage": "LISTING",
@@ -15078,6 +15091,19 @@
       "is_inferred": false,
       "title": "公告本公司董事會決議辦理115年第3次私募普通股定價\r\n暨增資基準日相關事宜",
       "summary": "訂價/承銷階段: 公告本公司董事會決議辦理115年第3次私募普通股定價\r\n暨增資基準日相關事宜",
+      "event_type": "CB_ISSUANCE"
+    },
+    {
+      "stock_code": "3665",
+      "company_name": "貿聯-KY",
+      "short_name": "",
+      "stage": "BOARD_RESOLUTION",
+      "date": "2026-07-03",
+      "source": "mops_wiki_db",
+      "confidence": 0.85,
+      "is_inferred": false,
+      "title": "本公司董事會決議發行第七次海外無擔保轉換公司債",
+      "summary": "董事會/股東會決議: 本公司董事會決議發行第七次海外無擔保轉換公司債",
       "event_type": "CB_ISSUANCE"
     },
     {
@@ -31799,6 +31825,19 @@
       "is_inferred": false,
       "title": "「雲豹能源一創」異動為「雲豹能源一」 announcement/pricing date",
       "cb_code": "68691"
+    },
+    {
+      "stock_code": "6869",
+      "company_name": "雲豹能源",
+      "short_name": "雲豹能源一創",
+      "stage": "PAYMENT_BANK",
+      "date": "2026-07-03",
+      "source": "mops_wiki_db",
+      "confidence": 0.85,
+      "is_inferred": false,
+      "title": "公告本公司國內第二次有擔保轉換公司債代收價款及\r\n存儲價款專戶機構",
+      "summary": "代收價款/專戶: 公告本公司國內第二次有擔保轉換公司債代收價款及\r\n存儲價款專戶機構",
+      "event_type": "CB_ISSUANCE"
     },
     {
       "stock_code": "6870",
