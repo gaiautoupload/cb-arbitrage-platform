@@ -163,10 +163,6 @@
     "ticker": "2338.TW",
     "data_points": 1576
   },
-  "2358": {
-    "ticker": "2358.TW",
-    "data_points": 1184
-  },
   "2368": {
     "ticker": "2368.TW",
     "data_points": 1576
@@ -1182,10 +1178,6 @@
   "6804": {
     "ticker": "6804.TWO",
     "data_points": 1353
-  },
-  "6806": {
-    "ticker": "6806.TW",
-    "data_points": 1341
   },
   "6823": {
     "ticker": "6823.TWO",

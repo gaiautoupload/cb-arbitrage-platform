@@ -1214,8 +1214,8 @@
     "company_name": "萬旭電業",
     "bond_name": "萬旭電業 可轉債",
     "expected_listing_date": "2026-07-20",
-    "current_stage_index": 1,
-    "status_text": "下一步 2026-07-04：T-16 籌碼檢查",
+    "current_stage_index": 2,
+    "status_text": "1 個節點待後台資料確認",
     "status_type": "pending",
     "strategy_info": {
       "name": "策略 4: 法人卡位 + 股本佔比",
@@ -1232,13 +1232,13 @@
       {
         "name": "T-16 籌碼檢查",
         "date": "2026-07-04",
-        "status": "active",
+        "status": "stale",
         "description": "檢查外資與投信累積買超是否符合策略門檻。"
       },
       {
         "name": "T-15 策略買進",
         "date": "2026-07-05",
-        "status": "upcoming",
+        "status": "active",
         "description": "符合策略條件時，以隔日開盤價模擬買進。"
       },
       {

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-04T17:11:45",
+  "generated_at": "2026-07-05T17:11:45",
   "source_files": {
     "mops_wiki_db": "mops_wiki_db.json",
     "parsed_bonds": "parsed_bonds.json",
@@ -13,8 +13,8 @@
   ],
   "summary": {
     "total_events": 3128,
-    "actual_or_observed_events": 1075,
-    "inferred_events": 2053,
+    "actual_or_observed_events": 1076,
+    "inferred_events": 2052,
     "by_stage": {
       "BOARD_RESOLUTION": 495,
       "FILING": 1,
@@ -24330,18 +24330,6 @@
       "stock_code": "6187",
       "company_name": "萬潤科技股份有限公司",
       "short_name": "萬潤五",
-      "stage": "BOARD_RESOLUTION",
-      "date": "2024-04-26",
-      "source": "linked_bond_stages_proxy",
-      "confidence": 0.25,
-      "is_inferred": true,
-      "title": "董事會決議發行無擔保轉換公司債",
-      "summary": "董事會通過發行可轉債以充實營運資金或償還債務"
-    },
-    {
-      "stock_code": "6187",
-      "company_name": "萬潤科技股份有限公司",
-      "short_name": "萬潤五",
       "stage": "EFFECTIVE",
       "date": "2024-06-05",
       "source": "linked_bond_stages_proxy",
@@ -24460,6 +24448,19 @@
       "is_inferred": false,
       "title": "萬潤六 issue/listing date",
       "cb_code": "61876"
+    },
+    {
+      "stock_code": "6187",
+      "company_name": "萬潤",
+      "short_name": "萬潤四",
+      "stage": "BOARD_RESOLUTION",
+      "date": "2026-07-04",
+      "source": "mops_wiki_db",
+      "confidence": 0.85,
+      "is_inferred": false,
+      "title": "公告本公司國內第五次無擔保轉換公司債轉換普通股\r\n之增資基準日",
+      "summary": "董事會/股東會決議: 公告本公司國內第五次無擔保轉換公司債轉換普通股\r\n之增資基準日",
+      "event_type": "CB_ISSUANCE"
     },
     {
       "stock_code": "6189",
