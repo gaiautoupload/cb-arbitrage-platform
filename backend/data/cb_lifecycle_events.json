@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-05T17:11:45",
+  "generated_at": "2026-07-06T17:12:33",
   "source_files": {
     "mops_wiki_db": "mops_wiki_db.json",
     "parsed_bonds": "parsed_bonds.json",
@@ -12,18 +12,18 @@
     "Generated linked BOARD_RESOLUTION/EFFECTIVE dates are retained only as low-confidence proxy events."
   ],
   "summary": {
-    "total_events": 3128,
-    "actual_or_observed_events": 1076,
-    "inferred_events": 2052,
+    "total_events": 3131,
+    "actual_or_observed_events": 1078,
+    "inferred_events": 2053,
     "by_stage": {
       "BOARD_RESOLUTION": 495,
       "FILING": 1,
       "EFFECTIVE": 485,
       "PRICING": 484,
       "PAYMENT_BANK": 11,
-      "AUCTION_BID_START": 39,
-      "AUCTION_BID_END": 39,
-      "AUCTION_RESULT_ESTIMATED": 39,
+      "AUCTION_BID_START": 40,
+      "AUCTION_BID_END": 40,
+      "AUCTION_RESULT_ESTIMATED": 40,
       "LISTING": 485,
       "CBAS_PROXY_START": 350,
       "CBAS_PROXY_END": 350,
@@ -32570,6 +32570,45 @@
       "title": "公告本公司發行國內第一次有擔保轉換公司債之代收\r\n價款及存儲專戶行庫",
       "summary": "代收價款/專戶: 公告本公司發行國內第一次有擔保轉換公司債之代收\r\n價款及存儲專戶行庫",
       "event_type": "CB_ISSUANCE"
+    },
+    {
+      "stock_code": "8054",
+      "company_name": "安國",
+      "short_name": "",
+      "stage": "AUCTION_BID_START",
+      "date": "2026-07-06",
+      "source": "twsa_bids",
+      "confidence": 0.9,
+      "is_inferred": false,
+      "serial": "115044",
+      "underwriter": "福邦證券股份有限公司",
+      "min_price": "100.00",
+      "bidding_period": "2026/07/06~2026/07/08"
+    },
+    {
+      "stock_code": "8054",
+      "company_name": "安國",
+      "short_name": "",
+      "stage": "AUCTION_BID_END",
+      "date": "2026-07-08",
+      "source": "twsa_bids",
+      "confidence": 0.9,
+      "is_inferred": false,
+      "serial": "115044",
+      "underwriter": "福邦證券股份有限公司",
+      "min_price": "100.00",
+      "bidding_period": "2026/07/06~2026/07/08"
+    },
+    {
+      "stock_code": "8054",
+      "company_name": "安國",
+      "short_name": "",
+      "stage": "AUCTION_RESULT_ESTIMATED",
+      "date": "2026-07-09",
+      "source": "calendar_proxy",
+      "confidence": 0.35,
+      "is_inferred": true,
+      "serial": "115044"
     },
     {
       "stock_code": "8070",

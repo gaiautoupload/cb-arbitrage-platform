@@ -329,7 +329,7 @@
     "company_name": "長興材料",
     "bond_name": "長興材料 可轉債",
     "expected_listing_date": "2026-06-09",
-    "current_stage_index": 5,
+    "current_stage_index": 6,
     "status_text": "持有中，開始計算報酬",
     "status_type": "success",
     "strategy_info": {
@@ -377,7 +377,7 @@
       {
         "name": "T+19 結算出場",
         "date": "2026-07-06",
-        "status": "upcoming",
+        "status": "active",
         "description": "以 T+19 收盤價模擬賣出並更新策略報酬。"
       }
     ],
@@ -448,8 +448,8 @@
     ],
     "performance": {
       "buy_price": 1785.0,
-      "current_price": 1340.0,
-      "return_pct": -24.93,
+      "current_price": 1300.0,
+      "return_pct": -27.17,
       "state": "holding",
       "capital": 1000000
     }
@@ -513,8 +513,8 @@
     ],
     "performance": {
       "buy_price": 31.15,
-      "current_price": 34.4,
-      "return_pct": 10.43,
+      "current_price": 33.95,
+      "return_pct": 8.99,
       "state": "holding",
       "capital": 1000000
     }
@@ -572,8 +572,8 @@
     ],
     "performance": {
       "buy_price": 70.9,
-      "current_price": 71.4,
-      "return_pct": 0.71,
+      "current_price": 73.6,
+      "return_pct": 3.81,
       "state": "holding",
       "capital": 1000000
     }
@@ -631,8 +631,8 @@
     ],
     "performance": {
       "buy_price": 1950.0,
-      "current_price": 1635.0,
-      "return_pct": -16.15,
+      "current_price": 1645.0,
+      "return_pct": -15.64,
       "state": "holding",
       "capital": 1000000
     }
@@ -690,8 +690,8 @@
     ],
     "performance": {
       "buy_price": 1100.0,
-      "current_price": 1030.0,
-      "return_pct": -6.36,
+      "current_price": 1035.0,
+      "return_pct": -5.91,
       "state": "holding",
       "capital": 1000000
     }
@@ -755,8 +755,8 @@
     ],
     "performance": {
       "buy_price": 144.5,
-      "current_price": 157.5,
-      "return_pct": 9.0,
+      "current_price": 167.5,
+      "return_pct": 15.92,
       "state": "holding",
       "capital": 1000000
     }
@@ -766,7 +766,7 @@
     "company_name": "宏致電子股份有限公司",
     "bond_name": "宏致電子股份有限公司國內第四次無擔保轉換公司債",
     "expected_listing_date": "2026-07-06",
-    "current_stage_index": 2,
+    "current_stage_index": 4,
     "status_text": "持有中，開始計算報酬",
     "status_type": "success",
     "strategy_info": {
@@ -796,13 +796,13 @@
       {
         "name": "競拍開標與結果",
         "date": "2026-07-06",
-        "status": "upcoming",
+        "status": "active",
         "description": "確認競拍是否完成、承銷價格與後續掛牌節點。"
       },
       {
         "name": "T日 掛牌上市",
         "date": "2026-07-06",
-        "status": "upcoming",
+        "status": "active",
         "description": "可轉債掛牌日，持續追蹤標的股表現。"
       },
       {
@@ -820,8 +820,8 @@
     ],
     "performance": {
       "buy_price": 82.4,
-      "current_price": 88.2,
-      "return_pct": 7.04,
+      "current_price": 87.7,
+      "return_pct": 6.43,
       "state": "holding",
       "capital": 1000000
     }
@@ -831,7 +831,7 @@
     "company_name": "博智",
     "bond_name": "博智二",
     "expected_listing_date": "2026-07-06",
-    "current_stage_index": 2,
+    "current_stage_index": 3,
     "status_text": "持有中，開始計算報酬",
     "status_type": "success",
     "strategy_info": {
@@ -861,7 +861,7 @@
       {
         "name": "T日 掛牌上市",
         "date": "2026-07-06",
-        "status": "upcoming",
+        "status": "active",
         "description": "即將正式掛牌發行，預期現貨有拉抬動能。"
       },
       {
@@ -938,8 +938,8 @@
     ],
     "performance": {
       "buy_price": 637.0,
-      "current_price": 707.0,
-      "return_pct": 10.99,
+      "current_price": 690.0,
+      "return_pct": 8.32,
       "state": "holding",
       "capital": 1000000
     }
@@ -997,8 +997,73 @@
     ],
     "performance": {
       "buy_price": 436.0,
-      "current_price": 411.5,
-      "return_pct": -5.62,
+      "current_price": 410.5,
+      "return_pct": -5.85,
+      "state": "holding",
+      "capital": 1000000
+    }
+  },
+  {
+    "stock_code": "6134",
+    "company_name": "萬旭電業",
+    "bond_name": "萬旭電業 可轉債",
+    "expected_listing_date": "2026-07-20",
+    "current_stage_index": 2,
+    "status_text": "持有中，開始計算報酬",
+    "status_type": "success",
+    "strategy_info": {
+      "name": "策略 4: 法人卡位 + 股本佔比",
+      "win_rate": 100.0,
+      "avg_return": 43.6
+    },
+    "stations": [
+      {
+        "name": "競拍公告與定價",
+        "date": "2026-07-02",
+        "status": "completed",
+        "description": "確認可轉債競拍公告、發行條件與掛牌時程。"
+      },
+      {
+        "name": "T-16 籌碼檢查",
+        "date": "2026-07-04",
+        "status": "completed",
+        "description": "檢查外資與投信累積買超是否符合策略門檻。"
+      },
+      {
+        "name": "T-15 策略買進",
+        "date": "2026-07-05",
+        "status": "completed",
+        "description": "符合策略條件時，以隔日開盤價模擬買進。"
+      },
+      {
+        "name": "競拍開標與結果",
+        "date": "2026-07-08",
+        "status": "upcoming",
+        "description": "確認競拍是否完成、承銷價格與後續掛牌節點。"
+      },
+      {
+        "name": "T日 掛牌上市",
+        "date": "2026-07-20",
+        "status": "upcoming",
+        "description": "可轉債掛牌日，持續追蹤標的股表現。"
+      },
+      {
+        "name": "T+1~18 持有觀察",
+        "date": "2026-07-21",
+        "status": "upcoming",
+        "description": "持有期間監控價格與法人籌碼變化。"
+      },
+      {
+        "name": "T+19 結算出場",
+        "date": "2026-08-16",
+        "status": "upcoming",
+        "description": "以 T+19 收盤價模擬賣出並更新策略報酬。"
+      }
+    ],
+    "performance": {
+      "buy_price": 34.4,
+      "current_price": 34.35,
+      "return_pct": -0.15,
       "state": "holding",
       "capital": 1000000
     }
@@ -1161,7 +1226,7 @@
     "company_name": "大聯大",
     "bond_name": "大聯大二",
     "expected_listing_date": "2026-07-03",
-    "current_stage_index": 2,
+    "current_stage_index": 3,
     "status_text": "籌碼判定失敗，放棄交易",
     "status_type": "failed",
     "strategy_info": {
@@ -1197,7 +1262,7 @@
       {
         "name": "T+1~18 拆解拉抬",
         "date": "2026-07-06",
-        "status": "upcoming",
+        "status": "active",
         "description": "無動作。"
       },
       {
@@ -1210,12 +1275,12 @@
     "performance": null
   },
   {
-    "stock_code": "6134",
-    "company_name": "萬旭電業",
-    "bond_name": "萬旭電業 可轉債",
-    "expected_listing_date": "2026-07-20",
-    "current_stage_index": 2,
-    "status_text": "1 個節點待後台資料確認",
+    "stock_code": "8054",
+    "company_name": "安國",
+    "bond_name": "安國 可轉債",
+    "expected_listing_date": "2026-07-22",
+    "current_stage_index": 1,
+    "status_text": "下一步 2026-07-06：競拍公告與定價",
     "status_type": "pending",
     "strategy_info": {
       "name": "策略 4: 法人卡位 + 股本佔比",
@@ -1225,43 +1290,43 @@
     "stations": [
       {
         "name": "競拍公告與定價",
-        "date": "2026-07-02",
-        "status": "completed",
+        "date": "2026-07-06",
+        "status": "active",
         "description": "確認可轉債競拍公告、發行條件與掛牌時程。"
       },
       {
         "name": "T-16 籌碼檢查",
-        "date": "2026-07-04",
-        "status": "stale",
+        "date": "2026-07-06",
+        "status": "active",
         "description": "檢查外資與投信累積買超是否符合策略門檻。"
       },
       {
         "name": "T-15 策略買進",
-        "date": "2026-07-05",
-        "status": "active",
+        "date": "2026-07-07",
+        "status": "upcoming",
         "description": "符合策略條件時，以隔日開盤價模擬買進。"
       },
       {
         "name": "競拍開標與結果",
-        "date": "2026-07-08",
+        "date": "2026-07-10",
         "status": "upcoming",
         "description": "確認競拍是否完成、承銷價格與後續掛牌節點。"
       },
       {
         "name": "T日 掛牌上市",
-        "date": "2026-07-20",
+        "date": "2026-07-22",
         "status": "upcoming",
         "description": "可轉債掛牌日，持續追蹤標的股表現。"
       },
       {
         "name": "T+1~18 持有觀察",
-        "date": "2026-07-21",
+        "date": "2026-07-23",
         "status": "upcoming",
         "description": "持有期間監控價格與法人籌碼變化。"
       },
       {
         "name": "T+19 結算出場",
-        "date": "2026-08-16",
+        "date": "2026-08-18",
         "status": "upcoming",
         "description": "以 T+19 收盤價模擬賣出並更新策略報酬。"
       }
