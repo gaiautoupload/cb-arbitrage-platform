@@ -1,135 +1,5 @@
 [
   {
-    "stock_code": "3680",
-    "company_name": "家登精密",
-    "bond_name": "家登精密 可轉債",
-    "expected_listing_date": "2026-05-22",
-    "current_stage_index": 6,
-    "status_text": "交易已完成，績效已更新",
-    "status_type": "success",
-    "strategy_info": {
-      "name": "策略 4: 法人卡位 + 股本佔比",
-      "win_rate": 100.0,
-      "avg_return": 43.6
-    },
-    "stations": [
-      {
-        "name": "T-16 籌碼檢查",
-        "date": "2026-04-29",
-        "status": "completed",
-        "description": "檢查外資與投信累積買超是否符合策略門檻。"
-      },
-      {
-        "name": "T-15 策略買進",
-        "date": "2026-04-30",
-        "status": "completed",
-        "description": "符合策略條件時，以隔日開盤價模擬買進。"
-      },
-      {
-        "name": "競拍公告與定價",
-        "date": "2026-05-06",
-        "status": "completed",
-        "description": "確認可轉債競拍公告、發行條件與掛牌時程。"
-      },
-      {
-        "name": "競拍開標與結果",
-        "date": "2026-05-10",
-        "status": "completed",
-        "description": "確認競拍是否完成、承銷價格與後續掛牌節點。"
-      },
-      {
-        "name": "T日 掛牌上市",
-        "date": "2026-05-22",
-        "status": "completed",
-        "description": "可轉債掛牌日，持續追蹤標的股表現。"
-      },
-      {
-        "name": "T+1~18 持有觀察",
-        "date": "2026-05-23",
-        "status": "completed",
-        "description": "持有期間監控價格與法人籌碼變化。"
-      },
-      {
-        "name": "T+19 結算出場",
-        "date": "2026-06-18",
-        "status": "completed",
-        "description": "以 T+19 收盤價模擬賣出並更新策略報酬。"
-      }
-    ],
-    "performance": {
-      "buy_price": 508.65,
-      "current_price": 542.0,
-      "return_pct": 6.56,
-      "state": "closed",
-      "capital": 1000000
-    }
-  },
-  {
-    "stock_code": "6803",
-    "company_name": "崑鼎綠能環保",
-    "bond_name": "崑鼎綠能環保 可轉債",
-    "expected_listing_date": "2026-05-22",
-    "current_stage_index": 6,
-    "status_text": "持有中，開始計算報酬",
-    "status_type": "success",
-    "strategy_info": {
-      "name": "策略 4: 法人卡位 + 股本佔比",
-      "win_rate": 100.0,
-      "avg_return": 43.6
-    },
-    "stations": [
-      {
-        "name": "T-16 籌碼檢查",
-        "date": "2026-04-29",
-        "status": "completed",
-        "description": "檢查外資與投信累積買超是否符合策略門檻。"
-      },
-      {
-        "name": "T-15 策略買進",
-        "date": "2026-04-30",
-        "status": "completed",
-        "description": "符合策略條件時，以隔日開盤價模擬買進。"
-      },
-      {
-        "name": "競拍公告與定價",
-        "date": "2026-05-06",
-        "status": "completed",
-        "description": "確認可轉債競拍公告、發行條件與掛牌時程。"
-      },
-      {
-        "name": "競拍開標與結果",
-        "date": "2026-05-10",
-        "status": "completed",
-        "description": "確認競拍是否完成、承銷價格與後續掛牌節點。"
-      },
-      {
-        "name": "T日 掛牌上市",
-        "date": "2026-05-22",
-        "status": "completed",
-        "description": "可轉債掛牌日，持續追蹤標的股表現。"
-      },
-      {
-        "name": "T+1~18 持有觀察",
-        "date": "2026-05-23",
-        "status": "completed",
-        "description": "持有期間監控價格與法人籌碼變化。"
-      },
-      {
-        "name": "T+19 結算出場",
-        "date": "2026-06-18",
-        "status": "stale",
-        "description": "以 T+19 收盤價模擬賣出並更新策略報酬。"
-      }
-    ],
-    "performance": {
-      "buy_price": 288.5,
-      "current_price": 286.5,
-      "return_pct": -0.69,
-      "state": "holding",
-      "capital": 1000000
-    }
-  },
-  {
     "stock_code": "5464",
     "company_name": "霖宏",
     "bond_name": "霖宏 可轉債",
@@ -377,7 +247,7 @@
       {
         "name": "T+19 結算出場",
         "date": "2026-07-06",
-        "status": "active",
+        "status": "stale",
         "description": "以 T+19 收盤價模擬賣出並更新策略報酬。"
       }
     ],
@@ -394,8 +264,8 @@
     "company_name": "昇達",
     "bond_name": "昇達 可轉債",
     "expected_listing_date": "2026-06-10",
-    "current_stage_index": 5,
-    "status_text": "持有中，開始計算報酬",
+    "current_stage_index": 6,
+    "status_text": "交易已完成，績效已更新",
     "status_type": "success",
     "strategy_info": {
       "name": "策略 4: 法人卡位 + 股本佔比",
@@ -442,15 +312,15 @@
       {
         "name": "T+19 結算出場",
         "date": "2026-07-07",
-        "status": "upcoming",
+        "status": "active",
         "description": "以 T+19 收盤價模擬賣出並更新策略報酬。"
       }
     ],
     "performance": {
       "buy_price": 1785.0,
-      "current_price": 1300.0,
-      "return_pct": -27.17,
-      "state": "holding",
+      "current_price": 1195.0,
+      "return_pct": -33.05,
+      "state": "closed",
       "capital": 1000000
     }
   },
@@ -513,8 +383,8 @@
     ],
     "performance": {
       "buy_price": 31.15,
-      "current_price": 33.95,
-      "return_pct": 8.99,
+      "current_price": 33.45,
+      "return_pct": 7.38,
       "state": "holding",
       "capital": 1000000
     }
@@ -571,9 +441,9 @@
       }
     ],
     "performance": {
-      "buy_price": 70.9,
-      "current_price": 73.6,
-      "return_pct": 3.81,
+      "buy_price": 68.49,
+      "current_price": 68.1,
+      "return_pct": -0.57,
       "state": "holding",
       "capital": 1000000
     }
@@ -631,8 +501,8 @@
     ],
     "performance": {
       "buy_price": 1950.0,
-      "current_price": 1645.0,
-      "return_pct": -15.64,
+      "current_price": 1590.0,
+      "return_pct": -18.46,
       "state": "holding",
       "capital": 1000000
     }
@@ -690,8 +560,8 @@
     ],
     "performance": {
       "buy_price": 1100.0,
-      "current_price": 1035.0,
-      "return_pct": -5.91,
+      "current_price": 974.0,
+      "return_pct": -11.45,
       "state": "holding",
       "capital": 1000000
     }
@@ -755,8 +625,8 @@
     ],
     "performance": {
       "buy_price": 144.5,
-      "current_price": 167.5,
-      "return_pct": 15.92,
+      "current_price": 154.5,
+      "return_pct": 6.92,
       "state": "holding",
       "capital": 1000000
     }
@@ -766,7 +636,7 @@
     "company_name": "宏致電子股份有限公司",
     "bond_name": "宏致電子股份有限公司國內第四次無擔保轉換公司債",
     "expected_listing_date": "2026-07-06",
-    "current_stage_index": 4,
+    "current_stage_index": 5,
     "status_text": "持有中，開始計算報酬",
     "status_type": "success",
     "strategy_info": {
@@ -796,19 +666,19 @@
       {
         "name": "競拍開標與結果",
         "date": "2026-07-06",
-        "status": "active",
+        "status": "completed",
         "description": "確認競拍是否完成、承銷價格與後續掛牌節點。"
       },
       {
         "name": "T日 掛牌上市",
         "date": "2026-07-06",
-        "status": "active",
+        "status": "completed",
         "description": "可轉債掛牌日，持續追蹤標的股表現。"
       },
       {
         "name": "T+1~18 持有觀察",
         "date": "2026-07-07",
-        "status": "upcoming",
+        "status": "active",
         "description": "持有期間監控價格與法人籌碼變化。"
       },
       {
@@ -820,8 +690,8 @@
     ],
     "performance": {
       "buy_price": 82.4,
-      "current_price": 87.7,
-      "return_pct": 6.43,
+      "current_price": 84.9,
+      "return_pct": 3.03,
       "state": "holding",
       "capital": 1000000
     }
@@ -831,7 +701,7 @@
     "company_name": "博智",
     "bond_name": "博智二",
     "expected_listing_date": "2026-07-06",
-    "current_stage_index": 3,
+    "current_stage_index": 4,
     "status_text": "持有中，開始計算報酬",
     "status_type": "success",
     "strategy_info": {
@@ -861,13 +731,13 @@
       {
         "name": "T日 掛牌上市",
         "date": "2026-07-06",
-        "status": "active",
+        "status": "stale",
         "description": "即將正式掛牌發行，預期現貨有拉抬動能。"
       },
       {
         "name": "T+1~18 拆解拉抬",
         "date": "2026-07-07",
-        "status": "upcoming",
+        "status": "active",
         "description": "持有至選擇權拆解日，鎖定槓桿買盤行情。"
       },
       {
@@ -938,8 +808,8 @@
     ],
     "performance": {
       "buy_price": 637.0,
-      "current_price": 690.0,
-      "return_pct": 8.32,
+      "current_price": 663.0,
+      "return_pct": 4.08,
       "state": "holding",
       "capital": 1000000
     }
@@ -997,8 +867,8 @@
     ],
     "performance": {
       "buy_price": 436.0,
-      "current_price": 410.5,
-      "return_pct": -5.85,
+      "current_price": 404.0,
+      "return_pct": -7.34,
       "state": "holding",
       "capital": 1000000
     }
@@ -1062,8 +932,8 @@
     ],
     "performance": {
       "buy_price": 34.4,
-      "current_price": 34.35,
-      "return_pct": -0.15,
+      "current_price": 32.05,
+      "return_pct": -6.83,
       "state": "holding",
       "capital": 1000000
     }
@@ -1262,7 +1132,7 @@
       {
         "name": "T+1~18 拆解拉抬",
         "date": "2026-07-06",
-        "status": "active",
+        "status": "completed",
         "description": "無動作。"
       },
       {
@@ -1279,8 +1149,8 @@
     "company_name": "安國",
     "bond_name": "安國 可轉債",
     "expected_listing_date": "2026-07-22",
-    "current_stage_index": 1,
-    "status_text": "下一步 2026-07-06：競拍公告與定價",
+    "current_stage_index": 2,
+    "status_text": "已達買進日，但缺少價格資料，待補價後轉持有",
     "status_type": "pending",
     "strategy_info": {
       "name": "策略 4: 法人卡位 + 股本佔比",
@@ -1291,19 +1161,19 @@
       {
         "name": "競拍公告與定價",
         "date": "2026-07-06",
-        "status": "active",
+        "status": "stale",
         "description": "確認可轉債競拍公告、發行條件與掛牌時程。"
       },
       {
         "name": "T-16 籌碼檢查",
         "date": "2026-07-06",
-        "status": "active",
+        "status": "stale",
         "description": "檢查外資與投信累積買超是否符合策略門檻。"
       },
       {
         "name": "T-15 策略買進",
         "date": "2026-07-07",
-        "status": "upcoming",
+        "status": "active",
         "description": "符合策略條件時，以隔日開盤價模擬買進。"
       },
       {

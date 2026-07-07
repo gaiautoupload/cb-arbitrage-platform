@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-06T17:12:33",
+  "generated_at": "2026-07-07T17:13:58",
   "source_files": {
     "mops_wiki_db": "mops_wiki_db.json",
     "parsed_bonds": "parsed_bonds.json",
@@ -12,19 +12,19 @@
     "Generated linked BOARD_RESOLUTION/EFFECTIVE dates are retained only as low-confidence proxy events."
   ],
   "summary": {
-    "total_events": 3131,
-    "actual_or_observed_events": 1078,
-    "inferred_events": 2053,
+    "total_events": 3136,
+    "actual_or_observed_events": 1082,
+    "inferred_events": 2054,
     "by_stage": {
-      "BOARD_RESOLUTION": 495,
+      "BOARD_RESOLUTION": 497,
       "FILING": 1,
-      "EFFECTIVE": 485,
-      "PRICING": 484,
+      "EFFECTIVE": 486,
+      "PRICING": 485,
       "PAYMENT_BANK": 11,
       "AUCTION_BID_START": 40,
       "AUCTION_BID_END": 40,
       "AUCTION_RESULT_ESTIMATED": 40,
-      "LISTING": 485,
+      "LISTING": 486,
       "CBAS_PROXY_START": 350,
       "CBAS_PROXY_END": 350,
       "T_PLUS_19_EXIT_PROXY": 350
@@ -13933,6 +13933,19 @@
       "based_on": "2024-06-07"
     },
     {
+      "stock_code": "3583",
+      "company_name": "辛耘",
+      "short_name": "辛耘一",
+      "stage": "BOARD_RESOLUTION",
+      "date": "2026-07-06",
+      "source": "mops_wiki_db",
+      "confidence": 0.85,
+      "is_inferred": false,
+      "title": "公告本公司國內第三次及第四次無擔保轉換公司債\r\n代收價款行庫及存儲專戶行庫",
+      "summary": "董事會/股東會決議: 公告本公司國內第三次及第四次無擔保轉換公司債\r\n代收價款行庫及存儲專戶行庫",
+      "event_type": "CB_ISSUANCE"
+    },
+    {
       "stock_code": "3587",
       "company_name": "閎康科技股份有限公司",
       "short_name": "閎康一",
@@ -21465,6 +21478,19 @@
       "confidence": 0.3,
       "is_inferred": true,
       "based_on": "2022-05-24"
+    },
+    {
+      "stock_code": "5386",
+      "company_name": "青雲",
+      "short_name": "",
+      "stage": "BOARD_RESOLUTION",
+      "date": "2026-07-06",
+      "source": "mops_wiki_db",
+      "confidence": 0.85,
+      "is_inferred": false,
+      "title": "本公司自行撤回115年度現金增資發行新股暨國內第二次\r\n無擔保轉換公司債",
+      "summary": "董事會/股東會決議: 本公司自行撤回115年度現金增資發行新股暨國內第二次\r\n無擔保轉換公司債",
+      "event_type": "CB_ISSUANCE"
     },
     {
       "stock_code": "5388",
@@ -33002,6 +33028,18 @@
     },
     {
       "stock_code": "8096",
+      "company_name": "擎亞電子股份有限公司",
+      "short_name": "擎亞三",
+      "stage": "EFFECTIVE",
+      "date": "2026-06-09",
+      "source": "linked_bond_stages_proxy",
+      "confidence": 0.25,
+      "is_inferred": true,
+      "title": "金管會申報生效發行無擔保轉換公司債",
+      "summary": "可轉債申報生效，正式進入定價與發行準備期"
+    },
+    {
+      "stock_code": "8096",
       "company_name": "擎亞",
       "short_name": "擎亞二",
       "stage": "BOARD_RESOLUTION",
@@ -33099,6 +33137,30 @@
       "confidence": 0.3,
       "is_inferred": true,
       "based_on": "2026-07-02"
+    },
+    {
+      "stock_code": "8096",
+      "company_name": "擎亞電子股份有限公司",
+      "short_name": "擎亞三",
+      "stage": "PRICING",
+      "date": "2026-07-06",
+      "source": "parsed_bonds",
+      "confidence": 0.65,
+      "is_inferred": false,
+      "title": "擎亞三 announcement/pricing date",
+      "cb_code": "80963"
+    },
+    {
+      "stock_code": "8096",
+      "company_name": "擎亞電子股份有限公司",
+      "short_name": "擎亞三",
+      "stage": "LISTING",
+      "date": "2026-07-14",
+      "source": "parsed_bonds",
+      "confidence": 0.65,
+      "is_inferred": false,
+      "title": "擎亞三 issue/listing date",
+      "cb_code": "80963"
     },
     {
       "stock_code": "8096",

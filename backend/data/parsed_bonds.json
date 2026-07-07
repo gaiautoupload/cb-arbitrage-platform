@@ -7408,5 +7408,20 @@
     "maturity_date_minguo": "118年7月6日",
     "maturity_date": "2029-07-06",
     "issue_amount": "新台幣10億元整"
+  },
+  {
+    "file_id": "11500045011",
+    "company_name": "擎亞電子股份有限公司",
+    "bond_name": "擎亞電子股份有限公司國內第三次無擔保轉換公司債",
+    "cb_code": "80963",
+    "stock_code": "8096",
+    "short_name": "擎亞三",
+    "announcement_date_minguo": "115年7月6日",
+    "announcement_date": "2026-07-06",
+    "issue_date_minguo": "115年7月14日",
+    "issue_date": "2026-07-14",
+    "maturity_date_minguo": "118年7月14日",
+    "maturity_date": "2029-07-14",
+    "issue_amount": "新台幣5億元整"
   }
 ]
