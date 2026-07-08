@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-07T17:13:58",
+  "generated_at": "2026-07-08T18:51:31",
   "source_files": {
     "mops_wiki_db": "mops_wiki_db.json",
     "parsed_bonds": "parsed_bonds.json",
@@ -12,11 +12,11 @@
     "Generated linked BOARD_RESOLUTION/EFFECTIVE dates are retained only as low-confidence proxy events."
   ],
   "summary": {
-    "total_events": 3136,
-    "actual_or_observed_events": 1082,
-    "inferred_events": 2054,
+    "total_events": 3138,
+    "actual_or_observed_events": 1085,
+    "inferred_events": 2053,
     "by_stage": {
-      "BOARD_RESOLUTION": 497,
+      "BOARD_RESOLUTION": 499,
       "FILING": 1,
       "EFFECTIVE": 486,
       "PRICING": 485,
@@ -20423,18 +20423,6 @@
       "stock_code": "5230",
       "company_name": "雷笛克光學股份有限公司",
       "short_name": "雷笛克光學三",
-      "stage": "BOARD_RESOLUTION",
-      "date": "2023-05-10",
-      "source": "linked_bond_stages_proxy",
-      "confidence": 0.25,
-      "is_inferred": true,
-      "title": "董事會決議發行無擔保轉換公司債",
-      "summary": "董事會通過發行可轉債以充實營運資金或償還債務"
-    },
-    {
-      "stock_code": "5230",
-      "company_name": "雷笛克光學股份有限公司",
-      "short_name": "雷笛克光學三",
       "stage": "EFFECTIVE",
       "date": "2023-06-19",
       "source": "linked_bond_stages_proxy",
@@ -20499,6 +20487,19 @@
       "confidence": 0.3,
       "is_inferred": true,
       "based_on": "2023-07-24"
+    },
+    {
+      "stock_code": "5230",
+      "company_name": "雷笛克光學",
+      "short_name": "雷笛克光學三",
+      "stage": "BOARD_RESOLUTION",
+      "date": "2026-07-07",
+      "source": "mops_wiki_db",
+      "confidence": 0.85,
+      "is_inferred": false,
+      "title": "公告本公司國內第三次有擔保轉換公司債終止\r\n上櫃暨到期還本事宜",
+      "summary": "董事會/股東會決議: 公告本公司國內第三次有擔保轉換公司債終止\r\n上櫃暨到期還本事宜",
+      "event_type": "CB_ISSUANCE"
     },
     {
       "stock_code": "5244",
@@ -22337,6 +22338,19 @@
       "is_inferred": false,
       "title": "桓鼎四KY issue/listing date",
       "cb_code": "55434"
+    },
+    {
+      "stock_code": "5543",
+      "company_name": "桓鼎-KY",
+      "short_name": "桓鼎一KY",
+      "stage": "BOARD_RESOLUTION",
+      "date": "2026-07-07",
+      "source": "mops_wiki_db",
+      "confidence": 0.85,
+      "is_inferred": false,
+      "title": "公告本公司114年股東常會通過之私募有價證券案於期限\r\n屆滿後不繼續辦理",
+      "summary": "董事會/股東會決議: 公告本公司114年股東常會通過之私募有價證券案於期限\r\n屆滿後不繼續辦理",
+      "event_type": "PRIVATE_CB_ISSUANCE"
     },
     {
       "stock_code": "5546",
@@ -35152,6 +35166,19 @@
       "confidence": 0.3,
       "is_inferred": true,
       "based_on": "2020-08-12"
+    },
+    {
+      "stock_code": "8466",
+      "company_name": "美吉吉-KY",
+      "short_name": "美喆一KY",
+      "stage": "BOARD_RESOLUTION",
+      "date": "2026-07-07",
+      "source": "mops_wiki_db",
+      "confidence": 0.85,
+      "is_inferred": false,
+      "title": "公告本公司中華民國境內第二次無擔保轉換公司債到期還本\r\n暨終止上櫃事宜",
+      "summary": "董事會/股東會決議: 公告本公司中華民國境內第二次無擔保轉換公司債到期還本\r\n暨終止上櫃事宜",
+      "event_type": "CB_ISSUANCE"
     },
     {
       "stock_code": "8473",
