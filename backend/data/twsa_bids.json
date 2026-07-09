@@ -478,5 +478,29 @@
     "bidding_shares_thousand": "3,400",
     "bidding_period": "2026/07/06~2026/07/08",
     "min_price": "100.00"
+  },
+  {
+    "serial": "115046",
+    "company_name": "威宏控股",
+    "full_company_name": "威宏控股股份有限公司-KY",
+    "ticker": "8442",
+    "underwriter": "富邦綜合證券股份有限公司",
+    "bond_type": "有擔保轉換公司債",
+    "shares_thousand": "4,000",
+    "bidding_shares_thousand": "3,400",
+    "bidding_period": "2026/07/09~2026/07/13",
+    "min_price": "100.00"
+  },
+  {
+    "serial": "115047",
+    "company_name": "雲豹能源",
+    "full_company_name": "雲豹能源科技股份有限公司",
+    "ticker": "6869",
+    "underwriter": "凱基證券股份有限公司",
+    "bond_type": "有擔保轉換公司債",
+    "shares_thousand": "18,000",
+    "bidding_shares_thousand": "15,600",
+    "bidding_period": "2026/07/09~2026/07/13",
+    "min_price": "100.00"
   }
 ]

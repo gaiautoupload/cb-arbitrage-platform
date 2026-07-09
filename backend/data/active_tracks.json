@@ -377,13 +377,13 @@
       {
         "name": "T+19 結算出場",
         "date": "2026-07-08",
-        "status": "active",
+        "status": "completed",
         "description": "以 T+19 收盤價模擬賣出並更新策略報酬。"
       }
     ],
     "performance": {
-      "buy_price": 31.15,
-      "current_price": 34.7,
+      "buy_price": 30.52,
+      "current_price": 34.0,
       "return_pct": 11.4,
       "state": "closed",
       "capital": 1000000
@@ -442,8 +442,8 @@
     ],
     "performance": {
       "buy_price": 68.49,
-      "current_price": 68.6,
-      "return_pct": 0.16,
+      "current_price": 67.6,
+      "return_pct": -1.3,
       "state": "holding",
       "capital": 1000000
     }
@@ -501,8 +501,8 @@
     ],
     "performance": {
       "buy_price": 1950.0,
-      "current_price": 1515.0,
-      "return_pct": -22.31,
+      "current_price": 1530.0,
+      "return_pct": -21.54,
       "state": "holding",
       "capital": 1000000
     }
@@ -560,8 +560,8 @@
     ],
     "performance": {
       "buy_price": 1100.0,
-      "current_price": 955.0,
-      "return_pct": -13.18,
+      "current_price": 1050.0,
+      "return_pct": -4.55,
       "state": "holding",
       "capital": 1000000
     }
@@ -625,8 +625,8 @@
     ],
     "performance": {
       "buy_price": 144.5,
-      "current_price": 169.5,
-      "return_pct": 17.3,
+      "current_price": 166.5,
+      "return_pct": 15.22,
       "state": "holding",
       "capital": 1000000
     }
@@ -690,8 +690,8 @@
     ],
     "performance": {
       "buy_price": 82.4,
-      "current_price": 90.8,
-      "return_pct": 10.19,
+      "current_price": 91.2,
+      "return_pct": 10.68,
       "state": "holding",
       "capital": 1000000
     }
@@ -808,8 +808,8 @@
     ],
     "performance": {
       "buy_price": 637.0,
-      "current_price": 677.0,
-      "return_pct": 6.28,
+      "current_price": 663.0,
+      "return_pct": 4.08,
       "state": "holding",
       "capital": 1000000
     }
@@ -867,8 +867,8 @@
     ],
     "performance": {
       "buy_price": 436.0,
-      "current_price": 404.0,
-      "return_pct": -7.34,
+      "current_price": 410.0,
+      "return_pct": -5.96,
       "state": "holding",
       "capital": 1000000
     }
@@ -908,7 +908,7 @@
       {
         "name": "競拍開標與結果",
         "date": "2026-07-08",
-        "status": "active",
+        "status": "completed",
         "description": "確認競拍是否完成、承銷價格與後續掛牌節點。"
       },
       {
@@ -932,8 +932,8 @@
     ],
     "performance": {
       "buy_price": 34.4,
-      "current_price": 31.45,
-      "return_pct": -8.58,
+      "current_price": 30.5,
+      "return_pct": -11.34,
       "state": "holding",
       "capital": 1000000
     }
@@ -1197,6 +1197,124 @@
       {
         "name": "T+19 結算出場",
         "date": "2026-08-18",
+        "status": "upcoming",
+        "description": "以 T+19 收盤價模擬賣出並更新策略報酬。"
+      }
+    ],
+    "performance": null
+  },
+  {
+    "stock_code": "6869",
+    "company_name": "雲豹能源",
+    "bond_name": "雲豹能源 可轉債",
+    "expected_listing_date": "2026-07-27",
+    "current_stage_index": 0,
+    "status_text": "下一步 2026-07-09：競拍公告與定價",
+    "status_type": "pending",
+    "strategy_info": {
+      "name": "策略 4: 法人卡位 + 股本佔比",
+      "win_rate": 100.0,
+      "avg_return": 43.6
+    },
+    "stations": [
+      {
+        "name": "競拍公告與定價",
+        "date": "2026-07-09",
+        "status": "active",
+        "description": "確認可轉債競拍公告、發行條件與掛牌時程。"
+      },
+      {
+        "name": "T-16 籌碼檢查",
+        "date": "2026-07-11",
+        "status": "upcoming",
+        "description": "檢查外資與投信累積買超是否符合策略門檻。"
+      },
+      {
+        "name": "T-15 策略買進",
+        "date": "2026-07-12",
+        "status": "upcoming",
+        "description": "符合策略條件時，以隔日開盤價模擬買進。"
+      },
+      {
+        "name": "競拍開標與結果",
+        "date": "2026-07-15",
+        "status": "upcoming",
+        "description": "確認競拍是否完成、承銷價格與後續掛牌節點。"
+      },
+      {
+        "name": "T日 掛牌上市",
+        "date": "2026-07-27",
+        "status": "upcoming",
+        "description": "可轉債掛牌日，持續追蹤標的股表現。"
+      },
+      {
+        "name": "T+1~18 持有觀察",
+        "date": "2026-07-28",
+        "status": "upcoming",
+        "description": "持有期間監控價格與法人籌碼變化。"
+      },
+      {
+        "name": "T+19 結算出場",
+        "date": "2026-08-23",
+        "status": "upcoming",
+        "description": "以 T+19 收盤價模擬賣出並更新策略報酬。"
+      }
+    ],
+    "performance": null
+  },
+  {
+    "stock_code": "8442",
+    "company_name": "威宏控股",
+    "bond_name": "威宏控股 可轉債",
+    "expected_listing_date": "2026-07-27",
+    "current_stage_index": 0,
+    "status_text": "下一步 2026-07-09：競拍公告與定價",
+    "status_type": "pending",
+    "strategy_info": {
+      "name": "策略 4: 法人卡位 + 股本佔比",
+      "win_rate": 100.0,
+      "avg_return": 43.6
+    },
+    "stations": [
+      {
+        "name": "競拍公告與定價",
+        "date": "2026-07-09",
+        "status": "active",
+        "description": "確認可轉債競拍公告、發行條件與掛牌時程。"
+      },
+      {
+        "name": "T-16 籌碼檢查",
+        "date": "2026-07-11",
+        "status": "upcoming",
+        "description": "檢查外資與投信累積買超是否符合策略門檻。"
+      },
+      {
+        "name": "T-15 策略買進",
+        "date": "2026-07-12",
+        "status": "upcoming",
+        "description": "符合策略條件時，以隔日開盤價模擬買進。"
+      },
+      {
+        "name": "競拍開標與結果",
+        "date": "2026-07-15",
+        "status": "upcoming",
+        "description": "確認競拍是否完成、承銷價格與後續掛牌節點。"
+      },
+      {
+        "name": "T日 掛牌上市",
+        "date": "2026-07-27",
+        "status": "upcoming",
+        "description": "可轉債掛牌日，持續追蹤標的股表現。"
+      },
+      {
+        "name": "T+1~18 持有觀察",
+        "date": "2026-07-28",
+        "status": "upcoming",
+        "description": "持有期間監控價格與法人籌碼變化。"
+      },
+      {
+        "name": "T+19 結算出場",
+        "date": "2026-08-23",
         "status": "upcoming",
         "description": "以 T+19 收盤價模擬賣出並更新策略報酬。"
       }
