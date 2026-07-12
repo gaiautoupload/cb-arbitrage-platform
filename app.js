@@ -811,7 +811,7 @@ function isUpcomingBuyTrack(track) {
     if (isHoldingTrack(track) || isClosedTrack(track) || isFailedTrack(track)) return false;
     return (track.stations || []).some(station => (
         parseDateTime(station.date) <= todayTime + 7 * 24 * 60 * 60 * 1000 &&
-        (station.name.includes("買進") || station.name.includes("策略買進"))
+        (station.name.includes("買進") || station.name.includes("策略買進") || station.name.includes("模擬買進"))
     ));
 }
 
@@ -876,6 +876,7 @@ function renderRouteCard(track) {
 
     const strategyHtml = track.strategy_info ? `
         <div class="route-strategy-info text-xs text-slate-400 mt-2.5 flex items-center gap-2 flex-wrap">
+            <span class="route-info-pill">${track.strategy_mode === "paper_trade_only" ? "紙上驗證" : "策略"}</span>
             <span class="route-info-pill">${track.strategy_info.name}</span>
             <span class="route-info-pill success">勝率: ${Number(track.strategy_info.win_rate || 0).toFixed(1)}%</span>
             <span class="route-info-pill accent">平均報酬: +${Number(track.strategy_info.avg_return || 0).toFixed(1)}%</span>
