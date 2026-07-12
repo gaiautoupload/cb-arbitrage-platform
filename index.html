@@ -25,53 +25,37 @@
     <link rel="stylesheet" href="index.css">
     <!-- Chart.js CDN -->
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://unpkg.com/lucide@latest"></script>
     <style>
         body { font-family: 'Inter', 'Noto Sans TC', sans-serif; }
     </style>
 </head>
 <body class="bg-slate-950 text-slate-100 min-h-screen flex flex-col antialiased">
     <div class="app-container" style="padding: 0; max-width: 100%;">
-        <!-- Sidebar / Header (Unified Style) -->
-        <header class="border-b border-slate-800 bg-slate-900/80 backdrop-blur sticky top-0 z-50">
-            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between">
-                <div class="flex items-center gap-3 cursor-pointer">
-                    <div class="brand-mark p-2 rounded-lg text-white">
-                        <!-- Custom SVG Chart Icon -->
-                        <svg class="w-6 h-6" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
-                            <line x1="18" y1="20" x2="18" y2="10"></line>
-                            <line x1="12" y1="20" x2="12" y2="4"></line>
-                            <line x1="6" y1="20" x2="6" y2="14"></line>
-                        </svg>
-                    </div>
+        <header class="workspace-header">
+            <div class="workspace-header-main">
+                <div class="brand-lockup">
+                    <div class="brand-mark"><i data-lucide="landmark"></i></div>
                     <div>
-                        <h1 class="brand-title text-base sm:text-lg font-bold leading-none">
-                            公司債事件策略監控台
-                        </h1>
-                        <p class="text-[10px] sm:text-xs text-slate-400 flex flex-wrap items-center gap-1.5 mt-1">
-                            <span>競拍、掛牌、持有與出場節點追蹤</span>
-                            <span class="hidden sm:inline text-slate-700">|</span>
-                            <span class="header-pill">策略研究版</span>
-                            <span class="header-pill muted">本機資料驅動</span>
-                        </p>
+                        <p class="brand-kicker">CB EVENT DESK</p>
+                        <h1 class="brand-title">公司債事件策略台</h1>
                     </div>
                 </div>
-                <div class="flex items-center gap-4">
-                    <span class="badge live-badge text-xs" id="data-last-updated">Data: loading</span>
+                <div class="header-status">
+                    <span class="research-mode"><i data-lucide="flask-conical"></i>紙上驗證</span>
+                    <span class="data-status" id="data-last-updated"><i data-lucide="database"></i>資料載入中</span>
                 </div>
             </div>
-            
-            <div class="border-t border-slate-800 bg-slate-900/50 py-2">
-                <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex items-center overflow-x-auto gap-2.5 no-scrollbar">
-                    <button onclick="switchTab('active-tracks')" id="tab-btn-active-tracks" class="nav-tab-btn px-3 py-1.5 rounded-lg text-xs font-semibold text-white bg-slate-800 transition whitespace-nowrap">🚇 執行中SOP軌道</button>
-                    <button onclick="switchTab('success-cases')" id="tab-btn-success-cases" class="nav-tab-btn px-3 py-1.5 rounded-lg text-xs font-semibold text-slate-400 hover:text-white transition whitespace-nowrap">🏆 成功案例庫</button>
-                    <button onclick="switchTab('dashboard')" id="tab-btn-dashboard" class="nav-tab-btn px-3 py-1.5 rounded-lg text-xs font-semibold text-slate-400 hover:text-white transition whitespace-nowrap">📊 分析與回測大師</button>
-                    <button onclick="switchTab('bond-report')" id="tab-btn-bond-report" class="nav-tab-btn px-3 py-1.5 rounded-lg text-xs font-semibold text-slate-400 hover:text-white transition whitespace-nowrap">📊 公司債策略年報</button>
-                    <button onclick="switchTab('strategy-report')" id="tab-btn-strategy-report" class="nav-tab-btn px-3 py-1.5 rounded-lg text-xs font-semibold text-slate-400 hover:text-white transition whitespace-nowrap">操盤策略</button>
-                </div>
-            </div>
+            <nav class="workspace-nav" aria-label="主要功能">
+                <button onclick="switchTab('active-tracks')" id="tab-btn-active-tracks" class="nav-tab-btn active-tab"><i data-lucide="crosshair"></i><span>操作中心</span></button>
+                <button onclick="switchTab('strategy-report')" id="tab-btn-strategy-report" class="nav-tab-btn"><i data-lucide="notebook-tabs"></i><span>策略手冊</span></button>
+                <button onclick="switchTab('bond-report')" id="tab-btn-bond-report" class="nav-tab-btn"><i data-lucide="chart-no-axes-combined"></i><span>年度績效</span></button>
+                <button onclick="switchTab('dashboard')" id="tab-btn-dashboard" class="nav-tab-btn"><i data-lucide="sliders-horizontal"></i><span>研究回測</span></button>
+                <button onclick="switchTab('success-cases')" id="tab-btn-success-cases" class="nav-tab-btn"><i data-lucide="archive"></i><span>案例資料庫</span></button>
+            </nav>
         </header>
 
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 w-full">
+        <div class="workspace-shell">
 
         <!-- Main Dashboard Content -->
         <main class="dashboard-main">
@@ -80,21 +64,21 @@
                 <!-- Summary Stats Rows -->
                 <section class="stats-grid">
                     <div class="stat-card">
-                        <div class="stat-icon">📄</div>
+                        <div class="stat-icon"><i data-lucide="files"></i></div>
                         <div class="stat-info">
                             <span class="stat-label">分析債券總數</span>
                             <span class="stat-value" id="stat-total-bonds">-</span>
                         </div>
                     </div>
                     <div class="stat-card accent-card">
-                        <div class="stat-icon">📈</div>
+                        <div class="stat-icon"><i data-lucide="trending-up"></i></div>
                         <div class="stat-info">
                             <span class="stat-label">預設策略勝率 (-5d 到 +5d)</span>
                             <span class="stat-value" id="stat-win-rate">-</span>
                         </div>
                     </div>
                     <div class="stat-card">
-                        <div class="stat-icon">💰</div>
+                        <div class="stat-icon"><i data-lucide="circle-dollar-sign"></i></div>
                         <div class="stat-info">
                             <span class="stat-label">預設平均報酬率</span>
                             <span class="stat-value" id="stat-avg-return">-</span>
@@ -239,17 +223,25 @@
 
             <!-- 2. Active Tracks (Subway Route Maps) Panel -->
             <div id="panel-active-tracks" class="tab-content-panel active-panel">
-                <div class="table-header" style="margin-bottom: 1.5rem;">
+                <div class="page-heading">
                     <div>
-                        <h2 class="card-title" style="font-size: 1.5rem; font-weight: 700; margin-bottom: 0.25rem;">新策略模擬操作看板</h2>
-                        <p class="card-desc" style="margin-bottom: 0;">競拍前 5 日檢查 10 日動能、外資 5 日買超與量能，通過才模擬買進；目前仍為紙上驗證，不代表實際下單。</p>
+                        <p class="page-eyebrow">DAILY OPERATIONS</p>
+                        <h2>操作中心</h2>
+                        <p>競拍前 5 日檢查價格動能、外資籌碼與量能，條件通過才建立模擬部位。</p>
                     </div>
+                    <span class="page-mode"><i data-lucide="shield-alert"></i>研究訊號，不代表實際下單</span>
                 </div>
+                <section class="ops-overview" aria-label="策略摘要">
+                    <div class="ops-overview-item primary"><span>策略狀態</span><strong id="ops-strategy-status">紙上驗證</strong><small>競拍前 5 日進場 / 第 20 日出場</small></div>
+                    <div class="ops-overview-item"><span>模擬持有</span><strong id="ops-holding-count">-</strong><small>目前未結束部位</small></div>
+                    <div class="ops-overview-item"><span>待進場</span><strong id="ops-upcoming-count">-</strong><small>七日內檢查</small></div>
+                    <div class="ops-overview-item warning"><span>策略排除</span><strong id="ops-failed-count">-</strong><small>條件未通過</small></div>
+                </section>
                 <div class="ops-tab-bar" id="active-track-subtabs">
-                    <button class="ops-tab-btn active" data-track-tab="today" onclick="switchActiveTrackTab('today')">今日操作</button>
-                    <button class="ops-tab-btn" data-track-tab="holding" onclick="switchActiveTrackTab('holding')">持有中</button>
-                    <button class="ops-tab-btn" data-track-tab="closed" onclick="switchActiveTrackTab('closed')">已結束</button>
-                    <button class="ops-tab-btn" data-track-tab="year" onclick="switchActiveTrackTab('year')">今年績效</button>
+                    <button class="ops-tab-btn active" data-track-tab="today" onclick="switchActiveTrackTab('today')"><i data-lucide="calendar-clock"></i>近期操作</button>
+                    <button class="ops-tab-btn" data-track-tab="holding" onclick="switchActiveTrackTab('holding')"><i data-lucide="briefcase-business"></i>持有中</button>
+                    <button class="ops-tab-btn" data-track-tab="closed" onclick="switchActiveTrackTab('closed')"><i data-lucide="circle-check-big"></i>交易紀錄</button>
+                    <button class="ops-tab-btn" data-track-tab="year" onclick="switchActiveTrackTab('year')"><i data-lucide="chart-column"></i>今年績效</button>
                 </div>
                 <div class="active-tracks-container" id="active-tracks-list">
                     <div class="text-center text-muted py-4">正在載入策略操作資料...</div>
@@ -261,7 +253,7 @@
                 <section class="card">
                     <div class="table-header">
                         <div>
-                            <h2 class="card-title">🏆 歷史優化策略成功案例庫</h2>
+                            <h2 class="card-title">歷史策略案例庫</h2>
                             <p class="card-desc" style="margin-top: 0.25rem;">經回測大數據篩選出 100% 勝率之最佳籌碼與時程參數組合，展示其歷史所有交易實績。</p>
                         </div>
                     </div>
@@ -303,7 +295,7 @@
             <div id="panel-bond-report" class="tab-content-panel">
                 <div class="table-header" style="margin-bottom: 1.5rem;">
                     <div>
-                        <h2 class="card-title" style="font-size: 1.5rem; font-weight: 700; margin-bottom: 0.25rem;">📊 公司債事件策略年報</h2>
+                        <h2 class="card-title" style="font-size: 1.5rem; font-weight: 700; margin-bottom: 0.25rem;">公司債事件策略年報</h2>
                         <p class="card-desc" style="margin-bottom: 0;">聚焦可轉債公告、申報生效、定價與掛牌後路徑，整理年度報酬率、月度交易熱度與歷史案例明細。</p>
                     </div>
                 </div>
@@ -311,28 +303,28 @@
                 <!-- Hero Stats Grid -->
                 <section class="stats-grid" style="margin-bottom: 1.5rem;">
                     <div class="stat-card">
-                        <div class="stat-icon">📈</div>
+                        <div class="stat-icon"><i data-lucide="trending-up"></i></div>
                         <div class="stat-info">
                             <span class="stat-label">平均年度報酬</span>
                             <span class="stat-value text-green" id="bond-average-annual-return">-</span>
                         </div>
                     </div>
                     <div class="stat-card">
-                        <div class="stat-icon">💰</div>
+                        <div class="stat-icon"><i data-lucide="wallet-cards"></i></div>
                         <div class="stat-info">
                             <span class="stat-label">平均年末資金</span>
                             <span class="stat-value text-green" id="bond-elite-avg-return">-</span>
                         </div>
                     </div>
                     <div class="stat-card">
-                        <div class="stat-icon">⚖️</div>
+                        <div class="stat-icon"><i data-lucide="scale"></i></div>
                         <div class="stat-info">
                             <span class="stat-label">精華交易筆數</span>
                             <span class="stat-value text-blue" id="bond-total-trades">-</span>
                         </div>
                     </div>
                     <div class="stat-card">
-                        <div class="stat-icon">🎯</div>
+                        <div class="stat-icon"><i data-lucide="target"></i></div>
                         <div class="stat-info">
                             <span class="stat-label">精華策略勝率</span>
                             <span class="stat-value" id="bond-overall-win-rate">-</span>
@@ -344,7 +336,7 @@
                     <!-- Health Pills Section -->
                     <section class="card" style="flex: 2; padding: 1.5rem;">
                         <h3 class="card-title" style="margin-bottom: 1.25rem; font-size: 1.1rem; display: flex; align-items: center; gap: 0.5rem;">
-                            <span>🩺 公司債策略健康指標</span>
+                            <span>公司債策略健康指標</span>
                         </h3>
                         <div class="health-pills-container flex flex-wrap gap-4" id="bond-health-pills">
                             <!-- Dynamic Health Pills rendering -->
@@ -354,7 +346,7 @@
 
                     <!-- Threshold Check Section -->
                     <section class="card" style="flex: 1; padding: 1.5rem;">
-                        <h3 class="card-title" style="margin-bottom: 1.25rem; font-size: 1.1rem;">📝 可轉債策略檢查表</h3>
+                        <h3 class="card-title" style="margin-bottom: 1.25rem; font-size: 1.1rem;">可轉債策略檢查表</h3>
                         <div class="threshold-list space-y-3" id="bond-thresholds">
                             <!-- Dynamic Threshold list items -->
                             <div class="text-center text-muted">載入標準比對中...</div>
@@ -364,10 +356,10 @@
 
                 <!-- Sub Tab Group Navigation -->
                 <div class="border-b border-slate-800 bg-slate-900/30 p-1.5 rounded-xl flex items-center gap-1.5 mb-6 overflow-x-auto">
-                    <button onclick="switchBondReportSubTab('overview')" id="sub-btn-overview" class="sub-tab-btn px-4 py-2 rounded-lg text-xs font-semibold text-white bg-slate-800 transition whitespace-nowrap">📈 策略總覽</button>
-                    <button onclick="switchBondReportSubTab('monthly')" id="sub-btn-monthly" class="sub-tab-btn px-4 py-2 rounded-lg text-xs font-semibold text-slate-400 hover:text-white transition whitespace-nowrap">📅 月度熱圖</button>
-                    <button onclick="switchBondReportSubTab('trades')" id="sub-btn-trades" class="sub-tab-btn px-4 py-2 rounded-lg text-xs font-semibold text-slate-400 hover:text-white transition whitespace-nowrap">📝 交易明細</button>
-                    <button onclick="switchBondReportSubTab('yearly')" id="sub-btn-yearly" class="sub-tab-btn px-4 py-2 rounded-lg text-xs font-semibold text-slate-400 hover:text-white transition whitespace-nowrap">📊 年度報酬</button>
+                    <button onclick="switchBondReportSubTab('overview')" id="sub-btn-overview" class="sub-tab-btn px-4 py-2 rounded-lg text-xs font-semibold text-white bg-slate-800 transition whitespace-nowrap">策略總覽</button>
+                    <button onclick="switchBondReportSubTab('monthly')" id="sub-btn-monthly" class="sub-tab-btn px-4 py-2 rounded-lg text-xs font-semibold text-slate-400 hover:text-white transition whitespace-nowrap">月度熱圖</button>
+                    <button onclick="switchBondReportSubTab('trades')" id="sub-btn-trades" class="sub-tab-btn px-4 py-2 rounded-lg text-xs font-semibold text-slate-400 hover:text-white transition whitespace-nowrap">交易明細</button>
+                    <button onclick="switchBondReportSubTab('yearly')" id="sub-btn-yearly" class="sub-tab-btn px-4 py-2 rounded-lg text-xs font-semibold text-slate-400 hover:text-white transition whitespace-nowrap">年度報酬</button>
                 </div>
 
                 <!-- Sub Tab Panels -->

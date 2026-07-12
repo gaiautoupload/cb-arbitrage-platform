@@ -136,7 +136,10 @@ function sortTracksByOperationalPriority(tracks) {
 }
 
 function trackActionSummary(track) {
-    if (track.performance || track.current_stage_index >= 4 || track.status_type === "success") {
+    if (track.performance?.state === "closed") {
+        return "模擬交易已完成";
+    }
+    if (track.performance?.state === "holding") {
         return "持有中，追蹤掛牌後出場";
     }
     if (track.status_type === "failed") {
@@ -181,6 +184,7 @@ function debounce(fn, delay = 120) {
 
 // Initialize Dashboard
 document.addEventListener("DOMContentLoaded", async () => {
+    refreshIcons();
     await loadDashboardData();
     setupEventListeners();
     await loadActiveTracks();
@@ -683,11 +687,13 @@ async function runBacktest(entryOffset, exitOffset) {
 function switchTab(tabId) {
     // Toggle active state of nav buttons
     document.querySelectorAll(".nav-tab-btn").forEach(btn => {
+        btn.classList.remove("active-tab");
         btn.classList.remove("text-white", "bg-slate-800");
         btn.classList.add("text-slate-400", "hover:text-white");
     });
     const activeBtn = document.getElementById(`tab-btn-${tabId}`);
     if (activeBtn) {
+        activeBtn.classList.add("active-tab");
         activeBtn.classList.add("text-white", "bg-slate-800");
         activeBtn.classList.remove("text-slate-400", "hover:text-white");
     }
@@ -707,6 +713,11 @@ function switchTab(tabId) {
     } else if (tabId === "strategy-report") {
         loadInvestorStrategyReport();
     }
+    refreshIcons();
+}
+
+function refreshIcons() {
+    if (window.lucide) window.lucide.createIcons({ attrs: { "stroke-width": 1.8 } });
 }
 
 // Expose switchTab globally so onclick events work
@@ -971,6 +982,12 @@ function renderActiveTrackTab() {
     });
 
     const groups = classifyActiveTracks(activeTracksCache);
+    const holdingCount = document.getElementById("ops-holding-count");
+    const upcomingCount = document.getElementById("ops-upcoming-count");
+    const failedCount = document.getElementById("ops-failed-count");
+    if (holdingCount) holdingCount.textContent = groups.holding.length;
+    if (upcomingCount) upcomingCount.textContent = groups.upcomingBuy.length;
+    if (failedCount) failedCount.textContent = groups.failed.length;
     listContainer.innerHTML = "";
     const fragment = document.createDocumentFragment();
 
@@ -987,6 +1004,7 @@ function renderActiveTrackTab() {
     }
 
     listContainer.appendChild(fragment);
+    refreshIcons();
 }
 
 function switchActiveTrackTab(tabId) {
