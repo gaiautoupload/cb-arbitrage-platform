@@ -622,6 +622,209 @@ header .bg-slate-900\/50 {
     display: block;
 }
 
+.strategy-report-heading {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 1rem;
+    margin-bottom: 1.25rem;
+}
+
+.strategy-report-title {
+    font-size: 1.5rem;
+    margin-bottom: 0.3rem;
+}
+
+.strategy-report-state,
+.candidate-state,
+.paper-state {
+    border: 1px solid #9a6a21;
+    background: #2a2114;
+    color: #f2c66d;
+    border-radius: 6px;
+    padding: 0.45rem 0.7rem;
+    font-size: 0.75rem;
+    font-weight: 700;
+    white-space: nowrap;
+}
+
+.strategy-report-state.qualified,
+.candidate-state.qualified {
+    border-color: #168667;
+    background: #102a24;
+    color: #60d5b1;
+}
+
+.strategy-report-summary {
+    border-top: 3px solid #2fb596;
+    border-bottom: 1px solid var(--border-color);
+    background: #111a1a;
+    padding: 1.5rem;
+    margin-bottom: 1.25rem;
+}
+
+.strategy-report-summary h3 {
+    font-size: 1.25rem;
+    margin: 0.3rem 0 0.55rem;
+}
+
+.strategy-report-summary p {
+    color: var(--text-secondary);
+    margin: 0;
+}
+
+.strategy-report-kicker {
+    font-size: 0.75rem;
+}
+
+.strategy-report-section {
+    border: 1px solid var(--border-color);
+    background: var(--card-bg);
+    padding: 1.25rem;
+    margin-bottom: 1.25rem;
+}
+
+.strategy-report-section-title,
+.strategy-candidate-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+
+.strategy-report-section-title h3,
+.strategy-candidate-header h4 {
+    margin: 0;
+    font-size: 1rem;
+}
+
+.strategy-report-section-title > span {
+    color: var(--text-secondary);
+    font-size: 0.75rem;
+}
+
+.strategy-candidate-list {
+    display: grid;
+    gap: 0.85rem;
+}
+
+.strategy-candidate-card {
+    border-left: 3px solid #d2a84b;
+    background: #101817;
+    padding: 1rem;
+}
+
+.strategy-rank {
+    display: block;
+    color: #6fd3bd;
+    font-size: 0.7rem;
+    margin-bottom: 0.25rem;
+}
+
+.strategy-action-row {
+    display: grid;
+    grid-template-columns: 3.5rem minmax(0, 1fr);
+    gap: 0.65rem;
+    padding: 0.45rem 0;
+    border-bottom: 1px solid rgba(148, 163, 184, 0.12);
+    font-size: 0.86rem;
+}
+
+.strategy-condition-list,
+.strategy-step-list,
+.strategy-check-list {
+    margin: 0.9rem 0;
+    padding-left: 1.25rem;
+    color: var(--text-secondary);
+    font-size: 0.86rem;
+}
+
+.strategy-condition-list li,
+.strategy-step-list li,
+.strategy-check-list li {
+    margin-bottom: 0.55rem;
+}
+
+.strategy-metric-grid {
+    display: grid;
+    grid-template-columns: repeat(6, minmax(0, 1fr));
+    gap: 0.5rem;
+    margin-top: 1rem;
+}
+
+.strategy-metric-grid > div {
+    border: 1px solid rgba(148, 163, 184, 0.16);
+    background: #0c1414;
+    padding: 0.65rem;
+    min-width: 0;
+}
+
+.strategy-metric-grid span,
+.strategy-metric-grid strong {
+    display: block;
+}
+
+.strategy-metric-grid span {
+    color: var(--text-secondary);
+    font-size: 0.68rem;
+    margin-bottom: 0.25rem;
+}
+
+.strategy-metric-grid strong {
+    font-size: 0.86rem;
+    overflow-wrap: anywhere;
+}
+
+.strategy-warning,
+.strategy-risk-notice {
+    color: #f0c775;
+    background: #241d12;
+    border: 1px solid #6e5425;
+    padding: 0.75rem;
+    font-size: 0.82rem;
+    margin: 0.85rem 0 0;
+}
+
+.strategy-report-grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 1rem;
+}
+
+.strategy-empty {
+    color: var(--text-secondary);
+    padding: 1rem;
+    text-align: center;
+}
+
+@media (max-width: 900px) {
+    .strategy-metric-grid {
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+    }
+    .strategy-report-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 560px) {
+    .strategy-report-heading,
+    .strategy-report-section-title,
+    .strategy-candidate-header {
+        align-items: stretch;
+        flex-direction: column;
+    }
+    .strategy-report-state,
+    .candidate-state,
+    .paper-state {
+        white-space: normal;
+        width: fit-content;
+    }
+    .strategy-metric-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+}
+
 /* Active Track Timeline (Subway Route Map) Styling */
 .active-tracks-container {
     display: flex;

@@ -704,11 +704,76 @@ function switchTab(tabId) {
         initSuccessCases();
     } else if (tabId === "bond-report") {
         loadBondStrategyReport();
+    } else if (tabId === "strategy-report") {
+        loadInvestorStrategyReport();
     }
 }
 
 // Expose switchTab globally so onclick events work
 window.switchTab = switchTab;
+
+let investorStrategyReportLoaded = false;
+
+function strategyMetric(value, suffix = "%") {
+    const numeric = Number(value);
+    return Number.isFinite(numeric) ? `${numeric.toFixed(2)}${suffix}` : "-";
+}
+
+async function loadInvestorStrategyReport() {
+    if (investorStrategyReportLoaded) return;
+    const container = document.getElementById("strategy-candidate-list");
+    try {
+        const response = await fetch(`backend/data/investment_strategy_report.json?t=${Date.now()}`);
+        if (!response.ok) throw new Error("無法載入投資策略報告");
+        const report = await response.json();
+        const qualified = report.report_status === "qualified_available";
+        const status = document.getElementById("strategy-report-status");
+        status.textContent = qualified ? "已有通過驗證策略" : "研究候選，尚未通過";
+        status.classList.toggle("qualified", qualified);
+        document.getElementById("strategy-report-generated").textContent = `資料更新時間：${report.generated_at || "-"}`;
+        document.getElementById("strategy-report-headline").textContent = report.summary?.headline || "目前沒有可用結論";
+        document.getElementById("strategy-report-reason").textContent = report.summary?.reason || "";
+
+        const candidates = report.candidates || [];
+        container.innerHTML = candidates.length ? candidates.map((candidate, index) => {
+            const metrics = candidate.metrics || {};
+            const conditions = (candidate.conditions || []).map(condition => `<li>${condition}</li>`).join("");
+            return `
+                <article class="strategy-candidate-card">
+                    <div class="strategy-candidate-header">
+                        <div>
+                            <span class="strategy-rank">候選 ${index + 1}</span>
+                            <h4>${candidate.name}</h4>
+                        </div>
+                        <span class="candidate-state ${candidate.status === "qualified" ? "qualified" : "research"}">${candidate.status_label}</span>
+                    </div>
+                    <div class="strategy-action-row"><strong>進場</strong><span>${candidate.entry}</span></div>
+                    <div class="strategy-action-row"><strong>出場</strong><span>${candidate.exit}</span></div>
+                    <ul class="strategy-condition-list">${conditions}</ul>
+                    <div class="strategy-metric-grid">
+                        <div><span>樣本</span><strong>${metrics.samples ?? 0} 檔</strong></div>
+                        <div><span>勝率</span><strong>${strategyMetric(metrics.win_rate)}</strong></div>
+                        <div><span>平均報酬</span><strong>${strategyMetric(metrics.avg_return)}</strong></div>
+                        <div><span>去除最佳後</span><strong>${strategyMetric(metrics.trimmed_avg_return)}</strong></div>
+                        <div><span>最差</span><strong>${strategyMetric(metrics.worst_return)}</strong></div>
+                        <div><span>年度</span><strong>${(metrics.years || []).join("、") || "不足"}</strong></div>
+                    </div>
+                    <p class="strategy-warning">${candidate.warning}</p>
+                </article>`;
+        }).join("") : '<div class="strategy-empty">目前沒有達到初步門檻的候選策略。</div>';
+
+        const playbook = report.pending_playbook || {};
+        document.getElementById("pending-playbook-name").textContent = playbook.name || "未定操盤策略";
+        document.getElementById("pending-playbook-status").textContent = playbook.status_label || "僅模擬追蹤";
+        document.getElementById("pending-playbook-steps").innerHTML = (playbook.steps || []).map(step => `<li>${step}</li>`).join("");
+        document.getElementById("pending-promotion-rules").innerHTML = (playbook.promotion_rules || []).map(rule => `<li>${rule}</li>`).join("");
+        document.getElementById("strategy-risk-notice").textContent = report.risk_notice || "";
+        investorStrategyReportLoaded = true;
+    } catch (error) {
+        console.error(error);
+        if (container) container.innerHTML = '<div class="strategy-empty">策略報告尚未產生，請先執行 update_strategy_report.bat。</div>';
+    }
+}
 
 // ------------------------------------------------------------------
 // Subway Route Timeline Map Renderer

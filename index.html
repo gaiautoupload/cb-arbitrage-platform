@@ -66,6 +66,7 @@
                     <button onclick="switchTab('success-cases')" id="tab-btn-success-cases" class="nav-tab-btn px-3 py-1.5 rounded-lg text-xs font-semibold text-slate-400 hover:text-white transition whitespace-nowrap">🏆 成功案例庫</button>
                     <button onclick="switchTab('dashboard')" id="tab-btn-dashboard" class="nav-tab-btn px-3 py-1.5 rounded-lg text-xs font-semibold text-slate-400 hover:text-white transition whitespace-nowrap">📊 分析與回測大師</button>
                     <button onclick="switchTab('bond-report')" id="tab-btn-bond-report" class="nav-tab-btn px-3 py-1.5 rounded-lg text-xs font-semibold text-slate-400 hover:text-white transition whitespace-nowrap">📊 公司債策略年報</button>
+                    <button onclick="switchTab('strategy-report')" id="tab-btn-strategy-report" class="nav-tab-btn px-3 py-1.5 rounded-lg text-xs font-semibold text-slate-400 hover:text-white transition whitespace-nowrap">操盤策略</button>
                 </div>
             </div>
         </header>
@@ -477,6 +478,50 @@
                         <canvas id="bondYearlyChart"></canvas>
                     </div>
                 </div>
+            </div>
+
+            <!-- 5. Investor Strategy Report Panel -->
+            <div id="panel-strategy-report" class="tab-content-panel">
+                <div class="strategy-report-heading">
+                    <div>
+                        <h2 class="card-title strategy-report-title">公司債事件策略投資報告</h2>
+                        <p class="card-desc">將候選策略、操作條件與尚未通過的驗證分開呈現。</p>
+                    </div>
+                    <div class="strategy-report-state" id="strategy-report-status">載入中</div>
+                </div>
+
+                <section class="strategy-report-summary">
+                    <p class="strategy-report-kicker" id="strategy-report-generated">資料更新時間：-</p>
+                    <h3 id="strategy-report-headline">正在載入策略報告</h3>
+                    <p id="strategy-report-reason"></p>
+                </section>
+
+                <section class="strategy-report-section">
+                    <div class="strategy-report-section-title">
+                        <h3>最佳候選策略</h3>
+                        <span>研究結果，不是獲利保證</span>
+                    </div>
+                    <div class="strategy-candidate-list" id="strategy-candidate-list"></div>
+                </section>
+
+                <section class="strategy-report-grid">
+                    <div class="strategy-report-section">
+                        <div class="strategy-report-section-title">
+                            <h3 id="pending-playbook-name">未定操盤策略</h3>
+                            <span class="paper-state" id="pending-playbook-status">僅模擬追蹤</span>
+                        </div>
+                        <ol class="strategy-step-list" id="pending-playbook-steps"></ol>
+                    </div>
+                    <div class="strategy-report-section">
+                        <div class="strategy-report-section-title">
+                            <h3>轉為正式策略前</h3>
+                            <span>全部達標才升級</span>
+                        </div>
+                        <ul class="strategy-check-list" id="pending-promotion-rules"></ul>
+                    </div>
+                </section>
+
+                <section class="strategy-risk-notice" id="strategy-risk-notice"></section>
             </div>
         </main>
     </div>
