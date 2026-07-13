@@ -1,0 +1,13 @@
+{
+  "generated_at": "2026-07-12T15:46:24",
+  "date_policy": "Only observed event dates are used by default; inferred BOARD/CBAS proxy dates are excluded.",
+  "sample": {
+    "anchors": 964,
+    "candidate_trades": 66544
+  },
+  "criteria": {
+    "min_trades": 5,
+    "min_avg_return": 20.0
+  },
+  "matches": []
+}

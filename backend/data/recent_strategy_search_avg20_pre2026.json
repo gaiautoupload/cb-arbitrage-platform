@@ -1,0 +1,24 @@
+{
+  "as_of": "2025-12-31",
+  "window_start": "2024-01-01",
+  "window_days": 730,
+  "source": "backend/data/twsa_bids.json + backend/data/prices/*.json",
+  "criteria": {
+    "min_trades": 5,
+    "min_win_rate": 0.0,
+    "min_avg_return": 20.0,
+    "match_logic": "win_rate >= min_win_rate AND avg_return >= min_avg_return",
+    "price_filter": "none"
+  },
+  "sample": {
+    "events": 0,
+    "precomputed_completed_trades": 0,
+    "tradable_codes": 0
+  },
+  "matches_count": 0,
+  "avg_return_50_plus_count": 0,
+  "high_avg_return_strategies": [],
+  "positive_institutional_strategies": [],
+  "representative_strategies": [],
+  "top_strategies": []
+}

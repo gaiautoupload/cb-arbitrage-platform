@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-09T19:15:55",
+  "generated_at": "2026-07-13T17:12:52",
   "source_files": {
     "mops_wiki_db": "mops_wiki_db.json",
     "parsed_bonds": "parsed_bonds.json",
@@ -1464,7 +1464,8 @@
       "is_inferred": false,
       "title": "公告本公司115年股東常會重要決議事項",
       "summary": "董事會/決議階段: 公告本公司115年股東常會重要決議事項",
-      "event_type": "CB_ISSUANCE"
+      "event_type": "CB_ISSUANCE",
+      "published_at": "2026-06-29T134809"
     },
     {
       "stock_code": "1560",
@@ -1558,7 +1559,9 @@
       "is_inferred": false,
       "title": "公告本公司董事會決議發行國內第二次無擔保轉換公司債",
       "summary": "董事會/股東會決議: 公告本公司董事會決議發行國內第二次無擔保轉換公司債",
-      "event_type": "CB_ISSUANCE"
+      "event_type": "CB_ISSUANCE",
+      "published_at": "2026-06-18T162504",
+      "source_ref": "t187ap04_L.json"
     },
     {
       "stock_code": "1582",
@@ -2015,7 +2018,9 @@
       "is_inferred": false,
       "title": "本公司115年股東常會重要決議事項",
       "summary": "董事會/股東會決議: 本公司115年股東常會重要決議事項",
-      "event_type": "PRIVATE_CB_ISSUANCE"
+      "event_type": "PRIVATE_CB_ISSUANCE",
+      "published_at": "2026-06-18T142327",
+      "source_ref": "t187ap04_O.csv"
     },
     {
       "stock_code": "1598",
@@ -2448,7 +2453,8 @@
       "is_inferred": false,
       "title": "公告本公司發行國內第一次無擔保轉換公司債之代收價款\r\n行庫及存儲專戶行庫",
       "summary": "代收價款/專戶: 公告本公司發行國內第一次無擔保轉換公司債之代收價款\r\n行庫及存儲專戶行庫",
-      "event_type": "CB_ISSUANCE"
+      "event_type": "CB_ISSUANCE",
+      "published_at": "2026-06-29T161601"
     },
     {
       "stock_code": "1717",
@@ -4033,7 +4039,9 @@
       "is_inferred": false,
       "title": "公告本公司董事會決議發行國內第一次無擔保可轉換公司債",
       "summary": "董事會/股東會決議: 公告本公司董事會決議發行國內第一次無擔保可轉換公司債",
-      "event_type": "CB_ISSUANCE"
+      "event_type": "CB_ISSUANCE",
+      "published_at": "2026-06-26T170417",
+      "source_ref": "t187ap04_L.json"
     },
     {
       "stock_code": "2338",
@@ -5297,7 +5305,9 @@
       "is_inferred": false,
       "title": "公告董事會決議通過發行國內第三次無擔保轉換公司債",
       "summary": "董事會/股東會決議: 公告董事會決議通過發行國內第三次無擔保轉換公司債",
-      "event_type": "CB_ISSUANCE"
+      "event_type": "CB_ISSUANCE",
+      "published_at": "2026-06-16T153519",
+      "source_ref": "t187ap04_L.json"
     },
     {
       "stock_code": "2466",
@@ -6288,7 +6298,9 @@
       "is_inferred": false,
       "title": "公告本公司調整配息率",
       "summary": "董事會/股東會決議: 公告本公司調整配息率",
-      "event_type": "CB_ISSUANCE"
+      "event_type": "CB_ISSUANCE",
+      "published_at": "2026-06-22T144058",
+      "source_ref": "t187ap04_L.json"
     },
     {
       "stock_code": "2618",
@@ -7843,7 +7855,8 @@
       "is_inferred": false,
       "title": "公告本公司董事會決議發行國內第六次無擔保轉換公司債",
       "summary": "董事會/股東會決議: 公告本公司董事會決議發行國內第六次無擔保轉換公司債",
-      "event_type": "CB_ISSUANCE"
+      "event_type": "CB_ISSUANCE",
+      "published_at": "2026-06-30T182556"
     },
     {
       "stock_code": "3018",
@@ -8147,7 +8160,9 @@
       "is_inferred": false,
       "title": "公告本公司簽訂國內第五次無擔保轉換公司債暨國內第六次\r\n無擔保轉換公司債之代收價款及存儲價款合約",
       "summary": "代收價款/專戶: 公告本公司簽訂國內第五次無擔保轉換公司債暨國內第六次\r\n無擔保轉換公司債之代收價款及存儲價款合約",
-      "event_type": "CB_ISSUANCE"
+      "event_type": "CB_ISSUANCE",
+      "published_at": "2026-06-25T172644",
+      "source_ref": "t187ap04_L.json"
     },
     {
       "stock_code": "3033",
@@ -9744,7 +9759,8 @@
       "is_inferred": false,
       "title": "公告本公司董事會決議辦理發行國內第一次無擔保轉換公司債",
       "summary": "董事會/股東會決議: 公告本公司董事會決議辦理發行國內第一次無擔保轉換公司債",
-      "event_type": "CB_ISSUANCE"
+      "event_type": "CB_ISSUANCE",
+      "published_at": "2026-07-01T212013"
     },
     {
       "stock_code": "3257",
@@ -11596,7 +11612,9 @@
       "is_inferred": false,
       "title": "公告本公司董事會處分有價證券授權案",
       "summary": "董事會/股東會決議: 公告本公司董事會處分有價證券授權案",
-      "event_type": "CB_ISSUANCE"
+      "event_type": "CB_ISSUANCE",
+      "published_at": "2026-06-24T173124",
+      "source_ref": "t187ap04_O.csv"
     },
     {
       "stock_code": "3362",
@@ -13943,7 +13961,8 @@
       "is_inferred": false,
       "title": "公告本公司國內第三次及第四次無擔保轉換公司債\r\n代收價款行庫及存儲專戶行庫",
       "summary": "董事會/股東會決議: 公告本公司國內第三次及第四次無擔保轉換公司債\r\n代收價款行庫及存儲專戶行庫",
-      "event_type": "CB_ISSUANCE"
+      "event_type": "CB_ISSUANCE",
+      "published_at": "2026-07-06T113648"
     },
     {
       "stock_code": "3587",
@@ -14520,7 +14539,9 @@
       "is_inferred": false,
       "title": "公告本公司發行國內第四次無擔保轉換公司債之代收價款\r\n行庫及存儲專戶",
       "summary": "代收價款/專戶: 公告本公司發行國內第四次無擔保轉換公司債之代收價款\r\n行庫及存儲專戶",
-      "event_type": "CB_ISSUANCE"
+      "event_type": "CB_ISSUANCE",
+      "published_at": "2026-06-18T170320",
+      "source_ref": "t187ap04_L.json"
     },
     {
       "stock_code": "3605",
@@ -14545,7 +14566,8 @@
       "is_inferred": false,
       "title": "公告本公司國內第四次無擔保轉換公司債收足債款",
       "summary": "代收價款/專戶: 公告本公司國內第四次無擔保轉換公司債收足債款",
-      "event_type": "CB_ISSUANCE"
+      "event_type": "CB_ISSUANCE",
+      "published_at": "2026-07-03T150846"
     },
     {
       "stock_code": "3605",
@@ -15104,7 +15126,8 @@
       "is_inferred": false,
       "title": "公告本公司董事會決議辦理115年第3次私募普通股定價\r\n暨增資基準日相關事宜",
       "summary": "訂價/承銷階段: 公告本公司董事會決議辦理115年第3次私募普通股定價\r\n暨增資基準日相關事宜",
-      "event_type": "CB_ISSUANCE"
+      "event_type": "CB_ISSUANCE",
+      "published_at": "2026-06-29T173210"
     },
     {
       "stock_code": "3665",
@@ -15117,7 +15140,8 @@
       "is_inferred": false,
       "title": "本公司董事會決議發行第七次海外無擔保轉換公司債",
       "summary": "董事會/股東會決議: 本公司董事會決議發行第七次海外無擔保轉換公司債",
-      "event_type": "CB_ISSUANCE"
+      "event_type": "CB_ISSUANCE",
+      "published_at": "2026-07-03T160721"
     },
     {
       "stock_code": "3680",
@@ -15766,7 +15790,9 @@
       "is_inferred": false,
       "title": "本公司董事會決議通過發行海外第一次無擔保轉換公司債",
       "summary": "董事會/股東會決議: 本公司董事會決議通過發行海外第一次無擔保轉換公司債",
-      "event_type": "CB_ISSUANCE"
+      "event_type": "CB_ISSUANCE",
+      "published_at": "2026-06-25T164847",
+      "source_ref": "t187ap04_L.json"
     },
     {
       "stock_code": "3713",
@@ -17072,7 +17098,9 @@
       "is_inferred": false,
       "title": "公告本公司中華民國境內第四次有擔保轉換公司債收足債款",
       "summary": "送件/申報: 公告本公司中華民國境內第四次有擔保轉換公司債收足債款",
-      "event_type": "CB_ISSUANCE"
+      "event_type": "CB_ISSUANCE",
+      "published_at": "2026-06-26T142003",
+      "source_ref": "t187ap04_L.json"
     },
     {
       "stock_code": "4303",
@@ -20499,7 +20527,8 @@
       "is_inferred": false,
       "title": "公告本公司國內第三次有擔保轉換公司債終止\r\n上櫃暨到期還本事宜",
       "summary": "董事會/股東會決議: 公告本公司國內第三次有擔保轉換公司債終止\r\n上櫃暨到期還本事宜",
-      "event_type": "CB_ISSUANCE"
+      "event_type": "CB_ISSUANCE",
+      "published_at": "2026-07-07T153114"
     },
     {
       "stock_code": "5244",
@@ -21013,7 +21042,8 @@
       "is_inferred": false,
       "title": "公告本公司國內第二次無擔保轉換公司債收足應募價款",
       "summary": "代收價款/專戶: 公告本公司國內第二次無擔保轉換公司債收足應募價款",
-      "event_type": "CB_ISSUANCE"
+      "event_type": "CB_ISSUANCE",
+      "published_at": "2026-06-30T165847"
     },
     {
       "stock_code": "5289",
@@ -21317,7 +21347,8 @@
       "is_inferred": false,
       "title": "公告本公司國內第五次無擔保轉換公司債到期\r\n還本暨終止上櫃事宜",
       "summary": "董事會/股東會決議: 公告本公司國內第五次無擔保轉換公司債到期\r\n還本暨終止上櫃事宜",
-      "event_type": "CB_ISSUANCE"
+      "event_type": "CB_ISSUANCE",
+      "published_at": "2026-07-08T154906"
     },
     {
       "stock_code": "5321",
@@ -21492,7 +21523,8 @@
       "is_inferred": false,
       "title": "本公司自行撤回115年度現金增資發行新股暨國內第二次\r\n無擔保轉換公司債",
       "summary": "董事會/股東會決議: 本公司自行撤回115年度現金增資發行新股暨國內第二次\r\n無擔保轉換公司債",
-      "event_type": "CB_ISSUANCE"
+      "event_type": "CB_ISSUANCE",
+      "published_at": "2026-07-06T175408"
     },
     {
       "stock_code": "5388",
@@ -22351,7 +22383,8 @@
       "is_inferred": false,
       "title": "公告本公司114年股東常會通過之私募有價證券案於期限\r\n屆滿後不繼續辦理",
       "summary": "董事會/股東會決議: 公告本公司114年股東常會通過之私募有價證券案於期限\r\n屆滿後不繼續辦理",
-      "event_type": "PRIVATE_CB_ISSUANCE"
+      "event_type": "PRIVATE_CB_ISSUANCE",
+      "published_at": "2026-07-07T233607"
     },
     {
       "stock_code": "5546",
@@ -23309,7 +23342,9 @@
       "is_inferred": false,
       "title": "公告本公司國內第三次有擔保轉換公司債之代收價款行庫及存儲專\n\n戶行庫",
       "summary": "代收價款/專戶: 公告本公司國內第三次有擔保轉換公司債之代收價款行庫及存儲專\n\n戶行庫",
-      "event_type": "CB_ISSUANCE"
+      "event_type": "CB_ISSUANCE",
+      "published_at": "2026-06-26T135803",
+      "source_ref": "t187ap04_O.csv"
     },
     {
       "stock_code": "6134",
@@ -24183,7 +24218,8 @@
       "is_inferred": false,
       "title": "公告本公司國內第七次無擔保轉換公司債到期還本暨終\r\n止上櫃事宜",
       "summary": "掛牌/發行: 公告本公司國內第七次無擔保轉換公司債到期還本暨終\r\n止上櫃事宜",
-      "event_type": "CB_ISSUANCE"
+      "event_type": "CB_ISSUANCE",
+      "published_at": "2026-07-08T181714"
     },
     {
       "stock_code": "6182",
@@ -24514,7 +24550,8 @@
       "is_inferred": false,
       "title": "公告本公司國內第五次無擔保轉換公司債轉換普通股\r\n之增資基準日",
       "summary": "董事會/股東會決議: 公告本公司國內第五次無擔保轉換公司債轉換普通股\r\n之增資基準日",
-      "event_type": "CB_ISSUANCE"
+      "event_type": "CB_ISSUANCE",
+      "published_at": "2026-07-04T121700"
     },
     {
       "stock_code": "6189",
@@ -29123,7 +29160,8 @@
       "is_inferred": false,
       "title": "公告本公司董事會決議發行國內第二次無擔保轉換公司債",
       "summary": "董事會/決議階段: 公告本公司董事會決議發行國內第二次無擔保轉換公司債",
-      "event_type": "CB_ISSUANCE"
+      "event_type": "CB_ISSUANCE",
+      "published_at": "2026-06-29T142001"
     },
     {
       "stock_code": "6576",
@@ -29397,7 +29435,9 @@
       "is_inferred": false,
       "title": "公告本公司簽訂發行第三次無擔保轉換公司債代收股款行庫\n\n及存儲專戶",
       "summary": "代收價款/專戶: 公告本公司簽訂發行第三次無擔保轉換公司債代收股款行庫\n\n及存儲專戶",
-      "event_type": "CB_ISSUANCE"
+      "event_type": "CB_ISSUANCE",
+      "published_at": "2026-06-23T171041",
+      "source_ref": "t187ap04_O.csv"
     },
     {
       "stock_code": "6584",
@@ -30679,7 +30719,8 @@
       "is_inferred": false,
       "title": "公告本公司國內第一次無擔保轉換公司債之代收價款行庫\r\n及存儲專戶行庫",
       "summary": "代收價款/專戶: 公告本公司國內第一次無擔保轉換公司債之代收價款行庫\r\n及存儲專戶行庫",
-      "event_type": "CB_ISSUANCE"
+      "event_type": "CB_ISSUANCE",
+      "published_at": "2026-07-08T160927"
     },
     {
       "stock_code": "6693",
@@ -30692,7 +30733,9 @@
       "is_inferred": false,
       "title": "公告本公司發行國內第一次無擔保轉換公司債之\n\n委託代收價款行庫及存儲專戶行庫",
       "summary": "代收價款/專戶: 公告本公司發行國內第一次無擔保轉換公司債之\n\n委託代收價款行庫及存儲專戶行庫",
-      "event_type": "CB_ISSUANCE"
+      "event_type": "CB_ISSUANCE",
+      "published_at": "2026-06-23T130609",
+      "source_ref": "t187ap04_O.csv"
     },
     {
       "stock_code": "6706",
@@ -31905,7 +31948,8 @@
       "is_inferred": false,
       "title": "公告本公司國內第二次有擔保轉換公司債代收價款及\r\n存儲價款專戶機構",
       "summary": "代收價款/專戶: 公告本公司國內第二次有擔保轉換公司債代收價款及\r\n存儲價款專戶機構",
-      "event_type": "CB_ISSUANCE"
+      "event_type": "CB_ISSUANCE",
+      "published_at": "2026-07-03T172325"
     },
     {
       "stock_code": "6869",
@@ -32212,7 +32256,8 @@
       "is_inferred": false,
       "title": "公告本公司國內第一次暨第二次無擔保轉換公司債代收價款行庫\r\n及存儲專戶行庫",
       "summary": "董事會/股東會決議: 公告本公司國內第一次暨第二次無擔保轉換公司債代收價款行庫\r\n及存儲專戶行庫",
-      "event_type": "CB_ISSUANCE"
+      "event_type": "CB_ISSUANCE",
+      "published_at": "2026-07-08T164414"
     },
     {
       "stock_code": "6913",
@@ -32345,7 +32390,8 @@
       "is_inferred": false,
       "title": "公告本公司國內第一次無擔保轉換公司債115年第2季轉換\r\n普通股之增資基準日",
       "summary": "董事會/股東會決議: 公告本公司國內第一次無擔保轉換公司債115年第2季轉換\r\n普通股之增資基準日",
-      "event_type": "CB_ISSUANCE"
+      "event_type": "CB_ISSUANCE",
+      "published_at": "2026-07-08T182359"
     },
     {
       "stock_code": "7631",
@@ -32358,7 +32404,9 @@
       "is_inferred": false,
       "title": "公告本公司董事會決議發行國內第一次無擔保轉換公司債",
       "summary": "董事會/股東會決議: 公告本公司董事會決議發行國內第一次無擔保轉換公司債",
-      "event_type": "CB_ISSUANCE"
+      "event_type": "CB_ISSUANCE",
+      "published_at": "2026-06-24T145208",
+      "source_ref": "t187ap04_L.json"
     },
     {
       "stock_code": "8021",
@@ -32701,7 +32749,8 @@
       "is_inferred": false,
       "title": "公告本公司發行國內第一次有擔保轉換公司債之代收\r\n價款及存儲專戶行庫",
       "summary": "代收價款/專戶: 公告本公司發行國內第一次有擔保轉換公司債之代收\r\n價款及存儲專戶行庫",
-      "event_type": "CB_ISSUANCE"
+      "event_type": "CB_ISSUANCE",
+      "published_at": "2026-06-29T154241"
     },
     {
       "stock_code": "8054",
@@ -33155,7 +33204,9 @@
       "is_inferred": false,
       "title": "公告本公司國內第二次無擔保轉換公司債之轉換價格及\n\n溢價率",
       "summary": "董事會/股東會決議: 公告本公司國內第二次無擔保轉換公司債之轉換價格及\n\n溢價率",
-      "event_type": "CB_ISSUANCE"
+      "event_type": "CB_ISSUANCE",
+      "published_at": "2026-06-24T162508",
+      "source_ref": "t187ap04_O.csv"
     },
     {
       "stock_code": "8096",
@@ -33194,7 +33245,8 @@
       "is_inferred": false,
       "title": "公告本公司國內第二次無擔保轉換公司債收足債款",
       "summary": "代收價款/專戶: 公告本公司國內第二次無擔保轉換公司債收足債款",
-      "event_type": "CB_ISSUANCE"
+      "event_type": "CB_ISSUANCE",
+      "published_at": "2026-06-30T172404"
     },
     {
       "stock_code": "8096",
@@ -33919,7 +33971,9 @@
       "is_inferred": false,
       "title": "公告本公司國內第三次無擔保轉換公司債轉換價格調整",
       "summary": "董事會/股東會決議: 公告本公司國內第三次無擔保轉換公司債轉換價格調整",
-      "event_type": "CB_ISSUANCE"
+      "event_type": "CB_ISSUANCE",
+      "published_at": "2026-06-24T172749",
+      "source_ref": "t187ap04_O.csv"
     },
     {
       "stock_code": "8171",
@@ -35309,7 +35363,8 @@
       "is_inferred": false,
       "title": "公告本公司中華民國境內第二次無擔保轉換公司債到期還本\r\n暨終止上櫃事宜",
       "summary": "董事會/股東會決議: 公告本公司中華民國境內第二次無擔保轉換公司債到期還本\r\n暨終止上櫃事宜",
-      "event_type": "CB_ISSUANCE"
+      "event_type": "CB_ISSUANCE",
+      "published_at": "2026-07-07T150045"
     },
     {
       "stock_code": "8473",
@@ -35403,7 +35458,9 @@
       "is_inferred": false,
       "title": "公告本公司訂定除息基準日等相關事宜",
       "summary": "董事會/股東會決議: 公告本公司訂定除息基準日等相關事宜",
-      "event_type": "CB_ISSUANCE"
+      "event_type": "CB_ISSUANCE",
+      "published_at": "2026-06-18T142031",
+      "source_ref": "t187ap04_L.json"
     },
     {
       "stock_code": "8478",
