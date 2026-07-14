@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-13T17:12:52",
+  "generated_at": "2026-07-14T17:13:10",
   "database": "D:\\bond\\backend\\data\\cb_event_master.sqlite",
   "required_stages": [
     "BOARD_RESOLUTION",
@@ -16,15 +16,15 @@
     "CBAS_ACTUAL"
   ],
   "summary": {
-    "issues": 527,
-    "events": 3148,
-    "issues_with_missing_stages": 527
+    "issues": 528,
+    "events": 3163,
+    "issues_with_missing_stages": 528
   },
   "stage_summary": {
     "BOARD_RESOLUTION": {
-      "observed_events": 25,
-      "inferred_events": 476,
-      "issues_with_stage": 488
+      "observed_events": 26,
+      "inferred_events": 477,
+      "issues_with_stage": 489
     },
     "FILING": {
       "observed_events": 1,
@@ -33,13 +33,13 @@
     },
     "EFFECTIVE": {
       "observed_events": 0,
-      "inferred_events": 486,
-      "issues_with_stage": 485
+      "inferred_events": 487,
+      "issues_with_stage": 486
     },
     "PRICING": {
-      "observed_events": 485,
+      "observed_events": 486,
       "inferred_events": 0,
-      "issues_with_stage": 484
+      "issues_with_stage": 485
     },
     "AUCTION_BID_START": {
       "observed_events": 42,
@@ -72,9 +72,9 @@
       "issues_with_stage": 0
     },
     "LISTING": {
-      "observed_events": 487,
+      "observed_events": 489,
       "inferred_events": 0,
-      "issues_with_stage": 485
+      "issues_with_stage": 486
     },
     "CBAS_ACTUAL": {
       "observed_events": 0,
@@ -1090,6 +1090,36 @@
       "event_count": 1
     },
     {
+      "issue_id": "issue_81d8c094c86c63e6b110",
+      "stock_code": "1623",
+      "cb_code": "16231",
+      "short_name": "大東電一",
+      "company_name": "大東電業廠股份有限公司",
+      "observed_stages": [
+        "LISTING",
+        "PAYMENT_BANK",
+        "PRICING"
+      ],
+      "inferred_stages": [
+        "BOARD_RESOLUTION",
+        "CBAS_PROXY_END",
+        "CBAS_PROXY_START",
+        "EFFECTIVE",
+        "T_PLUS_19_EXIT_PROXY"
+      ],
+      "missing_stages": [
+        "FILING",
+        "AUCTION_BID_START",
+        "AUCTION_BID_END",
+        "BOOKBUILDING_START",
+        "BOOKBUILDING_END",
+        "BOOKBUILDING_RESULT",
+        "UNDERWRITING_NOTICE",
+        "CBAS_ACTUAL"
+      ],
+      "event_count": 8
+    },
+    {
       "issue_id": "issue_7185a3277f59c38e1652",
       "stock_code": "1717",
       "cb_code": null,
@@ -1462,8 +1492,9 @@
       "stock_code": "2066",
       "cb_code": "20661",
       "short_name": "世德一",
-      "company_name": "世德工業股份有限公司",
+      "company_name": "世德",
       "observed_stages": [
+        "BOARD_RESOLUTION",
         "LISTING",
         "PRICING"
       ],
@@ -1484,7 +1515,7 @@
         "UNDERWRITING_NOTICE",
         "CBAS_ACTUAL"
       ],
-      "event_count": 7
+      "event_count": 8
     },
     {
       "issue_id": "issue_cd9658313f3d6169b484",
@@ -2391,9 +2422,10 @@
       "stock_code": "2486",
       "cb_code": "24866",
       "short_name": "一詮六",
-      "company_name": "一詮精密工業股份有限公司",
+      "company_name": "一詮",
       "observed_stages": [
         "LISTING",
+        "PAYMENT_BANK",
         "PRICING"
       ],
       "inferred_stages": [
@@ -2413,7 +2445,7 @@
         "UNDERWRITING_NOTICE",
         "CBAS_ACTUAL"
       ],
-      "event_count": 7
+      "event_count": 8
     },
     {
       "issue_id": "issue_5af076bc6e5895d95896",
@@ -9361,7 +9393,7 @@
       "stock_code": "6134",
       "cb_code": "61342",
       "short_name": "萬旭二",
-      "company_name": "萬旭電業",
+      "company_name": "萬旭",
       "observed_stages": [
         "AUCTION_BID_END",
         "AUCTION_BID_START",
@@ -9385,7 +9417,7 @@
         "UNDERWRITING_NOTICE",
         "CBAS_ACTUAL"
       ],
-      "event_count": 11
+      "event_count": 15
     },
     {
       "issue_id": "issue_3a01b76c6b79847bd36a",
@@ -13375,7 +13407,7 @@
         "UNDERWRITING_NOTICE",
         "CBAS_ACTUAL"
       ],
-      "event_count": 11
+      "event_count": 12
     },
     {
       "issue_id": "issue_c927d2fb5e412a9ce644",

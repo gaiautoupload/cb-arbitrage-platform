@@ -9646,10 +9646,10 @@
     "short_name": "世德二",
     "stages": {
       "BOARD_RESOLUTION": {
-        "date": "2023-05-17",
-        "title": "董事會決議發行無擔保轉換公司債",
+        "date": "2026-07-13",
+        "title": "公告本公司國內第二次無擔保轉換公司債到期還本暨終止上櫃事宜",
         "sentiment": "NEUTRAL",
-        "summary": "董事會通過發行可轉債以充實營運資金或償還債務"
+        "summary": "董事會/股東會決議: 公告本公司國內第二次無擔保轉換公司債到期還本暨終止上櫃事宜"
       },
       "EFFECTIVE": {
         "date": "2023-06-26",
@@ -15309,6 +15309,37 @@
       "LISTING": {
         "date": "2026-07-14",
         "title": "「擎亞三」掛牌買賣/發行日",
+        "sentiment": "BULLISH",
+        "summary": "可轉債正式掛牌交易"
+      }
+    }
+  },
+  {
+    "stock_code": "1623",
+    "company_name": "大東電業廠股份有限公司",
+    "short_name": "大東電一",
+    "stages": {
+      "BOARD_RESOLUTION": {
+        "date": "2026-05-01",
+        "title": "董事會決議發行無擔保轉換公司債",
+        "sentiment": "NEUTRAL",
+        "summary": "董事會通過發行可轉債以充實營運資金或償還債務"
+      },
+      "EFFECTIVE": {
+        "date": "2026-06-11",
+        "title": "金管會申報生效發行無擔保轉換公司債",
+        "sentiment": "BULLISH",
+        "summary": "可轉債申報生效，正式進入定價與發行準備期"
+      },
+      "PRICING": {
+        "date": "2026-07-13",
+        "title": "公告「大東電一」發行及訂價等事宜 (櫃買公告)",
+        "sentiment": "NEUTRAL",
+        "summary": "櫃檯買賣中心公告發行資料"
+      },
+      "LISTING": {
+        "date": "2026-07-16",
+        "title": "「大東電一」掛牌買賣/發行日",
         "sentiment": "BULLISH",
         "summary": "可轉債正式掛牌交易"
       }
