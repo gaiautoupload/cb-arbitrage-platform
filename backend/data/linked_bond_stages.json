@@ -9708,10 +9708,10 @@
     "short_name": "榮剛七",
     "stages": {
       "BOARD_RESOLUTION": {
-        "date": "2023-05-17",
-        "title": "董事會決議發行無擔保轉換公司債",
+        "date": "2026-07-14",
+        "title": "公告本公司國內第七次無擔保轉換公司債到期還本暨終止\r\n上櫃事宜",
         "sentiment": "NEUTRAL",
-        "summary": "董事會通過發行可轉債以充實營運資金或償還債務"
+        "summary": "董事會/股東會決議: 公告本公司國內第七次無擔保轉換公司債到期還本暨終止\r\n上櫃事宜"
       },
       "EFFECTIVE": {
         "date": "2023-06-26",
@@ -15340,6 +15340,68 @@
       "LISTING": {
         "date": "2026-07-16",
         "title": "「大東電一」掛牌買賣/發行日",
+        "sentiment": "BULLISH",
+        "summary": "可轉債正式掛牌交易"
+      }
+    }
+  },
+  {
+    "stock_code": "6134",
+    "company_name": "萬旭電業股份有限公司",
+    "short_name": "萬旭三",
+    "stages": {
+      "BOARD_RESOLUTION": {
+        "date": "2026-05-06",
+        "title": "董事會決議發行無擔保轉換公司債",
+        "sentiment": "NEUTRAL",
+        "summary": "董事會通過發行可轉債以充實營運資金或償還債務"
+      },
+      "EFFECTIVE": {
+        "date": "2026-06-15",
+        "title": "金管會申報生效發行無擔保轉換公司債",
+        "sentiment": "BULLISH",
+        "summary": "可轉債申報生效，正式進入定價與發行準備期"
+      },
+      "PRICING": {
+        "date": "2026-07-15",
+        "title": "公告「萬旭三」發行及訂價等事宜 (櫃買公告)",
+        "sentiment": "NEUTRAL",
+        "summary": "櫃檯買賣中心公告發行資料"
+      },
+      "LISTING": {
+        "date": "2026-07-13",
+        "title": "公告本公司國內第三次有擔保轉換公司債(萬旭三)遇颱風影響，\r\n調整得標人得標價款及得標手續費繳存往來銀行截止日作業及原掛\r\n牌日期由7月17日順延至7月20日。",
+        "sentiment": "BULLISH",
+        "summary": "掛牌/發行: 公告本公司國內第三次有擔保轉換公司債(萬旭三)遇颱風影響，\r\n調整得標人得標價款及得標手續費繳存往來銀行截止日作業及原掛\r\n牌日期由7月17日順延至7月20日。"
+      }
+    }
+  },
+  {
+    "stock_code": "8054",
+    "company_name": "安國國際科技股份有限公司",
+    "short_name": "安國一",
+    "stages": {
+      "BOARD_RESOLUTION": {
+        "date": "2026-05-08",
+        "title": "董事會決議發行無擔保轉換公司債",
+        "sentiment": "NEUTRAL",
+        "summary": "董事會通過發行可轉債以充實營運資金或償還債務"
+      },
+      "EFFECTIVE": {
+        "date": "2026-06-17",
+        "title": "金管會申報生效發行無擔保轉換公司債",
+        "sentiment": "BULLISH",
+        "summary": "可轉債申報生效，正式進入定價與發行準備期"
+      },
+      "PRICING": {
+        "date": "2026-07-15",
+        "title": "公告「安國一」發行及訂價等事宜 (櫃買公告)",
+        "sentiment": "NEUTRAL",
+        "summary": "櫃檯買賣中心公告發行資料"
+      },
+      "LISTING": {
+        "date": "2026-07-22",
+        "title": "「安國一」掛牌買賣/發行日",
         "sentiment": "BULLISH",
         "summary": "可轉債正式掛牌交易"
       }

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-14T17:13:10",
+  "generated_at": "2026-07-15T17:15:08",
   "database": "D:\\bond\\backend\\data\\cb_event_master.sqlite",
   "required_stages": [
     "BOARD_RESOLUTION",
@@ -16,40 +16,40 @@
     "CBAS_ACTUAL"
   ],
   "summary": {
-    "issues": 528,
-    "events": 3163,
-    "issues_with_missing_stages": 528
+    "issues": 530,
+    "events": 3181,
+    "issues_with_missing_stages": 530
   },
   "stage_summary": {
     "BOARD_RESOLUTION": {
-      "observed_events": 26,
-      "inferred_events": 477,
-      "issues_with_stage": 489
+      "observed_events": 28,
+      "inferred_events": 479,
+      "issues_with_stage": 491
     },
     "FILING": {
-      "observed_events": 1,
+      "observed_events": 2,
       "inferred_events": 0,
-      "issues_with_stage": 1
+      "issues_with_stage": 2
     },
     "EFFECTIVE": {
       "observed_events": 0,
-      "inferred_events": 487,
-      "issues_with_stage": 486
+      "inferred_events": 489,
+      "issues_with_stage": 488
     },
     "PRICING": {
-      "observed_events": 486,
+      "observed_events": 488,
       "inferred_events": 0,
-      "issues_with_stage": 485
+      "issues_with_stage": 487
     },
     "AUCTION_BID_START": {
-      "observed_events": 42,
+      "observed_events": 43,
       "inferred_events": 0,
-      "issues_with_stage": 42
+      "issues_with_stage": 43
     },
     "AUCTION_BID_END": {
-      "observed_events": 42,
+      "observed_events": 43,
       "inferred_events": 0,
-      "issues_with_stage": 42
+      "issues_with_stage": 43
     },
     "BOOKBUILDING_START": {
       "observed_events": 0,
@@ -72,9 +72,9 @@
       "issues_with_stage": 0
     },
     "LISTING": {
-      "observed_events": 489,
+      "observed_events": 491,
       "inferred_events": 0,
-      "issues_with_stage": 486
+      "issues_with_stage": 488
     },
     "CBAS_ACTUAL": {
       "observed_events": 0,
@@ -1096,6 +1096,7 @@
       "short_name": "大東電一",
       "company_name": "大東電業廠股份有限公司",
       "observed_stages": [
+        "FILING",
         "LISTING",
         "PAYMENT_BANK",
         "PRICING"
@@ -1108,7 +1109,6 @@
         "T_PLUS_19_EXIT_PROXY"
       ],
       "missing_stages": [
-        "FILING",
         "AUCTION_BID_START",
         "AUCTION_BID_END",
         "BOOKBUILDING_START",
@@ -1117,7 +1117,7 @@
         "UNDERWRITING_NOTICE",
         "CBAS_ACTUAL"
       ],
-      "event_count": 8
+      "event_count": 9
     },
     {
       "issue_id": "issue_7185a3277f59c38e1652",
@@ -4595,8 +4595,9 @@
       "stock_code": "3339",
       "cb_code": "33394",
       "short_name": "泰谷四",
-      "company_name": "泰谷光電科技股份有限公司",
+      "company_name": "泰谷",
       "observed_stages": [
+        "BOARD_RESOLUTION",
         "LISTING",
         "PRICING"
       ],
@@ -4617,7 +4618,7 @@
         "UNDERWRITING_NOTICE",
         "CBAS_ACTUAL"
       ],
-      "event_count": 7
+      "event_count": 8
     },
     {
       "issue_id": "issue_7f5d80272064c5ed609e",
@@ -8046,8 +8047,9 @@
       "stock_code": "5009",
       "cb_code": "50096",
       "short_name": "榮剛六",
-      "company_name": "榮剛材料科技股份有限公司",
+      "company_name": "榮剛",
       "observed_stages": [
+        "BOARD_RESOLUTION",
         "LISTING",
         "PRICING"
       ],
@@ -8068,7 +8070,7 @@
         "UNDERWRITING_NOTICE",
         "CBAS_ACTUAL"
       ],
-      "event_count": 7
+      "event_count": 8
     },
     {
       "issue_id": "issue_02375afac79bbf93035d",
@@ -9418,6 +9420,32 @@
         "CBAS_ACTUAL"
       ],
       "event_count": 15
+    },
+    {
+      "issue_id": "issue_0eaa88d69a134fc9d6f5",
+      "stock_code": "6134",
+      "cb_code": "61343",
+      "short_name": "萬旭三",
+      "company_name": "萬旭電業股份有限公司",
+      "observed_stages": [
+        "LISTING",
+        "PRICING"
+      ],
+      "inferred_stages": [
+        "BOARD_RESOLUTION",
+        "EFFECTIVE"
+      ],
+      "missing_stages": [
+        "FILING",
+        "AUCTION_BID_START",
+        "AUCTION_BID_END",
+        "BOOKBUILDING_START",
+        "BOOKBUILDING_END",
+        "BOOKBUILDING_RESULT",
+        "UNDERWRITING_NOTICE",
+        "CBAS_ACTUAL"
+      ],
+      "event_count": 4
     },
     {
       "issue_id": "issue_3a01b76c6b79847bd36a",
@@ -13211,6 +13239,37 @@
         "CBAS_ACTUAL"
       ],
       "event_count": 4
+    },
+    {
+      "issue_id": "issue_bf0f169b00fbed202f36",
+      "stock_code": "8054",
+      "cb_code": "80541",
+      "short_name": "安國一",
+      "company_name": "安國國際科技股份有限公司",
+      "observed_stages": [
+        "AUCTION_BID_END",
+        "AUCTION_BID_START",
+        "LISTING",
+        "PAYMENT_BANK",
+        "PRICING"
+      ],
+      "inferred_stages": [
+        "AUCTION_RESULT_ESTIMATED",
+        "BOARD_RESOLUTION",
+        "CBAS_PROXY_END",
+        "CBAS_PROXY_START",
+        "EFFECTIVE",
+        "T_PLUS_19_EXIT_PROXY"
+      ],
+      "missing_stages": [
+        "FILING",
+        "BOOKBUILDING_START",
+        "BOOKBUILDING_END",
+        "BOOKBUILDING_RESULT",
+        "UNDERWRITING_NOTICE",
+        "CBAS_ACTUAL"
+      ],
+      "event_count": 11
     },
     {
       "issue_id": "issue_3cf5d5c156c2a8f802b4",

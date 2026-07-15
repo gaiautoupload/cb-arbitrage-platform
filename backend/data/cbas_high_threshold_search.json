@@ -1,0 +1,6128 @@
+{
+  "generated_at": "2026-07-15T17:14:38",
+  "source": "D:\\bond\\backend\\data\\cbas_ma_trust_fundamental_backtest.json",
+  "definition": {
+    "target_win_rate_pct": 80.0,
+    "target_avg_return_pct": 70.0,
+    "train_period": "signal_date < 2024-01-01",
+    "validation_period": "signal_date >= 2024-01-01",
+    "minimum_train_n": 5,
+    "minimum_validation_n": 3,
+    "maximum_extra_rules": 4
+  },
+  "mature_source_n": 129,
+  "search": {
+    "atomic_rule_n": 63,
+    "combinations_tested": 359019,
+    "unique_eligible_selection_n": 77419
+  },
+  "train_target_n": 427,
+  "both_target_n": 1,
+  "outlier_resistant_target_n": 0,
+  "larger_sample_target_n": 0,
+  "confidence_target_n": 0,
+  "both_target": [
+    {
+      "name": "revenue_yoy_ge_0.3 + offset_21_40 + ma10_ma20_gap_ge_1 + price_ma20_gap_le_15",
+      "rules": [
+        "營收年增率 >= 30%",
+        "訊號在發行後第 21-40 個交易日",
+        "MA10 高於 MA20 至少 1%",
+        "收盤價高於 MA20 不超過 15%"
+      ],
+      "rule_count": 4,
+      "train_2020_2023": {
+        "n": 5,
+        "avg_return_pct": 72.14,
+        "median_return_pct": 59.46,
+        "win_rate_pct": 100.0,
+        "win_rate_wilson_lower_95_pct": 56.55,
+        "double_rate_pct": 20.0,
+        "worst_return_pct": 33.2,
+        "best_return_pct": 159.83,
+        "avg_without_best_pct": 50.22,
+        "trimmed_one_each_pct": 55.89
+      },
+      "validation_2024_plus": {
+        "n": 3,
+        "avg_return_pct": 78.59,
+        "median_return_pct": 37.59,
+        "win_rate_pct": 100.0,
+        "win_rate_wilson_lower_95_pct": 43.85,
+        "double_rate_pct": 33.33,
+        "worst_return_pct": 19.95,
+        "best_return_pct": 178.24,
+        "avg_without_best_pct": 28.77,
+        "trimmed_one_each_pct": 37.59
+      },
+      "overall": {
+        "n": 8,
+        "avg_return_pct": 74.56,
+        "median_return_pct": 54.05,
+        "win_rate_pct": 100.0,
+        "win_rate_wilson_lower_95_pct": 67.56,
+        "double_rate_pct": 25.0,
+        "worst_return_pct": 19.95,
+        "best_return_pct": 178.24,
+        "avg_without_best_pct": 59.75,
+        "trimmed_one_each_pct": 66.38
+      },
+      "target_score": 1.030571,
+      "train_meets_target": true,
+      "validation_meets_target": true,
+      "both_meet_target": true
+    }
+  ],
+  "outlier_resistant_target": [],
+  "larger_sample_target": [],
+  "larger_sample_closest": [
+    {
+      "name": "revenue_yoy_ge_0.3 + offset_0_40 + ma10_ma20_gap_ge_0.2 + price_ma20_gap_le_15",
+      "rules": [
+        "營收年增率 >= 30%",
+        "訊號在發行後第 0-40 個交易日",
+        "MA10 高於 MA20 至少 0.2%",
+        "收盤價高於 MA20 不超過 15%"
+      ],
+      "rule_count": 4,
+      "train_2020_2023": {
+        "n": 12,
+        "avg_return_pct": 79.26,
+        "median_return_pct": 40.92,
+        "win_rate_pct": 83.33,
+        "win_rate_wilson_lower_95_pct": 55.2,
+        "double_rate_pct": 16.67,
+        "worst_return_pct": -30.44,
+        "best_return_pct": 518.45,
+        "avg_without_best_pct": 39.34,
+        "trimmed_one_each_pct": 46.31
+      },
+      "validation_2024_plus": {
+        "n": 7,
+        "avg_return_pct": 55.6,
+        "median_return_pct": 19.95,
+        "win_rate_pct": 71.43,
+        "win_rate_wilson_lower_95_pct": 35.89,
+        "double_rate_pct": 28.57,
+        "worst_return_pct": -10.04,
+        "best_return_pct": 178.24,
+        "avg_without_best_pct": 35.16,
+        "trimmed_one_each_pct": 44.2
+      },
+      "overall": {
+        "n": 19,
+        "avg_return_pct": 70.54,
+        "median_return_pct": 33.2,
+        "win_rate_pct": 78.95,
+        "win_rate_wilson_lower_95_pct": 56.67,
+        "double_rate_pct": 21.05,
+        "worst_return_pct": -30.44,
+        "best_return_pct": 518.45,
+        "avg_without_best_pct": 45.66,
+        "trimmed_one_each_pct": 50.14
+      },
+      "target_score": 0.794286,
+      "train_meets_target": true,
+      "validation_meets_target": false,
+      "both_meet_target": false
+    },
+    {
+      "name": "revenue_yoy_ge_0.3 + offset_0_40 + ma10_ma20_gap_ge_0.5 + price_ma20_gap_le_15",
+      "rules": [
+        "營收年增率 >= 30%",
+        "訊號在發行後第 0-40 個交易日",
+        "MA10 高於 MA20 至少 0.5%",
+        "收盤價高於 MA20 不超過 15%"
+      ],
+      "rule_count": 4,
+      "train_2020_2023": {
+        "n": 11,
+        "avg_return_pct": 79.5,
+        "median_return_pct": 33.2,
+        "win_rate_pct": 81.82,
+        "win_rate_wilson_lower_95_pct": 52.3,
+        "double_rate_pct": 18.18,
+        "worst_return_pct": -30.44,
+        "best_return_pct": 518.45,
+        "avg_without_best_pct": 35.6,
+        "trimmed_one_each_pct": 42.94
+      },
+      "validation_2024_plus": {
+        "n": 7,
+        "avg_return_pct": 55.6,
+        "median_return_pct": 19.95,
+        "win_rate_pct": 71.43,
+        "win_rate_wilson_lower_95_pct": 35.89,
+        "double_rate_pct": 28.57,
+        "worst_return_pct": -10.04,
+        "best_return_pct": 178.24,
+        "avg_without_best_pct": 35.16,
+        "trimmed_one_each_pct": 44.2
+      },
+      "overall": {
+        "n": 18,
+        "avg_return_pct": 70.2,
+        "median_return_pct": 31.53,
+        "win_rate_pct": 77.78,
+        "win_rate_wilson_lower_95_pct": 54.79,
+        "double_rate_pct": 22.22,
+        "worst_return_pct": -30.44,
+        "best_return_pct": 518.45,
+        "avg_without_best_pct": 43.83,
+        "trimmed_one_each_pct": 48.48
+      },
+      "target_score": 0.794286,
+      "train_meets_target": true,
+      "validation_meets_target": false,
+      "both_meet_target": false
+    },
+    {
+      "name": "revenue_yoy_ge_0.3 + volume_ratio_le_5 + offset_0_40 + ma10_ma20_gap_ge_0.2",
+      "rules": [
+        "營收年增率 >= 30%",
+        "訊號量 / 前20日均量 <= 5",
+        "訊號在發行後第 0-40 個交易日",
+        "MA10 高於 MA20 至少 0.2%"
+      ],
+      "rule_count": 4,
+      "train_2020_2023": {
+        "n": 13,
+        "avg_return_pct": 68.32,
+        "median_return_pct": 33.2,
+        "win_rate_pct": 69.23,
+        "win_rate_wilson_lower_95_pct": 42.37,
+        "double_rate_pct": 15.38,
+        "worst_return_pct": -30.44,
+        "best_return_pct": 518.45,
+        "avg_without_best_pct": 30.81,
+        "trimmed_one_each_pct": 36.38
+      },
+      "validation_2024_plus": {
+        "n": 7,
+        "avg_return_pct": 55.6,
+        "median_return_pct": 19.95,
+        "win_rate_pct": 71.43,
+        "win_rate_wilson_lower_95_pct": 35.89,
+        "double_rate_pct": 28.57,
+        "worst_return_pct": -10.04,
+        "best_return_pct": 178.24,
+        "avg_without_best_pct": 35.16,
+        "trimmed_one_each_pct": 44.2
+      },
+      "overall": {
+        "n": 20,
+        "avg_return_pct": 63.87,
+        "median_return_pct": 26.57,
+        "win_rate_pct": 70.0,
+        "win_rate_wilson_lower_95_pct": 48.1,
+        "double_rate_pct": 20.0,
+        "worst_return_pct": -30.44,
+        "best_return_pct": 518.45,
+        "avg_without_best_pct": 39.94,
+        "trimmed_one_each_pct": 43.85
+      },
+      "target_score": 0.794286,
+      "train_meets_target": false,
+      "validation_meets_target": false,
+      "both_meet_target": false
+    },
+    {
+      "name": "trust_ge_0.25 + revenue_yoy_ge_0.3 + offset_0_40 + ma10_ma20_gap_ge_0.2",
+      "rules": [
+        "投信單日買超占股本 >= 0.25%",
+        "營收年增率 >= 30%",
+        "訊號在發行後第 0-40 個交易日",
+        "MA10 高於 MA20 至少 0.2%"
+      ],
+      "rule_count": 4,
+      "train_2020_2023": {
+        "n": 12,
+        "avg_return_pct": 70.79,
+        "median_return_pct": 31.53,
+        "win_rate_pct": 75.0,
+        "win_rate_wilson_lower_95_pct": 46.77,
+        "double_rate_pct": 16.67,
+        "worst_return_pct": -40.55,
+        "best_return_pct": 518.45,
+        "avg_without_best_pct": 30.1,
+        "trimmed_one_each_pct": 37.16
+      },
+      "validation_2024_plus": {
+        "n": 7,
+        "avg_return_pct": 55.6,
+        "median_return_pct": 19.95,
+        "win_rate_pct": 71.43,
+        "win_rate_wilson_lower_95_pct": 35.89,
+        "double_rate_pct": 28.57,
+        "worst_return_pct": -10.04,
+        "best_return_pct": 178.24,
+        "avg_without_best_pct": 35.16,
+        "trimmed_one_each_pct": 44.2
+      },
+      "overall": {
+        "n": 19,
+        "avg_return_pct": 65.19,
+        "median_return_pct": 29.87,
+        "win_rate_pct": 73.68,
+        "win_rate_wilson_lower_95_pct": 51.21,
+        "double_rate_pct": 21.05,
+        "worst_return_pct": -40.55,
+        "best_return_pct": 518.45,
+        "avg_without_best_pct": 40.01,
+        "trimmed_one_each_pct": 44.75
+      },
+      "target_score": 0.794286,
+      "train_meets_target": false,
+      "validation_meets_target": false,
+      "both_meet_target": false
+    },
+    {
+      "name": "revenue_yoy_ge_0.3 + volume_ratio_ge_0.8 + offset_0_40 + ma10_ma20_gap_ge_0.2",
+      "rules": [
+        "營收年增率 >= 30%",
+        "訊號量 / 前20日均量 >= 0.8",
+        "訊號在發行後第 0-40 個交易日",
+        "MA10 高於 MA20 至少 0.2%"
+      ],
+      "rule_count": 4,
+      "train_2020_2023": {
+        "n": 14,
+        "avg_return_pct": 64.3,
+        "median_return_pct": 31.53,
+        "win_rate_pct": 71.43,
+        "win_rate_wilson_lower_95_pct": 45.35,
+        "double_rate_pct": 14.29,
+        "worst_return_pct": -40.55,
+        "best_return_pct": 518.45,
+        "avg_without_best_pct": 29.36,
+        "trimmed_one_each_pct": 35.19
+      },
+      "validation_2024_plus": {
+        "n": 7,
+        "avg_return_pct": 55.6,
+        "median_return_pct": 19.95,
+        "win_rate_pct": 71.43,
+        "win_rate_wilson_lower_95_pct": 35.89,
+        "double_rate_pct": 28.57,
+        "worst_return_pct": -10.04,
+        "best_return_pct": 178.24,
+        "avg_without_best_pct": 35.16,
+        "trimmed_one_each_pct": 44.2
+      },
+      "overall": {
+        "n": 21,
+        "avg_return_pct": 61.4,
+        "median_return_pct": 29.87,
+        "win_rate_pct": 71.43,
+        "win_rate_wilson_lower_95_pct": 50.04,
+        "double_rate_pct": 19.05,
+        "worst_return_pct": -40.55,
+        "best_return_pct": 518.45,
+        "avg_without_best_pct": 38.55,
+        "trimmed_one_each_pct": 42.71
+      },
+      "target_score": 0.794286,
+      "train_meets_target": false,
+      "validation_meets_target": false,
+      "both_meet_target": false
+    },
+    {
+      "name": "revenue_yoy_ge_0.3 + offset_0_40 + ma10_ma20_gap_ge_0.2 + price_ma20_gap_le_20",
+      "rules": [
+        "營收年增率 >= 30%",
+        "訊號在發行後第 0-40 個交易日",
+        "MA10 高於 MA20 至少 0.2%",
+        "收盤價高於 MA20 不超過 20%"
+      ],
+      "rule_count": 4,
+      "train_2020_2023": {
+        "n": 14,
+        "avg_return_pct": 63.98,
+        "median_return_pct": 31.53,
+        "win_rate_pct": 71.43,
+        "win_rate_wilson_lower_95_pct": 45.35,
+        "double_rate_pct": 14.29,
+        "worst_return_pct": -40.55,
+        "best_return_pct": 518.45,
+        "avg_without_best_pct": 29.02,
+        "trimmed_one_each_pct": 34.82
+      },
+      "validation_2024_plus": {
+        "n": 7,
+        "avg_return_pct": 55.6,
+        "median_return_pct": 19.95,
+        "win_rate_pct": 71.43,
+        "win_rate_wilson_lower_95_pct": 35.89,
+        "double_rate_pct": 28.57,
+        "worst_return_pct": -10.04,
+        "best_return_pct": 178.24,
+        "avg_without_best_pct": 35.16,
+        "trimmed_one_each_pct": 44.2
+      },
+      "overall": {
+        "n": 21,
+        "avg_return_pct": 61.19,
+        "median_return_pct": 29.87,
+        "win_rate_pct": 71.43,
+        "win_rate_wilson_lower_95_pct": 50.04,
+        "double_rate_pct": 19.05,
+        "worst_return_pct": -40.55,
+        "best_return_pct": 518.45,
+        "avg_without_best_pct": 38.33,
+        "trimmed_one_each_pct": 42.48
+      },
+      "target_score": 0.794286,
+      "train_meets_target": false,
+      "validation_meets_target": false,
+      "both_meet_target": false
+    },
+    {
+      "name": "revenue_yoy_ge_0.3 + volume_ratio_le_5 + offset_0_40 + ma10_ma20_gap_ge_0.5",
+      "rules": [
+        "營收年增率 >= 30%",
+        "訊號量 / 前20日均量 <= 5",
+        "訊號在發行後第 0-40 個交易日",
+        "MA10 高於 MA20 至少 0.5%"
+      ],
+      "rule_count": 4,
+      "train_2020_2023": {
+        "n": 12,
+        "avg_return_pct": 67.63,
+        "median_return_pct": 21.24,
+        "win_rate_pct": 66.67,
+        "win_rate_wilson_lower_95_pct": 39.06,
+        "double_rate_pct": 16.67,
+        "worst_return_pct": -30.44,
+        "best_return_pct": 518.45,
+        "avg_without_best_pct": 26.64,
+        "trimmed_one_each_pct": 32.35
+      },
+      "validation_2024_plus": {
+        "n": 7,
+        "avg_return_pct": 55.6,
+        "median_return_pct": 19.95,
+        "win_rate_pct": 71.43,
+        "win_rate_wilson_lower_95_pct": 35.89,
+        "double_rate_pct": 28.57,
+        "worst_return_pct": -10.04,
+        "best_return_pct": 178.24,
+        "avg_without_best_pct": 35.16,
+        "trimmed_one_each_pct": 44.2
+      },
+      "overall": {
+        "n": 19,
+        "avg_return_pct": 63.19,
+        "median_return_pct": 19.95,
+        "win_rate_pct": 68.42,
+        "win_rate_wilson_lower_95_pct": 46.01,
+        "double_rate_pct": 21.05,
+        "worst_return_pct": -30.44,
+        "best_return_pct": 518.45,
+        "avg_without_best_pct": 37.9,
+        "trimmed_one_each_pct": 41.92
+      },
+      "target_score": 0.794286,
+      "train_meets_target": false,
+      "validation_meets_target": false,
+      "both_meet_target": false
+    },
+    {
+      "name": "revenue_yoy_ge_0.3 + volume_ratio_ge_0.6 + offset_0_40 + ma10_ma20_gap_ge_0.2",
+      "rules": [
+        "營收年增率 >= 30%",
+        "訊號量 / 前20日均量 >= 0.6",
+        "訊號在發行後第 0-40 個交易日",
+        "MA10 高於 MA20 至少 0.2%"
+      ],
+      "rule_count": 4,
+      "train_2020_2023": {
+        "n": 15,
+        "avg_return_pct": 58.8,
+        "median_return_pct": 29.87,
+        "win_rate_pct": 66.67,
+        "win_rate_wilson_lower_95_pct": 41.71,
+        "double_rate_pct": 13.33,
+        "worst_return_pct": -40.55,
+        "best_return_pct": 518.45,
+        "avg_without_best_pct": 25.97,
+        "trimmed_one_each_pct": 31.09
+      },
+      "validation_2024_plus": {
+        "n": 7,
+        "avg_return_pct": 55.6,
+        "median_return_pct": 19.95,
+        "win_rate_pct": 71.43,
+        "win_rate_wilson_lower_95_pct": 35.89,
+        "double_rate_pct": 28.57,
+        "worst_return_pct": -10.04,
+        "best_return_pct": 178.24,
+        "avg_without_best_pct": 35.16,
+        "trimmed_one_each_pct": 44.2
+      },
+      "overall": {
+        "n": 22,
+        "avg_return_pct": 57.78,
+        "median_return_pct": 24.91,
+        "win_rate_pct": 68.18,
+        "win_rate_wilson_lower_95_pct": 47.32,
+        "double_rate_pct": 18.18,
+        "worst_return_pct": -40.55,
+        "best_return_pct": 518.45,
+        "avg_without_best_pct": 35.85,
+        "trimmed_one_each_pct": 39.67
+      },
+      "target_score": 0.794286,
+      "train_meets_target": false,
+      "validation_meets_target": false,
+      "both_meet_target": false
+    },
+    {
+      "name": "revenue_yoy_ge_0.3 + volume_ratio_le_8 + offset_0_40 + ma10_ma20_gap_ge_0.2",
+      "rules": [
+        "營收年增率 >= 30%",
+        "訊號量 / 前20日均量 <= 8",
+        "訊號在發行後第 0-40 個交易日",
+        "MA10 高於 MA20 至少 0.2%"
+      ],
+      "rule_count": 4,
+      "train_2020_2023": {
+        "n": 15,
+        "avg_return_pct": 58.5,
+        "median_return_pct": 29.87,
+        "win_rate_pct": 66.67,
+        "win_rate_wilson_lower_95_pct": 41.71,
+        "double_rate_pct": 13.33,
+        "worst_return_pct": -40.55,
+        "best_return_pct": 518.45,
+        "avg_without_best_pct": 25.65,
+        "trimmed_one_each_pct": 30.74
+      },
+      "validation_2024_plus": {
+        "n": 7,
+        "avg_return_pct": 55.6,
+        "median_return_pct": 19.95,
+        "win_rate_pct": 71.43,
+        "win_rate_wilson_lower_95_pct": 35.89,
+        "double_rate_pct": 28.57,
+        "worst_return_pct": -10.04,
+        "best_return_pct": 178.24,
+        "avg_without_best_pct": 35.16,
+        "trimmed_one_each_pct": 44.2
+      },
+      "overall": {
+        "n": 22,
+        "avg_return_pct": 57.58,
+        "median_return_pct": 24.91,
+        "win_rate_pct": 68.18,
+        "win_rate_wilson_lower_95_pct": 47.32,
+        "double_rate_pct": 18.18,
+        "worst_return_pct": -40.55,
+        "best_return_pct": 518.45,
+        "avg_without_best_pct": 35.63,
+        "trimmed_one_each_pct": 39.44
+      },
+      "target_score": 0.794286,
+      "train_meets_target": false,
+      "validation_meets_target": false,
+      "both_meet_target": false
+    },
+    {
+      "name": "revenue_yoy_ge_0.3 + volume_ratio_ge_0.8 + offset_0_40 + ma10_ma20_gap_ge_0.5",
+      "rules": [
+        "營收年增率 >= 30%",
+        "訊號量 / 前20日均量 >= 0.8",
+        "訊號在發行後第 0-40 個交易日",
+        "MA10 高於 MA20 至少 0.5%"
+      ],
+      "rule_count": 4,
+      "train_2020_2023": {
+        "n": 13,
+        "avg_return_pct": 63.34,
+        "median_return_pct": 29.87,
+        "win_rate_pct": 69.23,
+        "win_rate_wilson_lower_95_pct": 42.37,
+        "double_rate_pct": 15.38,
+        "worst_return_pct": -40.55,
+        "best_return_pct": 518.45,
+        "avg_without_best_pct": 25.42,
+        "trimmed_one_each_pct": 31.42
+      },
+      "validation_2024_plus": {
+        "n": 7,
+        "avg_return_pct": 55.6,
+        "median_return_pct": 19.95,
+        "win_rate_pct": 71.43,
+        "win_rate_wilson_lower_95_pct": 35.89,
+        "double_rate_pct": 28.57,
+        "worst_return_pct": -10.04,
+        "best_return_pct": 178.24,
+        "avg_without_best_pct": 35.16,
+        "trimmed_one_each_pct": 44.2
+      },
+      "overall": {
+        "n": 20,
+        "avg_return_pct": 60.63,
+        "median_return_pct": 24.91,
+        "win_rate_pct": 70.0,
+        "win_rate_wilson_lower_95_pct": 48.1,
+        "double_rate_pct": 20.0,
+        "worst_return_pct": -40.55,
+        "best_return_pct": 518.45,
+        "avg_without_best_pct": 36.54,
+        "trimmed_one_each_pct": 40.82
+      },
+      "target_score": 0.794286,
+      "train_meets_target": false,
+      "validation_meets_target": false,
+      "both_meet_target": false
+    },
+    {
+      "name": "revenue_yoy_ge_0.3 + offset_0_40 + ma10_ma20_gap_ge_0.5 + price_ma20_gap_le_20",
+      "rules": [
+        "營收年增率 >= 30%",
+        "訊號在發行後第 0-40 個交易日",
+        "MA10 高於 MA20 至少 0.5%",
+        "收盤價高於 MA20 不超過 20%"
+      ],
+      "rule_count": 4,
+      "train_2020_2023": {
+        "n": 13,
+        "avg_return_pct": 63.01,
+        "median_return_pct": 29.87,
+        "win_rate_pct": 69.23,
+        "win_rate_wilson_lower_95_pct": 42.37,
+        "double_rate_pct": 15.38,
+        "worst_return_pct": -40.55,
+        "best_return_pct": 518.45,
+        "avg_without_best_pct": 25.05,
+        "trimmed_one_each_pct": 31.02
+      },
+      "validation_2024_plus": {
+        "n": 7,
+        "avg_return_pct": 55.6,
+        "median_return_pct": 19.95,
+        "win_rate_pct": 71.43,
+        "win_rate_wilson_lower_95_pct": 35.89,
+        "double_rate_pct": 28.57,
+        "worst_return_pct": -10.04,
+        "best_return_pct": 178.24,
+        "avg_without_best_pct": 35.16,
+        "trimmed_one_each_pct": 44.2
+      },
+      "overall": {
+        "n": 20,
+        "avg_return_pct": 60.41,
+        "median_return_pct": 24.91,
+        "win_rate_pct": 70.0,
+        "win_rate_wilson_lower_95_pct": 48.1,
+        "double_rate_pct": 20.0,
+        "worst_return_pct": -40.55,
+        "best_return_pct": 518.45,
+        "avg_without_best_pct": 36.31,
+        "trimmed_one_each_pct": 40.58
+      },
+      "target_score": 0.794286,
+      "train_meets_target": false,
+      "validation_meets_target": false,
+      "both_meet_target": false
+    },
+    {
+      "name": "revenue_yoy_ge_0.3 + volume_ratio_ge_0.6 + offset_0_40 + ma10_ma20_gap_ge_0.5",
+      "rules": [
+        "營收年增率 >= 30%",
+        "訊號量 / 前20日均量 >= 0.6",
+        "訊號在發行後第 0-40 個交易日",
+        "MA10 高於 MA20 至少 0.5%"
+      ],
+      "rule_count": 4,
+      "train_2020_2023": {
+        "n": 14,
+        "avg_return_pct": 57.52,
+        "median_return_pct": 19.58,
+        "win_rate_pct": 64.29,
+        "win_rate_wilson_lower_95_pct": 38.76,
+        "double_rate_pct": 14.29,
+        "worst_return_pct": -40.55,
+        "best_return_pct": 518.45,
+        "avg_without_best_pct": 22.07,
+        "trimmed_one_each_pct": 27.29
+      },
+      "validation_2024_plus": {
+        "n": 7,
+        "avg_return_pct": 55.6,
+        "median_return_pct": 19.95,
+        "win_rate_pct": 71.43,
+        "win_rate_wilson_lower_95_pct": 35.89,
+        "double_rate_pct": 28.57,
+        "worst_return_pct": -10.04,
+        "best_return_pct": 178.24,
+        "avg_without_best_pct": 35.16,
+        "trimmed_one_each_pct": 44.2
+      },
+      "overall": {
+        "n": 21,
+        "avg_return_pct": 56.88,
+        "median_return_pct": 19.95,
+        "win_rate_pct": 66.67,
+        "win_rate_wilson_lower_95_pct": 45.37,
+        "double_rate_pct": 19.05,
+        "worst_return_pct": -40.55,
+        "best_return_pct": 518.45,
+        "avg_without_best_pct": 33.8,
+        "trimmed_one_each_pct": 37.72
+      },
+      "target_score": 0.794286,
+      "train_meets_target": false,
+      "validation_meets_target": false,
+      "both_meet_target": false
+    },
+    {
+      "name": "revenue_yoy_ge_0.3 + volume_ratio_le_8 + offset_0_40 + ma10_ma20_gap_ge_0.5",
+      "rules": [
+        "營收年增率 >= 30%",
+        "訊號量 / 前20日均量 <= 8",
+        "訊號在發行後第 0-40 個交易日",
+        "MA10 高於 MA20 至少 0.5%"
+      ],
+      "rule_count": 4,
+      "train_2020_2023": {
+        "n": 14,
+        "avg_return_pct": 57.2,
+        "median_return_pct": 19.58,
+        "win_rate_pct": 64.29,
+        "win_rate_wilson_lower_95_pct": 38.76,
+        "double_rate_pct": 14.29,
+        "worst_return_pct": -40.55,
+        "best_return_pct": 518.45,
+        "avg_without_best_pct": 21.72,
+        "trimmed_one_each_pct": 26.91
+      },
+      "validation_2024_plus": {
+        "n": 7,
+        "avg_return_pct": 55.6,
+        "median_return_pct": 19.95,
+        "win_rate_pct": 71.43,
+        "win_rate_wilson_lower_95_pct": 35.89,
+        "double_rate_pct": 28.57,
+        "worst_return_pct": -10.04,
+        "best_return_pct": 178.24,
+        "avg_without_best_pct": 35.16,
+        "trimmed_one_each_pct": 44.2
+      },
+      "overall": {
+        "n": 21,
+        "avg_return_pct": 56.67,
+        "median_return_pct": 19.95,
+        "win_rate_pct": 66.67,
+        "win_rate_wilson_lower_95_pct": 45.37,
+        "double_rate_pct": 19.05,
+        "worst_return_pct": -40.55,
+        "best_return_pct": 518.45,
+        "avg_without_best_pct": 33.58,
+        "trimmed_one_each_pct": 37.48
+      },
+      "target_score": 0.794286,
+      "train_meets_target": false,
+      "validation_meets_target": false,
+      "both_meet_target": false
+    },
+    {
+      "name": "revenue_yoy_ge_0.3 + offset_0_40 + ma10_ma20_gap_ge_0.2",
+      "rules": [
+        "營收年增率 >= 30%",
+        "訊號在發行後第 0-40 個交易日",
+        "MA10 高於 MA20 至少 0.2%"
+      ],
+      "rule_count": 3,
+      "train_2020_2023": {
+        "n": 16,
+        "avg_return_pct": 53.92,
+        "median_return_pct": 19.58,
+        "win_rate_pct": 62.5,
+        "win_rate_wilson_lower_95_pct": 38.64,
+        "double_rate_pct": 12.5,
+        "worst_return_pct": -40.55,
+        "best_return_pct": 518.45,
+        "avg_without_best_pct": 22.95,
+        "trimmed_one_each_pct": 27.49
+      },
+      "validation_2024_plus": {
+        "n": 7,
+        "avg_return_pct": 55.6,
+        "median_return_pct": 19.95,
+        "win_rate_pct": 71.43,
+        "win_rate_wilson_lower_95_pct": 35.89,
+        "double_rate_pct": 28.57,
+        "worst_return_pct": -10.04,
+        "best_return_pct": 178.24,
+        "avg_without_best_pct": 35.16,
+        "trimmed_one_each_pct": 44.2
+      },
+      "overall": {
+        "n": 23,
+        "avg_return_pct": 54.43,
+        "median_return_pct": 19.95,
+        "win_rate_pct": 65.22,
+        "win_rate_wilson_lower_95_pct": 44.89,
+        "double_rate_pct": 17.39,
+        "worst_return_pct": -40.55,
+        "best_return_pct": 518.45,
+        "avg_without_best_pct": 33.34,
+        "trimmed_one_each_pct": 36.86
+      },
+      "target_score": 0.770286,
+      "train_meets_target": false,
+      "validation_meets_target": false,
+      "both_meet_target": false
+    },
+    {
+      "name": "revenue_yoy_ge_0.3 + offset_0_40 + ma5_ma10_gap_ge_0.2 + ma10_ma20_gap_ge_0.2",
+      "rules": [
+        "營收年增率 >= 30%",
+        "訊號在發行後第 0-40 個交易日",
+        "MA5 高於 MA10 至少 0.2%",
+        "MA10 高於 MA20 至少 0.2%"
+      ],
+      "rule_count": 4,
+      "train_2020_2023": {
+        "n": 16,
+        "avg_return_pct": 53.92,
+        "median_return_pct": 19.58,
+        "win_rate_pct": 62.5,
+        "win_rate_wilson_lower_95_pct": 38.64,
+        "double_rate_pct": 12.5,
+        "worst_return_pct": -40.55,
+        "best_return_pct": 518.45,
+        "avg_without_best_pct": 22.95,
+        "trimmed_one_each_pct": 27.49
+      },
+      "validation_2024_plus": {
+        "n": 6,
+        "avg_return_pct": 61.62,
+        "median_return_pct": 28.77,
+        "win_rate_pct": 66.67,
+        "win_rate_wilson_lower_95_pct": 30.0,
+        "double_rate_pct": 33.33,
+        "worst_return_pct": -10.04,
+        "best_return_pct": 178.24,
+        "avg_without_best_pct": 38.29,
+        "trimmed_one_each_pct": 50.37
+      },
+      "overall": {
+        "n": 22,
+        "avg_return_pct": 56.02,
+        "median_return_pct": 24.91,
+        "win_rate_pct": 63.64,
+        "win_rate_wilson_lower_95_pct": 42.95,
+        "double_rate_pct": 18.18,
+        "worst_return_pct": -40.55,
+        "best_return_pct": 518.45,
+        "avg_without_best_pct": 34.0,
+        "trimmed_one_each_pct": 37.72
+      },
+      "target_score": 0.770286,
+      "train_meets_target": false,
+      "validation_meets_target": false,
+      "both_meet_target": false
+    },
+    {
+      "name": "revenue_yoy_ge_0.3 + revenue_mom_ge_-0.1 + offset_0_40 + ma10_ma20_gap_ge_0.2",
+      "rules": [
+        "營收年增率 >= 30%",
+        "營收月增率 >= -10%",
+        "訊號在發行後第 0-40 個交易日",
+        "MA10 高於 MA20 至少 0.2%"
+      ],
+      "rule_count": 4,
+      "train_2020_2023": {
+        "n": 15,
+        "avg_return_pct": 56.89,
+        "median_return_pct": 29.87,
+        "win_rate_pct": 60.0,
+        "win_rate_wilson_lower_95_pct": 35.75,
+        "double_rate_pct": 13.33,
+        "worst_return_pct": -40.55,
+        "best_return_pct": 518.45,
+        "avg_without_best_pct": 23.93,
+        "trimmed_one_each_pct": 28.89
+      },
+      "validation_2024_plus": {
+        "n": 6,
+        "avg_return_pct": 58.6,
+        "median_return_pct": 19.72,
+        "win_rate_pct": 66.67,
+        "win_rate_wilson_lower_95_pct": 30.0,
+        "double_rate_pct": 33.33,
+        "worst_return_pct": -10.04,
+        "best_return_pct": 178.24,
+        "avg_without_best_pct": 34.67,
+        "trimmed_one_each_pct": 45.85
+      },
+      "overall": {
+        "n": 21,
+        "avg_return_pct": 57.38,
+        "median_return_pct": 19.95,
+        "win_rate_pct": 61.9,
+        "win_rate_wilson_lower_95_pct": 40.88,
+        "double_rate_pct": 19.05,
+        "worst_return_pct": -40.55,
+        "best_return_pct": 518.45,
+        "avg_without_best_pct": 34.33,
+        "trimmed_one_each_pct": 38.27
+      },
+      "target_score": 0.75,
+      "train_meets_target": false,
+      "validation_meets_target": false,
+      "both_meet_target": false
+    },
+    {
+      "name": "revenue_yoy_ge_0.3 + avg_volume_ge_1000000 + offset_0_40 + ma10_ma20_gap_ge_0.2",
+      "rules": [
+        "營收年增率 >= 30%",
+        "前20日均量 >= 1,000,000股",
+        "訊號在發行後第 0-40 個交易日",
+        "MA10 高於 MA20 至少 0.2%"
+      ],
+      "rule_count": 4,
+      "train_2020_2023": {
+        "n": 15,
+        "avg_return_pct": 55.52,
+        "median_return_pct": 9.29,
+        "win_rate_pct": 60.0,
+        "win_rate_wilson_lower_95_pct": 35.75,
+        "double_rate_pct": 13.33,
+        "worst_return_pct": -40.55,
+        "best_return_pct": 518.45,
+        "avg_without_best_pct": 22.46,
+        "trimmed_one_each_pct": 27.3
+      },
+      "validation_2024_plus": {
+        "n": 7,
+        "avg_return_pct": 55.6,
+        "median_return_pct": 19.95,
+        "win_rate_pct": 71.43,
+        "win_rate_wilson_lower_95_pct": 35.89,
+        "double_rate_pct": 28.57,
+        "worst_return_pct": -10.04,
+        "best_return_pct": 178.24,
+        "avg_without_best_pct": 35.16,
+        "trimmed_one_each_pct": 44.2
+      },
+      "overall": {
+        "n": 22,
+        "avg_return_pct": 55.55,
+        "median_return_pct": 19.72,
+        "win_rate_pct": 63.64,
+        "win_rate_wilson_lower_95_pct": 42.95,
+        "double_rate_pct": 18.18,
+        "worst_return_pct": -40.55,
+        "best_return_pct": 518.45,
+        "avg_without_best_pct": 33.5,
+        "trimmed_one_each_pct": 37.21
+      },
+      "target_score": 0.75,
+      "train_meets_target": false,
+      "validation_meets_target": false,
+      "both_meet_target": false
+    },
+    {
+      "name": "revenue_yoy_ge_0.3 + offset_0_40 + ma10_ma20_gap_ge_0.5",
+      "rules": [
+        "營收年增率 >= 30%",
+        "訊號在發行後第 0-40 個交易日",
+        "MA10 高於 MA20 至少 0.5%"
+      ],
+      "rule_count": 3,
+      "train_2020_2023": {
+        "n": 15,
+        "avg_return_pct": 52.4,
+        "median_return_pct": 9.29,
+        "win_rate_pct": 60.0,
+        "win_rate_wilson_lower_95_pct": 35.75,
+        "double_rate_pct": 13.33,
+        "worst_return_pct": -40.55,
+        "best_return_pct": 518.45,
+        "avg_without_best_pct": 19.11,
+        "trimmed_one_each_pct": 23.7
+      },
+      "validation_2024_plus": {
+        "n": 7,
+        "avg_return_pct": 55.6,
+        "median_return_pct": 19.95,
+        "win_rate_pct": 71.43,
+        "win_rate_wilson_lower_95_pct": 35.89,
+        "double_rate_pct": 28.57,
+        "worst_return_pct": -10.04,
+        "best_return_pct": 178.24,
+        "avg_without_best_pct": 35.16,
+        "trimmed_one_each_pct": 44.2
+      },
+      "overall": {
+        "n": 22,
+        "avg_return_pct": 53.42,
+        "median_return_pct": 19.72,
+        "win_rate_pct": 63.64,
+        "win_rate_wilson_lower_95_pct": 42.95,
+        "double_rate_pct": 18.18,
+        "worst_return_pct": -40.55,
+        "best_return_pct": 518.45,
+        "avg_without_best_pct": 31.27,
+        "trimmed_one_each_pct": 34.86
+      },
+      "target_score": 0.748571,
+      "train_meets_target": false,
+      "validation_meets_target": false,
+      "both_meet_target": false
+    },
+    {
+      "name": "revenue_yoy_ge_0.3 + offset_0_40 + ma5_ma10_gap_ge_0.2 + ma10_ma20_gap_ge_0.5",
+      "rules": [
+        "營收年增率 >= 30%",
+        "訊號在發行後第 0-40 個交易日",
+        "MA5 高於 MA10 至少 0.2%",
+        "MA10 高於 MA20 至少 0.5%"
+      ],
+      "rule_count": 4,
+      "train_2020_2023": {
+        "n": 15,
+        "avg_return_pct": 52.4,
+        "median_return_pct": 9.29,
+        "win_rate_pct": 60.0,
+        "win_rate_wilson_lower_95_pct": 35.75,
+        "double_rate_pct": 13.33,
+        "worst_return_pct": -40.55,
+        "best_return_pct": 518.45,
+        "avg_without_best_pct": 19.11,
+        "trimmed_one_each_pct": 23.7
+      },
+      "validation_2024_plus": {
+        "n": 6,
+        "avg_return_pct": 61.62,
+        "median_return_pct": 28.77,
+        "win_rate_pct": 66.67,
+        "win_rate_wilson_lower_95_pct": 30.0,
+        "double_rate_pct": 33.33,
+        "worst_return_pct": -10.04,
+        "best_return_pct": 178.24,
+        "avg_without_best_pct": 38.29,
+        "trimmed_one_each_pct": 50.37
+      },
+      "overall": {
+        "n": 21,
+        "avg_return_pct": 55.03,
+        "median_return_pct": 19.95,
+        "win_rate_pct": 61.9,
+        "win_rate_wilson_lower_95_pct": 40.88,
+        "double_rate_pct": 19.05,
+        "worst_return_pct": -40.55,
+        "best_return_pct": 518.45,
+        "avg_without_best_pct": 31.86,
+        "trimmed_one_each_pct": 35.67
+      },
+      "target_score": 0.748571,
+      "train_meets_target": false,
+      "validation_meets_target": false,
+      "both_meet_target": false
+    },
+    {
+      "name": "revenue_yoy_ge_0.3 + volume_ratio_ge_2 + ma5_ma10_gap_ge_1 + price_ma20_gap_le_15",
+      "rules": [
+        "營收年增率 >= 30%",
+        "訊號量 / 前20日均量 >= 2",
+        "MA5 高於 MA10 至少 1%",
+        "收盤價高於 MA20 不超過 15%"
+      ],
+      "rule_count": 4,
+      "train_2020_2023": {
+        "n": 13,
+        "avg_return_pct": 64.5,
+        "median_return_pct": 33.2,
+        "win_rate_pct": 61.54,
+        "win_rate_wilson_lower_95_pct": 35.52,
+        "double_rate_pct": 15.38,
+        "worst_return_pct": -30.44,
+        "best_return_pct": 518.45,
+        "avg_without_best_pct": 26.67,
+        "trimmed_one_each_pct": 31.86
+      },
+      "validation_2024_plus": {
+        "n": 5,
+        "avg_return_pct": 51.6,
+        "median_return_pct": 37.59,
+        "win_rate_pct": 60.0,
+        "win_rate_wilson_lower_95_pct": 23.07,
+        "double_rate_pct": 20.0,
+        "worst_return_pct": -40.83,
+        "best_return_pct": 178.24,
+        "avg_without_best_pct": 19.94,
+        "trimmed_one_each_pct": 40.2
+      },
+      "overall": {
+        "n": 18,
+        "avg_return_pct": 60.92,
+        "median_return_pct": 33.79,
+        "win_rate_pct": 61.11,
+        "win_rate_wilson_lower_95_pct": 38.62,
+        "double_rate_pct": 16.67,
+        "worst_return_pct": -40.83,
+        "best_return_pct": 518.45,
+        "avg_without_best_pct": 34.0,
+        "trimmed_one_each_pct": 38.68
+      },
+      "target_score": 0.737143,
+      "train_meets_target": false,
+      "validation_meets_target": false,
+      "both_meet_target": false
+    },
+    {
+      "name": "revenue_yoy_ge_0.3 + avg_volume_ge_2000000 + offset_0_40 + ma10_ma20_gap_ge_0.2",
+      "rules": [
+        "營收年增率 >= 30%",
+        "前20日均量 >= 2,000,000股",
+        "訊號在發行後第 0-40 個交易日",
+        "MA10 高於 MA20 至少 0.2%"
+      ],
+      "rule_count": 4,
+      "train_2020_2023": {
+        "n": 12,
+        "avg_return_pct": 63.62,
+        "median_return_pct": 7.02,
+        "win_rate_pct": 58.33,
+        "win_rate_wilson_lower_95_pct": 31.95,
+        "double_rate_pct": 16.67,
+        "worst_return_pct": -30.44,
+        "best_return_pct": 518.45,
+        "avg_without_best_pct": 22.28,
+        "trimmed_one_each_pct": 27.55
+      },
+      "validation_2024_plus": {
+        "n": 6,
+        "avg_return_pct": 66.36,
+        "median_return_pct": 28.77,
+        "win_rate_pct": 83.33,
+        "win_rate_wilson_lower_95_pct": 43.65,
+        "double_rate_pct": 33.33,
+        "worst_return_pct": -10.04,
+        "best_return_pct": 178.24,
+        "avg_without_best_pct": 43.99,
+        "trimmed_one_each_pct": 57.49
+      },
+      "overall": {
+        "n": 18,
+        "avg_return_pct": 64.54,
+        "median_return_pct": 19.72,
+        "win_rate_pct": 66.67,
+        "win_rate_wilson_lower_95_pct": 43.75,
+        "double_rate_pct": 22.22,
+        "worst_return_pct": -30.44,
+        "best_return_pct": 518.45,
+        "avg_without_best_pct": 37.84,
+        "trimmed_one_each_pct": 42.1
+      },
+      "target_score": 0.729125,
+      "train_meets_target": false,
+      "validation_meets_target": false,
+      "both_meet_target": false
+    },
+    {
+      "name": "revenue_yoy_ge_0.5 + revenue_mom_ge_-0.1 + volume_ratio_le_3 + ma5_ma10_gap_ge_0.2",
+      "rules": [
+        "營收年增率 >= 50%",
+        "營收月增率 >= -10%",
+        "訊號量 / 前20日均量 <= 3",
+        "MA5 高於 MA10 至少 0.2%"
+      ],
+      "rule_count": 4,
+      "train_2020_2023": {
+        "n": 10,
+        "avg_return_pct": 76.78,
+        "median_return_pct": 18.98,
+        "win_rate_pct": 60.0,
+        "win_rate_wilson_lower_95_pct": 31.27,
+        "double_rate_pct": 20.0,
+        "worst_return_pct": -45.53,
+        "best_return_pct": 518.45,
+        "avg_without_best_pct": 27.71,
+        "trimmed_one_each_pct": 36.86
+      },
+      "validation_2024_plus": {
+        "n": 5,
+        "avg_return_pct": 50.69,
+        "median_return_pct": 19.95,
+        "win_rate_pct": 80.0,
+        "win_rate_wilson_lower_95_pct": 37.55,
+        "double_rate_pct": 20.0,
+        "worst_return_pct": -13.92,
+        "best_return_pct": 152.94,
+        "avg_without_best_pct": 25.13,
+        "trimmed_one_each_pct": 38.14
+      },
+      "overall": {
+        "n": 15,
+        "avg_return_pct": 68.08,
+        "median_return_pct": 19.95,
+        "win_rate_pct": 66.67,
+        "win_rate_wilson_lower_95_pct": 41.71,
+        "double_rate_pct": 20.0,
+        "worst_return_pct": -45.53,
+        "best_return_pct": 518.45,
+        "avg_without_best_pct": 35.91,
+        "trimmed_one_each_pct": 42.18
+      },
+      "target_score": 0.724143,
+      "train_meets_target": false,
+      "validation_meets_target": false,
+      "both_meet_target": false
+    },
+    {
+      "name": "revenue_yoy_ge_0.5 + revenue_mom_ge_0 + ma5_ma10_gap_ge_0.2 + price_ma20_gap_le_15",
+      "rules": [
+        "營收年增率 >= 50%",
+        "營收月增率 >= 0%",
+        "MA5 高於 MA10 至少 0.2%",
+        "收盤價高於 MA20 不超過 15%"
+      ],
+      "rule_count": 4,
+      "train_2020_2023": {
+        "n": 11,
+        "avg_return_pct": 53.14,
+        "median_return_pct": 35.76,
+        "win_rate_pct": 72.73,
+        "win_rate_wilson_lower_95_pct": 43.44,
+        "double_rate_pct": 18.18,
+        "worst_return_pct": -45.53,
+        "best_return_pct": 182.81,
+        "avg_without_best_pct": 40.18,
+        "trimmed_one_each_pct": 49.7
+      },
+      "validation_2024_plus": {
+        "n": 5,
+        "avg_return_pct": 50.69,
+        "median_return_pct": 19.95,
+        "win_rate_pct": 80.0,
+        "win_rate_wilson_lower_95_pct": 37.55,
+        "double_rate_pct": 20.0,
+        "worst_return_pct": -13.92,
+        "best_return_pct": 152.94,
+        "avg_without_best_pct": 25.13,
+        "trimmed_one_each_pct": 38.14
+      },
+      "overall": {
+        "n": 16,
+        "avg_return_pct": 52.38,
+        "median_return_pct": 34.48,
+        "win_rate_pct": 75.0,
+        "win_rate_wilson_lower_95_pct": 50.5,
+        "double_rate_pct": 18.75,
+        "worst_return_pct": -45.53,
+        "best_return_pct": 182.81,
+        "avg_without_best_pct": 43.68,
+        "trimmed_one_each_pct": 50.05
+      },
+      "target_score": 0.724143,
+      "train_meets_target": false,
+      "validation_meets_target": false,
+      "both_meet_target": false
+    },
+    {
+      "name": "revenue_yoy_ge_0.5 + volume_ratio_le_3 + offset_0_120 + ma10_ma20_gap_ge_0.2",
+      "rules": [
+        "營收年增率 >= 50%",
+        "訊號量 / 前20日均量 <= 3",
+        "訊號在發行後第 0-120 個交易日",
+        "MA10 高於 MA20 至少 0.2%"
+      ],
+      "rule_count": 4,
+      "train_2020_2023": {
+        "n": 10,
+        "avg_return_pct": 76.78,
+        "median_return_pct": 18.98,
+        "win_rate_pct": 60.0,
+        "win_rate_wilson_lower_95_pct": 31.27,
+        "double_rate_pct": 20.0,
+        "worst_return_pct": -45.53,
+        "best_return_pct": 518.45,
+        "avg_without_best_pct": 27.71,
+        "trimmed_one_each_pct": 36.86
+      },
+      "validation_2024_plus": {
+        "n": 6,
+        "avg_return_pct": 50.57,
+        "median_return_pct": 28.77,
+        "win_rate_pct": 83.33,
+        "win_rate_wilson_lower_95_pct": 43.65,
+        "double_rate_pct": 16.67,
+        "worst_return_pct": -18.53,
+        "best_return_pct": 152.94,
+        "avg_without_best_pct": 30.1,
+        "trimmed_one_each_pct": 42.25
+      },
+      "overall": {
+        "n": 16,
+        "avg_return_pct": 66.95,
+        "median_return_pct": 26.57,
+        "win_rate_pct": 68.75,
+        "win_rate_wilson_lower_95_pct": 44.4,
+        "double_rate_pct": 18.75,
+        "worst_return_pct": -45.53,
+        "best_return_pct": 518.45,
+        "avg_without_best_pct": 36.85,
+        "trimmed_one_each_pct": 42.74
+      },
+      "target_score": 0.722429,
+      "train_meets_target": false,
+      "validation_meets_target": false,
+      "both_meet_target": false
+    },
+    {
+      "name": "revenue_yoy_ge_0.3 + volume_ratio_ge_1.2 + avg_volume_ge_2000000 + ma10_ma20_gap_ge_1",
+      "rules": [
+        "營收年增率 >= 30%",
+        "訊號量 / 前20日均量 >= 1.2",
+        "前20日均量 >= 2,000,000股",
+        "MA10 高於 MA20 至少 1%"
+      ],
+      "rule_count": 4,
+      "train_2020_2023": {
+        "n": 14,
+        "avg_return_pct": 58.73,
+        "median_return_pct": 2.53,
+        "win_rate_pct": 57.14,
+        "win_rate_wilson_lower_95_pct": 32.59,
+        "double_rate_pct": 14.29,
+        "worst_return_pct": -34.77,
+        "best_return_pct": 518.45,
+        "avg_without_best_pct": 23.36,
+        "trimmed_one_each_pct": 28.21
+      },
+      "validation_2024_plus": {
+        "n": 6,
+        "avg_return_pct": 52.63,
+        "median_return_pct": 28.77,
+        "win_rate_pct": 66.67,
+        "win_rate_wilson_lower_95_pct": 30.0,
+        "double_rate_pct": 16.67,
+        "worst_return_pct": -10.04,
+        "best_return_pct": 178.24,
+        "avg_without_best_pct": 27.51,
+        "trimmed_one_each_pct": 36.9
+      },
+      "overall": {
+        "n": 20,
+        "avg_return_pct": 56.9,
+        "median_return_pct": 12.35,
+        "win_rate_pct": 60.0,
+        "win_rate_wilson_lower_95_pct": 38.66,
+        "double_rate_pct": 15.0,
+        "worst_return_pct": -34.77,
+        "best_return_pct": 518.45,
+        "avg_without_best_pct": 32.61,
+        "trimmed_one_each_pct": 36.35
+      },
+      "target_score": 0.71425,
+      "train_meets_target": false,
+      "validation_meets_target": false,
+      "both_meet_target": false
+    },
+    {
+      "name": "revenue_yoy_ge_0.3 + revenue_mom_ge_-0.1 + offset_0_40 + ma10_ma20_gap_ge_0.5",
+      "rules": [
+        "營收年增率 >= 30%",
+        "營收月增率 >= -10%",
+        "訊號在發行後第 0-40 個交易日",
+        "MA10 高於 MA20 至少 0.5%"
+      ],
+      "rule_count": 4,
+      "train_2020_2023": {
+        "n": 14,
+        "avg_return_pct": 55.48,
+        "median_return_pct": 17.31,
+        "win_rate_pct": 57.14,
+        "win_rate_wilson_lower_95_pct": 32.59,
+        "double_rate_pct": 14.29,
+        "worst_return_pct": -40.55,
+        "best_return_pct": 518.45,
+        "avg_without_best_pct": 19.87,
+        "trimmed_one_each_pct": 24.9
+      },
+      "validation_2024_plus": {
+        "n": 6,
+        "avg_return_pct": 58.6,
+        "median_return_pct": 19.72,
+        "win_rate_pct": 66.67,
+        "win_rate_wilson_lower_95_pct": 30.0,
+        "double_rate_pct": 33.33,
+        "worst_return_pct": -10.04,
+        "best_return_pct": 178.24,
+        "avg_without_best_pct": 34.67,
+        "trimmed_one_each_pct": 45.85
+      },
+      "overall": {
+        "n": 20,
+        "avg_return_pct": 56.42,
+        "median_return_pct": 19.72,
+        "win_rate_pct": 60.0,
+        "win_rate_wilson_lower_95_pct": 38.66,
+        "double_rate_pct": 20.0,
+        "worst_return_pct": -40.55,
+        "best_return_pct": 518.45,
+        "avg_without_best_pct": 32.1,
+        "trimmed_one_each_pct": 36.13
+      },
+      "target_score": 0.71425,
+      "train_meets_target": false,
+      "validation_meets_target": false,
+      "both_meet_target": false
+    },
+    {
+      "name": "revenue_yoy_ge_0.3 + avg_volume_ge_1000000 + offset_0_40 + ma10_ma20_gap_ge_0.5",
+      "rules": [
+        "營收年增率 >= 30%",
+        "前20日均量 >= 1,000,000股",
+        "訊號在發行後第 0-40 個交易日",
+        "MA10 高於 MA20 至少 0.5%"
+      ],
+      "rule_count": 4,
+      "train_2020_2023": {
+        "n": 14,
+        "avg_return_pct": 54.01,
+        "median_return_pct": 7.02,
+        "win_rate_pct": 57.14,
+        "win_rate_wilson_lower_95_pct": 32.59,
+        "double_rate_pct": 14.29,
+        "worst_return_pct": -40.55,
+        "best_return_pct": 518.45,
+        "avg_without_best_pct": 18.28,
+        "trimmed_one_each_pct": 23.19
+      },
+      "validation_2024_plus": {
+        "n": 7,
+        "avg_return_pct": 55.6,
+        "median_return_pct": 19.95,
+        "win_rate_pct": 71.43,
+        "win_rate_wilson_lower_95_pct": 35.89,
+        "double_rate_pct": 28.57,
+        "worst_return_pct": -10.04,
+        "best_return_pct": 178.24,
+        "avg_without_best_pct": 35.16,
+        "trimmed_one_each_pct": 44.2
+      },
+      "overall": {
+        "n": 21,
+        "avg_return_pct": 54.54,
+        "median_return_pct": 19.49,
+        "win_rate_pct": 61.9,
+        "win_rate_wilson_lower_95_pct": 40.88,
+        "double_rate_pct": 19.05,
+        "worst_return_pct": -40.55,
+        "best_return_pct": 518.45,
+        "avg_without_best_pct": 31.34,
+        "trimmed_one_each_pct": 35.13
+      },
+      "target_score": 0.71425,
+      "train_meets_target": false,
+      "validation_meets_target": false,
+      "both_meet_target": false
+    },
+    {
+      "name": "revenue_yoy_ge_0.3 + avg_volume_ge_2000000 + offset_0_40 + ma10_ma20_gap_ge_1",
+      "rules": [
+        "營收年增率 >= 30%",
+        "前20日均量 >= 2,000,000股",
+        "訊號在發行後第 0-40 個交易日",
+        "MA10 高於 MA20 至少 1%"
+      ],
+      "rule_count": 4,
+      "train_2020_2023": {
+        "n": 10,
+        "avg_return_pct": 76.9,
+        "median_return_pct": 26.7,
+        "win_rate_pct": 60.0,
+        "win_rate_wilson_lower_95_pct": 31.27,
+        "double_rate_pct": 20.0,
+        "worst_return_pct": -30.44,
+        "best_return_pct": 518.45,
+        "avg_without_best_pct": 27.84,
+        "trimmed_one_each_pct": 35.13
+      },
+      "validation_2024_plus": {
+        "n": 5,
+        "avg_return_pct": 49.05,
+        "median_return_pct": 19.95,
+        "win_rate_pct": 80.0,
+        "win_rate_wilson_lower_95_pct": 37.55,
+        "double_rate_pct": 20.0,
+        "worst_return_pct": -10.04,
+        "best_return_pct": 178.24,
+        "avg_without_best_pct": 16.75,
+        "trimmed_one_each_pct": 25.68
+      },
+      "overall": {
+        "n": 15,
+        "avg_return_pct": 67.62,
+        "median_return_pct": 19.95,
+        "win_rate_pct": 66.67,
+        "win_rate_wilson_lower_95_pct": 41.71,
+        "double_rate_pct": 20.0,
+        "worst_return_pct": -30.44,
+        "best_return_pct": 518.45,
+        "avg_without_best_pct": 35.42,
+        "trimmed_one_each_pct": 40.48
+      },
+      "target_score": 0.700714,
+      "train_meets_target": false,
+      "validation_meets_target": false,
+      "both_meet_target": false
+    },
+    {
+      "name": "revenue_yoy_ge_0.5 + offset_0_120 + ma5_ma10_gap_ge_0.2 + ma10_ma20_gap_ge_0.2",
+      "rules": [
+        "營收年增率 >= 50%",
+        "訊號在發行後第 0-120 個交易日",
+        "MA5 高於 MA10 至少 0.2%",
+        "MA10 高於 MA20 至少 0.2%"
+      ],
+      "rule_count": 4,
+      "train_2020_2023": {
+        "n": 15,
+        "avg_return_pct": 58.68,
+        "median_return_pct": 4.76,
+        "win_rate_pct": 60.0,
+        "win_rate_wilson_lower_95_pct": 35.75,
+        "double_rate_pct": 13.33,
+        "worst_return_pct": -45.53,
+        "best_return_pct": 518.45,
+        "avg_without_best_pct": 25.84,
+        "trimmed_one_each_pct": 31.33
+      },
+      "validation_2024_plus": {
+        "n": 6,
+        "avg_return_pct": 48.59,
+        "median_return_pct": 28.77,
+        "win_rate_pct": 66.67,
+        "win_rate_wilson_lower_95_pct": 30.0,
+        "double_rate_pct": 16.67,
+        "worst_return_pct": -8.99,
+        "best_return_pct": 152.94,
+        "avg_without_best_pct": 27.72,
+        "trimmed_one_each_pct": 36.9
+      },
+      "overall": {
+        "n": 21,
+        "avg_return_pct": 55.8,
+        "median_return_pct": 19.95,
+        "win_rate_pct": 61.9,
+        "win_rate_wilson_lower_95_pct": 40.88,
+        "double_rate_pct": 14.29,
+        "worst_return_pct": -45.53,
+        "best_return_pct": 518.45,
+        "avg_without_best_pct": 32.67,
+        "trimmed_one_each_pct": 36.78
+      },
+      "target_score": 0.694143,
+      "train_meets_target": false,
+      "validation_meets_target": false,
+      "both_meet_target": false
+    },
+    {
+      "name": "revenue_yoy_ge_0.5 + revenue_mom_ge_-0.1 + volume_ratio_ge_1 + ma5_ma10_gap_ge_0.2",
+      "rules": [
+        "營收年增率 >= 50%",
+        "營收月增率 >= -10%",
+        "訊號量 / 前20日均量 >= 1",
+        "MA5 高於 MA10 至少 0.2%"
+      ],
+      "rule_count": 4,
+      "train_2020_2023": {
+        "n": 17,
+        "avg_return_pct": 61.73,
+        "median_return_pct": 4.76,
+        "win_rate_pct": 58.82,
+        "win_rate_wilson_lower_95_pct": 36.01,
+        "double_rate_pct": 17.65,
+        "worst_return_pct": -34.77,
+        "best_return_pct": 518.45,
+        "avg_without_best_pct": 33.19,
+        "trimmed_one_each_pct": 37.72
+      },
+      "validation_2024_plus": {
+        "n": 5,
+        "avg_return_pct": 48.39,
+        "median_return_pct": 19.95,
+        "win_rate_pct": 60.0,
+        "win_rate_wilson_lower_95_pct": 23.07,
+        "double_rate_pct": 20.0,
+        "worst_return_pct": -13.92,
+        "best_return_pct": 152.94,
+        "avg_without_best_pct": 22.26,
+        "trimmed_one_each_pct": 34.32
+      },
+      "overall": {
+        "n": 22,
+        "avg_return_pct": 58.7,
+        "median_return_pct": 12.35,
+        "win_rate_pct": 59.09,
+        "win_rate_wilson_lower_95_pct": 38.73,
+        "double_rate_pct": 18.18,
+        "worst_return_pct": -34.77,
+        "best_return_pct": 518.45,
+        "avg_without_best_pct": 36.81,
+        "trimmed_one_each_pct": 40.39
+      },
+      "target_score": 0.691286,
+      "train_meets_target": false,
+      "validation_meets_target": false,
+      "both_meet_target": false
+    }
+  ],
+  "confidence_target": [],
+  "closest_robust": [
+    {
+      "name": "revenue_yoy_ge_0.3 + offset_21_40 + ma10_ma20_gap_ge_1 + price_ma20_gap_le_15",
+      "rules": [
+        "營收年增率 >= 30%",
+        "訊號在發行後第 21-40 個交易日",
+        "MA10 高於 MA20 至少 1%",
+        "收盤價高於 MA20 不超過 15%"
+      ],
+      "rule_count": 4,
+      "train_2020_2023": {
+        "n": 5,
+        "avg_return_pct": 72.14,
+        "median_return_pct": 59.46,
+        "win_rate_pct": 100.0,
+        "win_rate_wilson_lower_95_pct": 56.55,
+        "double_rate_pct": 20.0,
+        "worst_return_pct": 33.2,
+        "best_return_pct": 159.83,
+        "avg_without_best_pct": 50.22,
+        "trimmed_one_each_pct": 55.89
+      },
+      "validation_2024_plus": {
+        "n": 3,
+        "avg_return_pct": 78.59,
+        "median_return_pct": 37.59,
+        "win_rate_pct": 100.0,
+        "win_rate_wilson_lower_95_pct": 43.85,
+        "double_rate_pct": 33.33,
+        "worst_return_pct": 19.95,
+        "best_return_pct": 178.24,
+        "avg_without_best_pct": 28.77,
+        "trimmed_one_each_pct": 37.59
+      },
+      "overall": {
+        "n": 8,
+        "avg_return_pct": 74.56,
+        "median_return_pct": 54.05,
+        "win_rate_pct": 100.0,
+        "win_rate_wilson_lower_95_pct": 67.56,
+        "double_rate_pct": 25.0,
+        "worst_return_pct": 19.95,
+        "best_return_pct": 178.24,
+        "avg_without_best_pct": 59.75,
+        "trimmed_one_each_pct": 66.38
+      },
+      "target_score": 1.030571,
+      "train_meets_target": true,
+      "validation_meets_target": true,
+      "both_meet_target": true
+    },
+    {
+      "name": "revenue_yoy_ge_0.3 + offset_21_40 + ma10_ma20_gap_ge_0.2 + price_ma20_gap_le_15",
+      "rules": [
+        "營收年增率 >= 30%",
+        "訊號在發行後第 21-40 個交易日",
+        "MA10 高於 MA20 至少 0.2%",
+        "收盤價高於 MA20 不超過 15%"
+      ],
+      "rule_count": 4,
+      "train_2020_2023": {
+        "n": 6,
+        "avg_return_pct": 61.66,
+        "median_return_pct": 54.05,
+        "win_rate_pct": 100.0,
+        "win_rate_wilson_lower_95_pct": 60.97,
+        "double_rate_pct": 16.67,
+        "worst_return_pct": 9.29,
+        "best_return_pct": 159.83,
+        "avg_without_best_pct": 42.03,
+        "trimmed_one_each_pct": 50.22
+      },
+      "validation_2024_plus": {
+        "n": 3,
+        "avg_return_pct": 78.59,
+        "median_return_pct": 37.59,
+        "win_rate_pct": 100.0,
+        "win_rate_wilson_lower_95_pct": 43.85,
+        "double_rate_pct": 33.33,
+        "worst_return_pct": 19.95,
+        "best_return_pct": 178.24,
+        "avg_without_best_pct": 28.77,
+        "trimmed_one_each_pct": 37.59
+      },
+      "overall": {
+        "n": 9,
+        "avg_return_pct": 67.31,
+        "median_return_pct": 48.63,
+        "win_rate_pct": 100.0,
+        "win_rate_wilson_lower_95_pct": 70.09,
+        "double_rate_pct": 22.22,
+        "worst_return_pct": 9.29,
+        "best_return_pct": 178.24,
+        "avg_without_best_pct": 53.44,
+        "trimmed_one_each_pct": 59.75
+      },
+      "target_score": 0.880857,
+      "train_meets_target": false,
+      "validation_meets_target": true,
+      "both_meet_target": false
+    },
+    {
+      "name": "revenue_yoy_ge_0.3 + avg_volume_ge_2000000 + offset_21_40 + ma10_ma20_gap_ge_1",
+      "rules": [
+        "營收年增率 >= 30%",
+        "前20日均量 >= 2,000,000股",
+        "訊號在發行後第 21-40 個交易日",
+        "MA10 高於 MA20 至少 1%"
+      ],
+      "rule_count": 4,
+      "train_2020_2023": {
+        "n": 5,
+        "avg_return_pct": 61.63,
+        "median_return_pct": 59.46,
+        "win_rate_pct": 80.0,
+        "win_rate_wilson_lower_95_pct": 37.55,
+        "double_rate_pct": 20.0,
+        "worst_return_pct": -19.33,
+        "best_return_pct": 159.83,
+        "avg_without_best_pct": 37.08,
+        "trimmed_one_each_pct": 55.89
+      },
+      "validation_2024_plus": {
+        "n": 3,
+        "avg_return_pct": 78.59,
+        "median_return_pct": 37.59,
+        "win_rate_pct": 100.0,
+        "win_rate_wilson_lower_95_pct": 43.85,
+        "double_rate_pct": 33.33,
+        "worst_return_pct": 19.95,
+        "best_return_pct": 178.24,
+        "avg_without_best_pct": 28.77,
+        "trimmed_one_each_pct": 37.59
+      },
+      "overall": {
+        "n": 8,
+        "avg_return_pct": 67.99,
+        "median_return_pct": 54.05,
+        "win_rate_pct": 87.5,
+        "win_rate_wilson_lower_95_pct": 52.91,
+        "double_rate_pct": 25.0,
+        "worst_return_pct": -19.33,
+        "best_return_pct": 178.24,
+        "avg_without_best_pct": 52.24,
+        "trimmed_one_each_pct": 64.17
+      },
+      "target_score": 0.880429,
+      "train_meets_target": false,
+      "validation_meets_target": true,
+      "both_meet_target": false
+    },
+    {
+      "name": "revenue_yoy_ge_0.5 + revenue_mom_ge_-0.1 + volume_ratio_ge_1 + price_ma20_gap_le_10",
+      "rules": [
+        "營收年增率 >= 50%",
+        "營收月增率 >= -10%",
+        "訊號量 / 前20日均量 >= 1",
+        "收盤價高於 MA20 不超過 10%"
+      ],
+      "rule_count": 4,
+      "train_2020_2023": {
+        "n": 5,
+        "avg_return_pct": 89.29,
+        "median_return_pct": 76.69,
+        "win_rate_pct": 80.0,
+        "win_rate_wilson_lower_95_pct": 37.55,
+        "double_rate_pct": 40.0,
+        "worst_return_pct": -6.09,
+        "best_return_pct": 182.81,
+        "avg_without_best_pct": 65.91,
+        "trimmed_one_each_pct": 89.91
+      },
+      "validation_2024_plus": {
+        "n": 4,
+        "avg_return_pct": 61.47,
+        "median_return_pct": 55.74,
+        "win_rate_pct": 75.0,
+        "win_rate_wilson_lower_95_pct": 30.06,
+        "double_rate_pct": 25.0,
+        "worst_return_pct": -18.53,
+        "best_return_pct": 152.94,
+        "avg_without_best_pct": 30.98,
+        "trimmed_one_each_pct": 55.74
+      },
+      "overall": {
+        "n": 9,
+        "avg_return_pct": 76.92,
+        "median_return_pct": 76.69,
+        "win_rate_pct": 77.78,
+        "win_rate_wilson_lower_95_pct": 45.26,
+        "double_rate_pct": 33.33,
+        "worst_return_pct": -18.53,
+        "best_return_pct": 182.81,
+        "avg_without_best_pct": 63.69,
+        "trimmed_one_each_pct": 75.43
+      },
+      "target_score": 0.878143,
+      "train_meets_target": true,
+      "validation_meets_target": false,
+      "both_meet_target": false
+    },
+    {
+      "name": "revenue_yoy_ge_0.5 + revenue_mom_ge_-0.1 + ma5_ma10_gap_ge_0.2 + price_ma20_gap_le_10",
+      "rules": [
+        "營收年增率 >= 50%",
+        "營收月增率 >= -10%",
+        "MA5 高於 MA10 至少 0.2%",
+        "收盤價高於 MA20 不超過 10%"
+      ],
+      "rule_count": 4,
+      "train_2020_2023": {
+        "n": 6,
+        "avg_return_pct": 66.82,
+        "median_return_pct": 54.94,
+        "win_rate_pct": 66.67,
+        "win_rate_wilson_lower_95_pct": 30.0,
+        "double_rate_pct": 33.33,
+        "worst_return_pct": -45.53,
+        "best_return_pct": 182.81,
+        "avg_without_best_pct": 43.62,
+        "trimmed_one_each_pct": 65.91
+      },
+      "validation_2024_plus": {
+        "n": 3,
+        "avg_return_pct": 82.47,
+        "median_return_pct": 91.99,
+        "win_rate_pct": 100.0,
+        "win_rate_wilson_lower_95_pct": 43.85,
+        "double_rate_pct": 33.33,
+        "worst_return_pct": 2.49,
+        "best_return_pct": 152.94,
+        "avg_without_best_pct": 47.24,
+        "trimmed_one_each_pct": 91.99
+      },
+      "overall": {
+        "n": 9,
+        "avg_return_pct": 72.04,
+        "median_return_pct": 76.69,
+        "win_rate_pct": 77.78,
+        "win_rate_wilson_lower_95_pct": 45.26,
+        "double_rate_pct": 33.33,
+        "worst_return_pct": -45.53,
+        "best_return_pct": 182.81,
+        "avg_without_best_pct": 58.19,
+        "trimmed_one_each_pct": 73.01
+      },
+      "target_score": 0.833375,
+      "train_meets_target": false,
+      "validation_meets_target": true,
+      "both_meet_target": false
+    },
+    {
+      "name": "revenue_yoy_ge_0.3 + volume_ratio_le_2.5 + offset_0_40 + ma10_ma20_gap_ge_0.2",
+      "rules": [
+        "營收年增率 >= 30%",
+        "訊號量 / 前20日均量 <= 2.5",
+        "訊號在發行後第 0-40 個交易日",
+        "MA10 高於 MA20 至少 0.2%"
+      ],
+      "rule_count": 4,
+      "train_2020_2023": {
+        "n": 9,
+        "avg_return_pct": 87.68,
+        "median_return_pct": 33.2,
+        "win_rate_pct": 66.67,
+        "win_rate_wilson_lower_95_pct": 35.42,
+        "double_rate_pct": 22.22,
+        "worst_return_pct": -30.44,
+        "best_return_pct": 518.45,
+        "avg_without_best_pct": 33.83,
+        "trimmed_one_each_pct": 43.01
+      },
+      "validation_2024_plus": {
+        "n": 4,
+        "avg_return_pct": 57.49,
+        "median_return_pct": 28.77,
+        "win_rate_pct": 100.0,
+        "win_rate_wilson_lower_95_pct": 51.01,
+        "double_rate_pct": 25.0,
+        "worst_return_pct": 19.49,
+        "best_return_pct": 152.94,
+        "avg_without_best_pct": 25.68,
+        "trimmed_one_each_pct": 28.77
+      },
+      "overall": {
+        "n": 13,
+        "avg_return_pct": 78.39,
+        "median_return_pct": 33.2,
+        "win_rate_pct": 76.92,
+        "win_rate_wilson_lower_95_pct": 49.74,
+        "double_rate_pct": 23.08,
+        "worst_return_pct": -30.44,
+        "best_return_pct": 518.45,
+        "avg_without_best_pct": 41.72,
+        "trimmed_one_each_pct": 48.28
+      },
+      "target_score": 0.821286,
+      "train_meets_target": false,
+      "validation_meets_target": false,
+      "both_meet_target": false
+    },
+    {
+      "name": "revenue_yoy_ge_0.5 + volume_ratio_le_2.5 + offset_0_40 + ma10_ma20_gap_ge_0.2",
+      "rules": [
+        "營收年增率 >= 50%",
+        "訊號量 / 前20日均量 <= 2.5",
+        "訊號在發行後第 0-40 個交易日",
+        "MA10 高於 MA20 至少 0.2%"
+      ],
+      "rule_count": 4,
+      "train_2020_2023": {
+        "n": 6,
+        "avg_return_pct": 138.07,
+        "median_return_pct": 68.13,
+        "win_rate_pct": 83.33,
+        "win_rate_wilson_lower_95_pct": 43.65,
+        "double_rate_pct": 33.33,
+        "worst_return_pct": -19.33,
+        "best_return_pct": 518.45,
+        "avg_without_best_pct": 61.99,
+        "trimmed_one_each_pct": 82.32
+      },
+      "validation_2024_plus": {
+        "n": 4,
+        "avg_return_pct": 57.49,
+        "median_return_pct": 28.77,
+        "win_rate_pct": 100.0,
+        "win_rate_wilson_lower_95_pct": 51.01,
+        "double_rate_pct": 25.0,
+        "worst_return_pct": 19.49,
+        "best_return_pct": 152.94,
+        "avg_without_best_pct": 25.68,
+        "trimmed_one_each_pct": 28.77
+      },
+      "overall": {
+        "n": 10,
+        "avg_return_pct": 105.84,
+        "median_return_pct": 48.58,
+        "win_rate_pct": 90.0,
+        "win_rate_wilson_lower_95_pct": 59.58,
+        "double_rate_pct": 30.0,
+        "worst_return_pct": -19.33,
+        "best_return_pct": 518.45,
+        "avg_without_best_pct": 59.99,
+        "trimmed_one_each_pct": 69.91
+      },
+      "target_score": 0.821286,
+      "train_meets_target": true,
+      "validation_meets_target": false,
+      "both_meet_target": false
+    },
+    {
+      "name": "revenue_yoy_ge_0.5 + volume_ratio_le_2.5 + offset_0_40 + ma10_ma20_gap_ge_0.5",
+      "rules": [
+        "營收年增率 >= 50%",
+        "訊號量 / 前20日均量 <= 2.5",
+        "訊號在發行後第 0-40 個交易日",
+        "MA10 高於 MA20 至少 0.5%"
+      ],
+      "rule_count": 4,
+      "train_2020_2023": {
+        "n": 5,
+        "avg_return_pct": 150.34,
+        "median_return_pct": 59.57,
+        "win_rate_pct": 80.0,
+        "win_rate_wilson_lower_95_pct": 37.55,
+        "double_rate_pct": 40.0,
+        "worst_return_pct": -19.33,
+        "best_return_pct": 518.45,
+        "avg_without_best_pct": 58.32,
+        "trimmed_one_each_pct": 84.2
+      },
+      "validation_2024_plus": {
+        "n": 4,
+        "avg_return_pct": 57.49,
+        "median_return_pct": 28.77,
+        "win_rate_pct": 100.0,
+        "win_rate_wilson_lower_95_pct": 51.01,
+        "double_rate_pct": 25.0,
+        "worst_return_pct": 19.49,
+        "best_return_pct": 152.94,
+        "avg_without_best_pct": 25.68,
+        "trimmed_one_each_pct": 28.77
+      },
+      "overall": {
+        "n": 9,
+        "avg_return_pct": 109.08,
+        "median_return_pct": 37.59,
+        "win_rate_pct": 88.89,
+        "win_rate_wilson_lower_95_pct": 56.5,
+        "double_rate_pct": 33.33,
+        "worst_return_pct": -19.33,
+        "best_return_pct": 518.45,
+        "avg_without_best_pct": 57.9,
+        "trimmed_one_each_pct": 68.94
+      },
+      "target_score": 0.821286,
+      "train_meets_target": true,
+      "validation_meets_target": false,
+      "both_meet_target": false
+    },
+    {
+      "name": "revenue_yoy_ge_0.5 + volume_ratio_le_3 + offset_0_40 + ma10_ma20_gap_ge_0.2",
+      "rules": [
+        "營收年增率 >= 50%",
+        "訊號量 / 前20日均量 <= 3",
+        "訊號在發行後第 0-40 個交易日",
+        "MA10 高於 MA20 至少 0.2%"
+      ],
+      "rule_count": 4,
+      "train_2020_2023": {
+        "n": 8,
+        "avg_return_pct": 102.43,
+        "median_return_pct": 46.38,
+        "win_rate_pct": 75.0,
+        "win_rate_wilson_lower_95_pct": 40.93,
+        "double_rate_pct": 25.0,
+        "worst_return_pct": -19.33,
+        "best_return_pct": 518.45,
+        "avg_without_best_pct": 43.0,
+        "trimmed_one_each_pct": 53.38
+      },
+      "validation_2024_plus": {
+        "n": 4,
+        "avg_return_pct": 57.49,
+        "median_return_pct": 28.77,
+        "win_rate_pct": 100.0,
+        "win_rate_wilson_lower_95_pct": 51.01,
+        "double_rate_pct": 25.0,
+        "worst_return_pct": 19.49,
+        "best_return_pct": 152.94,
+        "avg_without_best_pct": 25.68,
+        "trimmed_one_each_pct": 28.77
+      },
+      "overall": {
+        "n": 12,
+        "avg_return_pct": 87.45,
+        "median_return_pct": 35.4,
+        "win_rate_pct": 83.33,
+        "win_rate_wilson_lower_95_pct": 55.2,
+        "double_rate_pct": 25.0,
+        "worst_return_pct": -19.33,
+        "best_return_pct": 518.45,
+        "avg_without_best_pct": 48.27,
+        "trimmed_one_each_pct": 55.03
+      },
+      "target_score": 0.821286,
+      "train_meets_target": false,
+      "validation_meets_target": false,
+      "both_meet_target": false
+    },
+    {
+      "name": "revenue_yoy_ge_0.5 + volume_ratio_le_3 + offset_0_40 + ma10_ma20_gap_ge_0.5",
+      "rules": [
+        "營收年增率 >= 50%",
+        "訊號量 / 前20日均量 <= 3",
+        "訊號在發行後第 0-40 個交易日",
+        "MA10 高於 MA20 至少 0.5%"
+      ],
+      "rule_count": 4,
+      "train_2020_2023": {
+        "n": 7,
+        "avg_return_pct": 106.1,
+        "median_return_pct": 33.2,
+        "win_rate_pct": 71.43,
+        "win_rate_wilson_lower_95_pct": 35.89,
+        "double_rate_pct": 28.57,
+        "worst_return_pct": -19.33,
+        "best_return_pct": 518.45,
+        "avg_without_best_pct": 37.38,
+        "trimmed_one_each_pct": 48.72
+      },
+      "validation_2024_plus": {
+        "n": 4,
+        "avg_return_pct": 57.49,
+        "median_return_pct": 28.77,
+        "win_rate_pct": 100.0,
+        "win_rate_wilson_lower_95_pct": 51.01,
+        "double_rate_pct": 25.0,
+        "worst_return_pct": 19.49,
+        "best_return_pct": 152.94,
+        "avg_without_best_pct": 25.68,
+        "trimmed_one_each_pct": 28.77
+      },
+      "overall": {
+        "n": 11,
+        "avg_return_pct": 88.43,
+        "median_return_pct": 33.2,
+        "win_rate_pct": 81.82,
+        "win_rate_wilson_lower_95_pct": 52.3,
+        "double_rate_pct": 27.27,
+        "worst_return_pct": -19.33,
+        "best_return_pct": 518.45,
+        "avg_without_best_pct": 45.42,
+        "trimmed_one_each_pct": 52.62
+      },
+      "target_score": 0.821286,
+      "train_meets_target": false,
+      "validation_meets_target": false,
+      "both_meet_target": false
+    },
+    {
+      "name": "revenue_yoy_ge_0.3 + volume_ratio_le_5 + offset_21_40 + ma10_ma20_gap_ge_1",
+      "rules": [
+        "營收年增率 >= 30%",
+        "訊號量 / 前20日均量 <= 5",
+        "訊號在發行後第 21-40 個交易日",
+        "MA10 高於 MA20 至少 1%"
+      ],
+      "rule_count": 4,
+      "train_2020_2023": {
+        "n": 6,
+        "avg_return_pct": 56.89,
+        "median_return_pct": 54.05,
+        "win_rate_pct": 83.33,
+        "win_rate_wilson_lower_95_pct": 43.65,
+        "double_rate_pct": 16.67,
+        "worst_return_pct": -19.33,
+        "best_return_pct": 159.83,
+        "avg_without_best_pct": 36.31,
+        "trimmed_one_each_pct": 50.22
+      },
+      "validation_2024_plus": {
+        "n": 3,
+        "avg_return_pct": 78.59,
+        "median_return_pct": 37.59,
+        "win_rate_pct": 100.0,
+        "win_rate_wilson_lower_95_pct": 43.85,
+        "double_rate_pct": 33.33,
+        "worst_return_pct": 19.95,
+        "best_return_pct": 178.24,
+        "avg_without_best_pct": 28.77,
+        "trimmed_one_each_pct": 37.59
+      },
+      "overall": {
+        "n": 9,
+        "avg_return_pct": 64.13,
+        "median_return_pct": 48.63,
+        "win_rate_pct": 88.89,
+        "win_rate_wilson_lower_95_pct": 56.5,
+        "double_rate_pct": 22.22,
+        "worst_return_pct": -19.33,
+        "best_return_pct": 178.24,
+        "avg_without_best_pct": 49.86,
+        "trimmed_one_each_pct": 59.75
+      },
+      "target_score": 0.812714,
+      "train_meets_target": false,
+      "validation_meets_target": true,
+      "both_meet_target": false
+    },
+    {
+      "name": "revenue_yoy_ge_0.3 + revenue_mom_ge_-0.1 + offset_21_40 + price_ma20_gap_le_15",
+      "rules": [
+        "營收年增率 >= 30%",
+        "營收月增率 >= -10%",
+        "訊號在發行後第 21-40 個交易日",
+        "收盤價高於 MA20 不超過 15%"
+      ],
+      "rule_count": 4,
+      "train_2020_2023": {
+        "n": 6,
+        "avg_return_pct": 56.13,
+        "median_return_pct": 54.05,
+        "win_rate_pct": 83.33,
+        "win_rate_wilson_lower_95_pct": 43.65,
+        "double_rate_pct": 16.67,
+        "worst_return_pct": -23.9,
+        "best_return_pct": 159.83,
+        "avg_without_best_pct": 35.39,
+        "trimmed_one_each_pct": 50.22
+      },
+      "validation_2024_plus": {
+        "n": 3,
+        "avg_return_pct": 61.42,
+        "median_return_pct": 19.95,
+        "win_rate_pct": 66.67,
+        "win_rate_wilson_lower_95_pct": 20.77,
+        "double_rate_pct": 33.33,
+        "worst_return_pct": -13.92,
+        "best_return_pct": 178.24,
+        "avg_without_best_pct": 3.01,
+        "trimmed_one_each_pct": 19.95
+      },
+      "overall": {
+        "n": 9,
+        "avg_return_pct": 57.9,
+        "median_return_pct": 48.63,
+        "win_rate_pct": 77.78,
+        "win_rate_wilson_lower_95_pct": 45.26,
+        "double_rate_pct": 22.22,
+        "worst_return_pct": -23.9,
+        "best_return_pct": 178.24,
+        "avg_without_best_pct": 42.85,
+        "trimmed_one_each_pct": 52.39
+      },
+      "target_score": 0.801857,
+      "train_meets_target": false,
+      "validation_meets_target": false,
+      "both_meet_target": false
+    },
+    {
+      "name": "revenue_yoy_ge_0.3 + volume_ratio_le_3 + offset_0_40 + ma10_ma20_gap_ge_0.2",
+      "rules": [
+        "營收年增率 >= 30%",
+        "訊號量 / 前20日均量 <= 3",
+        "訊號在發行後第 0-40 個交易日",
+        "MA10 高於 MA20 至少 0.2%"
+      ],
+      "rule_count": 4,
+      "train_2020_2023": {
+        "n": 11,
+        "avg_return_pct": 70.92,
+        "median_return_pct": 9.29,
+        "win_rate_pct": 63.64,
+        "win_rate_wilson_lower_95_pct": 35.38,
+        "double_rate_pct": 18.18,
+        "worst_return_pct": -30.44,
+        "best_return_pct": 518.45,
+        "avg_without_best_pct": 26.17,
+        "trimmed_one_each_pct": 32.46
+      },
+      "validation_2024_plus": {
+        "n": 4,
+        "avg_return_pct": 57.49,
+        "median_return_pct": 28.77,
+        "win_rate_pct": 100.0,
+        "win_rate_wilson_lower_95_pct": 51.01,
+        "double_rate_pct": 25.0,
+        "worst_return_pct": 19.49,
+        "best_return_pct": 152.94,
+        "avg_without_best_pct": 25.68,
+        "trimmed_one_each_pct": 28.77
+      },
+      "overall": {
+        "n": 15,
+        "avg_return_pct": 67.34,
+        "median_return_pct": 19.95,
+        "win_rate_pct": 73.33,
+        "win_rate_wilson_lower_95_pct": 48.05,
+        "double_rate_pct": 20.0,
+        "worst_return_pct": -30.44,
+        "best_return_pct": 518.45,
+        "avg_without_best_pct": 35.12,
+        "trimmed_one_each_pct": 40.16
+      },
+      "target_score": 0.7955,
+      "train_meets_target": false,
+      "validation_meets_target": false,
+      "both_meet_target": false
+    },
+    {
+      "name": "revenue_yoy_ge_0.3 + offset_0_40 + ma10_ma20_gap_ge_0.2 + price_ma20_gap_le_15",
+      "rules": [
+        "營收年增率 >= 30%",
+        "訊號在發行後第 0-40 個交易日",
+        "MA10 高於 MA20 至少 0.2%",
+        "收盤價高於 MA20 不超過 15%"
+      ],
+      "rule_count": 4,
+      "train_2020_2023": {
+        "n": 12,
+        "avg_return_pct": 79.26,
+        "median_return_pct": 40.92,
+        "win_rate_pct": 83.33,
+        "win_rate_wilson_lower_95_pct": 55.2,
+        "double_rate_pct": 16.67,
+        "worst_return_pct": -30.44,
+        "best_return_pct": 518.45,
+        "avg_without_best_pct": 39.34,
+        "trimmed_one_each_pct": 46.31
+      },
+      "validation_2024_plus": {
+        "n": 7,
+        "avg_return_pct": 55.6,
+        "median_return_pct": 19.95,
+        "win_rate_pct": 71.43,
+        "win_rate_wilson_lower_95_pct": 35.89,
+        "double_rate_pct": 28.57,
+        "worst_return_pct": -10.04,
+        "best_return_pct": 178.24,
+        "avg_without_best_pct": 35.16,
+        "trimmed_one_each_pct": 44.2
+      },
+      "overall": {
+        "n": 19,
+        "avg_return_pct": 70.54,
+        "median_return_pct": 33.2,
+        "win_rate_pct": 78.95,
+        "win_rate_wilson_lower_95_pct": 56.67,
+        "double_rate_pct": 21.05,
+        "worst_return_pct": -30.44,
+        "best_return_pct": 518.45,
+        "avg_without_best_pct": 45.66,
+        "trimmed_one_each_pct": 50.14
+      },
+      "target_score": 0.794286,
+      "train_meets_target": true,
+      "validation_meets_target": false,
+      "both_meet_target": false
+    },
+    {
+      "name": "revenue_yoy_ge_0.3 + offset_0_40 + ma10_ma20_gap_ge_0.5 + price_ma20_gap_le_15",
+      "rules": [
+        "營收年增率 >= 30%",
+        "訊號在發行後第 0-40 個交易日",
+        "MA10 高於 MA20 至少 0.5%",
+        "收盤價高於 MA20 不超過 15%"
+      ],
+      "rule_count": 4,
+      "train_2020_2023": {
+        "n": 11,
+        "avg_return_pct": 79.5,
+        "median_return_pct": 33.2,
+        "win_rate_pct": 81.82,
+        "win_rate_wilson_lower_95_pct": 52.3,
+        "double_rate_pct": 18.18,
+        "worst_return_pct": -30.44,
+        "best_return_pct": 518.45,
+        "avg_without_best_pct": 35.6,
+        "trimmed_one_each_pct": 42.94
+      },
+      "validation_2024_plus": {
+        "n": 7,
+        "avg_return_pct": 55.6,
+        "median_return_pct": 19.95,
+        "win_rate_pct": 71.43,
+        "win_rate_wilson_lower_95_pct": 35.89,
+        "double_rate_pct": 28.57,
+        "worst_return_pct": -10.04,
+        "best_return_pct": 178.24,
+        "avg_without_best_pct": 35.16,
+        "trimmed_one_each_pct": 44.2
+      },
+      "overall": {
+        "n": 18,
+        "avg_return_pct": 70.2,
+        "median_return_pct": 31.53,
+        "win_rate_pct": 77.78,
+        "win_rate_wilson_lower_95_pct": 54.79,
+        "double_rate_pct": 22.22,
+        "worst_return_pct": -30.44,
+        "best_return_pct": 518.45,
+        "avg_without_best_pct": 43.83,
+        "trimmed_one_each_pct": 48.48
+      },
+      "target_score": 0.794286,
+      "train_meets_target": true,
+      "validation_meets_target": false,
+      "both_meet_target": false
+    },
+    {
+      "name": "revenue_yoy_ge_0.3 + volume_ratio_le_5 + offset_0_40 + ma10_ma20_gap_ge_0.2",
+      "rules": [
+        "營收年增率 >= 30%",
+        "訊號量 / 前20日均量 <= 5",
+        "訊號在發行後第 0-40 個交易日",
+        "MA10 高於 MA20 至少 0.2%"
+      ],
+      "rule_count": 4,
+      "train_2020_2023": {
+        "n": 13,
+        "avg_return_pct": 68.32,
+        "median_return_pct": 33.2,
+        "win_rate_pct": 69.23,
+        "win_rate_wilson_lower_95_pct": 42.37,
+        "double_rate_pct": 15.38,
+        "worst_return_pct": -30.44,
+        "best_return_pct": 518.45,
+        "avg_without_best_pct": 30.81,
+        "trimmed_one_each_pct": 36.38
+      },
+      "validation_2024_plus": {
+        "n": 7,
+        "avg_return_pct": 55.6,
+        "median_return_pct": 19.95,
+        "win_rate_pct": 71.43,
+        "win_rate_wilson_lower_95_pct": 35.89,
+        "double_rate_pct": 28.57,
+        "worst_return_pct": -10.04,
+        "best_return_pct": 178.24,
+        "avg_without_best_pct": 35.16,
+        "trimmed_one_each_pct": 44.2
+      },
+      "overall": {
+        "n": 20,
+        "avg_return_pct": 63.87,
+        "median_return_pct": 26.57,
+        "win_rate_pct": 70.0,
+        "win_rate_wilson_lower_95_pct": 48.1,
+        "double_rate_pct": 20.0,
+        "worst_return_pct": -30.44,
+        "best_return_pct": 518.45,
+        "avg_without_best_pct": 39.94,
+        "trimmed_one_each_pct": 43.85
+      },
+      "target_score": 0.794286,
+      "train_meets_target": false,
+      "validation_meets_target": false,
+      "both_meet_target": false
+    },
+    {
+      "name": "trust_ge_0.25 + revenue_yoy_ge_0.3 + offset_0_40 + ma10_ma20_gap_ge_0.2",
+      "rules": [
+        "投信單日買超占股本 >= 0.25%",
+        "營收年增率 >= 30%",
+        "訊號在發行後第 0-40 個交易日",
+        "MA10 高於 MA20 至少 0.2%"
+      ],
+      "rule_count": 4,
+      "train_2020_2023": {
+        "n": 12,
+        "avg_return_pct": 70.79,
+        "median_return_pct": 31.53,
+        "win_rate_pct": 75.0,
+        "win_rate_wilson_lower_95_pct": 46.77,
+        "double_rate_pct": 16.67,
+        "worst_return_pct": -40.55,
+        "best_return_pct": 518.45,
+        "avg_without_best_pct": 30.1,
+        "trimmed_one_each_pct": 37.16
+      },
+      "validation_2024_plus": {
+        "n": 7,
+        "avg_return_pct": 55.6,
+        "median_return_pct": 19.95,
+        "win_rate_pct": 71.43,
+        "win_rate_wilson_lower_95_pct": 35.89,
+        "double_rate_pct": 28.57,
+        "worst_return_pct": -10.04,
+        "best_return_pct": 178.24,
+        "avg_without_best_pct": 35.16,
+        "trimmed_one_each_pct": 44.2
+      },
+      "overall": {
+        "n": 19,
+        "avg_return_pct": 65.19,
+        "median_return_pct": 29.87,
+        "win_rate_pct": 73.68,
+        "win_rate_wilson_lower_95_pct": 51.21,
+        "double_rate_pct": 21.05,
+        "worst_return_pct": -40.55,
+        "best_return_pct": 518.45,
+        "avg_without_best_pct": 40.01,
+        "trimmed_one_each_pct": 44.75
+      },
+      "target_score": 0.794286,
+      "train_meets_target": false,
+      "validation_meets_target": false,
+      "both_meet_target": false
+    },
+    {
+      "name": "revenue_yoy_ge_0.3 + volume_ratio_ge_0.8 + offset_0_40 + ma10_ma20_gap_ge_0.2",
+      "rules": [
+        "營收年增率 >= 30%",
+        "訊號量 / 前20日均量 >= 0.8",
+        "訊號在發行後第 0-40 個交易日",
+        "MA10 高於 MA20 至少 0.2%"
+      ],
+      "rule_count": 4,
+      "train_2020_2023": {
+        "n": 14,
+        "avg_return_pct": 64.3,
+        "median_return_pct": 31.53,
+        "win_rate_pct": 71.43,
+        "win_rate_wilson_lower_95_pct": 45.35,
+        "double_rate_pct": 14.29,
+        "worst_return_pct": -40.55,
+        "best_return_pct": 518.45,
+        "avg_without_best_pct": 29.36,
+        "trimmed_one_each_pct": 35.19
+      },
+      "validation_2024_plus": {
+        "n": 7,
+        "avg_return_pct": 55.6,
+        "median_return_pct": 19.95,
+        "win_rate_pct": 71.43,
+        "win_rate_wilson_lower_95_pct": 35.89,
+        "double_rate_pct": 28.57,
+        "worst_return_pct": -10.04,
+        "best_return_pct": 178.24,
+        "avg_without_best_pct": 35.16,
+        "trimmed_one_each_pct": 44.2
+      },
+      "overall": {
+        "n": 21,
+        "avg_return_pct": 61.4,
+        "median_return_pct": 29.87,
+        "win_rate_pct": 71.43,
+        "win_rate_wilson_lower_95_pct": 50.04,
+        "double_rate_pct": 19.05,
+        "worst_return_pct": -40.55,
+        "best_return_pct": 518.45,
+        "avg_without_best_pct": 38.55,
+        "trimmed_one_each_pct": 42.71
+      },
+      "target_score": 0.794286,
+      "train_meets_target": false,
+      "validation_meets_target": false,
+      "both_meet_target": false
+    },
+    {
+      "name": "revenue_yoy_ge_0.3 + offset_0_40 + ma10_ma20_gap_ge_0.2 + price_ma20_gap_le_20",
+      "rules": [
+        "營收年增率 >= 30%",
+        "訊號在發行後第 0-40 個交易日",
+        "MA10 高於 MA20 至少 0.2%",
+        "收盤價高於 MA20 不超過 20%"
+      ],
+      "rule_count": 4,
+      "train_2020_2023": {
+        "n": 14,
+        "avg_return_pct": 63.98,
+        "median_return_pct": 31.53,
+        "win_rate_pct": 71.43,
+        "win_rate_wilson_lower_95_pct": 45.35,
+        "double_rate_pct": 14.29,
+        "worst_return_pct": -40.55,
+        "best_return_pct": 518.45,
+        "avg_without_best_pct": 29.02,
+        "trimmed_one_each_pct": 34.82
+      },
+      "validation_2024_plus": {
+        "n": 7,
+        "avg_return_pct": 55.6,
+        "median_return_pct": 19.95,
+        "win_rate_pct": 71.43,
+        "win_rate_wilson_lower_95_pct": 35.89,
+        "double_rate_pct": 28.57,
+        "worst_return_pct": -10.04,
+        "best_return_pct": 178.24,
+        "avg_without_best_pct": 35.16,
+        "trimmed_one_each_pct": 44.2
+      },
+      "overall": {
+        "n": 21,
+        "avg_return_pct": 61.19,
+        "median_return_pct": 29.87,
+        "win_rate_pct": 71.43,
+        "win_rate_wilson_lower_95_pct": 50.04,
+        "double_rate_pct": 19.05,
+        "worst_return_pct": -40.55,
+        "best_return_pct": 518.45,
+        "avg_without_best_pct": 38.33,
+        "trimmed_one_each_pct": 42.48
+      },
+      "target_score": 0.794286,
+      "train_meets_target": false,
+      "validation_meets_target": false,
+      "both_meet_target": false
+    },
+    {
+      "name": "revenue_yoy_ge_0.3 + volume_ratio_le_5 + offset_0_40 + ma10_ma20_gap_ge_0.5",
+      "rules": [
+        "營收年增率 >= 30%",
+        "訊號量 / 前20日均量 <= 5",
+        "訊號在發行後第 0-40 個交易日",
+        "MA10 高於 MA20 至少 0.5%"
+      ],
+      "rule_count": 4,
+      "train_2020_2023": {
+        "n": 12,
+        "avg_return_pct": 67.63,
+        "median_return_pct": 21.24,
+        "win_rate_pct": 66.67,
+        "win_rate_wilson_lower_95_pct": 39.06,
+        "double_rate_pct": 16.67,
+        "worst_return_pct": -30.44,
+        "best_return_pct": 518.45,
+        "avg_without_best_pct": 26.64,
+        "trimmed_one_each_pct": 32.35
+      },
+      "validation_2024_plus": {
+        "n": 7,
+        "avg_return_pct": 55.6,
+        "median_return_pct": 19.95,
+        "win_rate_pct": 71.43,
+        "win_rate_wilson_lower_95_pct": 35.89,
+        "double_rate_pct": 28.57,
+        "worst_return_pct": -10.04,
+        "best_return_pct": 178.24,
+        "avg_without_best_pct": 35.16,
+        "trimmed_one_each_pct": 44.2
+      },
+      "overall": {
+        "n": 19,
+        "avg_return_pct": 63.19,
+        "median_return_pct": 19.95,
+        "win_rate_pct": 68.42,
+        "win_rate_wilson_lower_95_pct": 46.01,
+        "double_rate_pct": 21.05,
+        "worst_return_pct": -30.44,
+        "best_return_pct": 518.45,
+        "avg_without_best_pct": 37.9,
+        "trimmed_one_each_pct": 41.92
+      },
+      "target_score": 0.794286,
+      "train_meets_target": false,
+      "validation_meets_target": false,
+      "both_meet_target": false
+    },
+    {
+      "name": "revenue_yoy_ge_0.3 + volume_ratio_ge_0.6 + offset_0_40 + ma10_ma20_gap_ge_0.2",
+      "rules": [
+        "營收年增率 >= 30%",
+        "訊號量 / 前20日均量 >= 0.6",
+        "訊號在發行後第 0-40 個交易日",
+        "MA10 高於 MA20 至少 0.2%"
+      ],
+      "rule_count": 4,
+      "train_2020_2023": {
+        "n": 15,
+        "avg_return_pct": 58.8,
+        "median_return_pct": 29.87,
+        "win_rate_pct": 66.67,
+        "win_rate_wilson_lower_95_pct": 41.71,
+        "double_rate_pct": 13.33,
+        "worst_return_pct": -40.55,
+        "best_return_pct": 518.45,
+        "avg_without_best_pct": 25.97,
+        "trimmed_one_each_pct": 31.09
+      },
+      "validation_2024_plus": {
+        "n": 7,
+        "avg_return_pct": 55.6,
+        "median_return_pct": 19.95,
+        "win_rate_pct": 71.43,
+        "win_rate_wilson_lower_95_pct": 35.89,
+        "double_rate_pct": 28.57,
+        "worst_return_pct": -10.04,
+        "best_return_pct": 178.24,
+        "avg_without_best_pct": 35.16,
+        "trimmed_one_each_pct": 44.2
+      },
+      "overall": {
+        "n": 22,
+        "avg_return_pct": 57.78,
+        "median_return_pct": 24.91,
+        "win_rate_pct": 68.18,
+        "win_rate_wilson_lower_95_pct": 47.32,
+        "double_rate_pct": 18.18,
+        "worst_return_pct": -40.55,
+        "best_return_pct": 518.45,
+        "avg_without_best_pct": 35.85,
+        "trimmed_one_each_pct": 39.67
+      },
+      "target_score": 0.794286,
+      "train_meets_target": false,
+      "validation_meets_target": false,
+      "both_meet_target": false
+    },
+    {
+      "name": "revenue_yoy_ge_0.3 + volume_ratio_le_8 + offset_0_40 + ma10_ma20_gap_ge_0.2",
+      "rules": [
+        "營收年增率 >= 30%",
+        "訊號量 / 前20日均量 <= 8",
+        "訊號在發行後第 0-40 個交易日",
+        "MA10 高於 MA20 至少 0.2%"
+      ],
+      "rule_count": 4,
+      "train_2020_2023": {
+        "n": 15,
+        "avg_return_pct": 58.5,
+        "median_return_pct": 29.87,
+        "win_rate_pct": 66.67,
+        "win_rate_wilson_lower_95_pct": 41.71,
+        "double_rate_pct": 13.33,
+        "worst_return_pct": -40.55,
+        "best_return_pct": 518.45,
+        "avg_without_best_pct": 25.65,
+        "trimmed_one_each_pct": 30.74
+      },
+      "validation_2024_plus": {
+        "n": 7,
+        "avg_return_pct": 55.6,
+        "median_return_pct": 19.95,
+        "win_rate_pct": 71.43,
+        "win_rate_wilson_lower_95_pct": 35.89,
+        "double_rate_pct": 28.57,
+        "worst_return_pct": -10.04,
+        "best_return_pct": 178.24,
+        "avg_without_best_pct": 35.16,
+        "trimmed_one_each_pct": 44.2
+      },
+      "overall": {
+        "n": 22,
+        "avg_return_pct": 57.58,
+        "median_return_pct": 24.91,
+        "win_rate_pct": 68.18,
+        "win_rate_wilson_lower_95_pct": 47.32,
+        "double_rate_pct": 18.18,
+        "worst_return_pct": -40.55,
+        "best_return_pct": 518.45,
+        "avg_without_best_pct": 35.63,
+        "trimmed_one_each_pct": 39.44
+      },
+      "target_score": 0.794286,
+      "train_meets_target": false,
+      "validation_meets_target": false,
+      "both_meet_target": false
+    },
+    {
+      "name": "revenue_yoy_ge_0.3 + volume_ratio_ge_0.8 + offset_0_40 + ma10_ma20_gap_ge_0.5",
+      "rules": [
+        "營收年增率 >= 30%",
+        "訊號量 / 前20日均量 >= 0.8",
+        "訊號在發行後第 0-40 個交易日",
+        "MA10 高於 MA20 至少 0.5%"
+      ],
+      "rule_count": 4,
+      "train_2020_2023": {
+        "n": 13,
+        "avg_return_pct": 63.34,
+        "median_return_pct": 29.87,
+        "win_rate_pct": 69.23,
+        "win_rate_wilson_lower_95_pct": 42.37,
+        "double_rate_pct": 15.38,
+        "worst_return_pct": -40.55,
+        "best_return_pct": 518.45,
+        "avg_without_best_pct": 25.42,
+        "trimmed_one_each_pct": 31.42
+      },
+      "validation_2024_plus": {
+        "n": 7,
+        "avg_return_pct": 55.6,
+        "median_return_pct": 19.95,
+        "win_rate_pct": 71.43,
+        "win_rate_wilson_lower_95_pct": 35.89,
+        "double_rate_pct": 28.57,
+        "worst_return_pct": -10.04,
+        "best_return_pct": 178.24,
+        "avg_without_best_pct": 35.16,
+        "trimmed_one_each_pct": 44.2
+      },
+      "overall": {
+        "n": 20,
+        "avg_return_pct": 60.63,
+        "median_return_pct": 24.91,
+        "win_rate_pct": 70.0,
+        "win_rate_wilson_lower_95_pct": 48.1,
+        "double_rate_pct": 20.0,
+        "worst_return_pct": -40.55,
+        "best_return_pct": 518.45,
+        "avg_without_best_pct": 36.54,
+        "trimmed_one_each_pct": 40.82
+      },
+      "target_score": 0.794286,
+      "train_meets_target": false,
+      "validation_meets_target": false,
+      "both_meet_target": false
+    },
+    {
+      "name": "revenue_yoy_ge_0.3 + offset_0_40 + ma10_ma20_gap_ge_0.5 + price_ma20_gap_le_20",
+      "rules": [
+        "營收年增率 >= 30%",
+        "訊號在發行後第 0-40 個交易日",
+        "MA10 高於 MA20 至少 0.5%",
+        "收盤價高於 MA20 不超過 20%"
+      ],
+      "rule_count": 4,
+      "train_2020_2023": {
+        "n": 13,
+        "avg_return_pct": 63.01,
+        "median_return_pct": 29.87,
+        "win_rate_pct": 69.23,
+        "win_rate_wilson_lower_95_pct": 42.37,
+        "double_rate_pct": 15.38,
+        "worst_return_pct": -40.55,
+        "best_return_pct": 518.45,
+        "avg_without_best_pct": 25.05,
+        "trimmed_one_each_pct": 31.02
+      },
+      "validation_2024_plus": {
+        "n": 7,
+        "avg_return_pct": 55.6,
+        "median_return_pct": 19.95,
+        "win_rate_pct": 71.43,
+        "win_rate_wilson_lower_95_pct": 35.89,
+        "double_rate_pct": 28.57,
+        "worst_return_pct": -10.04,
+        "best_return_pct": 178.24,
+        "avg_without_best_pct": 35.16,
+        "trimmed_one_each_pct": 44.2
+      },
+      "overall": {
+        "n": 20,
+        "avg_return_pct": 60.41,
+        "median_return_pct": 24.91,
+        "win_rate_pct": 70.0,
+        "win_rate_wilson_lower_95_pct": 48.1,
+        "double_rate_pct": 20.0,
+        "worst_return_pct": -40.55,
+        "best_return_pct": 518.45,
+        "avg_without_best_pct": 36.31,
+        "trimmed_one_each_pct": 40.58
+      },
+      "target_score": 0.794286,
+      "train_meets_target": false,
+      "validation_meets_target": false,
+      "both_meet_target": false
+    },
+    {
+      "name": "revenue_yoy_ge_0.3 + volume_ratio_ge_0.6 + offset_0_40 + ma10_ma20_gap_ge_0.5",
+      "rules": [
+        "營收年增率 >= 30%",
+        "訊號量 / 前20日均量 >= 0.6",
+        "訊號在發行後第 0-40 個交易日",
+        "MA10 高於 MA20 至少 0.5%"
+      ],
+      "rule_count": 4,
+      "train_2020_2023": {
+        "n": 14,
+        "avg_return_pct": 57.52,
+        "median_return_pct": 19.58,
+        "win_rate_pct": 64.29,
+        "win_rate_wilson_lower_95_pct": 38.76,
+        "double_rate_pct": 14.29,
+        "worst_return_pct": -40.55,
+        "best_return_pct": 518.45,
+        "avg_without_best_pct": 22.07,
+        "trimmed_one_each_pct": 27.29
+      },
+      "validation_2024_plus": {
+        "n": 7,
+        "avg_return_pct": 55.6,
+        "median_return_pct": 19.95,
+        "win_rate_pct": 71.43,
+        "win_rate_wilson_lower_95_pct": 35.89,
+        "double_rate_pct": 28.57,
+        "worst_return_pct": -10.04,
+        "best_return_pct": 178.24,
+        "avg_without_best_pct": 35.16,
+        "trimmed_one_each_pct": 44.2
+      },
+      "overall": {
+        "n": 21,
+        "avg_return_pct": 56.88,
+        "median_return_pct": 19.95,
+        "win_rate_pct": 66.67,
+        "win_rate_wilson_lower_95_pct": 45.37,
+        "double_rate_pct": 19.05,
+        "worst_return_pct": -40.55,
+        "best_return_pct": 518.45,
+        "avg_without_best_pct": 33.8,
+        "trimmed_one_each_pct": 37.72
+      },
+      "target_score": 0.794286,
+      "train_meets_target": false,
+      "validation_meets_target": false,
+      "both_meet_target": false
+    },
+    {
+      "name": "revenue_yoy_ge_0.3 + volume_ratio_le_8 + offset_0_40 + ma10_ma20_gap_ge_0.5",
+      "rules": [
+        "營收年增率 >= 30%",
+        "訊號量 / 前20日均量 <= 8",
+        "訊號在發行後第 0-40 個交易日",
+        "MA10 高於 MA20 至少 0.5%"
+      ],
+      "rule_count": 4,
+      "train_2020_2023": {
+        "n": 14,
+        "avg_return_pct": 57.2,
+        "median_return_pct": 19.58,
+        "win_rate_pct": 64.29,
+        "win_rate_wilson_lower_95_pct": 38.76,
+        "double_rate_pct": 14.29,
+        "worst_return_pct": -40.55,
+        "best_return_pct": 518.45,
+        "avg_without_best_pct": 21.72,
+        "trimmed_one_each_pct": 26.91
+      },
+      "validation_2024_plus": {
+        "n": 7,
+        "avg_return_pct": 55.6,
+        "median_return_pct": 19.95,
+        "win_rate_pct": 71.43,
+        "win_rate_wilson_lower_95_pct": 35.89,
+        "double_rate_pct": 28.57,
+        "worst_return_pct": -10.04,
+        "best_return_pct": 178.24,
+        "avg_without_best_pct": 35.16,
+        "trimmed_one_each_pct": 44.2
+      },
+      "overall": {
+        "n": 21,
+        "avg_return_pct": 56.67,
+        "median_return_pct": 19.95,
+        "win_rate_pct": 66.67,
+        "win_rate_wilson_lower_95_pct": 45.37,
+        "double_rate_pct": 19.05,
+        "worst_return_pct": -40.55,
+        "best_return_pct": 518.45,
+        "avg_without_best_pct": 33.58,
+        "trimmed_one_each_pct": 37.48
+      },
+      "target_score": 0.794286,
+      "train_meets_target": false,
+      "validation_meets_target": false,
+      "both_meet_target": false
+    },
+    {
+      "name": "trust_ge_0.25 + revenue_yoy_ge_0.3 + volume_ratio_le_5 + offset_21_40",
+      "rules": [
+        "投信單日買超占股本 >= 0.25%",
+        "營收年增率 >= 30%",
+        "訊號量 / 前20日均量 <= 5",
+        "訊號在發行後第 21-40 個交易日"
+      ],
+      "rule_count": 4,
+      "train_2020_2023": {
+        "n": 6,
+        "avg_return_pct": 61.66,
+        "median_return_pct": 54.05,
+        "win_rate_pct": 100.0,
+        "win_rate_wilson_lower_95_pct": 60.97,
+        "double_rate_pct": 16.67,
+        "worst_return_pct": 9.29,
+        "best_return_pct": 159.83,
+        "avg_without_best_pct": 42.03,
+        "trimmed_one_each_pct": 50.22
+      },
+      "validation_2024_plus": {
+        "n": 4,
+        "avg_return_pct": 55.46,
+        "median_return_pct": 28.77,
+        "win_rate_pct": 75.0,
+        "win_rate_wilson_lower_95_pct": 30.06,
+        "double_rate_pct": 25.0,
+        "worst_return_pct": -13.92,
+        "best_return_pct": 178.24,
+        "avg_without_best_pct": 14.54,
+        "trimmed_one_each_pct": 28.77
+      },
+      "overall": {
+        "n": 10,
+        "avg_return_pct": 59.18,
+        "median_return_pct": 43.11,
+        "win_rate_pct": 90.0,
+        "win_rate_wilson_lower_95_pct": 59.58,
+        "double_rate_pct": 20.0,
+        "worst_return_pct": -13.92,
+        "best_return_pct": 178.24,
+        "avg_without_best_pct": 45.96,
+        "trimmed_one_each_pct": 53.44
+      },
+      "target_score": 0.792286,
+      "train_meets_target": false,
+      "validation_meets_target": false,
+      "both_meet_target": false
+    },
+    {
+      "name": "trust_ge_0.25 + revenue_yoy_ge_0.3 + avg_volume_ge_2000000 + offset_21_40",
+      "rules": [
+        "投信單日買超占股本 >= 0.25%",
+        "營收年增率 >= 30%",
+        "前20日均量 >= 2,000,000股",
+        "訊號在發行後第 21-40 個交易日"
+      ],
+      "rule_count": 4,
+      "train_2020_2023": {
+        "n": 5,
+        "avg_return_pct": 67.36,
+        "median_return_pct": 59.46,
+        "win_rate_pct": 100.0,
+        "win_rate_wilson_lower_95_pct": 56.55,
+        "double_rate_pct": 20.0,
+        "worst_return_pct": 9.29,
+        "best_return_pct": 159.83,
+        "avg_without_best_pct": 44.24,
+        "trimmed_one_each_pct": 55.89
+      },
+      "validation_2024_plus": {
+        "n": 4,
+        "avg_return_pct": 55.46,
+        "median_return_pct": 28.77,
+        "win_rate_pct": 75.0,
+        "win_rate_wilson_lower_95_pct": 30.06,
+        "double_rate_pct": 25.0,
+        "worst_return_pct": -13.92,
+        "best_return_pct": 178.24,
+        "avg_without_best_pct": 14.54,
+        "trimmed_one_each_pct": 28.77
+      },
+      "overall": {
+        "n": 9,
+        "avg_return_pct": 62.07,
+        "median_return_pct": 48.63,
+        "win_rate_pct": 88.89,
+        "win_rate_wilson_lower_95_pct": 56.5,
+        "double_rate_pct": 22.22,
+        "worst_return_pct": -13.92,
+        "best_return_pct": 178.24,
+        "avg_without_best_pct": 47.55,
+        "trimmed_one_each_pct": 56.33
+      },
+      "target_score": 0.792286,
+      "train_meets_target": false,
+      "validation_meets_target": false,
+      "both_meet_target": false
+    },
+    {
+      "name": "revenue_yoy_ge_0.3 + volume_ratio_le_2.5 + offset_0_40 + ma10_ma20_gap_ge_0.5",
+      "rules": [
+        "營收年增率 >= 30%",
+        "訊號量 / 前20日均量 <= 2.5",
+        "訊號在發行後第 0-40 個交易日",
+        "MA10 高於 MA20 至少 0.5%"
+      ],
+      "rule_count": 4,
+      "train_2020_2023": {
+        "n": 8,
+        "avg_return_pct": 89.05,
+        "median_return_pct": 21.24,
+        "win_rate_pct": 62.5,
+        "win_rate_wilson_lower_95_pct": 30.57,
+        "double_rate_pct": 25.0,
+        "worst_return_pct": -30.44,
+        "best_return_pct": 518.45,
+        "avg_without_best_pct": 27.71,
+        "trimmed_one_each_pct": 37.4
+      },
+      "validation_2024_plus": {
+        "n": 4,
+        "avg_return_pct": 57.49,
+        "median_return_pct": 28.77,
+        "win_rate_pct": 100.0,
+        "win_rate_wilson_lower_95_pct": 51.01,
+        "double_rate_pct": 25.0,
+        "worst_return_pct": 19.49,
+        "best_return_pct": 152.94,
+        "avg_without_best_pct": 25.68,
+        "trimmed_one_each_pct": 28.77
+      },
+      "overall": {
+        "n": 12,
+        "avg_return_pct": 78.53,
+        "median_return_pct": 26.57,
+        "win_rate_pct": 75.0,
+        "win_rate_wilson_lower_95_pct": 46.77,
+        "double_rate_pct": 25.0,
+        "worst_return_pct": -30.44,
+        "best_return_pct": 518.45,
+        "avg_without_best_pct": 38.54,
+        "trimmed_one_each_pct": 45.44
+      },
+      "target_score": 0.78125,
+      "train_meets_target": false,
+      "validation_meets_target": false,
+      "both_meet_target": false
+    },
+    {
+      "name": "revenue_yoy_ge_0.3 + offset_0_40 + ma10_ma20_gap_ge_0.2",
+      "rules": [
+        "營收年增率 >= 30%",
+        "訊號在發行後第 0-40 個交易日",
+        "MA10 高於 MA20 至少 0.2%"
+      ],
+      "rule_count": 3,
+      "train_2020_2023": {
+        "n": 16,
+        "avg_return_pct": 53.92,
+        "median_return_pct": 19.58,
+        "win_rate_pct": 62.5,
+        "win_rate_wilson_lower_95_pct": 38.64,
+        "double_rate_pct": 12.5,
+        "worst_return_pct": -40.55,
+        "best_return_pct": 518.45,
+        "avg_without_best_pct": 22.95,
+        "trimmed_one_each_pct": 27.49
+      },
+      "validation_2024_plus": {
+        "n": 7,
+        "avg_return_pct": 55.6,
+        "median_return_pct": 19.95,
+        "win_rate_pct": 71.43,
+        "win_rate_wilson_lower_95_pct": 35.89,
+        "double_rate_pct": 28.57,
+        "worst_return_pct": -10.04,
+        "best_return_pct": 178.24,
+        "avg_without_best_pct": 35.16,
+        "trimmed_one_each_pct": 44.2
+      },
+      "overall": {
+        "n": 23,
+        "avg_return_pct": 54.43,
+        "median_return_pct": 19.95,
+        "win_rate_pct": 65.22,
+        "win_rate_wilson_lower_95_pct": 44.89,
+        "double_rate_pct": 17.39,
+        "worst_return_pct": -40.55,
+        "best_return_pct": 518.45,
+        "avg_without_best_pct": 33.34,
+        "trimmed_one_each_pct": 36.86
+      },
+      "target_score": 0.770286,
+      "train_meets_target": false,
+      "validation_meets_target": false,
+      "both_meet_target": false
+    }
+  ],
+  "train_target": [
+    {
+      "name": "revenue_yoy_ge_0.3 + volume_ratio_ge_0.8 + offset_0_60 + price_ma20_gap_le_15",
+      "rules": [
+        "營收年增率 >= 30%",
+        "訊號量 / 前20日均量 >= 0.8",
+        "訊號在發行後第 0-60 個交易日",
+        "收盤價高於 MA20 不超過 15%"
+      ],
+      "rule_count": 4,
+      "train_2020_2023": {
+        "n": 13,
+        "avg_return_pct": 75.47,
+        "median_return_pct": 35.76,
+        "win_rate_pct": 84.62,
+        "win_rate_wilson_lower_95_pct": 57.77,
+        "double_rate_pct": 15.38,
+        "worst_return_pct": -30.44,
+        "best_return_pct": 518.45,
+        "avg_without_best_pct": 38.56,
+        "trimmed_one_each_pct": 44.83
+      },
+      "validation_2024_plus": {
+        "n": 12,
+        "avg_return_pct": 25.65,
+        "median_return_pct": -5.47,
+        "win_rate_pct": 41.67,
+        "win_rate_wilson_lower_95_pct": 19.33,
+        "double_rate_pct": 16.67,
+        "worst_return_pct": -36.36,
+        "best_return_pct": 178.24,
+        "avg_without_best_pct": 11.77,
+        "trimmed_one_each_pct": 16.59
+      },
+      "overall": {
+        "n": 25,
+        "avg_return_pct": 51.56,
+        "median_return_pct": 19.95,
+        "win_rate_pct": 64.0,
+        "win_rate_wilson_lower_95_pct": 44.52,
+        "double_rate_pct": 16.0,
+        "worst_return_pct": -36.36,
+        "best_return_pct": 518.45,
+        "avg_without_best_pct": 32.1,
+        "trimmed_one_each_pct": 35.08
+      },
+      "target_score": 0.366429,
+      "train_meets_target": true,
+      "validation_meets_target": false,
+      "both_meet_target": false
+    },
+    {
+      "name": "revenue_yoy_ge_0.3 + volume_ratio_ge_1.2 + offset_0_60 + price_ma20_gap_le_15",
+      "rules": [
+        "營收年增率 >= 30%",
+        "訊號量 / 前20日均量 >= 1.2",
+        "訊號在發行後第 0-60 個交易日",
+        "收盤價高於 MA20 不超過 15%"
+      ],
+      "rule_count": 4,
+      "train_2020_2023": {
+        "n": 13,
+        "avg_return_pct": 75.47,
+        "median_return_pct": 35.76,
+        "win_rate_pct": 84.62,
+        "win_rate_wilson_lower_95_pct": 57.77,
+        "double_rate_pct": 15.38,
+        "worst_return_pct": -30.44,
+        "best_return_pct": 518.45,
+        "avg_without_best_pct": 38.56,
+        "trimmed_one_each_pct": 44.83
+      },
+      "validation_2024_plus": {
+        "n": 9,
+        "avg_return_pct": 19.08,
+        "median_return_pct": -8.99,
+        "win_rate_pct": 33.33,
+        "win_rate_wilson_lower_95_pct": 12.06,
+        "double_rate_pct": 11.11,
+        "worst_return_pct": -18.53,
+        "best_return_pct": 178.24,
+        "avg_without_best_pct": -0.82,
+        "trimmed_one_each_pct": 1.71
+      },
+      "overall": {
+        "n": 22,
+        "avg_return_pct": 52.4,
+        "median_return_pct": 24.91,
+        "win_rate_pct": 63.64,
+        "win_rate_wilson_lower_95_pct": 42.95,
+        "double_rate_pct": 13.64,
+        "worst_return_pct": -30.44,
+        "best_return_pct": 518.45,
+        "avg_without_best_pct": 30.21,
+        "trimmed_one_each_pct": 33.24
+      },
+      "target_score": 0.272571,
+      "train_meets_target": true,
+      "validation_meets_target": false,
+      "both_meet_target": false
+    },
+    {
+      "name": "trust_ge_0.25 + volume_ratio_ge_1.2 + offset_0_120 + ma10_ma20_gap_ge_3",
+      "rules": [
+        "投信單日買超占股本 >= 0.25%",
+        "訊號量 / 前20日均量 >= 1.2",
+        "訊號在發行後第 0-120 個交易日",
+        "MA10 高於 MA20 至少 3%"
+      ],
+      "rule_count": 4,
+      "train_2020_2023": {
+        "n": 13,
+        "avg_return_pct": 72.94,
+        "median_return_pct": 31.49,
+        "win_rate_pct": 84.62,
+        "win_rate_wilson_lower_95_pct": 57.77,
+        "double_rate_pct": 15.38,
+        "worst_return_pct": -27.27,
+        "best_return_pct": 518.45,
+        "avg_without_best_pct": 35.81,
+        "trimmed_one_each_pct": 41.55
+      },
+      "validation_2024_plus": {
+        "n": 4,
+        "avg_return_pct": -6.9,
+        "median_return_pct": -11.63,
+        "win_rate_pct": 25.0,
+        "win_rate_wilson_lower_95_pct": 4.56,
+        "double_rate_pct": 0.0,
+        "worst_return_pct": -20.79,
+        "best_return_pct": 16.44,
+        "avg_without_best_pct": -14.68,
+        "trimmed_one_each_pct": -11.63
+      },
+      "overall": {
+        "n": 17,
+        "avg_return_pct": 54.15,
+        "median_return_pct": 16.44,
+        "win_rate_pct": 70.59,
+        "win_rate_wilson_lower_95_pct": 46.87,
+        "double_rate_pct": 11.76,
+        "worst_return_pct": -27.27,
+        "best_return_pct": 518.45,
+        "avg_without_best_pct": 25.13,
+        "trimmed_one_each_pct": 28.63
+      },
+      "target_score": -0.098571,
+      "train_meets_target": true,
+      "validation_meets_target": false,
+      "both_meet_target": false
+    },
+    {
+      "name": "trust_ge_0.25 + volume_ratio_ge_1 + volume_ratio_le_2.5 + offset_0_40",
+      "rules": [
+        "投信單日買超占股本 >= 0.25%",
+        "訊號量 / 前20日均量 >= 1",
+        "訊號量 / 前20日均量 <= 2.5",
+        "訊號在發行後第 0-40 個交易日"
+      ],
+      "rule_count": 4,
+      "train_2020_2023": {
+        "n": 13,
+        "avg_return_pct": 71.94,
+        "median_return_pct": 31.49,
+        "win_rate_pct": 92.31,
+        "win_rate_wilson_lower_95_pct": 66.69,
+        "double_rate_pct": 15.38,
+        "worst_return_pct": -3.93,
+        "best_return_pct": 518.45,
+        "avg_without_best_pct": 34.73,
+        "trimmed_one_each_pct": 38.25
+      },
+      "validation_2024_plus": {
+        "n": 9,
+        "avg_return_pct": 15.07,
+        "median_return_pct": -3.14,
+        "win_rate_pct": 44.44,
+        "win_rate_wilson_lower_95_pct": 18.88,
+        "double_rate_pct": 11.11,
+        "worst_return_pct": -36.36,
+        "best_return_pct": 152.94,
+        "avg_without_best_pct": -2.16,
+        "trimmed_one_each_pct": 2.72
+      },
+      "overall": {
+        "n": 22,
+        "avg_return_pct": 48.68,
+        "median_return_pct": 16.37,
+        "win_rate_pct": 72.73,
+        "win_rate_wilson_lower_95_pct": 51.85,
+        "double_rate_pct": 13.64,
+        "worst_return_pct": -36.36,
+        "best_return_pct": 518.45,
+        "avg_without_best_pct": 26.31,
+        "trimmed_one_each_pct": 29.44
+      },
+      "target_score": 0.215286,
+      "train_meets_target": true,
+      "validation_meets_target": false,
+      "both_meet_target": false
+    },
+    {
+      "name": "trust_ge_0.25 + volume_ratio_ge_1.5 + avg_volume_ge_2000000 + ma10_ma20_gap_ge_3",
+      "rules": [
+        "投信單日買超占股本 >= 0.25%",
+        "訊號量 / 前20日均量 >= 1.5",
+        "前20日均量 >= 2,000,000股",
+        "MA10 高於 MA20 至少 3%"
+      ],
+      "rule_count": 4,
+      "train_2020_2023": {
+        "n": 13,
+        "avg_return_pct": 70.76,
+        "median_return_pct": 31.49,
+        "win_rate_pct": 84.62,
+        "win_rate_wilson_lower_95_pct": 57.77,
+        "double_rate_pct": 15.38,
+        "worst_return_pct": -34.77,
+        "best_return_pct": 518.45,
+        "avg_without_best_pct": 33.46,
+        "trimmed_one_each_pct": 39.66
+      },
+      "validation_2024_plus": {
+        "n": 6,
+        "avg_return_pct": -13.14,
+        "median_return_pct": -20.45,
+        "win_rate_pct": 16.67,
+        "win_rate_wilson_lower_95_pct": 3.01,
+        "double_rate_pct": 0.0,
+        "worst_return_pct": -24.78,
+        "best_return_pct": 16.44,
+        "avg_without_best_pct": -19.06,
+        "trimmed_one_each_pct": -17.62
+      },
+      "overall": {
+        "n": 19,
+        "avg_return_pct": 44.27,
+        "median_return_pct": 10.43,
+        "win_rate_pct": 63.16,
+        "win_rate_wilson_lower_95_pct": 41.04,
+        "double_rate_pct": 10.53,
+        "worst_return_pct": -34.77,
+        "best_return_pct": 518.45,
+        "avg_without_best_pct": 17.92,
+        "trimmed_one_each_pct": 21.02
+      },
+      "target_score": -0.187714,
+      "train_meets_target": true,
+      "validation_meets_target": false,
+      "both_meet_target": false
+    },
+    {
+      "name": "trust_ge_0.25 + volume_ratio_ge_1.5 + offset_0_120 + ma10_ma20_gap_ge_3",
+      "rules": [
+        "投信單日買超占股本 >= 0.25%",
+        "訊號量 / 前20日均量 >= 1.5",
+        "訊號在發行後第 0-120 個交易日",
+        "MA10 高於 MA20 至少 3%"
+      ],
+      "rule_count": 4,
+      "train_2020_2023": {
+        "n": 12,
+        "avg_return_pct": 79.64,
+        "median_return_pct": 33.72,
+        "win_rate_pct": 91.67,
+        "win_rate_wilson_lower_95_pct": 64.61,
+        "double_rate_pct": 16.67,
+        "worst_return_pct": -27.27,
+        "best_return_pct": 518.45,
+        "avg_without_best_pct": 39.74,
+        "trimmed_one_each_pct": 46.45
+      },
+      "validation_2024_plus": {
+        "n": 3,
+        "avg_return_pct": -8.15,
+        "median_return_pct": -20.11,
+        "win_rate_pct": 33.33,
+        "win_rate_wilson_lower_95_pct": 6.15,
+        "double_rate_pct": 0.0,
+        "worst_return_pct": -20.79,
+        "best_return_pct": 16.44,
+        "avg_without_best_pct": -20.45,
+        "trimmed_one_each_pct": -20.11
+      },
+      "overall": {
+        "n": 15,
+        "avg_return_pct": 62.08,
+        "median_return_pct": 23.85,
+        "win_rate_pct": 80.0,
+        "win_rate_wilson_lower_95_pct": 54.81,
+        "double_rate_pct": 13.33,
+        "worst_return_pct": -27.27,
+        "best_return_pct": 518.45,
+        "avg_without_best_pct": 29.48,
+        "trimmed_one_each_pct": 33.85
+      },
+      "target_score": -0.116429,
+      "train_meets_target": true,
+      "validation_meets_target": false,
+      "both_meet_target": false
+    },
+    {
+      "name": "revenue_yoy_ge_0.3 + offset_0_40 + ma10_ma20_gap_ge_0.2 + price_ma20_gap_le_15",
+      "rules": [
+        "營收年增率 >= 30%",
+        "訊號在發行後第 0-40 個交易日",
+        "MA10 高於 MA20 至少 0.2%",
+        "收盤價高於 MA20 不超過 15%"
+      ],
+      "rule_count": 4,
+      "train_2020_2023": {
+        "n": 12,
+        "avg_return_pct": 79.26,
+        "median_return_pct": 40.92,
+        "win_rate_pct": 83.33,
+        "win_rate_wilson_lower_95_pct": 55.2,
+        "double_rate_pct": 16.67,
+        "worst_return_pct": -30.44,
+        "best_return_pct": 518.45,
+        "avg_without_best_pct": 39.34,
+        "trimmed_one_each_pct": 46.31
+      },
+      "validation_2024_plus": {
+        "n": 7,
+        "avg_return_pct": 55.6,
+        "median_return_pct": 19.95,
+        "win_rate_pct": 71.43,
+        "win_rate_wilson_lower_95_pct": 35.89,
+        "double_rate_pct": 28.57,
+        "worst_return_pct": -10.04,
+        "best_return_pct": 178.24,
+        "avg_without_best_pct": 35.16,
+        "trimmed_one_each_pct": 44.2
+      },
+      "overall": {
+        "n": 19,
+        "avg_return_pct": 70.54,
+        "median_return_pct": 33.2,
+        "win_rate_pct": 78.95,
+        "win_rate_wilson_lower_95_pct": 56.67,
+        "double_rate_pct": 21.05,
+        "worst_return_pct": -30.44,
+        "best_return_pct": 518.45,
+        "avg_without_best_pct": 45.66,
+        "trimmed_one_each_pct": 50.14
+      },
+      "target_score": 0.794286,
+      "train_meets_target": true,
+      "validation_meets_target": false,
+      "both_meet_target": false
+    },
+    {
+      "name": "revenue_yoy_ge_0.3 + volume_ratio_ge_0.8 + offset_0_40 + price_ma20_gap_le_15",
+      "rules": [
+        "營收年增率 >= 30%",
+        "訊號量 / 前20日均量 >= 0.8",
+        "訊號在發行後第 0-40 個交易日",
+        "收盤價高於 MA20 不超過 15%"
+      ],
+      "rule_count": 4,
+      "train_2020_2023": {
+        "n": 12,
+        "avg_return_pct": 78.78,
+        "median_return_pct": 40.92,
+        "win_rate_pct": 83.33,
+        "win_rate_wilson_lower_95_pct": 55.2,
+        "double_rate_pct": 16.67,
+        "worst_return_pct": -30.44,
+        "best_return_pct": 518.45,
+        "avg_without_best_pct": 38.81,
+        "trimmed_one_each_pct": 45.74
+      },
+      "validation_2024_plus": {
+        "n": 9,
+        "avg_return_pct": 37.65,
+        "median_return_pct": 19.49,
+        "win_rate_pct": 55.56,
+        "win_rate_wilson_lower_95_pct": 26.67,
+        "double_rate_pct": 22.22,
+        "worst_return_pct": -36.36,
+        "best_return_pct": 178.24,
+        "avg_without_best_pct": 20.08,
+        "trimmed_one_each_pct": 28.15
+      },
+      "overall": {
+        "n": 21,
+        "avg_return_pct": 61.16,
+        "median_return_pct": 29.87,
+        "win_rate_pct": 71.43,
+        "win_rate_wilson_lower_95_pct": 50.04,
+        "double_rate_pct": 19.05,
+        "worst_return_pct": -36.36,
+        "best_return_pct": 518.45,
+        "avg_without_best_pct": 38.29,
+        "trimmed_one_each_pct": 42.22
+      },
+      "target_score": 0.537857,
+      "train_meets_target": true,
+      "validation_meets_target": false,
+      "both_meet_target": false
+    },
+    {
+      "name": "revenue_yoy_ge_0.3 + volume_ratio_ge_1.2 + offset_0_40 + price_ma20_gap_le_15",
+      "rules": [
+        "營收年增率 >= 30%",
+        "訊號量 / 前20日均量 >= 1.2",
+        "訊號在發行後第 0-40 個交易日",
+        "收盤價高於 MA20 不超過 15%"
+      ],
+      "rule_count": 4,
+      "train_2020_2023": {
+        "n": 12,
+        "avg_return_pct": 78.78,
+        "median_return_pct": 40.92,
+        "win_rate_pct": 83.33,
+        "win_rate_wilson_lower_95_pct": 55.2,
+        "double_rate_pct": 16.67,
+        "worst_return_pct": -30.44,
+        "best_return_pct": 518.45,
+        "avg_without_best_pct": 38.81,
+        "trimmed_one_each_pct": 45.74
+      },
+      "validation_2024_plus": {
+        "n": 6,
+        "avg_return_pct": 33.81,
+        "median_return_pct": 5.48,
+        "win_rate_pct": 50.0,
+        "win_rate_wilson_lower_95_pct": 18.76,
+        "double_rate_pct": 16.67,
+        "worst_return_pct": -13.92,
+        "best_return_pct": 178.24,
+        "avg_without_best_pct": 4.92,
+        "trimmed_one_each_pct": 9.63
+      },
+      "overall": {
+        "n": 18,
+        "avg_return_pct": 63.79,
+        "median_return_pct": 31.53,
+        "win_rate_pct": 72.22,
+        "win_rate_wilson_lower_95_pct": 49.13,
+        "double_rate_pct": 16.67,
+        "worst_return_pct": -30.44,
+        "best_return_pct": 518.45,
+        "avg_without_best_pct": 37.05,
+        "trimmed_one_each_pct": 41.26
+      },
+      "target_score": 0.483,
+      "train_meets_target": true,
+      "validation_meets_target": false,
+      "both_meet_target": false
+    },
+    {
+      "name": "trust_ge_0.25 + revenue_yoy_ge_0.3 + volume_ratio_ge_0.8 + offset_0_60",
+      "rules": [
+        "投信單日買超占股本 >= 0.25%",
+        "營收年增率 >= 30%",
+        "訊號量 / 前20日均量 >= 0.8",
+        "訊號在發行後第 0-60 個交易日"
+      ],
+      "rule_count": 4,
+      "train_2020_2023": {
+        "n": 12,
+        "avg_return_pct": 75.29,
+        "median_return_pct": 34.48,
+        "win_rate_pct": 83.33,
+        "win_rate_wilson_lower_95_pct": 55.2,
+        "double_rate_pct": 16.67,
+        "worst_return_pct": -40.55,
+        "best_return_pct": 518.45,
+        "avg_without_best_pct": 35.0,
+        "trimmed_one_each_pct": 42.55
+      },
+      "validation_2024_plus": {
+        "n": 12,
+        "avg_return_pct": 25.65,
+        "median_return_pct": -5.47,
+        "win_rate_pct": 41.67,
+        "win_rate_wilson_lower_95_pct": 19.33,
+        "double_rate_pct": 16.67,
+        "worst_return_pct": -36.36,
+        "best_return_pct": 178.24,
+        "avg_without_best_pct": 11.77,
+        "trimmed_one_each_pct": 16.59
+      },
+      "overall": {
+        "n": 24,
+        "avg_return_pct": 50.47,
+        "median_return_pct": 19.72,
+        "win_rate_pct": 62.5,
+        "win_rate_wilson_lower_95_pct": 42.71,
+        "double_rate_pct": 16.67,
+        "worst_return_pct": -40.55,
+        "best_return_pct": 518.45,
+        "avg_without_best_pct": 30.12,
+        "trimmed_one_each_pct": 33.33
+      },
+      "target_score": 0.366429,
+      "train_meets_target": true,
+      "validation_meets_target": false,
+      "both_meet_target": false
+    },
+    {
+      "name": "trust_ge_0.25 + revenue_yoy_ge_0.3 + volume_ratio_ge_1.2 + offset_0_60",
+      "rules": [
+        "投信單日買超占股本 >= 0.25%",
+        "營收年增率 >= 30%",
+        "訊號量 / 前20日均量 >= 1.2",
+        "訊號在發行後第 0-60 個交易日"
+      ],
+      "rule_count": 4,
+      "train_2020_2023": {
+        "n": 12,
+        "avg_return_pct": 75.29,
+        "median_return_pct": 34.48,
+        "win_rate_pct": 83.33,
+        "win_rate_wilson_lower_95_pct": 55.2,
+        "double_rate_pct": 16.67,
+        "worst_return_pct": -40.55,
+        "best_return_pct": 518.45,
+        "avg_without_best_pct": 35.0,
+        "trimmed_one_each_pct": 42.55
+      },
+      "validation_2024_plus": {
+        "n": 9,
+        "avg_return_pct": 19.08,
+        "median_return_pct": -8.99,
+        "win_rate_pct": 33.33,
+        "win_rate_wilson_lower_95_pct": 12.06,
+        "double_rate_pct": 11.11,
+        "worst_return_pct": -18.53,
+        "best_return_pct": 178.24,
+        "avg_without_best_pct": -0.82,
+        "trimmed_one_each_pct": 1.71
+      },
+      "overall": {
+        "n": 21,
+        "avg_return_pct": 51.2,
+        "median_return_pct": 19.95,
+        "win_rate_pct": 61.9,
+        "win_rate_wilson_lower_95_pct": 40.88,
+        "double_rate_pct": 14.29,
+        "worst_return_pct": -40.55,
+        "best_return_pct": 518.45,
+        "avg_without_best_pct": 27.83,
+        "trimmed_one_each_pct": 31.43
+      },
+      "target_score": 0.272571,
+      "train_meets_target": true,
+      "validation_meets_target": false,
+      "both_meet_target": false
+    },
+    {
+      "name": "trust_ge_0.25 + revenue_yoy_ge_0.3 + volume_ratio_le_8 + offset_0_60",
+      "rules": [
+        "投信單日買超占股本 >= 0.25%",
+        "營收年增率 >= 30%",
+        "訊號量 / 前20日均量 <= 8",
+        "訊號在發行後第 0-60 個交易日"
+      ],
+      "rule_count": 4,
+      "train_2020_2023": {
+        "n": 12,
+        "avg_return_pct": 75.01,
+        "median_return_pct": 34.48,
+        "win_rate_pct": 83.33,
+        "win_rate_wilson_lower_95_pct": 55.2,
+        "double_rate_pct": 16.67,
+        "worst_return_pct": -40.55,
+        "best_return_pct": 518.45,
+        "avg_without_best_pct": 34.7,
+        "trimmed_one_each_pct": 42.22
+      },
+      "validation_2024_plus": {
+        "n": 12,
+        "avg_return_pct": 25.65,
+        "median_return_pct": -5.47,
+        "win_rate_pct": 41.67,
+        "win_rate_wilson_lower_95_pct": 19.33,
+        "double_rate_pct": 16.67,
+        "worst_return_pct": -36.36,
+        "best_return_pct": 178.24,
+        "avg_without_best_pct": 11.77,
+        "trimmed_one_each_pct": 16.59
+      },
+      "overall": {
+        "n": 24,
+        "avg_return_pct": 50.33,
+        "median_return_pct": 19.72,
+        "win_rate_pct": 62.5,
+        "win_rate_wilson_lower_95_pct": 42.71,
+        "double_rate_pct": 16.67,
+        "worst_return_pct": -40.55,
+        "best_return_pct": 518.45,
+        "avg_without_best_pct": 29.97,
+        "trimmed_one_each_pct": 33.18
+      },
+      "target_score": 0.366429,
+      "train_meets_target": true,
+      "validation_meets_target": false,
+      "both_meet_target": false
+    },
+    {
+      "name": "volume_ratio_ge_1.2 + avg_volume_ge_2000000 + offset_0_60 + ma10_ma20_gap_ge_3",
+      "rules": [
+        "訊號量 / 前20日均量 >= 1.2",
+        "前20日均量 >= 2,000,000股",
+        "訊號在發行後第 0-60 個交易日",
+        "MA10 高於 MA20 至少 3%"
+      ],
+      "rule_count": 4,
+      "train_2020_2023": {
+        "n": 12,
+        "avg_return_pct": 72.78,
+        "median_return_pct": 31.92,
+        "win_rate_pct": 83.33,
+        "win_rate_wilson_lower_95_pct": 55.2,
+        "double_rate_pct": 16.67,
+        "worst_return_pct": -30.44,
+        "best_return_pct": 518.45,
+        "avg_without_best_pct": 32.27,
+        "trimmed_one_each_pct": 38.54
+      },
+      "validation_2024_plus": {
+        "n": 4,
+        "avg_return_pct": -6.9,
+        "median_return_pct": -11.63,
+        "win_rate_pct": 25.0,
+        "win_rate_wilson_lower_95_pct": 4.56,
+        "double_rate_pct": 0.0,
+        "worst_return_pct": -20.79,
+        "best_return_pct": 16.44,
+        "avg_without_best_pct": -14.68,
+        "trimmed_one_each_pct": -11.63
+      },
+      "overall": {
+        "n": 16,
+        "avg_return_pct": 52.86,
+        "median_return_pct": 16.35,
+        "win_rate_pct": 68.75,
+        "win_rate_wilson_lower_95_pct": 44.4,
+        "double_rate_pct": 12.5,
+        "worst_return_pct": -30.44,
+        "best_return_pct": 518.45,
+        "avg_without_best_pct": 21.82,
+        "trimmed_one_each_pct": 25.55
+      },
+      "target_score": -0.098571,
+      "train_meets_target": true,
+      "validation_meets_target": false,
+      "both_meet_target": false
+    },
+    {
+      "name": "volume_ratio_ge_1 + offset_0_40 + ma10_ma20_gap_ge_3",
+      "rules": [
+        "訊號量 / 前20日均量 >= 1",
+        "訊號在發行後第 0-40 個交易日",
+        "MA10 高於 MA20 至少 3%"
+      ],
+      "rule_count": 3,
+      "train_2020_2023": {
+        "n": 12,
+        "avg_return_pct": 71.32,
+        "median_return_pct": 31.92,
+        "win_rate_pct": 83.33,
+        "win_rate_wilson_lower_95_pct": 55.2,
+        "double_rate_pct": 16.67,
+        "worst_return_pct": -30.44,
+        "best_return_pct": 518.45,
+        "avg_without_best_pct": 30.67,
+        "trimmed_one_each_pct": 36.78
+      },
+      "validation_2024_plus": {
+        "n": 5,
+        "avg_return_pct": -1.62,
+        "median_return_pct": -3.14,
+        "win_rate_pct": 40.0,
+        "win_rate_wilson_lower_95_pct": 11.76,
+        "double_rate_pct": 0.0,
+        "worst_return_pct": -20.79,
+        "best_return_pct": 19.49,
+        "avg_without_best_pct": -6.9,
+        "trimmed_one_each_pct": -2.27
+      },
+      "overall": {
+        "n": 17,
+        "avg_return_pct": 49.87,
+        "median_return_pct": 16.44,
+        "win_rate_pct": 70.59,
+        "win_rate_wilson_lower_95_pct": 46.87,
+        "double_rate_pct": 11.76,
+        "worst_return_pct": -30.44,
+        "best_return_pct": 518.45,
+        "avg_without_best_pct": 20.58,
+        "trimmed_one_each_pct": 23.98
+      },
+      "target_score": -0.023143,
+      "train_meets_target": true,
+      "validation_meets_target": false,
+      "both_meet_target": false
+    },
+    {
+      "name": "volume_ratio_ge_1 + offset_0_40 + ma5_ma10_gap_ge_0.2 + ma10_ma20_gap_ge_3",
+      "rules": [
+        "訊號量 / 前20日均量 >= 1",
+        "訊號在發行後第 0-40 個交易日",
+        "MA5 高於 MA10 至少 0.2%",
+        "MA10 高於 MA20 至少 3%"
+      ],
+      "rule_count": 4,
+      "train_2020_2023": {
+        "n": 12,
+        "avg_return_pct": 71.32,
+        "median_return_pct": 31.92,
+        "win_rate_pct": 83.33,
+        "win_rate_wilson_lower_95_pct": 55.2,
+        "double_rate_pct": 16.67,
+        "worst_return_pct": -30.44,
+        "best_return_pct": 518.45,
+        "avg_without_best_pct": 30.67,
+        "trimmed_one_each_pct": 36.78
+      },
+      "validation_2024_plus": {
+        "n": 4,
+        "avg_return_pct": -6.9,
+        "median_return_pct": -11.63,
+        "win_rate_pct": 25.0,
+        "win_rate_wilson_lower_95_pct": 4.56,
+        "double_rate_pct": 0.0,
+        "worst_return_pct": -20.79,
+        "best_return_pct": 16.44,
+        "avg_without_best_pct": -14.68,
+        "trimmed_one_each_pct": -11.63
+      },
+      "overall": {
+        "n": 16,
+        "avg_return_pct": 51.76,
+        "median_return_pct": 14.32,
+        "win_rate_pct": 68.75,
+        "win_rate_wilson_lower_95_pct": 44.4,
+        "double_rate_pct": 12.5,
+        "worst_return_pct": -30.44,
+        "best_return_pct": 518.45,
+        "avg_without_best_pct": 20.65,
+        "trimmed_one_each_pct": 24.3
+      },
+      "target_score": -0.098571,
+      "train_meets_target": true,
+      "validation_meets_target": false,
+      "both_meet_target": false
+    },
+    {
+      "name": "revenue_yoy_ge_0.5 + revenue_mom_ge_-0.1 + volume_ratio_ge_1 + price_ma20_gap_le_15",
+      "rules": [
+        "營收年增率 >= 50%",
+        "營收月增率 >= -10%",
+        "訊號量 / 前20日均量 >= 1",
+        "收盤價高於 MA20 不超過 15%"
+      ],
+      "rule_count": 4,
+      "train_2020_2023": {
+        "n": 11,
+        "avg_return_pct": 104.41,
+        "median_return_pct": 59.57,
+        "win_rate_pct": 81.82,
+        "win_rate_wilson_lower_95_pct": 52.3,
+        "double_rate_pct": 27.27,
+        "worst_return_pct": -10.86,
+        "best_return_pct": 518.45,
+        "avg_without_best_pct": 63.01,
+        "trimmed_one_each_pct": 71.22
+      },
+      "validation_2024_plus": {
+        "n": 7,
+        "avg_return_pct": 34.7,
+        "median_return_pct": 19.49,
+        "win_rate_pct": 57.14,
+        "win_rate_wilson_lower_95_pct": 25.05,
+        "double_rate_pct": 14.29,
+        "worst_return_pct": -18.53,
+        "best_return_pct": 152.94,
+        "avg_without_best_pct": 15.0,
+        "trimmed_one_each_pct": 21.7
+      },
+      "overall": {
+        "n": 18,
+        "avg_return_pct": 77.3,
+        "median_return_pct": 34.48,
+        "win_rate_pct": 72.22,
+        "win_rate_wilson_lower_95_pct": 49.13,
+        "double_rate_pct": 22.22,
+        "worst_return_pct": -18.53,
+        "best_return_pct": 518.45,
+        "avg_without_best_pct": 51.35,
+        "trimmed_one_each_pct": 55.72
+      },
+      "target_score": 0.495714,
+      "train_meets_target": true,
+      "validation_meets_target": false,
+      "both_meet_target": false
+    },
+    {
+      "name": "revenue_yoy_ge_0.5 + revenue_mom_ge_-0.1 + volume_ratio_ge_0.8 + price_ma20_gap_le_15",
+      "rules": [
+        "營收年增率 >= 50%",
+        "營收月增率 >= -10%",
+        "訊號量 / 前20日均量 >= 0.8",
+        "收盤價高於 MA20 不超過 15%"
+      ],
+      "rule_count": 4,
+      "train_2020_2023": {
+        "n": 11,
+        "avg_return_pct": 104.41,
+        "median_return_pct": 59.57,
+        "win_rate_pct": 81.82,
+        "win_rate_wilson_lower_95_pct": 52.3,
+        "double_rate_pct": 27.27,
+        "worst_return_pct": -10.86,
+        "best_return_pct": 518.45,
+        "avg_without_best_pct": 63.01,
+        "trimmed_one_each_pct": 71.22
+      },
+      "validation_2024_plus": {
+        "n": 8,
+        "avg_return_pct": 30.68,
+        "median_return_pct": 10.99,
+        "win_rate_pct": 62.5,
+        "win_rate_wilson_lower_95_pct": 30.57,
+        "double_rate_pct": 12.5,
+        "worst_return_pct": -18.53,
+        "best_return_pct": 152.94,
+        "avg_without_best_pct": 13.21,
+        "trimmed_one_each_pct": 18.5
+      },
+      "overall": {
+        "n": 19,
+        "avg_return_pct": 73.37,
+        "median_return_pct": 33.2,
+        "win_rate_pct": 73.68,
+        "win_rate_wilson_lower_95_pct": 51.21,
+        "double_rate_pct": 21.05,
+        "worst_return_pct": -18.53,
+        "best_return_pct": 518.45,
+        "avg_without_best_pct": 48.64,
+        "trimmed_one_each_pct": 52.59
+      },
+      "target_score": 0.438286,
+      "train_meets_target": true,
+      "validation_meets_target": false,
+      "both_meet_target": false
+    },
+    {
+      "name": "revenue_yoy_ge_0.5 + volume_ratio_ge_1 + ma10_ma20_gap_ge_0.2 + price_ma20_gap_le_15",
+      "rules": [
+        "營收年增率 >= 50%",
+        "訊號量 / 前20日均量 >= 1",
+        "MA10 高於 MA20 至少 0.2%",
+        "收盤價高於 MA20 不超過 15%"
+      ],
+      "rule_count": 4,
+      "train_2020_2023": {
+        "n": 11,
+        "avg_return_pct": 104.41,
+        "median_return_pct": 59.57,
+        "win_rate_pct": 81.82,
+        "win_rate_wilson_lower_95_pct": 52.3,
+        "double_rate_pct": 27.27,
+        "worst_return_pct": -10.86,
+        "best_return_pct": 518.45,
+        "avg_without_best_pct": 63.01,
+        "trimmed_one_each_pct": 71.22
+      },
+      "validation_2024_plus": {
+        "n": 9,
+        "avg_return_pct": 27.21,
+        "median_return_pct": 19.49,
+        "win_rate_pct": 55.56,
+        "win_rate_wilson_lower_95_pct": 26.67,
+        "double_rate_pct": 11.11,
+        "worst_return_pct": -47.63,
+        "best_return_pct": 152.94,
+        "avg_without_best_pct": 11.49,
+        "trimmed_one_each_pct": 19.94
+      },
+      "overall": {
+        "n": 20,
+        "avg_return_pct": 69.67,
+        "median_return_pct": 34.48,
+        "win_rate_pct": 70.0,
+        "win_rate_wilson_lower_95_pct": 48.1,
+        "double_rate_pct": 20.0,
+        "worst_return_pct": -47.63,
+        "best_return_pct": 518.45,
+        "avg_without_best_pct": 46.05,
+        "trimmed_one_each_pct": 51.25
+      },
+      "target_score": 0.388714,
+      "train_meets_target": true,
+      "validation_meets_target": false,
+      "both_meet_target": false
+    },
+    {
+      "name": "revenue_yoy_ge_0.5 + volume_ratio_ge_0.8 + ma10_ma20_gap_ge_0.2 + price_ma20_gap_le_15",
+      "rules": [
+        "營收年增率 >= 50%",
+        "訊號量 / 前20日均量 >= 0.8",
+        "MA10 高於 MA20 至少 0.2%",
+        "收盤價高於 MA20 不超過 15%"
+      ],
+      "rule_count": 4,
+      "train_2020_2023": {
+        "n": 11,
+        "avg_return_pct": 104.41,
+        "median_return_pct": 59.57,
+        "win_rate_pct": 81.82,
+        "win_rate_wilson_lower_95_pct": 52.3,
+        "double_rate_pct": 27.27,
+        "worst_return_pct": -10.86,
+        "best_return_pct": 518.45,
+        "avg_without_best_pct": 63.01,
+        "trimmed_one_each_pct": 71.22
+      },
+      "validation_2024_plus": {
+        "n": 10,
+        "avg_return_pct": 24.73,
+        "median_return_pct": 10.99,
+        "win_rate_pct": 60.0,
+        "win_rate_wilson_lower_95_pct": 31.27,
+        "double_rate_pct": 10.0,
+        "worst_return_pct": -47.63,
+        "best_return_pct": 152.94,
+        "avg_without_best_pct": 10.49,
+        "trimmed_one_each_pct": 17.75
+      },
+      "overall": {
+        "n": 21,
+        "avg_return_pct": 66.47,
+        "median_return_pct": 33.2,
+        "win_rate_pct": 71.43,
+        "win_rate_wilson_lower_95_pct": 50.04,
+        "double_rate_pct": 19.05,
+        "worst_return_pct": -47.63,
+        "best_return_pct": 518.45,
+        "avg_without_best_pct": 43.87,
+        "trimmed_one_each_pct": 48.69
+      },
+      "target_score": 0.353286,
+      "train_meets_target": true,
+      "validation_meets_target": false,
+      "both_meet_target": false
+    },
+    {
+      "name": "revenue_yoy_ge_0.5 + volume_ratio_ge_1 + ma5_ma10_gap_ge_0.2 + price_ma20_gap_le_15",
+      "rules": [
+        "營收年增率 >= 50%",
+        "訊號量 / 前20日均量 >= 1",
+        "MA5 高於 MA10 至少 0.2%",
+        "收盤價高於 MA20 不超過 15%"
+      ],
+      "rule_count": 4,
+      "train_2020_2023": {
+        "n": 11,
+        "avg_return_pct": 104.41,
+        "median_return_pct": 59.57,
+        "win_rate_pct": 81.82,
+        "win_rate_wilson_lower_95_pct": 52.3,
+        "double_rate_pct": 27.27,
+        "worst_return_pct": -10.86,
+        "best_return_pct": 518.45,
+        "avg_without_best_pct": 63.01,
+        "trimmed_one_each_pct": 71.22
+      },
+      "validation_2024_plus": {
+        "n": 9,
+        "avg_return_pct": 21.51,
+        "median_return_pct": -1.95,
+        "win_rate_pct": 44.44,
+        "win_rate_wilson_lower_95_pct": 18.88,
+        "double_rate_pct": 11.11,
+        "worst_return_pct": -47.63,
+        "best_return_pct": 152.94,
+        "avg_without_best_pct": 5.08,
+        "trimmed_one_each_pct": 12.62
+      },
+      "overall": {
+        "n": 20,
+        "avg_return_pct": 67.11,
+        "median_return_pct": 34.48,
+        "win_rate_pct": 65.0,
+        "win_rate_wilson_lower_95_pct": 43.29,
+        "double_rate_pct": 20.0,
+        "worst_return_pct": -47.63,
+        "best_return_pct": 518.45,
+        "avg_without_best_pct": 43.35,
+        "trimmed_one_each_pct": 48.41
+      },
+      "target_score": 0.307286,
+      "train_meets_target": true,
+      "validation_meets_target": false,
+      "both_meet_target": false
+    },
+    {
+      "name": "revenue_yoy_ge_0.5 + volume_ratio_ge_0.8 + ma5_ma10_gap_ge_0.2 + price_ma20_gap_le_15",
+      "rules": [
+        "營收年增率 >= 50%",
+        "訊號量 / 前20日均量 >= 0.8",
+        "MA5 高於 MA10 至少 0.2%",
+        "收盤價高於 MA20 不超過 15%"
+      ],
+      "rule_count": 4,
+      "train_2020_2023": {
+        "n": 11,
+        "avg_return_pct": 104.41,
+        "median_return_pct": 59.57,
+        "win_rate_pct": 81.82,
+        "win_rate_wilson_lower_95_pct": 52.3,
+        "double_rate_pct": 27.27,
+        "worst_return_pct": -10.86,
+        "best_return_pct": 518.45,
+        "avg_without_best_pct": 63.01,
+        "trimmed_one_each_pct": 71.22
+      },
+      "validation_2024_plus": {
+        "n": 10,
+        "avg_return_pct": 19.61,
+        "median_return_pct": 0.27,
+        "win_rate_pct": 50.0,
+        "win_rate_wilson_lower_95_pct": 23.66,
+        "double_rate_pct": 10.0,
+        "worst_return_pct": -47.63,
+        "best_return_pct": 152.94,
+        "avg_without_best_pct": 4.8,
+        "trimmed_one_each_pct": 11.35
+      },
+      "overall": {
+        "n": 21,
+        "avg_return_pct": 64.03,
+        "median_return_pct": 33.2,
+        "win_rate_pct": 66.67,
+        "win_rate_wilson_lower_95_pct": 45.37,
+        "double_rate_pct": 19.05,
+        "worst_return_pct": -47.63,
+        "best_return_pct": 518.45,
+        "avg_without_best_pct": 41.31,
+        "trimmed_one_each_pct": 45.99
+      },
+      "target_score": 0.280143,
+      "train_meets_target": true,
+      "validation_meets_target": false,
+      "both_meet_target": false
+    },
+    {
+      "name": "revenue_yoy_ge_0.5 + volume_ratio_ge_1 + price_ma20_gap_le_15",
+      "rules": [
+        "營收年增率 >= 50%",
+        "訊號量 / 前20日均量 >= 1",
+        "收盤價高於 MA20 不超過 15%"
+      ],
+      "rule_count": 3,
+      "train_2020_2023": {
+        "n": 11,
+        "avg_return_pct": 104.41,
+        "median_return_pct": 59.57,
+        "win_rate_pct": 81.82,
+        "win_rate_wilson_lower_95_pct": 52.3,
+        "double_rate_pct": 27.27,
+        "worst_return_pct": -10.86,
+        "best_return_pct": 518.45,
+        "avg_without_best_pct": 63.01,
+        "trimmed_one_each_pct": 71.22
+      },
+      "validation_2024_plus": {
+        "n": 11,
+        "avg_return_pct": 17.69,
+        "median_return_pct": -1.95,
+        "win_rate_pct": 45.45,
+        "win_rate_wilson_lower_95_pct": 21.27,
+        "double_rate_pct": 9.09,
+        "worst_return_pct": -47.63,
+        "best_return_pct": 152.94,
+        "avg_without_best_pct": 4.16,
+        "trimmed_one_each_pct": 9.92
+      },
+      "overall": {
+        "n": 22,
+        "avg_return_pct": 61.05,
+        "median_return_pct": 26.57,
+        "win_rate_pct": 63.64,
+        "win_rate_wilson_lower_95_pct": 42.95,
+        "double_rate_pct": 18.18,
+        "worst_return_pct": -47.63,
+        "best_return_pct": 518.45,
+        "avg_without_best_pct": 39.27,
+        "trimmed_one_each_pct": 43.61
+      },
+      "target_score": 0.252714,
+      "train_meets_target": true,
+      "validation_meets_target": false,
+      "both_meet_target": false
+    },
+    {
+      "name": "revenue_yoy_ge_0.5 + volume_ratio_ge_0.8 + price_ma20_gap_le_15",
+      "rules": [
+        "營收年增率 >= 50%",
+        "訊號量 / 前20日均量 >= 0.8",
+        "收盤價高於 MA20 不超過 15%"
+      ],
+      "rule_count": 3,
+      "train_2020_2023": {
+        "n": 11,
+        "avg_return_pct": 104.41,
+        "median_return_pct": 59.57,
+        "win_rate_pct": 81.82,
+        "win_rate_wilson_lower_95_pct": 52.3,
+        "double_rate_pct": 27.27,
+        "worst_return_pct": -10.86,
+        "best_return_pct": 518.45,
+        "avg_without_best_pct": 63.01,
+        "trimmed_one_each_pct": 71.22
+      },
+      "validation_2024_plus": {
+        "n": 12,
+        "avg_return_pct": 16.42,
+        "median_return_pct": 0.27,
+        "win_rate_pct": 50.0,
+        "win_rate_wilson_lower_95_pct": 25.38,
+        "double_rate_pct": 8.33,
+        "worst_return_pct": -47.63,
+        "best_return_pct": 152.94,
+        "avg_without_best_pct": 4.01,
+        "trimmed_one_each_pct": 9.18
+      },
+      "overall": {
+        "n": 23,
+        "avg_return_pct": 58.5,
+        "median_return_pct": 19.95,
+        "win_rate_pct": 65.22,
+        "win_rate_wilson_lower_95_pct": 44.89,
+        "double_rate_pct": 17.39,
+        "worst_return_pct": -47.63,
+        "best_return_pct": 518.45,
+        "avg_without_best_pct": 37.6,
+        "trimmed_one_each_pct": 41.66
+      },
+      "target_score": 0.234571,
+      "train_meets_target": true,
+      "validation_meets_target": false,
+      "both_meet_target": false
+    },
+    {
+      "name": "revenue_yoy_ge_0.5 + volume_ratio_ge_1 + ma5_ma10_gap_ge_0.5 + price_ma20_gap_le_15",
+      "rules": [
+        "營收年增率 >= 50%",
+        "訊號量 / 前20日均量 >= 1",
+        "MA5 高於 MA10 至少 0.5%",
+        "收盤價高於 MA20 不超過 15%"
+      ],
+      "rule_count": 4,
+      "train_2020_2023": {
+        "n": 11,
+        "avg_return_pct": 104.41,
+        "median_return_pct": 59.57,
+        "win_rate_pct": 81.82,
+        "win_rate_wilson_lower_95_pct": 52.3,
+        "double_rate_pct": 27.27,
+        "worst_return_pct": -10.86,
+        "best_return_pct": 518.45,
+        "avg_without_best_pct": 63.01,
+        "trimmed_one_each_pct": 71.22
+      },
+      "validation_2024_plus": {
+        "n": 6,
+        "avg_return_pct": 13.16,
+        "median_return_pct": 5.48,
+        "win_rate_pct": 50.0,
+        "win_rate_wilson_lower_95_pct": 18.76,
+        "double_rate_pct": 0.0,
+        "worst_return_pct": -47.63,
+        "best_return_pct": 91.99,
+        "avg_without_best_pct": -2.6,
+        "trimmed_one_each_pct": 8.66
+      },
+      "overall": {
+        "n": 17,
+        "avg_return_pct": 72.21,
+        "median_return_pct": 35.76,
+        "win_rate_pct": 70.59,
+        "win_rate_wilson_lower_95_pct": 46.87,
+        "double_rate_pct": 17.65,
+        "worst_return_pct": -47.63,
+        "best_return_pct": 518.45,
+        "avg_without_best_pct": 44.32,
+        "trimmed_one_each_pct": 50.45
+      },
+      "target_score": 0.188,
+      "train_meets_target": true,
+      "validation_meets_target": false,
+      "both_meet_target": false
+    },
+    {
+      "name": "revenue_yoy_ge_0.5 + volume_ratio_ge_0.8 + ma5_ma10_gap_ge_0.5 + price_ma20_gap_le_15",
+      "rules": [
+        "營收年增率 >= 50%",
+        "訊號量 / 前20日均量 >= 0.8",
+        "MA5 高於 MA10 至少 0.5%",
+        "收盤價高於 MA20 不超過 15%"
+      ],
+      "rule_count": 4,
+      "train_2020_2023": {
+        "n": 11,
+        "avg_return_pct": 104.41,
+        "median_return_pct": 59.57,
+        "win_rate_pct": 81.82,
+        "win_rate_wilson_lower_95_pct": 52.3,
+        "double_rate_pct": 27.27,
+        "worst_return_pct": -10.86,
+        "best_return_pct": 518.45,
+        "avg_without_best_pct": 63.01,
+        "trimmed_one_each_pct": 71.22
+      },
+      "validation_2024_plus": {
+        "n": 7,
+        "avg_return_pct": 11.64,
+        "median_return_pct": 2.49,
+        "win_rate_pct": 57.14,
+        "win_rate_wilson_lower_95_pct": 25.05,
+        "double_rate_pct": 0.0,
+        "worst_return_pct": -47.63,
+        "best_return_pct": 91.99,
+        "avg_without_best_pct": -1.75,
+        "trimmed_one_each_pct": 7.42
+      },
+      "overall": {
+        "n": 18,
+        "avg_return_pct": 68.33,
+        "median_return_pct": 34.48,
+        "win_rate_pct": 72.22,
+        "win_rate_wilson_lower_95_pct": 49.13,
+        "double_rate_pct": 16.67,
+        "worst_return_pct": -47.63,
+        "best_return_pct": 518.45,
+        "avg_without_best_pct": 41.86,
+        "trimmed_one_each_pct": 47.45
+      },
+      "target_score": 0.166286,
+      "train_meets_target": true,
+      "validation_meets_target": false,
+      "both_meet_target": false
+    },
+    {
+      "name": "revenue_yoy_ge_0.5 + revenue_mom_ge_-0.1 + volume_ratio_ge_1.2 + price_ma20_gap_le_20",
+      "rules": [
+        "營收年增率 >= 50%",
+        "營收月增率 >= -10%",
+        "訊號量 / 前20日均量 >= 1.2",
+        "收盤價高於 MA20 不超過 20%"
+      ],
+      "rule_count": 4,
+      "train_2020_2023": {
+        "n": 11,
+        "avg_return_pct": 103.62,
+        "median_return_pct": 59.57,
+        "win_rate_pct": 81.82,
+        "win_rate_wilson_lower_95_pct": 52.3,
+        "double_rate_pct": 27.27,
+        "worst_return_pct": -14.83,
+        "best_return_pct": 518.45,
+        "avg_without_best_pct": 62.14,
+        "trimmed_one_each_pct": 70.69
+      },
+      "validation_2024_plus": {
+        "n": 5,
+        "avg_return_pct": 14.1,
+        "median_return_pct": -8.99,
+        "win_rate_pct": 40.0,
+        "win_rate_wilson_lower_95_pct": 11.76,
+        "double_rate_pct": 0.0,
+        "worst_return_pct": -18.53,
+        "best_return_pct": 91.99,
+        "avg_without_best_pct": -5.37,
+        "trimmed_one_each_pct": -0.99
+      },
+      "overall": {
+        "n": 16,
+        "avg_return_pct": 75.64,
+        "median_return_pct": 34.48,
+        "win_rate_pct": 68.75,
+        "win_rate_wilson_lower_95_pct": 44.4,
+        "double_rate_pct": 18.75,
+        "worst_return_pct": -18.53,
+        "best_return_pct": 518.45,
+        "avg_without_best_pct": 46.12,
+        "trimmed_one_each_pct": 50.74
+      },
+      "target_score": 0.201429,
+      "train_meets_target": true,
+      "validation_meets_target": false,
+      "both_meet_target": false
+    },
+    {
+      "name": "revenue_yoy_ge_0.5 + volume_ratio_ge_1.2 + ma5_ma10_gap_ge_0.5 + price_ma20_gap_le_20",
+      "rules": [
+        "營收年增率 >= 50%",
+        "訊號量 / 前20日均量 >= 1.2",
+        "MA5 高於 MA10 至少 0.5%",
+        "收盤價高於 MA20 不超過 20%"
+      ],
+      "rule_count": 4,
+      "train_2020_2023": {
+        "n": 11,
+        "avg_return_pct": 103.62,
+        "median_return_pct": 59.57,
+        "win_rate_pct": 81.82,
+        "win_rate_wilson_lower_95_pct": 52.3,
+        "double_rate_pct": 27.27,
+        "worst_return_pct": -14.83,
+        "best_return_pct": 518.45,
+        "avg_without_best_pct": 62.14,
+        "trimmed_one_each_pct": 70.69
+      },
+      "validation_2024_plus": {
+        "n": 6,
+        "avg_return_pct": 13.16,
+        "median_return_pct": 5.48,
+        "win_rate_pct": 50.0,
+        "win_rate_wilson_lower_95_pct": 18.76,
+        "double_rate_pct": 0.0,
+        "worst_return_pct": -47.63,
+        "best_return_pct": 91.99,
+        "avg_without_best_pct": -2.6,
+        "trimmed_one_each_pct": 8.66
+      },
+      "overall": {
+        "n": 17,
+        "avg_return_pct": 71.69,
+        "median_return_pct": 35.76,
+        "win_rate_pct": 70.59,
+        "win_rate_wilson_lower_95_pct": 46.87,
+        "double_rate_pct": 17.65,
+        "worst_return_pct": -47.63,
+        "best_return_pct": 518.45,
+        "avg_without_best_pct": 43.77,
+        "trimmed_one_each_pct": 49.87
+      },
+      "target_score": 0.188,
+      "train_meets_target": true,
+      "validation_meets_target": false,
+      "both_meet_target": false
+    },
+    {
+      "name": "revenue_yoy_ge_0.5 + volume_ratio_ge_1.2 + ma5_ma10_gap_ge_0.2 + price_ma20_gap_le_20",
+      "rules": [
+        "營收年增率 >= 50%",
+        "訊號量 / 前20日均量 >= 1.2",
+        "MA5 高於 MA10 至少 0.2%",
+        "收盤價高於 MA20 不超過 20%"
+      ],
+      "rule_count": 4,
+      "train_2020_2023": {
+        "n": 11,
+        "avg_return_pct": 103.62,
+        "median_return_pct": 59.57,
+        "win_rate_pct": 81.82,
+        "win_rate_wilson_lower_95_pct": 52.3,
+        "double_rate_pct": 27.27,
+        "worst_return_pct": -14.83,
+        "best_return_pct": 518.45,
+        "avg_without_best_pct": 62.14,
+        "trimmed_one_each_pct": 70.69
+      },
+      "validation_2024_plus": {
+        "n": 7,
+        "avg_return_pct": 11.01,
+        "median_return_pct": -1.95,
+        "win_rate_pct": 42.86,
+        "win_rate_wilson_lower_95_pct": 15.82,
+        "double_rate_pct": 0.0,
+        "worst_return_pct": -47.63,
+        "best_return_pct": 91.99,
+        "avg_without_best_pct": -2.49,
+        "trimmed_one_each_pct": 6.54
+      },
+      "overall": {
+        "n": 18,
+        "avg_return_pct": 67.6,
+        "median_return_pct": 34.48,
+        "win_rate_pct": 66.67,
+        "win_rate_wilson_lower_95_pct": 43.75,
+        "double_rate_pct": 16.67,
+        "worst_return_pct": -47.63,
+        "best_return_pct": 518.45,
+        "avg_without_best_pct": 41.08,
+        "trimmed_one_each_pct": 46.63
+      },
+      "target_score": 0.157286,
+      "train_meets_target": true,
+      "validation_meets_target": false,
+      "both_meet_target": false
+    },
+    {
+      "name": "revenue_yoy_ge_0.5 + volume_ratio_ge_1.2 + ma10_ma20_gap_ge_0.2 + price_ma20_gap_le_20",
+      "rules": [
+        "營收年增率 >= 50%",
+        "訊號量 / 前20日均量 >= 1.2",
+        "MA10 高於 MA20 至少 0.2%",
+        "收盤價高於 MA20 不超過 20%"
+      ],
+      "rule_count": 4,
+      "train_2020_2023": {
+        "n": 11,
+        "avg_return_pct": 103.62,
+        "median_return_pct": 59.57,
+        "win_rate_pct": 81.82,
+        "win_rate_wilson_lower_95_pct": 52.3,
+        "double_rate_pct": 27.27,
+        "worst_return_pct": -14.83,
+        "best_return_pct": 518.45,
+        "avg_without_best_pct": 62.14,
+        "trimmed_one_each_pct": 70.69
+      },
+      "validation_2024_plus": {
+        "n": 7,
+        "avg_return_pct": 10.35,
+        "median_return_pct": -1.95,
+        "win_rate_pct": 42.86,
+        "win_rate_wilson_lower_95_pct": 15.82,
+        "double_rate_pct": 0.0,
+        "worst_return_pct": -47.63,
+        "best_return_pct": 91.99,
+        "avg_without_best_pct": -3.26,
+        "trimmed_one_each_pct": 5.62
+      },
+      "overall": {
+        "n": 18,
+        "avg_return_pct": 67.35,
+        "median_return_pct": 34.48,
+        "win_rate_pct": 66.67,
+        "win_rate_wilson_lower_95_pct": 43.75,
+        "double_rate_pct": 16.67,
+        "worst_return_pct": -47.63,
+        "best_return_pct": 518.45,
+        "avg_without_best_pct": 40.81,
+        "trimmed_one_each_pct": 46.34
+      },
+      "target_score": 0.147857,
+      "train_meets_target": true,
+      "validation_meets_target": false,
+      "both_meet_target": false
+    },
+    {
+      "name": "revenue_yoy_ge_0.5 + volume_ratio_ge_1.2 + price_ma20_gap_le_20",
+      "rules": [
+        "營收年增率 >= 50%",
+        "訊號量 / 前20日均量 >= 1.2",
+        "收盤價高於 MA20 不超過 20%"
+      ],
+      "rule_count": 3,
+      "train_2020_2023": {
+        "n": 11,
+        "avg_return_pct": 103.62,
+        "median_return_pct": 59.57,
+        "win_rate_pct": 81.82,
+        "win_rate_wilson_lower_95_pct": 52.3,
+        "double_rate_pct": 27.27,
+        "worst_return_pct": -14.83,
+        "best_return_pct": 518.45,
+        "avg_without_best_pct": 62.14,
+        "trimmed_one_each_pct": 70.69
+      },
+      "validation_2024_plus": {
+        "n": 8,
+        "avg_return_pct": 7.31,
+        "median_return_pct": -5.47,
+        "win_rate_pct": 37.5,
+        "win_rate_wilson_lower_95_pct": 13.68,
+        "double_rate_pct": 0.0,
+        "worst_return_pct": -47.63,
+        "best_return_pct": 91.99,
+        "avg_without_best_pct": -4.78,
+        "trimmed_one_each_pct": 2.36
+      },
+      "overall": {
+        "n": 19,
+        "avg_return_pct": 63.07,
+        "median_return_pct": 33.2,
+        "win_rate_pct": 63.16,
+        "win_rate_wilson_lower_95_pct": 41.04,
+        "double_rate_pct": 15.79,
+        "worst_return_pct": -47.63,
+        "best_return_pct": 518.45,
+        "avg_without_best_pct": 37.77,
+        "trimmed_one_each_pct": 42.79
+      },
+      "target_score": 0.104429,
+      "train_meets_target": true,
+      "validation_meets_target": false,
+      "both_meet_target": false
+    }
+  ],
+  "validation_hindsight": [
+    {
+      "name": "revenue_yoy_ge_0.3 + revenue_mom_ge_-0.1 + price_ma20_gap_le_10",
+      "rules": [
+        "營收年增率 >= 30%",
+        "營收月增率 >= -10%",
+        "收盤價高於 MA20 不超過 10%"
+      ],
+      "rule_count": 3,
+      "train_2020_2023": {
+        "n": 13,
+        "avg_return_pct": 26.79,
+        "median_return_pct": -6.09,
+        "win_rate_pct": 46.15,
+        "win_rate_wilson_lower_95_pct": 23.21,
+        "double_rate_pct": 15.38,
+        "worst_return_pct": -45.53,
+        "best_return_pct": 182.81,
+        "avg_without_best_pct": 13.78,
+        "trimmed_one_each_pct": 19.18
+      },
+      "validation_2024_plus": {
+        "n": 6,
+        "avg_return_pct": 71.1,
+        "median_return_pct": 55.74,
+        "win_rate_pct": 83.33,
+        "win_rate_wilson_lower_95_pct": 43.65,
+        "double_rate_pct": 33.33,
+        "worst_return_pct": -18.53,
+        "best_return_pct": 178.24,
+        "avg_without_best_pct": 49.67,
+        "trimmed_one_each_pct": 66.72
+      },
+      "overall": {
+        "n": 19,
+        "avg_return_pct": 40.78,
+        "median_return_pct": 2.49,
+        "win_rate_pct": 57.89,
+        "win_rate_wilson_lower_95_pct": 36.28,
+        "double_rate_pct": 21.05,
+        "worst_return_pct": -45.53,
+        "best_return_pct": 182.81,
+        "avg_without_best_pct": 32.89,
+        "trimmed_one_each_pct": 37.5
+      },
+      "target_score": 0.382714,
+      "train_meets_target": false,
+      "validation_meets_target": true,
+      "both_meet_target": false
+    },
+    {
+      "name": "trust_ge_0.25 + revenue_yoy_ge_0.3 + revenue_mom_ge_-0.1 + price_ma20_gap_le_10",
+      "rules": [
+        "投信單日買超占股本 >= 0.25%",
+        "營收年增率 >= 30%",
+        "營收月增率 >= -10%",
+        "收盤價高於 MA20 不超過 10%"
+      ],
+      "rule_count": 4,
+      "train_2020_2023": {
+        "n": 8,
+        "avg_return_pct": 23.57,
+        "median_return_pct": -2.89,
+        "win_rate_pct": 50.0,
+        "win_rate_wilson_lower_95_pct": 21.52,
+        "double_rate_pct": 12.5,
+        "worst_return_pct": -27.82,
+        "best_return_pct": 159.83,
+        "avg_without_best_pct": 4.11,
+        "trimmed_one_each_pct": 9.43
+      },
+      "validation_2024_plus": {
+        "n": 6,
+        "avg_return_pct": 71.1,
+        "median_return_pct": 55.74,
+        "win_rate_pct": 83.33,
+        "win_rate_wilson_lower_95_pct": 43.65,
+        "double_rate_pct": 33.33,
+        "worst_return_pct": -18.53,
+        "best_return_pct": 178.24,
+        "avg_without_best_pct": 49.67,
+        "trimmed_one_each_pct": 66.72
+      },
+      "overall": {
+        "n": 14,
+        "avg_return_pct": 43.94,
+        "median_return_pct": 10.99,
+        "win_rate_pct": 64.29,
+        "win_rate_wilson_lower_95_pct": 38.76,
+        "double_rate_pct": 21.43,
+        "worst_return_pct": -27.82,
+        "best_return_pct": 178.24,
+        "avg_without_best_pct": 33.61,
+        "trimmed_one_each_pct": 38.73
+      },
+      "target_score": 0.336714,
+      "train_meets_target": false,
+      "validation_meets_target": true,
+      "both_meet_target": false
+    },
+    {
+      "name": "revenue_yoy_ge_0.3 + revenue_mom_ge_-0.1 + volume_ratio_ge_0.8 + price_ma20_gap_le_10",
+      "rules": [
+        "營收年增率 >= 30%",
+        "營收月增率 >= -10%",
+        "訊號量 / 前20日均量 >= 0.8",
+        "收盤價高於 MA20 不超過 10%"
+      ],
+      "rule_count": 4,
+      "train_2020_2023": {
+        "n": 12,
+        "avg_return_pct": 32.81,
+        "median_return_pct": -2.89,
+        "win_rate_pct": 50.0,
+        "win_rate_wilson_lower_95_pct": 25.38,
+        "double_rate_pct": 16.67,
+        "worst_return_pct": -30.44,
+        "best_return_pct": 182.81,
+        "avg_without_best_pct": 19.18,
+        "trimmed_one_each_pct": 24.14
+      },
+      "validation_2024_plus": {
+        "n": 6,
+        "avg_return_pct": 71.1,
+        "median_return_pct": 55.74,
+        "win_rate_pct": 83.33,
+        "win_rate_wilson_lower_95_pct": 43.65,
+        "double_rate_pct": 33.33,
+        "worst_return_pct": -18.53,
+        "best_return_pct": 178.24,
+        "avg_without_best_pct": 49.67,
+        "trimmed_one_each_pct": 66.72
+      },
+      "overall": {
+        "n": 18,
+        "avg_return_pct": 45.58,
+        "median_return_pct": 10.99,
+        "win_rate_pct": 61.11,
+        "win_rate_wilson_lower_95_pct": 38.62,
+        "double_rate_pct": 22.22,
+        "worst_return_pct": -30.44,
+        "best_return_pct": 182.81,
+        "avg_without_best_pct": 37.5,
+        "trimmed_one_each_pct": 41.75
+      },
+      "target_score": 0.468714,
+      "train_meets_target": false,
+      "validation_meets_target": true,
+      "both_meet_target": false
+    },
+    {
+      "name": "revenue_yoy_ge_0.3 + revenue_mom_ge_-0.1 + volume_ratio_le_5 + price_ma20_gap_le_10",
+      "rules": [
+        "營收年增率 >= 30%",
+        "營收月增率 >= -10%",
+        "訊號量 / 前20日均量 <= 5",
+        "收盤價高於 MA20 不超過 10%"
+      ],
+      "rule_count": 4,
+      "train_2020_2023": {
+        "n": 12,
+        "avg_return_pct": 13.78,
+        "median_return_pct": -7.47,
+        "win_rate_pct": 41.67,
+        "win_rate_wilson_lower_95_pct": 19.33,
+        "double_rate_pct": 8.33,
+        "worst_return_pct": -45.53,
+        "best_return_pct": 159.83,
+        "avg_without_best_pct": 0.51,
+        "trimmed_one_each_pct": 5.11
+      },
+      "validation_2024_plus": {
+        "n": 6,
+        "avg_return_pct": 71.1,
+        "median_return_pct": 55.74,
+        "win_rate_pct": 83.33,
+        "win_rate_wilson_lower_95_pct": 43.65,
+        "double_rate_pct": 33.33,
+        "worst_return_pct": -18.53,
+        "best_return_pct": 178.24,
+        "avg_without_best_pct": 49.67,
+        "trimmed_one_each_pct": 66.72
+      },
+      "overall": {
+        "n": 18,
+        "avg_return_pct": 32.89,
+        "median_return_pct": 1.4,
+        "win_rate_pct": 55.56,
+        "win_rate_wilson_lower_95_pct": 33.72,
+        "double_rate_pct": 16.67,
+        "worst_return_pct": -45.53,
+        "best_return_pct": 178.24,
+        "avg_without_best_pct": 24.34,
+        "trimmed_one_each_pct": 28.71
+      },
+      "target_score": 0.196857,
+      "train_meets_target": false,
+      "validation_meets_target": true,
+      "both_meet_target": false
+    },
+    {
+      "name": "revenue_yoy_ge_0.3 + revenue_mom_ge_-0.1 + avg_volume_ge_2000000 + price_ma20_gap_le_10",
+      "rules": [
+        "營收年增率 >= 30%",
+        "營收月增率 >= -10%",
+        "前20日均量 >= 2,000,000股",
+        "收盤價高於 MA20 不超過 10%"
+      ],
+      "rule_count": 4,
+      "train_2020_2023": {
+        "n": 8,
+        "avg_return_pct": 8.81,
+        "median_return_pct": -22.66,
+        "win_rate_pct": 37.5,
+        "win_rate_wilson_lower_95_pct": 13.68,
+        "double_rate_pct": 12.5,
+        "worst_return_pct": -45.53,
+        "best_return_pct": 159.83,
+        "avg_without_best_pct": -12.76,
+        "trimmed_one_each_pct": -7.3
+      },
+      "validation_2024_plus": {
+        "n": 6,
+        "avg_return_pct": 71.1,
+        "median_return_pct": 55.74,
+        "win_rate_pct": 83.33,
+        "win_rate_wilson_lower_95_pct": 43.65,
+        "double_rate_pct": 33.33,
+        "worst_return_pct": -18.53,
+        "best_return_pct": 178.24,
+        "avg_without_best_pct": 49.67,
+        "trimmed_one_each_pct": 66.72
+      },
+      "overall": {
+        "n": 14,
+        "avg_return_pct": 35.51,
+        "median_return_pct": 1.4,
+        "win_rate_pct": 57.14,
+        "win_rate_wilson_lower_95_pct": 32.59,
+        "double_rate_pct": 21.43,
+        "worst_return_pct": -45.53,
+        "best_return_pct": 178.24,
+        "avg_without_best_pct": 24.53,
+        "trimmed_one_each_pct": 30.36
+      },
+      "target_score": 0.125857,
+      "train_meets_target": false,
+      "validation_meets_target": true,
+      "both_meet_target": false
+    },
+    {
+      "name": "revenue_yoy_ge_0.3 + revenue_mom_ge_-0.1 + ma10_ma20_gap_ge_0.2 + price_ma20_gap_le_10",
+      "rules": [
+        "營收年增率 >= 30%",
+        "營收月增率 >= -10%",
+        "MA10 高於 MA20 至少 0.2%",
+        "收盤價高於 MA20 不超過 10%"
+      ],
+      "rule_count": 4,
+      "train_2020_2023": {
+        "n": 11,
+        "avg_return_pct": 36.36,
+        "median_return_pct": 0.3,
+        "win_rate_pct": 54.55,
+        "win_rate_wilson_lower_95_pct": 28.01,
+        "double_rate_pct": 18.18,
+        "worst_return_pct": -45.53,
+        "best_return_pct": 182.81,
+        "avg_without_best_pct": 21.71,
+        "trimmed_one_each_pct": 29.19
+      },
+      "validation_2024_plus": {
+        "n": 6,
+        "avg_return_pct": 71.1,
+        "median_return_pct": 55.74,
+        "win_rate_pct": 83.33,
+        "win_rate_wilson_lower_95_pct": 43.65,
+        "double_rate_pct": 33.33,
+        "worst_return_pct": -18.53,
+        "best_return_pct": 178.24,
+        "avg_without_best_pct": 49.67,
+        "trimmed_one_each_pct": 66.72
+      },
+      "overall": {
+        "n": 17,
+        "avg_return_pct": 48.62,
+        "median_return_pct": 19.49,
+        "win_rate_pct": 64.71,
+        "win_rate_wilson_lower_95_pct": 41.3,
+        "double_rate_pct": 23.53,
+        "worst_return_pct": -45.53,
+        "best_return_pct": 182.81,
+        "avg_without_best_pct": 40.23,
+        "trimmed_one_each_pct": 45.95
+      },
+      "target_score": 0.519429,
+      "train_meets_target": false,
+      "validation_meets_target": true,
+      "both_meet_target": false
+    },
+    {
+      "name": "revenue_yoy_ge_0.3 + revenue_mom_ge_-0.1 + ma10_ma20_gap_ge_0.5 + price_ma20_gap_le_10",
+      "rules": [
+        "營收年增率 >= 30%",
+        "營收月增率 >= -10%",
+        "MA10 高於 MA20 至少 0.5%",
+        "收盤價高於 MA20 不超過 10%"
+      ],
+      "rule_count": 4,
+      "train_2020_2023": {
+        "n": 10,
+        "avg_return_pct": 32.33,
+        "median_return_pct": -2.89,
+        "win_rate_pct": 50.0,
+        "win_rate_wilson_lower_95_pct": 23.66,
+        "double_rate_pct": 20.0,
+        "worst_return_pct": -45.53,
+        "best_return_pct": 182.81,
+        "avg_without_best_pct": 15.61,
+        "trimmed_one_each_pct": 23.25
+      },
+      "validation_2024_plus": {
+        "n": 6,
+        "avg_return_pct": 71.1,
+        "median_return_pct": 55.74,
+        "win_rate_pct": 83.33,
+        "win_rate_wilson_lower_95_pct": 43.65,
+        "double_rate_pct": 33.33,
+        "worst_return_pct": -18.53,
+        "best_return_pct": 178.24,
+        "avg_without_best_pct": 49.67,
+        "trimmed_one_each_pct": 66.72
+      },
+      "overall": {
+        "n": 16,
+        "avg_return_pct": 46.87,
+        "median_return_pct": 10.99,
+        "win_rate_pct": 62.5,
+        "win_rate_wilson_lower_95_pct": 38.64,
+        "double_rate_pct": 25.0,
+        "worst_return_pct": -45.53,
+        "best_return_pct": 182.81,
+        "avg_without_best_pct": 37.8,
+        "trimmed_one_each_pct": 43.76
+      },
+      "target_score": 0.461857,
+      "train_meets_target": false,
+      "validation_meets_target": true,
+      "both_meet_target": false
+    },
+    {
+      "name": "revenue_yoy_ge_0.2 + ma5_ma10_gap_ge_1 + revenue_high_6",
+      "rules": [
+        "營收年增率 >= 20%",
+        "MA5 高於 MA10 至少 1%",
+        "營收創近6月新高"
+      ],
+      "rule_count": 3,
+      "train_2020_2023": {
+        "n": 25,
+        "avg_return_pct": 8.12,
+        "median_return_pct": -6.5,
+        "win_rate_pct": 40.0,
+        "win_rate_wilson_lower_95_pct": 23.4,
+        "double_rate_pct": 8.0,
+        "worst_return_pct": -45.53,
+        "best_return_pct": 182.81,
+        "avg_without_best_pct": 0.85,
+        "trimmed_one_each_pct": 2.86
+      },
+      "validation_2024_plus": {
+        "n": 6,
+        "avg_return_pct": 71.41,
+        "median_return_pct": 40.17,
+        "win_rate_pct": 83.33,
+        "win_rate_wilson_lower_95_pct": 43.65,
+        "double_rate_pct": 16.67,
+        "worst_return_pct": -13.92,
+        "best_return_pct": 267.56,
+        "avg_without_best_pct": 32.18,
+        "trimmed_one_each_pct": 43.7
+      },
+      "overall": {
+        "n": 31,
+        "avg_return_pct": 20.37,
+        "median_return_pct": -6.09,
+        "win_rate_pct": 48.39,
+        "win_rate_wilson_lower_95_pct": 31.97,
+        "double_rate_pct": 9.68,
+        "worst_return_pct": -45.53,
+        "best_return_pct": 267.56,
+        "avg_without_best_pct": 12.13,
+        "trimmed_one_each_pct": 14.12
+      },
+      "target_score": 0.116,
+      "train_meets_target": false,
+      "validation_meets_target": true,
+      "both_meet_target": false
+    },
+    {
+      "name": "revenue_yoy_ge_0.2 + volume_ratio_ge_0.6 + ma5_ma10_gap_ge_1 + revenue_high_6",
+      "rules": [
+        "營收年增率 >= 20%",
+        "訊號量 / 前20日均量 >= 0.6",
+        "MA5 高於 MA10 至少 1%",
+        "營收創近6月新高"
+      ],
+      "rule_count": 4,
+      "train_2020_2023": {
+        "n": 24,
+        "avg_return_pct": 9.27,
+        "median_return_pct": -6.34,
+        "win_rate_pct": 41.67,
+        "win_rate_wilson_lower_95_pct": 24.47,
+        "double_rate_pct": 8.33,
+        "worst_return_pct": -45.53,
+        "best_return_pct": 182.81,
+        "avg_without_best_pct": 1.72,
+        "trimmed_one_each_pct": 3.87
+      },
+      "validation_2024_plus": {
+        "n": 6,
+        "avg_return_pct": 71.41,
+        "median_return_pct": 40.17,
+        "win_rate_pct": 83.33,
+        "win_rate_wilson_lower_95_pct": 43.65,
+        "double_rate_pct": 16.67,
+        "worst_return_pct": -13.92,
+        "best_return_pct": 267.56,
+        "avg_without_best_pct": 32.18,
+        "trimmed_one_each_pct": 43.7
+      },
+      "overall": {
+        "n": 30,
+        "avg_return_pct": 21.7,
+        "median_return_pct": -1.8,
+        "win_rate_pct": 50.0,
+        "win_rate_wilson_lower_95_pct": 33.15,
+        "double_rate_pct": 10.0,
+        "worst_return_pct": -45.53,
+        "best_return_pct": 267.56,
+        "avg_without_best_pct": 13.22,
+        "trimmed_one_each_pct": 15.32
+      },
+      "target_score": 0.132429,
+      "train_meets_target": false,
+      "validation_meets_target": true,
+      "both_meet_target": false
+    },
+    {
+      "name": "revenue_yoy_ge_0.2 + volume_ratio_ge_0.8 + ma5_ma10_gap_ge_1 + revenue_high_6",
+      "rules": [
+        "營收年增率 >= 20%",
+        "訊號量 / 前20日均量 >= 0.8",
+        "MA5 高於 MA10 至少 1%",
+        "營收創近6月新高"
+      ],
+      "rule_count": 4,
+      "train_2020_2023": {
+        "n": 22,
+        "avg_return_pct": 13.0,
+        "median_return_pct": -6.13,
+        "win_rate_pct": 45.45,
+        "win_rate_wilson_lower_95_pct": 26.92,
+        "double_rate_pct": 9.09,
+        "worst_return_pct": -37.15,
+        "best_return_pct": 182.81,
+        "avg_without_best_pct": 4.92,
+        "trimmed_one_each_pct": 7.02
+      },
+      "validation_2024_plus": {
+        "n": 6,
+        "avg_return_pct": 71.41,
+        "median_return_pct": 40.17,
+        "win_rate_pct": 83.33,
+        "win_rate_wilson_lower_95_pct": 43.65,
+        "double_rate_pct": 16.67,
+        "worst_return_pct": -13.92,
+        "best_return_pct": 267.56,
+        "avg_without_best_pct": 32.18,
+        "trimmed_one_each_pct": 43.7
+      },
+      "overall": {
+        "n": 28,
+        "avg_return_pct": 25.52,
+        "median_return_pct": 2.87,
+        "win_rate_pct": 53.57,
+        "win_rate_wilson_lower_95_pct": 35.81,
+        "double_rate_pct": 10.71,
+        "worst_return_pct": -37.15,
+        "best_return_pct": 267.56,
+        "avg_without_best_pct": 16.56,
+        "trimmed_one_each_pct": 18.62
+      },
+      "target_score": 0.185714,
+      "train_meets_target": false,
+      "validation_meets_target": true,
+      "both_meet_target": false
+    },
+    {
+      "name": "revenue_yoy_ge_0.2 + volume_ratio_le_8 + ma5_ma10_gap_ge_1 + revenue_high_6",
+      "rules": [
+        "營收年增率 >= 20%",
+        "訊號量 / 前20日均量 <= 8",
+        "MA5 高於 MA10 至少 1%",
+        "營收創近6月新高"
+      ],
+      "rule_count": 4,
+      "train_2020_2023": {
+        "n": 24,
+        "avg_return_pct": 9.08,
+        "median_return_pct": -6.34,
+        "win_rate_pct": 41.67,
+        "win_rate_wilson_lower_95_pct": 24.47,
+        "double_rate_pct": 8.33,
+        "worst_return_pct": -45.53,
+        "best_return_pct": 182.81,
+        "avg_without_best_pct": 1.53,
+        "trimmed_one_each_pct": 3.67
+      },
+      "validation_2024_plus": {
+        "n": 6,
+        "avg_return_pct": 71.41,
+        "median_return_pct": 40.17,
+        "win_rate_pct": 83.33,
+        "win_rate_wilson_lower_95_pct": 43.65,
+        "double_rate_pct": 16.67,
+        "worst_return_pct": -13.92,
+        "best_return_pct": 267.56,
+        "avg_without_best_pct": 32.18,
+        "trimmed_one_each_pct": 43.7
+      },
+      "overall": {
+        "n": 30,
+        "avg_return_pct": 21.55,
+        "median_return_pct": -1.8,
+        "win_rate_pct": 50.0,
+        "win_rate_wilson_lower_95_pct": 33.15,
+        "double_rate_pct": 10.0,
+        "worst_return_pct": -45.53,
+        "best_return_pct": 267.56,
+        "avg_without_best_pct": 13.06,
+        "trimmed_one_each_pct": 15.16
+      },
+      "target_score": 0.129714,
+      "train_meets_target": false,
+      "validation_meets_target": true,
+      "both_meet_target": false
+    },
+    {
+      "name": "revenue_yoy_ge_0.3 + revenue_mom_ge_-0.1 + volume_ratio_ge_1 + price_ma20_gap_le_10",
+      "rules": [
+        "營收年增率 >= 30%",
+        "營收月增率 >= -10%",
+        "訊號量 / 前20日均量 >= 1",
+        "收盤價高於 MA20 不超過 10%"
+      ],
+      "rule_count": 4,
+      "train_2020_2023": {
+        "n": 12,
+        "avg_return_pct": 32.81,
+        "median_return_pct": -2.89,
+        "win_rate_pct": 50.0,
+        "win_rate_wilson_lower_95_pct": 25.38,
+        "double_rate_pct": 16.67,
+        "worst_return_pct": -30.44,
+        "best_return_pct": 182.81,
+        "avg_without_best_pct": 19.18,
+        "trimmed_one_each_pct": 24.14
+      },
+      "validation_2024_plus": {
+        "n": 5,
+        "avg_return_pct": 84.82,
+        "median_return_pct": 91.99,
+        "win_rate_pct": 80.0,
+        "win_rate_wilson_lower_95_pct": 37.55,
+        "double_rate_pct": 40.0,
+        "worst_return_pct": -18.53,
+        "best_return_pct": 178.24,
+        "avg_without_best_pct": 61.47,
+        "trimmed_one_each_pct": 88.14
+      },
+      "overall": {
+        "n": 17,
+        "avg_return_pct": 48.11,
+        "median_return_pct": 19.49,
+        "win_rate_pct": 58.82,
+        "win_rate_wilson_lower_95_pct": 36.01,
+        "double_rate_pct": 23.53,
+        "worst_return_pct": -30.44,
+        "best_return_pct": 182.81,
+        "avg_without_best_pct": 39.69,
+        "trimmed_one_each_pct": 44.37
+      },
+      "target_score": 0.468714,
+      "train_meets_target": false,
+      "validation_meets_target": true,
+      "both_meet_target": false
+    },
+    {
+      "name": "revenue_yoy_ge_0.3 + revenue_mom_ge_-0.1 + offset_0_120 + price_ma20_gap_le_10",
+      "rules": [
+        "營收年增率 >= 30%",
+        "營收月增率 >= -10%",
+        "訊號在發行後第 0-120 個交易日",
+        "收盤價高於 MA20 不超過 10%"
+      ],
+      "rule_count": 4,
+      "train_2020_2023": {
+        "n": 11,
+        "avg_return_pct": 16.99,
+        "median_return_pct": -6.09,
+        "win_rate_pct": 45.45,
+        "win_rate_wilson_lower_95_pct": 21.27,
+        "double_rate_pct": 9.09,
+        "worst_return_pct": -45.53,
+        "best_return_pct": 159.83,
+        "avg_without_best_pct": 2.7,
+        "trimmed_one_each_pct": 8.06
+      },
+      "validation_2024_plus": {
+        "n": 5,
+        "avg_return_pct": 84.82,
+        "median_return_pct": 91.99,
+        "win_rate_pct": 80.0,
+        "win_rate_wilson_lower_95_pct": 37.55,
+        "double_rate_pct": 40.0,
+        "worst_return_pct": -18.53,
+        "best_return_pct": 178.24,
+        "avg_without_best_pct": 61.47,
+        "trimmed_one_each_pct": 88.14
+      },
+      "overall": {
+        "n": 16,
+        "avg_return_pct": 38.19,
+        "median_return_pct": 9.9,
+        "win_rate_pct": 56.25,
+        "win_rate_wilson_lower_95_pct": 33.18,
+        "double_rate_pct": 18.75,
+        "worst_return_pct": -45.53,
+        "best_return_pct": 178.24,
+        "avg_without_best_pct": 28.85,
+        "trimmed_one_each_pct": 34.16
+      },
+      "target_score": 0.242714,
+      "train_meets_target": false,
+      "validation_meets_target": true,
+      "both_meet_target": false
+    },
+    {
+      "name": "revenue_yoy_ge_0 + revenue_mom_ge_-0.1 + ma5_ma10_gap_ge_0.2 + price_ma20_gap_le_10",
+      "rules": [
+        "營收年增率 >= 0%",
+        "營收月增率 >= -10%",
+        "MA5 高於 MA10 至少 0.2%",
+        "收盤價高於 MA20 不超過 10%"
+      ],
+      "rule_count": 4,
+      "train_2020_2023": {
+        "n": 31,
+        "avg_return_pct": 9.86,
+        "median_return_pct": 0.3,
+        "win_rate_pct": 51.61,
+        "win_rate_wilson_lower_95_pct": 34.84,
+        "double_rate_pct": 6.45,
+        "worst_return_pct": -45.53,
+        "best_return_pct": 182.81,
+        "avg_without_best_pct": 4.09,
+        "trimmed_one_each_pct": 5.8
+      },
+      "validation_2024_plus": {
+        "n": 5,
+        "avg_return_pct": 84.52,
+        "median_return_pct": 91.99,
+        "win_rate_pct": 80.0,
+        "win_rate_wilson_lower_95_pct": 37.55,
+        "double_rate_pct": 40.0,
+        "worst_return_pct": -3.06,
+        "best_return_pct": 178.24,
+        "avg_without_best_pct": 61.09,
+        "trimmed_one_each_pct": 82.47
+      },
+      "overall": {
+        "n": 36,
+        "avg_return_pct": 20.23,
+        "median_return_pct": 1.85,
+        "win_rate_pct": 55.56,
+        "win_rate_wilson_lower_95_pct": 39.58,
+        "double_rate_pct": 11.11,
+        "worst_return_pct": -45.53,
+        "best_return_pct": 182.81,
+        "avg_without_best_pct": 15.58,
+        "trimmed_one_each_pct": 17.38
+      },
+      "target_score": 0.140857,
+      "train_meets_target": false,
+      "validation_meets_target": true,
+      "both_meet_target": false
+    },
+    {
+      "name": "revenue_yoy_ge_0.1 + revenue_mom_ge_-0.1 + ma5_ma10_gap_ge_0.2 + price_ma20_gap_le_10",
+      "rules": [
+        "營收年增率 >= 10%",
+        "營收月增率 >= -10%",
+        "MA5 高於 MA10 至少 0.2%",
+        "收盤價高於 MA20 不超過 10%"
+      ],
+      "rule_count": 4,
+      "train_2020_2023": {
+        "n": 25,
+        "avg_return_pct": 12.04,
+        "median_return_pct": -4.45,
+        "win_rate_pct": 48.0,
+        "win_rate_wilson_lower_95_pct": 30.03,
+        "double_rate_pct": 8.0,
+        "worst_return_pct": -45.53,
+        "best_return_pct": 182.81,
+        "avg_without_best_pct": 4.93,
+        "trimmed_one_each_pct": 7.12
+      },
+      "validation_2024_plus": {
+        "n": 5,
+        "avg_return_pct": 84.52,
+        "median_return_pct": 91.99,
+        "win_rate_pct": 80.0,
+        "win_rate_wilson_lower_95_pct": 37.55,
+        "double_rate_pct": 40.0,
+        "worst_return_pct": -3.06,
+        "best_return_pct": 178.24,
+        "avg_without_best_pct": 61.09,
+        "trimmed_one_each_pct": 82.47
+      },
+      "overall": {
+        "n": 30,
+        "avg_return_pct": 24.12,
+        "median_return_pct": 1.4,
+        "win_rate_pct": 53.33,
+        "win_rate_wilson_lower_95_pct": 36.14,
+        "double_rate_pct": 13.33,
+        "worst_return_pct": -45.53,
+        "best_return_pct": 182.81,
+        "avg_without_best_pct": 18.65,
+        "trimmed_one_each_pct": 20.94
+      },
+      "target_score": 0.172,
+      "train_meets_target": false,
+      "validation_meets_target": true,
+      "both_meet_target": false
+    },
+    {
+      "name": "revenue_yoy_ge_0.2 + revenue_mom_ge_-0.1 + ma5_ma10_gap_ge_0.2 + price_ma20_gap_le_10",
+      "rules": [
+        "營收年增率 >= 20%",
+        "營收月增率 >= -10%",
+        "MA5 高於 MA10 至少 0.2%",
+        "收盤價高於 MA20 不超過 10%"
+      ],
+      "rule_count": 4,
+      "train_2020_2023": {
+        "n": 22,
+        "avg_return_pct": 14.35,
+        "median_return_pct": -2.07,
+        "win_rate_pct": 50.0,
+        "win_rate_wilson_lower_95_pct": 30.72,
+        "double_rate_pct": 9.09,
+        "worst_return_pct": -45.53,
+        "best_return_pct": 182.81,
+        "avg_without_best_pct": 6.32,
+        "trimmed_one_each_pct": 8.92
+      },
+      "validation_2024_plus": {
+        "n": 5,
+        "avg_return_pct": 84.52,
+        "median_return_pct": 91.99,
+        "win_rate_pct": 80.0,
+        "win_rate_wilson_lower_95_pct": 37.55,
+        "double_rate_pct": 40.0,
+        "worst_return_pct": -3.06,
+        "best_return_pct": 178.24,
+        "avg_without_best_pct": 61.09,
+        "trimmed_one_each_pct": 82.47
+      },
+      "overall": {
+        "n": 27,
+        "avg_return_pct": 27.34,
+        "median_return_pct": 2.49,
+        "win_rate_pct": 55.56,
+        "win_rate_wilson_lower_95_pct": 37.31,
+        "double_rate_pct": 14.81,
+        "worst_return_pct": -45.53,
+        "best_return_pct": 182.81,
+        "avg_without_best_pct": 21.36,
+        "trimmed_one_each_pct": 24.04
+      },
+      "target_score": 0.205,
+      "train_meets_target": false,
+      "validation_meets_target": true,
+      "both_meet_target": false
+    },
+    {
+      "name": "revenue_yoy_ge_0 + offset_0_40 + ma10_ma20_gap_ge_0.2 + price_ma20_gap_le_10",
+      "rules": [
+        "營收年增率 >= 0%",
+        "訊號在發行後第 0-40 個交易日",
+        "MA10 高於 MA20 至少 0.2%",
+        "收盤價高於 MA20 不超過 10%"
+      ],
+      "rule_count": 4,
+      "train_2020_2023": {
+        "n": 23,
+        "avg_return_pct": 11.63,
+        "median_return_pct": 9.29,
+        "win_rate_pct": 56.52,
+        "win_rate_wilson_lower_95_pct": 36.81,
+        "double_rate_pct": 4.35,
+        "worst_return_pct": -37.15,
+        "best_return_pct": 159.83,
+        "avg_without_best_pct": 4.89,
+        "trimmed_one_each_pct": 6.89
+      },
+      "validation_2024_plus": {
+        "n": 5,
+        "avg_return_pct": 72.54,
+        "median_return_pct": 37.59,
+        "win_rate_pct": 80.0,
+        "win_rate_wilson_lower_95_pct": 37.55,
+        "double_rate_pct": 40.0,
+        "worst_return_pct": -25.56,
+        "best_return_pct": 178.24,
+        "avg_without_best_pct": 46.12,
+        "trimmed_one_each_pct": 70.01
+      },
+      "overall": {
+        "n": 28,
+        "avg_return_pct": 22.5,
+        "median_return_pct": 11.31,
+        "win_rate_pct": 60.71,
+        "win_rate_wilson_lower_95_pct": 42.41,
+        "double_rate_pct": 10.71,
+        "worst_return_pct": -37.15,
+        "best_return_pct": 178.24,
+        "avg_without_best_pct": 16.74,
+        "trimmed_one_each_pct": 18.81
+      },
+      "target_score": 0.166143,
+      "train_meets_target": false,
+      "validation_meets_target": true,
+      "both_meet_target": false
+    },
+    {
+      "name": "revenue_yoy_ge_0 + offset_0_40 + ma10_ma20_gap_ge_0.5 + price_ma20_gap_le_10",
+      "rules": [
+        "營收年增率 >= 0%",
+        "訊號在發行後第 0-40 個交易日",
+        "MA10 高於 MA20 至少 0.5%",
+        "收盤價高於 MA20 不超過 10%"
+      ],
+      "rule_count": 4,
+      "train_2020_2023": {
+        "n": 20,
+        "avg_return_pct": 7.86,
+        "median_return_pct": 7.32,
+        "win_rate_pct": 55.0,
+        "win_rate_wilson_lower_95_pct": 34.21,
+        "double_rate_pct": 5.0,
+        "worst_return_pct": -37.15,
+        "best_return_pct": 159.83,
+        "avg_without_best_pct": -0.13,
+        "trimmed_one_each_pct": 1.92
+      },
+      "validation_2024_plus": {
+        "n": 5,
+        "avg_return_pct": 72.54,
+        "median_return_pct": 37.59,
+        "win_rate_pct": 80.0,
+        "win_rate_wilson_lower_95_pct": 37.55,
+        "double_rate_pct": 40.0,
+        "worst_return_pct": -25.56,
+        "best_return_pct": 178.24,
+        "avg_without_best_pct": 46.12,
+        "trimmed_one_each_pct": 70.01
+      },
+      "overall": {
+        "n": 25,
+        "avg_return_pct": 20.8,
+        "median_return_pct": 10.43,
+        "win_rate_pct": 60.0,
+        "win_rate_wilson_lower_95_pct": 40.74,
+        "double_rate_pct": 12.0,
+        "worst_return_pct": -37.15,
+        "best_return_pct": 178.24,
+        "avg_without_best_pct": 14.24,
+        "trimmed_one_each_pct": 16.47
+      },
+      "target_score": 0.112286,
+      "train_meets_target": false,
+      "validation_meets_target": true,
+      "both_meet_target": false
+    },
+    {
+      "name": "revenue_yoy_ge_0.1 + offset_0_40 + ma10_ma20_gap_ge_0.2 + price_ma20_gap_le_10",
+      "rules": [
+        "營收年增率 >= 10%",
+        "訊號在發行後第 0-40 個交易日",
+        "MA10 高於 MA20 至少 0.2%",
+        "收盤價高於 MA20 不超過 10%"
+      ],
+      "rule_count": 4,
+      "train_2020_2023": {
+        "n": 17,
+        "avg_return_pct": 11.87,
+        "median_return_pct": 9.29,
+        "win_rate_pct": 52.94,
+        "win_rate_wilson_lower_95_pct": 30.96,
+        "double_rate_pct": 5.88,
+        "worst_return_pct": -37.15,
+        "best_return_pct": 159.83,
+        "avg_without_best_pct": 2.62,
+        "trimmed_one_each_pct": 5.27
+      },
+      "validation_2024_plus": {
+        "n": 5,
+        "avg_return_pct": 72.54,
+        "median_return_pct": 37.59,
+        "win_rate_pct": 80.0,
+        "win_rate_wilson_lower_95_pct": 37.55,
+        "double_rate_pct": 40.0,
+        "worst_return_pct": -25.56,
+        "best_return_pct": 178.24,
+        "avg_without_best_pct": 46.12,
+        "trimmed_one_each_pct": 70.01
+      },
+      "overall": {
+        "n": 22,
+        "avg_return_pct": 25.66,
+        "median_return_pct": 11.31,
+        "win_rate_pct": 59.09,
+        "win_rate_wilson_lower_95_pct": 38.73,
+        "double_rate_pct": 13.64,
+        "worst_return_pct": -37.15,
+        "best_return_pct": 178.24,
+        "avg_without_best_pct": 18.39,
+        "trimmed_one_each_pct": 21.17
+      },
+      "target_score": 0.169571,
+      "train_meets_target": false,
+      "validation_meets_target": true,
+      "both_meet_target": false
+    },
+    {
+      "name": "revenue_yoy_ge_0.1 + offset_0_40 + ma10_ma20_gap_ge_0.5 + price_ma20_gap_le_10",
+      "rules": [
+        "營收年增率 >= 10%",
+        "訊號在發行後第 0-40 個交易日",
+        "MA10 高於 MA20 至少 0.5%",
+        "收盤價高於 MA20 不超過 10%"
+      ],
+      "rule_count": 4,
+      "train_2020_2023": {
+        "n": 15,
+        "avg_return_pct": 5.86,
+        "median_return_pct": -15.77,
+        "win_rate_pct": 46.67,
+        "win_rate_wilson_lower_95_pct": 24.81,
+        "double_rate_pct": 6.67,
+        "worst_return_pct": -37.15,
+        "best_return_pct": 159.83,
+        "avg_without_best_pct": -5.14,
+        "trimmed_one_each_pct": -2.68
+      },
+      "validation_2024_plus": {
+        "n": 5,
+        "avg_return_pct": 72.54,
+        "median_return_pct": 37.59,
+        "win_rate_pct": 80.0,
+        "win_rate_wilson_lower_95_pct": 37.55,
+        "double_rate_pct": 40.0,
+        "worst_return_pct": -25.56,
+        "best_return_pct": 178.24,
+        "avg_without_best_pct": 46.12,
+        "trimmed_one_each_pct": 70.01
+      },
+      "overall": {
+        "n": 20,
+        "avg_return_pct": 22.53,
+        "median_return_pct": 9.86,
+        "win_rate_pct": 55.0,
+        "win_rate_wilson_lower_95_pct": 34.21,
+        "double_rate_pct": 15.0,
+        "worst_return_pct": -37.15,
+        "best_return_pct": 178.24,
+        "avg_without_best_pct": 14.33,
+        "trimmed_one_each_pct": 17.19
+      },
+      "target_score": 0.083714,
+      "train_meets_target": false,
+      "validation_meets_target": true,
+      "both_meet_target": false
+    },
+    {
+      "name": "revenue_yoy_ge_0.2 + offset_0_40 + ma10_ma20_gap_ge_0.2 + price_ma20_gap_le_10",
+      "rules": [
+        "營收年增率 >= 20%",
+        "訊號在發行後第 0-40 個交易日",
+        "MA10 高於 MA20 至少 0.2%",
+        "收盤價高於 MA20 不超過 10%"
+      ],
+      "rule_count": 4,
+      "train_2020_2023": {
+        "n": 14,
+        "avg_return_pct": 15.45,
+        "median_return_pct": 9.86,
+        "win_rate_pct": 57.14,
+        "win_rate_wilson_lower_95_pct": 32.59,
+        "double_rate_pct": 7.14,
+        "worst_return_pct": -37.15,
+        "best_return_pct": 159.83,
+        "avg_without_best_pct": 4.35,
+        "trimmed_one_each_pct": 7.81
+      },
+      "validation_2024_plus": {
+        "n": 5,
+        "avg_return_pct": 72.54,
+        "median_return_pct": 37.59,
+        "win_rate_pct": 80.0,
+        "win_rate_wilson_lower_95_pct": 37.55,
+        "double_rate_pct": 40.0,
+        "worst_return_pct": -25.56,
+        "best_return_pct": 178.24,
+        "avg_without_best_pct": 46.12,
+        "trimmed_one_each_pct": 70.01
+      },
+      "overall": {
+        "n": 19,
+        "avg_return_pct": 30.48,
+        "median_return_pct": 12.2,
+        "win_rate_pct": 63.16,
+        "win_rate_wilson_lower_95_pct": 41.04,
+        "double_rate_pct": 15.79,
+        "worst_return_pct": -37.15,
+        "best_return_pct": 178.24,
+        "avg_without_best_pct": 22.27,
+        "trimmed_one_each_pct": 25.76
+      },
+      "target_score": 0.220714,
+      "train_meets_target": false,
+      "validation_meets_target": true,
+      "both_meet_target": false
+    },
+    {
+      "name": "revenue_yoy_ge_0.2 + offset_0_40 + ma10_ma20_gap_ge_0.5 + price_ma20_gap_le_10",
+      "rules": [
+        "營收年增率 >= 20%",
+        "訊號在發行後第 0-40 個交易日",
+        "MA10 高於 MA20 至少 0.5%",
+        "收盤價高於 MA20 不超過 10%"
+      ],
+      "rule_count": 4,
+      "train_2020_2023": {
+        "n": 13,
+        "avg_return_pct": 10.74,
+        "median_return_pct": 9.29,
+        "win_rate_pct": 53.85,
+        "win_rate_wilson_lower_95_pct": 29.14,
+        "double_rate_pct": 7.69,
+        "worst_return_pct": -37.15,
+        "best_return_pct": 159.83,
+        "avg_without_best_pct": -1.68,
+        "trimmed_one_each_pct": 1.54
+      },
+      "validation_2024_plus": {
+        "n": 5,
+        "avg_return_pct": 72.54,
+        "median_return_pct": 37.59,
+        "win_rate_pct": 80.0,
+        "win_rate_wilson_lower_95_pct": 37.55,
+        "double_rate_pct": 40.0,
+        "worst_return_pct": -25.56,
+        "best_return_pct": 178.24,
+        "avg_without_best_pct": 46.12,
+        "trimmed_one_each_pct": 70.01
+      },
+      "overall": {
+        "n": 18,
+        "avg_return_pct": 27.91,
+        "median_return_pct": 11.31,
+        "win_rate_pct": 61.11,
+        "win_rate_wilson_lower_95_pct": 38.62,
+        "double_rate_pct": 16.67,
+        "worst_return_pct": -37.15,
+        "best_return_pct": 178.24,
+        "avg_without_best_pct": 19.07,
+        "trimmed_one_each_pct": 22.58
+      },
+      "target_score": 0.153429,
+      "train_meets_target": false,
+      "validation_meets_target": true,
+      "both_meet_target": false
+    },
+    {
+      "name": "avg_volume_ge_2000000 + offset_0_40 + ma10_ma20_gap_ge_0.2 + price_ma20_gap_le_10",
+      "rules": [
+        "前20日均量 >= 2,000,000股",
+        "訊號在發行後第 0-40 個交易日",
+        "MA10 高於 MA20 至少 0.2%",
+        "收盤價高於 MA20 不超過 10%"
+      ],
+      "rule_count": 4,
+      "train_2020_2023": {
+        "n": 18,
+        "avg_return_pct": 9.65,
+        "median_return_pct": 2.76,
+        "win_rate_pct": 50.0,
+        "win_rate_wilson_lower_95_pct": 29.03,
+        "double_rate_pct": 5.56,
+        "worst_return_pct": -37.15,
+        "best_return_pct": 159.83,
+        "avg_without_best_pct": 0.82,
+        "trimmed_one_each_pct": 3.19
+      },
+      "validation_2024_plus": {
+        "n": 5,
+        "avg_return_pct": 72.54,
+        "median_return_pct": 37.59,
+        "win_rate_pct": 80.0,
+        "win_rate_wilson_lower_95_pct": 37.55,
+        "double_rate_pct": 40.0,
+        "worst_return_pct": -25.56,
+        "best_return_pct": 178.24,
+        "avg_without_best_pct": 46.12,
+        "trimmed_one_each_pct": 70.01
+      },
+      "overall": {
+        "n": 23,
+        "avg_return_pct": 23.32,
+        "median_return_pct": 10.43,
+        "win_rate_pct": 56.52,
+        "win_rate_wilson_lower_95_pct": 36.81,
+        "double_rate_pct": 13.04,
+        "worst_return_pct": -37.15,
+        "best_return_pct": 178.24,
+        "avg_without_best_pct": 16.28,
+        "trimmed_one_each_pct": 18.82
+      },
+      "target_score": 0.137857,
+      "train_meets_target": false,
+      "validation_meets_target": true,
+      "both_meet_target": false
+    },
+    {
+      "name": "avg_volume_ge_2000000 + offset_0_40 + ma10_ma20_gap_ge_0.5 + price_ma20_gap_le_10",
+      "rules": [
+        "前20日均量 >= 2,000,000股",
+        "訊號在發行後第 0-40 個交易日",
+        "MA10 高於 MA20 至少 0.5%",
+        "收盤價高於 MA20 不超過 10%"
+      ],
+      "rule_count": 4,
+      "train_2020_2023": {
+        "n": 15,
+        "avg_return_pct": 10.28,
+        "median_return_pct": 9.29,
+        "win_rate_pct": 53.33,
+        "win_rate_wilson_lower_95_pct": 30.12,
+        "double_rate_pct": 6.67,
+        "worst_return_pct": -37.15,
+        "best_return_pct": 159.83,
+        "avg_without_best_pct": -0.4,
+        "trimmed_one_each_pct": 2.43
+      },
+      "validation_2024_plus": {
+        "n": 5,
+        "avg_return_pct": 72.54,
+        "median_return_pct": 37.59,
+        "win_rate_pct": 80.0,
+        "win_rate_wilson_lower_95_pct": 37.55,
+        "double_rate_pct": 40.0,
+        "worst_return_pct": -25.56,
+        "best_return_pct": 178.24,
+        "avg_without_best_pct": 46.12,
+        "trimmed_one_each_pct": 70.01
+      },
+      "overall": {
+        "n": 20,
+        "avg_return_pct": 25.85,
+        "median_return_pct": 11.31,
+        "win_rate_pct": 60.0,
+        "win_rate_wilson_lower_95_pct": 38.66,
+        "double_rate_pct": 15.0,
+        "worst_return_pct": -37.15,
+        "best_return_pct": 178.24,
+        "avg_without_best_pct": 17.83,
+        "trimmed_one_each_pct": 20.88
+      },
+      "target_score": 0.146857,
+      "train_meets_target": false,
+      "validation_meets_target": true,
+      "both_meet_target": false
+    },
+    {
+      "name": "revenue_yoy_ge_0.3 + offset_0_40 + price_ma20_gap_le_10",
+      "rules": [
+        "營收年增率 >= 30%",
+        "訊號在發行後第 0-40 個交易日",
+        "收盤價高於 MA20 不超過 10%"
+      ],
+      "rule_count": 3,
+      "train_2020_2023": {
+        "n": 7,
+        "avg_return_pct": 40.59,
+        "median_return_pct": 33.2,
+        "win_rate_pct": 71.43,
+        "win_rate_wilson_lower_95_pct": 35.89,
+        "double_rate_pct": 14.29,
+        "worst_return_pct": -30.44,
+        "best_return_pct": 159.83,
+        "avg_without_best_pct": 20.72,
+        "trimmed_one_each_pct": 30.95
+      },
+      "validation_2024_plus": {
+        "n": 5,
+        "avg_return_pct": 70.38,
+        "median_return_pct": 37.59,
+        "win_rate_pct": 80.0,
+        "win_rate_wilson_lower_95_pct": 37.55,
+        "double_rate_pct": 40.0,
+        "worst_return_pct": -36.36,
+        "best_return_pct": 178.24,
+        "avg_without_best_pct": 43.41,
+        "trimmed_one_each_pct": 70.01
+      },
+      "overall": {
+        "n": 12,
+        "avg_return_pct": 53.0,
+        "median_return_pct": 35.4,
+        "win_rate_pct": 75.0,
+        "win_rate_wilson_lower_95_pct": 46.77,
+        "double_rate_pct": 25.0,
+        "worst_return_pct": -36.36,
+        "best_return_pct": 178.24,
+        "avg_without_best_pct": 41.62,
+        "trimmed_one_each_pct": 49.41
+      },
+      "target_score": 0.579857,
+      "train_meets_target": false,
+      "validation_meets_target": true,
+      "both_meet_target": false
+    },
+    {
+      "name": "revenue_yoy_ge_0 + volume_ratio_ge_0.6 + offset_0_40 + price_ma20_gap_le_10",
+      "rules": [
+        "營收年增率 >= 0%",
+        "訊號量 / 前20日均量 >= 0.6",
+        "訊號在發行後第 0-40 個交易日",
+        "收盤價高於 MA20 不超過 10%"
+      ],
+      "rule_count": 4,
+      "train_2020_2023": {
+        "n": 25,
+        "avg_return_pct": 11.02,
+        "median_return_pct": 9.07,
+        "win_rate_pct": 56.0,
+        "win_rate_wilson_lower_95_pct": 37.07,
+        "double_rate_pct": 4.0,
+        "worst_return_pct": -37.15,
+        "best_return_pct": 159.83,
+        "avg_without_best_pct": 4.82,
+        "trimmed_one_each_pct": 6.64
+      },
+      "validation_2024_plus": {
+        "n": 5,
+        "avg_return_pct": 70.38,
+        "median_return_pct": 37.59,
+        "win_rate_pct": 80.0,
+        "win_rate_wilson_lower_95_pct": 37.55,
+        "double_rate_pct": 40.0,
+        "worst_return_pct": -36.36,
+        "best_return_pct": 178.24,
+        "avg_without_best_pct": 43.41,
+        "trimmed_one_each_pct": 70.01
+      },
+      "overall": {
+        "n": 30,
+        "avg_return_pct": 20.91,
+        "median_return_pct": 9.86,
+        "win_rate_pct": 60.0,
+        "win_rate_wilson_lower_95_pct": 42.32,
+        "double_rate_pct": 10.0,
+        "worst_return_pct": -37.15,
+        "best_return_pct": 178.24,
+        "avg_without_best_pct": 15.48,
+        "trimmed_one_each_pct": 17.36
+      },
+      "target_score": 0.157429,
+      "train_meets_target": false,
+      "validation_meets_target": true,
+      "both_meet_target": false
+    },
+    {
+      "name": "revenue_yoy_ge_0 + volume_ratio_ge_0.8 + offset_0_40 + price_ma20_gap_le_10",
+      "rules": [
+        "營收年增率 >= 0%",
+        "訊號量 / 前20日均量 >= 0.8",
+        "訊號在發行後第 0-40 個交易日",
+        "收盤價高於 MA20 不超過 10%"
+      ],
+      "rule_count": 4,
+      "train_2020_2023": {
+        "n": 24,
+        "avg_return_pct": 12.13,
+        "median_return_pct": 9.18,
+        "win_rate_pct": 58.33,
+        "win_rate_wilson_lower_95_pct": 38.83,
+        "double_rate_pct": 4.17,
+        "worst_return_pct": -37.15,
+        "best_return_pct": 159.83,
+        "avg_without_best_pct": 5.71,
+        "trimmed_one_each_pct": 7.66
+      },
+      "validation_2024_plus": {
+        "n": 5,
+        "avg_return_pct": 70.38,
+        "median_return_pct": 37.59,
+        "win_rate_pct": 80.0,
+        "win_rate_wilson_lower_95_pct": 37.55,
+        "double_rate_pct": 40.0,
+        "worst_return_pct": -36.36,
+        "best_return_pct": 178.24,
+        "avg_without_best_pct": 43.41,
+        "trimmed_one_each_pct": 70.01
+      },
+      "overall": {
+        "n": 29,
+        "avg_return_pct": 22.17,
+        "median_return_pct": 10.43,
+        "win_rate_pct": 62.07,
+        "win_rate_wilson_lower_95_pct": 44.0,
+        "double_rate_pct": 10.34,
+        "worst_return_pct": -37.15,
+        "best_return_pct": 178.24,
+        "avg_without_best_pct": 16.6,
+        "trimmed_one_each_pct": 18.59
+      },
+      "target_score": 0.173286,
+      "train_meets_target": false,
+      "validation_meets_target": true,
+      "both_meet_target": false
+    },
+    {
+      "name": "revenue_yoy_ge_0 + volume_ratio_ge_1 + offset_0_40 + price_ma20_gap_le_10",
+      "rules": [
+        "營收年增率 >= 0%",
+        "訊號量 / 前20日均量 >= 1",
+        "訊號在發行後第 0-40 個交易日",
+        "收盤價高於 MA20 不超過 10%"
+      ],
+      "rule_count": 4,
+      "train_2020_2023": {
+        "n": 21,
+        "avg_return_pct": 15.0,
+        "median_return_pct": 9.29,
+        "win_rate_pct": 61.9,
+        "win_rate_wilson_lower_95_pct": 40.88,
+        "double_rate_pct": 4.76,
+        "worst_return_pct": -30.44,
+        "best_return_pct": 159.83,
+        "avg_without_best_pct": 7.76,
+        "trimmed_one_each_pct": 9.77
+      },
+      "validation_2024_plus": {
+        "n": 5,
+        "avg_return_pct": 70.38,
+        "median_return_pct": 37.59,
+        "win_rate_pct": 80.0,
+        "win_rate_wilson_lower_95_pct": 37.55,
+        "double_rate_pct": 40.0,
+        "worst_return_pct": -36.36,
+        "best_return_pct": 178.24,
+        "avg_without_best_pct": 43.41,
+        "trimmed_one_each_pct": 70.01
+      },
+      "overall": {
+        "n": 26,
+        "avg_return_pct": 25.65,
+        "median_return_pct": 11.31,
+        "win_rate_pct": 65.38,
+        "win_rate_wilson_lower_95_pct": 46.22,
+        "double_rate_pct": 11.54,
+        "worst_return_pct": -36.36,
+        "best_return_pct": 178.24,
+        "avg_without_best_pct": 19.55,
+        "trimmed_one_each_pct": 21.88
+      },
+      "target_score": 0.214286,
+      "train_meets_target": false,
+      "validation_meets_target": true,
+      "both_meet_target": false
+    },
+    {
+      "name": "revenue_yoy_ge_0.1 + volume_ratio_ge_0.6 + offset_0_40 + price_ma20_gap_le_10",
+      "rules": [
+        "營收年增率 >= 10%",
+        "訊號量 / 前20日均量 >= 0.6",
+        "訊號在發行後第 0-40 個交易日",
+        "收盤價高於 MA20 不超過 10%"
+      ],
+      "rule_count": 4,
+      "train_2020_2023": {
+        "n": 18,
+        "avg_return_pct": 12.24,
+        "median_return_pct": 9.18,
+        "win_rate_pct": 55.56,
+        "win_rate_wilson_lower_95_pct": 33.72,
+        "double_rate_pct": 5.56,
+        "worst_return_pct": -37.15,
+        "best_return_pct": 159.83,
+        "avg_without_best_pct": 3.56,
+        "trimmed_one_each_pct": 6.11
+      },
+      "validation_2024_plus": {
+        "n": 5,
+        "avg_return_pct": 70.38,
+        "median_return_pct": 37.59,
+        "win_rate_pct": 80.0,
+        "win_rate_wilson_lower_95_pct": 37.55,
+        "double_rate_pct": 40.0,
+        "worst_return_pct": -36.36,
+        "best_return_pct": 178.24,
+        "avg_without_best_pct": 43.41,
+        "trimmed_one_each_pct": 70.01
+      },
+      "overall": {
+        "n": 23,
+        "avg_return_pct": 24.88,
+        "median_return_pct": 10.43,
+        "win_rate_pct": 60.87,
+        "win_rate_wilson_lower_95_pct": 40.79,
+        "double_rate_pct": 13.04,
+        "worst_return_pct": -37.15,
+        "best_return_pct": 178.24,
+        "avg_without_best_pct": 17.91,
+        "trimmed_one_each_pct": 20.53
+      },
+      "target_score": 0.174857,
+      "train_meets_target": false,
+      "validation_meets_target": true,
+      "both_meet_target": false
+    },
+    {
+      "name": "revenue_yoy_ge_0.1 + volume_ratio_ge_0.8 + offset_0_40 + price_ma20_gap_le_10",
+      "rules": [
+        "營收年增率 >= 10%",
+        "訊號量 / 前20日均量 >= 0.8",
+        "訊號在發行後第 0-40 個交易日",
+        "收盤價高於 MA20 不超過 10%"
+      ],
+      "rule_count": 4,
+      "train_2020_2023": {
+        "n": 17,
+        "avg_return_pct": 13.89,
+        "median_return_pct": 9.29,
+        "win_rate_pct": 58.82,
+        "win_rate_wilson_lower_95_pct": 36.01,
+        "double_rate_pct": 5.88,
+        "worst_return_pct": -37.15,
+        "best_return_pct": 159.83,
+        "avg_without_best_pct": 4.77,
+        "trimmed_one_each_pct": 7.57
+      },
+      "validation_2024_plus": {
+        "n": 5,
+        "avg_return_pct": 70.38,
+        "median_return_pct": 37.59,
+        "win_rate_pct": 80.0,
+        "win_rate_wilson_lower_95_pct": 37.55,
+        "double_rate_pct": 40.0,
+        "worst_return_pct": -36.36,
+        "best_return_pct": 178.24,
+        "avg_without_best_pct": 43.41,
+        "trimmed_one_each_pct": 70.01
+      },
+      "overall": {
+        "n": 22,
+        "avg_return_pct": 26.73,
+        "median_return_pct": 11.31,
+        "win_rate_pct": 63.64,
+        "win_rate_wilson_lower_95_pct": 42.95,
+        "double_rate_pct": 13.64,
+        "worst_return_pct": -37.15,
+        "best_return_pct": 178.24,
+        "avg_without_best_pct": 19.52,
+        "trimmed_one_each_pct": 22.35
+      },
+      "target_score": 0.198429,
+      "train_meets_target": false,
+      "validation_meets_target": true,
+      "both_meet_target": false
+    }
+  ],
+  "preferred": {
+    "name": "revenue_yoy_ge_0.3 + offset_21_40 + ma10_ma20_gap_ge_1 + price_ma20_gap_le_15",
+    "rules": [
+      "營收年增率 >= 30%",
+      "訊號在發行後第 21-40 個交易日",
+      "MA10 高於 MA20 至少 1%",
+      "收盤價高於 MA20 不超過 15%"
+    ],
+    "rule_count": 4,
+    "train_2020_2023": {
+      "n": 5,
+      "avg_return_pct": 72.14,
+      "median_return_pct": 59.46,
+      "win_rate_pct": 100.0,
+      "win_rate_wilson_lower_95_pct": 56.55,
+      "double_rate_pct": 20.0,
+      "worst_return_pct": 33.2,
+      "best_return_pct": 159.83,
+      "avg_without_best_pct": 50.22,
+      "trimmed_one_each_pct": 55.89
+    },
+    "validation_2024_plus": {
+      "n": 3,
+      "avg_return_pct": 78.59,
+      "median_return_pct": 37.59,
+      "win_rate_pct": 100.0,
+      "win_rate_wilson_lower_95_pct": 43.85,
+      "double_rate_pct": 33.33,
+      "worst_return_pct": 19.95,
+      "best_return_pct": 178.24,
+      "avg_without_best_pct": 28.77,
+      "trimmed_one_each_pct": 37.59
+    },
+    "overall": {
+      "n": 8,
+      "avg_return_pct": 74.56,
+      "median_return_pct": 54.05,
+      "win_rate_pct": 100.0,
+      "win_rate_wilson_lower_95_pct": 67.56,
+      "double_rate_pct": 25.0,
+      "worst_return_pct": 19.95,
+      "best_return_pct": 178.24,
+      "avg_without_best_pct": 59.75,
+      "trimmed_one_each_pct": 66.38
+    },
+    "target_score": 1.030571,
+    "train_meets_target": true,
+    "validation_meets_target": true,
+    "both_meet_target": true
+  },
+  "current_signals": []
+}

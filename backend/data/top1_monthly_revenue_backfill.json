@@ -1,0 +1,1150 @@
+{
+  "generated_at": "2026-07-15",
+  "start_month": "2019-01",
+  "end_month": "2023-12",
+  "months": [
+    {
+      "report_month": "2019-01",
+      "fetched_rows": 1638,
+      "stored_rows": 1638,
+      "sources": [
+        {
+          "market": "sii",
+          "rows": 888,
+          "url": "https://mopsov.twse.com.tw/nas/t21/sii/t21sc03_108_1_0.html",
+          "attempts": 1
+        },
+        {
+          "market": "otc",
+          "rows": 750,
+          "url": "https://mopsov.twse.com.tw/nas/t21/otc/t21sc03_108_1_0.html",
+          "attempts": 1
+        }
+      ]
+    },
+    {
+      "report_month": "2019-02",
+      "fetched_rows": 1638,
+      "stored_rows": 1638,
+      "sources": [
+        {
+          "market": "sii",
+          "rows": 888,
+          "url": "https://mopsov.twse.com.tw/nas/t21/sii/t21sc03_108_2_0.html",
+          "attempts": 1
+        },
+        {
+          "market": "otc",
+          "rows": 750,
+          "url": "https://mopsov.twse.com.tw/nas/t21/otc/t21sc03_108_2_0.html",
+          "attempts": 1
+        }
+      ]
+    },
+    {
+      "report_month": "2019-03",
+      "fetched_rows": 1641,
+      "stored_rows": 1641,
+      "sources": [
+        {
+          "market": "sii",
+          "rows": 889,
+          "url": "https://mopsov.twse.com.tw/nas/t21/sii/t21sc03_108_3_0.html",
+          "attempts": 1
+        },
+        {
+          "market": "otc",
+          "rows": 752,
+          "url": "https://mopsov.twse.com.tw/nas/t21/otc/t21sc03_108_3_0.html",
+          "attempts": 1
+        }
+      ]
+    },
+    {
+      "report_month": "2019-04",
+      "fetched_rows": 1642,
+      "stored_rows": 1642,
+      "sources": [
+        {
+          "market": "sii",
+          "rows": 889,
+          "url": "https://mopsov.twse.com.tw/nas/t21/sii/t21sc03_108_4_0.html",
+          "attempts": 1
+        },
+        {
+          "market": "otc",
+          "rows": 753,
+          "url": "https://mopsov.twse.com.tw/nas/t21/otc/t21sc03_108_4_0.html",
+          "attempts": 1
+        }
+      ]
+    },
+    {
+      "report_month": "2019-05",
+      "fetched_rows": 1642,
+      "stored_rows": 1642,
+      "sources": [
+        {
+          "market": "sii",
+          "rows": 889,
+          "url": "https://mopsov.twse.com.tw/nas/t21/sii/t21sc03_108_5_0.html",
+          "attempts": 1
+        },
+        {
+          "market": "otc",
+          "rows": 753,
+          "url": "https://mopsov.twse.com.tw/nas/t21/otc/t21sc03_108_5_0.html",
+          "attempts": 1
+        }
+      ]
+    },
+    {
+      "report_month": "2019-06",
+      "fetched_rows": 1644,
+      "stored_rows": 1644,
+      "sources": [
+        {
+          "market": "sii",
+          "rows": 890,
+          "url": "https://mopsov.twse.com.tw/nas/t21/sii/t21sc03_108_6_0.html",
+          "attempts": 1
+        },
+        {
+          "market": "otc",
+          "rows": 754,
+          "url": "https://mopsov.twse.com.tw/nas/t21/otc/t21sc03_108_6_0.html",
+          "attempts": 1
+        }
+      ]
+    },
+    {
+      "report_month": "2019-07",
+      "fetched_rows": 1645,
+      "stored_rows": 1645,
+      "sources": [
+        {
+          "market": "sii",
+          "rows": 891,
+          "url": "https://mopsov.twse.com.tw/nas/t21/sii/t21sc03_108_7_0.html",
+          "attempts": 1
+        },
+        {
+          "market": "otc",
+          "rows": 754,
+          "url": "https://mopsov.twse.com.tw/nas/t21/otc/t21sc03_108_7_0.html",
+          "attempts": 1
+        }
+      ]
+    },
+    {
+      "report_month": "2019-08",
+      "fetched_rows": 1651,
+      "stored_rows": 1651,
+      "sources": [
+        {
+          "market": "sii",
+          "rows": 894,
+          "url": "https://mopsov.twse.com.tw/nas/t21/sii/t21sc03_108_8_0.html",
+          "attempts": 1
+        },
+        {
+          "market": "otc",
+          "rows": 757,
+          "url": "https://mopsov.twse.com.tw/nas/t21/otc/t21sc03_108_8_0.html",
+          "attempts": 1
+        }
+      ]
+    },
+    {
+      "report_month": "2019-09",
+      "fetched_rows": 1655,
+      "stored_rows": 1655,
+      "sources": [
+        {
+          "market": "sii",
+          "rows": 895,
+          "url": "https://mopsov.twse.com.tw/nas/t21/sii/t21sc03_108_9_0.html",
+          "attempts": 1
+        },
+        {
+          "market": "otc",
+          "rows": 760,
+          "url": "https://mopsov.twse.com.tw/nas/t21/otc/t21sc03_108_9_0.html",
+          "attempts": 1
+        }
+      ]
+    },
+    {
+      "report_month": "2019-10",
+      "fetched_rows": 1659,
+      "stored_rows": 1659,
+      "sources": [
+        {
+          "market": "sii",
+          "rows": 897,
+          "url": "https://mopsov.twse.com.tw/nas/t21/sii/t21sc03_108_10_0.html",
+          "attempts": 1
+        },
+        {
+          "market": "otc",
+          "rows": 762,
+          "url": "https://mopsov.twse.com.tw/nas/t21/otc/t21sc03_108_10_0.html",
+          "attempts": 1
+        }
+      ]
+    },
+    {
+      "report_month": "2019-11",
+      "fetched_rows": 1659,
+      "stored_rows": 1659,
+      "sources": [
+        {
+          "market": "sii",
+          "rows": 897,
+          "url": "https://mopsov.twse.com.tw/nas/t21/sii/t21sc03_108_11_0.html",
+          "attempts": 1
+        },
+        {
+          "market": "otc",
+          "rows": 762,
+          "url": "https://mopsov.twse.com.tw/nas/t21/otc/t21sc03_108_11_0.html",
+          "attempts": 1
+        }
+      ]
+    },
+    {
+      "report_month": "2019-12",
+      "fetched_rows": 1661,
+      "stored_rows": 1661,
+      "sources": [
+        {
+          "market": "sii",
+          "rows": 899,
+          "url": "https://mopsov.twse.com.tw/nas/t21/sii/t21sc03_108_12_0.html",
+          "attempts": 1
+        },
+        {
+          "market": "otc",
+          "rows": 762,
+          "url": "https://mopsov.twse.com.tw/nas/t21/otc/t21sc03_108_12_0.html",
+          "attempts": 1
+        }
+      ]
+    },
+    {
+      "report_month": "2020-01",
+      "fetched_rows": 1664,
+      "stored_rows": 1664,
+      "sources": [
+        {
+          "market": "sii",
+          "rows": 901,
+          "url": "https://mopsov.twse.com.tw/nas/t21/sii/t21sc03_109_1_0.html",
+          "attempts": 1
+        },
+        {
+          "market": "otc",
+          "rows": 763,
+          "url": "https://mopsov.twse.com.tw/nas/t21/otc/t21sc03_109_1_0.html",
+          "attempts": 1
+        }
+      ]
+    },
+    {
+      "report_month": "2020-02",
+      "fetched_rows": 1665,
+      "stored_rows": 1665,
+      "sources": [
+        {
+          "market": "sii",
+          "rows": 901,
+          "url": "https://mopsov.twse.com.tw/nas/t21/sii/t21sc03_109_2_0.html",
+          "attempts": 1
+        },
+        {
+          "market": "otc",
+          "rows": 764,
+          "url": "https://mopsov.twse.com.tw/nas/t21/otc/t21sc03_109_2_0.html",
+          "attempts": 1
+        }
+      ]
+    },
+    {
+      "report_month": "2020-03",
+      "fetched_rows": 1665,
+      "stored_rows": 1665,
+      "sources": [
+        {
+          "market": "sii",
+          "rows": 901,
+          "url": "https://mopsov.twse.com.tw/nas/t21/sii/t21sc03_109_3_0.html",
+          "attempts": 1
+        },
+        {
+          "market": "otc",
+          "rows": 764,
+          "url": "https://mopsov.twse.com.tw/nas/t21/otc/t21sc03_109_3_0.html",
+          "attempts": 1
+        }
+      ]
+    },
+    {
+      "report_month": "2020-04",
+      "fetched_rows": 1666,
+      "stored_rows": 1666,
+      "sources": [
+        {
+          "market": "sii",
+          "rows": 902,
+          "url": "https://mopsov.twse.com.tw/nas/t21/sii/t21sc03_109_4_0.html",
+          "attempts": 1
+        },
+        {
+          "market": "otc",
+          "rows": 764,
+          "url": "https://mopsov.twse.com.tw/nas/t21/otc/t21sc03_109_4_0.html",
+          "attempts": 1
+        }
+      ]
+    },
+    {
+      "report_month": "2020-05",
+      "fetched_rows": 1666,
+      "stored_rows": 1666,
+      "sources": [
+        {
+          "market": "sii",
+          "rows": 902,
+          "url": "https://mopsov.twse.com.tw/nas/t21/sii/t21sc03_109_5_0.html",
+          "attempts": 1
+        },
+        {
+          "market": "otc",
+          "rows": 764,
+          "url": "https://mopsov.twse.com.tw/nas/t21/otc/t21sc03_109_5_0.html",
+          "attempts": 1
+        }
+      ]
+    },
+    {
+      "report_month": "2020-06",
+      "fetched_rows": 1669,
+      "stored_rows": 1669,
+      "sources": [
+        {
+          "market": "sii",
+          "rows": 903,
+          "url": "https://mopsov.twse.com.tw/nas/t21/sii/t21sc03_109_6_0.html",
+          "attempts": 1
+        },
+        {
+          "market": "otc",
+          "rows": 766,
+          "url": "https://mopsov.twse.com.tw/nas/t21/otc/t21sc03_109_6_0.html",
+          "attempts": 1
+        }
+      ]
+    },
+    {
+      "report_month": "2020-07",
+      "fetched_rows": 1671,
+      "stored_rows": 1671,
+      "sources": [
+        {
+          "market": "sii",
+          "rows": 904,
+          "url": "https://mopsov.twse.com.tw/nas/t21/sii/t21sc03_109_7_0.html",
+          "attempts": 1
+        },
+        {
+          "market": "otc",
+          "rows": 767,
+          "url": "https://mopsov.twse.com.tw/nas/t21/otc/t21sc03_109_7_0.html",
+          "attempts": 1
+        }
+      ]
+    },
+    {
+      "report_month": "2020-08",
+      "fetched_rows": 1677,
+      "stored_rows": 1677,
+      "sources": [
+        {
+          "market": "sii",
+          "rows": 908,
+          "url": "https://mopsov.twse.com.tw/nas/t21/sii/t21sc03_109_8_0.html",
+          "attempts": 1
+        },
+        {
+          "market": "otc",
+          "rows": 769,
+          "url": "https://mopsov.twse.com.tw/nas/t21/otc/t21sc03_109_8_0.html",
+          "attempts": 1
+        }
+      ]
+    },
+    {
+      "report_month": "2020-09",
+      "fetched_rows": 1682,
+      "stored_rows": 1682,
+      "sources": [
+        {
+          "market": "sii",
+          "rows": 911,
+          "url": "https://mopsov.twse.com.tw/nas/t21/sii/t21sc03_109_9_0.html",
+          "attempts": 1
+        },
+        {
+          "market": "otc",
+          "rows": 771,
+          "url": "https://mopsov.twse.com.tw/nas/t21/otc/t21sc03_109_9_0.html",
+          "attempts": 1
+        }
+      ]
+    },
+    {
+      "report_month": "2020-10",
+      "fetched_rows": 1684,
+      "stored_rows": 1684,
+      "sources": [
+        {
+          "market": "sii",
+          "rows": 911,
+          "url": "https://mopsov.twse.com.tw/nas/t21/sii/t21sc03_109_10_0.html",
+          "attempts": 1
+        },
+        {
+          "market": "otc",
+          "rows": 773,
+          "url": "https://mopsov.twse.com.tw/nas/t21/otc/t21sc03_109_10_0.html",
+          "attempts": 1
+        }
+      ]
+    },
+    {
+      "report_month": "2020-11",
+      "fetched_rows": 1685,
+      "stored_rows": 1685,
+      "sources": [
+        {
+          "market": "sii",
+          "rows": 911,
+          "url": "https://mopsov.twse.com.tw/nas/t21/sii/t21sc03_109_11_0.html",
+          "attempts": 1
+        },
+        {
+          "market": "otc",
+          "rows": 774,
+          "url": "https://mopsov.twse.com.tw/nas/t21/otc/t21sc03_109_11_0.html",
+          "attempts": 1
+        }
+      ]
+    },
+    {
+      "report_month": "2020-12",
+      "fetched_rows": 1688,
+      "stored_rows": 1688,
+      "sources": [
+        {
+          "market": "sii",
+          "rows": 912,
+          "url": "https://mopsov.twse.com.tw/nas/t21/sii/t21sc03_109_12_0.html",
+          "attempts": 1
+        },
+        {
+          "market": "otc",
+          "rows": 776,
+          "url": "https://mopsov.twse.com.tw/nas/t21/otc/t21sc03_109_12_0.html",
+          "attempts": 1
+        }
+      ]
+    },
+    {
+      "report_month": "2021-01",
+      "fetched_rows": 1690,
+      "stored_rows": 1690,
+      "sources": [
+        {
+          "market": "sii",
+          "rows": 912,
+          "url": "https://mopsov.twse.com.tw/nas/t21/sii/t21sc03_110_1_0.html",
+          "attempts": 1
+        },
+        {
+          "market": "otc",
+          "rows": 778,
+          "url": "https://mopsov.twse.com.tw/nas/t21/otc/t21sc03_110_1_0.html",
+          "attempts": 1
+        }
+      ]
+    },
+    {
+      "report_month": "2021-02",
+      "fetched_rows": 1690,
+      "stored_rows": 1690,
+      "sources": [
+        {
+          "market": "sii",
+          "rows": 912,
+          "url": "https://mopsov.twse.com.tw/nas/t21/sii/t21sc03_110_2_0.html",
+          "attempts": 1
+        },
+        {
+          "market": "otc",
+          "rows": 778,
+          "url": "https://mopsov.twse.com.tw/nas/t21/otc/t21sc03_110_2_0.html",
+          "attempts": 1
+        }
+      ]
+    },
+    {
+      "report_month": "2021-03",
+      "fetched_rows": 1693,
+      "stored_rows": 1693,
+      "sources": [
+        {
+          "market": "sii",
+          "rows": 914,
+          "url": "https://mopsov.twse.com.tw/nas/t21/sii/t21sc03_110_3_0.html",
+          "attempts": 1
+        },
+        {
+          "market": "otc",
+          "rows": 779,
+          "url": "https://mopsov.twse.com.tw/nas/t21/otc/t21sc03_110_3_0.html",
+          "attempts": 1
+        }
+      ]
+    },
+    {
+      "report_month": "2021-04",
+      "fetched_rows": 1695,
+      "stored_rows": 1695,
+      "sources": [
+        {
+          "market": "sii",
+          "rows": 915,
+          "url": "https://mopsov.twse.com.tw/nas/t21/sii/t21sc03_110_4_0.html",
+          "attempts": 1
+        },
+        {
+          "market": "otc",
+          "rows": 780,
+          "url": "https://mopsov.twse.com.tw/nas/t21/otc/t21sc03_110_4_0.html",
+          "attempts": 1
+        }
+      ]
+    },
+    {
+      "report_month": "2021-05",
+      "fetched_rows": 1696,
+      "stored_rows": 1696,
+      "sources": [
+        {
+          "market": "sii",
+          "rows": 916,
+          "url": "https://mopsov.twse.com.tw/nas/t21/sii/t21sc03_110_5_0.html",
+          "attempts": 1
+        },
+        {
+          "market": "otc",
+          "rows": 780,
+          "url": "https://mopsov.twse.com.tw/nas/t21/otc/t21sc03_110_5_0.html",
+          "attempts": 1
+        }
+      ]
+    },
+    {
+      "report_month": "2021-06",
+      "fetched_rows": 1699,
+      "stored_rows": 1699,
+      "sources": [
+        {
+          "market": "sii",
+          "rows": 916,
+          "url": "https://mopsov.twse.com.tw/nas/t21/sii/t21sc03_110_6_0.html",
+          "attempts": 1
+        },
+        {
+          "market": "otc",
+          "rows": 783,
+          "url": "https://mopsov.twse.com.tw/nas/t21/otc/t21sc03_110_6_0.html",
+          "attempts": 1
+        }
+      ]
+    },
+    {
+      "report_month": "2021-07",
+      "fetched_rows": 1704,
+      "stored_rows": 1704,
+      "sources": [
+        {
+          "market": "sii",
+          "rows": 917,
+          "url": "https://mopsov.twse.com.tw/nas/t21/sii/t21sc03_110_7_0.html",
+          "attempts": 1
+        },
+        {
+          "market": "otc",
+          "rows": 787,
+          "url": "https://mopsov.twse.com.tw/nas/t21/otc/t21sc03_110_7_0.html",
+          "attempts": 1
+        }
+      ]
+    },
+    {
+      "report_month": "2021-08",
+      "fetched_rows": 1707,
+      "stored_rows": 1707,
+      "sources": [
+        {
+          "market": "sii",
+          "rows": 919,
+          "url": "https://mopsov.twse.com.tw/nas/t21/sii/t21sc03_110_8_0.html",
+          "attempts": 1
+        },
+        {
+          "market": "otc",
+          "rows": 788,
+          "url": "https://mopsov.twse.com.tw/nas/t21/otc/t21sc03_110_8_0.html",
+          "attempts": 1
+        }
+      ]
+    },
+    {
+      "report_month": "2021-09",
+      "fetched_rows": 1710,
+      "stored_rows": 1710,
+      "sources": [
+        {
+          "market": "sii",
+          "rows": 920,
+          "url": "https://mopsov.twse.com.tw/nas/t21/sii/t21sc03_110_9_0.html",
+          "attempts": 1
+        },
+        {
+          "market": "otc",
+          "rows": 790,
+          "url": "https://mopsov.twse.com.tw/nas/t21/otc/t21sc03_110_9_0.html",
+          "attempts": 1
+        }
+      ]
+    },
+    {
+      "report_month": "2021-10",
+      "fetched_rows": 1716,
+      "stored_rows": 1716,
+      "sources": [
+        {
+          "market": "sii",
+          "rows": 924,
+          "url": "https://mopsov.twse.com.tw/nas/t21/sii/t21sc03_110_10_0.html",
+          "attempts": 1
+        },
+        {
+          "market": "otc",
+          "rows": 792,
+          "url": "https://mopsov.twse.com.tw/nas/t21/otc/t21sc03_110_10_0.html",
+          "attempts": 1
+        }
+      ]
+    },
+    {
+      "report_month": "2021-11",
+      "fetched_rows": 1720,
+      "stored_rows": 1720,
+      "sources": [
+        {
+          "market": "sii",
+          "rows": 925,
+          "url": "https://mopsov.twse.com.tw/nas/t21/sii/t21sc03_110_11_0.html",
+          "attempts": 1
+        },
+        {
+          "market": "otc",
+          "rows": 795,
+          "url": "https://mopsov.twse.com.tw/nas/t21/otc/t21sc03_110_11_0.html",
+          "attempts": 1
+        }
+      ]
+    },
+    {
+      "report_month": "2021-12",
+      "fetched_rows": 1721,
+      "stored_rows": 1721,
+      "sources": [
+        {
+          "market": "sii",
+          "rows": 925,
+          "url": "https://mopsov.twse.com.tw/nas/t21/sii/t21sc03_110_12_0.html",
+          "attempts": 1
+        },
+        {
+          "market": "otc",
+          "rows": 796,
+          "url": "https://mopsov.twse.com.tw/nas/t21/otc/t21sc03_110_12_0.html",
+          "attempts": 1
+        }
+      ]
+    },
+    {
+      "report_month": "2022-01",
+      "fetched_rows": 1727,
+      "stored_rows": 1727,
+      "sources": [
+        {
+          "market": "sii",
+          "rows": 928,
+          "url": "https://mopsov.twse.com.tw/nas/t21/sii/t21sc03_111_1_0.html",
+          "attempts": 1
+        },
+        {
+          "market": "otc",
+          "rows": 799,
+          "url": "https://mopsov.twse.com.tw/nas/t21/otc/t21sc03_111_1_0.html",
+          "attempts": 1
+        }
+      ]
+    },
+    {
+      "report_month": "2022-02",
+      "fetched_rows": 1727,
+      "stored_rows": 1727,
+      "sources": [
+        {
+          "market": "sii",
+          "rows": 928,
+          "url": "https://mopsov.twse.com.tw/nas/t21/sii/t21sc03_111_2_0.html",
+          "attempts": 1
+        },
+        {
+          "market": "otc",
+          "rows": 799,
+          "url": "https://mopsov.twse.com.tw/nas/t21/otc/t21sc03_111_2_0.html",
+          "attempts": 1
+        }
+      ]
+    },
+    {
+      "report_month": "2022-03",
+      "fetched_rows": 1729,
+      "stored_rows": 1729,
+      "sources": [
+        {
+          "market": "sii",
+          "rows": 929,
+          "url": "https://mopsov.twse.com.tw/nas/t21/sii/t21sc03_111_3_0.html",
+          "attempts": 1
+        },
+        {
+          "market": "otc",
+          "rows": 800,
+          "url": "https://mopsov.twse.com.tw/nas/t21/otc/t21sc03_111_3_0.html",
+          "attempts": 1
+        }
+      ]
+    },
+    {
+      "report_month": "2022-04",
+      "fetched_rows": 1732,
+      "stored_rows": 1732,
+      "sources": [
+        {
+          "market": "sii",
+          "rows": 929,
+          "url": "https://mopsov.twse.com.tw/nas/t21/sii/t21sc03_111_4_0.html",
+          "attempts": 1
+        },
+        {
+          "market": "otc",
+          "rows": 803,
+          "url": "https://mopsov.twse.com.tw/nas/t21/otc/t21sc03_111_4_0.html",
+          "attempts": 1
+        }
+      ]
+    },
+    {
+      "report_month": "2022-05",
+      "fetched_rows": 1735,
+      "stored_rows": 1735,
+      "sources": [
+        {
+          "market": "sii",
+          "rows": 930,
+          "url": "https://mopsov.twse.com.tw/nas/t21/sii/t21sc03_111_5_0.html",
+          "attempts": 1
+        },
+        {
+          "market": "otc",
+          "rows": 805,
+          "url": "https://mopsov.twse.com.tw/nas/t21/otc/t21sc03_111_5_0.html",
+          "attempts": 1
+        }
+      ]
+    },
+    {
+      "report_month": "2022-06",
+      "fetched_rows": 1737,
+      "stored_rows": 1737,
+      "sources": [
+        {
+          "market": "sii",
+          "rows": 932,
+          "url": "https://mopsov.twse.com.tw/nas/t21/sii/t21sc03_111_6_0.html",
+          "attempts": 1
+        },
+        {
+          "market": "otc",
+          "rows": 805,
+          "url": "https://mopsov.twse.com.tw/nas/t21/otc/t21sc03_111_6_0.html",
+          "attempts": 1
+        }
+      ]
+    },
+    {
+      "report_month": "2022-07",
+      "fetched_rows": 1743,
+      "stored_rows": 1743,
+      "sources": [
+        {
+          "market": "sii",
+          "rows": 936,
+          "url": "https://mopsov.twse.com.tw/nas/t21/sii/t21sc03_111_7_0.html",
+          "attempts": 1
+        },
+        {
+          "market": "otc",
+          "rows": 807,
+          "url": "https://mopsov.twse.com.tw/nas/t21/otc/t21sc03_111_7_0.html",
+          "attempts": 1
+        }
+      ]
+    },
+    {
+      "report_month": "2022-08",
+      "fetched_rows": 1748,
+      "stored_rows": 1748,
+      "sources": [
+        {
+          "market": "sii",
+          "rows": 941,
+          "url": "https://mopsov.twse.com.tw/nas/t21/sii/t21sc03_111_8_0.html",
+          "attempts": 1
+        },
+        {
+          "market": "otc",
+          "rows": 807,
+          "url": "https://mopsov.twse.com.tw/nas/t21/otc/t21sc03_111_8_0.html",
+          "attempts": 1
+        }
+      ]
+    },
+    {
+      "report_month": "2022-09",
+      "fetched_rows": 1755,
+      "stored_rows": 1755,
+      "sources": [
+        {
+          "market": "sii",
+          "rows": 945,
+          "url": "https://mopsov.twse.com.tw/nas/t21/sii/t21sc03_111_9_0.html",
+          "attempts": 1
+        },
+        {
+          "market": "otc",
+          "rows": 810,
+          "url": "https://mopsov.twse.com.tw/nas/t21/otc/t21sc03_111_9_0.html",
+          "attempts": 1
+        }
+      ]
+    },
+    {
+      "report_month": "2022-10",
+      "fetched_rows": 1759,
+      "stored_rows": 1759,
+      "sources": [
+        {
+          "market": "sii",
+          "rows": 948,
+          "url": "https://mopsov.twse.com.tw/nas/t21/sii/t21sc03_111_10_0.html",
+          "attempts": 1
+        },
+        {
+          "market": "otc",
+          "rows": 811,
+          "url": "https://mopsov.twse.com.tw/nas/t21/otc/t21sc03_111_10_0.html",
+          "attempts": 1
+        }
+      ]
+    },
+    {
+      "report_month": "2022-11",
+      "fetched_rows": 1762,
+      "stored_rows": 1762,
+      "sources": [
+        {
+          "market": "sii",
+          "rows": 950,
+          "url": "https://mopsov.twse.com.tw/nas/t21/sii/t21sc03_111_11_0.html",
+          "attempts": 1
+        },
+        {
+          "market": "otc",
+          "rows": 812,
+          "url": "https://mopsov.twse.com.tw/nas/t21/otc/t21sc03_111_11_0.html",
+          "attempts": 1
+        }
+      ]
+    },
+    {
+      "report_month": "2022-12",
+      "fetched_rows": 1763,
+      "stored_rows": 1763,
+      "sources": [
+        {
+          "market": "sii",
+          "rows": 951,
+          "url": "https://mopsov.twse.com.tw/nas/t21/sii/t21sc03_111_12_0.html",
+          "attempts": 1
+        },
+        {
+          "market": "otc",
+          "rows": 812,
+          "url": "https://mopsov.twse.com.tw/nas/t21/otc/t21sc03_111_12_0.html",
+          "attempts": 1
+        }
+      ]
+    },
+    {
+      "report_month": "2023-01",
+      "fetched_rows": 1770,
+      "stored_rows": 1770,
+      "sources": [
+        {
+          "market": "sii",
+          "rows": 954,
+          "url": "https://mopsov.twse.com.tw/nas/t21/sii/t21sc03_112_1_0.html",
+          "attempts": 1
+        },
+        {
+          "market": "otc",
+          "rows": 816,
+          "url": "https://mopsov.twse.com.tw/nas/t21/otc/t21sc03_112_1_0.html",
+          "attempts": 1
+        }
+      ]
+    },
+    {
+      "report_month": "2023-02",
+      "fetched_rows": 1770,
+      "stored_rows": 1770,
+      "sources": [
+        {
+          "market": "sii",
+          "rows": 954,
+          "url": "https://mopsov.twse.com.tw/nas/t21/sii/t21sc03_112_2_0.html",
+          "attempts": 1
+        },
+        {
+          "market": "otc",
+          "rows": 816,
+          "url": "https://mopsov.twse.com.tw/nas/t21/otc/t21sc03_112_2_0.html",
+          "attempts": 1
+        }
+      ]
+    },
+    {
+      "report_month": "2023-03",
+      "fetched_rows": 1773,
+      "stored_rows": 1773,
+      "sources": [
+        {
+          "market": "sii",
+          "rows": 956,
+          "url": "https://mopsov.twse.com.tw/nas/t21/sii/t21sc03_112_3_0.html",
+          "attempts": 1
+        },
+        {
+          "market": "otc",
+          "rows": 817,
+          "url": "https://mopsov.twse.com.tw/nas/t21/otc/t21sc03_112_3_0.html",
+          "attempts": 1
+        }
+      ]
+    },
+    {
+      "report_month": "2023-04",
+      "fetched_rows": 1775,
+      "stored_rows": 1775,
+      "sources": [
+        {
+          "market": "sii",
+          "rows": 958,
+          "url": "https://mopsov.twse.com.tw/nas/t21/sii/t21sc03_112_4_0.html",
+          "attempts": 1
+        },
+        {
+          "market": "otc",
+          "rows": 817,
+          "url": "https://mopsov.twse.com.tw/nas/t21/otc/t21sc03_112_4_0.html",
+          "attempts": 1
+        }
+      ]
+    },
+    {
+      "report_month": "2023-05",
+      "fetched_rows": 1775,
+      "stored_rows": 1775,
+      "sources": [
+        {
+          "market": "sii",
+          "rows": 957,
+          "url": "https://mopsov.twse.com.tw/nas/t21/sii/t21sc03_112_5_0.html",
+          "attempts": 1
+        },
+        {
+          "market": "otc",
+          "rows": 818,
+          "url": "https://mopsov.twse.com.tw/nas/t21/otc/t21sc03_112_5_0.html",
+          "attempts": 1
+        }
+      ]
+    },
+    {
+      "report_month": "2023-06",
+      "fetched_rows": 1780,
+      "stored_rows": 1780,
+      "sources": [
+        {
+          "market": "sii",
+          "rows": 959,
+          "url": "https://mopsov.twse.com.tw/nas/t21/sii/t21sc03_112_6_0.html",
+          "attempts": 1
+        },
+        {
+          "market": "otc",
+          "rows": 821,
+          "url": "https://mopsov.twse.com.tw/nas/t21/otc/t21sc03_112_6_0.html",
+          "attempts": 1
+        }
+      ]
+    },
+    {
+      "report_month": "2023-07",
+      "fetched_rows": 1784,
+      "stored_rows": 1784,
+      "sources": [
+        {
+          "market": "sii",
+          "rows": 959,
+          "url": "https://mopsov.twse.com.tw/nas/t21/sii/t21sc03_112_7_0.html",
+          "attempts": 1
+        },
+        {
+          "market": "otc",
+          "rows": 825,
+          "url": "https://mopsov.twse.com.tw/nas/t21/otc/t21sc03_112_7_0.html",
+          "attempts": 1
+        }
+      ]
+    },
+    {
+      "report_month": "2023-08",
+      "fetched_rows": 1789,
+      "stored_rows": 1789,
+      "sources": [
+        {
+          "market": "sii",
+          "rows": 961,
+          "url": "https://mopsov.twse.com.tw/nas/t21/sii/t21sc03_112_8_0.html",
+          "attempts": 1
+        },
+        {
+          "market": "otc",
+          "rows": 828,
+          "url": "https://mopsov.twse.com.tw/nas/t21/otc/t21sc03_112_8_0.html",
+          "attempts": 1
+        }
+      ]
+    },
+    {
+      "report_month": "2023-09",
+      "fetched_rows": 1795,
+      "stored_rows": 1795,
+      "sources": [
+        {
+          "market": "sii",
+          "rows": 962,
+          "url": "https://mopsov.twse.com.tw/nas/t21/sii/t21sc03_112_9_0.html",
+          "attempts": 1
+        },
+        {
+          "market": "otc",
+          "rows": 833,
+          "url": "https://mopsov.twse.com.tw/nas/t21/otc/t21sc03_112_9_0.html",
+          "attempts": 1
+        }
+      ]
+    },
+    {
+      "report_month": "2023-10",
+      "fetched_rows": 1800,
+      "stored_rows": 1800,
+      "sources": [
+        {
+          "market": "sii",
+          "rows": 963,
+          "url": "https://mopsov.twse.com.tw/nas/t21/sii/t21sc03_112_10_0.html",
+          "attempts": 1
+        },
+        {
+          "market": "otc",
+          "rows": 837,
+          "url": "https://mopsov.twse.com.tw/nas/t21/otc/t21sc03_112_10_0.html",
+          "attempts": 1
+        }
+      ]
+    },
+    {
+      "report_month": "2023-11",
+      "fetched_rows": 1802,
+      "stored_rows": 1802,
+      "sources": [
+        {
+          "market": "sii",
+          "rows": 963,
+          "url": "https://mopsov.twse.com.tw/nas/t21/sii/t21sc03_112_11_0.html",
+          "attempts": 1
+        },
+        {
+          "market": "otc",
+          "rows": 839,
+          "url": "https://mopsov.twse.com.tw/nas/t21/otc/t21sc03_112_11_0.html",
+          "attempts": 1
+        }
+      ]
+    },
+    {
+      "report_month": "2023-12",
+      "fetched_rows": 1809,
+      "stored_rows": 1809,
+      "sources": [
+        {
+          "market": "sii",
+          "rows": 967,
+          "url": "https://mopsov.twse.com.tw/nas/t21/sii/t21sc03_112_12_0.html",
+          "attempts": 1
+        },
+        {
+          "market": "otc",
+          "rows": 842,
+          "url": "https://mopsov.twse.com.tw/nas/t21/otc/t21sc03_112_12_0.html",
+          "attempts": 1
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "completed_month_n": 60,
+  "error_month_n": 0
+}

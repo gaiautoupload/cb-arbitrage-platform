@@ -1287,6 +1287,132 @@
     "performance": null
   },
   {
+    "stock_code": "8054",
+    "company_name": "安國",
+    "bond_name": "安國 可轉債",
+    "expected_listing_date": null,
+    "event_date": "2026-07-06",
+    "buy_date": "2026-07-01",
+    "sell_date": "2026-07-26",
+    "current_stage_index": 1,
+    "status_text": "條件未通過：外資近 5 日未累計買超",
+    "status_type": "failed",
+    "strategy_mode": "paper_trade_only",
+    "strategy_info": {
+      "name": "候選：競拍前法人動能（模擬）",
+      "win_rate": 80.0,
+      "avg_return": 13.52,
+      "raw_avg_return": 23.2,
+      "status": "research_only"
+    },
+    "signal": {
+      "passed": false,
+      "momentum_10d": 19.0955,
+      "foreign_net_5d": 0.0,
+      "trust_net_5d": 0.0,
+      "volume_ratio_5v20": 2.3026,
+      "failure_reasons": [
+        "外資近 5 日未累計買超"
+      ]
+    },
+    "stations": [
+      {
+        "name": "競拍時程已知",
+        "date": "2026-07-06",
+        "status": "completed",
+        "description": "使用正式競拍時程，不使用事後推算的掛牌倒數日。"
+      },
+      {
+        "name": "法人動能檢查",
+        "date": "2026-07-01",
+        "status": "failed",
+        "description": "10 日動能為正、外資 5 日買超且成交量未過熱。"
+      },
+      {
+        "name": "模擬買進",
+        "date": "2026-07-01",
+        "status": "failed",
+        "description": "條件全部成立才以買進日收盤價建立模擬部位。"
+      },
+      {
+        "name": "競拍開始",
+        "date": "2026-07-06",
+        "status": "completed",
+        "description": "進入競拍事件觀察期。"
+      },
+      {
+        "name": "第 20 天出場",
+        "date": "2026-07-26",
+        "status": "upcoming",
+        "description": "暫定事件後第 20 天出場；單檔 -10% 先停損。"
+      }
+    ],
+    "performance": null
+  },
+  {
+    "stock_code": "8054",
+    "company_name": "安國",
+    "bond_name": "80541",
+    "expected_listing_date": null,
+    "event_date": "2026-07-06",
+    "buy_date": "2026-07-01",
+    "sell_date": "2026-07-26",
+    "current_stage_index": 1,
+    "status_text": "條件未通過：外資近 5 日未累計買超",
+    "status_type": "failed",
+    "strategy_mode": "paper_trade_only",
+    "strategy_info": {
+      "name": "候選：競拍前法人動能（模擬）",
+      "win_rate": 80.0,
+      "avg_return": 13.52,
+      "raw_avg_return": 23.2,
+      "status": "research_only"
+    },
+    "signal": {
+      "passed": false,
+      "momentum_10d": 19.0955,
+      "foreign_net_5d": 0.0,
+      "trust_net_5d": 0.0,
+      "volume_ratio_5v20": 2.3026,
+      "failure_reasons": [
+        "外資近 5 日未累計買超"
+      ]
+    },
+    "stations": [
+      {
+        "name": "競拍時程已知",
+        "date": "2026-07-06",
+        "status": "completed",
+        "description": "使用正式競拍時程，不使用事後推算的掛牌倒數日。"
+      },
+      {
+        "name": "法人動能檢查",
+        "date": "2026-07-01",
+        "status": "failed",
+        "description": "10 日動能為正、外資 5 日買超且成交量未過熱。"
+      },
+      {
+        "name": "模擬買進",
+        "date": "2026-07-01",
+        "status": "failed",
+        "description": "條件全部成立才以買進日收盤價建立模擬部位。"
+      },
+      {
+        "name": "競拍開始",
+        "date": "2026-07-06",
+        "status": "completed",
+        "description": "進入競拍事件觀察期。"
+      },
+      {
+        "name": "第 20 天出場",
+        "date": "2026-07-26",
+        "status": "upcoming",
+        "description": "暫定事件後第 20 天出場；單檔 -10% 先停損。"
+      }
+    ],
+    "performance": null
+  },
+  {
     "stock_code": "6869",
     "company_name": "雲豹能源",
     "bond_name": "68691",

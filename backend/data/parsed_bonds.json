@@ -7438,5 +7438,35 @@
     "maturity_date_minguo": "118年7月16日",
     "maturity_date": "2029-07-16",
     "issue_amount": "新台幣20億元整"
+  },
+  {
+    "file_id": "11500046301",
+    "company_name": "萬旭電業股份有限公司",
+    "bond_name": "萬旭電業股份有限公司國內第三次有擔保轉換公司債",
+    "cb_code": "61343",
+    "stock_code": "6134",
+    "short_name": "萬旭三",
+    "announcement_date_minguo": "115年7月15日",
+    "announcement_date": "2026-07-15",
+    "issue_date_minguo": "115年7月20日",
+    "issue_date": "2026-07-20",
+    "maturity_date_minguo": "118年7月20日",
+    "maturity_date": "2029-07-20",
+    "issue_amount": "新臺幣3億元整"
+  },
+  {
+    "file_id": "11500046931",
+    "company_name": "安國國際科技股份有限公司",
+    "bond_name": "安國國際科技股份有限公司國內第一次有擔保轉換公司債",
+    "cb_code": "80541",
+    "stock_code": "8054",
+    "short_name": "安國一",
+    "announcement_date_minguo": "115年7月15日",
+    "announcement_date": "2026-07-15",
+    "issue_date_minguo": "115年7月22日",
+    "issue_date": "2026-07-22",
+    "maturity_date_minguo": "118年7月22日",
+    "maturity_date": "2029-07-22",
+    "issue_amount": "新台幣4億元整"
   }
 ]

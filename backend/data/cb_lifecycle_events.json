@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-14T17:13:10",
+  "generated_at": "2026-07-15T17:15:07",
   "source_files": {
     "mops_wiki_db": "mops_wiki_db.json",
     "parsed_bonds": "parsed_bonds.json",
@@ -12,22 +12,22 @@
     "Generated linked BOARD_RESOLUTION/EFFECTIVE dates are retained only as low-confidence proxy events."
   ],
   "summary": {
-    "total_events": 3158,
-    "actual_or_observed_events": 1100,
-    "inferred_events": 2058,
+    "total_events": 3171,
+    "actual_or_observed_events": 1107,
+    "inferred_events": 2064,
     "by_stage": {
-      "BOARD_RESOLUTION": 502,
-      "FILING": 1,
-      "EFFECTIVE": 487,
-      "PRICING": 486,
+      "BOARD_RESOLUTION": 505,
+      "FILING": 2,
+      "EFFECTIVE": 489,
+      "PRICING": 488,
       "PAYMENT_BANK": 14,
       "AUCTION_BID_START": 42,
       "AUCTION_BID_END": 42,
       "AUCTION_RESULT_ESTIMATED": 42,
-      "LISTING": 489,
-      "CBAS_PROXY_START": 351,
-      "CBAS_PROXY_END": 351,
-      "T_PLUS_19_EXIT_PROXY": 351
+      "LISTING": 491,
+      "CBAS_PROXY_START": 352,
+      "CBAS_PROXY_END": 352,
+      "T_PLUS_19_EXIT_PROXY": 352
     }
   },
   "events": [
@@ -2491,6 +2491,20 @@
       "is_inferred": false,
       "title": "大東電一 announcement/pricing date",
       "cb_code": "16231"
+    },
+    {
+      "stock_code": "1623",
+      "company_name": "大東電",
+      "short_name": "大東電一",
+      "stage": "FILING",
+      "date": "2026-07-14",
+      "source": "mops_wiki_db",
+      "confidence": 0.85,
+      "is_inferred": false,
+      "title": "公告本公司國內第一次無擔保轉換公司債收足債款",
+      "summary": "送件/申報: 公告本公司國內第一次無擔保轉換公司債收足債款",
+      "event_type": "CB_ISSUANCE",
+      "published_at": "2026-07-14T164505"
     },
     {
       "stock_code": "1623",
@@ -11393,6 +11407,20 @@
       "based_on": "2021-09-02"
     },
     {
+      "stock_code": "3339",
+      "company_name": "泰谷",
+      "short_name": "泰谷四",
+      "stage": "BOARD_RESOLUTION",
+      "date": "2026-07-14",
+      "source": "mops_wiki_db",
+      "confidence": 0.85,
+      "is_inferred": false,
+      "title": "公告本公司董事會通過發行國內第五次有擔保轉換公司債",
+      "summary": "董事會/股東會決議: 公告本公司董事會通過發行國內第五次有擔保轉換公司債",
+      "event_type": "CB_ISSUANCE",
+      "published_at": "2026-07-14T172200"
+    },
+    {
       "stock_code": "3346",
       "company_name": "麗清科技股份有限公司",
       "short_name": "麗清三",
@@ -20095,18 +20123,6 @@
       "stock_code": "5009",
       "company_name": "榮剛材料科技股份有限公司",
       "short_name": "榮剛七",
-      "stage": "BOARD_RESOLUTION",
-      "date": "2023-05-17",
-      "source": "linked_bond_stages_proxy",
-      "confidence": 0.25,
-      "is_inferred": true,
-      "title": "董事會決議發行無擔保轉換公司債",
-      "summary": "董事會通過發行可轉債以充實營運資金或償還債務"
-    },
-    {
-      "stock_code": "5009",
-      "company_name": "榮剛材料科技股份有限公司",
-      "short_name": "榮剛七",
       "stage": "EFFECTIVE",
       "date": "2023-06-26",
       "source": "linked_bond_stages_proxy",
@@ -20138,6 +20154,20 @@
       "is_inferred": false,
       "title": "榮剛七 issue/listing date",
       "cb_code": "50097"
+    },
+    {
+      "stock_code": "5009",
+      "company_name": "榮剛",
+      "short_name": "榮剛六",
+      "stage": "BOARD_RESOLUTION",
+      "date": "2026-07-14",
+      "source": "mops_wiki_db",
+      "confidence": 0.85,
+      "is_inferred": false,
+      "title": "公告本公司國內第七次無擔保轉換公司債到期還本暨終止\r\n上櫃事宜",
+      "summary": "董事會/股東會決議: 公告本公司國內第七次無擔保轉換公司債到期還本暨終止\r\n上櫃事宜",
+      "event_type": "CB_ISSUANCE",
+      "published_at": "2026-07-14T173449"
     },
     {
       "stock_code": "5011",
@@ -23397,6 +23427,30 @@
     },
     {
       "stock_code": "6134",
+      "company_name": "萬旭電業股份有限公司",
+      "short_name": "萬旭三",
+      "stage": "BOARD_RESOLUTION",
+      "date": "2026-05-06",
+      "source": "linked_bond_stages_proxy",
+      "confidence": 0.25,
+      "is_inferred": true,
+      "title": "董事會決議發行無擔保轉換公司債",
+      "summary": "董事會通過發行可轉債以充實營運資金或償還債務"
+    },
+    {
+      "stock_code": "6134",
+      "company_name": "萬旭電業股份有限公司",
+      "short_name": "萬旭三",
+      "stage": "EFFECTIVE",
+      "date": "2026-06-15",
+      "source": "linked_bond_stages_proxy",
+      "confidence": 0.25,
+      "is_inferred": true,
+      "title": "金管會申報生效發行無擔保轉換公司債",
+      "summary": "可轉債申報生效，正式進入定價與發行準備期"
+    },
+    {
+      "stock_code": "6134",
       "company_name": "萬旭",
       "short_name": "萬旭二",
       "stage": "PAYMENT_BANK",
@@ -23473,6 +23527,30 @@
       "confidence": 0.3,
       "is_inferred": true,
       "based_on": "2026-07-13"
+    },
+    {
+      "stock_code": "6134",
+      "company_name": "萬旭電業股份有限公司",
+      "short_name": "萬旭三",
+      "stage": "PRICING",
+      "date": "2026-07-15",
+      "source": "parsed_bonds",
+      "confidence": 0.65,
+      "is_inferred": false,
+      "title": "萬旭三 announcement/pricing date",
+      "cb_code": "61343"
+    },
+    {
+      "stock_code": "6134",
+      "company_name": "萬旭電業股份有限公司",
+      "short_name": "萬旭三",
+      "stage": "LISTING",
+      "date": "2026-07-20",
+      "source": "parsed_bonds",
+      "confidence": 0.65,
+      "is_inferred": false,
+      "title": "萬旭三 issue/listing date",
+      "cb_code": "61343"
     },
     {
       "stock_code": "6134",
@@ -32851,8 +32929,32 @@
     },
     {
       "stock_code": "8054",
+      "company_name": "安國國際科技股份有限公司",
+      "short_name": "安國一",
+      "stage": "BOARD_RESOLUTION",
+      "date": "2026-05-08",
+      "source": "linked_bond_stages_proxy",
+      "confidence": 0.25,
+      "is_inferred": true,
+      "title": "董事會決議發行無擔保轉換公司債",
+      "summary": "董事會通過發行可轉債以充實營運資金或償還債務"
+    },
+    {
+      "stock_code": "8054",
+      "company_name": "安國國際科技股份有限公司",
+      "short_name": "安國一",
+      "stage": "EFFECTIVE",
+      "date": "2026-06-17",
+      "source": "linked_bond_stages_proxy",
+      "confidence": 0.25,
+      "is_inferred": true,
+      "title": "金管會申報生效發行無擔保轉換公司債",
+      "summary": "可轉債申報生效，正式進入定價與發行準備期"
+    },
+    {
+      "stock_code": "8054",
       "company_name": "安國",
-      "short_name": "",
+      "short_name": "安國一",
       "stage": "PAYMENT_BANK",
       "date": "2026-06-29",
       "source": "mops_wiki_db",
@@ -32866,7 +32968,7 @@
     {
       "stock_code": "8054",
       "company_name": "安國",
-      "short_name": "",
+      "short_name": "安國一",
       "stage": "AUCTION_BID_START",
       "date": "2026-07-06",
       "source": "twsa_bids",
@@ -32880,7 +32982,7 @@
     {
       "stock_code": "8054",
       "company_name": "安國",
-      "short_name": "",
+      "short_name": "安國一",
       "stage": "AUCTION_BID_END",
       "date": "2026-07-08",
       "source": "twsa_bids",
@@ -32894,13 +32996,70 @@
     {
       "stock_code": "8054",
       "company_name": "安國",
-      "short_name": "",
+      "short_name": "安國一",
       "stage": "AUCTION_RESULT_ESTIMATED",
       "date": "2026-07-09",
       "source": "calendar_proxy",
       "confidence": 0.35,
       "is_inferred": true,
       "serial": "115044"
+    },
+    {
+      "stock_code": "8054",
+      "company_name": "安國國際科技股份有限公司",
+      "short_name": "安國一",
+      "stage": "PRICING",
+      "date": "2026-07-15",
+      "source": "parsed_bonds",
+      "confidence": 0.65,
+      "is_inferred": false,
+      "title": "安國一 announcement/pricing date",
+      "cb_code": "80541"
+    },
+    {
+      "stock_code": "8054",
+      "company_name": "安國國際科技股份有限公司",
+      "short_name": "安國一",
+      "stage": "LISTING",
+      "date": "2026-07-22",
+      "source": "parsed_bonds",
+      "confidence": 0.65,
+      "is_inferred": false,
+      "title": "安國一 issue/listing date",
+      "cb_code": "80541"
+    },
+    {
+      "stock_code": "8054",
+      "company_name": "安國國際科技股份有限公司",
+      "short_name": "安國一",
+      "stage": "CBAS_PROXY_START",
+      "date": "2026-07-23",
+      "source": "cbas_proxy",
+      "confidence": 0.3,
+      "is_inferred": true,
+      "based_on": "2026-07-22"
+    },
+    {
+      "stock_code": "8054",
+      "company_name": "安國國際科技股份有限公司",
+      "short_name": "安國一",
+      "stage": "CBAS_PROXY_END",
+      "date": "2026-08-09",
+      "source": "cbas_proxy",
+      "confidence": 0.3,
+      "is_inferred": true,
+      "based_on": "2026-07-22"
+    },
+    {
+      "stock_code": "8054",
+      "company_name": "安國國際科技股份有限公司",
+      "short_name": "安國一",
+      "stage": "T_PLUS_19_EXIT_PROXY",
+      "date": "2026-08-10",
+      "source": "cbas_proxy",
+      "confidence": 0.3,
+      "is_inferred": true,
+      "based_on": "2026-07-22"
     },
     {
       "stock_code": "8070",

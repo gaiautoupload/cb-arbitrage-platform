@@ -1,0 +1,80 @@
+{
+  "generated_at": "2026-07-15T11:42:35",
+  "overall": {
+    "rows": 4612223,
+    "min_date": "2015-01-05",
+    "max_date": "2026-07-14",
+    "days": 2813,
+    "stocks": 2245
+  },
+  "yearly": [
+    {
+      "year": 2020,
+      "rows": 401466,
+      "chip_days": 246,
+      "stocks": 1654,
+      "twse_rows": 223669,
+      "tpex_rows": 177797,
+      "expected_trading_days": 245,
+      "coverage_pct": 100.41
+    },
+    {
+      "year": 2021,
+      "rows": 411640,
+      "chip_days": 245,
+      "stocks": 1742,
+      "twse_rows": 227461,
+      "tpex_rows": 184179,
+      "expected_trading_days": 244,
+      "coverage_pct": 100.41
+    },
+    {
+      "year": 2022,
+      "rows": 423906,
+      "chip_days": 246,
+      "stocks": 1791,
+      "twse_rows": 233974,
+      "tpex_rows": 189932,
+      "expected_trading_days": 246,
+      "coverage_pct": 100.0
+    },
+    {
+      "year": 2023,
+      "rows": 421039,
+      "chip_days": 239,
+      "stocks": 1818,
+      "twse_rows": 231221,
+      "tpex_rows": 189818,
+      "expected_trading_days": 239,
+      "coverage_pct": 100.0
+    },
+    {
+      "year": 2024,
+      "rows": 438230,
+      "chip_days": 243,
+      "stocks": 1866,
+      "twse_rows": 240309,
+      "tpex_rows": 197921,
+      "expected_trading_days": 242,
+      "coverage_pct": 100.41
+    },
+    {
+      "year": 2025,
+      "rows": 429093,
+      "chip_days": 243,
+      "stocks": 2166,
+      "twse_rows": 241092,
+      "tpex_rows": 188001,
+      "expected_trading_days": 243,
+      "coverage_pct": 100.0
+    }
+  ],
+  "missing_or_low_coverage_days": [],
+  "market_low_coverage_days": [
+    {
+      "chip_date": "2024-02-07",
+      "market": "tpex",
+      "rows": 110
+    }
+  ]
+}
