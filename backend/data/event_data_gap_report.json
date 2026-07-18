@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-15T17:15:08",
+  "generated_at": "2026-07-18T17:14:11",
   "database": "D:\\bond\\backend\\data\\cb_event_master.sqlite",
   "required_stages": [
     "BOARD_RESOLUTION",
@@ -16,15 +16,15 @@
     "CBAS_ACTUAL"
   ],
   "summary": {
-    "issues": 530,
-    "events": 3181,
-    "issues_with_missing_stages": 530
+    "issues": 534,
+    "events": 3191,
+    "issues_with_missing_stages": 534
   },
   "stage_summary": {
     "BOARD_RESOLUTION": {
-      "observed_events": 28,
-      "inferred_events": 479,
-      "issues_with_stage": 491
+      "observed_events": 30,
+      "inferred_events": 480,
+      "issues_with_stage": 493
     },
     "FILING": {
       "observed_events": 2,
@@ -32,14 +32,14 @@
       "issues_with_stage": 2
     },
     "EFFECTIVE": {
-      "observed_events": 0,
-      "inferred_events": 489,
-      "issues_with_stage": 488
+      "observed_events": 1,
+      "inferred_events": 490,
+      "issues_with_stage": 489
     },
     "PRICING": {
-      "observed_events": 488,
+      "observed_events": 489,
       "inferred_events": 0,
-      "issues_with_stage": 487
+      "issues_with_stage": 488
     },
     "AUCTION_BID_START": {
       "observed_events": 43,
@@ -72,9 +72,9 @@
       "issues_with_stage": 0
     },
     "LISTING": {
-      "observed_events": 491,
+      "observed_events": 492,
       "inferred_events": 0,
-      "issues_with_stage": 488
+      "issues_with_stage": 489
     },
     "CBAS_ACTUAL": {
       "observed_events": 0,
@@ -1773,8 +1773,9 @@
       "stock_code": "2338",
       "cb_code": "23383",
       "short_name": "光罩三",
-      "company_name": "台灣光罩股份有限公司",
+      "company_name": "光罩",
       "observed_stages": [
+        "BOARD_RESOLUTION",
         "LISTING",
         "PRICING"
       ],
@@ -1795,7 +1796,7 @@
         "UNDERWRITING_NOTICE",
         "CBAS_ACTUAL"
       ],
-      "event_count": 7
+      "event_count": 8
     },
     {
       "issue_id": "issue_e15a668db90a49d2b55a",
@@ -2446,6 +2447,32 @@
         "CBAS_ACTUAL"
       ],
       "event_count": 8
+    },
+    {
+      "issue_id": "issue_47eaaccae30beb346dcc",
+      "stock_code": "2486",
+      "cb_code": "24867",
+      "short_name": "一詮七",
+      "company_name": "一詮精密工業股份有限公司",
+      "observed_stages": [
+        "LISTING",
+        "PRICING"
+      ],
+      "inferred_stages": [
+        "BOARD_RESOLUTION",
+        "EFFECTIVE"
+      ],
+      "missing_stages": [
+        "FILING",
+        "AUCTION_BID_START",
+        "AUCTION_BID_END",
+        "BOOKBUILDING_START",
+        "BOOKBUILDING_END",
+        "BOOKBUILDING_RESULT",
+        "UNDERWRITING_NOTICE",
+        "CBAS_ACTUAL"
+      ],
+      "event_count": 4
     },
     {
       "issue_id": "issue_5af076bc6e5895d95896",
@@ -8496,6 +8523,32 @@
       "event_count": 11
     },
     {
+      "issue_id": "issue_695f7c4ea79ffce09ffd",
+      "stock_code": "5291",
+      "cb_code": null,
+      "short_name": null,
+      "company_name": "邑昇",
+      "observed_stages": [
+        "PAYMENT_BANK"
+      ],
+      "inferred_stages": [],
+      "missing_stages": [
+        "BOARD_RESOLUTION",
+        "FILING",
+        "EFFECTIVE",
+        "PRICING",
+        "AUCTION_BID_START",
+        "AUCTION_BID_END",
+        "BOOKBUILDING_START",
+        "BOOKBUILDING_END",
+        "BOOKBUILDING_RESULT",
+        "UNDERWRITING_NOTICE",
+        "LISTING",
+        "CBAS_ACTUAL"
+      ],
+      "event_count": 1
+    },
+    {
       "issue_id": "issue_9870e5ae8a39feddccbc",
       "stock_code": "5306",
       "cb_code": "53063",
@@ -8918,9 +8971,10 @@
       "stock_code": "5536",
       "cb_code": "55361",
       "short_name": "聖暉一",
-      "company_name": "聖暉工程科技股份有限公司",
+      "company_name": "聖暉*",
       "observed_stages": [
         "LISTING",
+        "PAYMENT_BANK",
         "PRICING"
       ],
       "inferred_stages": [
@@ -8940,7 +8994,7 @@
         "UNDERWRITING_NOTICE",
         "CBAS_ACTUAL"
       ],
-      "event_count": 7
+      "event_count": 8
     },
     {
       "issue_id": "issue_c73292f9b3c92557e300",
@@ -13748,6 +13802,32 @@
       "event_count": 3
     },
     {
+      "issue_id": "issue_dc49aa6b2037d2eb3127",
+      "stock_code": "8155",
+      "cb_code": null,
+      "short_name": null,
+      "company_name": "博智",
+      "observed_stages": [
+        "PAYMENT_BANK"
+      ],
+      "inferred_stages": [],
+      "missing_stages": [
+        "BOARD_RESOLUTION",
+        "FILING",
+        "EFFECTIVE",
+        "PRICING",
+        "AUCTION_BID_START",
+        "AUCTION_BID_END",
+        "BOOKBUILDING_START",
+        "BOOKBUILDING_END",
+        "BOOKBUILDING_RESULT",
+        "UNDERWRITING_NOTICE",
+        "LISTING",
+        "CBAS_ACTUAL"
+      ],
+      "event_count": 1
+    },
+    {
       "issue_id": "issue_b3f5f12fa19c88791746",
       "stock_code": "8171",
       "cb_code": "81713",
@@ -14194,6 +14274,31 @@
         "CBAS_ACTUAL"
       ],
       "event_count": 4
+    },
+    {
+      "issue_id": "issue_6862719db4964d420ec4",
+      "stock_code": "8438",
+      "cb_code": null,
+      "short_name": null,
+      "company_name": "昶昕",
+      "observed_stages": [
+        "BOARD_RESOLUTION"
+      ],
+      "inferred_stages": [],
+      "missing_stages": [
+        "FILING",
+        "EFFECTIVE",
+        "PRICING",
+        "AUCTION_BID_START",
+        "AUCTION_BID_END",
+        "BOOKBUILDING_START",
+        "BOOKBUILDING_END",
+        "BOOKBUILDING_RESULT",
+        "UNDERWRITING_NOTICE",
+        "LISTING",
+        "CBAS_ACTUAL"
+      ],
+      "event_count": 1
     },
     {
       "issue_id": "issue_605f0a046d10db2809e3",
@@ -14760,8 +14865,9 @@
       "stock_code": "9935",
       "cb_code": "99353",
       "short_name": "慶豐富三",
-      "company_name": "慶豐富實業股份有限公司",
+      "company_name": "慶豐富",
       "observed_stages": [
+        "EFFECTIVE",
         "LISTING",
         "PRICING"
       ],
@@ -14782,7 +14888,7 @@
         "UNDERWRITING_NOTICE",
         "CBAS_ACTUAL"
       ],
-      "event_count": 7
+      "event_count": 8
     },
     {
       "issue_id": "issue_639f0aa80ad08741d625",

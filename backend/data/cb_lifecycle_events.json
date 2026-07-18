@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-15T17:15:07",
+  "generated_at": "2026-07-18T17:14:11",
   "source_files": {
     "mops_wiki_db": "mops_wiki_db.json",
     "parsed_bonds": "parsed_bonds.json",
@@ -12,19 +12,19 @@
     "Generated linked BOARD_RESOLUTION/EFFECTIVE dates are retained only as low-confidence proxy events."
   ],
   "summary": {
-    "total_events": 3171,
-    "actual_or_observed_events": 1107,
+    "total_events": 3179,
+    "actual_or_observed_events": 1115,
     "inferred_events": 2064,
     "by_stage": {
-      "BOARD_RESOLUTION": 505,
+      "BOARD_RESOLUTION": 507,
       "FILING": 2,
-      "EFFECTIVE": 489,
-      "PRICING": 488,
-      "PAYMENT_BANK": 14,
+      "EFFECTIVE": 490,
+      "PRICING": 489,
+      "PAYMENT_BANK": 17,
       "AUCTION_BID_START": 42,
       "AUCTION_BID_END": 42,
       "AUCTION_RESULT_ESTIMATED": 42,
-      "LISTING": 491,
+      "LISTING": 492,
       "CBAS_PROXY_START": 352,
       "CBAS_PROXY_END": 352,
       "T_PLUS_19_EXIT_PROXY": 352
@@ -4144,18 +4144,6 @@
       "stock_code": "2338",
       "company_name": "台灣光罩股份有限公司",
       "short_name": "光罩三",
-      "stage": "BOARD_RESOLUTION",
-      "date": "2021-05-20",
-      "source": "linked_bond_stages_proxy",
-      "confidence": 0.25,
-      "is_inferred": true,
-      "title": "董事會決議發行無擔保轉換公司債",
-      "summary": "董事會通過發行可轉債以充實營運資金或償還債務"
-    },
-    {
-      "stock_code": "2338",
-      "company_name": "台灣光罩股份有限公司",
-      "short_name": "光罩三",
       "stage": "EFFECTIVE",
       "date": "2021-06-29",
       "source": "linked_bond_stages_proxy",
@@ -4220,6 +4208,20 @@
       "confidence": 0.3,
       "is_inferred": true,
       "based_on": "2021-08-03"
+    },
+    {
+      "stock_code": "2338",
+      "company_name": "光罩",
+      "short_name": "光罩三",
+      "stage": "BOARD_RESOLUTION",
+      "date": "2026-07-15",
+      "source": "mops_wiki_db",
+      "confidence": 0.85,
+      "is_inferred": false,
+      "title": "公告本公司國內第三次無擔保轉換公司債到期還本暨\r\n終止上櫃事宜",
+      "summary": "董事會/股東會決議: 公告本公司國內第三次無擔保轉換公司債到期還本暨\r\n終止上櫃事宜",
+      "event_type": "CB_ISSUANCE",
+      "published_at": "2026-07-15T174319"
     },
     {
       "stock_code": "2358",
@@ -5852,6 +5854,30 @@
     },
     {
       "stock_code": "2486",
+      "company_name": "一詮精密工業股份有限公司",
+      "short_name": "一詮七",
+      "stage": "BOARD_RESOLUTION",
+      "date": "2026-05-08",
+      "source": "linked_bond_stages_proxy",
+      "confidence": 0.25,
+      "is_inferred": true,
+      "title": "董事會決議發行無擔保轉換公司債",
+      "summary": "董事會通過發行可轉債以充實營運資金或償還債務"
+    },
+    {
+      "stock_code": "2486",
+      "company_name": "一詮精密工業股份有限公司",
+      "short_name": "一詮七",
+      "stage": "EFFECTIVE",
+      "date": "2026-06-18",
+      "source": "linked_bond_stages_proxy",
+      "confidence": 0.25,
+      "is_inferred": true,
+      "title": "金管會申報生效發行無擔保轉換公司債",
+      "summary": "可轉債申報生效，正式進入定價與發行準備期"
+    },
+    {
+      "stock_code": "2486",
       "company_name": "一詮",
       "short_name": "一詮六",
       "stage": "PAYMENT_BANK",
@@ -5863,6 +5889,30 @@
       "summary": "代收價款/專戶: 公告本公司國內第七次無擔保轉換公司債之委託代收債款\r\n及存儲專戶行庫",
       "event_type": "CB_ISSUANCE",
       "published_at": "2026-07-13T173827"
+    },
+    {
+      "stock_code": "2486",
+      "company_name": "一詮精密工業股份有限公司",
+      "short_name": "一詮七",
+      "stage": "PRICING",
+      "date": "2026-07-17",
+      "source": "parsed_bonds",
+      "confidence": 0.65,
+      "is_inferred": false,
+      "title": "一詮七 announcement/pricing date",
+      "cb_code": "24867"
+    },
+    {
+      "stock_code": "2486",
+      "company_name": "一詮精密工業股份有限公司",
+      "short_name": "一詮七",
+      "stage": "LISTING",
+      "date": "2026-07-23",
+      "source": "parsed_bonds",
+      "confidence": 0.65,
+      "is_inferred": false,
+      "title": "一詮七 issue/listing date",
+      "cb_code": "24867"
     },
     {
       "stock_code": "2492",
@@ -21218,6 +21268,20 @@
       "based_on": "2026-07-01"
     },
     {
+      "stock_code": "5291",
+      "company_name": "邑昇",
+      "short_name": "",
+      "stage": "PAYMENT_BANK",
+      "date": "2026-07-15",
+      "source": "mops_wiki_db",
+      "confidence": 0.85,
+      "is_inferred": false,
+      "title": "公告本公司國內第二次無擔保轉換公司債代收股款行庫及存儲專戶",
+      "summary": "代收價款/專戶: 公告本公司國內第二次無擔保轉換公司債代收股款行庫及存儲專戶",
+      "event_type": "CB_ISSUANCE",
+      "published_at": "2026-07-15T161451"
+    },
+    {
       "stock_code": "5306",
       "company_name": "桂盟國際股份有限公司",
       "short_name": "桂盟三",
@@ -22273,6 +22337,20 @@
       "confidence": 0.3,
       "is_inferred": true,
       "based_on": "2020-11-27"
+    },
+    {
+      "stock_code": "5536",
+      "company_name": "聖暉*",
+      "short_name": "聖暉一",
+      "stage": "PAYMENT_BANK",
+      "date": "2026-07-17",
+      "source": "mops_wiki_db",
+      "confidence": 0.85,
+      "is_inferred": false,
+      "title": "公告本公司發行國內第二次及第三次無擔保轉換公司債代收\r\n價款行庫及存儲專戶",
+      "summary": "代收價款/專戶: 公告本公司發行國內第二次及第三次無擔保轉換公司債代收\r\n價款行庫及存儲專戶",
+      "event_type": "CB_ISSUANCE",
+      "published_at": "2026-07-17T142342"
     },
     {
       "stock_code": "5543",
@@ -34260,6 +34338,20 @@
       "source_ref": "t187ap04_O.csv"
     },
     {
+      "stock_code": "8155",
+      "company_name": "博智",
+      "short_name": "",
+      "stage": "PAYMENT_BANK",
+      "date": "2026-07-17",
+      "source": "mops_wiki_db",
+      "confidence": 0.85,
+      "is_inferred": false,
+      "title": "公告本公司國內第二次、第三次無擔保轉換公司債代收價款行庫\r\n及存儲專戶行庫",
+      "summary": "代收價款/專戶: 公告本公司國內第二次、第三次無擔保轉換公司債代收價款行庫\r\n及存儲專戶行庫",
+      "event_type": "CB_ISSUANCE",
+      "published_at": "2026-07-17T150418"
+    },
+    {
       "stock_code": "8171",
       "company_name": "天宇工業股份有限公司",
       "short_name": "天宇三",
@@ -35386,6 +35478,20 @@
       "is_inferred": false,
       "title": "弘帆三 issue/listing date",
       "cb_code": "84333"
+    },
+    {
+      "stock_code": "8438",
+      "company_name": "昶昕",
+      "short_name": "",
+      "stage": "BOARD_RESOLUTION",
+      "date": "2026-07-15",
+      "source": "mops_wiki_db",
+      "confidence": 0.85,
+      "is_inferred": false,
+      "title": "公告本公司國內第一次無擔保轉換公司債之轉換價格\r\n及溢價率",
+      "summary": "董事會/股東會決議: 公告本公司國內第一次無擔保轉換公司債之轉換價格\r\n及溢價率",
+      "event_type": "CB_ISSUANCE",
+      "published_at": "2026-07-15T163101"
     },
     {
       "stock_code": "8442",
@@ -36764,18 +36870,6 @@
       "stock_code": "9935",
       "company_name": "慶豐富實業股份有限公司",
       "short_name": "慶豐富三",
-      "stage": "EFFECTIVE",
-      "date": "2024-09-09",
-      "source": "linked_bond_stages_proxy",
-      "confidence": 0.25,
-      "is_inferred": true,
-      "title": "金管會申報生效發行無擔保轉換公司債",
-      "summary": "可轉債申報生效，正式進入定價與發行準備期"
-    },
-    {
-      "stock_code": "9935",
-      "company_name": "慶豐富實業股份有限公司",
-      "short_name": "慶豐富三",
       "stage": "PRICING",
       "date": "2024-10-08",
       "source": "parsed_bonds",
@@ -36828,6 +36922,20 @@
       "confidence": 0.3,
       "is_inferred": true,
       "based_on": "2024-10-14"
+    },
+    {
+      "stock_code": "9935",
+      "company_name": "慶豐富",
+      "short_name": "慶豐富三",
+      "stage": "EFFECTIVE",
+      "date": "2026-07-17",
+      "source": "mops_wiki_db",
+      "confidence": 0.85,
+      "is_inferred": false,
+      "title": "公告本公司發行國內第四次無擔保轉換公司債，\r\n向金管會申請延長募集期間三個月",
+      "summary": "申報生效: 公告本公司發行國內第四次無擔保轉換公司債，\r\n向金管會申請延長募集期間三個月",
+      "event_type": "CB_ISSUANCE",
+      "published_at": "2026-07-17T173334"
     },
     {
       "stock_code": "9939",

@@ -7468,5 +7468,20 @@
     "maturity_date_minguo": "118年7月22日",
     "maturity_date": "2029-07-22",
     "issue_amount": "新台幣4億元整"
+  },
+  {
+    "file_id": "11500047331",
+    "company_name": "一詮精密工業股份有限公司",
+    "bond_name": "一詮精密工業股份有限公司國內第七次無擔保轉換公司債",
+    "cb_code": "24867",
+    "stock_code": "2486",
+    "short_name": "一詮七",
+    "announcement_date_minguo": "115年7月17日",
+    "announcement_date": "2026-07-17",
+    "issue_date_minguo": "115年7月23日",
+    "issue_date": "2026-07-23",
+    "maturity_date_minguo": "118年7月23日",
+    "maturity_date": "2029-07-23",
+    "issue_amount": "新台幣20億元整"
   }
 ]

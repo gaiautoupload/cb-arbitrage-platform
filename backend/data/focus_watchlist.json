@@ -1,0 +1,32 @@
+[
+  {
+    "stock_code": "4764",
+    "company_name": "雙鍵",
+    "priority": 1,
+    "reason": "手動關注；目前已核對到的是現金增資，不納入 CB T-15 策略",
+    "instrument_scope": "stock_only",
+    "cb_stage": "NOT_CONFIRMED",
+    "cb_stage_date": null,
+    "added_at": "2026-07-16"
+  },
+  {
+    "stock_code": "2303",
+    "company_name": "聯電",
+    "priority": 2,
+    "reason": "手動關注；第二次無擔保轉換公司債已經董事會決議，等待送件與發行日",
+    "instrument_scope": "cb_candidate",
+    "cb_stage": "BOARD_RESOLUTION",
+    "cb_stage_date": "2026-06-03",
+    "added_at": "2026-07-16"
+  },
+  {
+    "stock_code": "6683",
+    "company_name": "雍智科技",
+    "priority": 3,
+    "reason": "手動關注；第一次無擔保轉換公司債已申報生效並公告代收價款銀行",
+    "instrument_scope": "cb_candidate",
+    "cb_stage": "PAYMENT_BANK",
+    "cb_stage_date": "2026-07-08",
+    "added_at": "2026-07-16"
+  }
+]

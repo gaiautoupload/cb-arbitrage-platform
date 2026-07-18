@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-07-15T17:16:00",
+  "generated_at": "2026-07-18T17:14:48",
   "report_title": "公司債事件策略投資報告",
   "report_status": "research_only",
   "summary": {
     "headline": "目前已有平均報酬超過 20% 的候選，但尚未達到正式操盤標準。",
     "reason": "競拍歷史資料目前集中在 2026 年，且最佳候選去除單一最大值後平均報酬降至 13.52%。",
-    "search_samples": 7371,
-    "matching_strategies": 13
+    "search_samples": 7398,
+    "matching_strategies": 5
   },
   "candidates": [
     {
@@ -20,11 +20,11 @@
         "外資近 5 日累計買超"
       ],
       "metrics": {
-        "samples": 10,
-        "win_rate": 80.0,
-        "avg_return": 23.2,
-        "median_return": 20.79,
-        "trimmed_avg_return": 13.52,
+        "samples": 11,
+        "win_rate": 72.73,
+        "avg_return": 20.33,
+        "median_return": 11.47,
+        "trimmed_avg_return": 11.33,
         "worst_return": -12.22,
         "best_return": 110.31,
         "years": [
@@ -44,11 +44,11 @@
         "外資或投信近 5 日累計買超"
       ],
       "metrics": {
-        "samples": 10,
-        "win_rate": 80.0,
-        "avg_return": 23.2,
-        "median_return": 20.79,
-        "trimmed_avg_return": 13.52,
+        "samples": 11,
+        "win_rate": 72.73,
+        "avg_return": 20.33,
+        "median_return": 11.47,
+        "trimmed_avg_return": 11.33,
         "worst_return": -12.22,
         "best_return": 110.31,
         "years": [
@@ -69,11 +69,11 @@
         "外資近 5 日累計買超"
       ],
       "metrics": {
-        "samples": 10,
-        "win_rate": 80.0,
-        "avg_return": 23.2,
-        "median_return": 20.79,
-        "trimmed_avg_return": 13.52,
+        "samples": 11,
+        "win_rate": 72.73,
+        "avg_return": 20.33,
+        "median_return": 11.47,
+        "trimmed_avg_return": 11.33,
         "worst_return": -12.22,
         "best_return": 110.31,
         "years": [
@@ -94,11 +94,11 @@
         "外資或投信近 5 日累計買超"
       ],
       "metrics": {
-        "samples": 10,
-        "win_rate": 80.0,
-        "avg_return": 23.2,
-        "median_return": 20.79,
-        "trimmed_avg_return": 13.52,
+        "samples": 11,
+        "win_rate": 72.73,
+        "avg_return": 20.33,
+        "median_return": 11.47,
+        "trimmed_avg_return": 11.33,
         "worst_return": -12.22,
         "best_return": 110.31,
         "years": [
@@ -119,11 +119,11 @@
         "外資或投信近 5 日累計買超"
       ],
       "metrics": {
-        "samples": 10,
-        "win_rate": 80.0,
-        "avg_return": 23.2,
-        "median_return": 20.79,
-        "trimmed_avg_return": 13.52,
+        "samples": 11,
+        "win_rate": 72.73,
+        "avg_return": 20.33,
+        "median_return": 11.47,
+        "trimmed_avg_return": 11.33,
         "worst_return": -12.22,
         "best_return": 110.31,
         "years": [

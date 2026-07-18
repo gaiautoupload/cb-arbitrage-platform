@@ -1,0 +1,2046 @@
+{
+  "generated_at": "2026-07-16T12:27:23",
+  "definition": {
+    "anchor": "CB issue date first trading session",
+    "offset_unit": "trading sessions",
+    "signal_timing": "previous session close",
+    "entry_price": "entry session open",
+    "exit_price": "exit session close",
+    "validation_start": "2024-01-01",
+    "minimum_samples": {
+      "all": 20,
+      "train": 10,
+      "validation": 8
+    }
+  },
+  "finance_warning": null,
+  "top1_stats": {
+    "daily_chip": {
+      "n": 4614370,
+      "min_date": "2015-01-05",
+      "max_date": "2026-07-15"
+    },
+    "institutional_flow_factors": {
+      "n": 232911,
+      "min_date": "2026-01-16",
+      "max_date": "2026-07-15"
+    },
+    "technical_snapshot_factors": {
+      "n": 1835364,
+      "min_date": "2020-01-02",
+      "max_date": "2026-07-15"
+    },
+    "monthly_fundamentals": {
+      "n": 161209,
+      "min_date": "2019-02-10",
+      "max_date": "2026-07-10"
+    },
+    "chip_distribution_factors": {
+      "n": 32768,
+      "min_date": "2026-04-02",
+      "max_date": "2026-07-15"
+    }
+  },
+  "windows": {
+    "t_minus_15_to_t_plus_9": {
+      "label": "T-15 買進，T+9 出場",
+      "entry_offset": -15,
+      "exit_offset": 9,
+      "assessment": "可保留為短線候選；優勢約為六成勝率、單筆平均約 5% 至 7%，不是翻倍策略。",
+      "baseline": {
+        "n": 463,
+        "win_rate_pct": 58.75,
+        "avg_return_pct": 5.27,
+        "median_return_pct": 1.98,
+        "worst_return_pct": -34.0,
+        "best_return_pct": 115.31,
+        "return_ge_20_rate_pct": 12.1,
+        "return_ge_100_rate_pct": 0.22
+      },
+      "train_baseline": {
+        "n": 326,
+        "win_rate_pct": 62.58,
+        "avg_return_pct": 6.03,
+        "median_return_pct": 2.85,
+        "worst_return_pct": -27.25,
+        "best_return_pct": 115.31,
+        "return_ge_20_rate_pct": 12.58,
+        "return_ge_100_rate_pct": 0.31
+      },
+      "validation_baseline": {
+        "n": 137,
+        "win_rate_pct": 49.64,
+        "avg_return_pct": 3.46,
+        "median_return_pct": -0.12,
+        "worst_return_pct": -34.0,
+        "best_return_pct": 99.31,
+        "return_ge_20_rate_pct": 10.95,
+        "return_ge_100_rate_pct": 0.0
+      },
+      "robust_top": [
+        {
+          "rules": [
+            "動能20日>=0%",
+            "收盤在MA20上",
+            "接近60日高點15%內"
+          ],
+          "all": {
+            "n": 199,
+            "win_rate_pct": 62.31,
+            "avg_return_pct": 7.02,
+            "median_return_pct": 2.89,
+            "worst_return_pct": -34.0,
+            "best_return_pct": 99.31,
+            "return_ge_20_rate_pct": 15.58,
+            "return_ge_100_rate_pct": 0.0
+          },
+          "train_2020_2023": {
+            "n": 140,
+            "win_rate_pct": 63.57,
+            "avg_return_pct": 7.72,
+            "median_return_pct": 4.36,
+            "worst_return_pct": -27.25,
+            "best_return_pct": 88.65,
+            "return_ge_20_rate_pct": 17.14,
+            "return_ge_100_rate_pct": 0.0
+          },
+          "validation_2024_plus": {
+            "n": 59,
+            "win_rate_pct": 59.32,
+            "avg_return_pct": 5.36,
+            "median_return_pct": 1.82,
+            "worst_return_pct": -34.0,
+            "best_return_pct": 99.31,
+            "return_ge_20_rate_pct": 11.86,
+            "return_ge_100_rate_pct": 0.0
+          },
+          "robust_win_floor_pct": 59.32,
+          "robust_avg_floor_pct": 5.36,
+          "rank_score": 72.36
+        },
+        {
+          "rules": [
+            "動能20日>=0%",
+            "動能60日>=0%",
+            "接近60日高點15%內"
+          ],
+          "all": {
+            "n": 183,
+            "win_rate_pct": 61.2,
+            "avg_return_pct": 6.64,
+            "median_return_pct": 2.66,
+            "worst_return_pct": -34.0,
+            "best_return_pct": 99.31,
+            "return_ge_20_rate_pct": 14.75,
+            "return_ge_100_rate_pct": 0.0
+          },
+          "train_2020_2023": {
+            "n": 131,
+            "win_rate_pct": 61.83,
+            "avg_return_pct": 7.38,
+            "median_return_pct": 3.65,
+            "worst_return_pct": -27.25,
+            "best_return_pct": 88.65,
+            "return_ge_20_rate_pct": 16.79,
+            "return_ge_100_rate_pct": 0.0
+          },
+          "validation_2024_plus": {
+            "n": 52,
+            "win_rate_pct": 59.62,
+            "avg_return_pct": 4.76,
+            "median_return_pct": 2.38,
+            "worst_return_pct": -34.0,
+            "best_return_pct": 99.31,
+            "return_ge_20_rate_pct": 9.62,
+            "return_ge_100_rate_pct": 0.0
+          },
+          "robust_win_floor_pct": 59.62,
+          "robust_avg_floor_pct": 4.76,
+          "rank_score": 71.76
+        },
+        {
+          "rules": [
+            "動能60日>=0%",
+            "接近60日高點15%內",
+            "外資連買>=3日"
+          ],
+          "all": {
+            "n": 39,
+            "win_rate_pct": 64.1,
+            "avg_return_pct": 6.08,
+            "median_return_pct": 4.36,
+            "worst_return_pct": -34.0,
+            "best_return_pct": 72.73,
+            "return_ge_20_rate_pct": 10.26,
+            "return_ge_100_rate_pct": 0.0
+          },
+          "train_2020_2023": {
+            "n": 30,
+            "win_rate_pct": 63.33,
+            "avg_return_pct": 6.7,
+            "median_return_pct": 3.17,
+            "worst_return_pct": -9.21,
+            "best_return_pct": 72.73,
+            "return_ge_20_rate_pct": 6.67,
+            "return_ge_100_rate_pct": 0.0
+          },
+          "validation_2024_plus": {
+            "n": 9,
+            "win_rate_pct": 66.67,
+            "avg_return_pct": 4.01,
+            "median_return_pct": 8.91,
+            "worst_return_pct": -34.0,
+            "best_return_pct": 26.64,
+            "return_ge_20_rate_pct": 22.22,
+            "return_ge_100_rate_pct": 0.0
+          },
+          "robust_win_floor_pct": 63.33,
+          "robust_avg_floor_pct": 4.01,
+          "rank_score": 71.295
+        },
+        {
+          "rules": [
+            "動能20日>=0%",
+            "收盤在MA20上",
+            "量能5日/20日<=2"
+          ],
+          "all": {
+            "n": 203,
+            "win_rate_pct": 64.04,
+            "avg_return_pct": 6.9,
+            "median_return_pct": 3.03,
+            "worst_return_pct": -34.0,
+            "best_return_pct": 99.31,
+            "return_ge_20_rate_pct": 13.79,
+            "return_ge_100_rate_pct": 0.0
+          },
+          "train_2020_2023": {
+            "n": 141,
+            "win_rate_pct": 66.67,
+            "avg_return_pct": 7.53,
+            "median_return_pct": 4.46,
+            "worst_return_pct": -27.25,
+            "best_return_pct": 88.65,
+            "return_ge_20_rate_pct": 14.89,
+            "return_ge_100_rate_pct": 0.0
+          },
+          "validation_2024_plus": {
+            "n": 62,
+            "win_rate_pct": 58.06,
+            "avg_return_pct": 5.48,
+            "median_return_pct": 1.82,
+            "worst_return_pct": -34.0,
+            "best_return_pct": 99.31,
+            "return_ge_20_rate_pct": 11.29,
+            "return_ge_100_rate_pct": 0.0
+          },
+          "robust_win_floor_pct": 58.06,
+          "robust_avg_floor_pct": 5.48,
+          "rank_score": 71.28
+        },
+        {
+          "rules": [
+            "動能20日>=0%",
+            "接近60日高點15%內",
+            "量能5日/20日<=2"
+          ],
+          "all": {
+            "n": 206,
+            "win_rate_pct": 64.08,
+            "avg_return_pct": 6.63,
+            "median_return_pct": 3.49,
+            "worst_return_pct": -34.0,
+            "best_return_pct": 99.31,
+            "return_ge_20_rate_pct": 13.59,
+            "return_ge_100_rate_pct": 0.0
+          },
+          "train_2020_2023": {
+            "n": 139,
+            "win_rate_pct": 66.91,
+            "avg_return_pct": 7.59,
+            "median_return_pct": 5.0,
+            "worst_return_pct": -27.25,
+            "best_return_pct": 88.65,
+            "return_ge_20_rate_pct": 15.83,
+            "return_ge_100_rate_pct": 0.0
+          },
+          "validation_2024_plus": {
+            "n": 67,
+            "win_rate_pct": 58.21,
+            "avg_return_pct": 4.65,
+            "median_return_pct": 1.82,
+            "worst_return_pct": -34.0,
+            "best_return_pct": 99.31,
+            "return_ge_20_rate_pct": 8.96,
+            "return_ge_100_rate_pct": 0.0
+          },
+          "robust_win_floor_pct": 58.21,
+          "robust_avg_floor_pct": 4.65,
+          "rank_score": 70.185
+        },
+        {
+          "rules": [
+            "收盤在MA20上",
+            "接近60日高點15%內",
+            "量能5日/20日<=2"
+          ],
+          "all": {
+            "n": 200,
+            "win_rate_pct": 63.5,
+            "avg_return_pct": 6.75,
+            "median_return_pct": 2.93,
+            "worst_return_pct": -34.0,
+            "best_return_pct": 99.31,
+            "return_ge_20_rate_pct": 13.5,
+            "return_ge_100_rate_pct": 0.0
+          },
+          "train_2020_2023": {
+            "n": 140,
+            "win_rate_pct": 66.43,
+            "avg_return_pct": 7.38,
+            "median_return_pct": 4.47,
+            "worst_return_pct": -27.25,
+            "best_return_pct": 88.65,
+            "return_ge_20_rate_pct": 14.29,
+            "return_ge_100_rate_pct": 0.0
+          },
+          "validation_2024_plus": {
+            "n": 60,
+            "win_rate_pct": 56.67,
+            "avg_return_pct": 5.27,
+            "median_return_pct": 1.77,
+            "worst_return_pct": -34.0,
+            "best_return_pct": 99.31,
+            "return_ge_20_rate_pct": 11.67,
+            "return_ge_100_rate_pct": 0.0
+          },
+          "robust_win_floor_pct": 56.67,
+          "robust_avg_floor_pct": 5.27,
+          "rank_score": 69.575
+        },
+        {
+          "rules": [
+            "動能20日>=0%",
+            "收盤在MA20上",
+            "量能5日/20日>=1"
+          ],
+          "all": {
+            "n": 137,
+            "win_rate_pct": 61.31,
+            "avg_return_pct": 6.3,
+            "median_return_pct": 2.57,
+            "worst_return_pct": -27.25,
+            "best_return_pct": 72.73,
+            "return_ge_20_rate_pct": 16.06,
+            "return_ge_100_rate_pct": 0.0
+          },
+          "train_2020_2023": {
+            "n": 98,
+            "win_rate_pct": 63.27,
+            "avg_return_pct": 6.86,
+            "median_return_pct": 4.01,
+            "worst_return_pct": -27.25,
+            "best_return_pct": 72.73,
+            "return_ge_20_rate_pct": 16.33,
+            "return_ge_100_rate_pct": 0.0
+          },
+          "validation_2024_plus": {
+            "n": 39,
+            "win_rate_pct": 56.41,
+            "avg_return_pct": 4.89,
+            "median_return_pct": 1.55,
+            "worst_return_pct": -19.06,
+            "best_return_pct": 44.54,
+            "return_ge_20_rate_pct": 15.38,
+            "return_ge_100_rate_pct": 0.0
+          },
+          "robust_win_floor_pct": 56.41,
+          "robust_avg_floor_pct": 4.89,
+          "rank_score": 68.745
+        },
+        {
+          "rules": [
+            "接近60日高點15%內",
+            "量能5日/20日>=1",
+            "量能5日/20日<=2"
+          ],
+          "all": {
+            "n": 135,
+            "win_rate_pct": 62.22,
+            "avg_return_pct": 5.92,
+            "median_return_pct": 2.55,
+            "worst_return_pct": -27.25,
+            "best_return_pct": 72.73,
+            "return_ge_20_rate_pct": 14.81,
+            "return_ge_100_rate_pct": 0.0
+          },
+          "train_2020_2023": {
+            "n": 97,
+            "win_rate_pct": 64.95,
+            "avg_return_pct": 6.35,
+            "median_return_pct": 4.36,
+            "worst_return_pct": -27.25,
+            "best_return_pct": 72.73,
+            "return_ge_20_rate_pct": 14.43,
+            "return_ge_100_rate_pct": 0.0
+          },
+          "validation_2024_plus": {
+            "n": 38,
+            "win_rate_pct": 55.26,
+            "avg_return_pct": 4.82,
+            "median_return_pct": 1.29,
+            "worst_return_pct": -11.53,
+            "best_return_pct": 44.54,
+            "return_ge_20_rate_pct": 15.79,
+            "return_ge_100_rate_pct": 0.0
+          },
+          "robust_win_floor_pct": 55.26,
+          "robust_avg_floor_pct": 4.82,
+          "rank_score": 67.49
+        }
+      ],
+      "high_win_top": [
+        {
+          "rules": [
+            "動能60日>=0%",
+            "接近60日高點15%內",
+            "外資連買>=3日"
+          ],
+          "all": {
+            "n": 39,
+            "win_rate_pct": 64.1,
+            "avg_return_pct": 6.08,
+            "median_return_pct": 4.36,
+            "worst_return_pct": -34.0,
+            "best_return_pct": 72.73,
+            "return_ge_20_rate_pct": 10.26,
+            "return_ge_100_rate_pct": 0.0
+          },
+          "train_2020_2023": {
+            "n": 30,
+            "win_rate_pct": 63.33,
+            "avg_return_pct": 6.7,
+            "median_return_pct": 3.17,
+            "worst_return_pct": -9.21,
+            "best_return_pct": 72.73,
+            "return_ge_20_rate_pct": 6.67,
+            "return_ge_100_rate_pct": 0.0
+          },
+          "validation_2024_plus": {
+            "n": 9,
+            "win_rate_pct": 66.67,
+            "avg_return_pct": 4.01,
+            "median_return_pct": 8.91,
+            "worst_return_pct": -34.0,
+            "best_return_pct": 26.64,
+            "return_ge_20_rate_pct": 22.22,
+            "return_ge_100_rate_pct": 0.0
+          },
+          "robust_win_floor_pct": 63.33,
+          "robust_avg_floor_pct": 4.01,
+          "rank_score": 71.295
+        },
+        {
+          "rules": [
+            "接近60日高點15%內",
+            "20日均量>=100萬股",
+            "外資連買>=3日"
+          ],
+          "all": {
+            "n": 21,
+            "win_rate_pct": 61.9,
+            "avg_return_pct": 3.35,
+            "median_return_pct": 5.29,
+            "worst_return_pct": -34.0,
+            "best_return_pct": 36.24,
+            "return_ge_20_rate_pct": 9.52,
+            "return_ge_100_rate_pct": 0.0
+          },
+          "train_2020_2023": {
+            "n": 13,
+            "win_rate_pct": 61.54,
+            "avg_return_pct": 4.68,
+            "median_return_pct": 5.29,
+            "worst_return_pct": -19.35,
+            "best_return_pct": 36.24,
+            "return_ge_20_rate_pct": 7.69,
+            "return_ge_100_rate_pct": 0.0
+          },
+          "validation_2024_plus": {
+            "n": 8,
+            "win_rate_pct": 62.5,
+            "avg_return_pct": 1.18,
+            "median_return_pct": 5.23,
+            "worst_return_pct": -34.0,
+            "best_return_pct": 26.05,
+            "return_ge_20_rate_pct": 12.5,
+            "return_ge_100_rate_pct": 0.0
+          },
+          "robust_win_floor_pct": 61.54,
+          "robust_avg_floor_pct": 1.18,
+          "rank_score": 64.36
+        },
+        {
+          "rules": [
+            "動能20日>=0%",
+            "20日均量>=50萬股",
+            "外資連買>=3日"
+          ],
+          "all": {
+            "n": 26,
+            "win_rate_pct": 61.54,
+            "avg_return_pct": 3.42,
+            "median_return_pct": 1.91,
+            "worst_return_pct": -34.0,
+            "best_return_pct": 36.24,
+            "return_ge_20_rate_pct": 7.69,
+            "return_ge_100_rate_pct": 0.0
+          },
+          "train_2020_2023": {
+            "n": 16,
+            "win_rate_pct": 62.5,
+            "avg_return_pct": 5.08,
+            "median_return_pct": 3.78,
+            "worst_return_pct": -9.21,
+            "best_return_pct": 36.24,
+            "return_ge_20_rate_pct": 6.25,
+            "return_ge_100_rate_pct": 0.0
+          },
+          "validation_2024_plus": {
+            "n": 10,
+            "win_rate_pct": 60.0,
+            "avg_return_pct": 0.77,
+            "median_return_pct": 0.93,
+            "worst_return_pct": -34.0,
+            "best_return_pct": 26.05,
+            "return_ge_20_rate_pct": 10.0,
+            "return_ge_100_rate_pct": 0.0
+          },
+          "robust_win_floor_pct": 60.0,
+          "robust_avg_floor_pct": 0.77,
+          "rank_score": 62.455
+        },
+        {
+          "rules": [
+            "投信連買>=3日"
+          ],
+          "all": {
+            "n": 20,
+            "win_rate_pct": 70.0,
+            "avg_return_pct": 4.91,
+            "median_return_pct": 3.12,
+            "worst_return_pct": -18.65,
+            "best_return_pct": 40.75,
+            "return_ge_20_rate_pct": 5.0,
+            "return_ge_100_rate_pct": 0.0
+          },
+          "train_2020_2023": {
+            "n": 10,
+            "win_rate_pct": 80.0,
+            "avg_return_pct": 8.6,
+            "median_return_pct": 3.95,
+            "worst_return_pct": -3.59,
+            "best_return_pct": 40.75,
+            "return_ge_20_rate_pct": 10.0,
+            "return_ge_100_rate_pct": 0.0
+          },
+          "validation_2024_plus": {
+            "n": 10,
+            "win_rate_pct": 60.0,
+            "avg_return_pct": 1.23,
+            "median_return_pct": 1.82,
+            "worst_return_pct": -18.65,
+            "best_return_pct": 19.43,
+            "return_ge_20_rate_pct": 0.0,
+            "return_ge_100_rate_pct": 0.0
+          },
+          "robust_win_floor_pct": 60.0,
+          "robust_avg_floor_pct": 1.23,
+          "rank_score": 62.845
+        },
+        {
+          "rules": [
+            "動能20日>=0%",
+            "動能60日>=0%",
+            "接近60日高點15%內"
+          ],
+          "all": {
+            "n": 183,
+            "win_rate_pct": 61.2,
+            "avg_return_pct": 6.64,
+            "median_return_pct": 2.66,
+            "worst_return_pct": -34.0,
+            "best_return_pct": 99.31,
+            "return_ge_20_rate_pct": 14.75,
+            "return_ge_100_rate_pct": 0.0
+          },
+          "train_2020_2023": {
+            "n": 131,
+            "win_rate_pct": 61.83,
+            "avg_return_pct": 7.38,
+            "median_return_pct": 3.65,
+            "worst_return_pct": -27.25,
+            "best_return_pct": 88.65,
+            "return_ge_20_rate_pct": 16.79,
+            "return_ge_100_rate_pct": 0.0
+          },
+          "validation_2024_plus": {
+            "n": 52,
+            "win_rate_pct": 59.62,
+            "avg_return_pct": 4.76,
+            "median_return_pct": 2.38,
+            "worst_return_pct": -34.0,
+            "best_return_pct": 99.31,
+            "return_ge_20_rate_pct": 9.62,
+            "return_ge_100_rate_pct": 0.0
+          },
+          "robust_win_floor_pct": 59.62,
+          "robust_avg_floor_pct": 4.76,
+          "rank_score": 71.76
+        },
+        {
+          "rules": [
+            "動能20日>=0%",
+            "接近60日高點15%內",
+            "外資連買>=3日"
+          ],
+          "all": {
+            "n": 40,
+            "win_rate_pct": 60.0,
+            "avg_return_pct": 5.19,
+            "median_return_pct": 2.95,
+            "worst_return_pct": -34.0,
+            "best_return_pct": 72.73,
+            "return_ge_20_rate_pct": 7.5,
+            "return_ge_100_rate_pct": 0.0
+          },
+          "train_2020_2023": {
+            "n": 32,
+            "win_rate_pct": 59.38,
+            "avg_return_pct": 6.19,
+            "median_return_pct": 2.84,
+            "worst_return_pct": -9.21,
+            "best_return_pct": 72.73,
+            "return_ge_20_rate_pct": 6.25,
+            "return_ge_100_rate_pct": 0.0
+          },
+          "validation_2024_plus": {
+            "n": 8,
+            "win_rate_pct": 62.5,
+            "avg_return_pct": 1.18,
+            "median_return_pct": 5.23,
+            "worst_return_pct": -34.0,
+            "best_return_pct": 26.05,
+            "return_ge_20_rate_pct": 12.5,
+            "return_ge_100_rate_pct": 0.0
+          },
+          "robust_win_floor_pct": 59.38,
+          "robust_avg_floor_pct": 1.18,
+          "rank_score": 63.15
+        },
+        {
+          "rules": [
+            "動能60日>=0%",
+            "MA5>MA10>MA20"
+          ],
+          "all": {
+            "n": 141,
+            "win_rate_pct": 58.16,
+            "avg_return_pct": 5.25,
+            "median_return_pct": 1.73,
+            "worst_return_pct": -34.0,
+            "best_return_pct": 88.65,
+            "return_ge_20_rate_pct": 13.48,
+            "return_ge_100_rate_pct": 0.0
+          },
+          "train_2020_2023": {
+            "n": 91,
+            "win_rate_pct": 58.24,
+            "avg_return_pct": 6.55,
+            "median_return_pct": 1.69,
+            "worst_return_pct": -27.25,
+            "best_return_pct": 88.65,
+            "return_ge_20_rate_pct": 15.38,
+            "return_ge_100_rate_pct": 0.0
+          },
+          "validation_2024_plus": {
+            "n": 50,
+            "win_rate_pct": 58.0,
+            "avg_return_pct": 2.9,
+            "median_return_pct": 1.77,
+            "worst_return_pct": -34.0,
+            "best_return_pct": 44.54,
+            "return_ge_20_rate_pct": 10.0,
+            "return_ge_100_rate_pct": 0.0
+          },
+          "robust_win_floor_pct": 58.0,
+          "robust_avg_floor_pct": 2.9,
+          "rank_score": 67.35
+        },
+        {
+          "rules": [
+            "接近60日高點15%內",
+            "20日均量>=100萬股",
+            "營收年增>0%"
+          ],
+          "all": {
+            "n": 115,
+            "win_rate_pct": 62.61,
+            "avg_return_pct": 5.44,
+            "median_return_pct": 3.65,
+            "worst_return_pct": -34.0,
+            "best_return_pct": 88.65,
+            "return_ge_20_rate_pct": 13.91,
+            "return_ge_100_rate_pct": 0.0
+          },
+          "train_2020_2023": {
+            "n": 77,
+            "win_rate_pct": 64.94,
+            "avg_return_pct": 7.33,
+            "median_return_pct": 5.21,
+            "worst_return_pct": -27.25,
+            "best_return_pct": 88.65,
+            "return_ge_20_rate_pct": 18.18,
+            "return_ge_100_rate_pct": 0.0
+          },
+          "validation_2024_plus": {
+            "n": 38,
+            "win_rate_pct": 57.89,
+            "avg_return_pct": 1.61,
+            "median_return_pct": 2.08,
+            "worst_return_pct": -34.0,
+            "best_return_pct": 31.28,
+            "return_ge_20_rate_pct": 5.26,
+            "return_ge_100_rate_pct": 0.0
+          },
+          "robust_win_floor_pct": 57.89,
+          "robust_avg_floor_pct": 1.61,
+          "rank_score": 65.305
+        }
+      ],
+      "high_return_top": [
+        {
+          "rules": [
+            "動能20日>=0%",
+            "收盤在MA20上",
+            "量能5日/20日<=2"
+          ],
+          "all": {
+            "n": 203,
+            "win_rate_pct": 64.04,
+            "avg_return_pct": 6.9,
+            "median_return_pct": 3.03,
+            "worst_return_pct": -34.0,
+            "best_return_pct": 99.31,
+            "return_ge_20_rate_pct": 13.79,
+            "return_ge_100_rate_pct": 0.0
+          },
+          "train_2020_2023": {
+            "n": 141,
+            "win_rate_pct": 66.67,
+            "avg_return_pct": 7.53,
+            "median_return_pct": 4.46,
+            "worst_return_pct": -27.25,
+            "best_return_pct": 88.65,
+            "return_ge_20_rate_pct": 14.89,
+            "return_ge_100_rate_pct": 0.0
+          },
+          "validation_2024_plus": {
+            "n": 62,
+            "win_rate_pct": 58.06,
+            "avg_return_pct": 5.48,
+            "median_return_pct": 1.82,
+            "worst_return_pct": -34.0,
+            "best_return_pct": 99.31,
+            "return_ge_20_rate_pct": 11.29,
+            "return_ge_100_rate_pct": 0.0
+          },
+          "robust_win_floor_pct": 58.06,
+          "robust_avg_floor_pct": 5.48,
+          "rank_score": 71.28
+        },
+        {
+          "rules": [
+            "動能20日>=0%",
+            "動能60日>=0%",
+            "量能5日/20日<=2"
+          ],
+          "all": {
+            "n": 180,
+            "win_rate_pct": 61.11,
+            "avg_return_pct": 6.76,
+            "median_return_pct": 2.82,
+            "worst_return_pct": -34.0,
+            "best_return_pct": 99.31,
+            "return_ge_20_rate_pct": 14.44,
+            "return_ge_100_rate_pct": 0.0
+          },
+          "train_2020_2023": {
+            "n": 124,
+            "win_rate_pct": 62.9,
+            "avg_return_pct": 7.34,
+            "median_return_pct": 4.2,
+            "worst_return_pct": -27.25,
+            "best_return_pct": 88.65,
+            "return_ge_20_rate_pct": 16.13,
+            "return_ge_100_rate_pct": 0.0
+          },
+          "validation_2024_plus": {
+            "n": 56,
+            "win_rate_pct": 57.14,
+            "avg_return_pct": 5.48,
+            "median_return_pct": 1.82,
+            "worst_return_pct": -34.0,
+            "best_return_pct": 99.31,
+            "return_ge_20_rate_pct": 10.71,
+            "return_ge_100_rate_pct": 0.0
+          },
+          "robust_win_floor_pct": 57.14,
+          "robust_avg_floor_pct": 5.48,
+          "rank_score": 70.36
+        },
+        {
+          "rules": [
+            "動能20日>=0%",
+            "收盤在MA20上",
+            "接近60日高點15%內"
+          ],
+          "all": {
+            "n": 199,
+            "win_rate_pct": 62.31,
+            "avg_return_pct": 7.02,
+            "median_return_pct": 2.89,
+            "worst_return_pct": -34.0,
+            "best_return_pct": 99.31,
+            "return_ge_20_rate_pct": 15.58,
+            "return_ge_100_rate_pct": 0.0
+          },
+          "train_2020_2023": {
+            "n": 140,
+            "win_rate_pct": 63.57,
+            "avg_return_pct": 7.72,
+            "median_return_pct": 4.36,
+            "worst_return_pct": -27.25,
+            "best_return_pct": 88.65,
+            "return_ge_20_rate_pct": 17.14,
+            "return_ge_100_rate_pct": 0.0
+          },
+          "validation_2024_plus": {
+            "n": 59,
+            "win_rate_pct": 59.32,
+            "avg_return_pct": 5.36,
+            "median_return_pct": 1.82,
+            "worst_return_pct": -34.0,
+            "best_return_pct": 99.31,
+            "return_ge_20_rate_pct": 11.86,
+            "return_ge_100_rate_pct": 0.0
+          },
+          "robust_win_floor_pct": 59.32,
+          "robust_avg_floor_pct": 5.36,
+          "rank_score": 72.36
+        },
+        {
+          "rules": [
+            "收盤在MA20上",
+            "接近60日高點15%內",
+            "量能5日/20日<=2"
+          ],
+          "all": {
+            "n": 200,
+            "win_rate_pct": 63.5,
+            "avg_return_pct": 6.75,
+            "median_return_pct": 2.93,
+            "worst_return_pct": -34.0,
+            "best_return_pct": 99.31,
+            "return_ge_20_rate_pct": 13.5,
+            "return_ge_100_rate_pct": 0.0
+          },
+          "train_2020_2023": {
+            "n": 140,
+            "win_rate_pct": 66.43,
+            "avg_return_pct": 7.38,
+            "median_return_pct": 4.47,
+            "worst_return_pct": -27.25,
+            "best_return_pct": 88.65,
+            "return_ge_20_rate_pct": 14.29,
+            "return_ge_100_rate_pct": 0.0
+          },
+          "validation_2024_plus": {
+            "n": 60,
+            "win_rate_pct": 56.67,
+            "avg_return_pct": 5.27,
+            "median_return_pct": 1.77,
+            "worst_return_pct": -34.0,
+            "best_return_pct": 99.31,
+            "return_ge_20_rate_pct": 11.67,
+            "return_ge_100_rate_pct": 0.0
+          },
+          "robust_win_floor_pct": 56.67,
+          "robust_avg_floor_pct": 5.27,
+          "rank_score": 69.575
+        },
+        {
+          "rules": [
+            "收盤在MA20上",
+            "量能5日/20日>=1",
+            "量能5日/20日<=2"
+          ],
+          "all": {
+            "n": 123,
+            "win_rate_pct": 64.23,
+            "avg_return_pct": 6.26,
+            "median_return_pct": 2.89,
+            "worst_return_pct": -27.25,
+            "best_return_pct": 72.73,
+            "return_ge_20_rate_pct": 13.82,
+            "return_ge_100_rate_pct": 0.0
+          },
+          "train_2020_2023": {
+            "n": 87,
+            "win_rate_pct": 68.97,
+            "avg_return_pct": 6.73,
+            "median_return_pct": 4.87,
+            "worst_return_pct": -27.25,
+            "best_return_pct": 72.73,
+            "return_ge_20_rate_pct": 13.79,
+            "return_ge_100_rate_pct": 0.0
+          },
+          "validation_2024_plus": {
+            "n": 36,
+            "win_rate_pct": 52.78,
+            "avg_return_pct": 5.12,
+            "median_return_pct": 0.89,
+            "worst_return_pct": -10.4,
+            "best_return_pct": 44.54,
+            "return_ge_20_rate_pct": 13.89,
+            "return_ge_100_rate_pct": 0.0
+          },
+          "robust_win_floor_pct": 52.78,
+          "robust_avg_floor_pct": 5.12,
+          "rank_score": 65.46
+        },
+        {
+          "rules": [
+            "量能5日/20日>=1",
+            "量能5日/20日<=2",
+            "20日均量>=50萬股"
+          ],
+          "all": {
+            "n": 111,
+            "win_rate_pct": 61.26,
+            "avg_return_pct": 6.24,
+            "median_return_pct": 3.52,
+            "worst_return_pct": -27.25,
+            "best_return_pct": 47.19,
+            "return_ge_20_rate_pct": 17.12,
+            "return_ge_100_rate_pct": 0.0
+          },
+          "train_2020_2023": {
+            "n": 75,
+            "win_rate_pct": 68.0,
+            "avg_return_pct": 6.83,
+            "median_return_pct": 4.77,
+            "worst_return_pct": -27.25,
+            "best_return_pct": 47.19,
+            "return_ge_20_rate_pct": 18.67,
+            "return_ge_100_rate_pct": 0.0
+          },
+          "validation_2024_plus": {
+            "n": 36,
+            "win_rate_pct": 47.22,
+            "avg_return_pct": 5.02,
+            "median_return_pct": -1.49,
+            "worst_return_pct": -10.86,
+            "best_return_pct": 44.54,
+            "return_ge_20_rate_pct": 13.89,
+            "return_ge_100_rate_pct": 0.0
+          },
+          "robust_win_floor_pct": 47.22,
+          "robust_avg_floor_pct": 5.02,
+          "rank_score": 59.75
+        },
+        {
+          "rules": [
+            "接近60日高點15%內",
+            "量能5日/20日>=1",
+            "20日均量>=100萬股"
+          ],
+          "all": {
+            "n": 75,
+            "win_rate_pct": 54.67,
+            "avg_return_pct": 5.14,
+            "median_return_pct": 2.35,
+            "worst_return_pct": -27.25,
+            "best_return_pct": 44.54,
+            "return_ge_20_rate_pct": 18.67,
+            "return_ge_100_rate_pct": 0.0
+          },
+          "train_2020_2023": {
+            "n": 48,
+            "win_rate_pct": 56.25,
+            "avg_return_pct": 5.01,
+            "median_return_pct": 3.41,
+            "worst_return_pct": -27.25,
+            "best_return_pct": 40.97,
+            "return_ge_20_rate_pct": 18.75,
+            "return_ge_100_rate_pct": 0.0
+          },
+          "validation_2024_plus": {
+            "n": 27,
+            "win_rate_pct": 51.85,
+            "avg_return_pct": 5.39,
+            "median_return_pct": 1.55,
+            "worst_return_pct": -19.06,
+            "best_return_pct": 44.54,
+            "return_ge_20_rate_pct": 18.52,
+            "return_ge_100_rate_pct": 0.0
+          },
+          "robust_win_floor_pct": 51.85,
+          "robust_avg_floor_pct": 5.01,
+          "rank_score": 63.115
+        },
+        {
+          "rules": [
+            "動能20日>=0%",
+            "收盤在MA20上",
+            "量能5日/20日>=1"
+          ],
+          "all": {
+            "n": 137,
+            "win_rate_pct": 61.31,
+            "avg_return_pct": 6.3,
+            "median_return_pct": 2.57,
+            "worst_return_pct": -27.25,
+            "best_return_pct": 72.73,
+            "return_ge_20_rate_pct": 16.06,
+            "return_ge_100_rate_pct": 0.0
+          },
+          "train_2020_2023": {
+            "n": 98,
+            "win_rate_pct": 63.27,
+            "avg_return_pct": 6.86,
+            "median_return_pct": 4.01,
+            "worst_return_pct": -27.25,
+            "best_return_pct": 72.73,
+            "return_ge_20_rate_pct": 16.33,
+            "return_ge_100_rate_pct": 0.0
+          },
+          "validation_2024_plus": {
+            "n": 39,
+            "win_rate_pct": 56.41,
+            "avg_return_pct": 4.89,
+            "median_return_pct": 1.55,
+            "worst_return_pct": -19.06,
+            "best_return_pct": 44.54,
+            "return_ge_20_rate_pct": 15.38,
+            "return_ge_100_rate_pct": 0.0
+          },
+          "robust_win_floor_pct": 56.41,
+          "robust_avg_floor_pct": 4.89,
+          "rank_score": 68.745
+        }
+      ],
+      "eligible_strategy_count": 366
+    },
+    "t_plus_20_to_t_plus_210": {
+      "label": "T+20 買進，T+210 出場",
+      "entry_offset": 20,
+      "exit_offset": 210,
+      "assessment": "固定日期出場未通過高勝率／高報酬驗證；應改測 +100% 停利、移動停利或趨勢破壞出場。",
+      "baseline": {
+        "n": 462,
+        "win_rate_pct": 46.54,
+        "avg_return_pct": 6.53,
+        "median_return_pct": -3.03,
+        "worst_return_pct": -67.07,
+        "best_return_pct": 301.14,
+        "return_ge_20_rate_pct": 21.0,
+        "return_ge_100_rate_pct": 4.55
+      },
+      "train_baseline": {
+        "n": 330,
+        "win_rate_pct": 54.55,
+        "avg_return_pct": 13.05,
+        "median_return_pct": 2.44,
+        "worst_return_pct": -67.07,
+        "best_return_pct": 301.14,
+        "return_ge_20_rate_pct": 26.36,
+        "return_ge_100_rate_pct": 5.76
+      },
+      "validation_baseline": {
+        "n": 132,
+        "win_rate_pct": 26.52,
+        "avg_return_pct": -9.75,
+        "median_return_pct": -13.53,
+        "worst_return_pct": -65.07,
+        "best_return_pct": 182.61,
+        "return_ge_20_rate_pct": 7.58,
+        "return_ge_100_rate_pct": 1.52
+      },
+      "robust_top": [
+        {
+          "rules": [
+            "動能20日<=30%",
+            "外資連買>=3日"
+          ],
+          "all": {
+            "n": 56,
+            "win_rate_pct": 58.93,
+            "avg_return_pct": 5.88,
+            "median_return_pct": 3.8,
+            "worst_return_pct": -67.07,
+            "best_return_pct": 144.0,
+            "return_ge_20_rate_pct": 30.36,
+            "return_ge_100_rate_pct": 3.57
+          },
+          "train_2020_2023": {
+            "n": 47,
+            "win_rate_pct": 59.57,
+            "avg_return_pct": 6.29,
+            "median_return_pct": 3.05,
+            "worst_return_pct": -67.07,
+            "best_return_pct": 144.0,
+            "return_ge_20_rate_pct": 29.79,
+            "return_ge_100_rate_pct": 4.26
+          },
+          "validation_2024_plus": {
+            "n": 9,
+            "win_rate_pct": 55.56,
+            "avg_return_pct": 3.73,
+            "median_return_pct": 9.69,
+            "worst_return_pct": -26.75,
+            "best_return_pct": 43.96,
+            "return_ge_20_rate_pct": 33.33,
+            "return_ge_100_rate_pct": 0.0
+          },
+          "robust_win_floor_pct": 55.56,
+          "robust_avg_floor_pct": 3.73,
+          "rank_score": 63.955
+        },
+        {
+          "rules": [
+            "動能20日<=30%",
+            "量能5日/20日>=1",
+            "營收年增>0%"
+          ],
+          "all": {
+            "n": 94,
+            "win_rate_pct": 46.81,
+            "avg_return_pct": 6.01,
+            "median_return_pct": -3.13,
+            "worst_return_pct": -54.23,
+            "best_return_pct": 168.6,
+            "return_ge_20_rate_pct": 22.34,
+            "return_ge_100_rate_pct": 2.13
+          },
+          "train_2020_2023": {
+            "n": 66,
+            "win_rate_pct": 46.97,
+            "avg_return_pct": 6.4,
+            "median_return_pct": -3.13,
+            "worst_return_pct": -54.23,
+            "best_return_pct": 157.9,
+            "return_ge_20_rate_pct": 24.24,
+            "return_ge_100_rate_pct": 1.52
+          },
+          "validation_2024_plus": {
+            "n": 28,
+            "win_rate_pct": 46.43,
+            "avg_return_pct": 5.1,
+            "median_return_pct": -3.45,
+            "worst_return_pct": -33.08,
+            "best_return_pct": 168.6,
+            "return_ge_20_rate_pct": 17.86,
+            "return_ge_100_rate_pct": 3.57
+          },
+          "robust_win_floor_pct": 46.43,
+          "robust_avg_floor_pct": 5.1,
+          "rank_score": 58.78
+        },
+        {
+          "rules": [
+            "動能60日>=0%",
+            "動能60日<=60%",
+            "量能5日/20日>=1"
+          ],
+          "all": {
+            "n": 94,
+            "win_rate_pct": 48.94,
+            "avg_return_pct": 7.01,
+            "median_return_pct": -1.96,
+            "worst_return_pct": -43.3,
+            "best_return_pct": 189.09,
+            "return_ge_20_rate_pct": 24.47,
+            "return_ge_100_rate_pct": 3.19
+          },
+          "train_2020_2023": {
+            "n": 67,
+            "win_rate_pct": 53.73,
+            "avg_return_pct": 9.33,
+            "median_return_pct": 2.42,
+            "worst_return_pct": -39.78,
+            "best_return_pct": 189.09,
+            "return_ge_20_rate_pct": 26.87,
+            "return_ge_100_rate_pct": 2.99
+          },
+          "validation_2024_plus": {
+            "n": 27,
+            "win_rate_pct": 37.04,
+            "avg_return_pct": 1.25,
+            "median_return_pct": -9.19,
+            "worst_return_pct": -43.3,
+            "best_return_pct": 168.6,
+            "return_ge_20_rate_pct": 18.52,
+            "return_ge_100_rate_pct": 3.7
+          },
+          "robust_win_floor_pct": 37.04,
+          "robust_avg_floor_pct": 1.25,
+          "rank_score": 43.615
+        },
+        {
+          "rules": [
+            "動能60日>=0%",
+            "量能5日/20日>=1",
+            "量能5日/20日<=2"
+          ],
+          "all": {
+            "n": 91,
+            "win_rate_pct": 48.35,
+            "avg_return_pct": 7.37,
+            "median_return_pct": -2.59,
+            "worst_return_pct": -43.7,
+            "best_return_pct": 189.09,
+            "return_ge_20_rate_pct": 25.27,
+            "return_ge_100_rate_pct": 4.4
+          },
+          "train_2020_2023": {
+            "n": 68,
+            "win_rate_pct": 52.94,
+            "avg_return_pct": 9.81,
+            "median_return_pct": 1.98,
+            "worst_return_pct": -43.7,
+            "best_return_pct": 189.09,
+            "return_ge_20_rate_pct": 27.94,
+            "return_ge_100_rate_pct": 4.41
+          },
+          "validation_2024_plus": {
+            "n": 23,
+            "win_rate_pct": 34.78,
+            "avg_return_pct": 0.15,
+            "median_return_pct": -10.91,
+            "worst_return_pct": -43.3,
+            "best_return_pct": 168.6,
+            "return_ge_20_rate_pct": 17.39,
+            "return_ge_100_rate_pct": 4.35
+          },
+          "robust_win_floor_pct": 34.78,
+          "robust_avg_floor_pct": 0.15,
+          "rank_score": 39.555
+        },
+        {
+          "rules": [
+            "動能20日<=30%",
+            "接近60日高點15%內",
+            "量能5日/20日>=1"
+          ],
+          "all": {
+            "n": 115,
+            "win_rate_pct": 53.04,
+            "avg_return_pct": 10.99,
+            "median_return_pct": 2.42,
+            "worst_return_pct": -43.7,
+            "best_return_pct": 189.09,
+            "return_ge_20_rate_pct": 30.43,
+            "return_ge_100_rate_pct": 3.48
+          },
+          "train_2020_2023": {
+            "n": 90,
+            "win_rate_pct": 57.78,
+            "avg_return_pct": 14.45,
+            "median_return_pct": 5.71,
+            "worst_return_pct": -43.7,
+            "best_return_pct": 189.09,
+            "return_ge_20_rate_pct": 33.33,
+            "return_ge_100_rate_pct": 4.44
+          },
+          "validation_2024_plus": {
+            "n": 25,
+            "win_rate_pct": 36.0,
+            "avg_return_pct": -1.48,
+            "median_return_pct": -9.0,
+            "worst_return_pct": -33.08,
+            "best_return_pct": 62.51,
+            "return_ge_20_rate_pct": 20.0,
+            "return_ge_100_rate_pct": 0.0
+          },
+          "robust_win_floor_pct": 36.0,
+          "robust_avg_floor_pct": -1.48,
+          "rank_score": 38.78
+        },
+        {
+          "rules": [
+            "動能60日<=60%",
+            "量能5日/20日>=1",
+            "量能5日/20日<=2"
+          ],
+          "all": {
+            "n": 125,
+            "win_rate_pct": 48.0,
+            "avg_return_pct": 6.47,
+            "median_return_pct": -3.09,
+            "worst_return_pct": -54.23,
+            "best_return_pct": 189.09,
+            "return_ge_20_rate_pct": 22.4,
+            "return_ge_100_rate_pct": 3.2
+          },
+          "train_2020_2023": {
+            "n": 94,
+            "win_rate_pct": 52.13,
+            "avg_return_pct": 9.16,
+            "median_return_pct": 1.34,
+            "worst_return_pct": -54.23,
+            "best_return_pct": 189.09,
+            "return_ge_20_rate_pct": 25.53,
+            "return_ge_100_rate_pct": 3.19
+          },
+          "validation_2024_plus": {
+            "n": 31,
+            "win_rate_pct": 35.48,
+            "avg_return_pct": -1.71,
+            "median_return_pct": -9.0,
+            "worst_return_pct": -50.98,
+            "best_return_pct": 168.6,
+            "return_ge_20_rate_pct": 12.9,
+            "return_ge_100_rate_pct": 3.23
+          },
+          "robust_win_floor_pct": 35.48,
+          "robust_avg_floor_pct": -1.71,
+          "rank_score": 37.915
+        },
+        {
+          "rules": [
+            "動能60日>=0%",
+            "收盤在MA20上",
+            "接近60日高點15%內"
+          ],
+          "all": {
+            "n": 143,
+            "win_rate_pct": 49.65,
+            "avg_return_pct": 9.86,
+            "median_return_pct": -1.33,
+            "worst_return_pct": -65.07,
+            "best_return_pct": 227.72,
+            "return_ge_20_rate_pct": 24.48,
+            "return_ge_100_rate_pct": 6.29
+          },
+          "train_2020_2023": {
+            "n": 107,
+            "win_rate_pct": 54.21,
+            "avg_return_pct": 14.64,
+            "median_return_pct": 2.46,
+            "worst_return_pct": -52.25,
+            "best_return_pct": 227.72,
+            "return_ge_20_rate_pct": 27.1,
+            "return_ge_100_rate_pct": 7.48
+          },
+          "validation_2024_plus": {
+            "n": 36,
+            "win_rate_pct": 36.11,
+            "avg_return_pct": -4.36,
+            "median_return_pct": -12.6,
+            "worst_return_pct": -65.07,
+            "best_return_pct": 182.61,
+            "return_ge_20_rate_pct": 16.67,
+            "return_ge_100_rate_pct": 2.78
+          },
+          "robust_win_floor_pct": 36.11,
+          "robust_avg_floor_pct": -4.36,
+          "rank_score": 34.57
+        },
+        {
+          "rules": [
+            "收盤在MA20上",
+            "接近60日高點15%內",
+            "營收年增>0%"
+          ],
+          "all": {
+            "n": 131,
+            "win_rate_pct": 49.62,
+            "avg_return_pct": 10.11,
+            "median_return_pct": -0.71,
+            "worst_return_pct": -65.07,
+            "best_return_pct": 225.15,
+            "return_ge_20_rate_pct": 25.95,
+            "return_ge_100_rate_pct": 6.11
+          },
+          "train_2020_2023": {
+            "n": 100,
+            "win_rate_pct": 54.0,
+            "avg_return_pct": 14.83,
+            "median_return_pct": 2.62,
+            "worst_return_pct": -52.25,
+            "best_return_pct": 225.15,
+            "return_ge_20_rate_pct": 29.0,
+            "return_ge_100_rate_pct": 7.0
+          },
+          "validation_2024_plus": {
+            "n": 31,
+            "win_rate_pct": 35.48,
+            "avg_return_pct": -5.11,
+            "median_return_pct": -14.45,
+            "worst_return_pct": -65.07,
+            "best_return_pct": 182.61,
+            "return_ge_20_rate_pct": 16.13,
+            "return_ge_100_rate_pct": 3.23
+          },
+          "robust_win_floor_pct": 35.48,
+          "robust_avg_floor_pct": -5.11,
+          "rank_score": 32.815
+        }
+      ],
+      "high_win_top": [
+        {
+          "rules": [
+            "動能20日<=30%",
+            "外資連買>=3日"
+          ],
+          "all": {
+            "n": 56,
+            "win_rate_pct": 58.93,
+            "avg_return_pct": 5.88,
+            "median_return_pct": 3.8,
+            "worst_return_pct": -67.07,
+            "best_return_pct": 144.0,
+            "return_ge_20_rate_pct": 30.36,
+            "return_ge_100_rate_pct": 3.57
+          },
+          "train_2020_2023": {
+            "n": 47,
+            "win_rate_pct": 59.57,
+            "avg_return_pct": 6.29,
+            "median_return_pct": 3.05,
+            "worst_return_pct": -67.07,
+            "best_return_pct": 144.0,
+            "return_ge_20_rate_pct": 29.79,
+            "return_ge_100_rate_pct": 4.26
+          },
+          "validation_2024_plus": {
+            "n": 9,
+            "win_rate_pct": 55.56,
+            "avg_return_pct": 3.73,
+            "median_return_pct": 9.69,
+            "worst_return_pct": -26.75,
+            "best_return_pct": 43.96,
+            "return_ge_20_rate_pct": 33.33,
+            "return_ge_100_rate_pct": 0.0
+          },
+          "robust_win_floor_pct": 55.56,
+          "robust_avg_floor_pct": 3.73,
+          "rank_score": 63.955
+        },
+        {
+          "rules": [
+            "動能20日<=30%",
+            "量能5日/20日>=1",
+            "營收年增>0%"
+          ],
+          "all": {
+            "n": 94,
+            "win_rate_pct": 46.81,
+            "avg_return_pct": 6.01,
+            "median_return_pct": -3.13,
+            "worst_return_pct": -54.23,
+            "best_return_pct": 168.6,
+            "return_ge_20_rate_pct": 22.34,
+            "return_ge_100_rate_pct": 2.13
+          },
+          "train_2020_2023": {
+            "n": 66,
+            "win_rate_pct": 46.97,
+            "avg_return_pct": 6.4,
+            "median_return_pct": -3.13,
+            "worst_return_pct": -54.23,
+            "best_return_pct": 157.9,
+            "return_ge_20_rate_pct": 24.24,
+            "return_ge_100_rate_pct": 1.52
+          },
+          "validation_2024_plus": {
+            "n": 28,
+            "win_rate_pct": 46.43,
+            "avg_return_pct": 5.1,
+            "median_return_pct": -3.45,
+            "worst_return_pct": -33.08,
+            "best_return_pct": 168.6,
+            "return_ge_20_rate_pct": 17.86,
+            "return_ge_100_rate_pct": 3.57
+          },
+          "robust_win_floor_pct": 46.43,
+          "robust_avg_floor_pct": 5.1,
+          "rank_score": 58.78
+        },
+        {
+          "rules": [
+            "動能60日>=0%",
+            "接近60日高點15%內",
+            "量能5日/20日>=1"
+          ],
+          "all": {
+            "n": 91,
+            "win_rate_pct": 51.65,
+            "avg_return_pct": 8.34,
+            "median_return_pct": 1.55,
+            "worst_return_pct": -43.7,
+            "best_return_pct": 189.09,
+            "return_ge_20_rate_pct": 27.47,
+            "return_ge_100_rate_pct": 3.3
+          },
+          "train_2020_2023": {
+            "n": 71,
+            "win_rate_pct": 54.93,
+            "avg_return_pct": 11.19,
+            "median_return_pct": 2.73,
+            "worst_return_pct": -43.7,
+            "best_return_pct": 189.09,
+            "return_ge_20_rate_pct": 29.58,
+            "return_ge_100_rate_pct": 4.23
+          },
+          "validation_2024_plus": {
+            "n": 20,
+            "win_rate_pct": 40.0,
+            "avg_return_pct": -1.78,
+            "median_return_pct": -6.19,
+            "worst_return_pct": -42.89,
+            "best_return_pct": 62.51,
+            "return_ge_20_rate_pct": 20.0,
+            "return_ge_100_rate_pct": 0.0
+          },
+          "robust_win_floor_pct": 40.0,
+          "robust_avg_floor_pct": -1.78,
+          "rank_score": 41.88
+        },
+        {
+          "rules": [
+            "MA5>MA10>MA20",
+            "量能5日/20日>=1",
+            "營收年增>0%"
+          ],
+          "all": {
+            "n": 55,
+            "win_rate_pct": 49.09,
+            "avg_return_pct": 4.23,
+            "median_return_pct": -1.33,
+            "worst_return_pct": -42.89,
+            "best_return_pct": 157.9,
+            "return_ge_20_rate_pct": 20.0,
+            "return_ge_100_rate_pct": 1.82
+          },
+          "train_2020_2023": {
+            "n": 42,
+            "win_rate_pct": 52.38,
+            "avg_return_pct": 8.35,
+            "median_return_pct": 1.77,
+            "worst_return_pct": -34.29,
+            "best_return_pct": 157.9,
+            "return_ge_20_rate_pct": 23.81,
+            "return_ge_100_rate_pct": 2.38
+          },
+          "validation_2024_plus": {
+            "n": 13,
+            "win_rate_pct": 38.46,
+            "avg_return_pct": -9.09,
+            "median_return_pct": -14.57,
+            "worst_return_pct": -42.89,
+            "best_return_pct": 30.79,
+            "return_ge_20_rate_pct": 7.69,
+            "return_ge_100_rate_pct": 0.0
+          },
+          "robust_win_floor_pct": 38.46,
+          "robust_avg_floor_pct": -9.09,
+          "rank_score": 27.575
+        },
+        {
+          "rules": [
+            "動能20日<=30%",
+            "MA5>MA10>MA20",
+            "營收年增>0%"
+          ],
+          "all": {
+            "n": 87,
+            "win_rate_pct": 52.87,
+            "avg_return_pct": 6.79,
+            "median_return_pct": 2.79,
+            "worst_return_pct": -52.25,
+            "best_return_pct": 301.14,
+            "return_ge_20_rate_pct": 22.99,
+            "return_ge_100_rate_pct": 2.3
+          },
+          "train_2020_2023": {
+            "n": 68,
+            "win_rate_pct": 57.35,
+            "avg_return_pct": 11.59,
+            "median_return_pct": 4.49,
+            "worst_return_pct": -52.25,
+            "best_return_pct": 301.14,
+            "return_ge_20_rate_pct": 26.47,
+            "return_ge_100_rate_pct": 2.94
+          },
+          "validation_2024_plus": {
+            "n": 19,
+            "win_rate_pct": 36.84,
+            "avg_return_pct": -10.41,
+            "median_return_pct": -14.57,
+            "worst_return_pct": -46.28,
+            "best_return_pct": 30.79,
+            "return_ge_20_rate_pct": 10.53,
+            "return_ge_100_rate_pct": 0.0
+          },
+          "robust_win_floor_pct": 36.84,
+          "robust_avg_floor_pct": -10.41,
+          "rank_score": 25.575
+        },
+        {
+          "rules": [
+            "動能60日>=0%",
+            "收盤在MA20上",
+            "接近60日高點15%內"
+          ],
+          "all": {
+            "n": 143,
+            "win_rate_pct": 49.65,
+            "avg_return_pct": 9.86,
+            "median_return_pct": -1.33,
+            "worst_return_pct": -65.07,
+            "best_return_pct": 227.72,
+            "return_ge_20_rate_pct": 24.48,
+            "return_ge_100_rate_pct": 6.29
+          },
+          "train_2020_2023": {
+            "n": 107,
+            "win_rate_pct": 54.21,
+            "avg_return_pct": 14.64,
+            "median_return_pct": 2.46,
+            "worst_return_pct": -52.25,
+            "best_return_pct": 227.72,
+            "return_ge_20_rate_pct": 27.1,
+            "return_ge_100_rate_pct": 7.48
+          },
+          "validation_2024_plus": {
+            "n": 36,
+            "win_rate_pct": 36.11,
+            "avg_return_pct": -4.36,
+            "median_return_pct": -12.6,
+            "worst_return_pct": -65.07,
+            "best_return_pct": 182.61,
+            "return_ge_20_rate_pct": 16.67,
+            "return_ge_100_rate_pct": 2.78
+          },
+          "robust_win_floor_pct": 36.11,
+          "robust_avg_floor_pct": -4.36,
+          "rank_score": 34.57
+        },
+        {
+          "rules": [
+            "MA5>MA10>MA20",
+            "量能5日/20日>=1",
+            "量能5日/20日<=2"
+          ],
+          "all": {
+            "n": 62,
+            "win_rate_pct": 51.61,
+            "avg_return_pct": 7.75,
+            "median_return_pct": 1.34,
+            "worst_return_pct": -42.89,
+            "best_return_pct": 189.09,
+            "return_ge_20_rate_pct": 25.81,
+            "return_ge_100_rate_pct": 3.23
+          },
+          "train_2020_2023": {
+            "n": 48,
+            "win_rate_pct": 56.25,
+            "avg_return_pct": 12.39,
+            "median_return_pct": 2.6,
+            "worst_return_pct": -31.63,
+            "best_return_pct": 189.09,
+            "return_ge_20_rate_pct": 29.17,
+            "return_ge_100_rate_pct": 4.17
+          },
+          "validation_2024_plus": {
+            "n": 14,
+            "win_rate_pct": 35.71,
+            "avg_return_pct": -8.17,
+            "median_return_pct": -14.25,
+            "worst_return_pct": -42.89,
+            "best_return_pct": 34.01,
+            "return_ge_20_rate_pct": 14.29,
+            "return_ge_100_rate_pct": 0.0
+          },
+          "robust_win_floor_pct": 35.71,
+          "robust_avg_floor_pct": -8.17,
+          "rank_score": 26.555
+        },
+        {
+          "rules": [
+            "動能60日<=60%",
+            "收盤在MA20上",
+            "營收年增>0%"
+          ],
+          "all": {
+            "n": 127,
+            "win_rate_pct": 51.18,
+            "avg_return_pct": 9.46,
+            "median_return_pct": 1.13,
+            "worst_return_pct": -65.07,
+            "best_return_pct": 225.15,
+            "return_ge_20_rate_pct": 25.2,
+            "return_ge_100_rate_pct": 5.51
+          },
+          "train_2020_2023": {
+            "n": 93,
+            "win_rate_pct": 56.99,
+            "avg_return_pct": 15.4,
+            "median_return_pct": 3.62,
+            "worst_return_pct": -52.25,
+            "best_return_pct": 225.15,
+            "return_ge_20_rate_pct": 29.03,
+            "return_ge_100_rate_pct": 6.45
+          },
+          "validation_2024_plus": {
+            "n": 34,
+            "win_rate_pct": 35.29,
+            "avg_return_pct": -6.8,
+            "median_return_pct": -15.09,
+            "worst_return_pct": -65.07,
+            "best_return_pct": 182.61,
+            "return_ge_20_rate_pct": 14.71,
+            "return_ge_100_rate_pct": 2.94
+          },
+          "robust_win_floor_pct": 35.29,
+          "robust_avg_floor_pct": -6.8,
+          "rank_score": 30.09
+        }
+      ],
+      "high_return_top": [
+        {
+          "rules": [
+            "動能20日<=30%",
+            "量能5日/20日>=1",
+            "營收年增>0%"
+          ],
+          "all": {
+            "n": 94,
+            "win_rate_pct": 46.81,
+            "avg_return_pct": 6.01,
+            "median_return_pct": -3.13,
+            "worst_return_pct": -54.23,
+            "best_return_pct": 168.6,
+            "return_ge_20_rate_pct": 22.34,
+            "return_ge_100_rate_pct": 2.13
+          },
+          "train_2020_2023": {
+            "n": 66,
+            "win_rate_pct": 46.97,
+            "avg_return_pct": 6.4,
+            "median_return_pct": -3.13,
+            "worst_return_pct": -54.23,
+            "best_return_pct": 157.9,
+            "return_ge_20_rate_pct": 24.24,
+            "return_ge_100_rate_pct": 1.52
+          },
+          "validation_2024_plus": {
+            "n": 28,
+            "win_rate_pct": 46.43,
+            "avg_return_pct": 5.1,
+            "median_return_pct": -3.45,
+            "worst_return_pct": -33.08,
+            "best_return_pct": 168.6,
+            "return_ge_20_rate_pct": 17.86,
+            "return_ge_100_rate_pct": 3.57
+          },
+          "robust_win_floor_pct": 46.43,
+          "robust_avg_floor_pct": 5.1,
+          "rank_score": 58.78
+        },
+        {
+          "rules": [
+            "動能20日<=30%",
+            "外資連買>=3日"
+          ],
+          "all": {
+            "n": 56,
+            "win_rate_pct": 58.93,
+            "avg_return_pct": 5.88,
+            "median_return_pct": 3.8,
+            "worst_return_pct": -67.07,
+            "best_return_pct": 144.0,
+            "return_ge_20_rate_pct": 30.36,
+            "return_ge_100_rate_pct": 3.57
+          },
+          "train_2020_2023": {
+            "n": 47,
+            "win_rate_pct": 59.57,
+            "avg_return_pct": 6.29,
+            "median_return_pct": 3.05,
+            "worst_return_pct": -67.07,
+            "best_return_pct": 144.0,
+            "return_ge_20_rate_pct": 29.79,
+            "return_ge_100_rate_pct": 4.26
+          },
+          "validation_2024_plus": {
+            "n": 9,
+            "win_rate_pct": 55.56,
+            "avg_return_pct": 3.73,
+            "median_return_pct": 9.69,
+            "worst_return_pct": -26.75,
+            "best_return_pct": 43.96,
+            "return_ge_20_rate_pct": 33.33,
+            "return_ge_100_rate_pct": 0.0
+          },
+          "robust_win_floor_pct": 55.56,
+          "robust_avg_floor_pct": 3.73,
+          "rank_score": 63.955
+        },
+        {
+          "rules": [
+            "動能60日>=0%",
+            "動能60日<=60%",
+            "量能5日/20日>=1"
+          ],
+          "all": {
+            "n": 94,
+            "win_rate_pct": 48.94,
+            "avg_return_pct": 7.01,
+            "median_return_pct": -1.96,
+            "worst_return_pct": -43.3,
+            "best_return_pct": 189.09,
+            "return_ge_20_rate_pct": 24.47,
+            "return_ge_100_rate_pct": 3.19
+          },
+          "train_2020_2023": {
+            "n": 67,
+            "win_rate_pct": 53.73,
+            "avg_return_pct": 9.33,
+            "median_return_pct": 2.42,
+            "worst_return_pct": -39.78,
+            "best_return_pct": 189.09,
+            "return_ge_20_rate_pct": 26.87,
+            "return_ge_100_rate_pct": 2.99
+          },
+          "validation_2024_plus": {
+            "n": 27,
+            "win_rate_pct": 37.04,
+            "avg_return_pct": 1.25,
+            "median_return_pct": -9.19,
+            "worst_return_pct": -43.3,
+            "best_return_pct": 168.6,
+            "return_ge_20_rate_pct": 18.52,
+            "return_ge_100_rate_pct": 3.7
+          },
+          "robust_win_floor_pct": 37.04,
+          "robust_avg_floor_pct": 1.25,
+          "rank_score": 43.615
+        },
+        {
+          "rules": [
+            "動能60日>=0%",
+            "量能5日/20日>=1",
+            "量能5日/20日<=2"
+          ],
+          "all": {
+            "n": 91,
+            "win_rate_pct": 48.35,
+            "avg_return_pct": 7.37,
+            "median_return_pct": -2.59,
+            "worst_return_pct": -43.7,
+            "best_return_pct": 189.09,
+            "return_ge_20_rate_pct": 25.27,
+            "return_ge_100_rate_pct": 4.4
+          },
+          "train_2020_2023": {
+            "n": 68,
+            "win_rate_pct": 52.94,
+            "avg_return_pct": 9.81,
+            "median_return_pct": 1.98,
+            "worst_return_pct": -43.7,
+            "best_return_pct": 189.09,
+            "return_ge_20_rate_pct": 27.94,
+            "return_ge_100_rate_pct": 4.41
+          },
+          "validation_2024_plus": {
+            "n": 23,
+            "win_rate_pct": 34.78,
+            "avg_return_pct": 0.15,
+            "median_return_pct": -10.91,
+            "worst_return_pct": -43.3,
+            "best_return_pct": 168.6,
+            "return_ge_20_rate_pct": 17.39,
+            "return_ge_100_rate_pct": 4.35
+          },
+          "robust_win_floor_pct": 34.78,
+          "robust_avg_floor_pct": 0.15,
+          "rank_score": 39.555
+        },
+        {
+          "rules": [
+            "動能60日<=60%",
+            "量能5日/20日>=1",
+            "20日均量>=100萬股"
+          ],
+          "all": {
+            "n": 79,
+            "win_rate_pct": 45.57,
+            "avg_return_pct": 6.19,
+            "median_return_pct": -3.39,
+            "worst_return_pct": -54.23,
+            "best_return_pct": 189.09,
+            "return_ge_20_rate_pct": 22.78,
+            "return_ge_100_rate_pct": 2.53
+          },
+          "train_2020_2023": {
+            "n": 55,
+            "win_rate_pct": 52.73,
+            "avg_return_pct": 9.49,
+            "median_return_pct": 1.55,
+            "worst_return_pct": -54.23,
+            "best_return_pct": 189.09,
+            "return_ge_20_rate_pct": 27.27,
+            "return_ge_100_rate_pct": 1.82
+          },
+          "validation_2024_plus": {
+            "n": 24,
+            "win_rate_pct": 29.17,
+            "avg_return_pct": -1.37,
+            "median_return_pct": -10.34,
+            "worst_return_pct": -43.3,
+            "best_return_pct": 168.6,
+            "return_ge_20_rate_pct": 12.5,
+            "return_ge_100_rate_pct": 4.17
+          },
+          "robust_win_floor_pct": 29.17,
+          "robust_avg_floor_pct": -1.37,
+          "rank_score": 31.065
+        },
+        {
+          "rules": [
+            "動能20日<=30%",
+            "接近60日高點15%內",
+            "量能5日/20日>=1"
+          ],
+          "all": {
+            "n": 115,
+            "win_rate_pct": 53.04,
+            "avg_return_pct": 10.99,
+            "median_return_pct": 2.42,
+            "worst_return_pct": -43.7,
+            "best_return_pct": 189.09,
+            "return_ge_20_rate_pct": 30.43,
+            "return_ge_100_rate_pct": 3.48
+          },
+          "train_2020_2023": {
+            "n": 90,
+            "win_rate_pct": 57.78,
+            "avg_return_pct": 14.45,
+            "median_return_pct": 5.71,
+            "worst_return_pct": -43.7,
+            "best_return_pct": 189.09,
+            "return_ge_20_rate_pct": 33.33,
+            "return_ge_100_rate_pct": 4.44
+          },
+          "validation_2024_plus": {
+            "n": 25,
+            "win_rate_pct": 36.0,
+            "avg_return_pct": -1.48,
+            "median_return_pct": -9.0,
+            "worst_return_pct": -33.08,
+            "best_return_pct": 62.51,
+            "return_ge_20_rate_pct": 20.0,
+            "return_ge_100_rate_pct": 0.0
+          },
+          "robust_win_floor_pct": 36.0,
+          "robust_avg_floor_pct": -1.48,
+          "rank_score": 38.78
+        },
+        {
+          "rules": [
+            "動能60日<=60%",
+            "量能5日/20日>=1",
+            "量能5日/20日<=2"
+          ],
+          "all": {
+            "n": 125,
+            "win_rate_pct": 48.0,
+            "avg_return_pct": 6.47,
+            "median_return_pct": -3.09,
+            "worst_return_pct": -54.23,
+            "best_return_pct": 189.09,
+            "return_ge_20_rate_pct": 22.4,
+            "return_ge_100_rate_pct": 3.2
+          },
+          "train_2020_2023": {
+            "n": 94,
+            "win_rate_pct": 52.13,
+            "avg_return_pct": 9.16,
+            "median_return_pct": 1.34,
+            "worst_return_pct": -54.23,
+            "best_return_pct": 189.09,
+            "return_ge_20_rate_pct": 25.53,
+            "return_ge_100_rate_pct": 3.19
+          },
+          "validation_2024_plus": {
+            "n": 31,
+            "win_rate_pct": 35.48,
+            "avg_return_pct": -1.71,
+            "median_return_pct": -9.0,
+            "worst_return_pct": -50.98,
+            "best_return_pct": 168.6,
+            "return_ge_20_rate_pct": 12.9,
+            "return_ge_100_rate_pct": 3.23
+          },
+          "robust_win_floor_pct": 35.48,
+          "robust_avg_floor_pct": -1.71,
+          "rank_score": 37.915
+        },
+        {
+          "rules": [
+            "量能5日/20日>=1",
+            "量能5日/20日<=2",
+            "20日均量>=100萬股"
+          ],
+          "all": {
+            "n": 80,
+            "win_rate_pct": 45.0,
+            "avg_return_pct": 6.1,
+            "median_return_pct": -3.56,
+            "worst_return_pct": -54.23,
+            "best_return_pct": 189.09,
+            "return_ge_20_rate_pct": 22.5,
+            "return_ge_100_rate_pct": 3.75
+          },
+          "train_2020_2023": {
+            "n": 57,
+            "win_rate_pct": 52.63,
+            "avg_return_pct": 9.52,
+            "median_return_pct": 1.55,
+            "worst_return_pct": -54.23,
+            "best_return_pct": 189.09,
+            "return_ge_20_rate_pct": 26.32,
+            "return_ge_100_rate_pct": 3.51
+          },
+          "validation_2024_plus": {
+            "n": 23,
+            "win_rate_pct": 26.09,
+            "avg_return_pct": -2.37,
+            "median_return_pct": -10.91,
+            "worst_return_pct": -43.3,
+            "best_return_pct": 168.6,
+            "return_ge_20_rate_pct": 13.04,
+            "return_ge_100_rate_pct": 4.35
+          },
+          "robust_win_floor_pct": 26.09,
+          "robust_avg_floor_pct": -2.37,
+          "rank_score": 26.535
+        }
+      ],
+      "eligible_strategy_count": 324
+    }
+  }
+}

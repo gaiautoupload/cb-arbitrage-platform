@@ -11726,8 +11726,8 @@
     "low": 11.550000190734863,
     "close": 11.800000190734863,
     "volume": 65000,
-    "foreign_net": 0.0,
-    "trust_net": 0.0
+    "foreign_net": -6.0,
+    "trust_net": -6.0
   },
   {
     "date": "2024-11-04",
@@ -11736,8 +11736,8 @@
     "low": 11.350000381469727,
     "close": 11.600000381469727,
     "volume": 136000,
-    "foreign_net": 0.0,
-    "trust_net": 0.0
+    "foreign_net": -10.0,
+    "trust_net": -10.0
   },
   {
     "date": "2024-11-05",
@@ -11746,8 +11746,8 @@
     "low": 11.5,
     "close": 11.600000381469727,
     "volume": 106000,
-    "foreign_net": 0.0,
-    "trust_net": 0.0
+    "foreign_net": 5.0,
+    "trust_net": 5.0
   },
   {
     "date": "2024-11-06",
@@ -11756,8 +11756,8 @@
     "low": 11.300000190734863,
     "close": 11.300000190734863,
     "volume": 191000,
-    "foreign_net": 0.0,
-    "trust_net": 0.0
+    "foreign_net": -1.0,
+    "trust_net": -1.0
   },
   {
     "date": "2024-11-07",
@@ -11766,8 +11766,8 @@
     "low": 11.350000381469727,
     "close": 11.600000381469727,
     "volume": 164000,
-    "foreign_net": 0.0,
-    "trust_net": 0.0
+    "foreign_net": 36.0,
+    "trust_net": 36.0
   },
   {
     "date": "2024-11-08",
@@ -11776,8 +11776,8 @@
     "low": 11.199999809265137,
     "close": 11.449999809265137,
     "volume": 204000,
-    "foreign_net": 0.0,
-    "trust_net": 0.0
+    "foreign_net": -6.0,
+    "trust_net": -6.0
   },
   {
     "date": "2024-11-11",
@@ -11786,8 +11786,8 @@
     "low": 11.100000381469727,
     "close": 11.149999618530273,
     "volume": 173000,
-    "foreign_net": 0.0,
-    "trust_net": 0.0
+    "foreign_net": -20.0,
+    "trust_net": -20.0
   },
   {
     "date": "2024-11-12",
@@ -11796,8 +11796,8 @@
     "low": 10.850000381469727,
     "close": 10.899999618530273,
     "volume": 292000,
-    "foreign_net": 0.0,
-    "trust_net": 0.0
+    "foreign_net": -55.0,
+    "trust_net": -55.0
   },
   {
     "date": "2024-11-13",
@@ -11806,8 +11806,8 @@
     "low": 10.949999809265137,
     "close": 11.949999809265137,
     "volume": 610000,
-    "foreign_net": 0.0,
-    "trust_net": 0.0
+    "foreign_net": 15.0,
+    "trust_net": 15.0
   },
   {
     "date": "2024-11-14",
@@ -11816,8 +11816,8 @@
     "low": 12.550000190734863,
     "close": 13.100000381469727,
     "volume": 1414000,
-    "foreign_net": 0.0,
-    "trust_net": 0.0
+    "foreign_net": 92.0,
+    "trust_net": 92.0
   },
   {
     "date": "2024-11-15",
@@ -11826,8 +11826,8 @@
     "low": 13.350000381469727,
     "close": 14.399999618530273,
     "volume": 4679000,
-    "foreign_net": 0.0,
-    "trust_net": 0.0
+    "foreign_net": 14.0,
+    "trust_net": 14.0
   },
   {
     "date": "2024-11-18",
@@ -11836,8 +11836,8 @@
     "low": 13.399999618530273,
     "close": 14.149999618530273,
     "volume": 2603000,
-    "foreign_net": 0.0,
-    "trust_net": 0.0
+    "foreign_net": 7.0,
+    "trust_net": 7.0
   },
   {
     "date": "2024-11-19",
@@ -11846,8 +11846,8 @@
     "low": 13.5,
     "close": 15.550000190734863,
     "volume": 4343000,
-    "foreign_net": 0.0,
-    "trust_net": 0.0
+    "foreign_net": 131.0,
+    "trust_net": 131.0
   },
   {
     "date": "2024-11-20",
@@ -11856,8 +11856,8 @@
     "low": 15.149999618530273,
     "close": 15.75,
     "volume": 6185211,
-    "foreign_net": 0.0,
-    "trust_net": 0.0
+    "foreign_net": -114.0,
+    "trust_net": -114.0
   },
   {
     "date": "2024-11-21",
@@ -11866,8 +11866,8 @@
     "low": 15.5,
     "close": 16.950000762939453,
     "volume": 5427000,
-    "foreign_net": 0.0,
-    "trust_net": 0.0
+    "foreign_net": 46.0,
+    "trust_net": 46.0
   },
   {
     "date": "2024-11-22",
@@ -11876,8 +11876,8 @@
     "low": 15.800000190734863,
     "close": 15.899999618530273,
     "volume": 2463000,
-    "foreign_net": 0.0,
-    "trust_net": 0.0
+    "foreign_net": -58.0,
+    "trust_net": -58.0
   },
   {
     "date": "2024-11-25",
@@ -11886,8 +11886,8 @@
     "low": 16.049999237060547,
     "close": 16.200000762939453,
     "volume": 1419000,
-    "foreign_net": 0.0,
-    "trust_net": 0.0
+    "foreign_net": -42.0,
+    "trust_net": -42.0
   },
   {
     "date": "2024-11-26",
@@ -11936,8 +11936,8 @@
     "low": 16.0,
     "close": 17.799999237060547,
     "volume": 5236000,
-    "foreign_net": 0.0,
-    "trust_net": 0.0
+    "foreign_net": -9.0,
+    "trust_net": -9.0
   },
   {
     "date": "2024-12-03",
@@ -11946,8 +11946,8 @@
     "low": 18.5,
     "close": 19.5,
     "volume": 5756000,
-    "foreign_net": 0.0,
-    "trust_net": 0.0
+    "foreign_net": 0.9,
+    "trust_net": 0.9
   },
   {
     "date": "2024-12-04",
@@ -11956,8 +11956,8 @@
     "low": 19.75,
     "close": 21.450000762939453,
     "volume": 5955000,
-    "foreign_net": 0.0,
-    "trust_net": 0.0
+    "foreign_net": -1.0,
+    "trust_net": -1.0
   },
   {
     "date": "2024-12-05",
@@ -11966,8 +11966,8 @@
     "low": 20.0,
     "close": 21.299999237060547,
     "volume": 7481000,
-    "foreign_net": 0.0,
-    "trust_net": 0.0
+    "foreign_net": 9.0,
+    "trust_net": 9.0
   },
   {
     "date": "2024-12-06",
@@ -11976,8 +11976,8 @@
     "low": 19.399999618530273,
     "close": 20.450000762939453,
     "volume": 5803000,
-    "foreign_net": 0.0,
-    "trust_net": 0.0
+    "foreign_net": 129.0,
+    "trust_net": 129.0
   },
   {
     "date": "2024-12-09",
@@ -11986,8 +11986,8 @@
     "low": 18.799999237060547,
     "close": 19.0,
     "volume": 3199000,
-    "foreign_net": 0.0,
-    "trust_net": 0.0
+    "foreign_net": -8.0,
+    "trust_net": -8.0
   },
   {
     "date": "2024-12-10",
@@ -12006,8 +12006,8 @@
     "low": 17.5,
     "close": 18.149999618530273,
     "volume": 1193000,
-    "foreign_net": 0.0,
-    "trust_net": 0.0
+    "foreign_net": 6.0,
+    "trust_net": 6.0
   },
   {
     "date": "2024-12-12",
@@ -12016,8 +12016,8 @@
     "low": 17.75,
     "close": 18.0,
     "volume": 816000,
-    "foreign_net": 0.0,
-    "trust_net": 0.0
+    "foreign_net": 5.0,
+    "trust_net": 5.0
   },
   {
     "date": "2024-12-13",
@@ -12026,8 +12026,8 @@
     "low": 17.399999618530273,
     "close": 18.0,
     "volume": 1009000,
-    "foreign_net": 0.0,
-    "trust_net": 0.0
+    "foreign_net": 10.0,
+    "trust_net": 10.0
   },
   {
     "date": "2024-12-16",
@@ -12036,8 +12036,8 @@
     "low": 17.350000381469727,
     "close": 17.350000381469727,
     "volume": 545000,
-    "foreign_net": 0.0,
-    "trust_net": 0.0
+    "foreign_net": 15.0,
+    "trust_net": 15.0
   },
   {
     "date": "2024-12-17",
@@ -12046,8 +12046,8 @@
     "low": 17.350000381469727,
     "close": 17.5,
     "volume": 282000,
-    "foreign_net": 0.0,
-    "trust_net": 0.0
+    "foreign_net": 14.0,
+    "trust_net": 14.0
   },
   {
     "date": "2024-12-18",
@@ -12056,8 +12056,8 @@
     "low": 17.299999237060547,
     "close": 18.649999618530273,
     "volume": 912000,
-    "foreign_net": 0.0,
-    "trust_net": 0.0
+    "foreign_net": -5.0,
+    "trust_net": -5.0
   },
   {
     "date": "2024-12-19",
@@ -12066,8 +12066,8 @@
     "low": 17.600000381469727,
     "close": 18.5,
     "volume": 541000,
-    "foreign_net": 0.0,
-    "trust_net": 0.0
+    "foreign_net": -10.0,
+    "trust_net": -10.0
   },
   {
     "date": "2024-12-20",
@@ -12076,8 +12076,8 @@
     "low": 17.75,
     "close": 18.049999237060547,
     "volume": 641000,
-    "foreign_net": 0.0,
-    "trust_net": 0.0
+    "foreign_net": -19.0,
+    "trust_net": -19.0
   },
   {
     "date": "2024-12-23",
@@ -12086,8 +12086,8 @@
     "low": 16.25,
     "close": 16.299999237060547,
     "volume": 4327000,
-    "foreign_net": 0.0,
-    "trust_net": 0.0
+    "foreign_net": -51.0,
+    "trust_net": -51.0
   },
   {
     "date": "2024-12-24",
@@ -12096,8 +12096,8 @@
     "low": 15.600000381469727,
     "close": 15.800000190734863,
     "volume": 2040000,
-    "foreign_net": 0.0,
-    "trust_net": 0.0
+    "foreign_net": 184.0,
+    "trust_net": 184.0
   },
   {
     "date": "2024-12-25",
@@ -12106,8 +12106,8 @@
     "low": 15.899999618530273,
     "close": 17.350000381469727,
     "volume": 1831000,
-    "foreign_net": 0.0,
-    "trust_net": 0.0
+    "foreign_net": 321.0,
+    "trust_net": 321.0
   },
   {
     "date": "2024-12-26",
@@ -12116,8 +12116,8 @@
     "low": 17.299999237060547,
     "close": 19.049999237060547,
     "volume": 6417000,
-    "foreign_net": 0.0,
-    "trust_net": 0.0
+    "foreign_net": -176.0,
+    "trust_net": -176.0
   },
   {
     "date": "2024-12-27",
@@ -12126,8 +12126,8 @@
     "low": 17.899999618530273,
     "close": 18.950000762939453,
     "volume": 5024000,
-    "foreign_net": 0.0,
-    "trust_net": 0.0
+    "foreign_net": -277.0,
+    "trust_net": -277.0
   },
   {
     "date": "2024-12-30",
@@ -12136,8 +12136,8 @@
     "low": 17.75,
     "close": 17.850000381469727,
     "volume": 2074000,
-    "foreign_net": 0.0,
-    "trust_net": 0.0
+    "foreign_net": -131.0,
+    "trust_net": -131.0
   },
   {
     "date": "2024-12-31",
@@ -12146,8 +12146,8 @@
     "low": 17.5,
     "close": 18.0,
     "volume": 1373000,
-    "foreign_net": 0.0,
-    "trust_net": 0.0
+    "foreign_net": 22.0,
+    "trust_net": 22.0
   },
   {
     "date": "2025-01-02",
@@ -12156,8 +12156,8 @@
     "low": 17.100000381469727,
     "close": 17.200000762939453,
     "volume": 1400000,
-    "foreign_net": 0.0,
-    "trust_net": 0.0
+    "foreign_net": -149.0,
+    "trust_net": -149.0
   },
   {
     "date": "2025-01-03",
@@ -12166,8 +12166,8 @@
     "low": 16.75,
     "close": 16.75,
     "volume": 1004000,
-    "foreign_net": 0.0,
-    "trust_net": 0.0
+    "foreign_net": 90.0,
+    "trust_net": 90.0
   },
   {
     "date": "2025-01-06",
@@ -12176,8 +12176,8 @@
     "low": 16.600000381469727,
     "close": 18.399999618530273,
     "volume": 2599000,
-    "foreign_net": 0.0,
-    "trust_net": 0.0
+    "foreign_net": 505.0,
+    "trust_net": 505.0
   },
   {
     "date": "2025-01-07",
@@ -12186,8 +12186,8 @@
     "low": 17.549999237060547,
     "close": 17.950000762939453,
     "volume": 2525000,
-    "foreign_net": 0.0,
-    "trust_net": 0.0
+    "foreign_net": -85.0,
+    "trust_net": -85.0
   },
   {
     "date": "2025-01-08",
@@ -12196,8 +12196,8 @@
     "low": 18.200000762939453,
     "close": 19.549999237060547,
     "volume": 5188000,
-    "foreign_net": 0.0,
-    "trust_net": 0.0
+    "foreign_net": 188.0,
+    "trust_net": 188.0
   },
   {
     "date": "2025-01-09",
@@ -12206,8 +12206,8 @@
     "low": 18.549999237060547,
     "close": 19.25,
     "volume": 4852000,
-    "foreign_net": 0.0,
-    "trust_net": 0.0
+    "foreign_net": -130.0,
+    "trust_net": -130.0
   },
   {
     "date": "2025-01-10",
@@ -12216,8 +12216,8 @@
     "low": 18.0,
     "close": 18.100000381469727,
     "volume": 2594000,
-    "foreign_net": 0.0,
-    "trust_net": 0.0
+    "foreign_net": -345.0,
+    "trust_net": -345.0
   },
   {
     "date": "2025-01-13",
@@ -12226,8 +12226,8 @@
     "low": 17.25,
     "close": 18.0,
     "volume": 1673000,
-    "foreign_net": 0.0,
-    "trust_net": 0.0
+    "foreign_net": 345.0,
+    "trust_net": 345.0
   },
   {
     "date": "2025-01-14",
@@ -12236,8 +12236,8 @@
     "low": 17.600000381469727,
     "close": 17.649999618530273,
     "volume": 915000,
-    "foreign_net": 0.0,
-    "trust_net": 0.0
+    "foreign_net": -262.0,
+    "trust_net": -262.0
   },
   {
     "date": "2025-01-15",
@@ -12246,8 +12246,8 @@
     "low": 17.200000762939453,
     "close": 17.200000762939453,
     "volume": 882000,
-    "foreign_net": 0.0,
-    "trust_net": 0.0
+    "foreign_net": -176.0,
+    "trust_net": -176.0
   },
   {
     "date": "2025-01-16",
@@ -12256,8 +12256,8 @@
     "low": 17.450000762939453,
     "close": 17.950000762939453,
     "volume": 1336000,
-    "foreign_net": 0.0,
-    "trust_net": 0.0
+    "foreign_net": 131.0,
+    "trust_net": 131.0
   },
   {
     "date": "2025-01-17",
@@ -12266,8 +12266,8 @@
     "low": 17.25,
     "close": 17.25,
     "volume": 1073000,
-    "foreign_net": 0.0,
-    "trust_net": 0.0
+    "foreign_net": -257.0,
+    "trust_net": -257.0
   },
   {
     "date": "2025-01-20",
@@ -12276,8 +12276,8 @@
     "low": 16.850000381469727,
     "close": 18.600000381469727,
     "volume": 2094000,
-    "foreign_net": 0.0,
-    "trust_net": 0.0
+    "foreign_net": 414.0,
+    "trust_net": 414.0
   },
   {
     "date": "2025-01-21",
@@ -12286,8 +12286,8 @@
     "low": 17.799999237060547,
     "close": 18.049999237060547,
     "volume": 1660000,
-    "foreign_net": 0.0,
-    "trust_net": 0.0
+    "foreign_net": -234.0,
+    "trust_net": -234.0
   },
   {
     "date": "2025-01-22",
@@ -12296,8 +12296,8 @@
     "low": 17.799999237060547,
     "close": 18.399999618530273,
     "volume": 1606000,
-    "foreign_net": 0.0,
-    "trust_net": 0.0
+    "foreign_net": 132.0,
+    "trust_net": 132.0
   },
   {
     "date": "2025-02-03",
@@ -12306,8 +12306,8 @@
     "low": 17.200000762939453,
     "close": 17.399999618530273,
     "volume": 1188243,
-    "foreign_net": 0.0,
-    "trust_net": 0.0
+    "foreign_net": -251.0,
+    "trust_net": -251.0
   },
   {
     "date": "2025-02-04",
@@ -12316,8 +12316,8 @@
     "low": 17.350000381469727,
     "close": 17.350000381469727,
     "volume": 580051,
-    "foreign_net": 0.0,
-    "trust_net": 0.0
+    "foreign_net": -78.0,
+    "trust_net": -78.0
   },
   {
     "date": "2025-02-05",
@@ -12326,8 +12326,8 @@
     "low": 17.350000381469727,
     "close": 17.399999618530273,
     "volume": 777150,
-    "foreign_net": 0.0,
-    "trust_net": 0.0
+    "foreign_net": 125.0,
+    "trust_net": 125.0
   },
   {
     "date": "2025-02-06",
@@ -12336,8 +12336,8 @@
     "low": 17.25,
     "close": 17.299999237060547,
     "volume": 637000,
-    "foreign_net": 0.0,
-    "trust_net": 0.0
+    "foreign_net": -147.0,
+    "trust_net": -147.0
   },
   {
     "date": "2025-02-07",
@@ -12346,8 +12346,8 @@
     "low": 17.149999618530273,
     "close": 18.450000762939453,
     "volume": 1486286,
-    "foreign_net": 0.0,
-    "trust_net": 0.0
+    "foreign_net": 311.0,
+    "trust_net": 311.0
   },
   {
     "date": "2025-02-10",
@@ -12356,8 +12356,8 @@
     "low": 17.700000762939453,
     "close": 18.299999237060547,
     "volume": 844005,
-    "foreign_net": 0.0,
-    "trust_net": 0.0
+    "foreign_net": -136.0,
+    "trust_net": -136.0
   },
   {
     "date": "2025-02-11",
@@ -12366,8 +12366,8 @@
     "low": 18.200000762939453,
     "close": 18.5,
     "volume": 949160,
-    "foreign_net": 0.0,
-    "trust_net": 0.0
+    "foreign_net": -48.0,
+    "trust_net": -48.0
   },
   {
     "date": "2025-02-12",
@@ -12376,8 +12376,8 @@
     "low": 18.5,
     "close": 20.350000381469727,
     "volume": 5582345,
-    "foreign_net": 0.0,
-    "trust_net": 0.0
+    "foreign_net": 1100.0,
+    "trust_net": 1100.0
   },
   {
     "date": "2025-02-13",
@@ -12386,8 +12386,8 @@
     "low": 18.899999618530273,
     "close": 19.549999237060547,
     "volume": 3489245,
-    "foreign_net": 0.0,
-    "trust_net": 0.0
+    "foreign_net": -689.0,
+    "trust_net": -689.0
   },
   {
     "date": "2025-02-14",
@@ -12396,8 +12396,8 @@
     "low": 18.299999237060547,
     "close": 18.399999618530273,
     "volume": 2430566,
-    "foreign_net": 0.0,
-    "trust_net": 0.0
+    "foreign_net": -141.0,
+    "trust_net": -141.0
   },
   {
     "date": "2025-02-17",
@@ -12406,8 +12406,8 @@
     "low": 18.149999618530273,
     "close": 19.600000381469727,
     "volume": 2646152,
-    "foreign_net": 0.0,
-    "trust_net": 0.0
+    "foreign_net": 542.0,
+    "trust_net": 542.0
   },
   {
     "date": "2025-02-18",
@@ -12416,8 +12416,8 @@
     "low": 19.0,
     "close": 19.450000762939453,
     "volume": 1873002,
-    "foreign_net": 0.0,
-    "trust_net": 0.0
+    "foreign_net": 261.0,
+    "trust_net": 261.0
   },
   {
     "date": "2025-02-19",
@@ -12426,8 +12426,8 @@
     "low": 19.049999237060547,
     "close": 19.049999237060547,
     "volume": 1685105,
-    "foreign_net": 0.0,
-    "trust_net": 0.0
+    "foreign_net": 43.0,
+    "trust_net": 43.0
   },
   {
     "date": "2025-02-20",
@@ -12436,8 +12436,8 @@
     "low": 18.600000381469727,
     "close": 18.700000762939453,
     "volume": 1152003,
-    "foreign_net": 0.0,
-    "trust_net": 0.0
+    "foreign_net": -21.0,
+    "trust_net": -21.0
   },
   {
     "date": "2025-02-21",
@@ -12446,8 +12446,8 @@
     "low": 18.5,
     "close": 18.75,
     "volume": 495535,
-    "foreign_net": 0.0,
-    "trust_net": 0.0
+    "foreign_net": 79.0,
+    "trust_net": 79.0
   },
   {
     "date": "2025-02-24",
@@ -12456,8 +12456,8 @@
     "low": 18.75,
     "close": 19.600000381469727,
     "volume": 2554229,
-    "foreign_net": 0.0,
-    "trust_net": 0.0
+    "foreign_net": 357.0,
+    "trust_net": 357.0
   },
   {
     "date": "2025-02-25",
@@ -12466,8 +12466,8 @@
     "low": 18.799999237060547,
     "close": 19.0,
     "volume": 1847007,
-    "foreign_net": 0.0,
-    "trust_net": 0.0
+    "foreign_net": -405.0,
+    "trust_net": -405.0
   },
   {
     "date": "2025-02-26",
@@ -12476,8 +12476,8 @@
     "low": 18.700000762939453,
     "close": 18.799999237060547,
     "volume": 657204,
-    "foreign_net": 0.0,
-    "trust_net": 0.0
+    "foreign_net": -94.0,
+    "trust_net": -94.0
   },
   {
     "date": "2025-02-27",
@@ -12486,8 +12486,8 @@
     "low": 18.149999618530273,
     "close": 18.350000381469727,
     "volume": 1297193,
-    "foreign_net": 0.0,
-    "trust_net": 0.0
+    "foreign_net": 74.0,
+    "trust_net": 74.0
   },
   {
     "date": "2025-03-03",
@@ -12496,8 +12496,8 @@
     "low": 18.0,
     "close": 18.049999237060547,
     "volume": 637013,
-    "foreign_net": 0.0,
-    "trust_net": 0.0
+    "foreign_net": -99.0,
+    "trust_net": -99.0
   },
   {
     "date": "2025-03-04",
@@ -12506,8 +12506,8 @@
     "low": 17.350000381469727,
     "close": 18.049999237060547,
     "volume": 608003,
-    "foreign_net": 0.0,
-    "trust_net": 0.0
+    "foreign_net": 5.0,
+    "trust_net": 5.0
   },
   {
     "date": "2025-03-05",
@@ -12516,8 +12516,8 @@
     "low": 17.950000762939453,
     "close": 17.950000762939453,
     "volume": 452015,
-    "foreign_net": 0.0,
-    "trust_net": 0.0
+    "foreign_net": -33.0,
+    "trust_net": -33.0
   },
   {
     "date": "2025-03-06",
@@ -12526,8 +12526,8 @@
     "low": 17.600000381469727,
     "close": 17.75,
     "volume": 1289212,
-    "foreign_net": 0.0,
-    "trust_net": 0.0
+    "foreign_net": -28.0,
+    "trust_net": -28.0
   },
   {
     "date": "2025-03-07",
@@ -12536,8 +12536,8 @@
     "low": 17.399999618530273,
     "close": 17.450000762939453,
     "volume": 813322,
-    "foreign_net": 0.0,
-    "trust_net": 0.0
+    "foreign_net": -296.0,
+    "trust_net": -296.0
   },
   {
     "date": "2025-03-10",
@@ -12546,8 +12546,8 @@
     "low": 17.5,
     "close": 17.700000762939453,
     "volume": 534050,
-    "foreign_net": 0.0,
-    "trust_net": 0.0
+    "foreign_net": -9.0,
+    "trust_net": -9.0
   },
   {
     "date": "2025-03-11",
@@ -12556,8 +12556,8 @@
     "low": 16.149999618530273,
     "close": 17.350000381469727,
     "volume": 623011,
-    "foreign_net": 0.0,
-    "trust_net": 0.0
+    "foreign_net": -23.0,
+    "trust_net": -23.0
   },
   {
     "date": "2025-03-12",
@@ -12566,8 +12566,8 @@
     "low": 17.25,
     "close": 17.5,
     "volume": 382051,
-    "foreign_net": 0.0,
-    "trust_net": 0.0
+    "foreign_net": 1.0,
+    "trust_net": 1.0
   },
   {
     "date": "2025-03-13",
@@ -12576,8 +12576,8 @@
     "low": 16.75,
     "close": 17.149999618530273,
     "volume": 646667,
-    "foreign_net": 0.0,
-    "trust_net": 0.0
+    "foreign_net": -8.0,
+    "trust_net": -8.0
   },
   {
     "date": "2025-03-14",
@@ -12586,8 +12586,8 @@
     "low": 16.899999618530273,
     "close": 17.149999618530273,
     "volume": 454005,
-    "foreign_net": 0.0,
-    "trust_net": 0.0
+    "foreign_net": -79.0,
+    "trust_net": -79.0
   },
   {
     "date": "2025-03-17",
@@ -12596,8 +12596,8 @@
     "low": 16.950000762939453,
     "close": 17.0,
     "volume": 508038,
-    "foreign_net": 0.0,
-    "trust_net": 0.0
+    "foreign_net": -154.0,
+    "trust_net": -154.0
   },
   {
     "date": "2025-03-18",
@@ -12606,8 +12606,8 @@
     "low": 17.0,
     "close": 18.5,
     "volume": 2669124,
-    "foreign_net": 0.0,
-    "trust_net": 0.0
+    "foreign_net": 616.0,
+    "trust_net": 616.0
   },
   {
     "date": "2025-03-19",
@@ -12616,8 +12616,8 @@
     "low": 17.5,
     "close": 17.5,
     "volume": 1876850,
-    "foreign_net": 0.0,
-    "trust_net": 0.0
+    "foreign_net": -393.0,
+    "trust_net": -393.0
   },
   {
     "date": "2025-03-20",
@@ -12626,8 +12626,8 @@
     "low": 17.5,
     "close": 17.75,
     "volume": 637279,
-    "foreign_net": 0.0,
-    "trust_net": 0.0
+    "foreign_net": -126.0,
+    "trust_net": -126.0
   },
   {
     "date": "2025-03-21",
@@ -12636,8 +12636,8 @@
     "low": 17.350000381469727,
     "close": 17.350000381469727,
     "volume": 735119,
-    "foreign_net": 0.0,
-    "trust_net": 0.0
+    "foreign_net": -165.0,
+    "trust_net": -165.0
   },
   {
     "date": "2025-03-24",
@@ -12646,8 +12646,8 @@
     "low": 17.100000381469727,
     "close": 17.100000381469727,
     "volume": 572063,
-    "foreign_net": 0.0,
-    "trust_net": 0.0
+    "foreign_net": -56.0,
+    "trust_net": -56.0
   },
   {
     "date": "2025-03-25",
@@ -12656,8 +12656,8 @@
     "low": 16.950000762939453,
     "close": 16.950000762939453,
     "volume": 537100,
-    "foreign_net": 0.0,
-    "trust_net": 0.0
+    "foreign_net": -45.0,
+    "trust_net": -45.0
   },
   {
     "date": "2025-03-26",
@@ -12666,8 +12666,8 @@
     "low": 16.950000762939453,
     "close": 16.950000762939453,
     "volume": 376005,
-    "foreign_net": 0.0,
-    "trust_net": 0.0
+    "foreign_net": 29.0,
+    "trust_net": 29.0
   },
   {
     "date": "2025-03-27",
@@ -12676,8 +12676,8 @@
     "low": 16.75,
     "close": 17.149999618530273,
     "volume": 764066,
-    "foreign_net": 0.0,
-    "trust_net": 0.0
+    "foreign_net": 86.0,
+    "trust_net": 86.0
   },
   {
     "date": "2025-03-28",
@@ -12686,8 +12686,8 @@
     "low": 16.25,
     "close": 16.649999618530273,
     "volume": 861008,
-    "foreign_net": 0.0,
-    "trust_net": 0.0
+    "foreign_net": -223.0,
+    "trust_net": -223.0
   },
   {
     "date": "2025-03-31",
@@ -12696,8 +12696,8 @@
     "low": 15.050000190734863,
     "close": 15.300000190734863,
     "volume": 1039008,
-    "foreign_net": 0.0,
-    "trust_net": 0.0
+    "foreign_net": 154.0,
+    "trust_net": 154.0
   },
   {
     "date": "2025-04-01",
@@ -12706,8 +12706,8 @@
     "low": 15.300000190734863,
     "close": 15.600000381469727,
     "volume": 326300,
-    "foreign_net": 0.0,
-    "trust_net": 0.0
+    "foreign_net": -15.0,
+    "trust_net": -15.0
   },
   {
     "date": "2025-04-02",
@@ -12716,8 +12716,8 @@
     "low": 15.399999618530273,
     "close": 15.699999809265137,
     "volume": 170219,
-    "foreign_net": 0.0,
-    "trust_net": 0.0
+    "foreign_net": 10.0,
+    "trust_net": 10.0
   },
   {
     "date": "2025-04-07",
@@ -12736,8 +12736,8 @@
     "low": 12.75,
     "close": 12.75,
     "volume": 1252004,
-    "foreign_net": 0.0,
-    "trust_net": 0.0
+    "foreign_net": 218.0,
+    "trust_net": 218.0
   },
   {
     "date": "2025-04-09",
@@ -12746,8 +12746,8 @@
     "low": 11.5,
     "close": 11.5,
     "volume": 676305,
-    "foreign_net": 0.0,
-    "trust_net": 0.0
+    "foreign_net": -23.0,
+    "trust_net": -23.0
   },
   {
     "date": "2025-04-10",
@@ -12756,8 +12756,8 @@
     "low": 12.5,
     "close": 12.649999618530273,
     "volume": 117000,
-    "foreign_net": 0.0,
-    "trust_net": 0.0
+    "foreign_net": 5.0,
+    "trust_net": 5.0
   },
   {
     "date": "2025-04-11",
@@ -12766,8 +12766,8 @@
     "low": 11.800000190734863,
     "close": 12.800000190734863,
     "volume": 619273,
-    "foreign_net": 0.0,
-    "trust_net": 0.0
+    "foreign_net": 122.0,
+    "trust_net": 122.0
   },
   {
     "date": "2025-04-14",
@@ -12776,8 +12776,8 @@
     "low": 12.699999809265137,
     "close": 13.0,
     "volume": 657014,
-    "foreign_net": 0.0,
-    "trust_net": 0.0
+    "foreign_net": -209.0,
+    "trust_net": -209.0
   },
   {
     "date": "2025-04-15",
@@ -12786,8 +12786,8 @@
     "low": 13.0,
     "close": 14.050000190734863,
     "volume": 913000,
-    "foreign_net": 0.0,
-    "trust_net": 0.0
+    "foreign_net": -55.0,
+    "trust_net": -55.0
   },
   {
     "date": "2025-04-16",
@@ -12796,8 +12796,8 @@
     "low": 13.5,
     "close": 13.5,
     "volume": 336100,
-    "foreign_net": 0.0,
-    "trust_net": 0.0
+    "foreign_net": -35.0,
+    "trust_net": -35.0
   },
   {
     "date": "2025-04-17",
@@ -12806,8 +12806,8 @@
     "low": 13.100000381469727,
     "close": 13.449999809265137,
     "volume": 280001,
-    "foreign_net": 0.0,
-    "trust_net": 0.0
+    "foreign_net": 19.0,
+    "trust_net": 19.0
   },
   {
     "date": "2025-04-18",
@@ -12816,8 +12816,8 @@
     "low": 13.25,
     "close": 13.350000381469727,
     "volume": 164016,
-    "foreign_net": 0.0,
-    "trust_net": 0.0
+    "foreign_net": -45.0,
+    "trust_net": -45.0
   },
   {
     "date": "2025-04-21",
@@ -12826,8 +12826,8 @@
     "low": 13.0,
     "close": 13.100000381469727,
     "volume": 255012,
-    "foreign_net": 0.0,
-    "trust_net": 0.0
+    "foreign_net": -57.0,
+    "trust_net": -57.0
   },
   {
     "date": "2025-04-22",
@@ -12836,8 +12836,8 @@
     "low": 13.0,
     "close": 13.25,
     "volume": 235423,
-    "foreign_net": 0.0,
-    "trust_net": 0.0
+    "foreign_net": 47.0,
+    "trust_net": 47.0
   },
   {
     "date": "2025-04-23",
@@ -12846,8 +12846,8 @@
     "low": 13.5,
     "close": 13.75,
     "volume": 409040,
-    "foreign_net": 0.0,
-    "trust_net": 0.0
+    "foreign_net": 94.0,
+    "trust_net": 94.0
   },
   {
     "date": "2025-04-24",
@@ -12856,8 +12856,8 @@
     "low": 13.25,
     "close": 13.25,
     "volume": 312006,
-    "foreign_net": 0.0,
-    "trust_net": 0.0
+    "foreign_net": 6.0,
+    "trust_net": 6.0
   },
   {
     "date": "2025-04-25",
@@ -12866,8 +12866,8 @@
     "low": 13.199999809265137,
     "close": 13.199999809265137,
     "volume": 261002,
-    "foreign_net": 0.0,
-    "trust_net": 0.0
+    "foreign_net": 90.0,
+    "trust_net": 90.0
   },
   {
     "date": "2025-04-28",
@@ -12876,8 +12876,8 @@
     "low": 13.350000381469727,
     "close": 13.399999618530273,
     "volume": 140000,
-    "foreign_net": 0.0,
-    "trust_net": 0.0
+    "foreign_net": 67.0,
+    "trust_net": 67.0
   },
   {
     "date": "2025-04-29",
@@ -12886,8 +12886,8 @@
     "low": 13.300000190734863,
     "close": 13.899999618530273,
     "volume": 598157,
-    "foreign_net": 0.0,
-    "trust_net": 0.0
+    "foreign_net": 103.0,
+    "trust_net": 103.0
   },
   {
     "date": "2025-04-30",
@@ -12896,8 +12896,8 @@
     "low": 13.649999618530273,
     "close": 13.75,
     "volume": 489002,
-    "foreign_net": 0.0,
-    "trust_net": 0.0
+    "foreign_net": -7.0,
+    "trust_net": -7.0
   },
   {
     "date": "2025-05-02",
@@ -12906,8 +12906,8 @@
     "low": 13.75,
     "close": 14.800000190734863,
     "volume": 661018,
-    "foreign_net": 0.0,
-    "trust_net": 0.0
+    "foreign_net": 101.0,
+    "trust_net": 101.0
   },
   {
     "date": "2025-05-05",
@@ -12916,8 +12916,8 @@
     "low": 13.699999809265137,
     "close": 14.050000190734863,
     "volume": 425010,
-    "foreign_net": 0.0,
-    "trust_net": 0.0
+    "foreign_net": -145.0,
+    "trust_net": -145.0
   },
   {
     "date": "2025-05-06",
@@ -12926,8 +12926,8 @@
     "low": 13.850000381469727,
     "close": 14.100000381469727,
     "volume": 104008,
-    "foreign_net": 0.0,
-    "trust_net": 0.0
+    "foreign_net": 35.0,
+    "trust_net": 35.0
   },
   {
     "date": "2025-05-07",
@@ -12936,8 +12936,8 @@
     "low": 13.699999809265137,
     "close": 13.699999809265137,
     "volume": 166001,
-    "foreign_net": 0.0,
-    "trust_net": 0.0
+    "foreign_net": -6.0,
+    "trust_net": -6.0
   },
   {
     "date": "2025-05-08",
@@ -12946,8 +12946,8 @@
     "low": 13.5,
     "close": 13.600000381469727,
     "volume": 230000,
-    "foreign_net": 0.0,
-    "trust_net": 0.0
+    "foreign_net": 98.0,
+    "trust_net": 98.0
   },
   {
     "date": "2025-05-09",
@@ -12956,8 +12956,8 @@
     "low": 13.550000190734863,
     "close": 13.75,
     "volume": 92001,
-    "foreign_net": 0.0,
-    "trust_net": 0.0
+    "foreign_net": 2.0,
+    "trust_net": 2.0
   },
   {
     "date": "2025-05-12",
@@ -12966,8 +12966,8 @@
     "low": 13.899999618530273,
     "close": 14.350000381469727,
     "volume": 386045,
-    "foreign_net": 0.0,
-    "trust_net": 0.0
+    "foreign_net": 174.0,
+    "trust_net": 174.0
   },
   {
     "date": "2025-05-13",
@@ -12976,8 +12976,8 @@
     "low": 14.25,
     "close": 14.25,
     "volume": 256014,
-    "foreign_net": 0.0,
-    "trust_net": 0.0
+    "foreign_net": -34.0,
+    "trust_net": -34.0
   },
   {
     "date": "2025-05-14",
@@ -12986,8 +12986,8 @@
     "low": 14.350000381469727,
     "close": 14.550000190734863,
     "volume": 287126,
-    "foreign_net": 0.0,
-    "trust_net": 0.0
+    "foreign_net": 89.0,
+    "trust_net": 89.0
   },
   {
     "date": "2025-05-15",
@@ -13006,8 +13006,8 @@
     "low": 13.899999618530273,
     "close": 14.100000381469727,
     "volume": 144002,
-    "foreign_net": 0.0,
-    "trust_net": 0.0
+    "foreign_net": 12.0,
+    "trust_net": 12.0
   },
   {
     "date": "2025-05-19",
@@ -13016,8 +13016,8 @@
     "low": 13.550000190734863,
     "close": 13.550000190734863,
     "volume": 263001,
-    "foreign_net": 0.0,
-    "trust_net": 0.0
+    "foreign_net": -2.0,
+    "trust_net": -2.0
   },
   {
     "date": "2025-05-20",
@@ -13036,8 +13036,8 @@
     "low": 13.550000190734863,
     "close": 13.800000190734863,
     "volume": 166002,
-    "foreign_net": 0.0,
-    "trust_net": 0.0
+    "foreign_net": 46.0,
+    "trust_net": 46.0
   },
   {
     "date": "2025-05-22",
@@ -13046,8 +13046,8 @@
     "low": 13.399999618530273,
     "close": 13.550000190734863,
     "volume": 164000,
-    "foreign_net": 0.0,
-    "trust_net": 0.0
+    "foreign_net": -25.0,
+    "trust_net": -25.0
   },
   {
     "date": "2025-05-23",
@@ -13056,8 +13056,8 @@
     "low": 13.25,
     "close": 13.300000190734863,
     "volume": 122001,
-    "foreign_net": 0.0,
-    "trust_net": 0.0
+    "foreign_net": -7.0,
+    "trust_net": -7.0
   },
   {
     "date": "2025-05-26",
@@ -13066,8 +13066,8 @@
     "low": 13.100000381469727,
     "close": 13.600000381469727,
     "volume": 303001,
-    "foreign_net": 0.0,
-    "trust_net": 0.0
+    "foreign_net": 29.0,
+    "trust_net": 29.0
   },
   {
     "date": "2025-05-27",
@@ -13076,8 +13076,8 @@
     "low": 13.350000381469727,
     "close": 13.5,
     "volume": 217001,
-    "foreign_net": 0.0,
-    "trust_net": 0.0
+    "foreign_net": -26.0,
+    "trust_net": -26.0
   },
   {
     "date": "2025-05-28",
@@ -13086,8 +13086,8 @@
     "low": 13.5,
     "close": 13.550000190734863,
     "volume": 183001,
-    "foreign_net": 0.0,
-    "trust_net": 0.0
+    "foreign_net": -12.0,
+    "trust_net": -12.0
   },
   {
     "date": "2025-05-29",
@@ -13096,8 +13096,8 @@
     "low": 13.649999618530273,
     "close": 13.800000190734863,
     "volume": 260040,
-    "foreign_net": 0.0,
-    "trust_net": 0.0
+    "foreign_net": 134.0,
+    "trust_net": 134.0
   },
   {
     "date": "2025-06-02",
@@ -13106,8 +13106,8 @@
     "low": 13.25,
     "close": 13.300000190734863,
     "volume": 173002,
-    "foreign_net": 0.0,
-    "trust_net": 0.0
+    "foreign_net": -103.0,
+    "trust_net": -103.0
   },
   {
     "date": "2025-06-03",
@@ -13116,8 +13116,8 @@
     "low": 13.149999618530273,
     "close": 13.149999618530273,
     "volume": 144032,
-    "foreign_net": 0.0,
-    "trust_net": 0.0
+    "foreign_net": -76.0,
+    "trust_net": -76.0
   },
   {
     "date": "2025-06-04",
@@ -13126,8 +13126,8 @@
     "low": 13.0,
     "close": 13.050000190734863,
     "volume": 265003,
-    "foreign_net": 0.0,
-    "trust_net": 0.0
+    "foreign_net": -2.0,
+    "trust_net": -2.0
   },
   {
     "date": "2025-06-05",
@@ -13136,8 +13136,8 @@
     "low": 13.0,
     "close": 13.25,
     "volume": 184160,
-    "foreign_net": 0.0,
-    "trust_net": 0.0
+    "foreign_net": 7.0,
+    "trust_net": 7.0
   },
   {
     "date": "2025-06-06",
@@ -13146,8 +13146,8 @@
     "low": 12.899999618530273,
     "close": 12.949999809265137,
     "volume": 217011,
-    "foreign_net": 0.0,
-    "trust_net": 0.0
+    "foreign_net": -63.0,
+    "trust_net": -63.0
   },
   {
     "date": "2025-06-09",
@@ -13156,8 +13156,8 @@
     "low": 12.5,
     "close": 12.600000381469727,
     "volume": 406000,
-    "foreign_net": 0.0,
-    "trust_net": 0.0
+    "foreign_net": -130.0,
+    "trust_net": -130.0
   },
   {
     "date": "2025-06-10",
@@ -13166,8 +13166,8 @@
     "low": 12.600000381469727,
     "close": 12.899999618530273,
     "volume": 194000,
-    "foreign_net": 0.0,
-    "trust_net": 0.0
+    "foreign_net": 29.0,
+    "trust_net": 29.0
   },
   {
     "date": "2025-06-11",
@@ -13176,8 +13176,8 @@
     "low": 12.600000381469727,
     "close": 12.899999618530273,
     "volume": 165004,
-    "foreign_net": 0.0,
-    "trust_net": 0.0
+    "foreign_net": 19.0,
+    "trust_net": 19.0
   },
   {
     "date": "2025-06-12",
@@ -13186,8 +13186,8 @@
     "low": 12.75,
     "close": 13.25,
     "volume": 429003,
-    "foreign_net": 0.0,
-    "trust_net": 0.0
+    "foreign_net": 41.0,
+    "trust_net": 41.0
   },
   {
     "date": "2025-06-13",
@@ -13196,8 +13196,8 @@
     "low": 12.850000381469727,
     "close": 13.399999618530273,
     "volume": 149005,
-    "foreign_net": 0.0,
-    "trust_net": 0.0
+    "foreign_net": -3.0,
+    "trust_net": -3.0
   },
   {
     "date": "2025-06-16",
@@ -13206,8 +13206,8 @@
     "low": 13.050000190734863,
     "close": 13.050000190734863,
     "volume": 93003,
-    "foreign_net": 0.0,
-    "trust_net": 0.0
+    "foreign_net": -24.0,
+    "trust_net": -24.0
   },
   {
     "date": "2025-06-17",
@@ -13216,8 +13216,8 @@
     "low": 12.899999618530273,
     "close": 12.899999618530273,
     "volume": 161024,
-    "foreign_net": 0.0,
-    "trust_net": 0.0
+    "foreign_net": -55.0,
+    "trust_net": -55.0
   },
   {
     "date": "2025-06-18",
@@ -13226,8 +13226,8 @@
     "low": 12.850000381469727,
     "close": 13.0,
     "volume": 149011,
-    "foreign_net": 0.0,
-    "trust_net": 0.0
+    "foreign_net": 10.0,
+    "trust_net": 10.0
   },
   {
     "date": "2025-06-19",
@@ -13236,8 +13236,8 @@
     "low": 12.699999809265137,
     "close": 12.699999809265137,
     "volume": 97000,
-    "foreign_net": 0.0,
-    "trust_net": 0.0
+    "foreign_net": 7.0,
+    "trust_net": 7.0
   },
   {
     "date": "2025-06-20",
@@ -13246,8 +13246,8 @@
     "low": 13.0,
     "close": 13.550000190734863,
     "volume": 587101,
-    "foreign_net": 0.0,
-    "trust_net": 0.0
+    "foreign_net": -128.0,
+    "trust_net": -128.0
   },
   {
     "date": "2025-06-23",
@@ -13256,8 +13256,8 @@
     "low": 12.800000190734863,
     "close": 13.050000190734863,
     "volume": 224002,
-    "foreign_net": 0.0,
-    "trust_net": 0.0
+    "foreign_net": -49.0,
+    "trust_net": -49.0
   },
   {
     "date": "2025-06-24",
@@ -13266,8 +13266,8 @@
     "low": 13.199999809265137,
     "close": 13.300000190734863,
     "volume": 331002,
-    "foreign_net": 0.0,
-    "trust_net": 0.0
+    "foreign_net": -45.0,
+    "trust_net": -45.0
   },
   {
     "date": "2025-06-25",
@@ -13276,8 +13276,8 @@
     "low": 13.550000190734863,
     "close": 13.850000381469727,
     "volume": 490100,
-    "foreign_net": 0.0,
-    "trust_net": 0.0
+    "foreign_net": -103.0,
+    "trust_net": -103.0
   },
   {
     "date": "2025-06-26",
@@ -13286,8 +13286,8 @@
     "low": 14.0,
     "close": 14.399999618530273,
     "volume": 893079,
-    "foreign_net": 0.0,
-    "trust_net": 0.0
+    "foreign_net": -154.0,
+    "trust_net": -154.0
   },
   {
     "date": "2025-06-27",
@@ -13296,8 +13296,8 @@
     "low": 14.0,
     "close": 14.100000381469727,
     "volume": 393034,
-    "foreign_net": 0.0,
-    "trust_net": 0.0
+    "foreign_net": 34.0,
+    "trust_net": 34.0
   },
   {
     "date": "2025-06-30",
@@ -13306,8 +13306,8 @@
     "low": 13.600000381469727,
     "close": 14.149999618530273,
     "volume": 420504,
-    "foreign_net": 0.0,
-    "trust_net": 0.0
+    "foreign_net": -17.0,
+    "trust_net": -17.0
   },
   {
     "date": "2025-07-01",
@@ -13316,8 +13316,8 @@
     "low": 14.050000190734863,
     "close": 15.550000190734863,
     "volume": 2475034,
-    "foreign_net": 0.0,
-    "trust_net": 0.0
+    "foreign_net": 110.0,
+    "trust_net": 110.0
   },
   {
     "date": "2025-07-02",
@@ -13326,8 +13326,8 @@
     "low": 15.050000190734863,
     "close": 17.100000381469727,
     "volume": 3573300,
-    "foreign_net": 0.0,
-    "trust_net": 0.0
+    "foreign_net": -209.0,
+    "trust_net": -209.0
   },
   {
     "date": "2025-07-03",
@@ -13336,8 +13336,8 @@
     "low": 15.949999809265137,
     "close": 16.549999237060547,
     "volume": 2359483,
-    "foreign_net": 0.0,
-    "trust_net": 0.0
+    "foreign_net": 20.0,
+    "trust_net": 20.0
   },
   {
     "date": "2025-07-04",
@@ -13346,8 +13346,8 @@
     "low": 15.5,
     "close": 15.550000190734863,
     "volume": 1372378,
-    "foreign_net": 0.0,
-    "trust_net": 0.0
+    "foreign_net": 68.0,
+    "trust_net": 68.0
   },
   {
     "date": "2025-07-07",
@@ -13356,8 +13356,8 @@
     "low": 15.050000190734863,
     "close": 15.149999618530273,
     "volume": 482002,
-    "foreign_net": 0.0,
-    "trust_net": 0.0
+    "foreign_net": 35.0,
+    "trust_net": 35.0
   },
   {
     "date": "2025-07-08",
@@ -13366,8 +13366,8 @@
     "low": 14.5,
     "close": 14.850000381469727,
     "volume": 608015,
-    "foreign_net": 0.0,
-    "trust_net": 0.0
+    "foreign_net": 72.0,
+    "trust_net": 72.0
   },
   {
     "date": "2025-07-09",
@@ -13376,8 +13376,8 @@
     "low": 14.949999809265137,
     "close": 15.350000381469727,
     "volume": 543191,
-    "foreign_net": 0.0,
-    "trust_net": 0.0
+    "foreign_net": -185.0,
+    "trust_net": -185.0
   },
   {
     "date": "2025-07-10",
@@ -13386,8 +13386,8 @@
     "low": 14.800000190734863,
     "close": 14.850000381469727,
     "volume": 593000,
-    "foreign_net": 0.0,
-    "trust_net": 0.0
+    "foreign_net": 76.0,
+    "trust_net": 76.0
   },
   {
     "date": "2025-07-11",
@@ -13396,8 +13396,8 @@
     "low": 14.899999618530273,
     "close": 15.399999618530273,
     "volume": 886671,
-    "foreign_net": 0.0,
-    "trust_net": 0.0
+    "foreign_net": 210.0,
+    "trust_net": 210.0
   },
   {
     "date": "2025-07-14",
@@ -13406,8 +13406,8 @@
     "low": 15.0,
     "close": 15.050000190734863,
     "volume": 239472,
-    "foreign_net": 0.0,
-    "trust_net": 0.0
+    "foreign_net": -68.0,
+    "trust_net": -68.0
   },
   {
     "date": "2025-07-15",
@@ -13416,8 +13416,8 @@
     "low": 15.0,
     "close": 15.399999618530273,
     "volume": 295245,
-    "foreign_net": 0.0,
-    "trust_net": 0.0
+    "foreign_net": 82.0,
+    "trust_net": 82.0
   },
   {
     "date": "2025-07-16",
@@ -13426,8 +13426,8 @@
     "low": 15.0,
     "close": 15.050000190734863,
     "volume": 297142,
-    "foreign_net": 0.0,
-    "trust_net": 0.0
+    "foreign_net": -85.9,
+    "trust_net": -85.9
   },
   {
     "date": "2025-07-17",
@@ -13436,8 +13436,8 @@
     "low": 15.100000381469727,
     "close": 15.449999809265137,
     "volume": 501000,
-    "foreign_net": 0.0,
-    "trust_net": 0.0
+    "foreign_net": -6.0,
+    "trust_net": -6.0
   },
   {
     "date": "2025-07-18",
@@ -13446,8 +13446,8 @@
     "low": 15.350000381469727,
     "close": 15.699999809265137,
     "volume": 394001,
-    "foreign_net": 0.0,
-    "trust_net": 0.0
+    "foreign_net": 55.0,
+    "trust_net": 55.0
   },
   {
     "date": "2025-07-21",
@@ -13456,8 +13456,8 @@
     "low": 15.399999618530273,
     "close": 15.449999809265137,
     "volume": 217000,
-    "foreign_net": 0.0,
-    "trust_net": 0.0
+    "foreign_net": 19.0,
+    "trust_net": 19.0
   },
   {
     "date": "2025-07-22",
@@ -13466,8 +13466,8 @@
     "low": 14.75,
     "close": 14.850000381469727,
     "volume": 667200,
-    "foreign_net": 0.0,
-    "trust_net": 0.0
+    "foreign_net": -43.0,
+    "trust_net": -43.0
   },
   {
     "date": "2025-07-23",
@@ -13476,8 +13476,8 @@
     "low": 14.550000190734863,
     "close": 15.850000381469727,
     "volume": 799159,
-    "foreign_net": 0.0,
-    "trust_net": 0.0
+    "foreign_net": 100.0,
+    "trust_net": 100.0
   },
   {
     "date": "2025-07-24",
@@ -13486,8 +13486,8 @@
     "low": 15.699999809265137,
     "close": 15.850000381469727,
     "volume": 398100,
-    "foreign_net": 0.0,
-    "trust_net": 0.0
+    "foreign_net": -53.0,
+    "trust_net": -53.0
   },
   {
     "date": "2025-07-25",
@@ -13496,8 +13496,8 @@
     "low": 15.699999809265137,
     "close": 15.75,
     "volume": 257000,
-    "foreign_net": 0.0,
-    "trust_net": 0.0
+    "foreign_net": 80.0,
+    "trust_net": 80.0
   },
   {
     "date": "2025-07-28",
@@ -13506,8 +13506,8 @@
     "low": 15.699999809265137,
     "close": 16.299999237060547,
     "volume": 664100,
-    "foreign_net": 0.0,
-    "trust_net": 0.0
+    "foreign_net": 157.0,
+    "trust_net": 157.0
   },
   {
     "date": "2025-07-29",
@@ -13516,8 +13516,8 @@
     "low": 15.800000190734863,
     "close": 16.100000381469727,
     "volume": 387416,
-    "foreign_net": 0.0,
-    "trust_net": 0.0
+    "foreign_net": -2.0,
+    "trust_net": -2.0
   },
   {
     "date": "2025-07-30",
@@ -13526,8 +13526,8 @@
     "low": 15.850000381469727,
     "close": 15.899999618530273,
     "volume": 175000,
-    "foreign_net": 0.0,
-    "trust_net": 0.0
+    "foreign_net": 15.0,
+    "trust_net": 15.0
   },
   {
     "date": "2025-07-31",
@@ -13536,8 +13536,8 @@
     "low": 15.949999809265137,
     "close": 15.949999809265137,
     "volume": 380035,
-    "foreign_net": 0.0,
-    "trust_net": 0.0
+    "foreign_net": 26.0,
+    "trust_net": 26.0
   },
   {
     "date": "2025-08-04",
@@ -13546,8 +13546,8 @@
     "low": 17.100000381469727,
     "close": 17.5,
     "volume": 1718353,
-    "foreign_net": 0.0,
-    "trust_net": 0.0
+    "foreign_net": -110.0,
+    "trust_net": -110.0
   },
   {
     "date": "2025-08-05",
@@ -13556,8 +13556,8 @@
     "low": 16.75,
     "close": 16.799999237060547,
     "volume": 1019228,
-    "foreign_net": 0.0,
-    "trust_net": 0.0
+    "foreign_net": -3.0,
+    "trust_net": -3.0
   },
   {
     "date": "2025-08-06",
@@ -13566,8 +13566,8 @@
     "low": 16.700000762939453,
     "close": 17.149999618530273,
     "volume": 1015540,
-    "foreign_net": 0.0,
-    "trust_net": 0.0
+    "foreign_net": -146.0,
+    "trust_net": -146.0
   },
   {
     "date": "2025-08-07",
@@ -13576,8 +13576,8 @@
     "low": 16.799999237060547,
     "close": 17.450000762939453,
     "volume": 858051,
-    "foreign_net": 0.0,
-    "trust_net": 0.0
+    "foreign_net": 242.0,
+    "trust_net": 242.0
   },
   {
     "date": "2025-08-08",
@@ -13586,8 +13586,8 @@
     "low": 17.649999618530273,
     "close": 18.049999237060547,
     "volume": 2661063,
-    "foreign_net": 0.0,
-    "trust_net": 0.0
+    "foreign_net": -638.0,
+    "trust_net": -638.0
   },
   {
     "date": "2025-08-11",
@@ -13596,8 +13596,8 @@
     "low": 17.049999237060547,
     "close": 17.850000381469727,
     "volume": 1034300,
-    "foreign_net": 0.0,
-    "trust_net": 0.0
+    "foreign_net": -70.0,
+    "trust_net": -70.0
   },
   {
     "date": "2025-08-12",
@@ -13606,8 +13606,8 @@
     "low": 17.399999618530273,
     "close": 17.649999618530273,
     "volume": 704108,
-    "foreign_net": 0.0,
-    "trust_net": 0.0
+    "foreign_net": 113.0,
+    "trust_net": 113.0
   },
   {
     "date": "2025-08-13",
@@ -13616,8 +13616,8 @@
     "low": 17.700000762939453,
     "close": 18.5,
     "volume": 1679051,
-    "foreign_net": 0.0,
-    "trust_net": 0.0
+    "foreign_net": 319.0,
+    "trust_net": 319.0
   },
   {
     "date": "2025-08-14",
@@ -13626,8 +13626,8 @@
     "low": 17.75,
     "close": 17.75,
     "volume": 1433394,
-    "foreign_net": 0.0,
-    "trust_net": 0.0
+    "foreign_net": -356.0,
+    "trust_net": -356.0
   },
   {
     "date": "2025-08-15",
@@ -13636,8 +13636,8 @@
     "low": 17.350000381469727,
     "close": 18.799999237060547,
     "volume": 2252400,
-    "foreign_net": 0.0,
-    "trust_net": 0.0
+    "foreign_net": 457.0,
+    "trust_net": 457.0
   },
   {
     "date": "2025-08-18",
@@ -13646,8 +13646,8 @@
     "low": 18.700000762939453,
     "close": 20.649999618530273,
     "volume": 4161840,
-    "foreign_net": 0.0,
-    "trust_net": 0.0
+    "foreign_net": 80.0,
+    "trust_net": 80.0
   },
   {
     "date": "2025-08-19",
@@ -13656,8 +13656,8 @@
     "low": 21.100000381469727,
     "close": 22.700000762939453,
     "volume": 9243768,
-    "foreign_net": 0.0,
-    "trust_net": 0.0
+    "foreign_net": 827.0,
+    "trust_net": 827.0
   },
   {
     "date": "2025-08-20",
@@ -13666,8 +13666,8 @@
     "low": 21.25,
     "close": 23.549999237060547,
     "volume": 5774238,
-    "foreign_net": 0.0,
-    "trust_net": 0.0
+    "foreign_net": -65.1,
+    "trust_net": -65.1
   },
   {
     "date": "2025-08-21",
@@ -13676,8 +13676,8 @@
     "low": 23.100000381469727,
     "close": 23.549999237060547,
     "volume": 6617209,
-    "foreign_net": 0.0,
-    "trust_net": 0.0
+    "foreign_net": -752.8,
+    "trust_net": -752.8
   },
   {
     "date": "2025-08-22",
@@ -13686,8 +13686,8 @@
     "low": 22.100000381469727,
     "close": 22.100000381469727,
     "volume": 3647808,
-    "foreign_net": 0.0,
-    "trust_net": 0.0
+    "foreign_net": 299.0,
+    "trust_net": 299.0
   },
   {
     "date": "2025-08-25",
@@ -13696,8 +13696,8 @@
     "low": 22.200000762939453,
     "close": 22.350000381469727,
     "volume": 2091685,
-    "foreign_net": 0.0,
-    "trust_net": 0.0
+    "foreign_net": 183.0,
+    "trust_net": 183.0
   },
   {
     "date": "2025-08-26",
@@ -13706,8 +13706,8 @@
     "low": 21.149999618530273,
     "close": 22.700000762939453,
     "volume": 2049166,
-    "foreign_net": 0.0,
-    "trust_net": 0.0
+    "foreign_net": 667.0,
+    "trust_net": 667.0
   },
   {
     "date": "2025-08-27",
@@ -13716,8 +13716,8 @@
     "low": 22.5,
     "close": 24.25,
     "volume": 3443615,
-    "foreign_net": 0.0,
-    "trust_net": 0.0
+    "foreign_net": -168.0,
+    "trust_net": -168.0
   },
   {
     "date": "2025-08-28",
@@ -13726,8 +13726,8 @@
     "low": 23.200000762939453,
     "close": 24.0,
     "volume": 2148305,
-    "foreign_net": 0.0,
-    "trust_net": 0.0
+    "foreign_net": -321.0,
+    "trust_net": -321.0
   },
   {
     "date": "2025-08-29",
@@ -13736,8 +13736,8 @@
     "low": 23.0,
     "close": 23.950000762939453,
     "volume": 1699612,
-    "foreign_net": 0.0,
-    "trust_net": 0.0
+    "foreign_net": 225.0,
+    "trust_net": 225.0
   },
   {
     "date": "2025-09-01",
@@ -13746,8 +13746,8 @@
     "low": 23.25,
     "close": 23.649999618530273,
     "volume": 1930047,
-    "foreign_net": 0.0,
-    "trust_net": 0.0
+    "foreign_net": 143.0,
+    "trust_net": 143.0
   },
   {
     "date": "2025-09-02",
@@ -13756,8 +13756,8 @@
     "low": 22.649999618530273,
     "close": 22.799999237060547,
     "volume": 1549968,
-    "foreign_net": 0.0,
-    "trust_net": 0.0
+    "foreign_net": 336.0,
+    "trust_net": 336.0
   },
   {
     "date": "2025-09-03",
@@ -13766,8 +13766,8 @@
     "low": 22.600000381469727,
     "close": 22.600000381469727,
     "volume": 866759,
-    "foreign_net": 0.0,
-    "trust_net": 0.0
+    "foreign_net": 173.0,
+    "trust_net": 173.0
   },
   {
     "date": "2025-09-04",
@@ -13776,8 +13776,8 @@
     "low": 22.600000381469727,
     "close": 22.600000381469727,
     "volume": 1992270,
-    "foreign_net": 0.0,
-    "trust_net": 0.0
+    "foreign_net": -133.0,
+    "trust_net": -133.0
   },
   {
     "date": "2025-09-05",
@@ -13786,8 +13786,8 @@
     "low": 22.549999237060547,
     "close": 23.75,
     "volume": 2393084,
-    "foreign_net": 0.0,
-    "trust_net": 0.0
+    "foreign_net": 576.0,
+    "trust_net": 576.0
   },
   {
     "date": "2025-09-08",
@@ -13796,8 +13796,8 @@
     "low": 23.0,
     "close": 23.350000381469727,
     "volume": 1674779,
-    "foreign_net": 0.0,
-    "trust_net": 0.0
+    "foreign_net": 14.0,
+    "trust_net": 14.0
   },
   {
     "date": "2025-09-09",
@@ -13806,8 +13806,8 @@
     "low": 22.850000381469727,
     "close": 23.600000381469727,
     "volume": 1051173,
-    "foreign_net": 0.0,
-    "trust_net": 0.0
+    "foreign_net": 324.0,
+    "trust_net": 324.0
   },
   {
     "date": "2025-09-10",
@@ -13816,8 +13816,8 @@
     "low": 22.25,
     "close": 25.200000762939453,
     "volume": 4484566,
-    "foreign_net": 0.0,
-    "trust_net": 0.0
+    "foreign_net": 953.0,
+    "trust_net": 953.0
   },
   {
     "date": "2025-09-11",
@@ -13826,8 +13826,8 @@
     "low": 23.899999618530273,
     "close": 23.950000762939453,
     "volume": 3692068,
-    "foreign_net": 0.0,
-    "trust_net": 0.0
+    "foreign_net": -783.0,
+    "trust_net": -783.0
   },
   {
     "date": "2025-09-12",
@@ -13836,8 +13836,8 @@
     "low": 22.399999618530273,
     "close": 22.399999618530273,
     "volume": 3146955,
-    "foreign_net": 0.0,
-    "trust_net": 0.0
+    "foreign_net": -591.0,
+    "trust_net": -591.0
   },
   {
     "date": "2025-09-15",
@@ -13846,8 +13846,8 @@
     "low": 21.799999237060547,
     "close": 22.450000762939453,
     "volume": 1464000,
-    "foreign_net": 0.0,
-    "trust_net": 0.0
+    "foreign_net": 232.0,
+    "trust_net": 232.0
   },
   {
     "date": "2025-09-16",
@@ -13856,8 +13856,8 @@
     "low": 22.25,
     "close": 23.200000762939453,
     "volume": 1147505,
-    "foreign_net": 0.0,
-    "trust_net": 0.0
+    "foreign_net": 222.0,
+    "trust_net": 222.0
   },
   {
     "date": "2025-09-17",
@@ -13866,8 +13866,8 @@
     "low": 22.799999237060547,
     "close": 23.049999237060547,
     "volume": 864299,
-    "foreign_net": 0.0,
-    "trust_net": 0.0
+    "foreign_net": 139.0,
+    "trust_net": 139.0
   },
   {
     "date": "2025-09-18",
@@ -13876,8 +13876,8 @@
     "low": 22.600000381469727,
     "close": 22.700000762939453,
     "volume": 625011,
-    "foreign_net": 0.0,
-    "trust_net": 0.0
+    "foreign_net": -4.0,
+    "trust_net": -4.0
   },
   {
     "date": "2025-09-19",
@@ -13886,8 +13886,8 @@
     "low": 22.75,
     "close": 23.0,
     "volume": 929001,
-    "foreign_net": 0.0,
-    "trust_net": 0.0
+    "foreign_net": 156.0,
+    "trust_net": 156.0
   },
   {
     "date": "2025-09-22",
@@ -13896,8 +13896,8 @@
     "low": 23.0,
     "close": 24.25,
     "volume": 2156005,
-    "foreign_net": 0.0,
-    "trust_net": 0.0
+    "foreign_net": 862.0,
+    "trust_net": 862.0
   },
   {
     "date": "2025-09-23",
@@ -13906,8 +13906,8 @@
     "low": 23.850000381469727,
     "close": 24.200000762939453,
     "volume": 1421221,
-    "foreign_net": 0.0,
-    "trust_net": 0.0
+    "foreign_net": 234.0,
+    "trust_net": 234.0
   },
   {
     "date": "2025-09-24",
@@ -13916,8 +13916,8 @@
     "low": 23.850000381469727,
     "close": 24.5,
     "volume": 1907200,
-    "foreign_net": 0.0,
-    "trust_net": 0.0
+    "foreign_net": 193.0,
+    "trust_net": 193.0
   },
   {
     "date": "2025-09-25",
@@ -13926,8 +13926,8 @@
     "low": 24.450000762939453,
     "close": 26.899999618530273,
     "volume": 5269617,
-    "foreign_net": 0.0,
-    "trust_net": 0.0
+    "foreign_net": 93.9,
+    "trust_net": 93.9
   },
   {
     "date": "2025-09-26",
@@ -13936,8 +13936,8 @@
     "low": 24.25,
     "close": 24.25,
     "volume": 4990882,
-    "foreign_net": 0.0,
-    "trust_net": 0.0
+    "foreign_net": -1278.0,
+    "trust_net": -1278.0
   },
   {
     "date": "2025-09-30",
@@ -13946,8 +13946,8 @@
     "low": 24.0,
     "close": 25.5,
     "volume": 2264312,
-    "foreign_net": 0.0,
-    "trust_net": 0.0
+    "foreign_net": 413.0,
+    "trust_net": 413.0
   },
   {
     "date": "2025-10-01",
@@ -13956,8 +13956,8 @@
     "low": 24.549999237060547,
     "close": 25.049999237060547,
     "volume": 1641010,
-    "foreign_net": 0.0,
-    "trust_net": 0.0
+    "foreign_net": 359.0,
+    "trust_net": 359.0
   },
   {
     "date": "2025-10-02",
@@ -13966,8 +13966,8 @@
     "low": 25.0,
     "close": 27.0,
     "volume": 4401437,
-    "foreign_net": 0.0,
-    "trust_net": 0.0
+    "foreign_net": 554.0,
+    "trust_net": 554.0
   },
   {
     "date": "2025-10-03",
@@ -13976,8 +13976,8 @@
     "low": 26.450000762939453,
     "close": 29.549999237060547,
     "volume": 6201726,
-    "foreign_net": 0.0,
-    "trust_net": 0.0
+    "foreign_net": 588.9,
+    "trust_net": 588.9
   },
   {
     "date": "2025-10-07",
@@ -13986,8 +13986,8 @@
     "low": 27.149999618530273,
     "close": 27.5,
     "volume": 7309149,
-    "foreign_net": 0.0,
-    "trust_net": 0.0
+    "foreign_net": -3036.0,
+    "trust_net": -3036.0
   },
   {
     "date": "2025-10-08",
@@ -13996,8 +13996,8 @@
     "low": 26.700000762939453,
     "close": 30.25,
     "volume": 5459894,
-    "foreign_net": 0.0,
-    "trust_net": 0.0
+    "foreign_net": 1046.0,
+    "trust_net": 1046.0
   },
   {
     "date": "2025-10-09",
@@ -14006,8 +14006,8 @@
     "low": 30.200000762939453,
     "close": 31.299999237060547,
     "volume": 7261407,
-    "foreign_net": 0.0,
-    "trust_net": 0.0
+    "foreign_net": -253.0,
+    "trust_net": -253.0
   },
   {
     "date": "2025-10-13",
@@ -14016,8 +14016,8 @@
     "low": 28.700000762939453,
     "close": 31.299999237060547,
     "volume": 3511022,
-    "foreign_net": 0.0,
-    "trust_net": 0.0
+    "foreign_net": 220.0,
+    "trust_net": 220.0
   },
   {
     "date": "2025-10-14",
@@ -14026,8 +14026,8 @@
     "low": 29.649999618530273,
     "close": 29.700000762939453,
     "volume": 3838655,
-    "foreign_net": 0.0,
-    "trust_net": 0.0
+    "foreign_net": -45.0,
+    "trust_net": -45.0
   },
   {
     "date": "2025-10-15",
@@ -14036,8 +14036,8 @@
     "low": 29.149999618530273,
     "close": 29.600000381469727,
     "volume": 1841320,
-    "foreign_net": 0.0,
-    "trust_net": 0.0
+    "foreign_net": -375.0,
+    "trust_net": -375.0
   },
   {
     "date": "2025-10-16",
@@ -14046,8 +14046,8 @@
     "low": 29.200000762939453,
     "close": 30.299999237060547,
     "volume": 1734643,
-    "foreign_net": 0.0,
-    "trust_net": 0.0
+    "foreign_net": 149.0,
+    "trust_net": 149.0
   },
   {
     "date": "2025-10-17",
@@ -14056,8 +14056,8 @@
     "low": 29.100000381469727,
     "close": 29.850000381469727,
     "volume": 1224111,
-    "foreign_net": 0.0,
-    "trust_net": 0.0
+    "foreign_net": 176.0,
+    "trust_net": 176.0
   },
   {
     "date": "2025-10-20",
@@ -14066,8 +14066,8 @@
     "low": 29.0,
     "close": 29.100000381469727,
     "volume": 2236587,
-    "foreign_net": 0.0,
-    "trust_net": 0.0
+    "foreign_net": -116.0,
+    "trust_net": -116.0
   },
   {
     "date": "2025-10-21",
@@ -14076,8 +14076,8 @@
     "low": 29.100000381469727,
     "close": 29.850000381469727,
     "volume": 1828551,
-    "foreign_net": 0.0,
-    "trust_net": 0.0
+    "foreign_net": 125.0,
+    "trust_net": 125.0
   },
   {
     "date": "2025-10-22",
@@ -14086,8 +14086,8 @@
     "low": 29.600000381469727,
     "close": 32.79999923706055,
     "volume": 7746038,
-    "foreign_net": 0.0,
-    "trust_net": 0.0
+    "foreign_net": -975.0,
+    "trust_net": -975.0
   },
   {
     "date": "2025-10-23",
@@ -14096,8 +14096,8 @@
     "low": 31.850000381469727,
     "close": 34.5,
     "volume": 8367259,
-    "foreign_net": 0.0,
-    "trust_net": 0.0
+    "foreign_net": 129.9,
+    "trust_net": 129.9
   },
   {
     "date": "2025-10-27",
@@ -14106,8 +14106,8 @@
     "low": 33.349998474121094,
     "close": 33.70000076293945,
     "volume": 5299730,
-    "foreign_net": 0.0,
-    "trust_net": 0.0
+    "foreign_net": 159.0,
+    "trust_net": 159.0
   },
   {
     "date": "2025-10-28",
@@ -14116,8 +14116,8 @@
     "low": 30.350000381469727,
     "close": 30.399999618530273,
     "volume": 7649157,
-    "foreign_net": 0.0,
-    "trust_net": 0.0
+    "foreign_net": -1558.0,
+    "trust_net": -1558.0
   },
   {
     "date": "2025-10-29",
@@ -14126,8 +14126,8 @@
     "low": 27.700000762939453,
     "close": 28.799999237060547,
     "volume": 5830883,
-    "foreign_net": 0.0,
-    "trust_net": 0.0
+    "foreign_net": 157.1,
+    "trust_net": 157.1
   },
   {
     "date": "2025-10-30",
@@ -14136,8 +14136,8 @@
     "low": 26.600000381469727,
     "close": 28.899999618530273,
     "volume": 3678033,
-    "foreign_net": 0.0,
-    "trust_net": 0.0
+    "foreign_net": 89.0,
+    "trust_net": 89.0
   },
   {
     "date": "2025-10-31",
@@ -14146,8 +14146,8 @@
     "low": 27.649999618530273,
     "close": 27.700000762939453,
     "volume": 1997053,
-    "foreign_net": 0.0,
-    "trust_net": 0.0
+    "foreign_net": -636.0,
+    "trust_net": -636.0
   },
   {
     "date": "2025-11-03",
@@ -14156,8 +14156,8 @@
     "low": 24.950000762939453,
     "close": 24.950000762939453,
     "volume": 6081881,
-    "foreign_net": 0.0,
-    "trust_net": 0.0
+    "foreign_net": 951.0,
+    "trust_net": 951.0
   },
   {
     "date": "2025-11-04",
@@ -14166,8 +14166,8 @@
     "low": 24.899999618530273,
     "close": 24.950000762939453,
     "volume": 2272092,
-    "foreign_net": 0.0,
-    "trust_net": 0.0
+    "foreign_net": -572.0,
+    "trust_net": -572.0
   },
   {
     "date": "2025-11-05",
@@ -14176,8 +14176,8 @@
     "low": 24.0,
     "close": 24.75,
     "volume": 1224398,
-    "foreign_net": 0.0,
-    "trust_net": 0.0
+    "foreign_net": -6.0,
+    "trust_net": -6.0
   },
   {
     "date": "2025-11-06",
@@ -14186,8 +14186,8 @@
     "low": 24.549999237060547,
     "close": 24.700000762939453,
     "volume": 879301,
-    "foreign_net": 0.0,
-    "trust_net": 0.0
+    "foreign_net": -75.0,
+    "trust_net": -75.0
   },
   {
     "date": "2025-11-07",
@@ -14196,8 +14196,8 @@
     "low": 22.5,
     "close": 23.549999237060547,
     "volume": 2643557,
-    "foreign_net": 0.0,
-    "trust_net": 0.0
+    "foreign_net": 794.0,
+    "trust_net": 794.0
   },
   {
     "date": "2025-11-10",
@@ -14206,8 +14206,8 @@
     "low": 22.5,
     "close": 22.700000762939453,
     "volume": 1542101,
-    "foreign_net": 0.0,
-    "trust_net": 0.0
+    "foreign_net": 400.0,
+    "trust_net": 400.0
   },
   {
     "date": "2025-11-11",
@@ -14216,8 +14216,8 @@
     "low": 23.0,
     "close": 23.100000381469727,
     "volume": 775130,
-    "foreign_net": 0.0,
-    "trust_net": 0.0
+    "foreign_net": -204.0,
+    "trust_net": -204.0
   },
   {
     "date": "2025-11-12",
@@ -14226,8 +14226,8 @@
     "low": 23.0,
     "close": 23.5,
     "volume": 622322,
-    "foreign_net": 0.0,
-    "trust_net": 0.0
+    "foreign_net": -14.0,
+    "trust_net": -14.0
   },
   {
     "date": "2025-11-13",
@@ -14236,8 +14236,8 @@
     "low": 21.149999618530273,
     "close": 22.049999237060547,
     "volume": 2500150,
-    "foreign_net": 0.0,
-    "trust_net": 0.0
+    "foreign_net": 30.0,
+    "trust_net": 30.0
   },
   {
     "date": "2025-11-14",
@@ -14246,8 +14246,8 @@
     "low": 20.5,
     "close": 20.850000381469727,
     "volume": 1960661,
-    "foreign_net": 0.0,
-    "trust_net": 0.0
+    "foreign_net": 487.1,
+    "trust_net": 487.1
   },
   {
     "date": "2025-11-17",
@@ -14256,8 +14256,8 @@
     "low": 20.299999237060547,
     "close": 20.5,
     "volume": 1130100,
-    "foreign_net": 0.0,
-    "trust_net": 0.0
+    "foreign_net": 249.0,
+    "trust_net": 249.0
   },
   {
     "date": "2025-11-18",
@@ -14266,8 +14266,8 @@
     "low": 20.450000762939453,
     "close": 20.600000381469727,
     "volume": 2018223,
-    "foreign_net": 0.0,
-    "trust_net": 0.0
+    "foreign_net": -544.0,
+    "trust_net": -544.0
   },
   {
     "date": "2025-11-19",
@@ -14276,8 +14276,8 @@
     "low": 20.0,
     "close": 20.049999237060547,
     "volume": 842000,
-    "foreign_net": 0.0,
-    "trust_net": 0.0
+    "foreign_net": -27.0,
+    "trust_net": -27.0
   },
   {
     "date": "2025-11-20",
@@ -14286,8 +14286,8 @@
     "low": 19.649999618530273,
     "close": 20.049999237060547,
     "volume": 919033,
-    "foreign_net": 0.0,
-    "trust_net": 0.0
+    "foreign_net": 182.0,
+    "trust_net": 182.0
   },
   {
     "date": "2025-11-21",
@@ -14296,8 +14296,8 @@
     "low": 19.200000762939453,
     "close": 19.399999618530273,
     "volume": 680201,
-    "foreign_net": 0.0,
-    "trust_net": 0.0
+    "foreign_net": 51.0,
+    "trust_net": 51.0
   },
   {
     "date": "2025-11-24",
@@ -14306,8 +14306,8 @@
     "low": 19.0,
     "close": 19.049999237060547,
     "volume": 594155,
-    "foreign_net": 0.0,
-    "trust_net": 0.0
+    "foreign_net": 179.0,
+    "trust_net": 179.0
   },
   {
     "date": "2025-11-25",
@@ -14316,8 +14316,8 @@
     "low": 19.100000381469727,
     "close": 19.399999618530273,
     "volume": 463020,
-    "foreign_net": 0.0,
-    "trust_net": 0.0
+    "foreign_net": -30.0,
+    "trust_net": -30.0
   },
   {
     "date": "2025-11-26",
@@ -14326,8 +14326,8 @@
     "low": 19.399999618530273,
     "close": 19.649999618530273,
     "volume": 744168,
-    "foreign_net": 0.0,
-    "trust_net": 0.0
+    "foreign_net": -95.0,
+    "trust_net": -95.0
   },
   {
     "date": "2025-11-27",
@@ -14336,8 +14336,8 @@
     "low": 19.549999237060547,
     "close": 20.450000762939453,
     "volume": 1034390,
-    "foreign_net": 0.0,
-    "trust_net": 0.0
+    "foreign_net": -223.0,
+    "trust_net": -223.0
   },
   {
     "date": "2025-11-28",
@@ -14346,8 +14346,8 @@
     "low": 20.200000762939453,
     "close": 21.850000381469727,
     "volume": 3113904,
-    "foreign_net": 0.0,
-    "trust_net": 0.0
+    "foreign_net": -1580.0,
+    "trust_net": -1580.0
   },
   {
     "date": "2025-12-01",
@@ -14356,8 +14356,8 @@
     "low": 20.600000381469727,
     "close": 20.649999618530273,
     "volume": 1884249,
-    "foreign_net": 0.0,
-    "trust_net": 0.0
+    "foreign_net": -771.0,
+    "trust_net": -771.0
   },
   {
     "date": "2025-12-02",
@@ -14366,8 +14366,8 @@
     "low": 20.100000381469727,
     "close": 20.299999237060547,
     "volume": 972048,
-    "foreign_net": 0.0,
-    "trust_net": 0.0
+    "foreign_net": 11.0,
+    "trust_net": 11.0
   },
   {
     "date": "2025-12-03",
@@ -14376,8 +14376,8 @@
     "low": 19.700000762939453,
     "close": 20.200000762939453,
     "volume": 718307,
-    "foreign_net": 0.0,
-    "trust_net": 0.0
+    "foreign_net": 32.0,
+    "trust_net": 32.0
   },
   {
     "date": "2025-12-04",
@@ -14386,8 +14386,8 @@
     "low": 20.0,
     "close": 20.200000762939453,
     "volume": 397429,
-    "foreign_net": 0.0,
-    "trust_net": 0.0
+    "foreign_net": 34.0,
+    "trust_net": 34.0
   },
   {
     "date": "2025-12-05",
@@ -14396,8 +14396,8 @@
     "low": 19.899999618530273,
     "close": 20.100000381469727,
     "volume": 288002,
-    "foreign_net": 0.0,
-    "trust_net": 0.0
+    "foreign_net": 24.0,
+    "trust_net": 24.0
   },
   {
     "date": "2025-12-08",
@@ -14406,8 +14406,8 @@
     "low": 19.850000381469727,
     "close": 19.899999618530273,
     "volume": 447002,
-    "foreign_net": 0.0,
-    "trust_net": 0.0
+    "foreign_net": 103.0,
+    "trust_net": 103.0
   },
   {
     "date": "2025-12-09",
@@ -14416,8 +14416,8 @@
     "low": 19.899999618530273,
     "close": 20.299999237060547,
     "volume": 343009,
-    "foreign_net": 0.0,
-    "trust_net": 0.0
+    "foreign_net": 145.0,
+    "trust_net": 145.0
   },
   {
     "date": "2025-12-10",
@@ -14426,8 +14426,8 @@
     "low": 20.0,
     "close": 20.049999237060547,
     "volume": 706683,
-    "foreign_net": 0.0,
-    "trust_net": 0.0
+    "foreign_net": -191.0,
+    "trust_net": -191.0
   },
   {
     "date": "2025-12-11",
@@ -14436,8 +14436,8 @@
     "low": 20.100000381469727,
     "close": 20.600000381469727,
     "volume": 1040006,
-    "foreign_net": 0.0,
-    "trust_net": 0.0
+    "foreign_net": -23.4,
+    "trust_net": -23.4
   },
   {
     "date": "2025-12-12",
@@ -14446,8 +14446,8 @@
     "low": 20.049999237060547,
     "close": 20.149999618530273,
     "volume": 672100,
-    "foreign_net": 0.0,
-    "trust_net": 0.0
+    "foreign_net": -295.1,
+    "trust_net": -295.1
   },
   {
     "date": "2025-12-15",
@@ -14456,8 +14456,8 @@
     "low": 19.75,
     "close": 20.049999237060547,
     "volume": 363100,
-    "foreign_net": 0.0,
-    "trust_net": 0.0
+    "foreign_net": -13.0,
+    "trust_net": -13.0
   },
   {
     "date": "2025-12-16",
@@ -14466,8 +14466,8 @@
     "low": 19.799999237060547,
     "close": 20.049999237060547,
     "volume": 496042,
-    "foreign_net": 0.0,
-    "trust_net": 0.0
+    "foreign_net": 18.0,
+    "trust_net": 18.0
   },
   {
     "date": "2025-12-17",
@@ -14476,8 +14476,8 @@
     "low": 19.850000381469727,
     "close": 20.0,
     "volume": 286001,
-    "foreign_net": 0.0,
-    "trust_net": 0.0
+    "foreign_net": -34.0,
+    "trust_net": -34.0
   },
   {
     "date": "2025-12-18",
@@ -14486,8 +14486,8 @@
     "low": 19.950000762939453,
     "close": 22.0,
     "volume": 3013050,
-    "foreign_net": 0.0,
-    "trust_net": 0.0
+    "foreign_net": 55.0,
+    "trust_net": 55.0
   },
   {
     "date": "2025-12-19",
@@ -14496,8 +14496,8 @@
     "low": 20.549999237060547,
     "close": 20.899999618530273,
     "volume": 2021003,
-    "foreign_net": 0.0,
-    "trust_net": 0.0
+    "foreign_net": -221.0,
+    "trust_net": -221.0
   },
   {
     "date": "2025-12-22",
@@ -14506,8 +14506,8 @@
     "low": 20.450000762939453,
     "close": 21.149999618530273,
     "volume": 794001,
-    "foreign_net": 0.0,
-    "trust_net": 0.0
+    "foreign_net": -39.0,
+    "trust_net": -39.0
   },
   {
     "date": "2025-12-23",
@@ -14516,8 +14516,8 @@
     "low": 20.5,
     "close": 20.5,
     "volume": 723202,
-    "foreign_net": 0.0,
-    "trust_net": 0.0
+    "foreign_net": -388.0,
+    "trust_net": -388.0
   },
   {
     "date": "2025-12-24",
@@ -14526,8 +14526,8 @@
     "low": 20.25,
     "close": 20.299999237060547,
     "volume": 400324,
-    "foreign_net": 0.0,
-    "trust_net": 0.0
+    "foreign_net": 10.0,
+    "trust_net": 10.0
   },
   {
     "date": "2025-12-26",
@@ -14536,8 +14536,8 @@
     "low": 20.299999237060547,
     "close": 20.75,
     "volume": 457011,
-    "foreign_net": 0.0,
-    "trust_net": 0.0
+    "foreign_net": 34.0,
+    "trust_net": 34.0
   },
   {
     "date": "2025-12-29",
@@ -14546,8 +14546,8 @@
     "low": 20.549999237060547,
     "close": 20.600000381469727,
     "volume": 418031,
-    "foreign_net": 0.0,
-    "trust_net": 0.0
+    "foreign_net": -11.0,
+    "trust_net": -11.0
   },
   {
     "date": "2025-12-30",
@@ -14556,8 +14556,8 @@
     "low": 19.850000381469727,
     "close": 21.399999618530273,
     "volume": 1600204,
-    "foreign_net": 0.0,
-    "trust_net": 0.0
+    "foreign_net": -154.0,
+    "trust_net": -154.0
   },
   {
     "date": "2025-12-31",
@@ -14566,8 +14566,8 @@
     "low": 20.5,
     "close": 20.549999237060547,
     "volume": 940033,
-    "foreign_net": 0.0,
-    "trust_net": 0.0
+    "foreign_net": -278.0,
+    "trust_net": -278.0
   },
   {
     "date": "2026-01-02",
@@ -14576,8 +14576,8 @@
     "low": 20.299999237060547,
     "close": 20.350000381469727,
     "volume": 464000,
-    "foreign_net": 0.0,
-    "trust_net": 0.0
+    "foreign_net": 47.0,
+    "trust_net": 47.0
   },
   {
     "date": "2026-01-05",
@@ -14586,8 +14586,8 @@
     "low": 20.049999237060547,
     "close": 20.149999618530273,
     "volume": 651035,
-    "foreign_net": 0.0,
-    "trust_net": 0.0
+    "foreign_net": -94.0,
+    "trust_net": -94.0
   },
   {
     "date": "2026-01-06",
@@ -14596,8 +14596,8 @@
     "low": 19.600000381469727,
     "close": 20.100000381469727,
     "volume": 690345,
-    "foreign_net": 0.0,
-    "trust_net": 0.0
+    "foreign_net": 62.0,
+    "trust_net": 62.0
   },
   {
     "date": "2026-01-07",
@@ -14606,8 +14606,8 @@
     "low": 19.649999618530273,
     "close": 20.0,
     "volume": 758003,
-    "foreign_net": 0.0,
-    "trust_net": 0.0
+    "foreign_net": 151.0,
+    "trust_net": 151.0
   },
   {
     "date": "2026-01-08",
@@ -14616,8 +14616,8 @@
     "low": 19.600000381469727,
     "close": 19.600000381469727,
     "volume": 809210,
-    "foreign_net": 0.0,
-    "trust_net": 0.0
+    "foreign_net": -218.9,
+    "trust_net": -218.9
   },
   {
     "date": "2026-01-09",
@@ -14626,8 +14626,8 @@
     "low": 19.649999618530273,
     "close": 20.049999237060547,
     "volume": 623000,
-    "foreign_net": 0.0,
-    "trust_net": 0.0
+    "foreign_net": 70.0,
+    "trust_net": 70.0
   },
   {
     "date": "2026-01-12",
@@ -14636,8 +14636,8 @@
     "low": 19.899999618530273,
     "close": 20.0,
     "volume": 605275,
-    "foreign_net": 0.0,
-    "trust_net": 0.0
+    "foreign_net": 118.0,
+    "trust_net": 118.0
   },
   {
     "date": "2026-01-13",
@@ -14646,8 +14646,8 @@
     "low": 19.649999618530273,
     "close": 19.700000762939453,
     "volume": 519012,
-    "foreign_net": 0.0,
-    "trust_net": 0.0
+    "foreign_net": -237.0,
+    "trust_net": -237.0
   },
   {
     "date": "2026-01-14",
@@ -14656,8 +14656,8 @@
     "low": 19.700000762939453,
     "close": 20.450000762939453,
     "volume": 650006,
-    "foreign_net": 0.0,
-    "trust_net": 0.0
+    "foreign_net": 270.0,
+    "trust_net": 270.0
   },
   {
     "date": "2026-01-15",
@@ -14666,8 +14666,8 @@
     "low": 20.0,
     "close": 20.200000762939453,
     "volume": 447011,
-    "foreign_net": 0.0,
-    "trust_net": 0.0
+    "foreign_net": 106.0,
+    "trust_net": 106.0
   },
   {
     "date": "2026-01-16",
@@ -14676,8 +14676,8 @@
     "low": 20.049999237060547,
     "close": 20.049999237060547,
     "volume": 508157,
-    "foreign_net": 0.0,
-    "trust_net": 0.0
+    "foreign_net": 78.0,
+    "trust_net": 78.0
   },
   {
     "date": "2026-01-19",
@@ -14686,8 +14686,8 @@
     "low": 19.899999618530273,
     "close": 20.0,
     "volume": 687002,
-    "foreign_net": 0.0,
-    "trust_net": 0.0
+    "foreign_net": 83.0,
+    "trust_net": 83.0
   },
   {
     "date": "2026-01-20",
@@ -14696,8 +14696,8 @@
     "low": 19.799999237060547,
     "close": 19.799999237060547,
     "volume": 1086000,
-    "foreign_net": 0.0,
-    "trust_net": 0.0
+    "foreign_net": -193.0,
+    "trust_net": -193.0
   },
   {
     "date": "2026-01-21",
@@ -14706,8 +14706,8 @@
     "low": 19.399999618530273,
     "close": 19.600000381469727,
     "volume": 826032,
-    "foreign_net": 0.0,
-    "trust_net": 0.0
+    "foreign_net": -382.0,
+    "trust_net": -382.0
   },
   {
     "date": "2026-01-22",
@@ -14716,8 +14716,8 @@
     "low": 19.649999618530273,
     "close": 20.850000381469727,
     "volume": 2001200,
-    "foreign_net": 0.0,
-    "trust_net": 0.0
+    "foreign_net": 645.0,
+    "trust_net": 645.0
   },
   {
     "date": "2026-01-23",
@@ -14726,8 +14726,8 @@
     "low": 20.299999237060547,
     "close": 20.299999237060547,
     "volume": 2500072,
-    "foreign_net": 0.0,
-    "trust_net": 0.0
+    "foreign_net": -656.0,
+    "trust_net": -656.0
   },
   {
     "date": "2026-01-26",
@@ -14736,8 +14736,8 @@
     "low": 20.0,
     "close": 20.5,
     "volume": 728100,
-    "foreign_net": 0.0,
-    "trust_net": 0.0
+    "foreign_net": 273.0,
+    "trust_net": 273.0
   },
   {
     "date": "2026-01-27",
@@ -14746,8 +14746,8 @@
     "low": 19.950000762939453,
     "close": 20.0,
     "volume": 621348,
-    "foreign_net": 0.0,
-    "trust_net": 0.0
+    "foreign_net": -302.0,
+    "trust_net": -302.0
   },
   {
     "date": "2026-01-28",
@@ -14756,8 +14756,8 @@
     "low": 19.899999618530273,
     "close": 19.899999618530273,
     "volume": 490001,
-    "foreign_net": 0.0,
-    "trust_net": 0.0
+    "foreign_net": 37.9,
+    "trust_net": 37.9
   },
   {
     "date": "2026-01-29",
@@ -14766,8 +14766,8 @@
     "low": 19.5,
     "close": 19.549999237060547,
     "volume": 1031002,
-    "foreign_net": 0.0,
-    "trust_net": 0.0
+    "foreign_net": -302.0,
+    "trust_net": -302.0
   },
   {
     "date": "2026-01-30",
@@ -14776,8 +14776,8 @@
     "low": 19.0,
     "close": 19.0,
     "volume": 984002,
-    "foreign_net": 0.0,
-    "trust_net": 0.0
+    "foreign_net": -5.0,
+    "trust_net": -5.0
   },
   {
     "date": "2026-02-02",
@@ -14786,8 +14786,8 @@
     "low": 18.700000762939453,
     "close": 18.75,
     "volume": 413071,
-    "foreign_net": 0.0,
-    "trust_net": 0.0
+    "foreign_net": 15.9,
+    "trust_net": 15.9
   },
   {
     "date": "2026-02-03",
@@ -14796,8 +14796,8 @@
     "low": 18.649999618530273,
     "close": 18.75,
     "volume": 282057,
-    "foreign_net": 0.0,
-    "trust_net": 0.0
+    "foreign_net": -50.0,
+    "trust_net": -50.0
   },
   {
     "date": "2026-02-04",
@@ -14806,8 +14806,8 @@
     "low": 18.75,
     "close": 19.649999618530273,
     "volume": 424004,
-    "foreign_net": 0.0,
-    "trust_net": 0.0
+    "foreign_net": 60.0,
+    "trust_net": 60.0
   },
   {
     "date": "2026-02-05",
@@ -14816,8 +14816,8 @@
     "low": 19.399999618530273,
     "close": 19.700000762939453,
     "volume": 478073,
-    "foreign_net": 0.0,
-    "trust_net": 0.0
+    "foreign_net": 58.0,
+    "trust_net": 58.0
   },
   {
     "date": "2026-02-06",
@@ -14826,8 +14826,8 @@
     "low": 18.549999237060547,
     "close": 19.100000381469727,
     "volume": 429001,
-    "foreign_net": 0.0,
-    "trust_net": 0.0
+    "foreign_net": -127.0,
+    "trust_net": -127.0
   },
   {
     "date": "2026-02-09",
@@ -14836,8 +14836,8 @@
     "low": 18.799999237060547,
     "close": 18.899999618530273,
     "volume": 398011,
-    "foreign_net": 0.0,
-    "trust_net": 0.0
+    "foreign_net": -44.0,
+    "trust_net": -44.0
   },
   {
     "date": "2026-02-10",
@@ -14846,8 +14846,8 @@
     "low": 18.649999618530273,
     "close": 18.75,
     "volume": 332004,
-    "foreign_net": 0.0,
-    "trust_net": 0.0
+    "foreign_net": -5.0,
+    "trust_net": -5.0
   },
   {
     "date": "2026-02-11",
@@ -14856,8 +14856,8 @@
     "low": 18.75,
     "close": 18.75,
     "volume": 288001,
-    "foreign_net": 0.0,
-    "trust_net": 0.0
+    "foreign_net": 4.0,
+    "trust_net": 4.0
   },
   {
     "date": "2026-02-23",
@@ -14866,8 +14866,8 @@
     "low": 18.600000381469727,
     "close": 19.0,
     "volume": 231362,
-    "foreign_net": 0.0,
-    "trust_net": 0.0
+    "foreign_net": 31.0,
+    "trust_net": 31.0
   },
   {
     "date": "2026-02-24",
@@ -14876,8 +14876,8 @@
     "low": 18.5,
     "close": 19.049999237060547,
     "volume": 479201,
-    "foreign_net": 0.0,
-    "trust_net": 0.0
+    "foreign_net": 154.1,
+    "trust_net": 154.1
   },
   {
     "date": "2026-02-25",
@@ -14886,8 +14886,8 @@
     "low": 18.799999237060547,
     "close": 18.850000381469727,
     "volume": 456003,
-    "foreign_net": 0.0,
-    "trust_net": 0.0
+    "foreign_net": 43.0,
+    "trust_net": 43.0
   },
   {
     "date": "2026-02-26",
@@ -14896,8 +14896,8 @@
     "low": 18.799999237060547,
     "close": 19.049999237060547,
     "volume": 371153,
-    "foreign_net": 0.0,
-    "trust_net": 0.0
+    "foreign_net": 158.0,
+    "trust_net": 158.0
   },
   {
     "date": "2026-03-02",
@@ -14906,8 +14906,8 @@
     "low": 18.450000762939453,
     "close": 18.700000762939453,
     "volume": 578099,
-    "foreign_net": 0.0,
-    "trust_net": 0.0
+    "foreign_net": -74.0,
+    "trust_net": -74.0
   },
   {
     "date": "2026-03-03",
@@ -14916,8 +14916,8 @@
     "low": 17.700000762939453,
     "close": 17.75,
     "volume": 842010,
-    "foreign_net": 0.0,
-    "trust_net": 0.0
+    "foreign_net": -56.0,
+    "trust_net": -56.0
   },
   {
     "date": "2026-03-04",
@@ -14926,8 +14926,8 @@
     "low": 16.100000381469727,
     "close": 16.649999618530273,
     "volume": 788592,
-    "foreign_net": 0.0,
-    "trust_net": 0.0
+    "foreign_net": 270.0,
+    "trust_net": 270.0
   },
   {
     "date": "2026-03-05",
@@ -14936,8 +14936,8 @@
     "low": 16.799999237060547,
     "close": 17.25,
     "volume": 389003,
-    "foreign_net": 0.0,
-    "trust_net": 0.0
+    "foreign_net": 96.0,
+    "trust_net": 96.0
   },
   {
     "date": "2026-03-06",
@@ -14946,8 +14946,8 @@
     "low": 17.0,
     "close": 17.0,
     "volume": 171028,
-    "foreign_net": 0.0,
-    "trust_net": 0.0
+    "foreign_net": -9.0,
+    "trust_net": -9.0
   },
   {
     "date": "2026-03-09",
@@ -14956,8 +14956,8 @@
     "low": 15.850000381469727,
     "close": 16.100000381469727,
     "volume": 508027,
-    "foreign_net": 0.0,
-    "trust_net": 0.0
+    "foreign_net": 125.0,
+    "trust_net": 125.0
   },
   {
     "date": "2026-03-10",
@@ -14966,8 +14966,8 @@
     "low": 16.350000381469727,
     "close": 16.799999237060547,
     "volume": 233007,
-    "foreign_net": 0.0,
-    "trust_net": 0.0
+    "foreign_net": 89.0,
+    "trust_net": 89.0
   },
   {
     "date": "2026-03-11",
@@ -14976,8 +14976,8 @@
     "low": 17.0,
     "close": 17.200000762939453,
     "volume": 180005,
-    "foreign_net": 0.0,
-    "trust_net": 0.0
+    "foreign_net": 12.0,
+    "trust_net": 12.0
   },
   {
     "date": "2026-03-12",
@@ -14986,8 +14986,8 @@
     "low": 17.049999237060547,
     "close": 17.149999618530273,
     "volume": 189112,
-    "foreign_net": 0.0,
-    "trust_net": 0.0
+    "foreign_net": 27.0,
+    "trust_net": 27.0
   },
   {
     "date": "2026-03-13",
@@ -14996,8 +14996,8 @@
     "low": 16.200000762939453,
     "close": 16.950000762939453,
     "volume": 285003,
-    "foreign_net": 0.0,
-    "trust_net": 0.0
+    "foreign_net": 103.0,
+    "trust_net": 103.0
   },
   {
     "date": "2026-03-16",
@@ -15006,8 +15006,8 @@
     "low": 16.450000762939453,
     "close": 16.950000762939453,
     "volume": 308010,
-    "foreign_net": 0.0,
-    "trust_net": 0.0
+    "foreign_net": 109.0,
+    "trust_net": 109.0
   },
   {
     "date": "2026-03-17",
@@ -15016,8 +15016,8 @@
     "low": 17.100000381469727,
     "close": 17.25,
     "volume": 168007,
-    "foreign_net": 0.0,
-    "trust_net": 0.0
+    "foreign_net": -9.0,
+    "trust_net": -9.0
   },
   {
     "date": "2026-03-18",
@@ -15026,8 +15026,8 @@
     "low": 16.899999618530273,
     "close": 16.950000762939453,
     "volume": 273050,
-    "foreign_net": 0.0,
-    "trust_net": 0.0
+    "foreign_net": -31.0,
+    "trust_net": -31.0
   },
   {
     "date": "2026-03-19",
@@ -15036,8 +15036,8 @@
     "low": 16.649999618530273,
     "close": 16.75,
     "volume": 243367,
-    "foreign_net": 0.0,
-    "trust_net": 0.0
+    "foreign_net": 11.0,
+    "trust_net": 11.0
   },
   {
     "date": "2026-03-20",
@@ -15046,8 +15046,8 @@
     "low": 16.299999237060547,
     "close": 17.200000762939453,
     "volume": 456589,
-    "foreign_net": 0.0,
-    "trust_net": 0.0
+    "foreign_net": 87.0,
+    "trust_net": 87.0
   },
   {
     "date": "2026-03-23",
@@ -15056,8 +15056,8 @@
     "low": 16.700000762939453,
     "close": 16.850000381469727,
     "volume": 201013,
-    "foreign_net": 0.0,
-    "trust_net": 0.0
+    "foreign_net": 5.0,
+    "trust_net": 5.0
   },
   {
     "date": "2026-03-24",
@@ -15066,8 +15066,8 @@
     "low": 17.0,
     "close": 17.049999237060547,
     "volume": 388122,
-    "foreign_net": 0.0,
-    "trust_net": 0.0
+    "foreign_net": 56.0,
+    "trust_net": 56.0
   },
   {
     "date": "2026-03-25",
@@ -15076,8 +15076,8 @@
     "low": 17.100000381469727,
     "close": 18.0,
     "volume": 562124,
-    "foreign_net": 0.0,
-    "trust_net": 0.0
+    "foreign_net": 80.0,
+    "trust_net": 80.0
   },
   {
     "date": "2026-03-26",
@@ -15086,8 +15086,8 @@
     "low": 17.700000762939453,
     "close": 18.049999237060547,
     "volume": 668020,
-    "foreign_net": 0.0,
-    "trust_net": 0.0
+    "foreign_net": -46.0,
+    "trust_net": -46.0
   },
   {
     "date": "2026-03-27",
@@ -15096,8 +15096,8 @@
     "low": 17.399999618530273,
     "close": 17.5,
     "volume": 365060,
-    "foreign_net": 0.0,
-    "trust_net": 0.0
+    "foreign_net": 10.0,
+    "trust_net": 10.0
   },
   {
     "date": "2026-03-30",
@@ -15106,8 +15106,8 @@
     "low": 17.25,
     "close": 17.25,
     "volume": 298020,
-    "foreign_net": 0.0,
-    "trust_net": 0.0
+    "foreign_net": 44.0,
+    "trust_net": 44.0
   },
   {
     "date": "2026-03-31",
@@ -15116,8 +15116,8 @@
     "low": 16.600000381469727,
     "close": 17.049999237060547,
     "volume": 345021,
-    "foreign_net": 0.0,
-    "trust_net": 0.0
+    "foreign_net": -144.0,
+    "trust_net": -144.0
   },
   {
     "date": "2026-04-01",
@@ -15126,8 +15126,8 @@
     "low": 16.799999237060547,
     "close": 16.799999237060547,
     "volume": 232005,
-    "foreign_net": 0.0,
-    "trust_net": 0.0
+    "foreign_net": -122.0,
+    "trust_net": -122.0
   },
   {
     "date": "2026-04-02",
@@ -15136,8 +15136,8 @@
     "low": 16.399999618530273,
     "close": 16.399999618530273,
     "volume": 317003,
-    "foreign_net": 0.0,
-    "trust_net": 0.0
+    "foreign_net": -60.0,
+    "trust_net": -60.0
   },
   {
     "date": "2026-04-07",
@@ -15146,8 +15146,8 @@
     "low": 16.049999237060547,
     "close": 16.049999237060547,
     "volume": 222033,
-    "foreign_net": 0.0,
-    "trust_net": 0.0
+    "foreign_net": 17.0,
+    "trust_net": 17.0
   },
   {
     "date": "2026-04-08",
@@ -15156,8 +15156,8 @@
     "low": 16.149999618530273,
     "close": 17.0,
     "volume": 287130,
-    "foreign_net": 0.0,
-    "trust_net": 0.0
+    "foreign_net": 64.0,
+    "trust_net": 64.0
   },
   {
     "date": "2026-04-09",
@@ -15166,8 +15166,8 @@
     "low": 16.399999618530273,
     "close": 16.700000762939453,
     "volume": 176329,
-    "foreign_net": 0.0,
-    "trust_net": 0.0
+    "foreign_net": -63.0,
+    "trust_net": -63.0
   },
   {
     "date": "2026-04-10",
@@ -15176,8 +15176,8 @@
     "low": 16.350000381469727,
     "close": 16.450000762939453,
     "volume": 244009,
-    "foreign_net": 0.0,
-    "trust_net": 0.0
+    "foreign_net": -21.0,
+    "trust_net": -21.0
   },
   {
     "date": "2026-04-13",
@@ -15186,8 +15186,8 @@
     "low": 16.399999618530273,
     "close": 16.5,
     "volume": 205309,
-    "foreign_net": 0.0,
-    "trust_net": 0.0
+    "foreign_net": 112.0,
+    "trust_net": 112.0
   },
   {
     "date": "2026-04-14",
@@ -15196,8 +15196,8 @@
     "low": 16.350000381469727,
     "close": 16.549999237060547,
     "volume": 523002,
-    "foreign_net": 0.0,
-    "trust_net": 0.0
+    "foreign_net": 115.0,
+    "trust_net": 115.0
   },
   {
     "date": "2026-04-15",
@@ -15206,8 +15206,8 @@
     "low": 16.549999237060547,
     "close": 17.100000381469727,
     "volume": 434306,
-    "foreign_net": 0.0,
-    "trust_net": 0.0
+    "foreign_net": 171.0,
+    "trust_net": 171.0
   },
   {
     "date": "2026-04-16",
@@ -15216,8 +15216,8 @@
     "low": 16.799999237060547,
     "close": 17.0,
     "volume": 270004,
-    "foreign_net": 0.0,
-    "trust_net": 0.0
+    "foreign_net": -36.0,
+    "trust_net": -36.0
   },
   {
     "date": "2026-04-17",
@@ -15226,8 +15226,8 @@
     "low": 16.700000762939453,
     "close": 16.899999618530273,
     "volume": 226437,
-    "foreign_net": 0.0,
-    "trust_net": 0.0
+    "foreign_net": 50.0,
+    "trust_net": 50.0
   },
   {
     "date": "2026-04-20",
@@ -15236,8 +15236,8 @@
     "low": 16.799999237060547,
     "close": 17.149999618530273,
     "volume": 431012,
-    "foreign_net": 0.0,
-    "trust_net": 0.0
+    "foreign_net": 164.0,
+    "trust_net": 164.0
   },
   {
     "date": "2026-04-21",
@@ -15246,8 +15246,8 @@
     "low": 16.850000381469727,
     "close": 17.049999237060547,
     "volume": 347439,
-    "foreign_net": 0.0,
-    "trust_net": 0.0
+    "foreign_net": 44.0,
+    "trust_net": 44.0
   },
   {
     "date": "2026-04-22",
@@ -15256,8 +15256,8 @@
     "low": 17.049999237060547,
     "close": 17.600000381469727,
     "volume": 865192,
-    "foreign_net": 0.0,
-    "trust_net": 0.0
+    "foreign_net": 71.0,
+    "trust_net": 71.0
   },
   {
     "date": "2026-04-23",
@@ -15266,8 +15266,8 @@
     "low": 17.700000762939453,
     "close": 19.350000381469727,
     "volume": 3560163,
-    "foreign_net": 0.0,
-    "trust_net": 0.0
+    "foreign_net": -578.0,
+    "trust_net": -578.0
   },
   {
     "date": "2026-04-24",
@@ -15276,8 +15276,8 @@
     "low": 17.899999618530273,
     "close": 17.899999618530273,
     "volume": 2412027,
-    "foreign_net": 0.0,
-    "trust_net": 0.0
+    "foreign_net": -469.0,
+    "trust_net": -469.0
   },
   {
     "date": "2026-04-27",
@@ -15286,8 +15286,8 @@
     "low": 16.950000762939453,
     "close": 17.350000381469727,
     "volume": 859101,
-    "foreign_net": 0.0,
-    "trust_net": 0.0
+    "foreign_net": 116.0,
+    "trust_net": 116.0
   },
   {
     "date": "2026-04-28",
@@ -15296,8 +15296,8 @@
     "low": 17.0,
     "close": 17.149999618530273,
     "volume": 351002,
-    "foreign_net": 0.0,
-    "trust_net": 0.0
+    "foreign_net": 31.0,
+    "trust_net": 31.0
   },
   {
     "date": "2026-04-29",
@@ -15306,8 +15306,8 @@
     "low": 17.0,
     "close": 17.100000381469727,
     "volume": 291012,
-    "foreign_net": 0.0,
-    "trust_net": 0.0
+    "foreign_net": 39.0,
+    "trust_net": 39.0
   },
   {
     "date": "2026-04-30",
@@ -15316,8 +15316,8 @@
     "low": 16.399999618530273,
     "close": 16.549999237060547,
     "volume": 736051,
-    "foreign_net": 0.0,
-    "trust_net": 0.0
+    "foreign_net": -100.0,
+    "trust_net": -100.0
   },
   {
     "date": "2026-05-04",
@@ -15326,8 +15326,8 @@
     "low": 16.200000762939453,
     "close": 16.549999237060547,
     "volume": 421001,
-    "foreign_net": 0.0,
-    "trust_net": 0.0
+    "foreign_net": -75.0,
+    "trust_net": -75.0
   },
   {
     "date": "2026-05-05",
@@ -15336,8 +15336,8 @@
     "low": 16.25,
     "close": 16.600000381469727,
     "volume": 447100,
-    "foreign_net": 0.0,
-    "trust_net": 0.0
+    "foreign_net": 145.0,
+    "trust_net": 145.0
   },
   {
     "date": "2026-05-06",
@@ -15346,8 +15346,8 @@
     "low": 15.0,
     "close": 15.600000381469727,
     "volume": 2359002,
-    "foreign_net": 0.0,
-    "trust_net": 0.0
+    "foreign_net": 140.1,
+    "trust_net": 140.1
   },
   {
     "date": "2026-05-07",
@@ -15356,8 +15356,8 @@
     "low": 15.25,
     "close": 15.300000190734863,
     "volume": 821030,
-    "foreign_net": 0.0,
-    "trust_net": 0.0
+    "foreign_net": 71.0,
+    "trust_net": 71.0
   },
   {
     "date": "2026-05-08",
@@ -15366,8 +15366,8 @@
     "low": 15.149999618530273,
     "close": 15.300000190734863,
     "volume": 603152,
-    "foreign_net": 0.0,
-    "trust_net": 0.0
+    "foreign_net": -84.0,
+    "trust_net": -84.0
   },
   {
     "date": "2026-05-11",
@@ -15376,8 +15376,8 @@
     "low": 14.75,
     "close": 15.100000381469727,
     "volume": 556005,
-    "foreign_net": 0.0,
-    "trust_net": 0.0
+    "foreign_net": -46.0,
+    "trust_net": -46.0
   },
   {
     "date": "2026-05-12",
@@ -15386,8 +15386,8 @@
     "low": 14.649999618530273,
     "close": 14.649999618530273,
     "volume": 647032,
-    "foreign_net": 0.0,
-    "trust_net": 0.0
+    "foreign_net": -58.0,
+    "trust_net": -58.0
   },
   {
     "date": "2026-05-13",
@@ -15396,8 +15396,8 @@
     "low": 14.25,
     "close": 14.899999618530273,
     "volume": 669030,
-    "foreign_net": 0.0,
-    "trust_net": 0.0
+    "foreign_net": 75.0,
+    "trust_net": 75.0
   },
   {
     "date": "2026-05-14",
@@ -15406,8 +15406,8 @@
     "low": 13.550000190734863,
     "close": 13.899999618530273,
     "volume": 1257698,
-    "foreign_net": 0.0,
-    "trust_net": 0.0
+    "foreign_net": 41.0,
+    "trust_net": 41.0
   },
   {
     "date": "2026-05-15",
@@ -15416,8 +15416,8 @@
     "low": 13.649999618530273,
     "close": 13.899999618530273,
     "volume": 756005,
-    "foreign_net": 0.0,
-    "trust_net": 0.0
+    "foreign_net": -299.0,
+    "trust_net": -299.0
   },
   {
     "date": "2026-05-18",
@@ -15426,8 +15426,8 @@
     "low": 13.100000381469727,
     "close": 13.899999618530273,
     "volume": 310003,
-    "foreign_net": 0.0,
-    "trust_net": 0.0
+    "foreign_net": 88.0,
+    "trust_net": 88.0
   },
   {
     "date": "2026-05-19",
@@ -15436,8 +15436,8 @@
     "low": 13.600000381469727,
     "close": 14.0,
     "volume": 264003,
-    "foreign_net": 0.0,
-    "trust_net": 0.0
+    "foreign_net": -7.0,
+    "trust_net": -7.0
   },
   {
     "date": "2026-05-20",
@@ -15446,8 +15446,8 @@
     "low": 13.75,
     "close": 14.399999618530273,
     "volume": 223006,
-    "foreign_net": 0.0,
-    "trust_net": 0.0
+    "foreign_net": -40.0,
+    "trust_net": -40.0
   },
   {
     "date": "2026-05-21",
@@ -15456,8 +15456,8 @@
     "low": 14.300000190734863,
     "close": 14.600000381469727,
     "volume": 370011,
-    "foreign_net": 0.0,
-    "trust_net": 0.0
+    "foreign_net": 37.0,
+    "trust_net": 37.0
   },
   {
     "date": "2026-05-22",
@@ -15466,8 +15466,8 @@
     "low": 14.449999809265137,
     "close": 14.800000190734863,
     "volume": 303001,
-    "foreign_net": 0.0,
-    "trust_net": 0.0
+    "foreign_net": 98.0,
+    "trust_net": 98.0
   },
   {
     "date": "2026-05-25",
@@ -15476,8 +15476,8 @@
     "low": 14.800000190734863,
     "close": 14.850000381469727,
     "volume": 515001,
-    "foreign_net": 0.0,
-    "trust_net": 0.0
+    "foreign_net": -158.0,
+    "trust_net": -158.0
   },
   {
     "date": "2026-05-26",
@@ -15486,8 +15486,8 @@
     "low": 14.300000190734863,
     "close": 14.5,
     "volume": 369100,
-    "foreign_net": 0.0,
-    "trust_net": 0.0
+    "foreign_net": -136.9,
+    "trust_net": -136.9
   },
   {
     "date": "2026-05-27",
@@ -15496,8 +15496,8 @@
     "low": 14.100000381469727,
     "close": 14.399999618530273,
     "volume": 415001,
-    "foreign_net": 0.0,
-    "trust_net": 0.0
+    "foreign_net": 31.0,
+    "trust_net": 31.0
   },
   {
     "date": "2026-05-28",
@@ -15506,8 +15506,8 @@
     "low": 14.199999809265137,
     "close": 14.300000190734863,
     "volume": 311138,
-    "foreign_net": 0.0,
-    "trust_net": 0.0
+    "foreign_net": 94.0,
+    "trust_net": 94.0
   },
   {
     "date": "2026-05-29",
@@ -15516,8 +15516,8 @@
     "low": 13.949999809265137,
     "close": 14.5,
     "volume": 999156,
-    "foreign_net": 0.0,
-    "trust_net": 0.0
+    "foreign_net": 204.0,
+    "trust_net": 204.0
   },
   {
     "date": "2026-06-01",
@@ -15526,8 +15526,8 @@
     "low": 14.5,
     "close": 15.5,
     "volume": 1152081,
-    "foreign_net": 0.0,
-    "trust_net": 0.0
+    "foreign_net": -16.0,
+    "trust_net": -16.0
   },
   {
     "date": "2026-06-02",
@@ -15536,8 +15536,8 @@
     "low": 15.300000190734863,
     "close": 15.5,
     "volume": 491030,
-    "foreign_net": 0.0,
-    "trust_net": 0.0
+    "foreign_net": -80.7,
+    "trust_net": -80.7
   },
   {
     "date": "2026-06-03",
@@ -15546,8 +15546,8 @@
     "low": 15.5,
     "close": 16.149999618530273,
     "volume": 1069370,
-    "foreign_net": 0.0,
-    "trust_net": 0.0
+    "foreign_net": 291.0,
+    "trust_net": 291.0
   },
   {
     "date": "2026-06-04",
@@ -15556,8 +15556,8 @@
     "low": 15.949999809265137,
     "close": 16.399999618530273,
     "volume": 1332100,
-    "foreign_net": 0.0,
-    "trust_net": 0.0
+    "foreign_net": 222.2,
+    "trust_net": 222.2
   },
   {
     "date": "2026-06-05",
@@ -15566,8 +15566,8 @@
     "low": 15.449999809265137,
     "close": 15.699999809265137,
     "volume": 738368,
-    "foreign_net": 0.0,
-    "trust_net": 0.0
+    "foreign_net": -215.0,
+    "trust_net": -215.0
   },
   {
     "date": "2026-06-08",
@@ -15576,8 +15576,8 @@
     "low": 14.399999618530273,
     "close": 15.100000381469727,
     "volume": 415001,
-    "foreign_net": 0.0,
-    "trust_net": 0.0
+    "foreign_net": 63.0,
+    "trust_net": 63.0
   },
   {
     "date": "2026-06-09",
@@ -15586,8 +15586,8 @@
     "low": 15.100000381469727,
     "close": 15.5,
     "volume": 295101,
-    "foreign_net": 0.0,
-    "trust_net": 0.0
+    "foreign_net": -52.0,
+    "trust_net": -52.0
   },
   {
     "date": "2026-06-10",
@@ -15606,8 +15606,8 @@
     "low": 15.100000381469727,
     "close": 15.100000381469727,
     "volume": 186139,
-    "foreign_net": 0.0,
-    "trust_net": 0.0
+    "foreign_net": -1.0,
+    "trust_net": -1.0
   },
   {
     "date": "2026-06-12",
@@ -15616,8 +15616,8 @@
     "low": 14.800000190734863,
     "close": 15.199999809265137,
     "volume": 406000,
-    "foreign_net": 0.0,
-    "trust_net": 0.0
+    "foreign_net": -39.0,
+    "trust_net": -39.0
   },
   {
     "date": "2026-06-15",
@@ -15626,8 +15626,8 @@
     "low": 15.149999618530273,
     "close": 15.75,
     "volume": 441170,
-    "foreign_net": 0.0,
-    "trust_net": 0.0
+    "foreign_net": 245.2,
+    "trust_net": 245.2
   },
   {
     "date": "2026-06-16",
@@ -15636,8 +15636,8 @@
     "low": 15.600000381469727,
     "close": 15.699999809265137,
     "volume": 527001,
-    "foreign_net": 0.0,
-    "trust_net": 0.0
+    "foreign_net": 63.0,
+    "trust_net": 63.0
   },
   {
     "date": "2026-06-17",
@@ -15835,8 +15835,28 @@
     "high": 17.200000762939453,
     "low": 16.149999618530273,
     "close": 16.75,
-    "volume": 259230,
+    "volume": 261003,
     "foreign_net": -145.0,
     "trust_net": -145.0
+  },
+  {
+    "date": "2026-07-16",
+    "open": 16.700000762939453,
+    "high": 18.350000381469727,
+    "low": 16.600000381469727,
+    "close": 18.0,
+    "volume": 1047184,
+    "foreign_net": 64.6,
+    "trust_net": 64.6
+  },
+  {
+    "date": "2026-07-17",
+    "open": 17.299999237060547,
+    "high": 17.649999618530273,
+    "low": 16.700000762939453,
+    "close": 16.700000762939453,
+    "volume": 681501,
+    "foreign_net": -100.0,
+    "trust_net": -100.0
   }
 ]
