@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-18T17:00:27+08:00",
+  "generated_at": "2026-07-19T17:00:25+08:00",
   "source": "Google News RSS",
   "request_policy": "focus watchlist only; one query per stock; retries with backoff; preserve prior cache on failure",
   "stocks": {
@@ -32,9 +32,21 @@
           "published_at": "2026-05-21T15:00:00+08:00"
         },
         {
+          "title": "4764 雙鍵 - 太離譜！ - 股市爆料同學會 - CMoney",
+          "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE4xUFBDQkxxX2Utc1o5bWF3SEdfamdlVGRvdWdldkwzNTBTV0NDZ3l6TmNSX2pKZS1wWkdFSTFrSFZaaUJ4dVhFV1M4M0ZQaGluQ3FDdHdBQms?oc=5",
+          "source": "CMoney",
+          "published_at": "2026-05-20T15:00:00+08:00"
+        },
+        {
           "title": "【05/06 申報轉讓】雙鍵(4764)大股東王棟海將於05/09申報轉讓雙鍵股票620張 - CMoney",
           "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9Wa1FlNlI2bGcwVkpucnVtUm9LZERCbTRhMVI1bmZOX2hwRFlVVUpUV0Z0anJrWWJGTks5Sy1FcHlZQmlQemxDT0dpTEczT20xNGJacHlKTmVxajhDVlZlTWJzNE5hRVE?oc=5",
           "source": "CMoney",
+          "published_at": "2026-05-06T15:00:00+08:00"
+        },
+        {
+          "title": "【09:24 即時新聞】雙鍵(4764)攻上漲停342元，受高階CCL樹脂題材加持＋多頭技術結構與主力買盤同步強攻 - CMoney投資網誌",
+          "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPZzlmbmtZcWRWTFQxOE9mazkxOGhQSGszZ3BudzhqaDdJaE80bVhEckMwbXAtTWRUV3pXOXNOaURmWjU5SnA1OWpnbzZoRENIN3BOaHRkampIaXpLd2RRQ1pCODBaME9haGp1eThvaXNraHNfa09UcjJLd2RYYmJVZ0JwY2FzZGRZckZnT3BR?oc=5",
+          "source": "CMoney投資網誌",
           "published_at": "2026-05-06T15:00:00+08:00"
         },
         {
@@ -54,18 +66,6 @@
           "url": "https://news.google.com/rss/articles/CBMi3gNBVV95cUxNZUxyRHA1VkxlWlpYQ0htZEJ6OXVEMldtRjF1Mm5rWFpSUDI3LThfWjcxZ0MzVkFTTUpzTHNyRmprdEJhZ2plc21QMDVqYkV1ZXhGS09jRFhwRnZRbzVTd1dRSjduRS1WMWNjbnlPSHhIZWJuSTE2UVdMbFdvbjdVRXZtWWtTR1pQVkU5SWhYTWh1SE1CczZDNFctWEdpeVNvQ3U5ek53VWNJM2p3enkteDVsUF9qSUppdEt5Mk4yQWNIalhtOUVweEM5b2JGRElvMERJWXI5UDNxVWp4VHJDQmVieGhpbjNOZmVjWjVjeTlUVGZsX3lLOWtVNXpvRWdPNDczWDN5QjNEcjJxeUx6bDB1ZXJxakxBanpMcTV0XzczeFZJeWtiZ1Q1MmhBa1B0ejhYc3A4T3lwZHVwbnJoQmkwemxIWlk2Zml0Z0lvaGpGLS1qTjhtUEZieHhwaVduTjZ0Vkx0NWhBQ0IzX3ZRM0M2NENFMWZ6QmZLbjhJUlJFS0VWNU5oNW84YTQ4enFpWDlRTF9McEdKUWNONFh5Vkctd3FjeHZOOEVPRHpCSlFwYy1sQWpyTnJOZ2VYU3ZkbGFDVWRlMk9SLTZ2eVdpLU5wajFZV0ZRZ2h0cjJ3?oc=5",
           "source": "sinotrade.com.tw",
           "published_at": "2026-04-20T15:00:00+08:00"
-        },
-        {
-          "title": "4764 雙鍵- 雙鍵一直衝500 - 股市爆料同學會 - CMoney",
-          "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFAzbC1EMUZyNGtJblJNRjBCMmFIempQdENVNUJldlpOcjN6TXIweUlMZWlwX2Y4eXhEeklfNWRmeTZKS0hfLUU3Qk43dWdCS2I5Zk1hWVgtRnU?oc=5",
-          "source": "CMoney",
-          "published_at": "2026-04-12T15:00:00+08:00"
-        },
-        {
-          "title": "【10:11 即時新聞】雙鍵(4764)股價大漲逾9%，特化與CCL關鍵材料題材發酵＋多頭均線與主力買盤推升創高動能 - CMoney投資網誌",
-          "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOTzRxdFM2Q3YtaFhBQ0hxWjA1SmFiV1lUSG9kdjdFcEk1Qzg0bkg3ejlDUkxLa1ZwNEV2cTlNa0RCb1ZrUkxhQjB1cUREV09OLXJsNTJJbVlOMVk1c1JvbFNVSTZMZjFRRUZfdWhpdWdxMXluQ0RrU0diWFV5NmNQcDh1dDBjQUp6dWRuRUh3?oc=5",
-          "source": "CMoney投資網誌",
-          "published_at": "2026-03-12T15:00:00+08:00"
         }
       ],
       "stale_cache": false
@@ -145,7 +145,7 @@
           "title": "雍智科技(6683) 個股概覽 | 個股 - 股市 - CMoney",
           "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1aYkRjN1RvR3dfSmJqbFdtN2dEdGc4UmxnWDN3eHZRdWU1aDdsbHJkc0h6c2xUUUpkTkJxcHExcjJUVGw2TUtaYm1wUVp3Q2VZRWQ4?oc=5",
           "source": "CMoney",
-          "published_at": "2026-07-18T13:25:17+08:00"
+          "published_at": "2026-07-19T12:39:09+08:00"
         },
         {
           "title": "【06/29處置股公告】雍智科技(6683) 06/29到07/10列入處置股，約每5分鐘撮合一次-CMoney 小編 - CMoney投資網誌",
@@ -184,6 +184,12 @@
           "published_at": "2026-06-16T15:00:00+08:00"
         },
         {
+          "title": "矽晶圓 、光學鏡頭多頭並進，留意今日台股期權結算，投本比排行: 光頡(3428)、國統 (4922)、雍智科技 - sinotrade.com.tw",
+          "url": "https://news.google.com/rss/articles/CBMizARBVV95cUxNck1XNGJ1dGRxS2w2ajh0cnpfNUducUstVndNRHN5WTdFWUM1VzNhTGxId3Q1bUZwbDNPM0xGdm9jZURPeVY5bWU3dDlKYTRTR2JwSFFUOTRQVDJJZVFybF90YXhiV3I2anhpM3Y1VjBjUjJhdU90VFVlQzlkZ29MTi1EdEotLUs3Uy1YNmFWOExKRHpicnVJcC1SUGgtbzF5bVJoZk8yazhTb0pIVU5hNnBqaTFmSVRRRzQteUVKc293RlFMcklsSE9GM0FnSmFEVWJLMGZtX3NzVkdTZkdrSXFpaEE4c3VyU0phSVVVM0w2UUN1aXI4YWp4R0VOcktrNGNpZlNRaVJXYmZFWlhNOC05ZjBranliNjY2R1BOTXlVYVJVd0U2WTF2ajFnUDgtSHNRd3ZuemJuS2p1d1NrQmszb0ZfOXZhYWYzMmRmZVFLaWYwclQtNms2WTNHT1VQSFVVTDlEamoyTVl3bWJzNFVXM0xCaUdNWlQ1N0ZDZkJBcVBWdVpfVXl1eWlMcjNKRlM2N28wNWw2LXkyOGVyeWtKZEplN0hpRlM2cUdscVpQVC14QUY1SU95alpBekxBUGtESGY0R3RZbjJ1MXVrWndpX1Uxc3pRSlhuS2hlc3hIeWpCMUVLNnhYbXlEcWdpeURrRXN5LXNCaGo4SzVRSmc4V1drT0E1d3pYQVBOb040T0MzX0hZLUZLb1ZfQ3p1bE9PZ2Zid0RmZWNLMURaS0dzTl9NOGhxUnR4Y1VvR2s2RUhTZi1wS2pseXc?oc=5",
+          "source": "sinotrade.com.tw",
+          "published_at": "2026-06-16T15:00:00+08:00"
+        },
+        {
           "title": "雍智科技Q2穩步走；下半年關注ASIC新案進度 - Yahoo股市",
           "url": "https://news.google.com/rss/articles/CBMipAJBVV95cUxOOFVod1BrQVZRNFhGa3YxYTdXamZadTFKbUhYWGp2UEtpaU9IYWk3MDRTR0lqZ2lHYmFBajdxQWdhMXZEbmNOVm9rekd5dXBJSlRmc1M1VDIwVWViQUdzdk5GVndwak9LOHh0bDd2SUpPVGlPZlFWUFVqWnFxaDBUYjlTdVlXOGltVUJoSm1oQ3FIZzBBTjZGVXlLRVNsbE0ycVhFNzdBSmx1eFo0RTd0UXkwbGNJTEtlNFJFR2dORFJWbF9KZS1zNEhITVMzTUl6YVd5ekpYeldJWVo3ZV9iWTJLdzJQMU5pWGZLNTczWTAwUzZOc29hbXFNZHN1VVNMU2M5NGZvTFdjNFdUMHlNQWQ4Rkd6czY5YkVoMTJ1V3Y0Y210?oc=5",
           "source": "Yahoo股市",
@@ -194,12 +200,6 @@
           "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE82N2xSZW80djRqOWVYVzRMdElpZXg3YXE3LTEzYlJaRUMwSExMMzhrbGh0b0dzMHBqTzVGQkdkby1uVXpReUpIcFk2UG8xbkljWHQzYW8wUkFHVWVTUmJMX3d4aU9BQ2xrRWc?oc=5",
           "source": "CMoney",
           "published_at": "2026-06-08T11:43:18+08:00"
-        },
-        {
-          "title": "6683 雍智科技- 大摩聯發科目標價5088 - 股市爆料同學會 - CMoney",
-          "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9QRmFabURtWmJQWXRuUGdHNnBNbkUyTFdOX3JZN0FPTGd5QUtjMF9TWF9wUEFjckd5R0t6UHlXZFdKTTVxMVpJY3hhSVNLREUyVXA0RzhxSlk?oc=5",
-          "source": "CMoney",
-          "published_at": "2026-05-27T04:12:38+08:00"
         }
       ],
       "stale_cache": false

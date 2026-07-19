@@ -19,7 +19,7 @@
     "stations": [
       {
         "name": "每日資料追蹤",
-        "date": "2026-07-18",
+        "date": "2026-07-19",
         "status": "active",
         "description": "追蹤董事會、申報送件、訂價、競拍或詢圈、承銷、掛牌及 CBAS 拆解時程。"
       }
@@ -150,7 +150,7 @@
       },
       {
         "name": "每日資料追蹤",
-        "date": "2026-07-18",
+        "date": "2026-07-19",
         "status": "active",
         "description": "追蹤董事會、申報送件、訂價、競拍或詢圈、承銷、掛牌及 CBAS 拆解時程。"
       }
@@ -283,7 +283,7 @@
       },
       {
         "name": "每日資料追蹤",
-        "date": "2026-07-18",
+        "date": "2026-07-19",
         "status": "active",
         "description": "追蹤董事會、申報送件、訂價、競拍或詢圈、承銷、掛牌及 CBAS 拆解時程。"
       }
@@ -306,7 +306,7 @@
         "title": "雍智科技(6683) 個股概覽 | 個股 - 股市 - CMoney",
         "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1aYkRjN1RvR3dfSmJqbFdtN2dEdGc4UmxnWDN3eHZRdWU1aDdsbHJkc0h6c2xUUUpkTkJxcHExcjJUVGw2TUtaYm1wUVp3Q2VZRWQ4?oc=5",
         "source": "CMoney",
-        "published_at": "2026-07-18T13:25:17+08:00"
+        "published_at": "2026-07-19T12:39:09+08:00"
       },
       {
         "title": "【06/29處置股公告】雍智科技(6683) 06/29到07/10列入處置股，約每5分鐘撮合一次-CMoney 小編 - CMoney投資網誌",
@@ -742,8 +742,8 @@
     "event_date": "2026-06-29",
     "buy_date": "2026-06-24",
     "sell_date": "2026-07-19",
-    "current_stage_index": 3,
-    "status_text": "模擬持有中，預計 2026-07-19 出場",
+    "current_stage_index": 4,
+    "status_text": "模擬交易已完成",
     "status_type": "success",
     "strategy_mode": "paper_trade_only",
     "strategy_info": {
@@ -789,7 +789,7 @@
       {
         "name": "第 20 天出場",
         "date": "2026-07-19",
-        "status": "upcoming",
+        "status": "active",
         "description": "暫定事件後第 20 天出場；單檔 -10% 先停損。"
       }
     ],
@@ -797,7 +797,7 @@
       "buy_price": 156.0,
       "current_price": 128.0,
       "return_pct": -17.95,
-      "state": "holding",
+      "state": "closed",
       "capital": 500000.0
     },
     "overlap_slots": 2,
