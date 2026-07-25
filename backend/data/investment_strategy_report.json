@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-07-19T17:14:11",
+  "generated_at": "2026-07-25T17:15:05",
   "report_title": "公司債事件策略投資報告",
   "report_status": "research_only",
   "summary": {
     "headline": "目前已有平均報酬超過 20% 的候選，但尚未達到正式操盤標準。",
     "reason": "競拍歷史資料目前集中在 2026 年，且最佳候選去除單一最大值後平均報酬降至 13.52%。",
-    "search_samples": 7398,
-    "matching_strategies": 5
+    "search_samples": 7519,
+    "matching_strategies": 2
   },
   "candidates": [
     {
@@ -17,15 +17,16 @@
       "exit": "競拍開始日後第 20 天出場",
       "conditions": [
         "買進前 10 日股價動能為正",
+        "買進前 20 日股價動能為正",
         "外資近 5 日累計買超"
       ],
       "metrics": {
-        "samples": 11,
-        "win_rate": 72.73,
-        "avg_return": 20.33,
-        "median_return": 11.47,
-        "trimmed_avg_return": 11.33,
-        "worst_return": -12.22,
+        "samples": 10,
+        "win_rate": 70.0,
+        "avg_return": 20.04,
+        "median_return": 20.79,
+        "trimmed_avg_return": 10.01,
+        "worst_return": -17.95,
         "best_return": 110.31,
         "years": [
           "2026"
@@ -41,90 +42,16 @@
       "exit": "競拍開始日後第 20 天出場",
       "conditions": [
         "買進前 10 日股價動能為正",
+        "買進前 20 日股價動能為正",
         "外資或投信近 5 日累計買超"
       ],
       "metrics": {
-        "samples": 11,
-        "win_rate": 72.73,
-        "avg_return": 20.33,
-        "median_return": 11.47,
-        "trimmed_avg_return": 11.33,
-        "worst_return": -12.22,
-        "best_return": 110.31,
-        "years": [
-          "2026"
-        ]
-      },
-      "warning": "平均報酬受單一大漲案例影響；去除最佳案例後未達 20%，目前不得自動下單。"
-    },
-    {
-      "status": "research_only",
-      "status_label": "研究候選，尚未通過",
-      "name": "競拍前法人動能策略",
-      "entry": "競拍開始日前 5 天，條件全部成立才考慮買進",
-      "exit": "競拍開始日後第 20 天出場",
-      "conditions": [
-        "買進前 10 日股價動能為正",
-        "近 5 日量能未超過 20 日均量 3 倍",
-        "外資近 5 日累計買超"
-      ],
-      "metrics": {
-        "samples": 11,
-        "win_rate": 72.73,
-        "avg_return": 20.33,
-        "median_return": 11.47,
-        "trimmed_avg_return": 11.33,
-        "worst_return": -12.22,
-        "best_return": 110.31,
-        "years": [
-          "2026"
-        ]
-      },
-      "warning": "平均報酬受單一大漲案例影響；去除最佳案例後未達 20%，目前不得自動下單。"
-    },
-    {
-      "status": "research_only",
-      "status_label": "研究候選，尚未通過",
-      "name": "競拍前法人動能策略",
-      "entry": "競拍開始日前 5 天，條件全部成立才考慮買進",
-      "exit": "競拍開始日後第 20 天出場",
-      "conditions": [
-        "買進前 10 日股價動能為正",
-        "近 5 日量能未超過 20 日均量 3 倍",
-        "外資或投信近 5 日累計買超"
-      ],
-      "metrics": {
-        "samples": 11,
-        "win_rate": 72.73,
-        "avg_return": 20.33,
-        "median_return": 11.47,
-        "trimmed_avg_return": 11.33,
-        "worst_return": -12.22,
-        "best_return": 110.31,
-        "years": [
-          "2026"
-        ]
-      },
-      "warning": "平均報酬受單一大漲案例影響；去除最佳案例後未達 20%，目前不得自動下單。"
-    },
-    {
-      "status": "research_only",
-      "status_label": "研究候選，尚未通過",
-      "name": "競拍前法人動能策略",
-      "entry": "競拍開始日前 5 天，條件全部成立才考慮買進",
-      "exit": "競拍開始日後第 20 天出場",
-      "conditions": [
-        "買進前 10 日股價動能為正",
-        "外資近 5 日累計買超",
-        "外資或投信近 5 日累計買超"
-      ],
-      "metrics": {
-        "samples": 11,
-        "win_rate": 72.73,
-        "avg_return": 20.33,
-        "median_return": 11.47,
-        "trimmed_avg_return": 11.33,
-        "worst_return": -12.22,
+        "samples": 10,
+        "win_rate": 70.0,
+        "avg_return": 20.04,
+        "median_return": 20.79,
+        "trimmed_avg_return": 10.01,
+        "worst_return": -17.95,
         "best_return": 110.31,
         "years": [
           "2026"

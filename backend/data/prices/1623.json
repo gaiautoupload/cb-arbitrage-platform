@@ -5188,5 +5188,55 @@
     "volume": 491008,
     "foreign_net": -177.1,
     "trust_net": 0.0
+  },
+  {
+    "date": "2026-07-20",
+    "open": 220.5,
+    "high": 226.5,
+    "low": 216.5,
+    "close": 219.5,
+    "volume": 221005,
+    "foreign_net": 13.4,
+    "trust_net": 0.0
+  },
+  {
+    "date": "2026-07-21",
+    "open": 221.5,
+    "high": 223.0,
+    "low": 219.5,
+    "close": 222.0,
+    "volume": 103200,
+    "foreign_net": -16.5,
+    "trust_net": 0.0
+  },
+  {
+    "date": "2026-07-22",
+    "open": 224.5,
+    "high": 224.5,
+    "low": 220.0,
+    "close": 220.0,
+    "volume": 110030,
+    "foreign_net": -36.0,
+    "trust_net": 0.0
+  },
+  {
+    "date": "2026-07-23",
+    "open": 220.5,
+    "high": 222.5,
+    "low": 217.5,
+    "close": 219.0,
+    "volume": 124010,
+    "foreign_net": -6.4,
+    "trust_net": 0.0
+  },
+  {
+    "date": "2026-07-24",
+    "open": 217.0,
+    "high": 220.0,
+    "low": 215.0,
+    "close": 219.0,
+    "volume": 134101,
+    "foreign_net": -30.9,
+    "trust_net": 0.0
   }
 ]
