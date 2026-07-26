@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-25T17:14:28",
+  "generated_at": "2026-07-26T17:13:53",
   "source_files": {
     "mops_wiki_db": "mops_wiki_db.json",
     "parsed_bonds": "parsed_bonds.json",
@@ -21746,45 +21746,6 @@
       "published_at": "2026-07-08T154906"
     },
     {
-      "stock_code": "5309",
-      "company_name": "巨漢系統",
-      "short_name": "系統電四",
-      "stage": "AUCTION_BID_START",
-      "date": "2026-07-23",
-      "source": "twsa_bids",
-      "confidence": 0.9,
-      "is_inferred": false,
-      "serial": "115050",
-      "underwriter": "富邦綜合證券股份有限公司",
-      "min_price": "102.00",
-      "bidding_period": "2026/07/23~2026/07/27"
-    },
-    {
-      "stock_code": "5309",
-      "company_name": "巨漢系統",
-      "short_name": "系統電四",
-      "stage": "AUCTION_BID_END",
-      "date": "2026-07-27",
-      "source": "twsa_bids",
-      "confidence": 0.9,
-      "is_inferred": false,
-      "serial": "115050",
-      "underwriter": "富邦綜合證券股份有限公司",
-      "min_price": "102.00",
-      "bidding_period": "2026/07/23~2026/07/27"
-    },
-    {
-      "stock_code": "5309",
-      "company_name": "巨漢系統",
-      "short_name": "系統電四",
-      "stage": "AUCTION_RESULT_ESTIMATED",
-      "date": "2026-07-28",
-      "source": "calendar_proxy",
-      "confidence": 0.35,
-      "is_inferred": true,
-      "serial": "115050"
-    },
-    {
       "stock_code": "5321",
       "company_name": "美而快國際股份有限公司",
       "short_name": "美而快一",
@@ -32963,6 +32924,20 @@
     },
     {
       "stock_code": "6903",
+      "company_name": "巨漢系統",
+      "short_name": "巨漢一",
+      "stage": "AUCTION_BID_START",
+      "date": "2026-07-23",
+      "source": "twsa_bids",
+      "confidence": 0.9,
+      "is_inferred": false,
+      "serial": "115050",
+      "underwriter": "富邦綜合證券股份有限公司",
+      "min_price": "102.00",
+      "bidding_period": "2026/07/23~2026/07/27"
+    },
+    {
+      "stock_code": "6903",
       "company_name": "巨漢系統科技股份有限公司",
       "short_name": "巨漢一",
       "stage": "LISTING",
@@ -32983,6 +32958,31 @@
       "confidence": 0.3,
       "is_inferred": true,
       "based_on": "2026-07-24"
+    },
+    {
+      "stock_code": "6903",
+      "company_name": "巨漢系統",
+      "short_name": "巨漢一",
+      "stage": "AUCTION_BID_END",
+      "date": "2026-07-27",
+      "source": "twsa_bids",
+      "confidence": 0.9,
+      "is_inferred": false,
+      "serial": "115050",
+      "underwriter": "富邦綜合證券股份有限公司",
+      "min_price": "102.00",
+      "bidding_period": "2026/07/23~2026/07/27"
+    },
+    {
+      "stock_code": "6903",
+      "company_name": "巨漢系統",
+      "short_name": "巨漢一",
+      "stage": "AUCTION_RESULT_ESTIMATED",
+      "date": "2026-07-28",
+      "source": "calendar_proxy",
+      "confidence": 0.35,
+      "is_inferred": true,
+      "serial": "115050"
     },
     {
       "stock_code": "6903",

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-25T17:00:39+08:00",
+  "generated_at": "2026-07-26T17:00:24+08:00",
   "source": "Google News RSS",
   "request_policy": "focus watchlist only; one query per stock; retries with backoff; preserve prior cache on failure",
   "stocks": {
@@ -129,9 +129,9 @@
           "published_at": "2026-06-23T15:00:00+08:00"
         },
         {
-          "title": "聯電（2303）衝160元只是第一根？PTT喊話停利設「台積電10%」 網瘋喊：目標價2303 - UDN",
-          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBHeFdyWFNVQkhNa0dRRGdPckozdlBhU29DQ3ZuMy1NNkhrMTBGelI0OHFKMjFTa1pGb2NwMU04a3IzQ1VDb3dWOGdIWkgtSjhUTXfSAVdBVV95cUxQTjFWWHRBbnNhRzlmcjhURGhpdk1PQkJsQjJtNXhVVEY5eGFFbmlGR2lkay1yTlQ2OWtCUmVwdlVDUlgxZDhsdU1yWVpwN3VfenhjUGFMU2M?oc=5",
-          "source": "UDN",
+          "title": "南亞等19檔6/24起打入處置股票 聯電等77檔列注意股 - 自由財經",
+          "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBiVWs4d1NJRFdaR2NwMjlMbGhtNlIzTm9LajFMMGZORm9NTnpVSW02ZTlnelhNUGhCUzAtbmxLaFZLLXp5TWg2aVRkTGtBMWh0U0k3TkdYTzdpS21FVnRJ0gFkQVVfeXFMUEtDTnJFbWJ2bVd6cjFmNVh4V0VMcjZEQzR5OWpsZ1B1bGYtaGVDbXZHbGprVkRNOXpINEtOdkEyRVE3Q0FIdUotLWVzMzJ4SmM0ME5vSmlVenl6eTZXRXZaN0w5Qg?oc=5",
+          "source": "自由財經",
           "published_at": "2026-06-23T15:00:00+08:00"
         }
       ],
@@ -145,19 +145,13 @@
           "title": "雍智科技(6683) 個股概覽 | 個股 - 股市 - CMoney",
           "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1aYkRjN1RvR3dfSmJqbFdtN2dEdGc4UmxnWDN3eHZRdWU1aDdsbHJkc0h6c2xUUUpkTkJxcHExcjJUVGw2TUtaYm1wUVp3Q2VZRWQ4?oc=5",
           "source": "CMoney",
-          "published_at": "2026-07-25T16:07:57+08:00"
+          "published_at": "2026-07-24T15:45:27+08:00"
         },
         {
           "title": "【07/22處置股公告】雍智科技(6683) 07/22到08/04列入處置股，採分盤交易-CMoney 小編 - CMoney投資網誌",
           "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNcXlLbUxtQXJzZDcwY29Oc012YWFDSjhHal9TNm9LNG5ZY0ZoMkh5YWp4ZEhqVHVjZmVIeXh0dW1rbElSOWFLaUZZSktjZ0YtWEJGYjk5MXNhc1FjQzdaWFZRckxlTTBJLWlfM210TlJDX1pPSlFia21qVmdaWUJYVE5QTW5SZ0hBUVE?oc=5",
           "source": "CMoney投資網誌",
           "published_at": "2026-07-22T11:10:09+08:00"
-        },
-        {
-          "title": "6683 雍智科技- 進處置了，20分盤- 股市爆料同學會 - CMoney",
-          "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBIaUkybVJQU2o1MFo1VG5zcEs2ZWsxLWNueFdkWUYzT0NyRFVXZC1idVRWSWE5SldxdUViVVhzOEVuMHhIRTdaa3dxSG5Sc3dud19ycU1zdWQ?oc=5",
-          "source": "CMoney",
-          "published_at": "2026-07-21T18:13:26+08:00"
         },
         {
           "title": "6683 雍智科技 - 公布了 - 股市爆料同學會 - CMoney",
@@ -200,6 +194,12 @@
           "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1NRUV3NjRWdEJMSVp2bjQwSGh2OHBEM0RpU1F6ZW9oNnhEM1F3Y2FwcnAzaHFGbVZSbXhkR2JZQkd5dkNMcGd1TExsQ3NmcUo2Q3NYR1pkZUxKSHEzTkNzSWQyWlRaX0k?oc=5",
           "source": "CMoney",
           "published_at": "2026-05-25T15:00:00+08:00"
+        },
+        {
+          "title": "6683 雍智科技- 沒救了-股市爆料同學會 - CMoney",
+          "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9DeDJGbW1XaTUxN2FSY2tMQW5CS0l3TF9KdHRJT1lxRkUtWk1yTVFWTEcwcXQ2elVXNUVDaGJ2TG5UREhGbmlmYy1VTDdiVFhfWW54aGNOVjc?oc=5",
+          "source": "CMoney",
+          "published_at": "2026-05-14T15:00:00+08:00"
         }
       ],
       "stale_cache": false

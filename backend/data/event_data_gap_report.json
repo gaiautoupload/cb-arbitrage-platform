@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-25T17:14:29",
+  "generated_at": "2026-07-26T17:13:53",
   "database": "D:\\bond\\backend\\data\\cb_event_master.sqlite",
   "required_stages": [
     "BOARD_RESOLUTION",
@@ -17,7 +17,7 @@
   ],
   "summary": {
     "issues": 542,
-    "events": 3239,
+    "events": 3242,
     "issues_with_missing_stages": 542
   },
   "stage_summary": {
@@ -42,14 +42,14 @@
       "issues_with_stage": 494
     },
     "AUCTION_BID_START": {
-      "observed_events": 47,
+      "observed_events": 48,
       "inferred_events": 0,
-      "issues_with_stage": 47
+      "issues_with_stage": 48
     },
     "AUCTION_BID_END": {
-      "observed_events": 47,
+      "observed_events": 48,
       "inferred_events": 0,
-      "issues_with_stage": 47
+      "issues_with_stage": 48
     },
     "BOOKBUILDING_START": {
       "observed_events": 0,
@@ -8717,7 +8717,7 @@
       "stock_code": "5309",
       "cb_code": "53094",
       "short_name": "系統電四",
-      "company_name": "巨漢系統",
+      "company_name": "系統電",
       "observed_stages": [
         "AUCTION_BID_END",
         "AUCTION_BID_START",
@@ -13195,11 +13195,14 @@
       "short_name": "巨漢一",
       "company_name": "巨漢系統科技股份有限公司",
       "observed_stages": [
+        "AUCTION_BID_END",
+        "AUCTION_BID_START",
         "BOARD_RESOLUTION",
         "LISTING",
         "PRICING"
       ],
       "inferred_stages": [
+        "AUCTION_RESULT_ESTIMATED",
         "CBAS_PROXY_END",
         "CBAS_PROXY_START",
         "EFFECTIVE",
@@ -13207,15 +13210,13 @@
       ],
       "missing_stages": [
         "FILING",
-        "AUCTION_BID_START",
-        "AUCTION_BID_END",
         "BOOKBUILDING_START",
         "BOOKBUILDING_END",
         "BOOKBUILDING_RESULT",
         "UNDERWRITING_NOTICE",
         "CBAS_ACTUAL"
       ],
-      "event_count": 7
+      "event_count": 10
     },
     {
       "issue_id": "issue_26d1056407a69426a3a3",

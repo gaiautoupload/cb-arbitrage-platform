@@ -189,7 +189,7 @@
       },
       {
         "name": "每日資料追蹤",
-        "date": "2026-07-25",
+        "date": "2026-07-26",
         "status": "active",
         "description": "追蹤董事會、申報送件、訂價、競拍或詢圈、承銷、掛牌及 CBAS 拆解時程。"
       }
@@ -378,7 +378,7 @@
         "title": "雍智科技(6683) 個股概覽 | 個股 - 股市 - CMoney",
         "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1aYkRjN1RvR3dfSmJqbFdtN2dEdGc4UmxnWDN3eHZRdWU1aDdsbHJkc0h6c2xUUUpkTkJxcHExcjJUVGw2TUtaYm1wUVp3Q2VZRWQ4?oc=5",
         "source": "CMoney",
-        "published_at": "2026-07-25T16:07:57+08:00"
+        "published_at": "2026-07-24T15:45:27+08:00"
       },
       {
         "title": "【07/22處置股公告】雍智科技(6683) 07/22到08/04列入處置股，採分盤交易-CMoney 小編 - CMoney投資網誌",
@@ -387,10 +387,10 @@
         "published_at": "2026-07-22T11:10:09+08:00"
       },
       {
-        "title": "6683 雍智科技- 進處置了，20分盤- 股市爆料同學會 - CMoney",
-        "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBIaUkybVJQU2o1MFo1VG5zcEs2ZWsxLWNueFdkWUYzT0NyRFVXZC1idVRWSWE5SldxdUViVVhzOEVuMHhIRTdaa3dxSG5Sc3dud19ycU1zdWQ?oc=5",
+        "title": "6683 雍智科技 - 公布了 - 股市爆料同學會 - CMoney",
+        "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE51VTBQZm5KYWVSdVNSODBqdjRDTl9pa05QQ3RwV1c1TkVCMWcwQnFJTG1OMERweXpmcDc1U0R3NTRSQUVHRzg2akNGdnU2eUhaX1VGOWNjdnM?oc=5",
         "source": "CMoney",
-        "published_at": "2026-07-21T18:13:26+08:00"
+        "published_at": "2026-07-21T16:44:09+08:00"
       }
     ],
     "operation_signals": {
@@ -1575,7 +1575,7 @@
     "event_date": "2026-07-06",
     "buy_date": "2026-07-01",
     "sell_date": "2026-07-26",
-    "current_stage_index": 1,
+    "current_stage_index": 2,
     "status_text": "條件未通過：外資近 5 日未累計買超",
     "status_type": "failed",
     "strategy_mode": "paper_trade_only",
@@ -1624,7 +1624,7 @@
       {
         "name": "第 20 天出場",
         "date": "2026-07-26",
-        "status": "upcoming",
+        "status": "active",
         "description": "暫定事件後第 20 天出場；單檔 -10% 先停損。"
       }
     ],
@@ -1638,7 +1638,7 @@
     "event_date": "2026-07-06",
     "buy_date": "2026-07-01",
     "sell_date": "2026-07-26",
-    "current_stage_index": 1,
+    "current_stage_index": 2,
     "status_text": "條件未通過：外資近 5 日未累計買超",
     "status_type": "failed",
     "strategy_mode": "paper_trade_only",
@@ -1687,7 +1687,7 @@
       {
         "name": "第 20 天出場",
         "date": "2026-07-26",
-        "status": "upcoming",
+        "status": "active",
         "description": "暫定事件後第 20 天出場；單檔 -10% 先停損。"
       }
     ],
@@ -1758,7 +1758,7 @@
   },
   {
     "stock_code": "5309",
-    "company_name": "巨漢系統",
+    "company_name": "5309",
     "bond_name": "53094",
     "expected_listing_date": null,
     "event_date": "2026-07-23",
@@ -1784,6 +1784,69 @@
       "failure_reasons": [
         "買進前 10 日動能未轉正",
         "外資近 5 日未累計買超"
+      ]
+    },
+    "stations": [
+      {
+        "name": "競拍時程已知",
+        "date": "2026-07-23",
+        "status": "completed",
+        "description": "使用正式競拍時程，不使用事後推算的掛牌倒數日。"
+      },
+      {
+        "name": "法人動能檢查",
+        "date": "2026-07-20",
+        "status": "failed",
+        "description": "10 日動能為正、外資 5 日買超且成交量未過熱。"
+      },
+      {
+        "name": "模擬買進",
+        "date": "2026-07-20",
+        "status": "failed",
+        "description": "條件全部成立才以買進日收盤價建立模擬部位。"
+      },
+      {
+        "name": "競拍開始",
+        "date": "2026-07-23",
+        "status": "completed",
+        "description": "進入競拍事件觀察期。"
+      },
+      {
+        "name": "第 20 天出場",
+        "date": "2026-08-12",
+        "status": "upcoming",
+        "description": "暫定事件後第 20 天出場；單檔 -10% 先停損。"
+      }
+    ],
+    "performance": null
+  },
+  {
+    "stock_code": "6903",
+    "company_name": "巨漢系統",
+    "bond_name": "69031",
+    "expected_listing_date": null,
+    "event_date": "2026-07-23",
+    "buy_date": "2026-07-20",
+    "sell_date": "2026-08-12",
+    "current_stage_index": 1,
+    "status_text": "條件未通過：買進前 10 日動能未轉正",
+    "status_type": "failed",
+    "strategy_mode": "paper_trade_only",
+    "strategy_info": {
+      "name": "候選：競拍前法人動能（模擬）",
+      "win_rate": 80.0,
+      "avg_return": 13.52,
+      "raw_avg_return": 23.2,
+      "status": "research_only"
+    },
+    "signal": {
+      "passed": false,
+      "momentum_10d": -12.3567,
+      "foreign_net_5d": 68.4,
+      "trust_net_5d": 68.4,
+      "volume_ratio_5v20": 1.3229,
+      "failure_reasons": [
+        "買進前 10 日動能未轉正"
       ]
     },
     "stations": [
