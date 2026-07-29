@@ -15623,5 +15623,129 @@
         "summary": "可轉債正式掛牌交易"
       }
     }
+  },
+  {
+    "stock_code": "8155",
+    "company_name": "博智電子股份有限公司",
+    "short_name": "博智二",
+    "stages": {
+      "BOARD_RESOLUTION": {
+        "date": "2026-05-20",
+        "title": "董事會決議發行無擔保轉換公司債",
+        "sentiment": "NEUTRAL",
+        "summary": "董事會通過發行可轉債以充實營運資金或償還債務"
+      },
+      "EFFECTIVE": {
+        "date": "2026-06-29",
+        "title": "金管會申報生效發行無擔保轉換公司債",
+        "sentiment": "BULLISH",
+        "summary": "可轉債申報生效，正式進入定價與發行準備期"
+      },
+      "PRICING": {
+        "date": "2026-07-29",
+        "title": "公告「博智二」發行及訂價等事宜 (櫃買公告)",
+        "sentiment": "NEUTRAL",
+        "summary": "櫃檯買賣中心公告發行資料"
+      },
+      "LISTING": {
+        "date": "2026-08-03",
+        "title": "「博智二」掛牌買賣/發行日",
+        "sentiment": "BULLISH",
+        "summary": "可轉債正式掛牌交易"
+      }
+    }
+  },
+  {
+    "stock_code": "5536",
+    "company_name": "聖暉工程科技股份有限公司",
+    "short_name": "聖暉二",
+    "stages": {
+      "BOARD_RESOLUTION": {
+        "date": "2026-07-27",
+        "title": "公告本公司國內第二次無擔保轉換公司債完成訂價",
+        "sentiment": "NEUTRAL",
+        "summary": "董事會/股東會決議: 公告本公司國內第二次無擔保轉換公司債完成訂價"
+      },
+      "EFFECTIVE": {
+        "date": "2026-06-30",
+        "title": "金管會申報生效發行無擔保轉換公司債",
+        "sentiment": "BULLISH",
+        "summary": "可轉債申報生效，正式進入定價與發行準備期"
+      },
+      "PRICING": {
+        "date": "2026-07-29",
+        "title": "公告「聖暉二」發行及訂價等事宜 (櫃買公告)",
+        "sentiment": "NEUTRAL",
+        "summary": "櫃檯買賣中心公告發行資料"
+      },
+      "LISTING": {
+        "date": "2026-08-04",
+        "title": "「聖暉二」掛牌買賣/發行日",
+        "sentiment": "BULLISH",
+        "summary": "可轉債正式掛牌交易"
+      }
+    }
+  },
+  {
+    "stock_code": "8438",
+    "company_name": "昶昕實業股份有限公司",
+    "short_name": "昶昕一",
+    "stages": {
+      "BOARD_RESOLUTION": {
+        "date": "2026-07-15",
+        "title": "公告本公司國內第一次無擔保轉換公司債之轉換價格\r\n及溢價率",
+        "sentiment": "NEUTRAL",
+        "summary": "董事會/股東會決議: 公告本公司國內第一次無擔保轉換公司債之轉換價格\r\n及溢價率"
+      },
+      "EFFECTIVE": {
+        "date": "2026-07-01",
+        "title": "金管會申報生效發行無擔保轉換公司債",
+        "sentiment": "BULLISH",
+        "summary": "可轉債申報生效，正式進入定價與發行準備期"
+      },
+      "PRICING": {
+        "date": "2026-07-29",
+        "title": "公告「昶昕一」發行及訂價等事宜 (櫃買公告)",
+        "sentiment": "NEUTRAL",
+        "summary": "櫃檯買賣中心公告發行資料"
+      },
+      "LISTING": {
+        "date": "2026-08-05",
+        "title": "「昶昕一」掛牌買賣/發行日",
+        "sentiment": "BULLISH",
+        "summary": "可轉債正式掛牌交易"
+      }
+    }
+  },
+  {
+    "stock_code": "4764",
+    "company_name": "雙鍵化工股份有限公司",
+    "short_name": "雙鍵二",
+    "stages": {
+      "BOARD_RESOLUTION": {
+        "date": "2026-05-22",
+        "title": "董事會決議發行無擔保轉換公司債",
+        "sentiment": "NEUTRAL",
+        "summary": "董事會通過發行可轉債以充實營運資金或償還債務"
+      },
+      "EFFECTIVE": {
+        "date": "2026-07-01",
+        "title": "金管會申報生效發行無擔保轉換公司債",
+        "sentiment": "BULLISH",
+        "summary": "可轉債申報生效，正式進入定價與發行準備期"
+      },
+      "PRICING": {
+        "date": "2026-07-29",
+        "title": "公告「雙鍵二」發行及訂價等事宜 (櫃買公告)",
+        "sentiment": "NEUTRAL",
+        "summary": "櫃檯買賣中心公告發行資料"
+      },
+      "LISTING": {
+        "date": "2026-08-05",
+        "title": "「雙鍵二」掛牌買賣/發行日",
+        "sentiment": "BULLISH",
+        "summary": "可轉債正式掛牌交易"
+      }
+    }
   }
 ]
