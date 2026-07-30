@@ -4881,6 +4881,68 @@
     "parsed_at": "2026-07-29T18:57:26"
   },
   {
+    "date": "2026-07-29",
+    "time": "155524",
+    "stock_code": "2221",
+    "company_name": "大甲",
+    "event_title": "公告本公司董事會決議辦理發行國內第一次無擔保轉換公司債",
+    "event_type": "CB_ISSUANCE",
+    "stage": "BOARD_RESOLUTION",
+    "wiki_details": {
+      "board_date": "115/07/29"
+    },
+    "sentiment": "NEUTRAL",
+    "summary": "董事會/股東會決議: 公告本公司董事會決議辦理發行國內第一次無擔保轉換公司債",
+    "parser": "rule_v2",
+    "parsed_at": "2026-07-30T18:39:13"
+  },
+  {
+    "date": "2026-07-29",
+    "time": "175601",
+    "stock_code": "4198",
+    "company_name": "欣大健康",
+    "event_title": "本公司董事會決議發行國內第一次有擔保轉換公司債",
+    "event_type": "CB_ISSUANCE",
+    "stage": "BOARD_RESOLUTION",
+    "wiki_details": {
+      "board_date": "115/07/29"
+    },
+    "sentiment": "NEUTRAL",
+    "summary": "董事會/股東會決議: 本公司董事會決議發行國內第一次有擔保轉換公司債",
+    "parser": "rule_v2",
+    "parsed_at": "2026-07-30T18:39:13"
+  },
+  {
+    "date": "2026-07-29",
+    "time": "160801",
+    "stock_code": "6274",
+    "company_name": "台燿",
+    "event_title": "董事會重要決議事項",
+    "event_type": "CB_ISSUANCE",
+    "stage": "BOARD_RESOLUTION",
+    "wiki_details": {},
+    "sentiment": "NEUTRAL",
+    "summary": "董事會/股東會決議: 董事會重要決議事項",
+    "parser": "rule_v2",
+    "parsed_at": "2026-07-30T18:39:13"
+  },
+  {
+    "date": "2026-07-29",
+    "time": "172959",
+    "stock_code": "6274",
+    "company_name": "台燿",
+    "event_title": "本公司董事會決議發行國內第六次無擔保轉換公司債",
+    "event_type": "CB_ISSUANCE",
+    "stage": "BOARD_RESOLUTION",
+    "wiki_details": {
+      "board_date": "115/07/29"
+    },
+    "sentiment": "NEUTRAL",
+    "summary": "董事會/股東會決議: 本公司董事會決議發行國內第六次無擔保轉換公司債",
+    "parser": "rule_v2",
+    "parsed_at": "2026-07-30T18:39:13"
+  },
+  {
     "date": "2026-02-12",
     "time": "140510",
     "stock_code": "3260",

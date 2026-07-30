@@ -66,16 +66,16 @@
     "focus_reason": "手動關注；目前已核對到的是現金增資，不納入 CB T-15 策略",
     "focus_added_at": "2026-07-16",
     "market_snapshot": {
-      "date": "2026-07-29",
-      "close": 253.0,
-      "ma5": 282.71,
-      "ma10": 286.91,
-      "ma20": 302.76,
+      "date": "2026-07-30",
+      "close": 236.5,
+      "ma5": 268.9,
+      "ma10": 278.13,
+      "ma20": 299.41,
       "ma_bull": false,
-      "foreign_net_5d": -695.7,
-      "trust_net_5d": 2210.0,
-      "volume_ratio_5v20": 1.07,
-      "chip_date": "2026-07-29"
+      "foreign_net_5d": -537.5,
+      "trust_net_5d": 2060.0,
+      "volume_ratio_5v20": 1.11,
+      "chip_date": "2026-07-30"
     },
     "latest_news": [
       {
@@ -107,26 +107,26 @@
       "cb_stage_date": null,
       "added_at": "2026-07-16",
       "market": {
-        "date": "2026-07-29",
-        "close": 253.0,
-        "ma5": 282.71,
-        "ma10": 286.91,
-        "ma20": 302.76,
-        "ma60": 305.64,
+        "date": "2026-07-30",
+        "close": 236.5,
+        "ma5": 268.9,
+        "ma10": 278.13,
+        "ma20": 299.41,
+        "ma60": 303.89,
         "ma_bull": false,
-        "momentum_20d_pct": -15.95,
-        "distance_from_60d_high_pct": -29.69,
-        "volume_ratio_5v20": 1.05
+        "momentum_20d_pct": -22.08,
+        "distance_from_60d_high_pct": -34.27,
+        "volume_ratio_5v20": 1.08
       },
       "top1": {
-        "chip_date": "2026-07-29",
-        "foreign_net_5d_shares": -695687.0,
-        "foreign_net_20d_shares": -1827962.0,
-        "trust_net_5d_shares": 2210000.0,
-        "trust_net_20d_shares": 5271000.0,
-        "foreign_consecutive_buy_days": 0,
-        "trust_consecutive_buy_days": 0,
-        "latest_trust_buy_pct_capital": 0.0,
+        "chip_date": "2026-07-30",
+        "foreign_net_5d_shares": -537482.0,
+        "foreign_net_20d_shares": -1696432.0,
+        "trust_net_5d_shares": 2060000.0,
+        "trust_net_20d_shares": 5771000.0,
+        "foreign_consecutive_buy_days": 1,
+        "trust_consecutive_buy_days": 1,
+        "latest_trust_buy_pct_capital": 0.5845,
         "share_count_date": "2025-12-31",
         "outstanding_shares": 85542100.0,
         "revenue_month": "2026-06",
@@ -141,10 +141,11 @@
       "long_strategy": {
         "state": "avoid",
         "action": "暫不建立長線部位",
-        "score": 2,
+        "score": 4,
         "max_score": 11,
         "positives": [
           "投信近5日買超",
+          "投信單日買超超過股本0.2%",
           "最新月營收正成長"
         ],
         "risks": [
@@ -228,16 +229,16 @@
     "focus_reason": "手動關注；目前已核對到的是現金增資，不納入 CB T-15 策略",
     "focus_added_at": "2026-07-16",
     "market_snapshot": {
-      "date": "2026-07-29",
-      "close": 253.0,
-      "ma5": 282.71,
-      "ma10": 286.91,
-      "ma20": 302.76,
+      "date": "2026-07-30",
+      "close": 236.5,
+      "ma5": 268.9,
+      "ma10": 278.13,
+      "ma20": 299.41,
       "ma_bull": false,
-      "foreign_net_5d": -695.7,
-      "trust_net_5d": 2210.0,
-      "volume_ratio_5v20": 1.07,
-      "chip_date": "2026-07-29"
+      "foreign_net_5d": -537.5,
+      "trust_net_5d": 2060.0,
+      "volume_ratio_5v20": 1.11,
+      "chip_date": "2026-07-30"
     },
     "latest_news": [
       {
@@ -269,26 +270,26 @@
       "cb_stage_date": null,
       "added_at": "2026-07-16",
       "market": {
-        "date": "2026-07-29",
-        "close": 253.0,
-        "ma5": 282.71,
-        "ma10": 286.91,
-        "ma20": 302.76,
-        "ma60": 305.64,
+        "date": "2026-07-30",
+        "close": 236.5,
+        "ma5": 268.9,
+        "ma10": 278.13,
+        "ma20": 299.41,
+        "ma60": 303.89,
         "ma_bull": false,
-        "momentum_20d_pct": -15.95,
-        "distance_from_60d_high_pct": -29.69,
-        "volume_ratio_5v20": 1.05
+        "momentum_20d_pct": -22.08,
+        "distance_from_60d_high_pct": -34.27,
+        "volume_ratio_5v20": 1.08
       },
       "top1": {
-        "chip_date": "2026-07-29",
-        "foreign_net_5d_shares": -695687.0,
-        "foreign_net_20d_shares": -1827962.0,
-        "trust_net_5d_shares": 2210000.0,
-        "trust_net_20d_shares": 5271000.0,
-        "foreign_consecutive_buy_days": 0,
-        "trust_consecutive_buy_days": 0,
-        "latest_trust_buy_pct_capital": 0.0,
+        "chip_date": "2026-07-30",
+        "foreign_net_5d_shares": -537482.0,
+        "foreign_net_20d_shares": -1696432.0,
+        "trust_net_5d_shares": 2060000.0,
+        "trust_net_20d_shares": 5771000.0,
+        "foreign_consecutive_buy_days": 1,
+        "trust_consecutive_buy_days": 1,
+        "latest_trust_buy_pct_capital": 0.5845,
         "share_count_date": "2025-12-31",
         "outstanding_shares": 85542100.0,
         "revenue_month": "2026-06",
@@ -303,10 +304,11 @@
       "long_strategy": {
         "state": "avoid",
         "action": "暫不建立長線部位",
-        "score": 2,
+        "score": 4,
         "max_score": 11,
         "positives": [
           "投信近5日買超",
+          "投信單日買超超過股本0.2%",
           "最新月營收正成長"
         ],
         "risks": [
@@ -349,23 +351,23 @@
       },
       {
         "name": "每日資料追蹤",
-        "date": "2026-07-29",
+        "date": "2026-07-30",
         "status": "active",
         "description": "追蹤董事會、申報送件、訂價、競拍或詢圈、承銷、掛牌及 CBAS 拆解時程。"
       }
     ],
     "performance": null,
     "market_snapshot": {
-      "date": "2026-07-29",
-      "close": 102.5,
-      "ma5": 121.7,
-      "ma10": 131.6,
-      "ma20": 145.37,
+      "date": "2026-07-30",
+      "close": 110.0,
+      "ma5": 116.0,
+      "ma10": 126.6,
+      "ma20": 142.74,
       "ma_bull": false,
-      "foreign_net_5d": 90451.3,
-      "trust_net_5d": -43326.0,
-      "volume_ratio_5v20": 1.54,
-      "chip_date": "2026-07-29"
+      "foreign_net_5d": 49744.2,
+      "trust_net_5d": -36631.7,
+      "volume_ratio_5v20": 1.94,
+      "chip_date": "2026-07-30"
     },
     "latest_news": [
       {
@@ -381,10 +383,10 @@
         "published_at": "2026-07-25T15:07:12+08:00"
       },
       {
-        "title": "聯電（2303）公司介紹！ 配息、股價、概念股與長期投資一次看懂 - 股股學院",
-        "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFA1aWk4WlRZZGJfS0pUUHZoYktDVk1HZ0NSQUk4Z29vMFZrQmRSSUlZc2xrT2lPdmdXX0ZzeUc4VjBkcjVXQjNXS0MxYndvQ0paUExwRmwycWJFOWtqb1hyT0x2SnI?oc=5",
-        "source": "股股學院",
-        "published_at": "2026-07-19T15:00:00+08:00"
+        "title": "個股：聯電(2303)子公司1/23～7/15處分台半股票3706張，獲利約1億3761萬元 - 富聯網",
+        "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNNFdkelhEcEVzUFZzOVR5MkxvM2s1MTNuQlZaRkZuSzhHZk53NVNzUm9OOTRhc1R5eTlkRGVHdnppRV92eDdKRTgybjR0djNnNkRWNTFhOEhEQW9fMlVqUDJHVWdtV3lhX0lhaVV3dzQwY0RZd0FGTnNkNEVQaTNSRjBLbE9qanlJ?oc=5",
+        "source": "富聯網",
+        "published_at": "2026-07-16T07:19:00+08:00"
       }
     ],
     "is_focus": true,
@@ -401,26 +403,26 @@
       "cb_stage_date": "2026-06-03",
       "added_at": "2026-07-16",
       "market": {
-        "date": "2026-07-29",
-        "close": 102.5,
-        "ma5": 121.7,
-        "ma10": 131.6,
-        "ma20": 145.37,
-        "ma60": 134.63,
+        "date": "2026-07-30",
+        "close": 110.0,
+        "ma5": 116.0,
+        "ma10": 126.6,
+        "ma20": 142.74,
+        "ma60": 134.96,
         "ma_bull": false,
-        "momentum_20d_pct": -38.31,
-        "distance_from_60d_high_pct": -41.59,
-        "volume_ratio_5v20": 1.35
+        "momentum_20d_pct": -32.4,
+        "distance_from_60d_high_pct": -37.32,
+        "volume_ratio_5v20": 1.57
       },
       "top1": {
-        "chip_date": "2026-07-29",
-        "foreign_net_5d_shares": 90451307.0,
-        "foreign_net_20d_shares": 121218673.0,
-        "trust_net_5d_shares": -43325984.0,
-        "trust_net_20d_shares": -177596569.0,
-        "foreign_consecutive_buy_days": 1,
+        "chip_date": "2026-07-30",
+        "foreign_net_5d_shares": 49744156.0,
+        "foreign_net_20d_shares": 19859469.0,
+        "trust_net_5d_shares": -36631746.0,
+        "trust_net_20d_shares": -135745060.0,
+        "foreign_consecutive_buy_days": 0,
         "trust_consecutive_buy_days": 0,
-        "latest_trust_buy_pct_capital": -0.1231,
+        "latest_trust_buy_pct_capital": -0.0247,
         "share_count_date": "2025-12-31",
         "outstanding_shares": 12588156300.0,
         "revenue_month": "2026-06",
@@ -522,16 +524,16 @@
     "focus_reason": "手動關注；第一次無擔保轉換公司債已申報生效並公告代收價款銀行",
     "focus_added_at": "2026-07-16",
     "market_snapshot": {
-      "date": "2026-07-29",
-      "close": 936.0,
-      "ma5": 1111.2,
-      "ma10": 1161.6,
-      "ma20": 1418.94,
+      "date": "2026-07-30",
+      "close": 843.0,
+      "ma5": 1032.8,
+      "ma10": 1110.9,
+      "ma20": 1372.79,
       "ma_bull": false,
-      "foreign_net_5d": 67.1,
-      "trust_net_5d": 0.0,
-      "volume_ratio_5v20": 0.19,
-      "chip_date": "2026-07-29"
+      "foreign_net_5d": 54.4,
+      "trust_net_5d": -15.0,
+      "volume_ratio_5v20": 0.25,
+      "chip_date": "2026-07-30"
     },
     "latest_news": [
       {
@@ -563,26 +565,26 @@
       "cb_stage_date": "2026-07-08",
       "added_at": "2026-07-16",
       "market": {
-        "date": "2026-07-29",
-        "close": 936.0,
-        "ma5": 1111.2,
-        "ma10": 1161.6,
-        "ma20": 1418.94,
-        "ma60": 1652.74,
+        "date": "2026-07-30",
+        "close": 843.0,
+        "ma5": 1032.8,
+        "ma10": 1110.9,
+        "ma20": 1372.79,
+        "ma60": 1627.07,
         "ma_bull": false,
-        "momentum_20d_pct": -48.31,
-        "distance_from_60d_high_pct": -60.72,
-        "volume_ratio_5v20": 0.24
+        "momentum_20d_pct": -52.27,
+        "distance_from_60d_high_pct": -64.47,
+        "volume_ratio_5v20": 0.3
       },
       "top1": {
-        "chip_date": "2026-07-29",
-        "foreign_net_5d_shares": 67101.0,
-        "foreign_net_20d_shares": 876246.0,
-        "trust_net_5d_shares": 0.0,
-        "trust_net_20d_shares": 34500.0,
-        "foreign_consecutive_buy_days": 5,
+        "chip_date": "2026-07-30",
+        "foreign_net_5d_shares": 54440.0,
+        "foreign_net_20d_shares": 912216.0,
+        "trust_net_5d_shares": -15000.0,
+        "trust_net_20d_shares": 18500.0,
+        "foreign_consecutive_buy_days": 6,
         "trust_consecutive_buy_days": 0,
-        "latest_trust_buy_pct_capital": 0.0,
+        "latest_trust_buy_pct_capital": -0.0546,
         "share_count_date": "2025-12-31",
         "outstanding_shares": 27467710.000000004,
         "revenue_month": "2026-06",
@@ -1720,7 +1722,7 @@
       {
         "name": "第 20 天出場",
         "date": "2026-07-29",
-        "status": "active",
+        "status": "completed",
         "description": "暫定事件後第 20 天出場；單檔 -10% 先停損。"
       }
     ],
@@ -2014,7 +2016,7 @@
       {
         "name": "競拍時程已知",
         "date": "2026-07-29",
-        "status": "active",
+        "status": "completed",
         "description": "使用正式競拍時程，不使用事後推算的掛牌倒數日。"
       },
       {
@@ -2032,7 +2034,7 @@
       {
         "name": "競拍開始",
         "date": "2026-07-29",
-        "status": "active",
+        "status": "completed",
         "description": "進入競拍事件觀察期。"
       },
       {

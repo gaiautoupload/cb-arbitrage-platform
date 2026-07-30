@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-29T19:11:26",
+  "generated_at": "2026-07-30T18:52:30",
   "source_files": {
     "mops_wiki_db": "mops_wiki_db.json",
     "parsed_bonds": "parsed_bonds.json",
@@ -12,11 +12,11 @@
     "Generated linked BOARD_RESOLUTION/EFFECTIVE dates are retained only as low-confidence proxy events."
   ],
   "summary": {
-    "total_events": 3255,
-    "actual_or_observed_events": 1151,
+    "total_events": 3258,
+    "actual_or_observed_events": 1154,
     "inferred_events": 2104,
     "by_stage": {
-      "BOARD_RESOLUTION": 514,
+      "BOARD_RESOLUTION": 517,
       "FILING": 3,
       "EFFECTIVE": 500,
       "PRICING": 499,
@@ -3833,6 +3833,20 @@
       "confidence": 0.3,
       "is_inferred": true,
       "based_on": "2020-02-24"
+    },
+    {
+      "stock_code": "2221",
+      "company_name": "大甲",
+      "short_name": "",
+      "stage": "BOARD_RESOLUTION",
+      "date": "2026-07-29",
+      "source": "mops_wiki_db",
+      "confidence": 0.85,
+      "is_inferred": false,
+      "title": "公告本公司董事會決議辦理發行國內第一次無擔保轉換公司債",
+      "summary": "董事會/股東會決議: 公告本公司董事會決議辦理發行國內第一次無擔保轉換公司債",
+      "event_type": "CB_ISSUANCE",
+      "published_at": "2026-07-29T155524"
     },
     {
       "stock_code": "2228",
@@ -17401,6 +17415,20 @@
       "source_ref": "t187ap04_L.json"
     },
     {
+      "stock_code": "4198",
+      "company_name": "欣大健康",
+      "short_name": "",
+      "stage": "BOARD_RESOLUTION",
+      "date": "2026-07-29",
+      "source": "mops_wiki_db",
+      "confidence": 0.85,
+      "is_inferred": false,
+      "title": "本公司董事會決議發行國內第一次有擔保轉換公司債",
+      "summary": "董事會/股東會決議: 本公司董事會決議發行國內第一次有擔保轉換公司債",
+      "event_type": "CB_ISSUANCE",
+      "published_at": "2026-07-29T175601"
+    },
+    {
       "stock_code": "4303",
       "company_name": "信立化學工業股份有限公司",
       "short_name": "信立一",
@@ -26815,6 +26843,20 @@
       "is_inferred": false,
       "title": "台燿四 issue/listing date",
       "cb_code": "62744"
+    },
+    {
+      "stock_code": "6274",
+      "company_name": "台燿",
+      "short_name": "台燿三",
+      "stage": "BOARD_RESOLUTION",
+      "date": "2026-07-29",
+      "source": "mops_wiki_db",
+      "confidence": 0.85,
+      "is_inferred": false,
+      "title": "董事會重要決議事項",
+      "summary": "董事會/股東會決議: 董事會重要決議事項",
+      "event_type": "CB_ISSUANCE",
+      "published_at": "2026-07-29T160801"
     },
     {
       "stock_code": "6275",

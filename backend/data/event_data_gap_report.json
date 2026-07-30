@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-29T19:11:27",
+  "generated_at": "2026-07-30T18:52:30",
   "database": "D:\\bond\\backend\\data\\cb_event_master.sqlite",
   "required_stages": [
     "BOARD_RESOLUTION",
@@ -16,15 +16,15 @@
     "CBAS_ACTUAL"
   ],
   "summary": {
-    "issues": 547,
-    "events": 3281,
-    "issues_with_missing_stages": 547
+    "issues": 549,
+    "events": 3284,
+    "issues_with_missing_stages": 549
   },
   "stage_summary": {
     "BOARD_RESOLUTION": {
-      "observed_events": 33,
+      "observed_events": 36,
       "inferred_events": 486,
-      "issues_with_stage": 501
+      "issues_with_stage": 503
     },
     "FILING": {
       "observed_events": 3,
@@ -1629,6 +1629,31 @@
         "CBAS_ACTUAL"
       ],
       "event_count": 7
+    },
+    {
+      "issue_id": "issue_782b9a0d89c4a22c9df5",
+      "stock_code": "2221",
+      "cb_code": null,
+      "short_name": null,
+      "company_name": "大甲",
+      "observed_stages": [
+        "BOARD_RESOLUTION"
+      ],
+      "inferred_stages": [],
+      "missing_stages": [
+        "FILING",
+        "EFFECTIVE",
+        "PRICING",
+        "AUCTION_BID_START",
+        "AUCTION_BID_END",
+        "BOOKBUILDING_START",
+        "BOOKBUILDING_END",
+        "BOOKBUILDING_RESULT",
+        "UNDERWRITING_NOTICE",
+        "LISTING",
+        "CBAS_ACTUAL"
+      ],
+      "event_count": 1
     },
     {
       "issue_id": "issue_8e5fa695856f802ad7ab",
@@ -7050,6 +7075,31 @@
       "event_count": 4
     },
     {
+      "issue_id": "issue_1fbccc9c985b7f369be1",
+      "stock_code": "4198",
+      "cb_code": null,
+      "short_name": null,
+      "company_name": "欣大健康",
+      "observed_stages": [
+        "BOARD_RESOLUTION"
+      ],
+      "inferred_stages": [],
+      "missing_stages": [
+        "FILING",
+        "EFFECTIVE",
+        "PRICING",
+        "AUCTION_BID_START",
+        "AUCTION_BID_END",
+        "BOOKBUILDING_START",
+        "BOOKBUILDING_END",
+        "BOOKBUILDING_RESULT",
+        "UNDERWRITING_NOTICE",
+        "LISTING",
+        "CBAS_ACTUAL"
+      ],
+      "event_count": 1
+    },
+    {
       "issue_id": "issue_3475ed7ebbe1019c2794",
       "stock_code": "4303",
       "cb_code": "43031",
@@ -10714,8 +10764,9 @@
       "stock_code": "6274",
       "cb_code": "62743",
       "short_name": "台燿三",
-      "company_name": "台燿科技股份有限公司",
+      "company_name": "台燿",
       "observed_stages": [
+        "BOARD_RESOLUTION",
         "LISTING",
         "PRICING"
       ],
@@ -10736,7 +10787,7 @@
         "UNDERWRITING_NOTICE",
         "CBAS_ACTUAL"
       ],
-      "event_count": 7
+      "event_count": 8
     },
     {
       "issue_id": "issue_c30c3b2f49fea89e0b1d",
