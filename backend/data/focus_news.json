@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-30T18:39:13+08:00",
+  "generated_at": "2026-07-31T18:43:34+08:00",
   "source": "Google News RSS",
   "request_policy": "focus watchlist only; one query per stock; retries with backoff; preserve prior cache on failure",
   "stocks": {
@@ -8,9 +8,9 @@
       "query_url": "https://news.google.com/rss/search?q=%22%E9%9B%99%E9%8D%B5%22%204764%20%E8%82%A1%E7%A5%A8&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
       "items": [
         {
-          "title": "《股市行事曆3-2》科際(4568)增資股上市、雙鍵(4764)除權 - 富聯網",
+          "title": "《股市行事曆3-2》科際(4568)增資股上市、雙鍵(4764)除權 - ww2.money-link.com.tw",
           "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPRXo2RW1zdHJCREhjY3JDazFPUkNMMWdra050OEVLd1hQSll0SDRIaE1PZTNwR3l6ZTE0NUdJTklXSEJQeFFfci03dWxpeVZtamZFSlU1Uko0WGs2aldINlM1d001UVA2U3RwTnVMUW9jVy0yUTBuRHFlOTN0QzJKY1ZQRjJzSHRU?oc=5",
-          "source": "富聯網",
+          "source": "ww2.money-link.com.tw",
           "published_at": "2026-07-24T07:40:00+08:00"
         },
         {
@@ -56,16 +56,16 @@
           "published_at": "2026-05-21T15:00:00+08:00"
         },
         {
-          "title": "【13:30 即時新聞】雙鍵(4764)亮燈漲停283.5元，受高階CCL樹脂與PCB上游題材帶動＋多頭格局延續主力持續加碼 - CMoney投資網誌",
-          "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPQklpNmtqQlN2Y1NqbndEeUZhNE5Yd0QzUVpoeHhhakxMcVZ4ZmNQNjIxRkg5bjdMSFJaMkd5WjNQaWhYTWt4Q3h6OHFSQkxUZFJkUGotVUFMc0l0QXVSQkwxdXlOS3VhWmZNLUVSZzgxdnpSR3JuTDNiS05JT3FnaVFWQWxlRWExNUxHR1RB?oc=5",
-          "source": "CMoney投資網誌",
-          "published_at": "2026-05-04T15:00:00+08:00"
+          "title": "【05/07處置股公告】雙鍵(4764) 05/07到05/20列入處置股，約每20分鐘撮合一次 - CMoney",
+          "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBpZktxX3U4ZGZld3pmeVNrckxkc3Bia0lrU2kzSzRfbm1CSHhRWktYb0xNeThaZDZfX2NXRUVBbHdKZWN0aVh1Y1ZvQWQzeHppX0FSTDZ5TEFHakpKbWdwRDhyUXZhYWs?oc=5",
+          "source": "CMoney",
+          "published_at": "2026-05-07T15:00:00+08:00"
         },
         {
-          "title": "【12:40 即時新聞】雙鍵(4764)股價大漲至255元，受高階CCL關鍵樹脂與營收爆發加持＋技術多頭格局下主力與法人買盤偏多 - CMoney",
-          "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBXWElqT1hNaHdGSTJ6UUdkMjJ6SXNOVXdSekRNSnNCMkFEQ2hscVpYdHdjMlJSZU94QjlUNG42U0tkcVh5X1RXbUxlbW1Iek5KY3BJWG1xOEJDV3pBWnN0N0RIRkFkNEU?oc=5",
-          "source": "CMoney",
-          "published_at": "2026-04-29T15:00:00+08:00"
+          "title": "【09:24 即時新聞】雙鍵(4764)攻上漲停342元，受高階CCL樹脂題材加持＋多頭技術結構與主力買盤同步強攻 - CMoney投資網誌",
+          "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPZzlmbmtZcWRWTFQxOE9mazkxOGhQSGszZ3BudzhqaDdJaE80bVhEckMwbXAtTWRUV3pXOXNOaURmWjU5SnA1OWpnbzZoRENIN3BOaHRkampIaXpLd2RRQ1pCODBaME9haGp1eThvaXNraHNfa09UcjJLd2RYYmJVZ0JwY2FzZGRZckZnT3BR?oc=5",
+          "source": "CMoney投資網誌",
+          "published_at": "2026-05-06T15:00:00+08:00"
         }
       ],
       "stale_cache": false
@@ -74,6 +74,12 @@
       "company_name": "聯電",
       "query_url": "https://news.google.com/rss/search?q=%22%E8%81%AF%E9%9B%BB%22%202303%20%E8%82%A1%E7%A5%A8&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
       "items": [
+        {
+          "title": "反指標女神又發威！才賣「聯電、廣閎科」停損　今開盤亮燈漲停 - ETtoday財經雲",
+          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5UY1ZrZWViaXJtRUlrOXpCRksxMVNNZ2ItX2hDUTZDRkVHR1BSMnI5Q0tkSlJTaUNyUWhidWpqYmwtRy00YXY5LUs2Ty1BODFyWEHSAVBBVV95cUxOUUp5MnZVcXYwOXozSno3UF9Dc25xR2Q5bURNZUp3TmY3UHhyYzZScG9EUEIwdDBRWjQ1eVRoZDgxb0c1VDE5YkJaeXgwcVF1Rg?oc=5",
+          "source": "ETtoday財經雲",
+          "published_at": "2026-07-31T12:01:00+08:00"
+        },
         {
           "title": "聯電殺瘋了！法說會倒數股價先崩 股民崩潰「股票被超度了」 - 自由財經",
           "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE93THJJT0dCWkhNcEJPcEhqWlBVTmxwWjhLa1FlWHU0dHZSQVQtWUdOMkFwQ0ctZm9VNmhSMDZ5T1lwenFlQUgzZG00ZWdrUWQyb2V0Q1FENjhqNjdEN01N0gFkQVVfeXFMUHd0WTBYNHM5RVVSdS1QbWtzV3VPblB3YWJzcVUyMW55b2J1bUdQVmZsTXZWM1pRYWtaOEstTjJpYlhIQmRBZVItcnlQb2dscURDWWV2Z3FpcDAxZGd3ZXNuemlPYw?oc=5",
@@ -87,10 +93,16 @@
           "published_at": "2026-07-25T15:07:12+08:00"
         },
         {
-          "title": "個股：聯電(2303)子公司1/23～7/15處分台半股票3706張，獲利約1億3761萬元 - 富聯網",
+          "title": "個股：聯電(2303)子公司1/23～7/15處分台半股票3706張，獲利約1億3761萬元 - ww2.money-link.com.tw",
           "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNNFdkelhEcEVzUFZzOVR5MkxvM2s1MTNuQlZaRkZuSzhHZk53NVNzUm9OOTRhc1R5eTlkRGVHdnppRV92eDdKRTgybjR0djNnNkRWNTFhOEhEQW9fMlVqUDJHVWdtV3lhX0lhaVV3dzQwY0RZd0FGTnNkNEVQaTNSRjBLbE9qanlJ?oc=5",
-          "source": "富聯網",
+          "source": "ww2.money-link.com.tw",
           "published_at": "2026-07-16T07:19:00+08:00"
+        },
+        {
+          "title": "00888擁20％聯電（2303）黑馬！今年狂漲近1倍、年化配息破18％ 股添樂：制霸大方配息榜| 存股族愛ETF | 股市 - UDN",
+          "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBkMnl5WVBIeWpEWjk4bTJJODhNcXBYR25pbUZ3dGdaX1BZT0NVb3ptRE5uc2pZdGgwaU15TUwwbEp4U1JjYWw3LXp5RVJiUUF4NEhR?oc=5",
+          "source": "UDN",
+          "published_at": "2026-07-08T15:00:00+08:00"
         },
         {
           "title": "聯電列處置股關禁閉，股價下殺近6%可以買？外資連3天買超逾11萬張、目標價又調升：4成空間還不賴 - 今周刊",
@@ -121,18 +133,6 @@
           "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBDbzBkOFdpS1pIcmJsN2VfcTZxektVUWliVFZuVXBkTmhLRnZBSlIzX1RYVE5uRXhRRU9NSS1mVTloZHdmenAwREJ3OU1GM2gt0gFWQVVfeXFMTV93TXZxTkFjbG8yMXRBbHpPNmF6UTRoM3BtWTRrQmRpLTZUbWRULWI1dUM2bzJyaTh3SmdjN3hrcmduN0xMTzRSWTB2Q1JQYXNBLXo0ZEE?oc=5",
           "source": "UDN",
           "published_at": "2026-06-23T15:00:00+08:00"
-        },
-        {
-          "title": "聯電（2303）衝160元只是第一根？PTT喊話停利設「台積電10%」 網瘋喊：目標價2303 - UDN",
-          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBHeFdyWFNVQkhNa0dRRGdPckozdlBhU29DQ3ZuMy1NNkhrMTBGelI0OHFKMjFTa1pGb2NwMU04a3IzQ1VDb3dWOGdIWkgtSjhUTXfSAVdBVV95cUxQTjFWWHRBbnNhRzlmcjhURGhpdk1PQkJsQjJtNXhVVEY5eGFFbmlGR2lkay1yTlQ2OWtCUmVwdlVDUlgxZDhsdU1yWVpwN3VfenhjUGFMU2M?oc=5",
-          "source": "UDN",
-          "published_at": "2026-06-23T15:00:00+08:00"
-        },
-        {
-          "title": "南亞等19檔6/24起打入處置股票 聯電等77檔列注意股 - 自由財經",
-          "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBiVWs4d1NJRFdaR2NwMjlMbGhtNlIzTm9LajFMMGZORm9NTnpVSW02ZTlnelhNUGhCUzAtbmxLaFZLLXp5TWg2aVRkTGtBMWh0U0k3TkdYTzdpS21FVnRJ0gFkQVVfeXFMUEtDTnJFbWJ2bVd6cjFmNVh4V0VMcjZEQzR5OWpsZ1B1bGYtaGVDbXZHbGprVkRNOXpINEtOdkEyRVE3Q0FIdUotLWVzMzJ4SmM0ME5vSmlVenl6eTZXRXZaN0w5Qg?oc=5",
-          "source": "自由財經",
-          "published_at": "2026-06-23T15:00:00+08:00"
         }
       ],
       "stale_cache": false
@@ -148,9 +148,9 @@
           "published_at": "2026-07-22T11:10:09+08:00"
         },
         {
-          "title": "《台北股市》處置股：29日「+3=60檔」 雍智科技、迅杰等入列(2-1) - 富聯網",
+          "title": "《台北股市》處置股：29日「+3=60檔」 雍智科技、迅杰等入列(2-1) - ww2.money-link.com.tw",
           "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxObnlPeTU3OGxXYllwanI0Tm1TcVdRTFlNREZ5dTBLdWFjbWpWWXltV0JXRmNVOXFvb0tRaU5xbkZBcXdKUzZ2QTBGQVRBT2h2UWRsbWFPblhrRXRQNVlDbHpXXzkxNGJwcU9hZ1AzcV9FOFZTWlB1ampBNzl4bTFQd3BkQU44NF8x?oc=5",
-          "source": "富聯網",
+          "source": "ww2.money-link.com.tw",
           "published_at": "2026-06-29T15:00:00+08:00"
         },
         {
@@ -158,12 +158,6 @@
           "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE52WjRBN3J1S1F6ZUphXy1VeWJVeW5QSGFsMzV6R2hybVpSZWVNb05vVExGd19vRVl0VW9rT0ZRQ19wWG9FRjZXUzQzaUlTTlZQWk04d2E1SFlTcmxpZ2pV0gFkQVVfeXFMUEN4dmIzVEhKNDRIMFp1TjFDN1RKVk1rVlhzYnZYVGtSTmV0RDZUQmxHZEFWaHZXUnZyWUZMZjNyWk9yYTViVUVla245NnAzT1V5dzJMUHp4YXNVM0FGTXRxMTVvYw?oc=5",
           "source": "自由財經",
           "published_at": "2026-06-26T19:08:43+08:00"
-        },
-        {
-          "title": "雍智科技等6/29起打入處置 聯發科、信驊等67檔列注意股 - 自由時報",
-          "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9yTlhoMm1LWDFCTFQ4WTJVbmN1RE15a1VrRmRzSm9kcVpFWDZmYlpmNGxWQjFoT1N1b25MS2NUS3pTc2J6czNCSXFDMVp0WlcyQ3p1bDhiUmg?oc=5",
-          "source": "自由時報",
-          "published_at": "2026-06-26T15:00:00+08:00"
         },
         {
           "title": "【11:16 即時新聞】雍智科技(6683)股價勁揚逾7%，AI高階測試題材帶動買盤迴流＋中長多頭結構轉強吸引資金卡位 - CMoney投資網誌",
@@ -194,6 +188,12 @@
           "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1NRUV3NjRWdEJMSVp2bjQwSGh2OHBEM0RpU1F6ZW9oNnhEM1F3Y2FwcnAzaHFGbVZSbXhkR2JZQkd5dkNMcGd1TExsQ3NmcUo2Q3NYR1pkZUxKSHEzTkNzSWQyWlRaX0k?oc=5",
           "source": "CMoney",
           "published_at": "2026-05-25T15:00:00+08:00"
+        },
+        {
+          "title": "不能出錯！第1季毛利率往下掉 貿聯、雍智科技連兩根跌停 - UDN",
+          "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBSb2lZZkVCZWJUM2lhbnA5eEk5dUtIOFh3Y0k3Nk5lMTJnbzdTYTJKZWpjQVhVWmpERnQ5MXdqQXdEdHl2Nk1jY0ZVYTc2NUpx0gFWQVVfeXFMUGp3dXJYVGxmSTZfQmNjTi0xWDAzYUVZODBUZlI5Y19pR04xMlV0ekQ3SGhVNTNzbjZmWHpfbi0zMnA1Yzc0TjRDMWctX3RXYVYyUzdfYXc?oc=5",
+          "source": "UDN",
+          "published_at": "2026-05-14T15:00:00+08:00"
         },
         {
           "title": "6683 雍智科技- 沒救了-股市爆料同學會 - CMoney",

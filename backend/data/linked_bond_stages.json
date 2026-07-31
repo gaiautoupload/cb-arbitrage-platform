@@ -15747,5 +15747,36 @@
         "summary": "可轉債正式掛牌交易"
       }
     }
+  },
+  {
+    "stock_code": "6903",
+    "company_name": "巨漢系統科技股份有限公司",
+    "short_name": "巨漢二",
+    "stages": {
+      "BOARD_RESOLUTION": {
+        "date": "2026-07-08",
+        "title": "公告本公司國內第一次暨第二次無擔保轉換公司債代收價款行庫\n\n及存儲專戶行庫",
+        "sentiment": "NEUTRAL",
+        "summary": "董事會/股東會決議: 公告本公司國內第一次暨第二次無擔保轉換公司債代收價款行庫\n\n及存儲專戶行庫"
+      },
+      "EFFECTIVE": {
+        "date": "2026-07-03",
+        "title": "金管會申報生效發行無擔保轉換公司債",
+        "sentiment": "BULLISH",
+        "summary": "可轉債申報生效，正式進入定價與發行準備期"
+      },
+      "PRICING": {
+        "date": "2026-07-31",
+        "title": "公告「巨漢二」發行及訂價等事宜 (櫃買公告)",
+        "sentiment": "NEUTRAL",
+        "summary": "櫃檯買賣中心公告發行資料"
+      },
+      "LISTING": {
+        "date": "2026-08-07",
+        "title": "「巨漢二」掛牌買賣/發行日",
+        "sentiment": "BULLISH",
+        "summary": "可轉債正式掛牌交易"
+      }
+    }
   }
 ]

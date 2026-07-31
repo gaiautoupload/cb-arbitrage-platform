@@ -7633,5 +7633,20 @@
     "maturity_date_minguo": "118年8月5日",
     "maturity_date": "2029-08-05",
     "issue_amount": "新臺幣5億元整"
+  },
+  {
+    "file_id": "11500050451",
+    "company_name": "巨漢系統科技股份有限公司",
+    "bond_name": "巨漢系統科技股份有限公司國內第二次無擔保轉換公司債",
+    "cb_code": "69032",
+    "stock_code": "6903",
+    "short_name": "巨漢二",
+    "announcement_date_minguo": "115年7月31日",
+    "announcement_date": "2026-07-31",
+    "issue_date_minguo": "115年8月7日",
+    "issue_date": "2026-08-07",
+    "maturity_date_minguo": "118年8月7日",
+    "maturity_date": "2029-08-07",
+    "issue_amount": "新台幣10億元整"
   }
 ]

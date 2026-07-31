@@ -574,5 +574,29 @@
     "bidding_shares_thousand": "17,600",
     "bidding_period": "2026/07/29~2026/07/31",
     "min_price": "105.00"
+  },
+  {
+    "serial": "115054",
+    "company_name": "第五次",
+    "full_company_name": "國統國際股份有限公司(第五次)",
+    "ticker": null,
+    "underwriter": "台新綜合證券股份有限公司",
+    "bond_type": "有擔保轉換公司債",
+    "shares_thousand": "6,000",
+    "bidding_shares_thousand": "5,100",
+    "bidding_period": "2026/07/31~2026/08/04",
+    "min_price": "102.00"
+  },
+  {
+    "serial": "115055",
+    "company_name": "聖暉工程",
+    "full_company_name": "聖暉工程科技股份有限公司",
+    "ticker": "5536",
+    "underwriter": "國票綜合證券股份有限公司",
+    "bond_type": "無擔保轉換公司債",
+    "shares_thousand": "15,000",
+    "bidding_shares_thousand": "12,750",
+    "bidding_period": "2026/07/31~2026/08/04",
+    "min_price": "102.00"
   }
 ]

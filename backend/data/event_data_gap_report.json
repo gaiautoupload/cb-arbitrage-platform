@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-30T18:52:30",
+  "generated_at": "2026-07-31T18:57:19",
   "database": "D:\\bond\\backend\\data\\cb_event_master.sqlite",
   "required_stages": [
     "BOARD_RESOLUTION",
@@ -16,40 +16,40 @@
     "CBAS_ACTUAL"
   ],
   "summary": {
-    "issues": 549,
-    "events": 3284,
-    "issues_with_missing_stages": 549
+    "issues": 552,
+    "events": 3296,
+    "issues_with_missing_stages": 552
   },
   "stage_summary": {
     "BOARD_RESOLUTION": {
-      "observed_events": 36,
+      "observed_events": 39,
       "inferred_events": 486,
-      "issues_with_stage": 503
+      "issues_with_stage": 504
     },
     "FILING": {
-      "observed_events": 3,
+      "observed_events": 4,
       "inferred_events": 0,
-      "issues_with_stage": 3
+      "issues_with_stage": 4
     },
     "EFFECTIVE": {
       "observed_events": 1,
-      "inferred_events": 500,
-      "issues_with_stage": 499
+      "inferred_events": 501,
+      "issues_with_stage": 500
     },
     "PRICING": {
-      "observed_events": 499,
+      "observed_events": 500,
       "inferred_events": 0,
-      "issues_with_stage": 498
+      "issues_with_stage": 499
     },
     "AUCTION_BID_START": {
-      "observed_events": 52,
+      "observed_events": 53,
       "inferred_events": 0,
-      "issues_with_stage": 52
+      "issues_with_stage": 53
     },
     "AUCTION_BID_END": {
-      "observed_events": 52,
+      "observed_events": 53,
       "inferred_events": 0,
-      "issues_with_stage": 52
+      "issues_with_stage": 53
     },
     "BOOKBUILDING_START": {
       "observed_events": 0,
@@ -72,9 +72,9 @@
       "issues_with_stage": 0
     },
     "LISTING": {
-      "observed_events": 502,
+      "observed_events": 503,
       "inferred_events": 0,
-      "issues_with_stage": 499
+      "issues_with_stage": 500
     },
     "CBAS_ACTUAL": {
       "observed_events": 0,
@@ -1767,6 +1767,31 @@
         "CBAS_ACTUAL"
       ],
       "event_count": 7
+    },
+    {
+      "issue_id": "issue_0bf555a623daf1796874",
+      "stock_code": "2303",
+      "cb_code": null,
+      "short_name": null,
+      "company_name": "聯電",
+      "observed_stages": [
+        "BOARD_RESOLUTION"
+      ],
+      "inferred_stages": [],
+      "missing_stages": [
+        "FILING",
+        "EFFECTIVE",
+        "PRICING",
+        "AUCTION_BID_START",
+        "AUCTION_BID_END",
+        "BOOKBUILDING_START",
+        "BOOKBUILDING_END",
+        "BOOKBUILDING_RESULT",
+        "UNDERWRITING_NOTICE",
+        "LISTING",
+        "CBAS_ACTUAL"
+      ],
+      "event_count": 1
     },
     {
       "issue_id": "issue_094dc79a73a0ef2c1e78",
@@ -3626,6 +3651,32 @@
       "event_count": 7
     },
     {
+      "issue_id": "issue_2174baa05333b496cc5d",
+      "stock_code": "3081",
+      "cb_code": null,
+      "short_name": null,
+      "company_name": "聯亞",
+      "observed_stages": [
+        "PAYMENT_BANK"
+      ],
+      "inferred_stages": [],
+      "missing_stages": [
+        "BOARD_RESOLUTION",
+        "FILING",
+        "EFFECTIVE",
+        "PRICING",
+        "AUCTION_BID_START",
+        "AUCTION_BID_END",
+        "BOOKBUILDING_START",
+        "BOOKBUILDING_END",
+        "BOOKBUILDING_RESULT",
+        "UNDERWRITING_NOTICE",
+        "LISTING",
+        "CBAS_ACTUAL"
+      ],
+      "event_count": 1
+    },
+    {
       "issue_id": "issue_b7ae0dc98ba8a0a1dfb3",
       "stock_code": "3088",
       "cb_code": "30882",
@@ -3827,8 +3878,9 @@
       "stock_code": "3141",
       "cb_code": "31411",
       "short_name": "晶宏一",
-      "company_name": "晶宏半導體股份有限公司",
+      "company_name": "晶宏",
       "observed_stages": [
+        "BOARD_RESOLUTION",
         "LISTING",
         "PRICING"
       ],
@@ -3849,7 +3901,7 @@
         "UNDERWRITING_NOTICE",
         "CBAS_ACTUAL"
       ],
-      "event_count": 7
+      "event_count": 8
     },
     {
       "issue_id": "issue_02689aada98f16e99363",
@@ -4165,8 +4217,9 @@
       "stock_code": "3260",
       "cb_code": "32607",
       "short_name": "威剛七",
-      "company_name": "威剛科技股份有限公司",
+      "company_name": "威剛",
       "observed_stages": [
+        "BOARD_RESOLUTION",
         "LISTING",
         "PRICING"
       ],
@@ -4187,7 +4240,7 @@
         "UNDERWRITING_NOTICE",
         "CBAS_ACTUAL"
       ],
-      "event_count": 7
+      "event_count": 8
     },
     {
       "issue_id": "issue_abbe40dace546905ed9b",
@@ -5717,6 +5770,7 @@
       "company_name": "辛耘",
       "observed_stages": [
         "BOARD_RESOLUTION",
+        "FILING",
         "LISTING",
         "PRICING"
       ],
@@ -5728,7 +5782,6 @@
         "T_PLUS_19_EXIT_PROXY"
       ],
       "missing_stages": [
-        "FILING",
         "AUCTION_BID_START",
         "AUCTION_BID_END",
         "BOOKBUILDING_START",
@@ -5737,7 +5790,7 @@
         "UNDERWRITING_NOTICE",
         "CBAS_ACTUAL"
       ],
-      "event_count": 8
+      "event_count": 9
     },
     {
       "issue_id": "issue_8ebb257956a34adff853",
@@ -9188,14 +9241,17 @@
       "stock_code": "5536",
       "cb_code": "55361",
       "short_name": "聖暉一",
-      "company_name": "聖暉*",
+      "company_name": "聖暉工程",
       "observed_stages": [
+        "AUCTION_BID_END",
+        "AUCTION_BID_START",
         "BOARD_RESOLUTION",
         "LISTING",
         "PAYMENT_BANK",
         "PRICING"
       ],
       "inferred_stages": [
+        "AUCTION_RESULT_ESTIMATED",
         "BOARD_RESOLUTION",
         "CBAS_PROXY_END",
         "CBAS_PROXY_START",
@@ -9204,15 +9260,13 @@
       ],
       "missing_stages": [
         "FILING",
-        "AUCTION_BID_START",
-        "AUCTION_BID_END",
         "BOOKBUILDING_START",
         "BOOKBUILDING_END",
         "BOOKBUILDING_RESULT",
         "UNDERWRITING_NOTICE",
         "CBAS_ACTUAL"
       ],
-      "event_count": 9
+      "event_count": 12
     },
     {
       "issue_id": "issue_d850aace29fbd3bd9f51",
@@ -11949,6 +12003,7 @@
       "observed_stages": [
         "BOARD_RESOLUTION",
         "LISTING",
+        "PAYMENT_BANK",
         "PRICING"
       ],
       "inferred_stages": [
@@ -11968,7 +12023,7 @@
         "UNDERWRITING_NOTICE",
         "CBAS_ACTUAL"
       ],
-      "event_count": 8
+      "event_count": 9
     },
     {
       "issue_id": "issue_d019eb441879ee46290f",
@@ -13352,6 +13407,32 @@
         "CBAS_ACTUAL"
       ],
       "event_count": 10
+    },
+    {
+      "issue_id": "issue_04d7002f325c3c250428",
+      "stock_code": "6903",
+      "cb_code": "69032",
+      "short_name": "巨漢二",
+      "company_name": "巨漢系統科技股份有限公司",
+      "observed_stages": [
+        "LISTING",
+        "PRICING"
+      ],
+      "inferred_stages": [
+        "EFFECTIVE"
+      ],
+      "missing_stages": [
+        "BOARD_RESOLUTION",
+        "FILING",
+        "AUCTION_BID_START",
+        "AUCTION_BID_END",
+        "BOOKBUILDING_START",
+        "BOOKBUILDING_END",
+        "BOOKBUILDING_RESULT",
+        "UNDERWRITING_NOTICE",
+        "CBAS_ACTUAL"
+      ],
+      "event_count": 3
     },
     {
       "issue_id": "issue_26d1056407a69426a3a3",

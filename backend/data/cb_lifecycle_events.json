@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-30T18:52:30",
+  "generated_at": "2026-07-31T18:57:18",
   "source_files": {
     "mops_wiki_db": "mops_wiki_db.json",
     "parsed_bonds": "parsed_bonds.json",
@@ -12,19 +12,19 @@
     "Generated linked BOARD_RESOLUTION/EFFECTIVE dates are retained only as low-confidence proxy events."
   ],
   "summary": {
-    "total_events": 3258,
-    "actual_or_observed_events": 1154,
-    "inferred_events": 2104,
+    "total_events": 3270,
+    "actual_or_observed_events": 1164,
+    "inferred_events": 2106,
     "by_stage": {
-      "BOARD_RESOLUTION": 517,
-      "FILING": 3,
-      "EFFECTIVE": 500,
-      "PRICING": 499,
-      "PAYMENT_BANK": 19,
-      "AUCTION_BID_START": 48,
-      "AUCTION_BID_END": 48,
-      "AUCTION_RESULT_ESTIMATED": 48,
-      "LISTING": 502,
+      "BOARD_RESOLUTION": 520,
+      "FILING": 4,
+      "EFFECTIVE": 501,
+      "PRICING": 500,
+      "PAYMENT_BANK": 21,
+      "AUCTION_BID_START": 49,
+      "AUCTION_BID_END": 49,
+      "AUCTION_RESULT_ESTIMATED": 49,
+      "LISTING": 503,
       "CBAS_PROXY_START": 358,
       "CBAS_PROXY_END": 358,
       "T_PLUS_19_EXIT_PROXY": 358
@@ -4138,6 +4138,20 @@
       "confidence": 0.3,
       "is_inferred": true,
       "based_on": "2022-08-29"
+    },
+    {
+      "stock_code": "2303",
+      "company_name": "聯電",
+      "short_name": "",
+      "stage": "BOARD_RESOLUTION",
+      "date": "2026-07-30",
+      "source": "mops_wiki_db",
+      "confidence": 0.85,
+      "is_inferred": false,
+      "title": "公告本公司國內第一次無擔保轉換公司債之轉換價格及\r\n溢價率",
+      "summary": "董事會/股東會決議: 公告本公司國內第一次無擔保轉換公司債之轉換價格及\r\n溢價率",
+      "event_type": "CB_ISSUANCE",
+      "published_at": "2026-07-30T164924"
     },
     {
       "stock_code": "2316",
@@ -8766,6 +8780,20 @@
       "based_on": "2021-03-30"
     },
     {
+      "stock_code": "3081",
+      "company_name": "聯亞",
+      "short_name": "",
+      "stage": "PAYMENT_BANK",
+      "date": "2026-07-30",
+      "source": "mops_wiki_db",
+      "confidence": 0.85,
+      "is_inferred": false,
+      "title": "公告本公司國內第二次無擔保轉換公司債\r\n代收價款行庫及存儲專戶行庫",
+      "summary": "代收價款/專戶: 公告本公司國內第二次無擔保轉換公司債\r\n代收價款行庫及存儲專戶行庫",
+      "event_type": "CB_ISSUANCE",
+      "published_at": "2026-07-30T150821"
+    },
+    {
       "stock_code": "3088",
       "company_name": "艾訊股份有限公司",
       "short_name": "艾訊二",
@@ -9442,6 +9470,20 @@
       "is_inferred": false,
       "title": "晶宏三 issue/listing date",
       "cb_code": "31413"
+    },
+    {
+      "stock_code": "3141",
+      "company_name": "晶宏",
+      "short_name": "晶宏一",
+      "stage": "BOARD_RESOLUTION",
+      "date": "2026-07-30",
+      "source": "mops_wiki_db",
+      "confidence": 0.85,
+      "is_inferred": false,
+      "title": "公告本公司國內第四次無擔保轉換公司債轉換價格及轉換溢價率",
+      "summary": "董事會/股東會決議: 公告本公司國內第四次無擔保轉換公司債轉換價格及轉換溢價率",
+      "event_type": "CB_ISSUANCE",
+      "published_at": "2026-07-30T191931"
     },
     {
       "stock_code": "3149",
@@ -10185,6 +10227,20 @@
       "confidence": 0.3,
       "is_inferred": true,
       "based_on": "2020-09-28"
+    },
+    {
+      "stock_code": "3260",
+      "company_name": "威剛",
+      "short_name": "威剛七",
+      "stage": "BOARD_RESOLUTION",
+      "date": "2026-07-30",
+      "source": "mops_wiki_db",
+      "confidence": 0.85,
+      "is_inferred": false,
+      "title": "公告本公司董事會決議發行國內第九次無擔保轉換公司債\r\n(更正發行總額)",
+      "summary": "董事會/股東會決議: 公告本公司董事會決議發行國內第九次無擔保轉換公司債\r\n(更正發行總額)",
+      "event_type": "CB_ISSUANCE",
+      "published_at": "2026-07-30T161333"
     },
     {
       "stock_code": "3268",
@@ -14263,6 +14319,20 @@
       "is_inferred": false,
       "title": "辛耘三 announcement/pricing date",
       "cb_code": "35833"
+    },
+    {
+      "stock_code": "3583",
+      "company_name": "辛耘",
+      "short_name": "辛耘一",
+      "stage": "FILING",
+      "date": "2026-07-30",
+      "source": "mops_wiki_db",
+      "confidence": 0.85,
+      "is_inferred": false,
+      "title": "公告本公司國內第三次無擔保轉換公司債收足價款",
+      "summary": "送件/申報: 公告本公司國內第三次無擔保轉換公司債收足價款",
+      "event_type": "CB_ISSUANCE",
+      "published_at": "2026-07-30T171506"
     },
     {
       "stock_code": "3583",
@@ -22758,6 +22828,34 @@
     },
     {
       "stock_code": "5536",
+      "company_name": "聖暉工程",
+      "short_name": "聖暉一",
+      "stage": "AUCTION_BID_START",
+      "date": "2026-07-31",
+      "source": "twsa_bids",
+      "confidence": 0.9,
+      "is_inferred": false,
+      "serial": "115055",
+      "underwriter": "國票綜合證券股份有限公司",
+      "min_price": "102.00",
+      "bidding_period": "2026/07/31~2026/08/04"
+    },
+    {
+      "stock_code": "5536",
+      "company_name": "聖暉工程",
+      "short_name": "聖暉一",
+      "stage": "AUCTION_BID_END",
+      "date": "2026-08-04",
+      "source": "twsa_bids",
+      "confidence": 0.9,
+      "is_inferred": false,
+      "serial": "115055",
+      "underwriter": "國票綜合證券股份有限公司",
+      "min_price": "102.00",
+      "bidding_period": "2026/07/31~2026/08/04"
+    },
+    {
+      "stock_code": "5536",
       "company_name": "聖暉工程科技股份有限公司",
       "short_name": "聖暉二",
       "stage": "LISTING",
@@ -22767,6 +22865,17 @@
       "is_inferred": false,
       "title": "聖暉二 issue/listing date",
       "cb_code": "55362"
+    },
+    {
+      "stock_code": "5536",
+      "company_name": "聖暉工程",
+      "short_name": "聖暉一",
+      "stage": "AUCTION_RESULT_ESTIMATED",
+      "date": "2026-08-05",
+      "source": "calendar_proxy",
+      "confidence": 0.35,
+      "is_inferred": true,
+      "serial": "115055"
     },
     {
       "stock_code": "5543",
@@ -29861,6 +29970,20 @@
       "published_at": "2026-06-29T142001"
     },
     {
+      "stock_code": "6570",
+      "company_name": "維田",
+      "short_name": "維田一",
+      "stage": "PAYMENT_BANK",
+      "date": "2026-07-30",
+      "source": "mops_wiki_db",
+      "confidence": 0.85,
+      "is_inferred": false,
+      "title": "公告本公司簽訂發行國內第二次無擔保轉換公司債之\r\n代收價款行庫及存儲專戶行庫",
+      "summary": "代收價款/專戶: 公告本公司簽訂發行國內第二次無擔保轉換公司債之\r\n代收價款行庫及存儲專戶行庫",
+      "event_type": "CB_ISSUANCE",
+      "published_at": "2026-07-30T144228"
+    },
+    {
       "stock_code": "6576",
       "company_name": "逸達生物",
       "short_name": "",
@@ -33124,6 +33247,18 @@
     },
     {
       "stock_code": "6903",
+      "company_name": "巨漢系統科技股份有限公司",
+      "short_name": "巨漢二",
+      "stage": "EFFECTIVE",
+      "date": "2026-07-03",
+      "source": "linked_bond_stages_proxy",
+      "confidence": 0.25,
+      "is_inferred": true,
+      "title": "金管會申報生效發行無擔保轉換公司債",
+      "summary": "可轉債申報生效，正式進入定價與發行準備期"
+    },
+    {
+      "stock_code": "6903",
       "company_name": "巨漢",
       "short_name": "巨漢一",
       "stage": "BOARD_RESOLUTION",
@@ -33209,6 +33344,30 @@
       "confidence": 0.35,
       "is_inferred": true,
       "serial": "115050"
+    },
+    {
+      "stock_code": "6903",
+      "company_name": "巨漢系統科技股份有限公司",
+      "short_name": "巨漢二",
+      "stage": "PRICING",
+      "date": "2026-07-31",
+      "source": "parsed_bonds",
+      "confidence": 0.65,
+      "is_inferred": false,
+      "title": "巨漢二 announcement/pricing date",
+      "cb_code": "69032"
+    },
+    {
+      "stock_code": "6903",
+      "company_name": "巨漢系統科技股份有限公司",
+      "short_name": "巨漢二",
+      "stage": "LISTING",
+      "date": "2026-08-07",
+      "source": "parsed_bonds",
+      "confidence": 0.65,
+      "is_inferred": false,
+      "title": "巨漢二 issue/listing date",
+      "cb_code": "69032"
     },
     {
       "stock_code": "6903",
