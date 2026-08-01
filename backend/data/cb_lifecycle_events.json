@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-31T18:57:18",
+  "generated_at": "2026-08-01T17:16:18",
   "source_files": {
     "mops_wiki_db": "mops_wiki_db.json",
     "parsed_bonds": "parsed_bonds.json",
@@ -12,15 +12,15 @@
     "Generated linked BOARD_RESOLUTION/EFFECTIVE dates are retained only as low-confidence proxy events."
   ],
   "summary": {
-    "total_events": 3270,
-    "actual_or_observed_events": 1164,
+    "total_events": 3273,
+    "actual_or_observed_events": 1167,
     "inferred_events": 2106,
     "by_stage": {
-      "BOARD_RESOLUTION": 520,
-      "FILING": 4,
+      "BOARD_RESOLUTION": 521,
+      "FILING": 5,
       "EFFECTIVE": 501,
       "PRICING": 500,
-      "PAYMENT_BANK": 21,
+      "PAYMENT_BANK": 22,
       "AUCTION_BID_START": 49,
       "AUCTION_BID_END": 49,
       "AUCTION_RESULT_ESTIMATED": 49,
@@ -5140,6 +5140,20 @@
       "cb_code": "24424"
     },
     {
+      "stock_code": "2454",
+      "company_name": "聯發科",
+      "short_name": "",
+      "stage": "BOARD_RESOLUTION",
+      "date": "2026-07-31",
+      "source": "mops_wiki_db",
+      "confidence": 0.85,
+      "is_inferred": false,
+      "title": "公告本公司中長期資金規劃案",
+      "summary": "董事會/股東會決議: 公告本公司中長期資金規劃案",
+      "event_type": "CB_ISSUANCE",
+      "published_at": "2026-07-31T204205"
+    },
+    {
       "stock_code": "2455",
       "company_name": "全新光電",
       "short_name": "",
@@ -8046,6 +8060,20 @@
       "summary": "董事會/股東會決議: 公告本公司董事會決議發行國內第六次無擔保轉換公司債",
       "event_type": "CB_ISSUANCE",
       "published_at": "2026-06-30T182556"
+    },
+    {
+      "stock_code": "3016",
+      "company_name": "嘉晶",
+      "short_name": "嘉晶四",
+      "stage": "PAYMENT_BANK",
+      "date": "2026-07-31",
+      "source": "mops_wiki_db",
+      "confidence": 0.85,
+      "is_inferred": false,
+      "title": "公告本公司國內第六次無擔保轉換公司債代收價款及\r\n存儲專戶行庫",
+      "summary": "代收價款/專戶: 公告本公司國內第六次無擔保轉換公司債代收價款及\r\n存儲專戶行庫",
+      "event_type": "CB_ISSUANCE",
+      "published_at": "2026-07-31T142415"
     },
     {
       "stock_code": "3018",
@@ -22825,6 +22853,20 @@
       "is_inferred": false,
       "title": "聖暉二 announcement/pricing date",
       "cb_code": "55362"
+    },
+    {
+      "stock_code": "5536",
+      "company_name": "聖暉*",
+      "short_name": "聖暉一",
+      "stage": "FILING",
+      "date": "2026-07-31",
+      "source": "mops_wiki_db",
+      "confidence": 0.85,
+      "is_inferred": false,
+      "title": "公告本公司國內第二次無擔保轉換公司債收足應募價款",
+      "summary": "送件/申報: 公告本公司國內第二次無擔保轉換公司債收足應募價款",
+      "event_type": "CB_ISSUANCE",
+      "published_at": "2026-07-31T141848"
     },
     {
       "stock_code": "5536",

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-31T18:57:19",
+  "generated_at": "2026-08-01T17:16:19",
   "database": "D:\\bond\\backend\\data\\cb_event_master.sqlite",
   "required_stages": [
     "BOARD_RESOLUTION",
@@ -16,20 +16,20 @@
     "CBAS_ACTUAL"
   ],
   "summary": {
-    "issues": 552,
-    "events": 3296,
-    "issues_with_missing_stages": 552
+    "issues": 553,
+    "events": 3299,
+    "issues_with_missing_stages": 553
   },
   "stage_summary": {
     "BOARD_RESOLUTION": {
-      "observed_events": 39,
+      "observed_events": 40,
       "inferred_events": 486,
-      "issues_with_stage": 504
+      "issues_with_stage": 505
     },
     "FILING": {
-      "observed_events": 4,
+      "observed_events": 5,
       "inferred_events": 0,
-      "issues_with_stage": 4
+      "issues_with_stage": 5
     },
     "EFFECTIVE": {
       "observed_events": 1,
@@ -2211,6 +2211,31 @@
       "event_count": 4
     },
     {
+      "issue_id": "issue_63163f27805d951cf758",
+      "stock_code": "2454",
+      "cb_code": null,
+      "short_name": null,
+      "company_name": "聯發科",
+      "observed_stages": [
+        "BOARD_RESOLUTION"
+      ],
+      "inferred_stages": [],
+      "missing_stages": [
+        "FILING",
+        "EFFECTIVE",
+        "PRICING",
+        "AUCTION_BID_START",
+        "AUCTION_BID_END",
+        "BOOKBUILDING_START",
+        "BOOKBUILDING_END",
+        "BOOKBUILDING_RESULT",
+        "UNDERWRITING_NOTICE",
+        "LISTING",
+        "CBAS_ACTUAL"
+      ],
+      "event_count": 1
+    },
+    {
       "issue_id": "issue_971c37ab30e41df32071",
       "stock_code": "2455",
       "cb_code": null,
@@ -3297,6 +3322,7 @@
       "observed_stages": [
         "BOARD_RESOLUTION",
         "LISTING",
+        "PAYMENT_BANK",
         "PRICING"
       ],
       "inferred_stages": [
@@ -3316,7 +3342,7 @@
         "UNDERWRITING_NOTICE",
         "CBAS_ACTUAL"
       ],
-      "event_count": 8
+      "event_count": 9
     },
     {
       "issue_id": "issue_3bc8fe47d764ac3d0245",
@@ -9246,6 +9272,7 @@
         "AUCTION_BID_END",
         "AUCTION_BID_START",
         "BOARD_RESOLUTION",
+        "FILING",
         "LISTING",
         "PAYMENT_BANK",
         "PRICING"
@@ -9259,14 +9286,13 @@
         "T_PLUS_19_EXIT_PROXY"
       ],
       "missing_stages": [
-        "FILING",
         "BOOKBUILDING_START",
         "BOOKBUILDING_END",
         "BOOKBUILDING_RESULT",
         "UNDERWRITING_NOTICE",
         "CBAS_ACTUAL"
       ],
-      "event_count": 12
+      "event_count": 13
     },
     {
       "issue_id": "issue_d850aace29fbd3bd9f51",
