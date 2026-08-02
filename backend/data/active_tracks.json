@@ -79,6 +79,12 @@
     },
     "latest_news": [
       {
+        "title": "4764 雙鍵 - 不知道哪個低能兒在賣 - 股市爆料同學會 - CMoney",
+        "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5CTVNtY2dkSUNOdW1DVzAwVDdCQnFXOFdXSWUtMEpWNWNMNWstUHF5WGpZX09IdVZ5MnRQZzR1bEgzeWp1NDRyVVc3NXc2cm42U3dxUXYwZWE?oc=5",
+        "source": "CMoney",
+        "published_at": "2026-07-31T10:40:37+08:00"
+      },
+      {
         "title": "《股市行事曆3-2》科際(4568)增資股上市、雙鍵(4764)除權 - 富聯網",
         "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPRXo2RW1zdHJCREhjY3JDazFPUkNMMWdra050OEVLd1hQSll0SDRIaE1PZTNwR3l6ZTE0NUdJTklXSEJQeFFfci03dWxpeVZtamZFSlU1Uko0WGs2aldINlM1d001UVA2U3RwTnVMUW9jVy0yUTBuRHFlOTN0QzJKY1ZQRjJzSHRU?oc=5",
         "source": "富聯網",
@@ -89,12 +95,6 @@
         "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5qMC1GbFRMM2NULUVNRFg1MW02eFhvUFlwVm9qM3VncFZHcWoyY2dHSzA3MTN3SVJJM2hmSzNodGJNMW1zNzB5R1VBNmR0Wi1fS1R3Q29aLTg?oc=5",
         "source": "CMoney",
         "published_at": "2026-07-23T18:03:20+08:00"
-      },
-      {
-        "title": "4764 雙鍵- 雙鍵等180-150在佈局- 股市爆料同學會 - CMoney",
-        "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1IamJVS3ktYURmU0paMkNxa3JNeHYyWENra3NyUXhPVlJOWUZIRjctekxCS2FDMWRUdllBTnFfX2pkUjREZTg3Vk9yZktGNFdWTUk3Y1luUmI?oc=5",
-        "source": "CMoney",
-        "published_at": "2026-07-23T00:06:07+08:00"
       }
     ],
     "operation_signals": {
@@ -241,6 +241,12 @@
     },
     "latest_news": [
       {
+        "title": "4764 雙鍵 - 不知道哪個低能兒在賣 - 股市爆料同學會 - CMoney",
+        "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5CTVNtY2dkSUNOdW1DVzAwVDdCQnFXOFdXSWUtMEpWNWNMNWstUHF5WGpZX09IdVZ5MnRQZzR1bEgzeWp1NDRyVVc3NXc2cm42U3dxUXYwZWE?oc=5",
+        "source": "CMoney",
+        "published_at": "2026-07-31T10:40:37+08:00"
+      },
+      {
         "title": "《股市行事曆3-2》科際(4568)增資股上市、雙鍵(4764)除權 - 富聯網",
         "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPRXo2RW1zdHJCREhjY3JDazFPUkNMMWdra050OEVLd1hQSll0SDRIaE1PZTNwR3l6ZTE0NUdJTklXSEJQeFFfci03dWxpeVZtamZFSlU1Uko0WGs2aldINlM1d001UVA2U3RwTnVMUW9jVy0yUTBuRHFlOTN0QzJKY1ZQRjJzSHRU?oc=5",
         "source": "富聯網",
@@ -251,12 +257,6 @@
         "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5qMC1GbFRMM2NULUVNRFg1MW02eFhvUFlwVm9qM3VncFZHcWoyY2dHSzA3MTN3SVJJM2hmSzNodGJNMW1zNzB5R1VBNmR0Wi1fS1R3Q29aLTg?oc=5",
         "source": "CMoney",
         "published_at": "2026-07-23T18:03:20+08:00"
-      },
-      {
-        "title": "4764 雙鍵- 雙鍵等180-150在佈局- 股市爆料同學會 - CMoney",
-        "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1IamJVS3ktYURmU0paMkNxa3JNeHYyWENra3NyUXhPVlJOWUZIRjctekxCS2FDMWRUdllBTnFfX2pkUjREZTg3Vk9yZktGNFdWTUk3Y1luUmI?oc=5",
-        "source": "CMoney",
-        "published_at": "2026-07-23T00:06:07+08:00"
       }
     ],
     "operation_signals": {
@@ -349,7 +349,7 @@
       },
       {
         "name": "每日資料追蹤",
-        "date": "2026-08-01",
+        "date": "2026-08-02",
         "status": "active",
         "description": "追蹤董事會、申報送件、訂價、競拍或詢圈、承銷、掛牌及 CBAS 拆解時程。"
       }
