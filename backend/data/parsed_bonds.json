@@ -7648,5 +7648,50 @@
     "maturity_date_minguo": "118年8月7日",
     "maturity_date": "2029-08-07",
     "issue_amount": "新台幣10億元整"
+  },
+  {
+    "file_id": "11500050491",
+    "company_name": "聯華電子股份有限公司",
+    "bond_name": "聯華電子股份有限公司國內第一次無擔保轉換公司債",
+    "cb_code": "23031",
+    "stock_code": "2303",
+    "short_name": "聯電一",
+    "announcement_date_minguo": "115年8月3日",
+    "announcement_date": "2026-08-03",
+    "issue_date_minguo": "115年8月7日",
+    "issue_date": "2026-08-07",
+    "maturity_date_minguo": "120年8月7日",
+    "maturity_date": "2031-08-07",
+    "issue_amount": "新臺幣120億元整"
+  },
+  {
+    "file_id": "11500050551",
+    "company_name": "晶宏半導體股份有限公司",
+    "bond_name": "晶宏半導體股份有限公司國內第四次無擔保轉換公司債",
+    "cb_code": "31414",
+    "stock_code": "3141",
+    "short_name": "晶宏四",
+    "announcement_date_minguo": "115年8月4日",
+    "announcement_date": "2026-08-04",
+    "issue_date_minguo": "115年8月7日",
+    "issue_date": "2026-08-07",
+    "maturity_date_minguo": "120年8月7日",
+    "maturity_date": "2031-08-07",
+    "issue_amount": "新台幣5億元整"
+  },
+  {
+    "file_id": "11500050731",
+    "company_name": "雍智科技股份有限公司",
+    "bond_name": "雍智科技股份有限公司國內第一次無擔保轉換公司債",
+    "cb_code": "66831",
+    "stock_code": "6683",
+    "short_name": "雍智一",
+    "announcement_date_minguo": "115年8月4日",
+    "announcement_date": "2026-08-04",
+    "issue_date_minguo": "115年8月10日",
+    "issue_date": "2026-08-10",
+    "maturity_date_minguo": "118年8月10日",
+    "maturity_date": "2029-08-10",
+    "issue_amount": "新台幣15億元整"
   }
 ]

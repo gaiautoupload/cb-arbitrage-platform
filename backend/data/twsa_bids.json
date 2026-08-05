@@ -598,5 +598,29 @@
     "bidding_shares_thousand": "12,750",
     "bidding_period": "2026/07/31~2026/08/04",
     "min_price": "102.00"
+  },
+  {
+    "serial": "115056",
+    "company_name": "十銓",
+    "full_company_name": "十銓科技股份有限公司",
+    "ticker": "4967",
+    "underwriter": "永豐金證券股份有限公司",
+    "bond_type": "無擔保轉換公司債",
+    "shares_thousand": "30,000",
+    "bidding_shares_thousand": "25,932",
+    "bidding_period": "2026/08/03~2026/08/05",
+    "min_price": "102.00"
+  },
+  {
+    "serial": "115057",
+    "company_name": "皇龍",
+    "full_company_name": "皇龍開發股份有限公司",
+    "ticker": "3512",
+    "underwriter": "台新綜合證券股份有限公司",
+    "bond_type": "有擔保轉換公司債",
+    "shares_thousand": "6,000",
+    "bidding_shares_thousand": "5,100",
+    "bidding_period": "2026/08/03~2026/08/05",
+    "min_price": "100.00"
   }
 ]
