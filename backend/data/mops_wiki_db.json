@@ -5275,6 +5275,454 @@
     "parsed_at": "2026-08-05T19:26:25"
   },
   {
+    "date": "2026-08-07",
+    "time": "133306",
+    "stock_code": "1436",
+    "company_name": "華友聯",
+    "event_title": "(更正)公告本公司董事會決議計畫發行無擔保普通公司債",
+    "event_type": "CB_ISSUANCE",
+    "stage": "BOARD_RESOLUTION",
+    "wiki_details": {
+      "board_date": "115/08/06"
+    },
+    "sentiment": "NEUTRAL",
+    "summary": "董事會/股東會決議: (更正)公告本公司董事會決議計畫發行無擔保普通公司債",
+    "parser": "rule_v2",
+    "parsed_at": "2026-08-08T17:00:44"
+  },
+  {
+    "date": "2026-08-07",
+    "time": "160102",
+    "stock_code": "2436",
+    "company_name": "偉詮電",
+    "event_title": "公告本公司國內第一次無擔保轉換公司債轉換\r\n發行新股之增資基準日",
+    "event_type": "CB_ISSUANCE",
+    "stage": "BOARD_RESOLUTION",
+    "wiki_details": {
+      "board_date": "115/08/07"
+    },
+    "sentiment": "NEUTRAL",
+    "summary": "董事會/股東會決議: 公告本公司國內第一次無擔保轉換公司債轉換\r\n發行新股之增資基準日",
+    "parser": "rule_v2",
+    "parsed_at": "2026-08-08T17:00:44"
+  },
+  {
+    "date": "2026-08-07",
+    "time": "171144",
+    "stock_code": "2464",
+    "company_name": "盟立",
+    "event_title": "本公司可轉換公司債盟立二(代號：24642)達公布注意\r\n交易資訊標準，故公告相關訊息，以利投資人區別瞭解。",
+    "event_type": "OTHER",
+    "stage": "N/A",
+    "wiki_details": {},
+    "sentiment": "NEUTRAL",
+    "summary": "CB 相關公告: 本公司可轉換公司債盟立二(代號：24642)達公布注意\r\n交易資訊標準，故公告相關訊息，以利投資人區別瞭解。",
+    "parser": "rule_v2",
+    "parsed_at": "2026-08-08T17:00:44"
+  },
+  {
+    "date": "2026-08-07",
+    "time": "141100",
+    "stock_code": "2756",
+    "company_name": "聯發國際",
+    "event_title": "公告本公司董事會決議發行國內第二次無擔保轉換公司債",
+    "event_type": "CB_ISSUANCE",
+    "stage": "BOARD_RESOLUTION",
+    "wiki_details": {
+      "board_date": "115/08/07"
+    },
+    "sentiment": "NEUTRAL",
+    "summary": "董事會/股東會決議: 公告本公司董事會決議發行國內第二次無擔保轉換公司債",
+    "parser": "rule_v2",
+    "parsed_at": "2026-08-08T17:00:44"
+  },
+  {
+    "date": "2026-08-07",
+    "time": "170613",
+    "stock_code": "2883",
+    "company_name": "凱基金",
+    "event_title": "代子公司開發資本所屬之CI II公告董事會決議轉讓Artisan Holdings\r\n及Artisan Partners發行之可轉換公司債",
+    "event_type": "CB_ISSUANCE",
+    "stage": "BOARD_RESOLUTION",
+    "wiki_details": {
+      "board_date": "民國115年8月7日"
+    },
+    "sentiment": "NEUTRAL",
+    "summary": "董事會/股東會決議: 代子公司開發資本所屬之CI II公告董事會決議轉讓Artisan Holdings\r\n及Artisan Partners發行之可轉換公司債",
+    "parser": "rule_v2",
+    "parsed_at": "2026-08-08T17:00:44"
+  },
+  {
+    "date": "2026-08-07",
+    "time": "170631",
+    "stock_code": "2883",
+    "company_name": "凱基金",
+    "event_title": "代子公司開發資本所屬GM公告董事會決議轉讓Connexium Holdings及\r\nConnexium Investments發行可轉換公司債",
+    "event_type": "CB_ISSUANCE",
+    "stage": "BOARD_RESOLUTION",
+    "wiki_details": {
+      "board_date": "民國115年8月7日"
+    },
+    "sentiment": "NEUTRAL",
+    "summary": "董事會/股東會決議: 代子公司開發資本所屬GM公告董事會決議轉讓Connexium Holdings及\r\nConnexium Investments發行可轉換公司債",
+    "parser": "rule_v2",
+    "parsed_at": "2026-08-08T17:00:44"
+  },
+  {
+    "date": "2026-08-07",
+    "time": "170652",
+    "stock_code": "2883",
+    "company_name": "凱基金",
+    "event_title": "代子公司開發資本所屬之GM公告董事會決議投資NexGen Buyout \r\nPartners Fund II, L.P.",
+    "event_type": "PRIVATE_CB_ISSUANCE",
+    "stage": "BOARD_RESOLUTION",
+    "wiki_details": {
+      "board_date": "115/08/07"
+    },
+    "sentiment": "NEUTRAL",
+    "summary": "董事會/股東會決議: 代子公司開發資本所屬之GM公告董事會決議投資NexGen Buyout \r\nPartners Fund II, L.P.",
+    "parser": "rule_v2",
+    "parsed_at": "2026-08-08T17:00:44"
+  },
+  {
+    "date": "2026-08-07",
+    "time": "172358",
+    "stock_code": "3037",
+    "company_name": "欣興",
+    "event_title": "公告欣興電子股份有限公司第一次無擔保轉換公司債\r\n(簡稱：欣興一，代碼：30371)於櫃檯買賣市場交易達公布\r\n注意交易資訊標準，故公布相關訊息，以利投資人區別瞭解。",
+    "event_type": "OTHER",
+    "stage": "N/A",
+    "wiki_details": {},
+    "sentiment": "NEUTRAL",
+    "summary": "CB 相關公告: 公告欣興電子股份有限公司第一次無擔保轉換公司債\r\n(簡稱：欣興一，代碼：30371)於櫃檯買賣市場交易達公布\r\n注意交易資訊標準，故公布相關訊息，以利投資人區別瞭解。",
+    "parser": "rule_v2",
+    "parsed_at": "2026-08-08T17:00:44"
+  },
+  {
+    "date": "2026-08-07",
+    "time": "152144",
+    "stock_code": "3122",
+    "company_name": "笙泉",
+    "event_title": "公告本公司國內第二次無擔保轉換公司債轉換普通股之增資基準日",
+    "event_type": "CB_ISSUANCE",
+    "stage": "BOARD_RESOLUTION",
+    "wiki_details": {
+      "board_date": "115/08/07"
+    },
+    "sentiment": "NEUTRAL",
+    "summary": "董事會/股東會決議: 公告本公司國內第二次無擔保轉換公司債轉換普通股之增資基準日",
+    "parser": "rule_v2",
+    "parsed_at": "2026-08-08T17:00:44"
+  },
+  {
+    "date": "2026-08-07",
+    "time": "144532",
+    "stock_code": "3413",
+    "company_name": "京鼎",
+    "event_title": "公告本公司董事會決議發行國內第三次無擔保轉換公司債",
+    "event_type": "CB_ISSUANCE",
+    "stage": "BOARD_RESOLUTION",
+    "wiki_details": {
+      "board_date": "115/08/07"
+    },
+    "sentiment": "NEUTRAL",
+    "summary": "董事會/股東會決議: 公告本公司董事會決議發行國內第三次無擔保轉換公司債",
+    "parser": "rule_v2",
+    "parsed_at": "2026-08-08T17:00:44"
+  },
+  {
+    "date": "2026-08-07",
+    "time": "175204",
+    "stock_code": "3583",
+    "company_name": "辛耘",
+    "event_title": "公告本公司國內第一次無擔保轉換公司債轉換普通股之\r\n發行新股增資基準日",
+    "event_type": "CB_ISSUANCE",
+    "stage": "BOARD_RESOLUTION",
+    "wiki_details": {
+      "board_date": "115/08/07"
+    },
+    "sentiment": "NEUTRAL",
+    "summary": "董事會/股東會決議: 公告本公司國內第一次無擔保轉換公司債轉換普通股之\r\n發行新股增資基準日",
+    "parser": "rule_v2",
+    "parsed_at": "2026-08-08T17:00:44"
+  },
+  {
+    "date": "2026-08-07",
+    "time": "175226",
+    "stock_code": "3583",
+    "company_name": "辛耘",
+    "event_title": "公告本公司國內第二次無擔保轉換公司債轉換普通股之\r\n發行新股增資基準日",
+    "event_type": "CB_ISSUANCE",
+    "stage": "BOARD_RESOLUTION",
+    "wiki_details": {
+      "board_date": "115/08/07"
+    },
+    "sentiment": "NEUTRAL",
+    "summary": "董事會/股東會決議: 公告本公司國內第二次無擔保轉換公司債轉換普通股之\r\n發行新股增資基準日",
+    "parser": "rule_v2",
+    "parsed_at": "2026-08-08T17:00:44"
+  },
+  {
+    "date": "2026-08-07",
+    "time": "163615",
+    "stock_code": "3587",
+    "company_name": "閎康",
+    "event_title": "公告本公司國內第一次及第二次無擔保轉換公司債轉換\r\n普通股之增資基準日",
+    "event_type": "CB_ISSUANCE",
+    "stage": "BOARD_RESOLUTION",
+    "wiki_details": {
+      "board_date": "115/08/07"
+    },
+    "sentiment": "NEUTRAL",
+    "summary": "董事會/股東會決議: 公告本公司國內第一次及第二次無擔保轉換公司債轉換\r\n普通股之增資基準日",
+    "parser": "rule_v2",
+    "parsed_at": "2026-08-08T17:00:44"
+  },
+  {
+    "date": "2026-08-07",
+    "time": "164518",
+    "stock_code": "3708",
+    "company_name": "上緯投控",
+    "event_title": "公告本公司國內第三次有擔保轉換公司債及國內第四次無擔保轉換\r\n公司債轉換普通股之發行新股增資基準日",
+    "event_type": "CB_ISSUANCE",
+    "stage": "BOARD_RESOLUTION",
+    "wiki_details": {
+      "board_date": "115/08/07"
+    },
+    "sentiment": "NEUTRAL",
+    "summary": "董事會/股東會決議: 公告本公司國內第三次有擔保轉換公司債及國內第四次無擔保轉換\r\n公司債轉換普通股之發行新股增資基準日",
+    "parser": "rule_v2",
+    "parsed_at": "2026-08-08T17:00:44"
+  },
+  {
+    "date": "2026-08-07",
+    "time": "174001",
+    "stock_code": "4540",
+    "company_name": "全球傳動",
+    "event_title": "公告本公司董事會決議發行國內第三次有擔保轉換\r\n公司債",
+    "event_type": "CB_ISSUANCE",
+    "stage": "BOARD_RESOLUTION",
+    "wiki_details": {
+      "board_date": "115/08/07"
+    },
+    "sentiment": "NEUTRAL",
+    "summary": "董事會/股東會決議: 公告本公司董事會決議發行國內第三次有擔保轉換\r\n公司債",
+    "parser": "rule_v2",
+    "parsed_at": "2026-08-08T17:00:44"
+  },
+  {
+    "date": "2026-08-07",
+    "time": "163949",
+    "stock_code": "4564",
+    "company_name": "元翎",
+    "event_title": "本公司董事會決議發行115年度第一次有擔保普通公司債",
+    "event_type": "CB_ISSUANCE",
+    "stage": "BOARD_RESOLUTION",
+    "wiki_details": {
+      "board_date": "115/08/07"
+    },
+    "sentiment": "NEUTRAL",
+    "summary": "董事會/股東會決議: 本公司董事會決議發行115年度第一次有擔保普通公司債",
+    "parser": "rule_v2",
+    "parsed_at": "2026-08-08T17:00:44"
+  },
+  {
+    "date": "2026-08-07",
+    "time": "153741",
+    "stock_code": "4722",
+    "company_name": "國精化",
+    "event_title": "公告本公司國內第三次無擔保轉換公司債轉換\r\n普通股之增資基準日",
+    "event_type": "CB_ISSUANCE",
+    "stage": "BOARD_RESOLUTION",
+    "wiki_details": {
+      "board_date": "115/08/07"
+    },
+    "sentiment": "NEUTRAL",
+    "summary": "董事會/股東會決議: 公告本公司國內第三次無擔保轉換公司債轉換\r\n普通股之增資基準日",
+    "parser": "rule_v2",
+    "parsed_at": "2026-08-08T17:00:44"
+  },
+  {
+    "date": "2026-08-07",
+    "time": "171610",
+    "stock_code": "6126",
+    "company_name": "信音",
+    "event_title": "公告本公司國內第三次無擔保轉換公司債115年第二季轉換普通股\r\n之增資基準日",
+    "event_type": "CB_ISSUANCE",
+    "stage": "BOARD_RESOLUTION",
+    "wiki_details": {
+      "board_date": "115/08/07"
+    },
+    "sentiment": "NEUTRAL",
+    "summary": "董事會/股東會決議: 公告本公司國內第三次無擔保轉換公司債115年第二季轉換普通股\r\n之增資基準日",
+    "parser": "rule_v2",
+    "parsed_at": "2026-08-08T17:00:44"
+  },
+  {
+    "date": "2026-08-07",
+    "time": "164049",
+    "stock_code": "6290",
+    "company_name": "良維",
+    "event_title": "公告本公司國內第十次無擔保轉換公司債\r\n(良維十；債券代號：62910)行使贖回權及終止櫃檯買賣事宜",
+    "event_type": "CB_ISSUANCE",
+    "stage": "BOARD_RESOLUTION",
+    "wiki_details": {},
+    "sentiment": "NEUTRAL",
+    "summary": "董事會/股東會決議: 公告本公司國內第十次無擔保轉換公司債\r\n(良維十；債券代號：62910)行使贖回權及終止櫃檯買賣事宜",
+    "parser": "rule_v2",
+    "parsed_at": "2026-08-08T17:00:44"
+  },
+  {
+    "date": "2026-08-07",
+    "time": "141228",
+    "stock_code": "6570",
+    "company_name": "維田",
+    "event_title": "公告本公司國內第二次無擔保轉換公司債之轉換價格及\r\n溢價率（更正計算期間文字誤植）",
+    "event_type": "CB_ISSUANCE",
+    "stage": "BOARD_RESOLUTION",
+    "wiki_details": {},
+    "sentiment": "NEUTRAL",
+    "summary": "董事會/股東會決議: 公告本公司國內第二次無擔保轉換公司債之轉換價格及\r\n溢價率（更正計算期間文字誤植）",
+    "parser": "rule_v2",
+    "parsed_at": "2026-08-08T17:00:44"
+  },
+  {
+    "date": "2026-08-07",
+    "time": "182712",
+    "stock_code": "6669",
+    "company_name": "緯穎",
+    "event_title": "公告本公司海外無擔保可轉換公司債轉換普通股增資基準日",
+    "event_type": "CB_ISSUANCE",
+    "stage": "BOARD_RESOLUTION",
+    "wiki_details": {
+      "board_date": "115/08/07"
+    },
+    "sentiment": "NEUTRAL",
+    "summary": "董事會/股東會決議: 公告本公司海外無擔保可轉換公司債轉換普通股增資基準日",
+    "parser": "rule_v2",
+    "parsed_at": "2026-08-08T17:00:44"
+  },
+  {
+    "date": "2026-08-07",
+    "time": "183210",
+    "stock_code": "6669",
+    "company_name": "緯穎",
+    "event_title": "公告本公司董事會決議發行國內第一次無擔保轉換公司債",
+    "event_type": "CB_ISSUANCE",
+    "stage": "BOARD_RESOLUTION",
+    "wiki_details": {
+      "board_date": "115/08/07"
+    },
+    "sentiment": "NEUTRAL",
+    "summary": "董事會/股東會決議: 公告本公司董事會決議發行國內第一次無擔保轉換公司債",
+    "parser": "rule_v2",
+    "parsed_at": "2026-08-08T17:00:44"
+  },
+  {
+    "date": "2026-08-07",
+    "time": "164034",
+    "stock_code": "6683",
+    "company_name": "雍智科技",
+    "event_title": "公告本公司國內第一次無擔保轉換公司債收足應募價款",
+    "event_type": "CB_ISSUANCE",
+    "stage": "PAYMENT_BANK",
+    "wiki_details": {},
+    "sentiment": "BULLISH",
+    "summary": "代收價款/專戶: 公告本公司國內第一次無擔保轉換公司債收足應募價款",
+    "parser": "rule_v2",
+    "parsed_at": "2026-08-08T17:00:44"
+  },
+  {
+    "date": "2026-08-07",
+    "time": "173604",
+    "stock_code": "6706",
+    "company_name": "惠特",
+    "event_title": "公告本公司國內第二次無擔保轉換公司債\r\n轉換普通股之增資基準日",
+    "event_type": "CB_ISSUANCE",
+    "stage": "BOARD_RESOLUTION",
+    "wiki_details": {
+      "board_date": "115/08/07"
+    },
+    "sentiment": "NEUTRAL",
+    "summary": "董事會/股東會決議: 公告本公司國內第二次無擔保轉換公司債\r\n轉換普通股之增資基準日",
+    "parser": "rule_v2",
+    "parsed_at": "2026-08-08T17:00:44"
+  },
+  {
+    "date": "2026-08-07",
+    "time": "173633",
+    "stock_code": "6753",
+    "company_name": "龍德造船",
+    "event_title": "公告本公司國內第一次無擔保轉換公司債115年第二季\r\n轉換普通股之發行新股基準日",
+    "event_type": "CB_ISSUANCE",
+    "stage": "BOARD_RESOLUTION",
+    "wiki_details": {
+      "board_date": "115/08/07"
+    },
+    "sentiment": "NEUTRAL",
+    "summary": "董事會/股東會決議: 公告本公司國內第一次無擔保轉換公司債115年第二季\r\n轉換普通股之發行新股基準日",
+    "parser": "rule_v2",
+    "parsed_at": "2026-08-08T17:00:44"
+  },
+  {
+    "date": "2026-08-07",
+    "time": "172532",
+    "stock_code": "6830",
+    "company_name": "汎銓",
+    "event_title": "公告汎銓科技股份有限公司第一次無擔保轉換公司債\r\n(簡稱：汎銓一，代碼：68301)於櫃檯買賣市場交易達公布\r\n注意交易資訊標準，故公布相關訊息，以利投資人區別瞭解。",
+    "event_type": "OTHER",
+    "stage": "N/A",
+    "wiki_details": {},
+    "sentiment": "NEUTRAL",
+    "summary": "CB 相關公告: 公告汎銓科技股份有限公司第一次無擔保轉換公司債\r\n(簡稱：汎銓一，代碼：68301)於櫃檯買賣市場交易達公布\r\n注意交易資訊標準，故公布相關訊息，以利投資人區別瞭解。",
+    "parser": "rule_v2",
+    "parsed_at": "2026-08-08T17:00:44"
+  },
+  {
+    "date": "2026-08-07",
+    "time": "190359",
+    "stock_code": "7402",
+    "company_name": "邑錡",
+    "event_title": "公告本公司114年度國內第二次無擔保可轉換公司債募集資金\r\n用途計畫變更",
+    "event_type": "CB_ISSUANCE",
+    "stage": "BOARD_RESOLUTION",
+    "wiki_details": {
+      "effective_date": "114/08/01"
+    },
+    "sentiment": "NEUTRAL",
+    "summary": "董事會/股東會決議: 公告本公司114年度國內第二次無擔保可轉換公司債募集資金\r\n用途計畫變更",
+    "parser": "rule_v2",
+    "parsed_at": "2026-08-08T17:00:44"
+  },
+  {
+    "date": "2026-08-07",
+    "time": "171747",
+    "stock_code": "7610",
+    "company_name": "聯友金屬-創",
+    "event_title": "本公司可轉換公司聯友金屬一創(代號:76101)近期達公布\r\n注意交易資訊標準，故公告相關訊息，以利投資人區別瞭解",
+    "event_type": "OTHER",
+    "stage": "N/A",
+    "wiki_details": {},
+    "sentiment": "NEUTRAL",
+    "summary": "CB 相關公告: 本公司可轉換公司聯友金屬一創(代號:76101)近期達公布\r\n注意交易資訊標準，故公告相關訊息，以利投資人區別瞭解",
+    "parser": "rule_v2",
+    "parsed_at": "2026-08-08T17:00:44"
+  },
+  {
+    "date": "2026-08-07",
+    "time": "165431",
+    "stock_code": "8916",
+    "company_name": "光隆",
+    "event_title": "本公司自行撤回115年度現金增資發行乙種可轉換特別股\r\n暨國內第二次無擔保轉換公司債",
+    "event_type": "CB_ISSUANCE",
+    "stage": "BOARD_RESOLUTION",
+    "wiki_details": {},
+    "sentiment": "NEUTRAL",
+    "summary": "董事會/股東會決議: 本公司自行撤回115年度現金增資發行乙種可轉換特別股\r\n暨國內第二次無擔保轉換公司債",
+    "parser": "rule_v2",
+    "parsed_at": "2026-08-08T17:00:44"
+  },
+  {
     "date": "2026-02-12",
     "time": "140510",
     "stock_code": "3260",

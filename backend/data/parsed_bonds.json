@@ -7693,5 +7693,50 @@
     "maturity_date_minguo": "118年8月10日",
     "maturity_date": "2029-08-10",
     "issue_amount": "新台幣15億元整"
+  },
+  {
+    "file_id": "11500051631",
+    "company_name": "聯亞光電工業股份有限公司",
+    "bond_name": "聯亞光電工業股份有限公司國內第一次有擔保轉換公司債",
+    "cb_code": "30811",
+    "stock_code": "3081",
+    "short_name": "聯亞一",
+    "announcement_date_minguo": "115年8月6日",
+    "announcement_date": "2026-08-06",
+    "issue_date_minguo": "115年8月12日",
+    "issue_date": "2026-08-12",
+    "maturity_date_minguo": "118年8月12日",
+    "maturity_date": "2029-08-12",
+    "issue_amount": "新台幣12億元整"
+  },
+  {
+    "file_id": "11500052031",
+    "company_name": "聯亞光電工業股份有限公司",
+    "bond_name": "聯亞光電工業股份有限公司國內第二次無擔保轉換公司債",
+    "cb_code": "30812",
+    "stock_code": "3081",
+    "short_name": "聯亞二",
+    "announcement_date_minguo": "115年8月7日",
+    "announcement_date": "2026-08-07",
+    "issue_date_minguo": "115年8月13日",
+    "issue_date": "2026-08-13",
+    "maturity_date_minguo": "118年8月13日",
+    "maturity_date": "2029-08-13",
+    "issue_amount": "新台幣18億元整"
+  },
+  {
+    "file_id": "11500052111",
+    "company_name": "維田科技股份有限公司",
+    "bond_name": "維田科技股份有限公司國內第二次無擔保轉換公司債",
+    "cb_code": "65702",
+    "stock_code": "6570",
+    "short_name": "維田二",
+    "announcement_date_minguo": "115年8月7日",
+    "announcement_date": "2026-08-07",
+    "issue_date_minguo": "115年8月14日",
+    "issue_date": "2026-08-14",
+    "maturity_date_minguo": "118年8月14日",
+    "maturity_date": "2029-08-14",
+    "issue_amount": "新台幣2.5億元整"
   }
 ]

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-05T19:41:49",
+  "generated_at": "2026-08-08T17:14:48",
   "database": "D:\\bond\\backend\\data\\cb_event_master.sqlite",
   "required_stages": [
     "BOARD_RESOLUTION",
@@ -16,15 +16,15 @@
     "CBAS_ACTUAL"
   ],
   "summary": {
-    "issues": 557,
-    "events": 3330,
-    "issues_with_missing_stages": 557
+    "issues": 566,
+    "events": 3365,
+    "issues_with_missing_stages": 566
   },
   "stage_summary": {
     "BOARD_RESOLUTION": {
-      "observed_events": 42,
-      "inferred_events": 487,
-      "issues_with_stage": 507
+      "observed_events": 62,
+      "inferred_events": 488,
+      "issues_with_stage": 514
     },
     "FILING": {
       "observed_events": 6,
@@ -33,13 +33,13 @@
     },
     "EFFECTIVE": {
       "observed_events": 2,
-      "inferred_events": 504,
-      "issues_with_stage": 504
+      "inferred_events": 507,
+      "issues_with_stage": 507
     },
     "PRICING": {
-      "observed_events": 503,
+      "observed_events": 506,
       "inferred_events": 0,
-      "issues_with_stage": 502
+      "issues_with_stage": 505
     },
     "AUCTION_BID_START": {
       "observed_events": 56,
@@ -72,9 +72,9 @@
       "issues_with_stage": 0
     },
     "LISTING": {
-      "observed_events": 506,
+      "observed_events": 509,
       "inferred_events": 0,
-      "issues_with_stage": 503
+      "issues_with_stage": 506
     },
     "CBAS_ACTUAL": {
       "observed_events": 0,
@@ -311,8 +311,9 @@
       "stock_code": "1436",
       "cb_code": "14361",
       "short_name": "華友聯一",
-      "company_name": "華友聯開發股份有限公司",
+      "company_name": "華友聯",
       "observed_stages": [
+        "BOARD_RESOLUTION",
         "LISTING",
         "PRICING"
       ],
@@ -333,7 +334,7 @@
         "UNDERWRITING_NOTICE",
         "CBAS_ACTUAL"
       ],
-      "event_count": 7
+      "event_count": 8
     },
     {
       "issue_id": "issue_309dc35475be5ebc0f2d",
@@ -2079,8 +2080,9 @@
       "stock_code": "2436",
       "cb_code": "24361",
       "short_name": "偉詮電一",
-      "company_name": "偉詮電子股份有限公司",
+      "company_name": "偉詮電",
       "observed_stages": [
+        "BOARD_RESOLUTION",
         "LISTING",
         "PRICING"
       ],
@@ -2101,7 +2103,7 @@
         "UNDERWRITING_NOTICE",
         "CBAS_ACTUAL"
       ],
-      "event_count": 7
+      "event_count": 8
     },
     {
       "issue_id": "issue_374f7d658b913062b594",
@@ -3058,6 +3060,56 @@
       "event_count": 7
     },
     {
+      "issue_id": "issue_4c76561eb261e6ee124d",
+      "stock_code": "2756",
+      "cb_code": null,
+      "short_name": null,
+      "company_name": "聯發國際",
+      "observed_stages": [
+        "BOARD_RESOLUTION"
+      ],
+      "inferred_stages": [],
+      "missing_stages": [
+        "FILING",
+        "EFFECTIVE",
+        "PRICING",
+        "AUCTION_BID_START",
+        "AUCTION_BID_END",
+        "BOOKBUILDING_START",
+        "BOOKBUILDING_END",
+        "BOOKBUILDING_RESULT",
+        "UNDERWRITING_NOTICE",
+        "LISTING",
+        "CBAS_ACTUAL"
+      ],
+      "event_count": 1
+    },
+    {
+      "issue_id": "issue_01ae2dec2beb80672739",
+      "stock_code": "2883",
+      "cb_code": null,
+      "short_name": null,
+      "company_name": "凱基金",
+      "observed_stages": [
+        "BOARD_RESOLUTION"
+      ],
+      "inferred_stages": [],
+      "missing_stages": [
+        "FILING",
+        "EFFECTIVE",
+        "PRICING",
+        "AUCTION_BID_START",
+        "AUCTION_BID_END",
+        "BOOKBUILDING_START",
+        "BOOKBUILDING_END",
+        "BOOKBUILDING_RESULT",
+        "UNDERWRITING_NOTICE",
+        "LISTING",
+        "CBAS_ACTUAL"
+      ],
+      "event_count": 1
+    },
+    {
       "issue_id": "issue_37a10ed062aa83f4f06f",
       "stock_code": "2887",
       "cb_code": "288701",
@@ -3732,6 +3784,62 @@
       "event_count": 1
     },
     {
+      "issue_id": "issue_7b2d3decb44217d447a6",
+      "stock_code": "3081",
+      "cb_code": "30811",
+      "short_name": "聯亞一",
+      "company_name": "聯亞光電工業股份有限公司",
+      "observed_stages": [
+        "LISTING",
+        "PAYMENT_BANK",
+        "PRICING"
+      ],
+      "inferred_stages": [
+        "BOARD_RESOLUTION",
+        "CBAS_PROXY_END",
+        "CBAS_PROXY_START",
+        "EFFECTIVE",
+        "T_PLUS_19_EXIT_PROXY"
+      ],
+      "missing_stages": [
+        "FILING",
+        "AUCTION_BID_START",
+        "AUCTION_BID_END",
+        "BOOKBUILDING_START",
+        "BOOKBUILDING_END",
+        "BOOKBUILDING_RESULT",
+        "UNDERWRITING_NOTICE",
+        "CBAS_ACTUAL"
+      ],
+      "event_count": 8
+    },
+    {
+      "issue_id": "issue_82bcf33fbc27f0a91cf6",
+      "stock_code": "3081",
+      "cb_code": "30812",
+      "short_name": "聯亞二",
+      "company_name": "聯亞光電工業股份有限公司",
+      "observed_stages": [
+        "LISTING",
+        "PRICING"
+      ],
+      "inferred_stages": [
+        "EFFECTIVE"
+      ],
+      "missing_stages": [
+        "BOARD_RESOLUTION",
+        "FILING",
+        "AUCTION_BID_START",
+        "AUCTION_BID_END",
+        "BOOKBUILDING_START",
+        "BOOKBUILDING_END",
+        "BOOKBUILDING_RESULT",
+        "UNDERWRITING_NOTICE",
+        "CBAS_ACTUAL"
+      ],
+      "event_count": 3
+    },
+    {
       "issue_id": "issue_b7ae0dc98ba8a0a1dfb3",
       "stock_code": "3088",
       "cb_code": "30882",
@@ -3820,8 +3928,9 @@
       "stock_code": "3122",
       "cb_code": "31221",
       "short_name": "笙泉一",
-      "company_name": "笙泉科技股份有限公司",
+      "company_name": "笙泉",
       "observed_stages": [
+        "BOARD_RESOLUTION",
         "LISTING",
         "PRICING"
       ],
@@ -3842,7 +3951,7 @@
         "UNDERWRITING_NOTICE",
         "CBAS_ACTUAL"
       ],
-      "event_count": 7
+      "event_count": 8
     },
     {
       "issue_id": "issue_ef13c79ee083534f0f38",
@@ -5089,8 +5198,9 @@
       "stock_code": "3413",
       "cb_code": "34132",
       "short_name": "京鼎二",
-      "company_name": "京鼎精密科技股份有限公司",
+      "company_name": "京鼎",
       "observed_stages": [
+        "BOARD_RESOLUTION",
         "LISTING",
         "PRICING"
       ],
@@ -5111,7 +5221,7 @@
         "UNDERWRITING_NOTICE",
         "CBAS_ACTUAL"
       ],
-      "event_count": 7
+      "event_count": 8
     },
     {
       "issue_id": "issue_fa47e936f42b818f92af",
@@ -5873,7 +5983,7 @@
         "UNDERWRITING_NOTICE",
         "CBAS_ACTUAL"
       ],
-      "event_count": 10
+      "event_count": 11
     },
     {
       "issue_id": "issue_8ebb257956a34adff853",
@@ -5936,6 +6046,7 @@
       "observed_stages": [
         "AUCTION_BID_END",
         "AUCTION_BID_START",
+        "BOARD_RESOLUTION",
         "LISTING",
         "PRICING"
       ],
@@ -5955,7 +6066,7 @@
         "UNDERWRITING_NOTICE",
         "CBAS_ACTUAL"
       ],
-      "event_count": 10
+      "event_count": 11
     },
     {
       "issue_id": "issue_38da1674bc12e5ef8197",
@@ -6651,6 +6762,31 @@
         "CBAS_ACTUAL"
       ],
       "event_count": 4
+    },
+    {
+      "issue_id": "issue_d3bd5da7f3a028777b09",
+      "stock_code": "3708",
+      "cb_code": null,
+      "short_name": null,
+      "company_name": "上緯投控",
+      "observed_stages": [
+        "BOARD_RESOLUTION"
+      ],
+      "inferred_stages": [],
+      "missing_stages": [
+        "FILING",
+        "EFFECTIVE",
+        "PRICING",
+        "AUCTION_BID_START",
+        "AUCTION_BID_END",
+        "BOOKBUILDING_START",
+        "BOOKBUILDING_END",
+        "BOOKBUILDING_RESULT",
+        "UNDERWRITING_NOTICE",
+        "LISTING",
+        "CBAS_ACTUAL"
+      ],
+      "event_count": 1
     },
     {
       "issue_id": "issue_b6085f6d06b9aeefdf53",
@@ -7412,8 +7548,9 @@
       "stock_code": "4540",
       "cb_code": "45401",
       "short_name": "全球傳動一",
-      "company_name": "全球傳動科技股份有限公司",
+      "company_name": "全球傳動",
       "observed_stages": [
+        "BOARD_RESOLUTION",
         "LISTING",
         "PRICING"
       ],
@@ -7434,7 +7571,7 @@
         "UNDERWRITING_NOTICE",
         "CBAS_ACTUAL"
       ],
-      "event_count": 7
+      "event_count": 8
     },
     {
       "issue_id": "issue_b6b568ee7c402d0fd290",
@@ -7635,8 +7772,9 @@
       "stock_code": "4564",
       "cb_code": "45641",
       "short_name": "元翎一",
-      "company_name": "元翎精密工業股份有限公司",
+      "company_name": "元翎",
       "observed_stages": [
+        "BOARD_RESOLUTION",
         "LISTING",
         "PRICING"
       ],
@@ -7657,7 +7795,7 @@
         "UNDERWRITING_NOTICE",
         "CBAS_ACTUAL"
       ],
-      "event_count": 7
+      "event_count": 8
     },
     {
       "issue_id": "issue_91387be59f68dbab1625",
@@ -7827,6 +7965,31 @@
         "CBAS_ACTUAL"
       ],
       "event_count": 4
+    },
+    {
+      "issue_id": "issue_be95b672a99f3165cb48",
+      "stock_code": "4722",
+      "cb_code": null,
+      "short_name": null,
+      "company_name": "國精化",
+      "observed_stages": [
+        "BOARD_RESOLUTION"
+      ],
+      "inferred_stages": [],
+      "missing_stages": [
+        "FILING",
+        "EFFECTIVE",
+        "PRICING",
+        "AUCTION_BID_START",
+        "AUCTION_BID_END",
+        "BOOKBUILDING_START",
+        "BOOKBUILDING_END",
+        "BOOKBUILDING_RESULT",
+        "UNDERWRITING_NOTICE",
+        "LISTING",
+        "CBAS_ACTUAL"
+      ],
+      "event_count": 1
     },
     {
       "issue_id": "issue_59ee2348690bd67cb944",
@@ -9802,8 +9965,9 @@
       "stock_code": "6126",
       "cb_code": "61263",
       "short_name": "信音三",
-      "company_name": "信音企業股份有限公司",
+      "company_name": "信音",
       "observed_stages": [
+        "BOARD_RESOLUTION",
         "LISTING",
         "PRICING"
       ],
@@ -9824,7 +9988,7 @@
         "UNDERWRITING_NOTICE",
         "CBAS_ACTUAL"
       ],
-      "event_count": 7
+      "event_count": 8
     },
     {
       "issue_id": "issue_62f81e0061d9e1feff9c",
@@ -11239,8 +11403,9 @@
       "stock_code": "6290",
       "cb_code": "62909",
       "short_name": "良維九",
-      "company_name": "良維科技股份有限公司",
+      "company_name": "良維",
       "observed_stages": [
+        "BOARD_RESOLUTION",
         "LISTING",
         "PRICING"
       ],
@@ -11261,7 +11426,7 @@
         "UNDERWRITING_NOTICE",
         "CBAS_ACTUAL"
       ],
-      "event_count": 7
+      "event_count": 8
     },
     {
       "issue_id": "issue_93de31b42bb2a2263da4",
@@ -12107,7 +12272,33 @@
         "UNDERWRITING_NOTICE",
         "CBAS_ACTUAL"
       ],
-      "event_count": 9
+      "event_count": 10
+    },
+    {
+      "issue_id": "issue_d40865ceac32d34188ec",
+      "stock_code": "6570",
+      "cb_code": "65702",
+      "short_name": "維田二",
+      "company_name": "維田科技股份有限公司",
+      "observed_stages": [
+        "LISTING",
+        "PRICING"
+      ],
+      "inferred_stages": [
+        "EFFECTIVE"
+      ],
+      "missing_stages": [
+        "BOARD_RESOLUTION",
+        "FILING",
+        "AUCTION_BID_START",
+        "AUCTION_BID_END",
+        "BOOKBUILDING_START",
+        "BOOKBUILDING_END",
+        "BOOKBUILDING_RESULT",
+        "UNDERWRITING_NOTICE",
+        "CBAS_ACTUAL"
+      ],
+      "event_count": 3
     },
     {
       "issue_id": "issue_d019eb441879ee46290f",
@@ -12648,6 +12839,31 @@
       "event_count": 7
     },
     {
+      "issue_id": "issue_7c7a9b3f18ae0e6eebbb",
+      "stock_code": "6669",
+      "cb_code": null,
+      "short_name": null,
+      "company_name": "緯穎",
+      "observed_stages": [
+        "BOARD_RESOLUTION"
+      ],
+      "inferred_stages": [],
+      "missing_stages": [
+        "FILING",
+        "EFFECTIVE",
+        "PRICING",
+        "AUCTION_BID_START",
+        "AUCTION_BID_END",
+        "BOOKBUILDING_START",
+        "BOOKBUILDING_END",
+        "BOOKBUILDING_RESULT",
+        "UNDERWRITING_NOTICE",
+        "LISTING",
+        "CBAS_ACTUAL"
+      ],
+      "event_count": 1
+    },
+    {
       "issue_id": "issue_365c15eed8eb77817ce3",
       "stock_code": "6670",
       "cb_code": "66701",
@@ -12789,7 +13005,7 @@
         "UNDERWRITING_NOTICE",
         "CBAS_ACTUAL"
       ],
-      "event_count": 11
+      "event_count": 12
     },
     {
       "issue_id": "issue_ea2adab4e12ec61fd5f1",
@@ -12852,8 +13068,9 @@
       "stock_code": "6706",
       "cb_code": "67061",
       "short_name": "惠特一",
-      "company_name": "惠特科技股份有限公司",
+      "company_name": "惠特",
       "observed_stages": [
+        "BOARD_RESOLUTION",
         "LISTING",
         "PRICING"
       ],
@@ -12874,7 +13091,7 @@
         "UNDERWRITING_NOTICE",
         "CBAS_ACTUAL"
       ],
-      "event_count": 7
+      "event_count": 8
     },
     {
       "issue_id": "issue_705fbd000fead7db1f54",
@@ -12991,8 +13208,9 @@
       "stock_code": "6753",
       "cb_code": "67531",
       "short_name": "龍德造船一",
-      "company_name": "龍德造船工業股份有限公司",
+      "company_name": "龍德造船",
       "observed_stages": [
+        "BOARD_RESOLUTION",
         "LISTING",
         "PRICING"
       ],
@@ -13013,7 +13231,7 @@
         "UNDERWRITING_NOTICE",
         "CBAS_ACTUAL"
       ],
-      "event_count": 7
+      "event_count": 8
     },
     {
       "issue_id": "issue_6e111d7626cf9260af46",
@@ -13581,8 +13799,9 @@
       "stock_code": "7402",
       "cb_code": "74021",
       "short_name": "邑錡一",
-      "company_name": "邑錡股份有限公司",
+      "company_name": "邑錡",
       "observed_stages": [
+        "BOARD_RESOLUTION",
         "LISTING",
         "PRICING"
       ],
@@ -13603,7 +13822,7 @@
         "UNDERWRITING_NOTICE",
         "CBAS_ACTUAL"
       ],
-      "event_count": 7
+      "event_count": 8
     },
     {
       "issue_id": "issue_3a6bb5cc82c0aa959d72",
@@ -15140,6 +15359,31 @@
         "CBAS_ACTUAL"
       ],
       "event_count": 7
+    },
+    {
+      "issue_id": "issue_de00275b737fb61ab245",
+      "stock_code": "8916",
+      "cb_code": null,
+      "short_name": null,
+      "company_name": "光隆",
+      "observed_stages": [
+        "BOARD_RESOLUTION"
+      ],
+      "inferred_stages": [],
+      "missing_stages": [
+        "FILING",
+        "EFFECTIVE",
+        "PRICING",
+        "AUCTION_BID_START",
+        "AUCTION_BID_END",
+        "BOOKBUILDING_START",
+        "BOOKBUILDING_END",
+        "BOOKBUILDING_RESULT",
+        "UNDERWRITING_NOTICE",
+        "LISTING",
+        "CBAS_ACTUAL"
+      ],
+      "event_count": 1
     },
     {
       "issue_id": "issue_998101e21f618fea7609",
