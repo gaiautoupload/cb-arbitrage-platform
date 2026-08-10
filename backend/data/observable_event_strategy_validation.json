@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-08T17:15:22",
+  "generated_at": "2026-08-10T18:57:26",
   "source": "D:\\bond\\backend\\data\\observable_event_strategy_search.json",
   "note": "This is a robustness screen; it does not replace out-of-sample or portfolio-level validation.",
   "validations": [
@@ -12,73 +12,6 @@
           "momentum10_positive",
           "momentum20_positive",
           "foreign_positive"
-        ],
-        "n": 10,
-        "win_rate": 70.0,
-        "avg_return": 20.04,
-        "worst_return": -17.95,
-        "best_return": 110.31
-      },
-      "all_trades": {
-        "n": 10,
-        "win_rate": 70.0,
-        "avg_return": 20.04,
-        "median_return": 20.79,
-        "worst_return": -17.95,
-        "best_return": 110.31
-      },
-      "trimmed_without_best": {
-        "n": 9,
-        "win_rate": 66.67,
-        "avg_return": 10.01,
-        "median_return": 4.43,
-        "worst_return": -17.95,
-        "best_return": 38.47
-      },
-      "by_event_year": {
-        "2026": {
-          "n": 10,
-          "win_rate": 70.0,
-          "avg_return": 20.04,
-          "median_return": 20.79,
-          "worst_return": -17.95,
-          "best_return": 110.31
-        }
-      },
-      "leave_one_out_min_avg": {
-        "n": 9,
-        "win_rate": 66.67,
-        "avg_return": 10.01,
-        "median_return": 4.43,
-        "worst_return": -17.95,
-        "best_return": 38.47,
-        "excluded": {
-          "stock_code": "5464",
-          "return_pct": 110.3064
-        }
-      },
-      "leave_one_out_max_avg": {
-        "n": 9,
-        "win_rate": 77.78,
-        "avg_return": 24.26,
-        "median_return": 20.79,
-        "worst_return": -12.22,
-        "best_return": 110.31,
-        "excluded": {
-          "stock_code": "8096",
-          "return_pct": -17.9487
-        }
-      }
-    },
-    {
-      "strategy": {
-        "stage": "AUCTION_BID_START",
-        "entry_offset": -5,
-        "exit_offset": 20,
-        "rules": [
-          "momentum10_positive",
-          "momentum20_positive",
-          "foreign_or_trust_positive"
         ],
         "n": 10,
         "win_rate": 70.0,

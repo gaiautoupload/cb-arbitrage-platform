@@ -15904,6 +15904,37 @@
     }
   },
   {
+    "stock_code": "8155",
+    "company_name": "博智電子股份有限公司",
+    "short_name": "博智三",
+    "stages": {
+      "BOARD_RESOLUTION": {
+        "date": "2026-05-29",
+        "title": "董事會決議發行無擔保轉換公司債",
+        "sentiment": "NEUTRAL",
+        "summary": "董事會通過發行可轉債以充實營運資金或償還債務"
+      },
+      "EFFECTIVE": {
+        "date": "2026-07-09",
+        "title": "金管會申報生效發行無擔保轉換公司債",
+        "sentiment": "BULLISH",
+        "summary": "可轉債申報生效，正式進入定價與發行準備期"
+      },
+      "PRICING": {
+        "date": "2026-08-10",
+        "title": "公告「博智三」發行及訂價等事宜 (櫃買公告)",
+        "sentiment": "NEUTRAL",
+        "summary": "櫃檯買賣中心公告發行資料"
+      },
+      "LISTING": {
+        "date": "2026-08-13",
+        "title": "「博智三」掛牌買賣/發行日",
+        "sentiment": "BULLISH",
+        "summary": "可轉債正式掛牌交易"
+      }
+    }
+  },
+  {
     "stock_code": "3081",
     "company_name": "聯亞光電工業股份有限公司",
     "short_name": "聯亞二",
@@ -15960,6 +15991,37 @@
       "LISTING": {
         "date": "2026-08-14",
         "title": "「維田二」掛牌買賣/發行日",
+        "sentiment": "BULLISH",
+        "summary": "可轉債正式掛牌交易"
+      }
+    }
+  },
+  {
+    "stock_code": "5536",
+    "company_name": "聖暉工程科技股份有限公司",
+    "short_name": "聖暉三",
+    "stages": {
+      "BOARD_RESOLUTION": {
+        "date": "2026-06-03",
+        "title": "董事會決議發行無擔保轉換公司債",
+        "sentiment": "NEUTRAL",
+        "summary": "董事會通過發行可轉債以充實營運資金或償還債務"
+      },
+      "EFFECTIVE": {
+        "date": "2026-07-13",
+        "title": "金管會申報生效發行無擔保轉換公司債",
+        "sentiment": "BULLISH",
+        "summary": "可轉債申報生效，正式進入定價與發行準備期"
+      },
+      "PRICING": {
+        "date": "2026-08-10",
+        "title": "公告「聖暉三」發行及訂價等事宜 (櫃買公告)",
+        "sentiment": "NEUTRAL",
+        "summary": "櫃檯買賣中心公告發行資料"
+      },
+      "LISTING": {
+        "date": "2026-08-17",
+        "title": "「聖暉三」掛牌買賣/發行日",
         "sentiment": "BULLISH",
         "summary": "可轉債正式掛牌交易"
       }

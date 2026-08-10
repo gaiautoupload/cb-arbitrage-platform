@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-08T17:14:48",
+  "generated_at": "2026-08-10T18:56:51",
   "source_files": {
     "mops_wiki_db": "mops_wiki_db.json",
     "parsed_bonds": "parsed_bonds.json",
@@ -12,19 +12,19 @@
     "Generated linked BOARD_RESOLUTION/EFFECTIVE dates are retained only as low-confidence proxy events."
   ],
   "summary": {
-    "total_events": 3324,
-    "actual_or_observed_events": 1208,
-    "inferred_events": 2116,
+    "total_events": 3335,
+    "actual_or_observed_events": 1214,
+    "inferred_events": 2121,
     "by_stage": {
-      "BOARD_RESOLUTION": 535,
+      "BOARD_RESOLUTION": 537,
       "FILING": 6,
-      "EFFECTIVE": 508,
-      "PRICING": 506,
+      "EFFECTIVE": 510,
+      "PRICING": 508,
       "PAYMENT_BANK": 24,
-      "AUCTION_BID_START": 51,
-      "AUCTION_BID_END": 51,
-      "AUCTION_RESULT_ESTIMATED": 51,
-      "LISTING": 509,
+      "AUCTION_BID_START": 52,
+      "AUCTION_BID_END": 52,
+      "AUCTION_RESULT_ESTIMATED": 52,
+      "LISTING": 511,
       "CBAS_PROXY_START": 361,
       "CBAS_PROXY_END": 361,
       "T_PLUS_19_EXIT_PROXY": 361
@@ -8270,45 +8270,6 @@
       "based_on": "2021-09-16"
     },
     {
-      "stock_code": "3019",
-      "company_name": "聯亞光電",
-      "short_name": "",
-      "stage": "AUCTION_BID_START",
-      "date": "2026-07-28",
-      "source": "twsa_bids",
-      "confidence": 0.9,
-      "is_inferred": false,
-      "serial": "115052",
-      "underwriter": "元大證券股份有限公司",
-      "min_price": "105.00",
-      "bidding_period": "2026/07/28~2026/07/30"
-    },
-    {
-      "stock_code": "3019",
-      "company_name": "聯亞光電",
-      "short_name": "",
-      "stage": "AUCTION_BID_END",
-      "date": "2026-07-30",
-      "source": "twsa_bids",
-      "confidence": 0.9,
-      "is_inferred": false,
-      "serial": "115052",
-      "underwriter": "元大證券股份有限公司",
-      "min_price": "105.00",
-      "bidding_period": "2026/07/28~2026/07/30"
-    },
-    {
-      "stock_code": "3019",
-      "company_name": "聯亞光電",
-      "short_name": "",
-      "stage": "AUCTION_RESULT_ESTIMATED",
-      "date": "2026-07-31",
-      "source": "calendar_proxy",
-      "confidence": 0.35,
-      "is_inferred": true,
-      "serial": "115052"
-    },
-    {
       "stock_code": "3023",
       "company_name": "信邦電子股份有限公司",
       "short_name": "信邦七",
@@ -8958,6 +8919,20 @@
     },
     {
       "stock_code": "3081",
+      "company_name": "聯亞光電",
+      "short_name": "聯亞一",
+      "stage": "AUCTION_BID_START",
+      "date": "2026-07-28",
+      "source": "twsa_bids",
+      "confidence": 0.9,
+      "is_inferred": false,
+      "serial": "115052",
+      "underwriter": "元大證券股份有限公司",
+      "min_price": "105.00",
+      "bidding_period": "2026/07/28~2026/07/30"
+    },
+    {
+      "stock_code": "3081",
       "company_name": "聯亞",
       "short_name": "聯亞一",
       "stage": "PAYMENT_BANK",
@@ -8969,6 +8944,31 @@
       "summary": "代收價款/專戶: 公告本公司國內第二次無擔保轉換公司債\r\n代收價款行庫及存儲專戶行庫",
       "event_type": "CB_ISSUANCE",
       "published_at": "2026-07-30T150821"
+    },
+    {
+      "stock_code": "3081",
+      "company_name": "聯亞光電",
+      "short_name": "聯亞一",
+      "stage": "AUCTION_BID_END",
+      "date": "2026-07-30",
+      "source": "twsa_bids",
+      "confidence": 0.9,
+      "is_inferred": false,
+      "serial": "115052",
+      "underwriter": "元大證券股份有限公司",
+      "min_price": "105.00",
+      "bidding_period": "2026/07/28~2026/07/30"
+    },
+    {
+      "stock_code": "3081",
+      "company_name": "聯亞光電",
+      "short_name": "聯亞一",
+      "stage": "AUCTION_RESULT_ESTIMATED",
+      "date": "2026-07-31",
+      "source": "calendar_proxy",
+      "confidence": 0.35,
+      "is_inferred": true,
+      "serial": "115052"
     },
     {
       "stock_code": "3081",
@@ -10375,6 +10375,45 @@
       "summary": "代收價款/專戶: 公告本公司國內第一次無擔保轉換公司債代收價款行庫\r\n及存儲專戶行庫",
       "event_type": "CB_ISSUANCE",
       "published_at": "2026-08-04T173219"
+    },
+    {
+      "stock_code": "3219",
+      "company_name": "倚強",
+      "short_name": "",
+      "stage": "AUCTION_BID_START",
+      "date": "2026-08-10",
+      "source": "twsa_bids",
+      "confidence": 0.9,
+      "is_inferred": false,
+      "serial": "115058",
+      "underwriter": "群益金鼎證券股份有限公司",
+      "min_price": "100.00",
+      "bidding_period": "2026/08/10~2026/08/12"
+    },
+    {
+      "stock_code": "3219",
+      "company_name": "倚強",
+      "short_name": "",
+      "stage": "AUCTION_BID_END",
+      "date": "2026-08-12",
+      "source": "twsa_bids",
+      "confidence": 0.9,
+      "is_inferred": false,
+      "serial": "115058",
+      "underwriter": "群益金鼎證券股份有限公司",
+      "min_price": "100.00",
+      "bidding_period": "2026/08/10~2026/08/12"
+    },
+    {
+      "stock_code": "3219",
+      "company_name": "倚強",
+      "short_name": "",
+      "stage": "AUCTION_RESULT_ESTIMATED",
+      "date": "2026-08-13",
+      "source": "calendar_proxy",
+      "confidence": 0.35,
+      "is_inferred": true,
+      "serial": "115058"
     },
     {
       "stock_code": "3257",
@@ -23243,9 +23282,33 @@
     {
       "stock_code": "5536",
       "company_name": "聖暉工程科技股份有限公司",
+      "short_name": "聖暉三",
+      "stage": "BOARD_RESOLUTION",
+      "date": "2026-06-03",
+      "source": "linked_bond_stages_proxy",
+      "confidence": 0.25,
+      "is_inferred": true,
+      "title": "董事會決議發行無擔保轉換公司債",
+      "summary": "董事會通過發行可轉債以充實營運資金或償還債務"
+    },
+    {
+      "stock_code": "5536",
+      "company_name": "聖暉工程科技股份有限公司",
       "short_name": "聖暉二",
       "stage": "EFFECTIVE",
       "date": "2026-06-30",
+      "source": "linked_bond_stages_proxy",
+      "confidence": 0.25,
+      "is_inferred": true,
+      "title": "金管會申報生效發行無擔保轉換公司債",
+      "summary": "可轉債申報生效，正式進入定價與發行準備期"
+    },
+    {
+      "stock_code": "5536",
+      "company_name": "聖暉工程科技股份有限公司",
+      "short_name": "聖暉三",
+      "stage": "EFFECTIVE",
+      "date": "2026-07-13",
       "source": "linked_bond_stages_proxy",
       "confidence": 0.25,
       "is_inferred": true,
@@ -23356,6 +23419,30 @@
       "confidence": 0.35,
       "is_inferred": true,
       "serial": "115055"
+    },
+    {
+      "stock_code": "5536",
+      "company_name": "聖暉工程科技股份有限公司",
+      "short_name": "聖暉三",
+      "stage": "PRICING",
+      "date": "2026-08-10",
+      "source": "parsed_bonds",
+      "confidence": 0.65,
+      "is_inferred": false,
+      "title": "聖暉三 announcement/pricing date",
+      "cb_code": "55363"
+    },
+    {
+      "stock_code": "5536",
+      "company_name": "聖暉工程科技股份有限公司",
+      "short_name": "聖暉三",
+      "stage": "LISTING",
+      "date": "2026-08-17",
+      "source": "parsed_bonds",
+      "confidence": 0.65,
+      "is_inferred": false,
+      "title": "聖暉三 issue/listing date",
+      "cb_code": "55363"
     },
     {
       "stock_code": "5543",
@@ -35890,9 +35977,33 @@
     {
       "stock_code": "8155",
       "company_name": "博智電子股份有限公司",
+      "short_name": "博智三",
+      "stage": "BOARD_RESOLUTION",
+      "date": "2026-05-29",
+      "source": "linked_bond_stages_proxy",
+      "confidence": 0.25,
+      "is_inferred": true,
+      "title": "董事會決議發行無擔保轉換公司債",
+      "summary": "董事會通過發行可轉債以充實營運資金或償還債務"
+    },
+    {
+      "stock_code": "8155",
+      "company_name": "博智電子股份有限公司",
       "short_name": "博智二",
       "stage": "EFFECTIVE",
       "date": "2026-06-29",
+      "source": "linked_bond_stages_proxy",
+      "confidence": 0.25,
+      "is_inferred": true,
+      "title": "金管會申報生效發行無擔保轉換公司債",
+      "summary": "可轉債申報生效，正式進入定價與發行準備期"
+    },
+    {
+      "stock_code": "8155",
+      "company_name": "博智電子股份有限公司",
+      "short_name": "博智三",
+      "stage": "EFFECTIVE",
+      "date": "2026-07-09",
       "source": "linked_bond_stages_proxy",
       "confidence": 0.25,
       "is_inferred": true,
@@ -35986,6 +36097,30 @@
       "confidence": 0.3,
       "is_inferred": true,
       "based_on": "2026-08-03"
+    },
+    {
+      "stock_code": "8155",
+      "company_name": "博智電子股份有限公司",
+      "short_name": "博智三",
+      "stage": "PRICING",
+      "date": "2026-08-10",
+      "source": "parsed_bonds",
+      "confidence": 0.65,
+      "is_inferred": false,
+      "title": "博智三 announcement/pricing date",
+      "cb_code": "81553"
+    },
+    {
+      "stock_code": "8155",
+      "company_name": "博智電子股份有限公司",
+      "short_name": "博智三",
+      "stage": "LISTING",
+      "date": "2026-08-13",
+      "source": "parsed_bonds",
+      "confidence": 0.65,
+      "is_inferred": false,
+      "title": "博智三 issue/listing date",
+      "cb_code": "81553"
     },
     {
       "stock_code": "8155",

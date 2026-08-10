@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-08T17:14:48",
+  "generated_at": "2026-08-10T18:56:52",
   "database": "D:\\bond\\backend\\data\\cb_event_master.sqlite",
   "required_stages": [
     "BOARD_RESOLUTION",
@@ -16,15 +16,15 @@
     "CBAS_ACTUAL"
   ],
   "summary": {
-    "issues": 566,
-    "events": 3365,
-    "issues_with_missing_stages": 566
+    "issues": 568,
+    "events": 3379,
+    "issues_with_missing_stages": 568
   },
   "stage_summary": {
     "BOARD_RESOLUTION": {
       "observed_events": 62,
-      "inferred_events": 488,
-      "issues_with_stage": 514
+      "inferred_events": 490,
+      "issues_with_stage": 516
     },
     "FILING": {
       "observed_events": 6,
@@ -33,23 +33,23 @@
     },
     "EFFECTIVE": {
       "observed_events": 2,
-      "inferred_events": 507,
-      "issues_with_stage": 507
+      "inferred_events": 509,
+      "issues_with_stage": 509
     },
     "PRICING": {
-      "observed_events": 506,
+      "observed_events": 508,
       "inferred_events": 0,
-      "issues_with_stage": 505
+      "issues_with_stage": 507
     },
     "AUCTION_BID_START": {
-      "observed_events": 56,
+      "observed_events": 58,
       "inferred_events": 0,
-      "issues_with_stage": 56
+      "issues_with_stage": 58
     },
     "AUCTION_BID_END": {
-      "observed_events": 56,
+      "observed_events": 58,
       "inferred_events": 0,
-      "issues_with_stage": 56
+      "issues_with_stage": 58
     },
     "BOOKBUILDING_START": {
       "observed_events": 0,
@@ -72,9 +72,9 @@
       "issues_with_stage": 0
     },
     "LISTING": {
-      "observed_events": 509,
+      "observed_events": 511,
       "inferred_events": 0,
-      "issues_with_stage": 506
+      "issues_with_stage": 508
     },
     "CBAS_ACTUAL": {
       "observed_events": 0,
@@ -3790,11 +3790,14 @@
       "short_name": "聯亞一",
       "company_name": "聯亞光電工業股份有限公司",
       "observed_stages": [
+        "AUCTION_BID_END",
+        "AUCTION_BID_START",
         "LISTING",
         "PAYMENT_BANK",
         "PRICING"
       ],
       "inferred_stages": [
+        "AUCTION_RESULT_ESTIMATED",
         "BOARD_RESOLUTION",
         "CBAS_PROXY_END",
         "CBAS_PROXY_START",
@@ -3803,15 +3806,13 @@
       ],
       "missing_stages": [
         "FILING",
-        "AUCTION_BID_START",
-        "AUCTION_BID_END",
         "BOOKBUILDING_START",
         "BOOKBUILDING_END",
         "BOOKBUILDING_RESULT",
         "UNDERWRITING_NOTICE",
         "CBAS_ACTUAL"
       ],
-      "event_count": 8
+      "event_count": 11
     },
     {
       "issue_id": "issue_82bcf33fbc27f0a91cf6",
@@ -4353,18 +4354,20 @@
       "stock_code": "3219",
       "cb_code": null,
       "short_name": null,
-      "company_name": "倚強科",
+      "company_name": "倚強",
       "observed_stages": [
+        "AUCTION_BID_END",
+        "AUCTION_BID_START",
         "BOARD_RESOLUTION",
         "PAYMENT_BANK"
       ],
-      "inferred_stages": [],
+      "inferred_stages": [
+        "AUCTION_RESULT_ESTIMATED"
+      ],
       "missing_stages": [
         "FILING",
         "EFFECTIVE",
         "PRICING",
-        "AUCTION_BID_START",
-        "AUCTION_BID_END",
         "BOOKBUILDING_START",
         "BOOKBUILDING_END",
         "BOOKBUILDING_RESULT",
@@ -4372,7 +4375,7 @@
         "LISTING",
         "CBAS_ACTUAL"
       ],
-      "event_count": 2
+      "event_count": 5
     },
     {
       "issue_id": "issue_bf163dc1ee435f09ad6f",
@@ -9542,6 +9545,32 @@
       "event_count": 3
     },
     {
+      "issue_id": "issue_697f9a8c503ca75ee0d7",
+      "stock_code": "5536",
+      "cb_code": "55363",
+      "short_name": "聖暉三",
+      "company_name": "聖暉工程科技股份有限公司",
+      "observed_stages": [
+        "LISTING",
+        "PRICING"
+      ],
+      "inferred_stages": [
+        "BOARD_RESOLUTION",
+        "EFFECTIVE"
+      ],
+      "missing_stages": [
+        "FILING",
+        "AUCTION_BID_START",
+        "AUCTION_BID_END",
+        "BOOKBUILDING_START",
+        "BOOKBUILDING_END",
+        "BOOKBUILDING_RESULT",
+        "UNDERWRITING_NOTICE",
+        "CBAS_ACTUAL"
+      ],
+      "event_count": 4
+    },
+    {
       "issue_id": "issue_c73292f9b3c92557e300",
       "stock_code": "5543",
       "cb_code": "55431",
@@ -14605,6 +14634,32 @@
         "CBAS_ACTUAL"
       ],
       "event_count": 11
+    },
+    {
+      "issue_id": "issue_5a1d90549508a5363e0e",
+      "stock_code": "8155",
+      "cb_code": "81553",
+      "short_name": "博智三",
+      "company_name": "博智電子股份有限公司",
+      "observed_stages": [
+        "LISTING",
+        "PRICING"
+      ],
+      "inferred_stages": [
+        "BOARD_RESOLUTION",
+        "EFFECTIVE"
+      ],
+      "missing_stages": [
+        "FILING",
+        "AUCTION_BID_START",
+        "AUCTION_BID_END",
+        "BOOKBUILDING_START",
+        "BOOKBUILDING_END",
+        "BOOKBUILDING_RESULT",
+        "UNDERWRITING_NOTICE",
+        "CBAS_ACTUAL"
+      ],
+      "event_count": 4
     },
     {
       "issue_id": "issue_b3f5f12fa19c88791746",
