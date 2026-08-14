@@ -9770,10 +9770,10 @@
     "short_name": "系統電五",
     "stages": {
       "BOARD_RESOLUTION": {
-        "date": "2026-07-08",
-        "title": "公告本公司國內第五次無擔保轉換公司債到期\n\n還本暨終止上櫃事宜",
+        "date": "2026-08-13",
+        "title": "公告本公司國內第五次無擔保轉換公司債轉換普通股增資基準日",
         "sentiment": "NEUTRAL",
-        "summary": "董事會/股東會決議: 公告本公司國內第五次無擔保轉換公司債到期\n\n還本暨終止上櫃事宜"
+        "summary": "董事會/股東會決議: 公告本公司國內第五次無擔保轉換公司債轉換普通股增資基準日"
       },
       "EFFECTIVE": {
         "date": "2023-07-04",
@@ -16022,6 +16022,130 @@
       "LISTING": {
         "date": "2026-08-17",
         "title": "「聖暉三」掛牌買賣/發行日",
+        "sentiment": "BULLISH",
+        "summary": "可轉債正式掛牌交易"
+      }
+    }
+  },
+  {
+    "stock_code": "8936",
+    "company_name": "國統國際股份有限公司",
+    "short_name": "國統五",
+    "stages": {
+      "BOARD_RESOLUTION": {
+        "date": "2026-06-03",
+        "title": "董事會決議發行無擔保轉換公司債",
+        "sentiment": "NEUTRAL",
+        "summary": "董事會通過發行可轉債以充實營運資金或償還債務"
+      },
+      "EFFECTIVE": {
+        "date": "2026-07-13",
+        "title": "金管會申報生效發行無擔保轉換公司債",
+        "sentiment": "BULLISH",
+        "summary": "可轉債申報生效，正式進入定價與發行準備期"
+      },
+      "PRICING": {
+        "date": "2026-08-11",
+        "title": "公告「國統五」發行及訂價等事宜 (櫃買公告)",
+        "sentiment": "NEUTRAL",
+        "summary": "櫃檯買賣中心公告發行資料"
+      },
+      "LISTING": {
+        "date": "2026-08-17",
+        "title": "「國統五」掛牌買賣/發行日",
+        "sentiment": "BULLISH",
+        "summary": "可轉債正式掛牌交易"
+      }
+    }
+  },
+  {
+    "stock_code": "4967",
+    "company_name": "十銓科技股份有限公司",
+    "short_name": "十銓五",
+    "stages": {
+      "BOARD_RESOLUTION": {
+        "date": "2026-06-04",
+        "title": "董事會決議發行無擔保轉換公司債",
+        "sentiment": "NEUTRAL",
+        "summary": "董事會通過發行可轉債以充實營運資金或償還債務"
+      },
+      "EFFECTIVE": {
+        "date": "2026-07-14",
+        "title": "金管會申報生效發行無擔保轉換公司債",
+        "sentiment": "BULLISH",
+        "summary": "可轉債申報生效，正式進入定價與發行準備期"
+      },
+      "PRICING": {
+        "date": "2026-08-11",
+        "title": "公告「十銓五」發行及訂價等事宜 (櫃買公告)",
+        "sentiment": "NEUTRAL",
+        "summary": "櫃檯買賣中心公告發行資料"
+      },
+      "LISTING": {
+        "date": "2026-08-18",
+        "title": "「十銓五」掛牌買賣/發行日",
+        "sentiment": "BULLISH",
+        "summary": "可轉債正式掛牌交易"
+      }
+    }
+  },
+  {
+    "stock_code": "3512",
+    "company_name": "皇龍開發股份有限公司",
+    "short_name": "皇龍二",
+    "stages": {
+      "BOARD_RESOLUTION": {
+        "date": "2026-06-04",
+        "title": "董事會決議發行無擔保轉換公司債",
+        "sentiment": "NEUTRAL",
+        "summary": "董事會通過發行可轉債以充實營運資金或償還債務"
+      },
+      "EFFECTIVE": {
+        "date": "2026-07-14",
+        "title": "金管會申報生效發行無擔保轉換公司債",
+        "sentiment": "BULLISH",
+        "summary": "可轉債申報生效，正式進入定價與發行準備期"
+      },
+      "PRICING": {
+        "date": "2026-08-11",
+        "title": "公告「皇龍二」發行及訂價等事宜 (櫃買公告)",
+        "sentiment": "NEUTRAL",
+        "summary": "櫃檯買賣中心公告發行資料"
+      },
+      "LISTING": {
+        "date": "2026-08-18",
+        "title": "「皇龍二」掛牌買賣/發行日",
+        "sentiment": "BULLISH",
+        "summary": "可轉債正式掛牌交易"
+      }
+    }
+  },
+  {
+    "stock_code": "3016",
+    "company_name": "嘉晶電子股份有限公司",
+    "short_name": "嘉晶六",
+    "stages": {
+      "BOARD_RESOLUTION": {
+        "date": "2026-06-30",
+        "title": "公告本公司董事會決議發行國內第六次無擔保轉換公司債",
+        "sentiment": "NEUTRAL",
+        "summary": "董事會/股東會決議: 公告本公司董事會決議發行國內第六次無擔保轉換公司債"
+      },
+      "EFFECTIVE": {
+        "date": "2026-07-14",
+        "title": "金管會申報生效發行無擔保轉換公司債",
+        "sentiment": "BULLISH",
+        "summary": "可轉債申報生效，正式進入定價與發行準備期"
+      },
+      "PRICING": {
+        "date": "2026-08-13",
+        "title": "公告「嘉晶六」發行及訂價等事宜 (櫃買公告)",
+        "sentiment": "NEUTRAL",
+        "summary": "櫃檯買賣中心公告發行資料"
+      },
+      "LISTING": {
+        "date": "2026-08-18",
+        "title": "「嘉晶六」掛牌買賣/發行日",
         "sentiment": "BULLISH",
         "summary": "可轉債正式掛牌交易"
       }
