@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-08-14T19:20:13",
+  "generated_at": "2026-08-15T17:14:38",
   "report_title": "公司債事件策略投資報告",
   "report_status": "research_only",
   "summary": {
     "headline": "目前已有平均報酬超過 20% 的候選，但尚未達到正式操盤標準。",
     "reason": "競拍歷史資料目前集中在 2026 年，且最佳候選去除單一最大值後平均報酬降至 13.52%。",
-    "search_samples": 8118,
+    "search_samples": 8134,
     "matching_strategies": 1
   },
   "candidates": [

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-14T19:19:39",
+  "generated_at": "2026-08-15T17:13:58",
   "source_files": {
     "mops_wiki_db": "mops_wiki_db.json",
     "parsed_bonds": "parsed_bonds.json",
@@ -12,15 +12,15 @@
     "Generated linked BOARD_RESOLUTION/EFFECTIVE dates are retained only as low-confidence proxy events."
   ],
   "summary": {
-    "total_events": 3367,
-    "actual_or_observed_events": 1234,
-    "inferred_events": 2133,
+    "total_events": 3374,
+    "actual_or_observed_events": 1243,
+    "inferred_events": 2131,
     "by_stage": {
-      "BOARD_RESOLUTION": 545,
-      "FILING": 8,
+      "BOARD_RESOLUTION": 550,
+      "FILING": 9,
       "EFFECTIVE": 514,
       "PRICING": 512,
-      "PAYMENT_BANK": 25,
+      "PAYMENT_BANK": 26,
       "AUCTION_BID_START": 54,
       "AUCTION_BID_END": 54,
       "AUCTION_RESULT_ESTIMATED": 54,
@@ -4230,6 +4230,20 @@
     },
     {
       "stock_code": "2303",
+      "company_name": "聯電",
+      "short_name": "聯電一",
+      "stage": "BOARD_RESOLUTION",
+      "date": "2026-08-14",
+      "source": "mops_wiki_db",
+      "confidence": 0.85,
+      "is_inferred": false,
+      "title": "公告本公司國內第二次無擔保轉換公司債之轉換價格及\r\n溢價率",
+      "summary": "董事會/股東會決議: 公告本公司國內第二次無擔保轉換公司債之轉換價格及\r\n溢價率",
+      "event_type": "CB_ISSUANCE",
+      "published_at": "2026-08-14T150659"
+    },
+    {
+      "stock_code": "2303",
       "company_name": "聯華電子股份有限公司",
       "short_name": "聯電一",
       "stage": "CBAS_PROXY_END",
@@ -4931,6 +4945,20 @@
       "summary": "董事會/股東會決議: 公告本公司國內第一次無擔保轉換公司債轉換\r\n發行新股之增資基準日",
       "event_type": "CB_ISSUANCE",
       "published_at": "2026-08-07T160102"
+    },
+    {
+      "stock_code": "2436",
+      "company_name": "偉詮電",
+      "short_name": "偉詮電一",
+      "stage": "BOARD_RESOLUTION",
+      "date": "2026-08-14",
+      "source": "mops_wiki_db",
+      "confidence": 0.85,
+      "is_inferred": false,
+      "title": "公告本公司國內第一次無擔保轉換公司債\r\n到期還本暨終止上櫃事宜",
+      "summary": "董事會/股東會決議: 公告本公司國內第一次無擔保轉換公司債\r\n到期還本暨終止上櫃事宜",
+      "event_type": "CB_ISSUANCE",
+      "published_at": "2026-08-14T142905"
     },
     {
       "stock_code": "2439",
@@ -13742,6 +13770,20 @@
     },
     {
       "stock_code": "3512",
+      "company_name": "皇龍",
+      "short_name": "皇龍一",
+      "stage": "PAYMENT_BANK",
+      "date": "2026-08-14",
+      "source": "mops_wiki_db",
+      "confidence": 0.85,
+      "is_inferred": false,
+      "title": "公告本公司國內第二次有擔保轉換公司債收足債款",
+      "summary": "代收價款/專戶: 公告本公司國內第二次有擔保轉換公司債收足債款",
+      "event_type": "CB_ISSUANCE",
+      "published_at": "2026-08-14T133221"
+    },
+    {
+      "stock_code": "3512",
       "company_name": "皇龍開發股份有限公司",
       "short_name": "皇龍二",
       "stage": "LISTING",
@@ -16762,6 +16804,20 @@
       "event_type": "CB_ISSUANCE",
       "published_at": "2026-06-25T164847",
       "source_ref": "t187ap04_L.json"
+    },
+    {
+      "stock_code": "3711",
+      "company_name": "日月光投控",
+      "short_name": "",
+      "stage": "BOARD_RESOLUTION",
+      "date": "2026-08-14",
+      "source": "mops_wiki_db",
+      "confidence": 0.85,
+      "is_inferred": false,
+      "title": "本公司擬認購子公司矽品精密工業(股)公司(下稱「矽品」)\r\n現金增資所發行之普通股新股(補充115/08/10公告)",
+      "summary": "董事會/股東會決議: 本公司擬認購子公司矽品精密工業(股)公司(下稱「矽品」)\r\n現金增資所發行之普通股新股(補充115/08/10公告)",
+      "event_type": "CB_ISSUANCE",
+      "published_at": "2026-08-14T165937"
     },
     {
       "stock_code": "3713",
@@ -20927,6 +20983,20 @@
     },
     {
       "stock_code": "4967",
+      "company_name": "十銓",
+      "short_name": "十銓一",
+      "stage": "FILING",
+      "date": "2026-08-14",
+      "source": "mops_wiki_db",
+      "confidence": 0.85,
+      "is_inferred": false,
+      "title": "公告本公司國內第五次無擔保轉換公司債收足債款",
+      "summary": "送件/申報: 公告本公司國內第五次無擔保轉換公司債收足債款",
+      "event_type": "CB_ISSUANCE",
+      "published_at": "2026-08-14T151308"
+    },
+    {
+      "stock_code": "4967",
       "company_name": "十銓科技股份有限公司",
       "short_name": "十銓五",
       "stage": "LISTING",
@@ -22870,6 +22940,20 @@
       "confidence": 0.3,
       "is_inferred": true,
       "based_on": "2022-05-24"
+    },
+    {
+      "stock_code": "5381",
+      "company_name": "光譜",
+      "short_name": "",
+      "stage": "BOARD_RESOLUTION",
+      "date": "2026-08-14",
+      "source": "mops_wiki_db",
+      "confidence": 0.85,
+      "is_inferred": false,
+      "title": "公告本公司董事會決議通過發行國內第三次有擔保轉換公司債",
+      "summary": "董事會/股東會決議: 公告本公司董事會決議通過發行國內第三次有擔保轉換公司債",
+      "event_type": "CB_ISSUANCE",
+      "published_at": "2026-08-14T164319"
     },
     {
       "stock_code": "5386",
@@ -25731,18 +25815,6 @@
       "stock_code": "6182",
       "company_name": "合晶科技股份有限公司",
       "short_name": "合晶七",
-      "stage": "BOARD_RESOLUTION",
-      "date": "2021-05-13",
-      "source": "linked_bond_stages_proxy",
-      "confidence": 0.25,
-      "is_inferred": true,
-      "title": "董事會決議發行無擔保轉換公司債",
-      "summary": "董事會通過發行可轉債以充實營運資金或償還債務"
-    },
-    {
-      "stock_code": "6182",
-      "company_name": "合晶科技股份有限公司",
-      "short_name": "合晶七",
       "stage": "EFFECTIVE",
       "date": "2021-06-22",
       "source": "linked_bond_stages_proxy",
@@ -25774,18 +25846,6 @@
       "is_inferred": false,
       "title": "合晶七 issue/listing date",
       "cb_code": "61827"
-    },
-    {
-      "stock_code": "6182",
-      "company_name": "合晶科技股份有限公司",
-      "short_name": "合晶八",
-      "stage": "BOARD_RESOLUTION",
-      "date": "2024-07-12",
-      "source": "linked_bond_stages_proxy",
-      "confidence": 0.25,
-      "is_inferred": true,
-      "title": "董事會決議發行無擔保轉換公司債",
-      "summary": "董事會通過發行可轉債以充實營運資金或償還債務"
     },
     {
       "stock_code": "6182",
@@ -25869,6 +25929,20 @@
       "confidence": 0.3,
       "is_inferred": true,
       "based_on": "2026-07-08"
+    },
+    {
+      "stock_code": "6182",
+      "company_name": "合晶",
+      "short_name": "合晶七",
+      "stage": "BOARD_RESOLUTION",
+      "date": "2026-08-14",
+      "source": "mops_wiki_db",
+      "confidence": 0.85,
+      "is_inferred": false,
+      "title": "公告本公司國內第七次及第八次無擔保轉換公司債轉換普通\r\n股之增資基準日",
+      "summary": "董事會/股東會決議: 公告本公司國內第七次及第八次無擔保轉換公司債轉換普通\r\n股之增資基準日",
+      "event_type": "CB_ISSUANCE",
+      "published_at": "2026-08-14T180409"
     },
     {
       "stock_code": "6184",
@@ -30344,6 +30418,20 @@
       "based_on": "2020-03-18"
     },
     {
+      "stock_code": "6538",
+      "company_name": "倉和",
+      "short_name": "",
+      "stage": "BOARD_RESOLUTION",
+      "date": "2026-08-14",
+      "source": "mops_wiki_db",
+      "confidence": 0.85,
+      "is_inferred": false,
+      "title": "公告本公司國內第一次無擔保轉換公司債115年第2季轉換普\r\n通股之增資基準日",
+      "summary": "董事會/股東會決議: 公告本公司國內第一次無擔保轉換公司債115年第2季轉換普\r\n通股之增資基準日",
+      "event_type": "CB_ISSUANCE",
+      "published_at": "2026-08-14T172038"
+    },
+    {
       "stock_code": "6546",
       "company_name": "正基科技股份有限公司",
       "short_name": "正基一",
@@ -34607,6 +34695,20 @@
       "confidence": 0.35,
       "is_inferred": true,
       "serial": "115001"
+    },
+    {
+      "stock_code": "8021",
+      "company_name": "尖點",
+      "short_name": "",
+      "stage": "BOARD_RESOLUTION",
+      "date": "2026-08-14",
+      "source": "mops_wiki_db",
+      "confidence": 0.85,
+      "is_inferred": false,
+      "title": "公告本公司董事會決議發行國內第三次無擔保轉換公司債",
+      "summary": "董事會/股東會決議: 公告本公司董事會決議發行國內第三次無擔保轉換公司債",
+      "event_type": "CB_ISSUANCE",
+      "published_at": "2026-08-14T140253"
     },
     {
       "stock_code": "8027",

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-14T19:19:40",
+  "generated_at": "2026-08-15T17:13:58",
   "database": "D:\\bond\\backend\\data\\cb_event_master.sqlite",
   "required_stages": [
     "BOARD_RESOLUTION",
@@ -16,20 +16,20 @@
     "CBAS_ACTUAL"
   ],
   "summary": {
-    "issues": 575,
-    "events": 3412,
-    "issues_with_missing_stages": 575
+    "issues": 577,
+    "events": 3421,
+    "issues_with_missing_stages": 577
   },
   "stage_summary": {
     "BOARD_RESOLUTION": {
-      "observed_events": 67,
+      "observed_events": 74,
       "inferred_events": 493,
-      "issues_with_stage": 522
+      "issues_with_stage": 525
     },
     "FILING": {
-      "observed_events": 8,
+      "observed_events": 9,
       "inferred_events": 0,
-      "issues_with_stage": 6
+      "issues_with_stage": 7
     },
     "EFFECTIVE": {
       "observed_events": 2,
@@ -1822,7 +1822,7 @@
         "UNDERWRITING_NOTICE",
         "CBAS_ACTUAL"
       ],
-      "event_count": 7
+      "event_count": 8
     },
     {
       "issue_id": "issue_094dc79a73a0ef2c1e78",
@@ -2104,7 +2104,7 @@
         "UNDERWRITING_NOTICE",
         "CBAS_ACTUAL"
       ],
-      "event_count": 8
+      "event_count": 9
     },
     {
       "issue_id": "issue_374f7d658b913062b594",
@@ -5623,6 +5623,7 @@
         "AUCTION_BID_END",
         "AUCTION_BID_START",
         "LISTING",
+        "PAYMENT_BANK",
         "PRICING"
       ],
       "inferred_stages": [
@@ -5641,7 +5642,7 @@
         "UNDERWRITING_NOTICE",
         "CBAS_ACTUAL"
       ],
-      "event_count": 10
+      "event_count": 11
     },
     {
       "issue_id": "issue_53441fbe28b473eed3fd",
@@ -6918,7 +6919,7 @@
         "LISTING",
         "CBAS_ACTUAL"
       ],
-      "event_count": 1
+      "event_count": 2
     },
     {
       "issue_id": "issue_eeab52533b2e7a9f2c5f",
@@ -8505,6 +8506,7 @@
       "observed_stages": [
         "AUCTION_BID_END",
         "AUCTION_BID_START",
+        "FILING",
         "LISTING",
         "PRICING"
       ],
@@ -8517,14 +8519,13 @@
         "T_PLUS_19_EXIT_PROXY"
       ],
       "missing_stages": [
-        "FILING",
         "BOOKBUILDING_START",
         "BOOKBUILDING_END",
         "BOOKBUILDING_RESULT",
         "UNDERWRITING_NOTICE",
         "CBAS_ACTUAL"
       ],
-      "event_count": 10
+      "event_count": 11
     },
     {
       "issue_id": "issue_689641b19880eda4db59",
@@ -9366,6 +9367,31 @@
         "CBAS_ACTUAL"
       ],
       "event_count": 7
+    },
+    {
+      "issue_id": "issue_7f06f00f5535a6124894",
+      "stock_code": "5381",
+      "cb_code": null,
+      "short_name": null,
+      "company_name": "光譜",
+      "observed_stages": [
+        "BOARD_RESOLUTION"
+      ],
+      "inferred_stages": [],
+      "missing_stages": [
+        "FILING",
+        "EFFECTIVE",
+        "PRICING",
+        "AUCTION_BID_START",
+        "AUCTION_BID_END",
+        "BOOKBUILDING_START",
+        "BOOKBUILDING_END",
+        "BOOKBUILDING_RESULT",
+        "UNDERWRITING_NOTICE",
+        "LISTING",
+        "CBAS_ACTUAL"
+      ],
+      "event_count": 1
     },
     {
       "issue_id": "issue_b0ab76d8db452eaa1ffa",
@@ -10518,6 +10544,7 @@
       "short_name": "合晶七",
       "company_name": "合晶",
       "observed_stages": [
+        "BOARD_RESOLUTION",
         "LISTING",
         "PRICING"
       ],
@@ -10538,7 +10565,7 @@
         "UNDERWRITING_NOTICE",
         "CBAS_ACTUAL"
       ],
-      "event_count": 8
+      "event_count": 9
     },
     {
       "issue_id": "issue_1887eb7ea7eba3626351",
@@ -12261,6 +12288,31 @@
         "CBAS_ACTUAL"
       ],
       "event_count": 7
+    },
+    {
+      "issue_id": "issue_12ca5f3bf2a07d0810f0",
+      "stock_code": "6538",
+      "cb_code": null,
+      "short_name": null,
+      "company_name": "倉和",
+      "observed_stages": [
+        "BOARD_RESOLUTION"
+      ],
+      "inferred_stages": [],
+      "missing_stages": [
+        "FILING",
+        "EFFECTIVE",
+        "PRICING",
+        "AUCTION_BID_START",
+        "AUCTION_BID_END",
+        "BOOKBUILDING_START",
+        "BOOKBUILDING_END",
+        "BOOKBUILDING_RESULT",
+        "UNDERWRITING_NOTICE",
+        "LISTING",
+        "CBAS_ACTUAL"
+      ],
+      "event_count": 1
     },
     {
       "issue_id": "issue_5b5db0be17af3e04a288",
@@ -14067,13 +14119,13 @@
       "company_name": "尖點",
       "observed_stages": [
         "AUCTION_BID_END",
-        "AUCTION_BID_START"
+        "AUCTION_BID_START",
+        "BOARD_RESOLUTION"
       ],
       "inferred_stages": [
         "AUCTION_RESULT_ESTIMATED"
       ],
       "missing_stages": [
-        "BOARD_RESOLUTION",
         "FILING",
         "EFFECTIVE",
         "PRICING",
@@ -14084,7 +14136,7 @@
         "LISTING",
         "CBAS_ACTUAL"
       ],
-      "event_count": 3
+      "event_count": 4
     },
     {
       "issue_id": "issue_e02db483a9e068574cd2",
