@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-15T17:00:28+08:00",
+  "generated_at": "2026-08-16T17:00:32+08:00",
   "source": "Google News RSS",
   "request_policy": "focus watchlist only; one query per stock; retries with backoff; preserve prior cache on failure",
   "stocks": {
@@ -7,6 +7,12 @@
       "company_name": "雙鍵",
       "query_url": "https://news.google.com/rss/search?q=%22%E9%9B%99%E9%8D%B5%22%204764%20%E8%82%A1%E7%A5%A8&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
       "items": [
+        {
+          "title": "雙鍵(4764)-同學風向與貼文摘要 - 股市爆料同學會 - CMoney",
+          "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9aNWkwbk9qdy0wQUQzeGY0ZzczTzF6cGxoV294WS1lTDVhcHZvMG1vMTgxRThiX1hmM09Na0tMNk11cmVOa05uMTg5anVST1pKRVVGa2c3MEdRbk1DaEZUUWxB?oc=5",
+          "source": "CMoney",
+          "published_at": "2026-08-16T00:23:21+08:00"
+        },
         {
           "title": "4764 雙鍵- 樹酯漲價25% - 股市爆料同學會 - CMoney",
           "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE42amJDcE4tVTU3TnRPUzRRR3RqTUNLUHBGSDhDbDdZdDRhbWFUR1d4cUFLWndld294R2FXNUpYbG9yTUhmTmFfc2dLamRSNlhpeUM5ZEZNUWE?oc=5",
@@ -38,6 +44,12 @@
           "published_at": "2026-06-11T15:00:00+08:00"
         },
         {
+          "title": "【06/11 申報轉讓】雙鍵(4764)大股東利用他人名義持有者顥揚投資有限公司將於06/14申報轉讓雙鍵股票500張 - CMoney投資網誌",
+          "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPRnpvbURkSjV3UXMzMEM1cVJQT1dGalk3STQ2d2E5cWlUWUpWX01VTEtPVVVIZ0k5dUhCSUJDMU9rT3ZSUF80anZ1TE9RY21XSkI3UWdTUVRYVndxdV94VG11M0RpbDZHRTJzNDZqdlRNbFdmRl9WN3NVb0ZydzBZanNJaURYeU9iRGc?oc=5",
+          "source": "CMoney投資網誌",
+          "published_at": "2026-06-11T15:00:00+08:00"
+        },
+        {
           "title": "4764 雙鍵 - 281小空😍 - 股市爆料同學會 - CMoney",
           "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9naGZXWFp0cW5rM3pkX3VCZ2hfRW1KRkp4QmNUUy0yMWViVGFtaUlyVDVxTUw2cDJ1X2IzalBLVVc1S3FYdFJMWUZtMHRrS09CMW5kb3BpUkc?oc=5",
           "source": "CMoney",
@@ -54,18 +66,6 @@
           "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxObkFHWDJmYWpJTk9nbERNSlZsWG5za2RCY1NVXzZ0MFZIUThCcktVUmdHQ3ZDalVVSW44M0JIWUZuYXRFbVZwT0k4YTZnYWhJQWJsTTltYTRSZ0RZdmJDS0xiaGZqX3FMR29pbHBoS0ZabWNkdC1RQWlkRkZFTDFOMlBrR0F1YnlhNkE?oc=5",
           "source": "CMoney投資網誌",
           "published_at": "2026-05-21T15:00:00+08:00"
-        },
-        {
-          "title": "處置股名單0421／今日新增12 檔，華星光、晶技、雙鍵、GIS-KY、信昌電新入列｜股市話題｜豐雲學堂2026 年 08 月 - sinotrade.com.tw",
-          "url": "https://news.google.com/rss/articles/CBMi3gNBVV95cUxNZUxyRHA1VkxlWlpYQ0htZEJ6OXVEMldtRjF1Mm5rWFpSUDI3LThfWjcxZ0MzVkFTTUpzTHNyRmprdEJhZ2plc21QMDVqYkV1ZXhGS09jRFhwRnZRbzVTd1dRSjduRS1WMWNjbnlPSHhIZWJuSTE2UVdMbFdvbjdVRXZtWWtTR1pQVkU5SWhYTWh1SE1CczZDNFctWEdpeVNvQ3U5ek53VWNJM2p3enkteDVsUF9qSUppdEt5Mk4yQWNIalhtOUVweEM5b2JGRElvMERJWXI5UDNxVWp4VHJDQmVieGhpbjNOZmVjWjVjeTlUVGZsX3lLOWtVNXpvRWdPNDczWDN5QjNEcjJxeUx6bDB1ZXJxakxBanpMcTV0XzczeFZJeWtiZ1Q1MmhBa1B0ejhYc3A4T3lwZHVwbnJoQmkwemxIWlk2Zml0Z0lvaGpGLS1qTjhtUEZieHhwaVduTjZ0Vkx0NWhBQ0IzX3ZRM0M2NENFMWZ6QmZLbjhJUlJFS0VWNU5oNW84YTQ4enFpWDlRTF9McEdKUWNONFh5Vkctd3FjeHZOOEVPRHpCSlFwYy1sQWpyTnJOZ2VYU3ZkbGFDVWRlMk9SLTZ2eVdpLU5wajFZV0ZRZ2h0cjJ3?oc=5",
-          "source": "sinotrade.com.tw",
-          "published_at": "2026-04-20T15:00:00+08:00"
-        },
-        {
-          "title": "大漲千點為何帶賣股? 台積電 鴻海 緯創 如何做? 【雙鍵第2】目標翻倍 - news.cnyes.com",
-          "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBadzhuUnJUV2NISTRtakhhTk96TVVDZEZsdFZRNEhPNTdJZFI2cFpjdExhSDY4TWdZTy14VTYxM05lUERCMlozcm40SExtZVU?oc=5",
-          "source": "news.cnyes.com",
-          "published_at": "2026-03-11T15:00:00+08:00"
         }
       ],
       "stale_cache": false
@@ -117,6 +117,12 @@
           "published_at": "2026-07-08T15:00:00+08:00"
         },
         {
+          "title": "【07/06 申報轉讓】聯電(2303)經理人劉啟東將於07/09申報轉讓聯電股票1,900張 - CMoney",
+          "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBWNFJ2dVBYZjU2ckFWQ0FOOVpXZFVodkluWG5tekhNY3Jrc0gzR29NOVBiWUY2R1U2RWtxWE9KZ0ItWVVQZ3BtN1NscnMzcEpPVkhyVEg3ZFVfZjJjTGYtNWpLaG9qRW8?oc=5",
+          "source": "CMoney",
+          "published_at": "2026-07-06T15:00:00+08:00"
+        },
+        {
           "title": "聯電列處置股關禁閉，股價下殺近6%可以買？外資連3天買超逾11萬張、目標價又調升：4成空間還不賴 - 今周刊",
           "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOZFM4bTY5RGtJNGlUNHlud0F6dWVsYkpabDJmSUhuczJMVXVnV0ZWQUN3TjVlLTNfODk3RjllM0hmM3hzbGtyVlhjYUY2azVPbGViREJUeWRBekZaX2IyUDdoSDF3ZEdrcG9Rd1VZQlZlQkhZNEFQSWxLYmxzeXRleQ?oc=5",
           "source": "今周刊",
@@ -127,12 +133,6 @@
           "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5CeXFRZy1obnJGcTdaZWZKd19TTi10U3pHbjNBMnR0SU5ZWnBaRWVva01qcFB3b0k3RVpseE1fdEo3UEo1M0V4cGNReEwxSS0wZVJfQzMwcnlRWENDeEVr0gFkQVVfeXFMTWFvM0hPYjZDNEk3OWJtY0NMbktFZFE3NWNhRDgtLVluOVFvYnUyaTFNbDd4UERndVFITE52ZWR1ckVsRFkxelRUNjNpcVpCa011WXdIZXNyZ21FcFRWcWVyWnlFYw?oc=5",
           "source": "自由財經",
           "published_at": "2026-07-01T15:00:00+08:00"
-        },
-        {
-          "title": "【即時新聞】聯電(2303)遭投信倒貨2.6萬張，這「4檔概念股」買盤點火接棒！ - CMoney投資網誌",
-          "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQbEVLUHVFV2ZhOHlfa3o3enNJaGdDRXozbjhtNGFId0FzdU1jYjlpSVBtQ0VGVnBpSzJGWXBkVjVHdVlzMmZCX2o3bmhwRE5sME1hMmxYMGw2aDh5d1FzdEdUcGZVZHUxaW45SW9aWXBmSzJvYkthNVJrRUdtUU9PM3pReVFBd2lwWUFPQ1N3OUY?oc=5",
-          "source": "CMoney投資網誌",
-          "published_at": "2026-06-30T15:00:00+08:00"
         }
       ],
       "stale_cache": false

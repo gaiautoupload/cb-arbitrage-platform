@@ -79,6 +79,12 @@
     },
     "latest_news": [
       {
+        "title": "雙鍵(4764)-同學風向與貼文摘要 - 股市爆料同學會 - CMoney",
+        "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9aNWkwbk9qdy0wQUQzeGY0ZzczTzF6cGxoV294WS1lTDVhcHZvMG1vMTgxRThiX1hmM09Na0tMNk11cmVOa05uMTg5anVST1pKRVVGa2c3MEdRbk1DaEZUUWxB?oc=5",
+        "source": "CMoney",
+        "published_at": "2026-08-16T00:23:21+08:00"
+      },
+      {
         "title": "4764 雙鍵- 樹酯漲價25% - 股市爆料同學會 - CMoney",
         "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE42amJDcE4tVTU3TnRPUzRRR3RqTUNLUHBGSDhDbDdZdDRhbWFUR1d4cUFLWndld294R2FXNUpYbG9yTUhmTmFfc2dLamRSNlhpeUM5ZEZNUWE?oc=5",
         "source": "CMoney",
@@ -89,12 +95,6 @@
         "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBrbTZLM1pBWG12VHFWMEFUUGpVOVBvOEVkM2M5WHJIME1YdVYzb0hsWDhzeVUzODBGUEFNeVRpUmJDeUxGX0dOZ3ZwZ2pqOExSNGF4Sk0zMjM?oc=5",
         "source": "CMoney",
         "published_at": "2026-08-13T18:14:25+08:00"
-      },
-      {
-        "title": "4764 雙鍵 - 265小空😎 - 股市爆料同學會 - CMoney",
-        "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9hNWVFYmM3a1BkZUVNMXVybnVCaGc5a0gtZzRqNGJ4eTgtM2F3UkN3NWpoYVRzTGhlZWFHVklNNlhqNUFvb2xzMUl2TGUzX0VXLTZMeEgwbXc?oc=5",
-        "source": "CMoney",
-        "published_at": "2026-08-05T15:00:00+08:00"
       }
     ],
     "operation_signals": {
@@ -242,6 +242,12 @@
     },
     "latest_news": [
       {
+        "title": "雙鍵(4764)-同學風向與貼文摘要 - 股市爆料同學會 - CMoney",
+        "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9aNWkwbk9qdy0wQUQzeGY0ZzczTzF6cGxoV294WS1lTDVhcHZvMG1vMTgxRThiX1hmM09Na0tMNk11cmVOa05uMTg5anVST1pKRVVGa2c3MEdRbk1DaEZUUWxB?oc=5",
+        "source": "CMoney",
+        "published_at": "2026-08-16T00:23:21+08:00"
+      },
+      {
         "title": "4764 雙鍵- 樹酯漲價25% - 股市爆料同學會 - CMoney",
         "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE42amJDcE4tVTU3TnRPUzRRR3RqTUNLUHBGSDhDbDdZdDRhbWFUR1d4cUFLWndld294R2FXNUpYbG9yTUhmTmFfc2dLamRSNlhpeUM5ZEZNUWE?oc=5",
         "source": "CMoney",
@@ -252,12 +258,6 @@
         "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBrbTZLM1pBWG12VHFWMEFUUGpVOVBvOEVkM2M5WHJIME1YdVYzb0hsWDhzeVUzODBGUEFNeVRpUmJDeUxGX0dOZ3ZwZ2pqOExSNGF4Sk0zMjM?oc=5",
         "source": "CMoney",
         "published_at": "2026-08-13T18:14:25+08:00"
-      },
-      {
-        "title": "4764 雙鍵 - 265小空😎 - 股市爆料同學會 - CMoney",
-        "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9hNWVFYmM3a1BkZUVNMXVybnVCaGc5a0gtZzRqNGJ4eTgtM2F3UkN3NWpoYVRzTGhlZWFHVklNNlhqNUFvb2xzMUl2TGUzX0VXLTZMeEgwbXc?oc=5",
-        "source": "CMoney",
-        "published_at": "2026-08-05T15:00:00+08:00"
       }
     ],
     "operation_signals": {
@@ -351,7 +351,7 @@
       },
       {
         "name": "每日資料追蹤",
-        "date": "2026-08-15",
+        "date": "2026-08-16",
         "status": "active",
         "description": "追蹤董事會、申報送件、訂價、競拍或詢圈、承銷、掛牌及 CBAS 拆解時程。"
       }
