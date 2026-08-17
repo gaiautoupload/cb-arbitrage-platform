@@ -16150,5 +16150,36 @@
         "summary": "可轉債正式掛牌交易"
       }
     }
+  },
+  {
+    "stock_code": "4973",
+    "company_name": "廣穎電通股份有限公司",
+    "short_name": "廣穎電通一",
+    "stages": {
+      "BOARD_RESOLUTION": {
+        "date": "2026-06-05",
+        "title": "董事會決議發行無擔保轉換公司債",
+        "sentiment": "NEUTRAL",
+        "summary": "董事會通過發行可轉債以充實營運資金或償還債務"
+      },
+      "EFFECTIVE": {
+        "date": "2026-07-17",
+        "title": "金管會申報生效發行無擔保轉換公司債",
+        "sentiment": "BULLISH",
+        "summary": "可轉債申報生效，正式進入定價與發行準備期"
+      },
+      "PRICING": {
+        "date": "2026-08-17",
+        "title": "公告「廣穎電通一」發行及訂價等事宜 (櫃買公告)",
+        "sentiment": "NEUTRAL",
+        "summary": "櫃檯買賣中心公告發行資料"
+      },
+      "LISTING": {
+        "date": "2026-08-21",
+        "title": "「廣穎電通一」掛牌買賣/發行日",
+        "sentiment": "BULLISH",
+        "summary": "可轉債正式掛牌交易"
+      }
+    }
   }
 ]

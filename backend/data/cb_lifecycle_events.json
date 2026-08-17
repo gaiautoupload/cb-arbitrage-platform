@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-16T17:14:15",
+  "generated_at": "2026-08-17T17:14:55",
   "source_files": {
     "mops_wiki_db": "mops_wiki_db.json",
     "parsed_bonds": "parsed_bonds.json",
@@ -12,22 +12,22 @@
     "Generated linked BOARD_RESOLUTION/EFFECTIVE dates are retained only as low-confidence proxy events."
   ],
   "summary": {
-    "total_events": 3374,
-    "actual_or_observed_events": 1243,
-    "inferred_events": 2131,
+    "total_events": 3381,
+    "actual_or_observed_events": 1245,
+    "inferred_events": 2136,
     "by_stage": {
-      "BOARD_RESOLUTION": 550,
+      "BOARD_RESOLUTION": 551,
       "FILING": 9,
-      "EFFECTIVE": 514,
-      "PRICING": 512,
+      "EFFECTIVE": 515,
+      "PRICING": 513,
       "PAYMENT_BANK": 26,
       "AUCTION_BID_START": 54,
       "AUCTION_BID_END": 54,
       "AUCTION_RESULT_ESTIMATED": 54,
-      "LISTING": 515,
-      "CBAS_PROXY_START": 362,
-      "CBAS_PROXY_END": 362,
-      "T_PLUS_19_EXIT_PROXY": 362
+      "LISTING": 516,
+      "CBAS_PROXY_START": 363,
+      "CBAS_PROXY_END": 363,
+      "T_PLUS_19_EXIT_PROXY": 363
     }
   },
   "events": [
@@ -21087,6 +21087,87 @@
       "confidence": 0.3,
       "is_inferred": true,
       "based_on": "2022-07-29"
+    },
+    {
+      "stock_code": "4973",
+      "company_name": "廣穎電通股份有限公司",
+      "short_name": "廣穎電通一",
+      "stage": "BOARD_RESOLUTION",
+      "date": "2026-06-05",
+      "source": "linked_bond_stages_proxy",
+      "confidence": 0.25,
+      "is_inferred": true,
+      "title": "董事會決議發行無擔保轉換公司債",
+      "summary": "董事會通過發行可轉債以充實營運資金或償還債務"
+    },
+    {
+      "stock_code": "4973",
+      "company_name": "廣穎電通股份有限公司",
+      "short_name": "廣穎電通一",
+      "stage": "EFFECTIVE",
+      "date": "2026-07-17",
+      "source": "linked_bond_stages_proxy",
+      "confidence": 0.25,
+      "is_inferred": true,
+      "title": "金管會申報生效發行無擔保轉換公司債",
+      "summary": "可轉債申報生效，正式進入定價與發行準備期"
+    },
+    {
+      "stock_code": "4973",
+      "company_name": "廣穎電通股份有限公司",
+      "short_name": "廣穎電通一",
+      "stage": "PRICING",
+      "date": "2026-08-17",
+      "source": "parsed_bonds",
+      "confidence": 0.65,
+      "is_inferred": false,
+      "title": "廣穎電通一 announcement/pricing date",
+      "cb_code": "49731"
+    },
+    {
+      "stock_code": "4973",
+      "company_name": "廣穎電通股份有限公司",
+      "short_name": "廣穎電通一",
+      "stage": "LISTING",
+      "date": "2026-08-21",
+      "source": "parsed_bonds",
+      "confidence": 0.65,
+      "is_inferred": false,
+      "title": "廣穎電通一 issue/listing date",
+      "cb_code": "49731"
+    },
+    {
+      "stock_code": "4973",
+      "company_name": "廣穎電通股份有限公司",
+      "short_name": "廣穎電通一",
+      "stage": "CBAS_PROXY_START",
+      "date": "2026-08-22",
+      "source": "cbas_proxy",
+      "confidence": 0.3,
+      "is_inferred": true,
+      "based_on": "2026-08-21"
+    },
+    {
+      "stock_code": "4973",
+      "company_name": "廣穎電通股份有限公司",
+      "short_name": "廣穎電通一",
+      "stage": "CBAS_PROXY_END",
+      "date": "2026-09-08",
+      "source": "cbas_proxy",
+      "confidence": 0.3,
+      "is_inferred": true,
+      "based_on": "2026-08-21"
+    },
+    {
+      "stock_code": "4973",
+      "company_name": "廣穎電通股份有限公司",
+      "short_name": "廣穎電通一",
+      "stage": "T_PLUS_19_EXIT_PROXY",
+      "date": "2026-09-09",
+      "source": "cbas_proxy",
+      "confidence": 0.3,
+      "is_inferred": true,
+      "based_on": "2026-08-21"
     },
     {
       "stock_code": "4979",

@@ -7828,5 +7828,20 @@
     "maturity_date_minguo": "118年8月18日",
     "maturity_date": "2029-08-18",
     "issue_amount": "新台幣3.5億元整"
+  },
+  {
+    "file_id": "11500053621",
+    "company_name": "廣穎電通股份有限公司",
+    "bond_name": "廣穎電通股份有限公司國內第一次無擔保轉換公司債",
+    "cb_code": "49731",
+    "stock_code": "4973",
+    "short_name": "廣穎電通一",
+    "announcement_date_minguo": "115年8月17日",
+    "announcement_date": "2026-08-17",
+    "issue_date_minguo": "115年8月21日",
+    "issue_date": "2026-08-21",
+    "maturity_date_minguo": "118年8月21日",
+    "maturity_date": "2029-08-21",
+    "issue_amount": "新台幣5億元整"
   }
 ]

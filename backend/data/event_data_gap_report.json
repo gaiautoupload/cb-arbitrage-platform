@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-16T17:14:16",
+  "generated_at": "2026-08-17T17:14:56",
   "database": "D:\\bond\\backend\\data\\cb_event_master.sqlite",
   "required_stages": [
     "BOARD_RESOLUTION",
@@ -16,15 +16,15 @@
     "CBAS_ACTUAL"
   ],
   "summary": {
-    "issues": 577,
-    "events": 3421,
-    "issues_with_missing_stages": 577
+    "issues": 578,
+    "events": 3428,
+    "issues_with_missing_stages": 578
   },
   "stage_summary": {
     "BOARD_RESOLUTION": {
       "observed_events": 74,
-      "inferred_events": 493,
-      "issues_with_stage": 525
+      "inferred_events": 494,
+      "issues_with_stage": 526
     },
     "FILING": {
       "observed_events": 9,
@@ -33,13 +33,13 @@
     },
     "EFFECTIVE": {
       "observed_events": 2,
-      "inferred_events": 513,
-      "issues_with_stage": 513
+      "inferred_events": 514,
+      "issues_with_stage": 514
     },
     "PRICING": {
-      "observed_events": 512,
+      "observed_events": 513,
       "inferred_events": 0,
-      "issues_with_stage": 511
+      "issues_with_stage": 512
     },
     "AUCTION_BID_START": {
       "observed_events": 60,
@@ -72,9 +72,9 @@
       "issues_with_stage": 0
     },
     "LISTING": {
-      "observed_events": 515,
+      "observed_events": 516,
       "inferred_events": 0,
-      "issues_with_stage": 512
+      "issues_with_stage": 513
     },
     "CBAS_ACTUAL": {
       "observed_events": 0,
@@ -8611,6 +8611,35 @@
       "cb_code": "49681",
       "short_name": "立積一",
       "company_name": "立積電子股份有限公司",
+      "observed_stages": [
+        "LISTING",
+        "PRICING"
+      ],
+      "inferred_stages": [
+        "BOARD_RESOLUTION",
+        "CBAS_PROXY_END",
+        "CBAS_PROXY_START",
+        "EFFECTIVE",
+        "T_PLUS_19_EXIT_PROXY"
+      ],
+      "missing_stages": [
+        "FILING",
+        "AUCTION_BID_START",
+        "AUCTION_BID_END",
+        "BOOKBUILDING_START",
+        "BOOKBUILDING_END",
+        "BOOKBUILDING_RESULT",
+        "UNDERWRITING_NOTICE",
+        "CBAS_ACTUAL"
+      ],
+      "event_count": 7
+    },
+    {
+      "issue_id": "issue_ef1872745f9a38caa9dc",
+      "stock_code": "4973",
+      "cb_code": "49731",
+      "short_name": "廣穎電通一",
+      "company_name": "廣穎電通股份有限公司",
       "observed_stages": [
         "LISTING",
         "PRICING"
