@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-17T17:14:55",
+  "generated_at": "2026-08-18T19:09:34",
   "source_files": {
     "mops_wiki_db": "mops_wiki_db.json",
     "parsed_bonds": "parsed_bonds.json",
@@ -12,15 +12,15 @@
     "Generated linked BOARD_RESOLUTION/EFFECTIVE dates are retained only as low-confidence proxy events."
   ],
   "summary": {
-    "total_events": 3381,
-    "actual_or_observed_events": 1245,
+    "total_events": 3383,
+    "actual_or_observed_events": 1247,
     "inferred_events": 2136,
     "by_stage": {
-      "BOARD_RESOLUTION": 551,
+      "BOARD_RESOLUTION": 552,
       "FILING": 9,
       "EFFECTIVE": 515,
       "PRICING": 513,
-      "PAYMENT_BANK": 26,
+      "PAYMENT_BANK": 27,
       "AUCTION_BID_START": 54,
       "AUCTION_BID_END": 54,
       "AUCTION_RESULT_ESTIMATED": 54,
@@ -5576,6 +5576,20 @@
       "event_type": "CB_ISSUANCE",
       "published_at": "2026-06-16T153519",
       "source_ref": "t187ap04_L.json"
+    },
+    {
+      "stock_code": "2464",
+      "company_name": "盟立",
+      "short_name": "盟立二",
+      "stage": "PAYMENT_BANK",
+      "date": "2026-08-17",
+      "source": "mops_wiki_db",
+      "confidence": 0.85,
+      "is_inferred": false,
+      "title": "公告本公司國內第三次無擔保轉換公司債之\r\n代收價款行庫及存儲專戶行庫",
+      "summary": "代收價款/專戶: 公告本公司國內第三次無擔保轉換公司債之\r\n代收價款行庫及存儲專戶行庫",
+      "event_type": "CB_ISSUANCE",
+      "published_at": "2026-08-17T160055"
     },
     {
       "stock_code": "2466",
@@ -18126,6 +18140,20 @@
       "event_type": "CB_ISSUANCE",
       "published_at": "2026-06-26T142003",
       "source_ref": "t187ap04_L.json"
+    },
+    {
+      "stock_code": "4190",
+      "company_name": "佐登-KY",
+      "short_name": "",
+      "stage": "BOARD_RESOLUTION",
+      "date": "2026-08-17",
+      "source": "mops_wiki_db",
+      "confidence": 0.85,
+      "is_inferred": false,
+      "title": "本公司董事會決議辦理限制員工權利新股收回註銷減資事宜",
+      "summary": "董事會/股東會決議: 本公司董事會決議辦理限制員工權利新股收回註銷減資事宜",
+      "event_type": "CB_ISSUANCE",
+      "published_at": "2026-08-17T181906"
     },
     {
       "stock_code": "4198",

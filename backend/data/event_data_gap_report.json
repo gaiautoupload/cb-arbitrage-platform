@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-17T17:14:56",
+  "generated_at": "2026-08-18T19:09:34",
   "database": "D:\\bond\\backend\\data\\cb_event_master.sqlite",
   "required_stages": [
     "BOARD_RESOLUTION",
@@ -17,14 +17,14 @@
   ],
   "summary": {
     "issues": 578,
-    "events": 3428,
+    "events": 3430,
     "issues_with_missing_stages": 578
   },
   "stage_summary": {
     "BOARD_RESOLUTION": {
-      "observed_events": 74,
+      "observed_events": 75,
       "inferred_events": 494,
-      "issues_with_stage": 526
+      "issues_with_stage": 527
     },
     "FILING": {
       "observed_events": 9,
@@ -2361,6 +2361,7 @@
       "observed_stages": [
         "BOARD_RESOLUTION",
         "LISTING",
+        "PAYMENT_BANK",
         "PRICING"
       ],
       "inferred_stages": [
@@ -2380,7 +2381,7 @@
         "UNDERWRITING_NOTICE",
         "CBAS_ACTUAL"
       ],
-      "event_count": 8
+      "event_count": 9
     },
     {
       "issue_id": "issue_2e546554211c2e294dce",
@@ -7436,13 +7437,13 @@
       "observed_stages": [
         "AUCTION_BID_END",
         "AUCTION_BID_START",
+        "BOARD_RESOLUTION",
         "FILING"
       ],
       "inferred_stages": [
         "AUCTION_RESULT_ESTIMATED"
       ],
       "missing_stages": [
-        "BOARD_RESOLUTION",
         "EFFECTIVE",
         "PRICING",
         "BOOKBUILDING_START",
@@ -7452,7 +7453,7 @@
         "LISTING",
         "CBAS_ACTUAL"
       ],
-      "event_count": 4
+      "event_count": 5
     },
     {
       "issue_id": "issue_1fbccc9c985b7f369be1",

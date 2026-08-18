@@ -6011,6 +6011,64 @@
     "parsed_at": "2026-08-15T17:00:28"
   },
   {
+    "date": "2026-08-17",
+    "time": "160055",
+    "stock_code": "2464",
+    "company_name": "盟立",
+    "event_title": "公告本公司國內第三次無擔保轉換公司債之\r\n代收價款行庫及存儲專戶行庫",
+    "event_type": "CB_ISSUANCE",
+    "stage": "PAYMENT_BANK",
+    "wiki_details": {},
+    "sentiment": "BULLISH",
+    "summary": "代收價款/專戶: 公告本公司國內第三次無擔保轉換公司債之\r\n代收價款行庫及存儲專戶行庫",
+    "parser": "rule_v2",
+    "parsed_at": "2026-08-18T18:55:56"
+  },
+  {
+    "date": "2026-08-17",
+    "time": "181906",
+    "stock_code": "4190",
+    "company_name": "佐登-KY",
+    "event_title": "本公司董事會決議辦理限制員工權利新股收回註銷減資事宜",
+    "event_type": "CB_ISSUANCE",
+    "stage": "BOARD_RESOLUTION",
+    "wiki_details": {
+      "board_date": "115/08/17"
+    },
+    "sentiment": "NEUTRAL",
+    "summary": "董事會/股東會決議: 本公司董事會決議辦理限制員工權利新股收回註銷減資事宜",
+    "parser": "rule_v2",
+    "parsed_at": "2026-08-18T18:55:56"
+  },
+  {
+    "date": "2026-08-17",
+    "time": "174259",
+    "stock_code": "4416",
+    "company_name": "三圓",
+    "event_title": "公告本公司普通股公司債到期還款計劃說明",
+    "event_type": "OTHER",
+    "stage": "N/A",
+    "wiki_details": {},
+    "sentiment": "NEUTRAL",
+    "summary": "CB 相關公告: 公告本公司普通股公司債到期還款計劃說明",
+    "parser": "rule_v2",
+    "parsed_at": "2026-08-18T18:55:56"
+  },
+  {
+    "date": "2026-08-17",
+    "time": "170334",
+    "stock_code": "6919",
+    "company_name": "康霈*",
+    "event_title": "本公司新藥CBL-514注射劑之樞紐三期臨床試驗CBL-0302向\r\n美國FDA和加拿大HC提出試驗設計變更申請。",
+    "event_type": "OTHER",
+    "stage": "N/A",
+    "wiki_details": {},
+    "sentiment": "NEUTRAL",
+    "summary": "CB 相關公告: 本公司新藥CBL-514注射劑之樞紐三期臨床試驗CBL-0302向\r\n美國FDA和加拿大HC提出試驗設計變更申請。",
+    "parser": "rule_v2",
+    "parsed_at": "2026-08-18T18:55:56"
+  },
+  {
     "date": "2026-02-12",
     "time": "140510",
     "stock_code": "3260",
