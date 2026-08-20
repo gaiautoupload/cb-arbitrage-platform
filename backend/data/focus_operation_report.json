@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-18T19:13:04",
-  "as_of": "2026-08-18",
+  "generated_at": "2026-08-20T18:14:57",
+  "as_of": "2026-08-20",
   "strategies": {
     "short": "官方發行日T確定後，T-16收盤審核，T-15開盤買入，T+9收盤賣出。",
     "long": "技術、法人與營收11分制；8分以上僅列候選，配合分批與移動停利。"
@@ -16,23 +16,23 @@
       "cb_stage_date": null,
       "added_at": "2026-07-16",
       "market": {
-        "date": "2026-08-18",
-        "close": 206.0,
-        "ma5": 231.5,
-        "ma10": 239.0,
-        "ma20": 255.82,
-        "ma60": 287.57,
+        "date": "2026-08-20",
+        "close": 211.0,
+        "ma5": 213.95,
+        "ma10": 226.52,
+        "ma20": 245.76,
+        "ma60": 283.23,
         "ma_bull": false,
-        "momentum_20d_pct": -28.78,
-        "distance_from_60d_high_pct": -42.75,
-        "volume_ratio_5v20": 0.8
+        "momentum_20d_pct": -31.83,
+        "distance_from_60d_high_pct": -41.36,
+        "volume_ratio_5v20": 0.77
       },
       "top1": {
-        "chip_date": "2026-08-18",
-        "foreign_net_5d_shares": -57964.0,
-        "foreign_net_20d_shares": -422840.0,
-        "trust_net_5d_shares": 410000.0,
-        "trust_net_20d_shares": 1701000.0,
+        "chip_date": "2026-08-20",
+        "foreign_net_5d_shares": -243365.0,
+        "foreign_net_20d_shares": -599622.0,
+        "trust_net_5d_shares": 400000.0,
+        "trust_net_20d_shares": 1081000.0,
         "foreign_consecutive_buy_days": 1,
         "trust_consecutive_buy_days": 0,
         "latest_trust_buy_pct_capital": 0.0,
@@ -79,26 +79,26 @@
       "cb_stage_date": "2026-06-03",
       "added_at": "2026-07-16",
       "market": {
-        "date": "2026-08-18",
-        "close": 119.0,
-        "ma5": 121.8,
-        "ma10": 121.45,
-        "ma20": 121.47,
-        "ma60": 138.37,
+        "date": "2026-08-20",
+        "close": 115.5,
+        "ma5": 118.5,
+        "ma10": 120.2,
+        "ma20": 119.15,
+        "ma60": 137.73,
         "ma_bull": false,
-        "momentum_20d_pct": -11.52,
-        "distance_from_60d_high_pct": -32.19,
-        "volume_ratio_5v20": 0.65
+        "momentum_20d_pct": -16.61,
+        "distance_from_60d_high_pct": -34.19,
+        "volume_ratio_5v20": 0.57
       },
       "top1": {
-        "chip_date": "2026-08-18",
-        "foreign_net_5d_shares": 13361500.0,
-        "foreign_net_20d_shares": -50393679.0,
-        "trust_net_5d_shares": -36054015.0,
-        "trust_net_20d_shares": -84801174.0,
-        "foreign_consecutive_buy_days": 0,
-        "trust_consecutive_buy_days": 1,
-        "latest_trust_buy_pct_capital": 0.0092,
+        "chip_date": "2026-08-20",
+        "foreign_net_5d_shares": 40305079.0,
+        "foreign_net_20d_shares": -15074026.0,
+        "trust_net_5d_shares": -66891240.0,
+        "trust_net_20d_shares": -122926098.0,
+        "foreign_consecutive_buy_days": 2,
+        "trust_consecutive_buy_days": 0,
+        "latest_trust_buy_pct_capital": -0.223,
         "share_count_date": "2025-12-31",
         "outstanding_shares": 12588156300.0,
         "revenue_month": "2026-07",
@@ -111,7 +111,7 @@
         "reason": "短線技術審核未通過",
         "issue_date": "2026-08-07",
         "buy_date": "2026-07-17",
-        "sell_date": null
+        "sell_date": "2026-08-20"
       },
       "long_strategy": {
         "state": "avoid",
@@ -145,24 +145,24 @@
       "cb_stage_date": "2026-07-08",
       "added_at": "2026-07-16",
       "market": {
-        "date": "2026-08-18",
-        "close": 1260.0,
-        "ma5": 1324.0,
-        "ma10": 1259.5,
-        "ma20": 1162.3,
-        "ma60": 1466.66,
+        "date": "2026-08-20",
+        "close": 1140.0,
+        "ma5": 1257.0,
+        "ma10": 1254.5,
+        "ma20": 1156.05,
+        "ma60": 1446.13,
         "ma_bull": true,
-        "momentum_20d_pct": 7.69,
-        "distance_from_60d_high_pct": -34.72,
-        "volume_ratio_5v20": 1.53
+        "momentum_20d_pct": -7.69,
+        "distance_from_60d_high_pct": -40.94,
+        "volume_ratio_5v20": 1.56
       },
       "top1": {
-        "chip_date": "2026-08-18",
-        "foreign_net_5d_shares": -248583.0,
-        "foreign_net_20d_shares": -700092.0,
+        "chip_date": "2026-08-20",
+        "foreign_net_5d_shares": -112967.0,
+        "foreign_net_20d_shares": -668028.0,
         "trust_net_5d_shares": -100.0,
-        "trust_net_20d_shares": -127400.0,
-        "foreign_consecutive_buy_days": 0,
+        "trust_net_20d_shares": -135400.0,
+        "foreign_consecutive_buy_days": 1,
         "trust_consecutive_buy_days": 0,
         "latest_trust_buy_pct_capital": 0.0,
         "share_count_date": "2025-12-31",
@@ -180,14 +180,12 @@
         "sell_date": null
       },
       "long_strategy": {
-        "state": "watch",
-        "action": "續看，不追價",
-        "score": 5,
+        "state": "avoid",
+        "action": "暫不建立長線部位",
+        "score": 3,
         "max_score": 11,
         "positives": [
           "MA5 > MA10 > MA20",
-          "收盤站上MA20",
-          "20日動能為正",
           "最新月營收正成長"
         ],
         "risks": [
@@ -201,7 +199,7 @@
         ],
         "research_note": "分數門檻屬前瞻紙上追蹤，尚未證明可達80%勝率或70%平均報酬。"
       },
-      "current_action": "續看，不追價"
+      "current_action": "暫不建立長線部位"
     }
   ]
 }

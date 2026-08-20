@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-18T19:09:34",
+  "generated_at": "2026-08-20T18:11:25",
   "database": "D:\\bond\\backend\\data\\cb_event_master.sqlite",
   "required_stages": [
     "BOARD_RESOLUTION",
@@ -16,15 +16,15 @@
     "CBAS_ACTUAL"
   ],
   "summary": {
-    "issues": 578,
-    "events": 3430,
-    "issues_with_missing_stages": 578
+    "issues": 582,
+    "events": 3457,
+    "issues_with_missing_stages": 582
   },
   "stage_summary": {
     "BOARD_RESOLUTION": {
-      "observed_events": 75,
+      "observed_events": 79,
       "inferred_events": 494,
-      "issues_with_stage": 527
+      "issues_with_stage": 531
     },
     "FILING": {
       "observed_events": 9,
@@ -33,23 +33,23 @@
     },
     "EFFECTIVE": {
       "observed_events": 2,
-      "inferred_events": 514,
-      "issues_with_stage": 514
+      "inferred_events": 516,
+      "issues_with_stage": 516
     },
     "PRICING": {
-      "observed_events": 513,
+      "observed_events": 515,
       "inferred_events": 0,
-      "issues_with_stage": 512
+      "issues_with_stage": 514
     },
     "AUCTION_BID_START": {
-      "observed_events": 60,
+      "observed_events": 63,
       "inferred_events": 0,
-      "issues_with_stage": 60
+      "issues_with_stage": 63
     },
     "AUCTION_BID_END": {
-      "observed_events": 60,
+      "observed_events": 63,
       "inferred_events": 0,
-      "issues_with_stage": 60
+      "issues_with_stage": 63
     },
     "BOOKBUILDING_START": {
       "observed_events": 0,
@@ -72,9 +72,9 @@
       "issues_with_stage": 0
     },
     "LISTING": {
-      "observed_events": 516,
+      "observed_events": 518,
       "inferred_events": 0,
-      "issues_with_stage": 513
+      "issues_with_stage": 515
     },
     "CBAS_ACTUAL": {
       "observed_events": 0,
@@ -676,14 +676,17 @@
       "stock_code": "1560",
       "cb_code": "15601",
       "short_name": "中砂一",
-      "company_name": "中砂",
+      "company_name": "中國砂輪企業",
       "observed_stages": [
+        "AUCTION_BID_END",
+        "AUCTION_BID_START",
         "BOARD_RESOLUTION",
         "LISTING",
         "PAYMENT_BANK",
         "PRICING"
       ],
       "inferred_stages": [
+        "AUCTION_RESULT_ESTIMATED",
         "BOARD_RESOLUTION",
         "CBAS_PROXY_END",
         "CBAS_PROXY_START",
@@ -692,15 +695,13 @@
       ],
       "missing_stages": [
         "FILING",
-        "AUCTION_BID_START",
-        "AUCTION_BID_END",
         "BOOKBUILDING_START",
         "BOOKBUILDING_END",
         "BOOKBUILDING_RESULT",
         "UNDERWRITING_NOTICE",
         "CBAS_ACTUAL"
       ],
-      "event_count": 9
+      "event_count": 12
     },
     {
       "issue_id": "issue_c01e940584b1c8e42be6",
@@ -1802,11 +1803,14 @@
       "short_name": "聯電一",
       "company_name": "聯華電子股份有限公司",
       "observed_stages": [
+        "AUCTION_BID_END",
+        "AUCTION_BID_START",
         "BOARD_RESOLUTION",
         "LISTING",
         "PRICING"
       ],
       "inferred_stages": [
+        "AUCTION_RESULT_ESTIMATED",
         "CBAS_PROXY_END",
         "CBAS_PROXY_START",
         "EFFECTIVE",
@@ -1814,15 +1818,13 @@
       ],
       "missing_stages": [
         "FILING",
-        "AUCTION_BID_START",
-        "AUCTION_BID_END",
         "BOOKBUILDING_START",
         "BOOKBUILDING_END",
         "BOOKBUILDING_RESULT",
         "UNDERWRITING_NOTICE",
         "CBAS_ACTUAL"
       ],
-      "event_count": 8
+      "event_count": 11
     },
     {
       "issue_id": "issue_094dc79a73a0ef2c1e78",
@@ -4407,6 +4409,37 @@
       "event_count": 5
     },
     {
+      "issue_id": "issue_c9f62d68a329567f5b0a",
+      "stock_code": "3219",
+      "cb_code": "32191",
+      "short_name": "倚強科一",
+      "company_name": "倚強科技股份有限公司",
+      "observed_stages": [
+        "AUCTION_BID_END",
+        "AUCTION_BID_START",
+        "BOARD_RESOLUTION",
+        "LISTING",
+        "PAYMENT_BANK",
+        "PRICING"
+      ],
+      "inferred_stages": [
+        "AUCTION_RESULT_ESTIMATED",
+        "CBAS_PROXY_END",
+        "CBAS_PROXY_START",
+        "EFFECTIVE",
+        "T_PLUS_19_EXIT_PROXY"
+      ],
+      "missing_stages": [
+        "FILING",
+        "BOOKBUILDING_START",
+        "BOOKBUILDING_END",
+        "BOOKBUILDING_RESULT",
+        "UNDERWRITING_NOTICE",
+        "CBAS_ACTUAL"
+      ],
+      "event_count": 11
+    },
+    {
       "issue_id": "issue_bf163dc1ee435f09ad6f",
       "stock_code": "3257",
       "cb_code": "32571",
@@ -5309,6 +5342,31 @@
         "CBAS_ACTUAL"
       ],
       "event_count": 4
+    },
+    {
+      "issue_id": "issue_6a578aa77decb847bc9a",
+      "stock_code": "3443",
+      "cb_code": null,
+      "short_name": null,
+      "company_name": "創意",
+      "observed_stages": [
+        "BOARD_RESOLUTION"
+      ],
+      "inferred_stages": [],
+      "missing_stages": [
+        "FILING",
+        "EFFECTIVE",
+        "PRICING",
+        "AUCTION_BID_START",
+        "AUCTION_BID_END",
+        "BOOKBUILDING_START",
+        "BOOKBUILDING_END",
+        "BOOKBUILDING_RESULT",
+        "UNDERWRITING_NOTICE",
+        "LISTING",
+        "CBAS_ACTUAL"
+      ],
+      "event_count": 1
     },
     {
       "issue_id": "issue_e159002f2bd20a240386",
@@ -8643,6 +8701,7 @@
       "company_name": "廣穎電通股份有限公司",
       "observed_stages": [
         "LISTING",
+        "PAYMENT_BANK",
         "PRICING"
       ],
       "inferred_stages": [
@@ -8662,7 +8721,7 @@
         "UNDERWRITING_NOTICE",
         "CBAS_ACTUAL"
       ],
-      "event_count": 7
+      "event_count": 8
     },
     {
       "issue_id": "issue_0fd98bc01340ed9b1769",
@@ -12320,6 +12379,31 @@
       "event_count": 7
     },
     {
+      "issue_id": "issue_d7bc5540819561608748",
+      "stock_code": "6534",
+      "cb_code": null,
+      "short_name": null,
+      "company_name": "正瀚-創",
+      "observed_stages": [
+        "BOARD_RESOLUTION"
+      ],
+      "inferred_stages": [],
+      "missing_stages": [
+        "FILING",
+        "EFFECTIVE",
+        "PRICING",
+        "AUCTION_BID_START",
+        "AUCTION_BID_END",
+        "BOOKBUILDING_START",
+        "BOOKBUILDING_END",
+        "BOOKBUILDING_RESULT",
+        "UNDERWRITING_NOTICE",
+        "LISTING",
+        "CBAS_ACTUAL"
+      ],
+      "event_count": 1
+    },
+    {
       "issue_id": "issue_12ca5f3bf2a07d0810f0",
       "stock_code": "6538",
       "cb_code": null,
@@ -14140,6 +14224,35 @@
         "CBAS_ACTUAL"
       ],
       "event_count": 1
+    },
+    {
+      "issue_id": "issue_960f5b77399d71502d34",
+      "stock_code": "7631",
+      "cb_code": "76311",
+      "short_name": "聚賢研發一創",
+      "company_name": "聚賢研發股份有限公司",
+      "observed_stages": [
+        "BOARD_RESOLUTION",
+        "LISTING",
+        "PRICING"
+      ],
+      "inferred_stages": [
+        "CBAS_PROXY_END",
+        "CBAS_PROXY_START",
+        "EFFECTIVE",
+        "T_PLUS_19_EXIT_PROXY"
+      ],
+      "missing_stages": [
+        "FILING",
+        "AUCTION_BID_START",
+        "AUCTION_BID_END",
+        "BOOKBUILDING_START",
+        "BOOKBUILDING_END",
+        "BOOKBUILDING_RESULT",
+        "UNDERWRITING_NOTICE",
+        "CBAS_ACTUAL"
+      ],
+      "event_count": 7
     },
     {
       "issue_id": "issue_8429b7fc58fe3b422936",

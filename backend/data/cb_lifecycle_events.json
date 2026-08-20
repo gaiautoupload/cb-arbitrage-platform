@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-18T19:09:34",
+  "generated_at": "2026-08-20T18:11:24",
   "source_files": {
     "mops_wiki_db": "mops_wiki_db.json",
     "parsed_bonds": "parsed_bonds.json",
@@ -12,22 +12,22 @@
     "Generated linked BOARD_RESOLUTION/EFFECTIVE dates are retained only as low-confidence proxy events."
   ],
   "summary": {
-    "total_events": 3383,
-    "actual_or_observed_events": 1247,
-    "inferred_events": 2136,
+    "total_events": 3404,
+    "actual_or_observed_events": 1258,
+    "inferred_events": 2146,
     "by_stage": {
-      "BOARD_RESOLUTION": 552,
+      "BOARD_RESOLUTION": 554,
       "FILING": 9,
-      "EFFECTIVE": 515,
-      "PRICING": 513,
-      "PAYMENT_BANK": 27,
-      "AUCTION_BID_START": 54,
-      "AUCTION_BID_END": 54,
-      "AUCTION_RESULT_ESTIMATED": 54,
-      "LISTING": 516,
-      "CBAS_PROXY_START": 363,
-      "CBAS_PROXY_END": 363,
-      "T_PLUS_19_EXIT_PROXY": 363
+      "EFFECTIVE": 517,
+      "PRICING": 515,
+      "PAYMENT_BANK": 28,
+      "AUCTION_BID_START": 56,
+      "AUCTION_BID_END": 56,
+      "AUCTION_RESULT_ESTIMATED": 56,
+      "LISTING": 518,
+      "CBAS_PROXY_START": 365,
+      "CBAS_PROXY_END": 365,
+      "T_PLUS_19_EXIT_PROXY": 365
     }
   },
   "events": [
@@ -1590,6 +1590,45 @@
       "summary": "代收價款/專戶: 公告本公司簽訂發行第二次無擔保轉換公司債代收價款行庫\r\n及存儲專戶行庫",
       "event_type": "CB_ISSUANCE",
       "published_at": "2026-08-13T153751"
+    },
+    {
+      "stock_code": "1560",
+      "company_name": "中國砂輪企業",
+      "short_name": "中砂一",
+      "stage": "AUCTION_BID_START",
+      "date": "2026-08-19",
+      "source": "twsa_bids",
+      "confidence": 0.9,
+      "is_inferred": false,
+      "serial": "115061",
+      "underwriter": "元大證券股份有限公司",
+      "min_price": "103.00",
+      "bidding_period": "2026/08/19~2026/08/21"
+    },
+    {
+      "stock_code": "1560",
+      "company_name": "中國砂輪企業",
+      "short_name": "中砂一",
+      "stage": "AUCTION_BID_END",
+      "date": "2026-08-21",
+      "source": "twsa_bids",
+      "confidence": 0.9,
+      "is_inferred": false,
+      "serial": "115061",
+      "underwriter": "元大證券股份有限公司",
+      "min_price": "103.00",
+      "bidding_period": "2026/08/19~2026/08/21"
+    },
+    {
+      "stock_code": "1560",
+      "company_name": "中國砂輪企業",
+      "short_name": "中砂一",
+      "stage": "AUCTION_RESULT_ESTIMATED",
+      "date": "2026-08-22",
+      "source": "calendar_proxy",
+      "confidence": 0.35,
+      "is_inferred": true,
+      "serial": "115061"
     },
     {
       "stock_code": "1582",
@@ -4241,6 +4280,45 @@
       "summary": "董事會/股東會決議: 公告本公司國內第二次無擔保轉換公司債之轉換價格及\r\n溢價率",
       "event_type": "CB_ISSUANCE",
       "published_at": "2026-08-14T150659"
+    },
+    {
+      "stock_code": "2303",
+      "company_name": "聯華",
+      "short_name": "聯電一",
+      "stage": "AUCTION_BID_START",
+      "date": "2026-08-19",
+      "source": "twsa_bids",
+      "confidence": 0.9,
+      "is_inferred": false,
+      "serial": "115062",
+      "underwriter": "宏遠證券股份有限公司",
+      "min_price": "100.00",
+      "bidding_period": "2026/08/19~2026/08/21"
+    },
+    {
+      "stock_code": "2303",
+      "company_name": "聯華",
+      "short_name": "聯電一",
+      "stage": "AUCTION_BID_END",
+      "date": "2026-08-21",
+      "source": "twsa_bids",
+      "confidence": 0.9,
+      "is_inferred": false,
+      "serial": "115062",
+      "underwriter": "宏遠證券股份有限公司",
+      "min_price": "100.00",
+      "bidding_period": "2026/08/19~2026/08/21"
+    },
+    {
+      "stock_code": "2303",
+      "company_name": "聯華",
+      "short_name": "聯電一",
+      "stage": "AUCTION_RESULT_ESTIMATED",
+      "date": "2026-08-22",
+      "source": "calendar_proxy",
+      "confidence": 0.35,
+      "is_inferred": true,
+      "serial": "115062"
     },
     {
       "stock_code": "2303",
@@ -10482,7 +10560,7 @@
     {
       "stock_code": "3219",
       "company_name": "倚強科",
-      "short_name": "",
+      "short_name": "倚強科一",
       "stage": "BOARD_RESOLUTION",
       "date": "2026-07-01",
       "source": "mops_wiki_db",
@@ -10495,8 +10573,20 @@
     },
     {
       "stock_code": "3219",
+      "company_name": "倚強科技股份有限公司",
+      "short_name": "倚強科一",
+      "stage": "EFFECTIVE",
+      "date": "2026-07-21",
+      "source": "linked_bond_stages_proxy",
+      "confidence": 0.25,
+      "is_inferred": true,
+      "title": "金管會申報生效發行無擔保轉換公司債",
+      "summary": "可轉債申報生效，正式進入定價與發行準備期"
+    },
+    {
+      "stock_code": "3219",
       "company_name": "倚強科",
-      "short_name": "",
+      "short_name": "倚強科一",
       "stage": "PAYMENT_BANK",
       "date": "2026-08-04",
       "source": "mops_wiki_db",
@@ -10510,7 +10600,7 @@
     {
       "stock_code": "3219",
       "company_name": "倚強",
-      "short_name": "",
+      "short_name": "倚強科一",
       "stage": "AUCTION_BID_START",
       "date": "2026-08-10",
       "source": "twsa_bids",
@@ -10524,7 +10614,7 @@
     {
       "stock_code": "3219",
       "company_name": "倚強",
-      "short_name": "",
+      "short_name": "倚強科一",
       "stage": "AUCTION_BID_END",
       "date": "2026-08-12",
       "source": "twsa_bids",
@@ -10538,13 +10628,70 @@
     {
       "stock_code": "3219",
       "company_name": "倚強",
-      "short_name": "",
+      "short_name": "倚強科一",
       "stage": "AUCTION_RESULT_ESTIMATED",
       "date": "2026-08-13",
       "source": "calendar_proxy",
       "confidence": 0.35,
       "is_inferred": true,
       "serial": "115058"
+    },
+    {
+      "stock_code": "3219",
+      "company_name": "倚強科技股份有限公司",
+      "short_name": "倚強科一",
+      "stage": "PRICING",
+      "date": "2026-08-19",
+      "source": "parsed_bonds",
+      "confidence": 0.65,
+      "is_inferred": false,
+      "title": "倚強科一 announcement/pricing date",
+      "cb_code": "32191"
+    },
+    {
+      "stock_code": "3219",
+      "company_name": "倚強科技股份有限公司",
+      "short_name": "倚強科一",
+      "stage": "LISTING",
+      "date": "2026-08-25",
+      "source": "parsed_bonds",
+      "confidence": 0.65,
+      "is_inferred": false,
+      "title": "倚強科一 issue/listing date",
+      "cb_code": "32191"
+    },
+    {
+      "stock_code": "3219",
+      "company_name": "倚強科技股份有限公司",
+      "short_name": "倚強科一",
+      "stage": "CBAS_PROXY_START",
+      "date": "2026-08-26",
+      "source": "cbas_proxy",
+      "confidence": 0.3,
+      "is_inferred": true,
+      "based_on": "2026-08-25"
+    },
+    {
+      "stock_code": "3219",
+      "company_name": "倚強科技股份有限公司",
+      "short_name": "倚強科一",
+      "stage": "CBAS_PROXY_END",
+      "date": "2026-09-12",
+      "source": "cbas_proxy",
+      "confidence": 0.3,
+      "is_inferred": true,
+      "based_on": "2026-08-25"
+    },
+    {
+      "stock_code": "3219",
+      "company_name": "倚強科技股份有限公司",
+      "short_name": "倚強科一",
+      "stage": "T_PLUS_19_EXIT_PROXY",
+      "date": "2026-09-13",
+      "source": "cbas_proxy",
+      "confidence": 0.3,
+      "is_inferred": true,
+      "based_on": "2026-08-25"
     },
     {
       "stock_code": "3257",
@@ -12894,6 +13041,20 @@
       "is_inferred": false,
       "title": "融程電三 issue/listing date",
       "cb_code": "34163"
+    },
+    {
+      "stock_code": "3443",
+      "company_name": "創意",
+      "short_name": "",
+      "stage": "BOARD_RESOLUTION",
+      "date": "2026-08-19",
+      "source": "mops_wiki_db",
+      "confidence": 0.85,
+      "is_inferred": false,
+      "title": "董事會決議發行海外第一次無擔保轉換公司債",
+      "summary": "董事會/股東會決議: 董事會決議發行海外第一次無擔保轉換公司債",
+      "event_type": "CB_ISSUANCE",
+      "published_at": "2026-08-19T173132"
     },
     {
       "stock_code": "3450",
@@ -21151,6 +21312,20 @@
       "is_inferred": false,
       "title": "廣穎電通一 announcement/pricing date",
       "cb_code": "49731"
+    },
+    {
+      "stock_code": "4973",
+      "company_name": "廣穎電通",
+      "short_name": "廣穎電通一",
+      "stage": "PAYMENT_BANK",
+      "date": "2026-08-19",
+      "source": "mops_wiki_db",
+      "confidence": 0.85,
+      "is_inferred": false,
+      "title": "公告本公司發行國內第一次無擔保轉換公司債收足債款",
+      "summary": "代收價款/專戶: 公告本公司發行國內第一次無擔保轉換公司債收足債款",
+      "event_type": "CB_ISSUANCE",
+      "published_at": "2026-08-19T163614"
     },
     {
       "stock_code": "4973",
@@ -30527,6 +30702,20 @@
       "based_on": "2020-03-18"
     },
     {
+      "stock_code": "6534",
+      "company_name": "正瀚-創",
+      "short_name": "",
+      "stage": "BOARD_RESOLUTION",
+      "date": "2026-08-19",
+      "source": "mops_wiki_db",
+      "confidence": 0.85,
+      "is_inferred": false,
+      "title": "公告本公司董事會決議發行國內第一次有擔保轉換公司債",
+      "summary": "董事會/股東會決議: 公告本公司董事會決議發行國內第一次有擔保轉換公司債",
+      "event_type": "CB_ISSUANCE",
+      "published_at": "2026-08-19T160834"
+    },
+    {
       "stock_code": "6538",
       "company_name": "倉和",
       "short_name": "",
@@ -34754,7 +34943,7 @@
     {
       "stock_code": "7631",
       "company_name": "聚賢研發-創",
-      "short_name": "",
+      "short_name": "聚賢研發一創",
       "stage": "BOARD_RESOLUTION",
       "date": "2026-06-24",
       "source": "mops_wiki_db",
@@ -34765,6 +34954,75 @@
       "event_type": "CB_ISSUANCE",
       "published_at": "2026-06-24T145208",
       "source_ref": "t187ap04_L.json"
+    },
+    {
+      "stock_code": "7631",
+      "company_name": "聚賢研發股份有限公司",
+      "short_name": "聚賢研發一創",
+      "stage": "EFFECTIVE",
+      "date": "2026-07-22",
+      "source": "linked_bond_stages_proxy",
+      "confidence": 0.25,
+      "is_inferred": true,
+      "title": "金管會申報生效發行無擔保轉換公司債",
+      "summary": "可轉債申報生效，正式進入定價與發行準備期"
+    },
+    {
+      "stock_code": "7631",
+      "company_name": "聚賢研發股份有限公司",
+      "short_name": "聚賢研發一創",
+      "stage": "PRICING",
+      "date": "2026-08-19",
+      "source": "parsed_bonds",
+      "confidence": 0.65,
+      "is_inferred": false,
+      "title": "聚賢研發一創 announcement/pricing date",
+      "cb_code": "76311"
+    },
+    {
+      "stock_code": "7631",
+      "company_name": "聚賢研發股份有限公司",
+      "short_name": "聚賢研發一創",
+      "stage": "LISTING",
+      "date": "2026-08-26",
+      "source": "parsed_bonds",
+      "confidence": 0.65,
+      "is_inferred": false,
+      "title": "聚賢研發一創 issue/listing date",
+      "cb_code": "76311"
+    },
+    {
+      "stock_code": "7631",
+      "company_name": "聚賢研發股份有限公司",
+      "short_name": "聚賢研發一創",
+      "stage": "CBAS_PROXY_START",
+      "date": "2026-08-27",
+      "source": "cbas_proxy",
+      "confidence": 0.3,
+      "is_inferred": true,
+      "based_on": "2026-08-26"
+    },
+    {
+      "stock_code": "7631",
+      "company_name": "聚賢研發股份有限公司",
+      "short_name": "聚賢研發一創",
+      "stage": "CBAS_PROXY_END",
+      "date": "2026-09-13",
+      "source": "cbas_proxy",
+      "confidence": 0.3,
+      "is_inferred": true,
+      "based_on": "2026-08-26"
+    },
+    {
+      "stock_code": "7631",
+      "company_name": "聚賢研發股份有限公司",
+      "short_name": "聚賢研發一創",
+      "stage": "T_PLUS_19_EXIT_PROXY",
+      "date": "2026-09-14",
+      "source": "cbas_proxy",
+      "confidence": 0.3,
+      "is_inferred": true,
+      "based_on": "2026-08-26"
     },
     {
       "stock_code": "8021",

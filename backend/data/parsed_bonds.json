@@ -7843,5 +7843,35 @@
     "maturity_date_minguo": "118年8月21日",
     "maturity_date": "2029-08-21",
     "issue_amount": "新台幣5億元整"
+  },
+  {
+    "file_id": "11500054021",
+    "company_name": "倚強科技股份有限公司",
+    "bond_name": "倚強科技股份有限公司國內第一次無擔保轉換公司債",
+    "cb_code": "32191",
+    "stock_code": "3219",
+    "short_name": "倚強科一",
+    "announcement_date_minguo": "115年8月19日",
+    "announcement_date": "2026-08-19",
+    "issue_date_minguo": "115年8月25日",
+    "issue_date": "2026-08-25",
+    "maturity_date_minguo": "118年8月25日",
+    "maturity_date": "2029-08-25",
+    "issue_amount": "新臺幣6億元整"
+  },
+  {
+    "file_id": "11500054251",
+    "company_name": "聚賢研發股份有限公司",
+    "bond_name": "聚賢研發股份有限公司國內第一次無擔保轉換公司債",
+    "cb_code": "76311",
+    "stock_code": "7631",
+    "short_name": "聚賢研發一創",
+    "announcement_date_minguo": "115年8月19日",
+    "announcement_date": "2026-08-19",
+    "issue_date_minguo": "115年8月26日",
+    "issue_date": "2026-08-26",
+    "maturity_date_minguo": "118年8月26日",
+    "maturity_date": "2029-08-26",
+    "issue_amount": "新台幣4億元整"
   }
 ]
