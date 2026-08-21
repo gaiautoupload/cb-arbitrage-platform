@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-20T18:11:25",
+  "generated_at": "2026-08-21T17:15:21",
   "database": "D:\\bond\\backend\\data\\cb_event_master.sqlite",
   "required_stages": [
     "BOARD_RESOLUTION",
@@ -17,7 +17,7 @@
   ],
   "summary": {
     "issues": 582,
-    "events": 3457,
+    "events": 3462,
     "issues_with_missing_stages": 582
   },
   "stage_summary": {
@@ -27,9 +27,9 @@
       "issues_with_stage": 531
     },
     "FILING": {
-      "observed_events": 9,
+      "observed_events": 10,
       "inferred_events": 0,
-      "issues_with_stage": 7
+      "issues_with_stage": 8
     },
     "EFFECTIVE": {
       "observed_events": 2,
@@ -42,14 +42,14 @@
       "issues_with_stage": 514
     },
     "AUCTION_BID_START": {
-      "observed_events": 63,
+      "observed_events": 64,
       "inferred_events": 0,
-      "issues_with_stage": 63
+      "issues_with_stage": 64
     },
     "AUCTION_BID_END": {
-      "observed_events": 63,
+      "observed_events": 64,
       "inferred_events": 0,
-      "issues_with_stage": 63
+      "issues_with_stage": 64
     },
     "BOOKBUILDING_START": {
       "observed_events": 0,
@@ -2359,14 +2359,17 @@
       "stock_code": "2464",
       "cb_code": "24642",
       "short_name": "盟立二",
-      "company_name": "盟立",
+      "company_name": "盟立自動化",
       "observed_stages": [
+        "AUCTION_BID_END",
+        "AUCTION_BID_START",
         "BOARD_RESOLUTION",
         "LISTING",
         "PAYMENT_BANK",
         "PRICING"
       ],
       "inferred_stages": [
+        "AUCTION_RESULT_ESTIMATED",
         "BOARD_RESOLUTION",
         "CBAS_PROXY_END",
         "CBAS_PROXY_START",
@@ -2375,15 +2378,13 @@
       ],
       "missing_stages": [
         "FILING",
-        "AUCTION_BID_START",
-        "AUCTION_BID_END",
         "BOOKBUILDING_START",
         "BOOKBUILDING_END",
         "BOOKBUILDING_RESULT",
         "UNDERWRITING_NOTICE",
         "CBAS_ACTUAL"
       ],
-      "event_count": 9
+      "event_count": 12
     },
     {
       "issue_id": "issue_2e546554211c2e294dce",
@@ -3406,6 +3407,7 @@
       "company_name": "嘉晶",
       "observed_stages": [
         "BOARD_RESOLUTION",
+        "FILING",
         "LISTING",
         "PAYMENT_BANK",
         "PRICING"
@@ -3418,7 +3420,6 @@
         "T_PLUS_19_EXIT_PROXY"
       ],
       "missing_stages": [
-        "FILING",
         "AUCTION_BID_START",
         "AUCTION_BID_END",
         "BOOKBUILDING_START",
@@ -3427,7 +3428,7 @@
         "UNDERWRITING_NOTICE",
         "CBAS_ACTUAL"
       ],
-      "event_count": 9
+      "event_count": 10
     },
     {
       "issue_id": "issue_3bc8fe47d764ac3d0245",
@@ -15130,7 +15131,8 @@
       "short_name": null,
       "company_name": "寶一",
       "observed_stages": [
-        "EFFECTIVE"
+        "EFFECTIVE",
+        "PAYMENT_BANK"
       ],
       "inferred_stages": [],
       "missing_stages": [
@@ -15146,7 +15148,7 @@
         "LISTING",
         "CBAS_ACTUAL"
       ],
-      "event_count": 1
+      "event_count": 2
     },
     {
       "issue_id": "issue_0666a86be162655683fd",

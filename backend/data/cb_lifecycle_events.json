@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-20T18:11:24",
+  "generated_at": "2026-08-21T17:15:21",
   "source_files": {
     "mops_wiki_db": "mops_wiki_db.json",
     "parsed_bonds": "parsed_bonds.json",
@@ -12,18 +12,18 @@
     "Generated linked BOARD_RESOLUTION/EFFECTIVE dates are retained only as low-confidence proxy events."
   ],
   "summary": {
-    "total_events": 3404,
-    "actual_or_observed_events": 1258,
-    "inferred_events": 2146,
+    "total_events": 3409,
+    "actual_or_observed_events": 1262,
+    "inferred_events": 2147,
     "by_stage": {
       "BOARD_RESOLUTION": 554,
-      "FILING": 9,
+      "FILING": 10,
       "EFFECTIVE": 517,
       "PRICING": 515,
-      "PAYMENT_BANK": 28,
-      "AUCTION_BID_START": 56,
-      "AUCTION_BID_END": 56,
-      "AUCTION_RESULT_ESTIMATED": 56,
+      "PAYMENT_BANK": 29,
+      "AUCTION_BID_START": 57,
+      "AUCTION_BID_END": 57,
+      "AUCTION_RESULT_ESTIMATED": 57,
       "LISTING": 518,
       "CBAS_PROXY_START": 365,
       "CBAS_PROXY_END": 365,
@@ -5670,6 +5670,45 @@
       "published_at": "2026-08-17T160055"
     },
     {
+      "stock_code": "2464",
+      "company_name": "盟立自動化",
+      "short_name": "盟立二",
+      "stage": "AUCTION_BID_START",
+      "date": "2026-08-21",
+      "source": "twsa_bids",
+      "confidence": 0.9,
+      "is_inferred": false,
+      "serial": "115063",
+      "underwriter": "中國信託綜合證券股份有限公司",
+      "min_price": "103.00",
+      "bidding_period": "2026/08/21~2026/08/25"
+    },
+    {
+      "stock_code": "2464",
+      "company_name": "盟立自動化",
+      "short_name": "盟立二",
+      "stage": "AUCTION_BID_END",
+      "date": "2026-08-25",
+      "source": "twsa_bids",
+      "confidence": 0.9,
+      "is_inferred": false,
+      "serial": "115063",
+      "underwriter": "中國信託綜合證券股份有限公司",
+      "min_price": "103.00",
+      "bidding_period": "2026/08/21~2026/08/25"
+    },
+    {
+      "stock_code": "2464",
+      "company_name": "盟立自動化",
+      "short_name": "盟立二",
+      "stage": "AUCTION_RESULT_ESTIMATED",
+      "date": "2026-08-26",
+      "source": "calendar_proxy",
+      "confidence": 0.35,
+      "is_inferred": true,
+      "serial": "115063"
+    },
+    {
       "stock_code": "2466",
       "company_name": "冠西電子企業股份有限公司",
       "short_name": "冠西電三",
@@ -8357,6 +8396,20 @@
       "is_inferred": false,
       "title": "嘉晶六 issue/listing date",
       "cb_code": "30166"
+    },
+    {
+      "stock_code": "3016",
+      "company_name": "嘉晶",
+      "short_name": "嘉晶四",
+      "stage": "FILING",
+      "date": "2026-08-20",
+      "source": "mops_wiki_db",
+      "confidence": 0.85,
+      "is_inferred": false,
+      "title": "更正本公司國內第六次無擔保轉換公司債收足應募價款",
+      "summary": "送件/申報: 更正本公司國內第六次無擔保轉換公司債收足應募價款",
+      "event_type": "CB_ISSUANCE",
+      "published_at": "2026-08-20T170018"
     },
     {
       "stock_code": "3018",
@@ -37192,6 +37245,20 @@
       "summary": "申報生效: 公告本公司發行國內第一次有擔保轉換公司債乙案，\r\n向金管會申請延長募集期間三個月",
       "event_type": "CB_ISSUANCE",
       "published_at": "2026-08-04T135306"
+    },
+    {
+      "stock_code": "8222",
+      "company_name": "寶一",
+      "short_name": "",
+      "stage": "PAYMENT_BANK",
+      "date": "2026-08-20",
+      "source": "mops_wiki_db",
+      "confidence": 0.85,
+      "is_inferred": false,
+      "title": "公告本公司國內第一次有擔保轉換公司債代收債款行庫及存\r\n儲專戶行庫",
+      "summary": "代收價款/專戶: 公告本公司國內第一次有擔保轉換公司債代收債款行庫及存\r\n儲專戶行庫",
+      "event_type": "CB_ISSUANCE",
+      "published_at": "2026-08-20T150140"
     },
     {
       "stock_code": "8255",
