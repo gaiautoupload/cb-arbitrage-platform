@@ -6227,6 +6227,50 @@
     "parsed_at": "2026-08-21T17:00:36"
   },
   {
+    "date": "2026-08-21",
+    "time": "152459",
+    "stock_code": "2885",
+    "company_name": "元大金",
+    "event_title": "元大金控代子公司元大證券印尼公告股東臨時會\r\n召開事宜",
+    "event_type": "OTHER",
+    "stage": "N/A",
+    "wiki_details": {
+      "board_date": "115/08/21"
+    },
+    "sentiment": "NEUTRAL",
+    "summary": "CB 相關公告: 元大金控代子公司元大證券印尼公告股東臨時會\r\n召開事宜",
+    "parser": "rule_v2",
+    "parsed_at": "2026-08-22T17:00:36"
+  },
+  {
+    "date": "2026-08-21",
+    "time": "144426",
+    "stock_code": "3081",
+    "company_name": "聯亞",
+    "event_title": "本公司可轉換公司債聯亞二(代號：30812)達公布注\r\n意交易資訊標準，故公告相關訊息，以利投資人區別瞭解。",
+    "event_type": "OTHER",
+    "stage": "N/A",
+    "wiki_details": {},
+    "sentiment": "NEUTRAL",
+    "summary": "CB 相關公告: 本公司可轉換公司債聯亞二(代號：30812)達公布注\r\n意交易資訊標準，故公告相關訊息，以利投資人區別瞭解。",
+    "parser": "rule_v2",
+    "parsed_at": "2026-08-22T17:00:36"
+  },
+  {
+    "date": "2026-08-21",
+    "time": "175634",
+    "stock_code": "3219",
+    "company_name": "倚強科",
+    "event_title": "公告本公司發行國內第一次無擔保轉換公司債收足債款",
+    "event_type": "CB_ISSUANCE",
+    "stage": "PAYMENT_BANK",
+    "wiki_details": {},
+    "sentiment": "BULLISH",
+    "summary": "代收價款/專戶: 公告本公司發行國內第一次無擔保轉換公司債收足債款",
+    "parser": "rule_v2",
+    "parsed_at": "2026-08-22T17:00:36"
+  },
+  {
     "date": "2026-02-12",
     "time": "140510",
     "stock_code": "3260",

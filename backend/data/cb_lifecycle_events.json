@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-21T17:15:21",
+  "generated_at": "2026-08-22T17:14:50",
   "source_files": {
     "mops_wiki_db": "mops_wiki_db.json",
     "parsed_bonds": "parsed_bonds.json",
@@ -12,15 +12,15 @@
     "Generated linked BOARD_RESOLUTION/EFFECTIVE dates are retained only as low-confidence proxy events."
   ],
   "summary": {
-    "total_events": 3409,
-    "actual_or_observed_events": 1262,
+    "total_events": 3410,
+    "actual_or_observed_events": 1263,
     "inferred_events": 2147,
     "by_stage": {
       "BOARD_RESOLUTION": 554,
       "FILING": 10,
       "EFFECTIVE": 517,
       "PRICING": 515,
-      "PAYMENT_BANK": 29,
+      "PAYMENT_BANK": 30,
       "AUCTION_BID_START": 57,
       "AUCTION_BID_END": 57,
       "AUCTION_RESULT_ESTIMATED": 57,
@@ -10700,6 +10700,20 @@
       "is_inferred": false,
       "title": "倚強科一 announcement/pricing date",
       "cb_code": "32191"
+    },
+    {
+      "stock_code": "3219",
+      "company_name": "倚強科",
+      "short_name": "倚強科一",
+      "stage": "PAYMENT_BANK",
+      "date": "2026-08-21",
+      "source": "mops_wiki_db",
+      "confidence": 0.85,
+      "is_inferred": false,
+      "title": "公告本公司發行國內第一次無擔保轉換公司債收足債款",
+      "summary": "代收價款/專戶: 公告本公司發行國內第一次無擔保轉換公司債收足債款",
+      "event_type": "CB_ISSUANCE",
+      "published_at": "2026-08-21T175634"
     },
     {
       "stock_code": "3219",

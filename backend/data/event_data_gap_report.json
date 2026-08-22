@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-21T17:15:21",
+  "generated_at": "2026-08-22T17:14:51",
   "database": "D:\\bond\\backend\\data\\cb_event_master.sqlite",
   "required_stages": [
     "BOARD_RESOLUTION",
@@ -17,7 +17,7 @@
   ],
   "summary": {
     "issues": 582,
-    "events": 3462,
+    "events": 3463,
     "issues_with_missing_stages": 582
   },
   "stage_summary": {
@@ -4438,7 +4438,7 @@
         "UNDERWRITING_NOTICE",
         "CBAS_ACTUAL"
       ],
-      "event_count": 11
+      "event_count": 12
     },
     {
       "issue_id": "issue_bf163dc1ee435f09ad6f",
