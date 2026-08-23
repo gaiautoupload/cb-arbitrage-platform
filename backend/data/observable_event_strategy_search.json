@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-22T17:15:43",
+  "generated_at": "2026-08-23T17:15:22",
   "source": "D:\\bond\\backend\\data\\cb_event_master.sqlite",
   "point_in_time_policy": "Features are calculated only from rows before the actual buy date; forward returns are labels.",
   "criteria": {
