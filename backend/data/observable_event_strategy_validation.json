@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-23T17:15:22",
+  "generated_at": "2026-08-24T18:59:26",
   "source": "D:\\bond\\backend\\data\\observable_event_strategy_search.json",
   "note": "This is a robustness screen; it does not replace out-of-sample or portfolio-level validation.",
   "validations": [
@@ -334,6 +334,139 @@
         "excluded": {
           "stock_code": "8096",
           "return_pct": -17.9487
+        }
+      }
+    },
+    {
+      "strategy": {
+        "stage": "AUCTION_BID_START",
+        "entry_offset": -3,
+        "exit_offset": 20,
+        "rules": [
+          "momentum10_positive",
+          "foreign_or_trust_positive"
+        ],
+        "n": 10,
+        "win_rate": 80.0,
+        "avg_return": 20.45,
+        "worst_return": -19.43,
+        "best_return": 91.38
+      },
+      "all_trades": {
+        "n": 10,
+        "win_rate": 80.0,
+        "avg_return": 20.45,
+        "median_return": 21.11,
+        "worst_return": -19.43,
+        "best_return": 91.38
+      },
+      "trimmed_without_best": {
+        "n": 9,
+        "win_rate": 77.78,
+        "avg_return": 12.57,
+        "median_return": 20.52,
+        "worst_return": -19.43,
+        "best_return": 41.47
+      },
+      "by_event_year": {
+        "2026": {
+          "n": 10,
+          "win_rate": 80.0,
+          "avg_return": 20.45,
+          "median_return": 21.11,
+          "worst_return": -19.43,
+          "best_return": 91.38
+        }
+      },
+      "leave_one_out_min_avg": {
+        "n": 9,
+        "win_rate": 77.78,
+        "avg_return": 12.57,
+        "median_return": 20.52,
+        "worst_return": -19.43,
+        "best_return": 41.47,
+        "excluded": {
+          "stock_code": "5464",
+          "return_pct": 91.3815
+        }
+      },
+      "leave_one_out_max_avg": {
+        "n": 9,
+        "win_rate": 88.89,
+        "avg_return": 24.88,
+        "median_return": 21.11,
+        "worst_return": -15.21,
+        "best_return": 91.38,
+        "excluded": {
+          "stock_code": "3491",
+          "return_pct": -19.4301
+        }
+      }
+    },
+    {
+      "strategy": {
+        "stage": "AUCTION_BID_START",
+        "entry_offset": -3,
+        "exit_offset": 20,
+        "rules": [
+          "momentum10_positive",
+          "volume_not_crowded",
+          "foreign_or_trust_positive"
+        ],
+        "n": 10,
+        "win_rate": 80.0,
+        "avg_return": 20.45,
+        "worst_return": -19.43,
+        "best_return": 91.38
+      },
+      "all_trades": {
+        "n": 10,
+        "win_rate": 80.0,
+        "avg_return": 20.45,
+        "median_return": 21.11,
+        "worst_return": -19.43,
+        "best_return": 91.38
+      },
+      "trimmed_without_best": {
+        "n": 9,
+        "win_rate": 77.78,
+        "avg_return": 12.57,
+        "median_return": 20.52,
+        "worst_return": -19.43,
+        "best_return": 41.47
+      },
+      "by_event_year": {
+        "2026": {
+          "n": 10,
+          "win_rate": 80.0,
+          "avg_return": 20.45,
+          "median_return": 21.11,
+          "worst_return": -19.43,
+          "best_return": 91.38
+        }
+      },
+      "leave_one_out_min_avg": {
+        "n": 9,
+        "win_rate": 77.78,
+        "avg_return": 12.57,
+        "median_return": 20.52,
+        "worst_return": -19.43,
+        "best_return": 41.47,
+        "excluded": {
+          "stock_code": "5464",
+          "return_pct": 91.3815
+        }
+      },
+      "leave_one_out_max_avg": {
+        "n": 9,
+        "win_rate": 88.89,
+        "avg_return": 24.88,
+        "median_return": 21.11,
+        "worst_return": -15.21,
+        "best_return": 91.38,
+        "excluded": {
+          "stock_code": "3491",
+          "return_pct": -19.4301
         }
       }
     },
