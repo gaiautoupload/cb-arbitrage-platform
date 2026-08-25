@@ -7873,5 +7873,35 @@
     "maturity_date_minguo": "118年8月26日",
     "maturity_date": "2029-08-26",
     "issue_amount": "新台幣4億元整"
+  },
+  {
+    "file_id": "11500054601",
+    "company_name": "國統國際股份有限公司",
+    "bond_name": "國統國際股份有限公司國內第六次無擔保轉換公司債",
+    "cb_code": "89366",
+    "stock_code": "8936",
+    "short_name": "國統六",
+    "announcement_date_minguo": "115年8月25日",
+    "announcement_date": "2026-08-25",
+    "issue_date_minguo": "115年8月28日",
+    "issue_date": "2026-08-28",
+    "maturity_date_minguo": "118年8月28日",
+    "maturity_date": "2029-08-28",
+    "issue_amount": "新臺幣6億元整"
+  },
+  {
+    "file_id": "11500054941",
+    "company_name": "正達國際光電股份有限公司",
+    "bond_name": "正達國際光電股份有限公司國內第四次有擔保轉換公司債",
+    "cb_code": "31494",
+    "stock_code": "3149",
+    "short_name": "正達四",
+    "announcement_date_minguo": "115年8月25日",
+    "announcement_date": "2026-08-25",
+    "issue_date_minguo": "115年8月31日",
+    "issue_date": "2026-08-31",
+    "maturity_date_minguo": "118年8月31日",
+    "maturity_date": "2029-08-31",
+    "issue_amount": "新台幣6.5億元整"
   }
 ]

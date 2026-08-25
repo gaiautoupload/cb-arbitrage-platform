@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-24T18:58:45",
+  "generated_at": "2026-08-25T17:11:36",
   "source_files": {
     "mops_wiki_db": "mops_wiki_db.json",
     "parsed_bonds": "parsed_bonds.json",
@@ -12,19 +12,19 @@
     "Generated linked BOARD_RESOLUTION/EFFECTIVE dates are retained only as low-confidence proxy events."
   ],
   "summary": {
-    "total_events": 3410,
-    "actual_or_observed_events": 1263,
-    "inferred_events": 2147,
+    "total_events": 3420,
+    "actual_or_observed_events": 1269,
+    "inferred_events": 2151,
     "by_stage": {
-      "BOARD_RESOLUTION": 554,
-      "FILING": 10,
-      "EFFECTIVE": 517,
-      "PRICING": 515,
-      "PAYMENT_BANK": 30,
+      "BOARD_RESOLUTION": 556,
+      "FILING": 11,
+      "EFFECTIVE": 519,
+      "PRICING": 517,
+      "PAYMENT_BANK": 31,
       "AUCTION_BID_START": 57,
       "AUCTION_BID_END": 57,
       "AUCTION_RESULT_ESTIMATED": 57,
-      "LISTING": 518,
+      "LISTING": 520,
       "CBAS_PROXY_START": 365,
       "CBAS_PROXY_END": 365,
       "T_PLUS_19_EXIT_PROXY": 365
@@ -10087,6 +10087,30 @@
     },
     {
       "stock_code": "3149",
+      "company_name": "正達國際光電股份有限公司",
+      "short_name": "正達四",
+      "stage": "BOARD_RESOLUTION",
+      "date": "2026-06-17",
+      "source": "linked_bond_stages_proxy",
+      "confidence": 0.25,
+      "is_inferred": true,
+      "title": "董事會決議發行無擔保轉換公司債",
+      "summary": "董事會通過發行可轉債以充實營運資金或償還債務"
+    },
+    {
+      "stock_code": "3149",
+      "company_name": "正達國際光電股份有限公司",
+      "short_name": "正達四",
+      "stage": "EFFECTIVE",
+      "date": "2026-07-27",
+      "source": "linked_bond_stages_proxy",
+      "confidence": 0.25,
+      "is_inferred": true,
+      "title": "金管會申報生效發行無擔保轉換公司債",
+      "summary": "可轉債申報生效，正式進入定價與發行準備期"
+    },
+    {
+      "stock_code": "3149",
       "company_name": "正達光電",
       "short_name": "正達三",
       "stage": "AUCTION_BID_START",
@@ -10123,6 +10147,30 @@
       "confidence": 0.35,
       "is_inferred": true,
       "serial": "115059"
+    },
+    {
+      "stock_code": "3149",
+      "company_name": "正達國際光電股份有限公司",
+      "short_name": "正達四",
+      "stage": "PRICING",
+      "date": "2026-08-25",
+      "source": "parsed_bonds",
+      "confidence": 0.65,
+      "is_inferred": false,
+      "title": "正達四 announcement/pricing date",
+      "cb_code": "31494"
+    },
+    {
+      "stock_code": "3149",
+      "company_name": "正達國際光電股份有限公司",
+      "short_name": "正達四",
+      "stage": "LISTING",
+      "date": "2026-08-31",
+      "source": "parsed_bonds",
+      "confidence": 0.65,
+      "is_inferred": false,
+      "title": "正達四 issue/listing date",
+      "cb_code": "31494"
     },
     {
       "stock_code": "3163",
@@ -10714,6 +10762,20 @@
       "summary": "代收價款/專戶: 公告本公司發行國內第一次無擔保轉換公司債收足債款",
       "event_type": "CB_ISSUANCE",
       "published_at": "2026-08-21T175634"
+    },
+    {
+      "stock_code": "3219",
+      "company_name": "倚強科",
+      "short_name": "倚強科一",
+      "stage": "PAYMENT_BANK",
+      "date": "2026-08-24",
+      "source": "mops_wiki_db",
+      "confidence": 0.85,
+      "is_inferred": false,
+      "title": "更正公告本公司發行國內第一次無擔保轉換公司債\r\n收足債款",
+      "summary": "代收價款/專戶: 更正公告本公司發行國內第一次無擔保轉換公司債\r\n收足債款",
+      "event_type": "CB_ISSUANCE",
+      "published_at": "2026-08-24T173939"
     },
     {
       "stock_code": "3219",
@@ -35048,6 +35110,20 @@
     },
     {
       "stock_code": "7631",
+      "company_name": "聚賢研發-創",
+      "short_name": "聚賢研發一創",
+      "stage": "FILING",
+      "date": "2026-08-24",
+      "source": "mops_wiki_db",
+      "confidence": 0.85,
+      "is_inferred": false,
+      "title": "公告本公司國內第一次無擔保轉換公司債收足應募價款",
+      "summary": "送件/申報: 公告本公司國內第一次無擔保轉換公司債收足應募價款",
+      "event_type": "CB_ISSUANCE",
+      "published_at": "2026-08-24T142105"
+    },
+    {
+      "stock_code": "7631",
       "company_name": "聚賢研發股份有限公司",
       "short_name": "聚賢研發一創",
       "stage": "LISTING",
@@ -39097,9 +39173,33 @@
     {
       "stock_code": "8936",
       "company_name": "國統國際股份有限公司",
+      "short_name": "國統六",
+      "stage": "BOARD_RESOLUTION",
+      "date": "2026-06-12",
+      "source": "linked_bond_stages_proxy",
+      "confidence": 0.25,
+      "is_inferred": true,
+      "title": "董事會決議發行無擔保轉換公司債",
+      "summary": "董事會通過發行可轉債以充實營運資金或償還債務"
+    },
+    {
+      "stock_code": "8936",
+      "company_name": "國統國際股份有限公司",
       "short_name": "國統五",
       "stage": "EFFECTIVE",
       "date": "2026-07-13",
+      "source": "linked_bond_stages_proxy",
+      "confidence": 0.25,
+      "is_inferred": true,
+      "title": "金管會申報生效發行無擔保轉換公司債",
+      "summary": "可轉債申報生效，正式進入定價與發行準備期"
+    },
+    {
+      "stock_code": "8936",
+      "company_name": "國統國際股份有限公司",
+      "short_name": "國統六",
+      "stage": "EFFECTIVE",
+      "date": "2026-07-24",
       "source": "linked_bond_stages_proxy",
       "confidence": 0.25,
       "is_inferred": true,
@@ -39207,6 +39307,30 @@
       "confidence": 0.3,
       "is_inferred": true,
       "based_on": "2026-08-17"
+    },
+    {
+      "stock_code": "8936",
+      "company_name": "國統國際股份有限公司",
+      "short_name": "國統六",
+      "stage": "PRICING",
+      "date": "2026-08-25",
+      "source": "parsed_bonds",
+      "confidence": 0.65,
+      "is_inferred": false,
+      "title": "國統六 announcement/pricing date",
+      "cb_code": "89366"
+    },
+    {
+      "stock_code": "8936",
+      "company_name": "國統國際股份有限公司",
+      "short_name": "國統六",
+      "stage": "LISTING",
+      "date": "2026-08-28",
+      "source": "parsed_bonds",
+      "confidence": 0.65,
+      "is_inferred": false,
+      "title": "國統六 issue/listing date",
+      "cb_code": "89366"
     },
     {
       "stock_code": "8936",
