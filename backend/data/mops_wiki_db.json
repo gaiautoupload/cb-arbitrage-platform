@@ -6327,6 +6327,96 @@
     "parsed_at": "2026-08-25T17:00:57"
   },
   {
+    "date": "2026-08-26",
+    "time": "134637",
+    "stock_code": "2303",
+    "company_name": "聯電",
+    "event_title": "本公司董事會決議發行海外第七次無擔保轉換公司債",
+    "event_type": "OTHER",
+    "stage": "N/A",
+    "wiki_details": {
+      "board_date": "115/08/26"
+    },
+    "sentiment": "NEUTRAL",
+    "summary": "CB 相關公告: 本公司董事會決議發行海外第七次無擔保轉換公司債",
+    "parser": "rule_v2",
+    "parsed_at": "2026-08-27T18:54:58"
+  },
+  {
+    "date": "2026-08-26",
+    "time": "142855",
+    "stock_code": "3006",
+    "company_name": "晶豪科",
+    "event_title": "公告本公司發行國內第二次有擔保轉換公司債案向金管會\r\n申請延長募集期間",
+    "event_type": "CB_ISSUANCE",
+    "stage": "EFFECTIVE",
+    "wiki_details": {},
+    "sentiment": "BULLISH",
+    "summary": "申報生效: 公告本公司發行國內第二次有擔保轉換公司債案向金管會\r\n申請延長募集期間",
+    "parser": "rule_v2",
+    "parsed_at": "2026-08-27T18:54:58"
+  },
+  {
+    "date": "2026-08-26",
+    "time": "194000",
+    "stock_code": "3311",
+    "company_name": "閎暉",
+    "event_title": "本公司取得FDK株式會社私募無擔保可轉換公司債",
+    "event_type": "PRIVATE_CB_ISSUANCE",
+    "stage": "BOARD_RESOLUTION",
+    "wiki_details": {
+      "board_date": "民國115年8月26日"
+    },
+    "sentiment": "NEUTRAL",
+    "summary": "董事會/股東會決議: 本公司取得FDK株式會社私募無擔保可轉換公司債",
+    "parser": "rule_v2",
+    "parsed_at": "2026-08-27T18:54:58"
+  },
+  {
+    "date": "2026-08-26",
+    "time": "202432",
+    "stock_code": "3311",
+    "company_name": "閎暉",
+    "event_title": "代子公司FDK株式會社公告董事會決議發行私募無擔保\r\n可轉換公司債",
+    "event_type": "PRIVATE_CB_ISSUANCE",
+    "stage": "BOARD_RESOLUTION",
+    "wiki_details": {
+      "board_date": "115/08/26"
+    },
+    "sentiment": "NEUTRAL",
+    "summary": "董事會/股東會決議: 代子公司FDK株式會社公告董事會決議發行私募無擔保\r\n可轉換公司債",
+    "parser": "rule_v2",
+    "parsed_at": "2026-08-27T18:54:58"
+  },
+  {
+    "date": "2026-08-26",
+    "time": "170131",
+    "stock_code": "6919",
+    "company_name": "康霈*",
+    "event_title": "本公司新藥CBL-514注射劑樞紐三期臨床試驗CBL-0301向\r\n加拿大HC提出試驗變更案已核准執行。",
+    "event_type": "OTHER",
+    "stage": "N/A",
+    "wiki_details": {},
+    "sentiment": "NEUTRAL",
+    "summary": "CB 相關公告: 本公司新藥CBL-514注射劑樞紐三期臨床試驗CBL-0301向\r\n加拿大HC提出試驗變更案已核准執行。",
+    "parser": "rule_v2",
+    "parsed_at": "2026-08-27T18:54:58"
+  },
+  {
+    "date": "2026-08-26",
+    "time": "155053",
+    "stock_code": "8936",
+    "company_name": "國統",
+    "event_title": "公告本公司國內第六次無擔保轉換公司債收足價款",
+    "event_type": "CB_ISSUANCE",
+    "stage": "FILING",
+    "wiki_details": {},
+    "sentiment": "NEUTRAL",
+    "summary": "送件/申報: 公告本公司國內第六次無擔保轉換公司債收足價款",
+    "parser": "rule_v2",
+    "parsed_at": "2026-08-27T18:54:58"
+  },
+  {
     "date": "2026-02-12",
     "time": "140510",
     "stock_code": "3260",

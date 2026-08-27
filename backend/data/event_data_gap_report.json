@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-25T17:11:37",
+  "generated_at": "2026-08-27T19:11:58",
   "database": "D:\\bond\\backend\\data\\cb_event_master.sqlite",
   "required_stages": [
     "BOARD_RESOLUTION",
@@ -16,23 +16,23 @@
     "CBAS_ACTUAL"
   ],
   "summary": {
-    "issues": 584,
-    "events": 3473,
-    "issues_with_missing_stages": 584
+    "issues": 585,
+    "events": 3479,
+    "issues_with_missing_stages": 585
   },
   "stage_summary": {
     "BOARD_RESOLUTION": {
-      "observed_events": 79,
+      "observed_events": 80,
       "inferred_events": 496,
-      "issues_with_stage": 533
+      "issues_with_stage": 534
     },
     "FILING": {
-      "observed_events": 11,
+      "observed_events": 12,
       "inferred_events": 0,
       "issues_with_stage": 9
     },
     "EFFECTIVE": {
-      "observed_events": 2,
+      "observed_events": 3,
       "inferred_events": 518,
       "issues_with_stage": 518
     },
@@ -42,14 +42,14 @@
       "issues_with_stage": 516
     },
     "AUCTION_BID_START": {
-      "observed_events": 64,
+      "observed_events": 65,
       "inferred_events": 0,
-      "issues_with_stage": 64
+      "issues_with_stage": 65
     },
     "AUCTION_BID_END": {
-      "observed_events": 64,
+      "observed_events": 65,
       "inferred_events": 0,
-      "issues_with_stage": 64
+      "issues_with_stage": 65
     },
     "BOOKBUILDING_START": {
       "observed_events": 0,
@@ -3264,8 +3264,9 @@
       "stock_code": "3006",
       "cb_code": "30061",
       "short_name": "晶豪科一",
-      "company_name": "晶豪科技股份有限公司",
+      "company_name": "晶豪科",
       "observed_stages": [
+        "EFFECTIVE",
         "LISTING",
         "PRICING"
       ],
@@ -3286,7 +3287,7 @@
         "UNDERWRITING_NOTICE",
         "CBAS_ACTUAL"
       ],
-      "event_count": 7
+      "event_count": 8
     },
     {
       "issue_id": "issue_cc7e64e9be2b25e38fc1",
@@ -4777,6 +4778,31 @@
         "CBAS_ACTUAL"
       ],
       "event_count": 7
+    },
+    {
+      "issue_id": "issue_371f4380fd254ed5eb7a",
+      "stock_code": "3311",
+      "cb_code": null,
+      "short_name": null,
+      "company_name": "閎暉",
+      "observed_stages": [
+        "BOARD_RESOLUTION"
+      ],
+      "inferred_stages": [],
+      "missing_stages": [
+        "FILING",
+        "EFFECTIVE",
+        "PRICING",
+        "AUCTION_BID_START",
+        "AUCTION_BID_END",
+        "BOOKBUILDING_START",
+        "BOOKBUILDING_END",
+        "BOOKBUILDING_RESULT",
+        "UNDERWRITING_NOTICE",
+        "LISTING",
+        "CBAS_ACTUAL"
+      ],
+      "event_count": 1
     },
     {
       "issue_id": "issue_e93da928f4b518a62656",
@@ -15157,16 +15183,18 @@
       "short_name": null,
       "company_name": "寶一",
       "observed_stages": [
+        "AUCTION_BID_END",
+        "AUCTION_BID_START",
         "EFFECTIVE",
         "PAYMENT_BANK"
       ],
-      "inferred_stages": [],
+      "inferred_stages": [
+        "AUCTION_RESULT_ESTIMATED"
+      ],
       "missing_stages": [
         "BOARD_RESOLUTION",
         "FILING",
         "PRICING",
-        "AUCTION_BID_START",
-        "AUCTION_BID_END",
         "BOOKBUILDING_START",
         "BOOKBUILDING_END",
         "BOOKBUILDING_RESULT",
@@ -15174,7 +15202,7 @@
         "LISTING",
         "CBAS_ACTUAL"
       ],
-      "event_count": 2
+      "event_count": 5
     },
     {
       "issue_id": "issue_0666a86be162655683fd",
@@ -16010,7 +16038,7 @@
         "UNDERWRITING_NOTICE",
         "CBAS_ACTUAL"
       ],
-      "event_count": 12
+      "event_count": 13
     },
     {
       "issue_id": "issue_3a86afe52437d231a306",

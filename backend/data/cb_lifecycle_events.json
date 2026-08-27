@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-25T17:11:36",
+  "generated_at": "2026-08-27T19:11:57",
   "source_files": {
     "mops_wiki_db": "mops_wiki_db.json",
     "parsed_bonds": "parsed_bonds.json",
@@ -12,18 +12,18 @@
     "Generated linked BOARD_RESOLUTION/EFFECTIVE dates are retained only as low-confidence proxy events."
   ],
   "summary": {
-    "total_events": 3420,
-    "actual_or_observed_events": 1269,
-    "inferred_events": 2151,
+    "total_events": 3426,
+    "actual_or_observed_events": 1274,
+    "inferred_events": 2152,
     "by_stage": {
-      "BOARD_RESOLUTION": 556,
-      "FILING": 11,
-      "EFFECTIVE": 519,
+      "BOARD_RESOLUTION": 557,
+      "FILING": 12,
+      "EFFECTIVE": 520,
       "PRICING": 517,
       "PAYMENT_BANK": 31,
-      "AUCTION_BID_START": 57,
-      "AUCTION_BID_END": 57,
-      "AUCTION_RESULT_ESTIMATED": 57,
+      "AUCTION_BID_START": 58,
+      "AUCTION_BID_END": 58,
+      "AUCTION_RESULT_ESTIMATED": 58,
       "LISTING": 520,
       "CBAS_PROXY_START": 365,
       "CBAS_PROXY_END": 365,
@@ -7956,6 +7956,20 @@
       "based_on": "2023-10-27"
     },
     {
+      "stock_code": "3006",
+      "company_name": "晶豪科",
+      "short_name": "晶豪科一",
+      "stage": "EFFECTIVE",
+      "date": "2026-08-26",
+      "source": "mops_wiki_db",
+      "confidence": 0.85,
+      "is_inferred": false,
+      "title": "公告本公司發行國內第二次有擔保轉換公司債案向金管會\r\n申請延長募集期間",
+      "summary": "申報生效: 公告本公司發行國內第二次有擔保轉換公司債案向金管會\r\n申請延長募集期間",
+      "event_type": "CB_ISSUANCE",
+      "published_at": "2026-08-26T142855"
+    },
+    {
       "stock_code": "3010",
       "company_name": "華立企業股份有限公司",
       "short_name": "華立三",
@@ -11618,6 +11632,20 @@
       "confidence": 0.3,
       "is_inferred": true,
       "based_on": "2020-09-18"
+    },
+    {
+      "stock_code": "3311",
+      "company_name": "閎暉",
+      "short_name": "",
+      "stage": "BOARD_RESOLUTION",
+      "date": "2026-08-26",
+      "source": "mops_wiki_db",
+      "confidence": 0.85,
+      "is_inferred": false,
+      "title": "本公司取得FDK株式會社私募無擔保可轉換公司債",
+      "summary": "董事會/股東會決議: 本公司取得FDK株式會社私募無擔保可轉換公司債",
+      "event_type": "PRIVATE_CB_ISSUANCE",
+      "published_at": "2026-08-26T194000"
     },
     {
       "stock_code": "3312",
@@ -37351,6 +37379,45 @@
       "published_at": "2026-08-20T150140"
     },
     {
+      "stock_code": "8222",
+      "company_name": "寶一",
+      "short_name": "",
+      "stage": "AUCTION_BID_START",
+      "date": "2026-08-26",
+      "source": "twsa_bids",
+      "confidence": 0.9,
+      "is_inferred": false,
+      "serial": "115064",
+      "underwriter": "台新綜合證券股份有限公司",
+      "min_price": "101.00",
+      "bidding_period": "2026/08/26~2026/08/28"
+    },
+    {
+      "stock_code": "8222",
+      "company_name": "寶一",
+      "short_name": "",
+      "stage": "AUCTION_BID_END",
+      "date": "2026-08-28",
+      "source": "twsa_bids",
+      "confidence": 0.9,
+      "is_inferred": false,
+      "serial": "115064",
+      "underwriter": "台新綜合證券股份有限公司",
+      "min_price": "101.00",
+      "bidding_period": "2026/08/26~2026/08/28"
+    },
+    {
+      "stock_code": "8222",
+      "company_name": "寶一",
+      "short_name": "",
+      "stage": "AUCTION_RESULT_ESTIMATED",
+      "date": "2026-08-29",
+      "source": "calendar_proxy",
+      "confidence": 0.35,
+      "is_inferred": true,
+      "serial": "115064"
+    },
+    {
       "stock_code": "8255",
       "company_name": "朋程科技股份有限公司",
       "short_name": "朋程一",
@@ -39319,6 +39386,20 @@
       "is_inferred": false,
       "title": "國統六 announcement/pricing date",
       "cb_code": "89366"
+    },
+    {
+      "stock_code": "8936",
+      "company_name": "國統",
+      "short_name": "國統五",
+      "stage": "FILING",
+      "date": "2026-08-26",
+      "source": "mops_wiki_db",
+      "confidence": 0.85,
+      "is_inferred": false,
+      "title": "公告本公司國內第六次無擔保轉換公司債收足價款",
+      "summary": "送件/申報: 公告本公司國內第六次無擔保轉換公司債收足價款",
+      "event_type": "CB_ISSUANCE",
+      "published_at": "2026-08-26T155053"
     },
     {
       "stock_code": "8936",
