@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-27T19:11:57",
+  "generated_at": "2026-08-28T20:54:06",
   "source_files": {
     "mops_wiki_db": "mops_wiki_db.json",
     "parsed_bonds": "parsed_bonds.json",
@@ -12,19 +12,19 @@
     "Generated linked BOARD_RESOLUTION/EFFECTIVE dates are retained only as low-confidence proxy events."
   ],
   "summary": {
-    "total_events": 3426,
-    "actual_or_observed_events": 1274,
-    "inferred_events": 2152,
+    "total_events": 3438,
+    "actual_or_observed_events": 1284,
+    "inferred_events": 2154,
     "by_stage": {
-      "BOARD_RESOLUTION": 557,
-      "FILING": 12,
-      "EFFECTIVE": 520,
-      "PRICING": 517,
-      "PAYMENT_BANK": 31,
+      "BOARD_RESOLUTION": 560,
+      "FILING": 13,
+      "EFFECTIVE": 522,
+      "PRICING": 519,
+      "PAYMENT_BANK": 33,
       "AUCTION_BID_START": 58,
       "AUCTION_BID_END": 58,
       "AUCTION_RESULT_ESTIMATED": 58,
-      "LISTING": 520,
+      "LISTING": 522,
       "CBAS_PROXY_START": 365,
       "CBAS_PROXY_END": 365,
       "T_PLUS_19_EXIT_PROXY": 365
@@ -1579,6 +1579,18 @@
     },
     {
       "stock_code": "1560",
+      "company_name": "中國砂輪企業股份有限公司",
+      "short_name": "中砂二",
+      "stage": "EFFECTIVE",
+      "date": "2026-07-30",
+      "source": "linked_bond_stages_proxy",
+      "confidence": 0.25,
+      "is_inferred": true,
+      "title": "金管會申報生效發行無擔保轉換公司債",
+      "summary": "可轉債申報生效，正式進入定價與發行準備期"
+    },
+    {
+      "stock_code": "1560",
       "company_name": "中砂",
       "short_name": "中砂一",
       "stage": "PAYMENT_BANK",
@@ -1629,6 +1641,30 @@
       "confidence": 0.35,
       "is_inferred": true,
       "serial": "115061"
+    },
+    {
+      "stock_code": "1560",
+      "company_name": "中國砂輪企業股份有限公司",
+      "short_name": "中砂二",
+      "stage": "PRICING",
+      "date": "2026-08-28",
+      "source": "parsed_bonds",
+      "confidence": 0.65,
+      "is_inferred": false,
+      "title": "中砂二 announcement/pricing date",
+      "cb_code": "15602"
+    },
+    {
+      "stock_code": "1560",
+      "company_name": "中國砂輪企業股份有限公司",
+      "short_name": "中砂二",
+      "stage": "LISTING",
+      "date": "2026-09-03",
+      "source": "parsed_bonds",
+      "confidence": 0.65,
+      "is_inferred": false,
+      "title": "中砂二 issue/listing date",
+      "cb_code": "15602"
     },
     {
       "stock_code": "1582",
@@ -3156,6 +3192,20 @@
       "based_on": "2022-03-25"
     },
     {
+      "stock_code": "2012",
+      "company_name": "春雨",
+      "short_name": "春雨一",
+      "stage": "BOARD_RESOLUTION",
+      "date": "2026-08-27",
+      "source": "mops_wiki_db",
+      "confidence": 0.85,
+      "is_inferred": false,
+      "title": "本公司董事會決議辦理募集國內第四次無擔保轉換公司債",
+      "summary": "董事會/股東會決議: 本公司董事會決議辦理募集國內第四次無擔保轉換公司債",
+      "event_type": "CB_ISSUANCE",
+      "published_at": "2026-08-27T165105"
+    },
+    {
       "stock_code": "2034",
       "company_name": "允強實業股份有限公司",
       "short_name": "允強三",
@@ -3916,6 +3966,20 @@
       "published_at": "2026-07-29T155524"
     },
     {
+      "stock_code": "2221",
+      "company_name": "大甲",
+      "short_name": "",
+      "stage": "PAYMENT_BANK",
+      "date": "2026-08-27",
+      "source": "mops_wiki_db",
+      "confidence": 0.85,
+      "is_inferred": false,
+      "title": "公告本公司發行國內第一次無擔保轉換公司債代收價款\r\n及存儲專戶行庫",
+      "summary": "代收價款/專戶: 公告本公司發行國內第一次無擔保轉換公司債代收價款\r\n及存儲專戶行庫",
+      "event_type": "CB_ISSUANCE",
+      "published_at": "2026-08-27T111831"
+    },
+    {
       "stock_code": "2228",
       "company_name": "劍麟股份有限公司",
       "short_name": "劍麟二",
@@ -4235,6 +4299,18 @@
     {
       "stock_code": "2303",
       "company_name": "聯華電子股份有限公司",
+      "short_name": "聯電二",
+      "stage": "EFFECTIVE",
+      "date": "2026-07-30",
+      "source": "linked_bond_stages_proxy",
+      "confidence": 0.25,
+      "is_inferred": true,
+      "title": "金管會申報生效發行無擔保轉換公司債",
+      "summary": "可轉債申報生效，正式進入定價與發行準備期"
+    },
+    {
+      "stock_code": "2303",
+      "company_name": "聯華電子股份有限公司",
       "short_name": "聯電一",
       "stage": "PRICING",
       "date": "2026-08-03",
@@ -4341,6 +4417,30 @@
       "confidence": 0.3,
       "is_inferred": true,
       "based_on": "2026-08-07"
+    },
+    {
+      "stock_code": "2303",
+      "company_name": "聯華電子股份有限公司",
+      "short_name": "聯電二",
+      "stage": "PRICING",
+      "date": "2026-08-28",
+      "source": "parsed_bonds",
+      "confidence": 0.65,
+      "is_inferred": false,
+      "title": "聯電二 announcement/pricing date",
+      "cb_code": "23032"
+    },
+    {
+      "stock_code": "2303",
+      "company_name": "聯華電子股份有限公司",
+      "short_name": "聯電二",
+      "stage": "LISTING",
+      "date": "2026-09-03",
+      "source": "parsed_bonds",
+      "confidence": 0.65,
+      "is_inferred": false,
+      "title": "聯電二 issue/listing date",
+      "cb_code": "23032"
     },
     {
       "stock_code": "2316",
@@ -4601,6 +4701,20 @@
       "confidence": 0.3,
       "is_inferred": true,
       "based_on": "2023-12-05"
+    },
+    {
+      "stock_code": "2368",
+      "company_name": "金像電",
+      "short_name": "金像電二",
+      "stage": "BOARD_RESOLUTION",
+      "date": "2026-08-27",
+      "source": "mops_wiki_db",
+      "confidence": 0.85,
+      "is_inferred": false,
+      "title": "公告董事會決議發行國內第四次無擔保可轉換公司債",
+      "summary": "董事會/股東會決議: 公告董事會決議發行國內第四次無擔保可轉換公司債",
+      "event_type": "CB_ISSUANCE",
+      "published_at": "2026-08-27T150028"
     },
     {
       "stock_code": "2383",
@@ -5707,6 +5821,20 @@
       "confidence": 0.35,
       "is_inferred": true,
       "serial": "115063"
+    },
+    {
+      "stock_code": "2464",
+      "company_name": "盟立",
+      "short_name": "盟立二",
+      "stage": "BOARD_RESOLUTION",
+      "date": "2026-08-27",
+      "source": "mops_wiki_db",
+      "confidence": 0.85,
+      "is_inferred": false,
+      "title": "補充說明本公司115年6月16日公告\r\n發行國內第三次無擔保轉換公司債",
+      "summary": "董事會/股東會決議: 補充說明本公司115年6月16日公告\r\n發行國內第三次無擔保轉換公司債",
+      "event_type": "CB_ISSUANCE",
+      "published_at": "2026-08-27T160506"
     },
     {
       "stock_code": "2466",
@@ -10173,6 +10301,20 @@
       "is_inferred": false,
       "title": "正達四 announcement/pricing date",
       "cb_code": "31494"
+    },
+    {
+      "stock_code": "3149",
+      "company_name": "正達",
+      "short_name": "正達三",
+      "stage": "FILING",
+      "date": "2026-08-27",
+      "source": "mops_wiki_db",
+      "confidence": 0.85,
+      "is_inferred": false,
+      "title": "公告本公司國內第四次有擔保轉換公司債收足債款",
+      "summary": "送件/申報: 公告本公司國內第四次有擔保轉換公司債收足債款",
+      "event_type": "CB_ISSUANCE",
+      "published_at": "2026-08-27T171835"
     },
     {
       "stock_code": "3149",
@@ -19087,6 +19229,20 @@
       "summary": "董事會/股東會決議: 公告本公司董事會決議發行國內第三次有擔保轉換\r\n公司債",
       "event_type": "CB_ISSUANCE",
       "published_at": "2026-08-07T174001"
+    },
+    {
+      "stock_code": "4541",
+      "company_name": "晟田",
+      "short_name": "",
+      "stage": "PAYMENT_BANK",
+      "date": "2026-08-27",
+      "source": "mops_wiki_db",
+      "confidence": 0.85,
+      "is_inferred": false,
+      "title": "公告本公司簽訂發行國內第五次有擔保轉換公司債\r\n之代收價款行庫及存儲專戶行庫",
+      "summary": "代收價款/專戶: 公告本公司簽訂發行國內第五次有擔保轉換公司債\r\n之代收價款行庫及存儲專戶行庫",
+      "event_type": "CB_ISSUANCE",
+      "published_at": "2026-08-27T183529"
     },
     {
       "stock_code": "4542",

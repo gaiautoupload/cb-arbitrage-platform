@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-27T19:11:58",
+  "generated_at": "2026-08-28T20:54:07",
   "database": "D:\\bond\\backend\\data\\cb_event_master.sqlite",
   "required_stages": [
     "BOARD_RESOLUTION",
@@ -16,30 +16,30 @@
     "CBAS_ACTUAL"
   ],
   "summary": {
-    "issues": 585,
-    "events": 3479,
-    "issues_with_missing_stages": 585
+    "issues": 588,
+    "events": 3491,
+    "issues_with_missing_stages": 588
   },
   "stage_summary": {
     "BOARD_RESOLUTION": {
-      "observed_events": 80,
+      "observed_events": 83,
       "inferred_events": 496,
       "issues_with_stage": 534
     },
     "FILING": {
-      "observed_events": 12,
+      "observed_events": 13,
       "inferred_events": 0,
-      "issues_with_stage": 9
+      "issues_with_stage": 10
     },
     "EFFECTIVE": {
       "observed_events": 3,
-      "inferred_events": 518,
-      "issues_with_stage": 518
+      "inferred_events": 520,
+      "issues_with_stage": 520
     },
     "PRICING": {
-      "observed_events": 517,
+      "observed_events": 519,
       "inferred_events": 0,
-      "issues_with_stage": 516
+      "issues_with_stage": 518
     },
     "AUCTION_BID_START": {
       "observed_events": 65,
@@ -72,9 +72,9 @@
       "issues_with_stage": 0
     },
     "LISTING": {
-      "observed_events": 520,
+      "observed_events": 522,
       "inferred_events": 0,
-      "issues_with_stage": 517
+      "issues_with_stage": 519
     },
     "CBAS_ACTUAL": {
       "observed_events": 0,
@@ -704,6 +704,32 @@
       "event_count": 12
     },
     {
+      "issue_id": "issue_6a79a67891e71faf2ea2",
+      "stock_code": "1560",
+      "cb_code": "15602",
+      "short_name": "中砂二",
+      "company_name": "中國砂輪企業股份有限公司",
+      "observed_stages": [
+        "LISTING",
+        "PRICING"
+      ],
+      "inferred_stages": [
+        "EFFECTIVE"
+      ],
+      "missing_stages": [
+        "BOARD_RESOLUTION",
+        "FILING",
+        "AUCTION_BID_START",
+        "AUCTION_BID_END",
+        "BOOKBUILDING_START",
+        "BOOKBUILDING_END",
+        "BOOKBUILDING_RESULT",
+        "UNDERWRITING_NOTICE",
+        "CBAS_ACTUAL"
+      ],
+      "event_count": 3
+    },
+    {
       "issue_id": "issue_c01e940584b1c8e42be6",
       "stock_code": "1582",
       "cb_code": "15823",
@@ -1299,8 +1325,9 @@
       "stock_code": "2012",
       "cb_code": "20121",
       "short_name": "春雨一",
-      "company_name": "春雨工廠股份有限公司",
+      "company_name": "春雨",
       "observed_stages": [
+        "BOARD_RESOLUTION",
         "LISTING",
         "PRICING"
       ],
@@ -1321,7 +1348,7 @@
         "UNDERWRITING_NOTICE",
         "CBAS_ACTUAL"
       ],
-      "event_count": 7
+      "event_count": 8
     },
     {
       "issue_id": "issue_94171e9ed6d198b69a40",
@@ -1640,7 +1667,8 @@
       "short_name": null,
       "company_name": "大甲",
       "observed_stages": [
-        "BOARD_RESOLUTION"
+        "BOARD_RESOLUTION",
+        "PAYMENT_BANK"
       ],
       "inferred_stages": [],
       "missing_stages": [
@@ -1656,7 +1684,7 @@
         "LISTING",
         "CBAS_ACTUAL"
       ],
-      "event_count": 1
+      "event_count": 2
     },
     {
       "issue_id": "issue_8e5fa695856f802ad7ab",
@@ -1827,6 +1855,32 @@
       "event_count": 11
     },
     {
+      "issue_id": "issue_8e203ca3018ec2be298a",
+      "stock_code": "2303",
+      "cb_code": "23032",
+      "short_name": "聯電二",
+      "company_name": "聯華電子股份有限公司",
+      "observed_stages": [
+        "LISTING",
+        "PRICING"
+      ],
+      "inferred_stages": [
+        "EFFECTIVE"
+      ],
+      "missing_stages": [
+        "BOARD_RESOLUTION",
+        "FILING",
+        "AUCTION_BID_START",
+        "AUCTION_BID_END",
+        "BOOKBUILDING_START",
+        "BOOKBUILDING_END",
+        "BOOKBUILDING_RESULT",
+        "UNDERWRITING_NOTICE",
+        "CBAS_ACTUAL"
+      ],
+      "event_count": 3
+    },
+    {
       "issue_id": "issue_094dc79a73a0ef2c1e78",
       "stock_code": "2316",
       "cb_code": null,
@@ -1915,8 +1969,9 @@
       "stock_code": "2368",
       "cb_code": "23682",
       "short_name": "金像電二",
-      "company_name": "金像電子股份有限公司",
+      "company_name": "金像電",
       "observed_stages": [
+        "BOARD_RESOLUTION",
         "LISTING",
         "PRICING"
       ],
@@ -1937,7 +1992,7 @@
         "UNDERWRITING_NOTICE",
         "CBAS_ACTUAL"
       ],
-      "event_count": 7
+      "event_count": 8
     },
     {
       "issue_id": "issue_39be49b0931ee82193fe",
@@ -2359,7 +2414,7 @@
       "stock_code": "2464",
       "cb_code": "24642",
       "short_name": "盟立二",
-      "company_name": "盟立自動化",
+      "company_name": "盟立",
       "observed_stages": [
         "AUCTION_BID_END",
         "AUCTION_BID_START",
@@ -2384,7 +2439,7 @@
         "UNDERWRITING_NOTICE",
         "CBAS_ACTUAL"
       ],
-      "event_count": 12
+      "event_count": 13
     },
     {
       "issue_id": "issue_2e546554211c2e294dce",
@@ -4183,10 +4238,11 @@
       "stock_code": "3149",
       "cb_code": "31493",
       "short_name": "正達三",
-      "company_name": "正達光電",
+      "company_name": "正達",
       "observed_stages": [
         "AUCTION_BID_END",
         "AUCTION_BID_START",
+        "FILING",
         "LISTING",
         "PRICING"
       ],
@@ -4199,14 +4255,13 @@
         "T_PLUS_19_EXIT_PROXY"
       ],
       "missing_stages": [
-        "FILING",
         "BOOKBUILDING_START",
         "BOOKBUILDING_END",
         "BOOKBUILDING_RESULT",
         "UNDERWRITING_NOTICE",
         "CBAS_ACTUAL"
       ],
-      "event_count": 10
+      "event_count": 11
     },
     {
       "issue_id": "issue_53a03a26b6cf76b9c082",
@@ -7818,6 +7873,32 @@
         "CBAS_ACTUAL"
       ],
       "event_count": 4
+    },
+    {
+      "issue_id": "issue_f7a91b95607811b8b8db",
+      "stock_code": "4541",
+      "cb_code": null,
+      "short_name": null,
+      "company_name": "晟田",
+      "observed_stages": [
+        "PAYMENT_BANK"
+      ],
+      "inferred_stages": [],
+      "missing_stages": [
+        "BOARD_RESOLUTION",
+        "FILING",
+        "EFFECTIVE",
+        "PRICING",
+        "AUCTION_BID_START",
+        "AUCTION_BID_END",
+        "BOOKBUILDING_START",
+        "BOOKBUILDING_END",
+        "BOOKBUILDING_RESULT",
+        "UNDERWRITING_NOTICE",
+        "LISTING",
+        "CBAS_ACTUAL"
+      ],
+      "event_count": 1
     },
     {
       "issue_id": "issue_1f6477052d145eac8832",

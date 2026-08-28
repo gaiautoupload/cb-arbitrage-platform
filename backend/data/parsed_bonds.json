@@ -7903,5 +7903,35 @@
     "maturity_date_minguo": "118年8月31日",
     "maturity_date": "2029-08-31",
     "issue_amount": "新台幣6.5億元整"
+  },
+  {
+    "file_id": "11500055631",
+    "company_name": "聯華電子股份有限公司",
+    "bond_name": "聯華電子股份有限公司國內第二次無擔保轉換公司債",
+    "cb_code": "23032",
+    "stock_code": "2303",
+    "short_name": "聯電二",
+    "announcement_date_minguo": "115年8月28日",
+    "announcement_date": "2026-08-28",
+    "issue_date_minguo": "115年9月3日",
+    "issue_date": "2026-09-03",
+    "maturity_date_minguo": "120年9月3日",
+    "maturity_date": "2031-09-03",
+    "issue_amount": "新臺幣40億元整"
+  },
+  {
+    "file_id": "11500055641",
+    "company_name": "中國砂輪企業股份有限公司",
+    "bond_name": "中國砂輪企業股份有限公司國內第二次無擔保轉換公司債",
+    "cb_code": "15602",
+    "stock_code": "1560",
+    "short_name": "中砂二",
+    "announcement_date_minguo": "115年8月28日",
+    "announcement_date": "2026-08-28",
+    "issue_date_minguo": "115年9月3日",
+    "issue_date": "2026-09-03",
+    "maturity_date_minguo": "118年9月3日",
+    "maturity_date": "2029-09-03",
+    "issue_amount": "新台幣10億元整"
   }
 ]
