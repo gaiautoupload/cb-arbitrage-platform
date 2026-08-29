@@ -6547,6 +6547,20 @@
     "parsed_at": "2026-08-28T20:40:18"
   },
   {
+    "date": "2026-08-28",
+    "time": "172152",
+    "stock_code": "6919",
+    "company_name": "康霈*",
+    "event_title": "本公司新藥CBL-514注射劑樞紐三期臨床試驗CBL-0301向美國\r\nFDA提出試驗變更案已通過FDA IND 30天審閱期。",
+    "event_type": "OTHER",
+    "stage": "N/A",
+    "wiki_details": {},
+    "sentiment": "NEUTRAL",
+    "summary": "CB 相關公告: 本公司新藥CBL-514注射劑樞紐三期臨床試驗CBL-0301向美國\r\nFDA提出試驗變更案已通過FDA IND 30天審閱期。",
+    "parser": "rule_v2",
+    "parsed_at": "2026-08-29T17:00:29"
+  },
+  {
     "date": "2026-02-12",
     "time": "140510",
     "stock_code": "3260",

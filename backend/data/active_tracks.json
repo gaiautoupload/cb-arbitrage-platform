@@ -74,7 +74,7 @@
       "ma_bull": false,
       "foreign_net_5d": -443.6,
       "trust_net_5d": 600.0,
-      "volume_ratio_5v20": 0.86,
+      "volume_ratio_5v20": 0.85,
       "chip_date": "2026-08-28"
     },
     "latest_news": [
@@ -238,7 +238,7 @@
       "ma_bull": false,
       "foreign_net_5d": -443.6,
       "trust_net_5d": 600.0,
-      "volume_ratio_5v20": 0.86,
+      "volume_ratio_5v20": 0.85,
       "chip_date": "2026-08-28"
     },
     "latest_news": [
@@ -402,16 +402,10 @@
       "ma_bull": false,
       "foreign_net_5d": 31387.7,
       "trust_net_5d": -6143.4,
-      "volume_ratio_5v20": 1.23,
+      "volume_ratio_5v20": 1.22,
       "chip_date": "2026-08-28"
     },
     "latest_news": [
-      {
-        "title": "聯電(2303) 個股概覽 | 個股 - 股市 - CMoney",
-        "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1WRTdEMGpRMzU1MmdaREF5RkZvOGdTd2dPQ3U1TGp6Y21RZGtGUG5kZi1VMWJ5RFlwZDBaUUxBMl9Wb0o0Ym9taDU5bzVjZzZvVWxR?oc=5",
-        "source": "CMoney",
-        "published_at": "2026-08-28T15:22:03+08:00"
-      },
       {
         "title": "聯電（2303）二度籌資！570億海外發債是利多還是警訊？｜股市話題｜豐雲學堂 2026 年 08 月 - sinotrade.com.tw",
         "url": "https://news.google.com/rss/articles/CBMilANBVV95cUxNNjV2c3QzMURleDFFd1BET1hyWWdxM0JiaXM1S1BCQ0VfOU9ZZzlrakFxMFVzUWQtTkFlWE96cWVSaXRaN1RXdFp2TWxFNjhYdURBMV9RSUhNSkNXVmNnejdIT2I3MDhVV2J2NExSZDRWblNINWtQbWdSS0FXQWs0NjNlTmpjUm9WWG9fSVNUS1h6bzhsX1RXLVJGQURTWDFJNzZ5SmZsMDFYeUdvNzhaN1lzbXNndTd4dXZOc3JxM1hoUGFHcTZ2NlhIOHFwVXhEMHRfV1pzdV9sejdDWFJjVDdKWDRLRkU5cnZuUHFuTmpnQjRPVE5qcENqNlhraENZNXpyNlAtZDJTdmg0bDQ1YTBPcW14VFBrVmxYTHh0djVQM2dGTWhJbUdwVDdQWU1hLWxmMk5lS0k0Tk9hMHB0RW4tbWRQVGpMRHB0eThuMmNCMHRVa3I2Rnc3RHdiaFdqNDlyLXlZMW9hNEtvZWdjTmdLVUZ0WWZ3RHhKdWZVSmxOWWVTOVVfSm5mOFFmTjZPT1dTag?oc=5",
@@ -419,10 +413,16 @@
         "published_at": "2026-08-27T15:24:09+08:00"
       },
       {
-        "title": "聯電(2303) 今日股價與討論 - 股市爆料同學會 - CMoney",
-        "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE96aW81YUJ2YzVINnlkSFlHQjdQN2NSbE5yRFZqelZoX2ZkcGEzdDB2ZW9oanlVbGhfM2c3Zms3UWFIT0w3M04zdzRENTVsdjQ?oc=5",
+        "title": "2303 聯電 - 聯電2303 | 2026/8/24盤前資訊分享- 股市爆料同學會 - CMoney",
+        "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9hTDVSZ0s4ODBvNVJQZmpBY0VlcEFGOV8wUDNaeVZERVUxSVhnYk1jOVJ0b05aQU9EMDlpM0FyUnFTSGRrN0hJYjk5aENfTzdXR25iU2FWVEw?oc=5",
         "source": "CMoney",
-        "published_at": "2026-08-24T15:00:00+08:00"
+        "published_at": "2026-08-24T07:18:12+08:00"
+      },
+      {
+        "title": "漲停後變臉！聯電上週遭外資大砍2.1萬張 今紅翻黑多空激戰 - TVBS新聞網",
+        "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFB3U3VSeVlfRV91anFZOG5FQ3l5WFI3SnNKTzZVSFgxQlgyd3hCd0RjXzNOZWxob05HYlRjc1hJMmFNNU5FRVFFRk9YSWxlQ28?oc=5",
+        "source": "TVBS新聞網",
+        "published_at": "2026-08-03T15:00:00+08:00"
       }
     ],
     "operation_signals": {
@@ -569,27 +569,27 @@
       "ma_bull": false,
       "foreign_net_5d": -250.8,
       "trust_net_5d": -306.0,
-      "volume_ratio_5v20": 0.98,
+      "volume_ratio_5v20": 0.96,
       "chip_date": "2026-08-28"
     },
     "latest_news": [
       {
-        "title": "【07/22處置股公告】雍智科技(6683) 07/22到08/04列入處置股，採分盤交易-CMoney 小編 - CMoney投資網誌",
-        "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNcXlLbUxtQXJzZDcwY29Oc012YWFDSjhHal9TNm9LNG5ZY0ZoMkh5YWp4ZEhqVHVjZmVIeXh0dW1rbElSOWFLaUZZSktjZ0YtWEJGYjk5MXNhc1FjQzdaWFZRckxlTTBJLWlfM210TlJDX1pPSlFia21qVmdaWUJYVE5QTW5SZ0hBUVE?oc=5",
-        "source": "CMoney投資網誌",
-        "published_at": "2026-07-22T15:00:00+08:00"
+        "title": "6683 雍智科技- 破 爛股- 股市爆料同學會 - CMoney",
+        "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5pOFVZNFpCWkw5SWZOWmQ0M1ZDc1h1Zkt6TFc5MGE0b3hHLTZTV2hvbGFTa3M0a0RWUjkyNTEyRS1YYmlHbzVaMk5yemQ3cG5kcWdvclA1M28?oc=5",
+        "source": "CMoney",
+        "published_at": "2026-08-26T13:06:55+08:00"
       },
       {
-        "title": "雍智科技Q3營收估回升 下半年看成長 - Yahoo股市",
-        "url": "https://news.google.com/rss/articles/CBMikwJBVV95cUxNRGdmRndmaC10SjZyZ1VCRm5MMHMwQ3FSM0h5QUVCYTlyTGVqbjc2c1hMZmpaS2R1YUVVV05DQmpxbS1NQnE0X2trNVdPV2ZKdVRoQ0toSDNtZkwzUDVvTFFZLWhwcFo3RU4yTE5MbVllbW9uV0s4MDlJSFBYUmNhcDJRZzJPY0MxcGpNUDNPeXRhcVdZTU94dm9JOUNUaEFHRTY4UlphU0lVTE9DdHVjbm1EOV8tQkJCQXp3MTdJaURNejQ3T0hROUg5cTVrMXRkeTVGY21VZDRmUEwzUVdDYmxDWXVvMG03TUlfYktmeGlfQjczd3NUc19CczRLT1N2SVpKODI3MXhTWVd0aUNmbmJVSQ?oc=5",
-        "source": "Yahoo股市",
-        "published_at": "2026-07-16T15:00:00+08:00"
+        "title": "雍智科技(6683) 今日股價與討論 - 股市爆料同學會 - CMoney",
+        "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1pd3RJLW1zQzdUR0JodlhpUGdVcDNqaDQxdG9faWFXMkx3SWx3V2RLbGhZQUZGeDVDem9nUFZMU3dmTGNJTTBGeU9mSUlzWmc?oc=5",
+        "source": "CMoney",
+        "published_at": "2026-08-23T15:00:00+08:00"
       },
       {
-        "title": "【06/29處置股公告】雍智科技(6683) 06/29到07/10列入處置股，約每5分鐘撮合一次-CMoney 小編 - CMoney投資網誌",
-        "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNMS1PQlplM0ZLVFNpcjQ3U1lMYjk2VEtxbXdvRU81c0FqTE9yZXBTMVNOc3c1cGVXYmJhb1NDOG55T21SWEtKMUZJcGdwVFlQOXdMRTI2R0l6TmlFMzNaR1hlNjRmcHJUU252LWtUUHhOV0dtdUZHTkU5aXotTTIxUkRYN1FXYnBlc2c?oc=5",
-        "source": "CMoney投資網誌",
-        "published_at": "2026-06-29T15:00:00+08:00"
+        "title": "6683 雍智科技 - 正港爛股 - 股市爆料同學會 - CMoney",
+        "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1GZkUwLWdLcFpMZzR5M21MZ3NPM1lic2VsaElFUzZGQmZoTjhOWG1oZzBDaWR2US1YV3R5R1B0RmE1a2RpUTZUOUhubXRxVmZVazRGc0dUZTU?oc=5",
+        "source": "CMoney",
+        "published_at": "2026-08-16T15:00:00+08:00"
       }
     ],
     "operation_signals": {
@@ -611,7 +611,7 @@
         "ma_bull": false,
         "momentum_20d_pct": 29.45,
         "distance_from_60d_high_pct": -37.83,
-        "volume_ratio_5v20": 0.99
+        "volume_ratio_5v20": 0.97
       },
       "top1": {
         "chip_date": "2026-08-28",
@@ -736,27 +736,27 @@
       "ma_bull": false,
       "foreign_net_5d": -250.8,
       "trust_net_5d": -306.0,
-      "volume_ratio_5v20": 0.98,
+      "volume_ratio_5v20": 0.96,
       "chip_date": "2026-08-28"
     },
     "latest_news": [
       {
-        "title": "【07/22處置股公告】雍智科技(6683) 07/22到08/04列入處置股，採分盤交易-CMoney 小編 - CMoney投資網誌",
-        "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNcXlLbUxtQXJzZDcwY29Oc012YWFDSjhHal9TNm9LNG5ZY0ZoMkh5YWp4ZEhqVHVjZmVIeXh0dW1rbElSOWFLaUZZSktjZ0YtWEJGYjk5MXNhc1FjQzdaWFZRckxlTTBJLWlfM210TlJDX1pPSlFia21qVmdaWUJYVE5QTW5SZ0hBUVE?oc=5",
-        "source": "CMoney投資網誌",
-        "published_at": "2026-07-22T15:00:00+08:00"
+        "title": "6683 雍智科技- 破 爛股- 股市爆料同學會 - CMoney",
+        "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5pOFVZNFpCWkw5SWZOWmQ0M1ZDc1h1Zkt6TFc5MGE0b3hHLTZTV2hvbGFTa3M0a0RWUjkyNTEyRS1YYmlHbzVaMk5yemQ3cG5kcWdvclA1M28?oc=5",
+        "source": "CMoney",
+        "published_at": "2026-08-26T13:06:55+08:00"
       },
       {
-        "title": "雍智科技Q3營收估回升 下半年看成長 - Yahoo股市",
-        "url": "https://news.google.com/rss/articles/CBMikwJBVV95cUxNRGdmRndmaC10SjZyZ1VCRm5MMHMwQ3FSM0h5QUVCYTlyTGVqbjc2c1hMZmpaS2R1YUVVV05DQmpxbS1NQnE0X2trNVdPV2ZKdVRoQ0toSDNtZkwzUDVvTFFZLWhwcFo3RU4yTE5MbVllbW9uV0s4MDlJSFBYUmNhcDJRZzJPY0MxcGpNUDNPeXRhcVdZTU94dm9JOUNUaEFHRTY4UlphU0lVTE9DdHVjbm1EOV8tQkJCQXp3MTdJaURNejQ3T0hROUg5cTVrMXRkeTVGY21VZDRmUEwzUVdDYmxDWXVvMG03TUlfYktmeGlfQjczd3NUc19CczRLT1N2SVpKODI3MXhTWVd0aUNmbmJVSQ?oc=5",
-        "source": "Yahoo股市",
-        "published_at": "2026-07-16T15:00:00+08:00"
+        "title": "雍智科技(6683) 今日股價與討論 - 股市爆料同學會 - CMoney",
+        "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1pd3RJLW1zQzdUR0JodlhpUGdVcDNqaDQxdG9faWFXMkx3SWx3V2RLbGhZQUZGeDVDem9nUFZMU3dmTGNJTTBGeU9mSUlzWmc?oc=5",
+        "source": "CMoney",
+        "published_at": "2026-08-23T15:00:00+08:00"
       },
       {
-        "title": "【06/29處置股公告】雍智科技(6683) 06/29到07/10列入處置股，約每5分鐘撮合一次-CMoney 小編 - CMoney投資網誌",
-        "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNMS1PQlplM0ZLVFNpcjQ3U1lMYjk2VEtxbXdvRU81c0FqTE9yZXBTMVNOc3c1cGVXYmJhb1NDOG55T21SWEtKMUZJcGdwVFlQOXdMRTI2R0l6TmlFMzNaR1hlNjRmcHJUU252LWtUUHhOV0dtdUZHTkU5aXotTTIxUkRYN1FXYnBlc2c?oc=5",
-        "source": "CMoney投資網誌",
-        "published_at": "2026-06-29T15:00:00+08:00"
+        "title": "6683 雍智科技 - 正港爛股 - 股市爆料同學會 - CMoney",
+        "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1GZkUwLWdLcFpMZzR5M21MZ3NPM1lic2VsaElFUzZGQmZoTjhOWG1oZzBDaWR2US1YV3R5R1B0RmE1a2RpUTZUOUhubXRxVmZVazRGc0dUZTU?oc=5",
+        "source": "CMoney",
+        "published_at": "2026-08-16T15:00:00+08:00"
       }
     ],
     "operation_signals": {
@@ -778,7 +778,7 @@
         "ma_bull": false,
         "momentum_20d_pct": 29.45,
         "distance_from_60d_high_pct": -37.83,
-        "volume_ratio_5v20": 0.99
+        "volume_ratio_5v20": 0.97
       },
       "top1": {
         "chip_date": "2026-08-28",
