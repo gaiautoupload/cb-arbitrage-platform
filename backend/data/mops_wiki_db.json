@@ -6561,6 +6561,20 @@
     "parsed_at": "2026-08-29T17:00:29"
   },
   {
+    "date": "2026-08-29",
+    "time": "24",
+    "stock_code": "4958",
+    "company_name": "臻鼎-KY",
+    "event_title": "代子公司PENG SHEN TECHNOLOGY (THAILAND) CO., LTD.公告取得機器設備",
+    "event_type": "OTHER",
+    "stage": "N/A",
+    "wiki_details": {},
+    "sentiment": "NEUTRAL",
+    "summary": "CB 相關公告: 代子公司PENG SHEN TECHNOLOGY (THAILAND) CO., LTD.公告取得機器設備",
+    "parser": "rule_v2",
+    "parsed_at": "2026-08-30T17:00:29"
+  },
+  {
     "date": "2026-02-12",
     "time": "140510",
     "stock_code": "3260",
