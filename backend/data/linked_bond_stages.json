@@ -16367,5 +16367,36 @@
         "summary": "可轉債正式掛牌交易"
       }
     }
+  },
+  {
+    "stock_code": "2464",
+    "company_name": "盟立自動化股份有限公司",
+    "short_name": "盟立三",
+    "stages": {
+      "BOARD_RESOLUTION": {
+        "date": "2026-08-27",
+        "title": "補充說明本公司115年6月16日公告\r\n發行國內第三次無擔保轉換公司債",
+        "sentiment": "NEUTRAL",
+        "summary": "董事會/股東會決議: 補充說明本公司115年6月16日公告\r\n發行國內第三次無擔保轉換公司債"
+      },
+      "EFFECTIVE": {
+        "date": "2026-08-03",
+        "title": "金管會申報生效發行無擔保轉換公司債",
+        "sentiment": "BULLISH",
+        "summary": "可轉債申報生效，正式進入定價與發行準備期"
+      },
+      "PRICING": {
+        "date": "2026-08-31",
+        "title": "公告「盟立三」發行及訂價等事宜 (櫃買公告)",
+        "sentiment": "NEUTRAL",
+        "summary": "櫃檯買賣中心公告發行資料"
+      },
+      "LISTING": {
+        "date": "2026-09-07",
+        "title": "「盟立三」掛牌買賣/發行日",
+        "sentiment": "BULLISH",
+        "summary": "可轉債正式掛牌交易"
+      }
+    }
   }
 ]

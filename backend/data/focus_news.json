@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-30T17:00:29+08:00",
+  "generated_at": "2026-08-31T17:00:27+08:00",
   "source": "Google News RSS",
   "request_policy": "focus watchlist only; one query per stock; retries with backoff; preserve prior cache on failure",
   "stocks": {
@@ -7,12 +7,6 @@
       "company_name": "雙鍵",
       "query_url": "https://news.google.com/rss/search?q=%22%E9%9B%99%E9%8D%B5%22%204764%20%E8%82%A1%E7%A5%A8&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
       "items": [
-        {
-          "title": "《股市行事曆3-2》振大(4441)除息、雙鍵(4764)除權 - 富聯網",
-          "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQT1R1YVlyUy1XYUFpZlZyNXBRU2VfZzYyRVp2Z3RGMTJnNFBNYlZfLVZqUUk5YzhTX3E5cVpGbjVlMlpRaUFJMy1HTDVYYzNfSkVaYjJyTkEzc0R5WFJ1R3dxOVhURFJxMEU3b3Ixc1ZVQjdia21jR0tORV9ERk9IbERlU0NLWHVx?oc=5",
-          "source": "富聯網",
-          "published_at": "2026-08-20T07:41:00+08:00"
-        },
         {
           "title": "《股市行事曆3-2》科際(4568)增資股上市、雙鍵(4764)除權 - 富聯網",
           "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPRXo2RW1zdHJCREhjY3JDazFPUkNMMWdra050OEVLd1hQSll0SDRIaE1PZTNwR3l6ZTE0NUdJTklXSEJQeFFfci03dWxpeVZtamZFSlU1Uko0WGs2aldINlM1d001UVA2U3RwTnVMUW9jVy0yUTBuRHFlOTN0QzJKY1ZQRjJzSHRU?oc=5",
@@ -32,12 +26,6 @@
           "published_at": "2026-06-24T15:00:00+08:00"
         },
         {
-          "title": "【11:53 即時新聞】雙鍵(4764)股價續強站上348.5元，AI帶動CCL電子樹脂需求＋技術多頭排列吸引主力加溫 - CMoney",
-          "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5TR1ZQYUxlZ05GbmxHWlh6TVRYaGVLaXhSd2VJNTRxRDk5TExfSDVVRFpPVDFsWEQ4YzBhN0JQRE5XRnJ0U2I2QWstY253eDZkaktkdktwc04yMnRlTHJvTWRzLTRyMmc?oc=5",
-          "source": "CMoney",
-          "published_at": "2026-06-23T11:53:31+08:00"
-        },
-        {
           "title": "【06/11 申報轉讓】雙鍵(4764)大股東王棟海將於06/14申報轉讓雙鍵股票500張-CMoney 小編 - CMoney投資網誌",
           "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPY2R3c1ZVUTZtbXB5eDFpOUxDb0dGbGk4MHN2YnVXaS04NDlfVko3SW85X2pPSUd3N3p1d2d4WWtXLVlpSW9IWTd0bm1mSHpydFh1aEZ4ZC1HNVRDVzA3UUpaTDgybDJmWTczNkZQaGVHRDN5SXdMZlVvVWhYSzNSeDJtdEtEVGxvdXc?oc=5",
           "source": "CMoney投資網誌",
@@ -48,6 +36,12 @@
           "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPRnpvbURkSjV3UXMzMEM1cVJQT1dGalk3STQ2d2E5cWlUWUpWX01VTEtPVVVIZ0k5dUhCSUJDMU9rT3ZSUF80anZ1TE9RY21XSkI3UWdTUVRYVndxdV94VG11M0RpbDZHRTJzNDZqdlRNbFdmRl9WN3NVb0ZydzBZanNJaURYeU9iRGc?oc=5",
           "source": "CMoney投資網誌",
           "published_at": "2026-06-11T15:00:00+08:00"
+        },
+        {
+          "title": "💥【跌深就是最大利多！4764 雙鍵 伺機發動報復性反彈】 - CMoney",
+          "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE13U0VudkFUc2N5S1I4WkdQZkFmVEtZal9XS01lMXZVaTdzb0w5T25YcnVpNFM0eXdiTnpPeGYzS2xvTUZObDdvdnRoNENfYkdYeUFYLXV0X1U?oc=5",
+          "source": "CMoney",
+          "published_at": "2026-06-03T15:00:00+08:00"
         },
         {
           "title": "【05/21 申報轉讓】雙鍵(4764)董事利用他人名義持有者佳德亞投資股份有限公司將於05/24申報轉讓雙鍵股票500張 - CMoney投資網誌",
@@ -66,6 +60,12 @@
           "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBpZktxX3U4ZGZld3pmeVNrckxkc3Bia0lrU2kzSzRfbm1CSHhRWktYb0xNeThaZDZfX2NXRUVBbHdKZWN0aVh1Y1ZvQWQzeHppX0FSTDZ5TEFHakpKbWdwRDhyUXZhYWs?oc=5",
           "source": "CMoney",
           "published_at": "2026-05-07T15:00:00+08:00"
+        },
+        {
+          "title": "【05/06 申報轉讓】雙鍵(4764)大股東利用他人名義持有者顥揚投資有限公司將於05/09申報轉讓雙鍵股票1,000張 - CMoney",
+          "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBLMEVicFB2aTVuRkVVaC15cDYtZVlkQ0N6TW1SakNGRVlDU3BQckFDSUtLVkJaYXNuX2luVHI2T1htRjhNb2ROWUVpd09zR0VodG8wU1VDLVR0SFk1Snc2azBSZWxBVHc?oc=5",
+          "source": "CMoney",
+          "published_at": "2026-05-06T15:00:00+08:00"
         }
       ],
       "stale_cache": false
@@ -79,6 +79,12 @@
           "url": "https://news.google.com/rss/articles/CBMilANBVV95cUxNNjV2c3QzMURleDFFd1BET1hyWWdxM0JiaXM1S1BCQ0VfOU9ZZzlrakFxMFVzUWQtTkFlWE96cWVSaXRaN1RXdFp2TWxFNjhYdURBMV9RSUhNSkNXVmNnejdIT2I3MDhVV2J2NExSZDRWblNINWtQbWdSS0FXQWs0NjNlTmpjUm9WWG9fSVNUS1h6bzhsX1RXLVJGQURTWDFJNzZ5SmZsMDFYeUdvNzhaN1lzbXNndTd4dXZOc3JxM1hoUGFHcTZ2NlhIOHFwVXhEMHRfV1pzdV9sejdDWFJjVDdKWDRLRkU5cnZuUHFuTmpnQjRPVE5qcENqNlhraENZNXpyNlAtZDJTdmg0bDQ1YTBPcW14VFBrVmxYTHh0djVQM2dGTWhJbUdwVDdQWU1hLWxmMk5lS0k0Tk9hMHB0RW4tbWRQVGpMRHB0eThuMmNCMHRVa3I2Rnc3RHdiaFdqNDlyLXlZMW9hNEtvZWdjTmdLVUZ0WWZ3RHhKdWZVSmxOWWVTOVVfSm5mOFFmTjZPT1dTag?oc=5",
           "source": "sinotrade.com.tw",
           "published_at": "2026-08-27T15:24:09+08:00"
+        },
+        {
+          "title": "2303 聯電 - 聯電2303 | 2026/8/24盤前資訊分享- 股市爆料同學會 - CMoney",
+          "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9hTDVSZ0s4ODBvNVJQZmpBY0VlcEFGOV8wUDNaeVZERVUxSVhnYk1jOVJ0b05aQU9EMDlpM0FyUnFTSGRrN0hJYjk5aENfTzdXR25iU2FWVEw?oc=5",
+          "source": "CMoney",
+          "published_at": "2026-08-24T07:18:12+08:00"
         },
         {
           "title": "漲停後變臉！聯電上週遭外資大砍2.1萬張 今紅翻黑多空激戰 - TVBS新聞網",
@@ -105,6 +111,12 @@
           "published_at": "2026-07-23T15:00:00+08:00"
         },
         {
+          "title": "2303 聯電 - 7/21(二) 投信 - 股市爆料同學會 - CMoney",
+          "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5Pcm1RVGVuckctcHFReXJIRVpNQlUtRnpPa0FUOFptMkZvWWU5RmtXdC1OTVAycHpiRGJKdEx4T2xnQ2llYW9FVzRGVXVLNXhhMFV5OUp6NDI?oc=5",
+          "source": "CMoney",
+          "published_at": "2026-07-20T15:00:00+08:00"
+        },
+        {
           "title": "2303 聯電 - 聯電 2303 | 2026/7/13 盤前資訊分享- 股市爆料同學會 - CMoney",
           "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBTR0EtNktVSDhaZ3BmNmtmRDNWZlBJN2hadW50Q2ZLbTZnRldIOXFCQlp0VXpDYWN1Qm1rYTFxYlU4ajR1cl85VW8xMEdva2l2WVZ0dVhrLWk?oc=5",
           "source": "CMoney",
@@ -121,18 +133,6 @@
           "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBnbEk4RGt1ZXBwNDYyTHJGdlJVYlpicFZLbGxibjRocUE2aWNLQnl1YXNhMFpfVEhudjhyWG9PNXZiYWpGRE1uZy1BYUE4Tnc?oc=5",
           "source": "TVBS新聞網",
           "published_at": "2026-07-09T15:00:00+08:00"
-        },
-        {
-          "title": "00888擁20％聯電（2303）黑馬！今年狂漲近1倍、年化配息破18％ 股添樂：制霸大方配息榜| 存股族愛ETF | 股市 - UDN",
-          "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBkMnl5WVBIeWpEWjk4bTJJODhNcXBYR25pbUZ3dGdaX1BZT0NVb3ptRE5uc2pZdGgwaU15TUwwbEp4U1JjYWw3LXp5RVJiUUF4NEhR?oc=5",
-          "source": "UDN",
-          "published_at": "2026-07-08T15:00:00+08:00"
-        },
-        {
-          "title": "2303 聯電 - 除息最後買進日- 股市爆料同學會 - CMoney",
-          "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBtSFRaLUJJaldSVXZVMkx0VEgxLWJXeEktS0U3U0xNT3VIZVI3WFFEcUxMUHlmWVFCeVloeUpna0RWRWtsRm5DQVUxMU5fWFR2T1VDZnctZXU?oc=5",
-          "source": "CMoney",
-          "published_at": "2026-07-07T15:00:00+08:00"
         }
       ],
       "stale_cache": false
@@ -178,6 +178,12 @@
           "published_at": "2026-06-26T19:08:43+08:00"
         },
         {
+          "title": "【11:16 即時新聞】雍智科技(6683)股價勁揚逾7%，AI高階測試題材帶動買盤迴流＋中長多頭結構轉強吸引資金卡位 - CMoney投資網誌",
+          "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQTUlzSjUtSUoycFRNS0Z0VUtLbmhxMUZXQVdhU01ueUhJQ0VkalBfUE56VHhheFNxZFpqZXpRaENpRkZnMklGdlJEMENMVERkYlhBb3g0QkVyaHZIYlVld0ZFc0pDNjRpVmluTXRYQ1NxMzh0bXZ0cm9JLW1MNzRsVlNrVGNtUzQyT19xSnd3?oc=5",
+          "source": "CMoney投資網誌",
+          "published_at": "2026-06-24T15:00:00+08:00"
+        },
+        {
           "title": "6683 雍智科技- 同學們- 股市爆料同學會 - CMoney",
           "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9kTW9NczR1X2NKQUg5MWtKNnBtVk9lam1qRkI2RER6UXBrVlk2Mmp4QTR5NnRkOGRQM3FMSFlaRnVJcEJHQncyRXBrTE9mVEhXa2RaRTRDTTI?oc=5",
           "source": "CMoney",
@@ -194,12 +200,6 @@
           "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9QRmFabURtWmJQWXRuUGdHNnBNbkUyTFdOX3JZN0FPTGd5QUtjMF9TWF9wUEFjckd5R0t6UHlXZFdKTTVxMVpJY3hhSVNLREUyVXA0RzhxSlk?oc=5",
           "source": "CMoney",
           "published_at": "2026-05-26T15:00:00+08:00"
-        },
-        {
-          "title": "6683 雍智科技- 沒救了-股市爆料同學會 - CMoney",
-          "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9DeDJGbW1XaTUxN2FSY2tMQW5CS0l3TF9KdHRJT1lxRkUtWk1yTVFWTEcwcXQ2elVXNUVDaGJ2TG5UREhGbmlmYy1VTDdiVFhfWW54aGNOVjc?oc=5",
-          "source": "CMoney",
-          "published_at": "2026-05-14T15:00:00+08:00"
         }
       ],
       "stale_cache": false

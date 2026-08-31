@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-30T17:15:01",
+  "generated_at": "2026-08-31T17:15:57",
   "source": "D:\\bond\\backend\\data\\cb_event_master.sqlite",
   "point_in_time_policy": "Features are calculated only from rows before the actual buy date; forward returns are labels.",
   "criteria": {
@@ -7,9 +7,711 @@
     "min_avg_return": 20,
     "max_rules": 3
   },
-  "sample_rows": 8420,
-  "matches_count": 8,
+  "sample_rows": 8451,
+  "matches_count": 48,
   "matches": [
+    {
+      "stage": "AUCTION_BID_START",
+      "entry_offset": -5,
+      "exit_offset": 20,
+      "rules": [
+        "momentum5_positive",
+        "momentum10_positive",
+        "foreign_positive"
+      ],
+      "n": 11,
+      "win_rate": 81.82,
+      "avg_return": 28.51,
+      "median_return": 35.83,
+      "worst_return": -17.95,
+      "best_return": 110.31,
+      "trade_keys": [
+        {
+          "stock_code": "8021",
+          "cb_code": null,
+          "event_date": "2026-01-05",
+          "entry_offset": -5,
+          "exit_offset": 20,
+          "buy_date": "2025-12-31",
+          "return_pct": 20.7895
+        },
+        {
+          "stock_code": "2467",
+          "cb_code": null,
+          "event_date": "2026-01-07",
+          "entry_offset": -5,
+          "exit_offset": 20,
+          "buy_date": "2026-01-02",
+          "return_pct": -12.2222
+        },
+        {
+          "stock_code": "6515",
+          "cb_code": "65151",
+          "event_date": "2026-01-21",
+          "entry_offset": -5,
+          "exit_offset": 20,
+          "buy_date": "2026-01-16",
+          "return_pct": 38.4724
+        },
+        {
+          "stock_code": "3324",
+          "cb_code": "33244",
+          "event_date": "2026-02-26",
+          "entry_offset": -5,
+          "exit_offset": 20,
+          "buy_date": "2026-02-23",
+          "return_pct": 1.4778
+        },
+        {
+          "stock_code": "3680",
+          "cb_code": "36803",
+          "event_date": "2026-05-06",
+          "entry_offset": -5,
+          "exit_offset": 20,
+          "buy_date": "2026-05-04",
+          "return_pct": 4.4326
+        },
+        {
+          "stock_code": "5464",
+          "cb_code": null,
+          "event_date": "2026-05-08",
+          "entry_offset": -5,
+          "exit_offset": 20,
+          "buy_date": "2026-05-04",
+          "return_pct": 110.3064
+        },
+        {
+          "stock_code": "4931",
+          "cb_code": null,
+          "event_date": "2026-05-14",
+          "entry_offset": -5,
+          "exit_offset": 20,
+          "buy_date": "2026-05-11",
+          "return_pct": 35.8289
+        },
+        {
+          "stock_code": "8096",
+          "cb_code": "80962",
+          "event_date": "2026-06-29",
+          "entry_offset": -5,
+          "exit_offset": 20,
+          "buy_date": "2026-06-24",
+          "return_pct": -17.9487
+        },
+        {
+          "stock_code": "3081",
+          "cb_code": "30811",
+          "event_date": "2026-07-28",
+          "entry_offset": -5,
+          "exit_offset": 20,
+          "buy_date": "2026-07-23",
+          "return_pct": 52.459
+        },
+        {
+          "stock_code": "3219",
+          "cb_code": null,
+          "event_date": "2026-08-10",
+          "entry_offset": -5,
+          "exit_offset": 20,
+          "buy_date": "2026-08-05",
+          "return_pct": 40.0
+        },
+        {
+          "stock_code": "3219",
+          "cb_code": "32191",
+          "event_date": "2026-08-10",
+          "entry_offset": -5,
+          "exit_offset": 20,
+          "buy_date": "2026-08-05",
+          "return_pct": 40.0
+        }
+      ]
+    },
+    {
+      "stage": "AUCTION_BID_START",
+      "entry_offset": -5,
+      "exit_offset": 20,
+      "rules": [
+        "momentum5_positive",
+        "momentum10_positive",
+        "trust_positive"
+      ],
+      "n": 11,
+      "win_rate": 81.82,
+      "avg_return": 28.51,
+      "median_return": 35.83,
+      "worst_return": -17.95,
+      "best_return": 110.31,
+      "trade_keys": [
+        {
+          "stock_code": "8021",
+          "cb_code": null,
+          "event_date": "2026-01-05",
+          "entry_offset": -5,
+          "exit_offset": 20,
+          "buy_date": "2025-12-31",
+          "return_pct": 20.7895
+        },
+        {
+          "stock_code": "2467",
+          "cb_code": null,
+          "event_date": "2026-01-07",
+          "entry_offset": -5,
+          "exit_offset": 20,
+          "buy_date": "2026-01-02",
+          "return_pct": -12.2222
+        },
+        {
+          "stock_code": "6515",
+          "cb_code": "65151",
+          "event_date": "2026-01-21",
+          "entry_offset": -5,
+          "exit_offset": 20,
+          "buy_date": "2026-01-16",
+          "return_pct": 38.4724
+        },
+        {
+          "stock_code": "3324",
+          "cb_code": "33244",
+          "event_date": "2026-02-26",
+          "entry_offset": -5,
+          "exit_offset": 20,
+          "buy_date": "2026-02-23",
+          "return_pct": 1.4778
+        },
+        {
+          "stock_code": "3680",
+          "cb_code": "36803",
+          "event_date": "2026-05-06",
+          "entry_offset": -5,
+          "exit_offset": 20,
+          "buy_date": "2026-05-04",
+          "return_pct": 4.4326
+        },
+        {
+          "stock_code": "5464",
+          "cb_code": null,
+          "event_date": "2026-05-08",
+          "entry_offset": -5,
+          "exit_offset": 20,
+          "buy_date": "2026-05-04",
+          "return_pct": 110.3064
+        },
+        {
+          "stock_code": "4931",
+          "cb_code": null,
+          "event_date": "2026-05-14",
+          "entry_offset": -5,
+          "exit_offset": 20,
+          "buy_date": "2026-05-11",
+          "return_pct": 35.8289
+        },
+        {
+          "stock_code": "8096",
+          "cb_code": "80962",
+          "event_date": "2026-06-29",
+          "entry_offset": -5,
+          "exit_offset": 20,
+          "buy_date": "2026-06-24",
+          "return_pct": -17.9487
+        },
+        {
+          "stock_code": "3081",
+          "cb_code": "30811",
+          "event_date": "2026-07-28",
+          "entry_offset": -5,
+          "exit_offset": 20,
+          "buy_date": "2026-07-23",
+          "return_pct": 52.459
+        },
+        {
+          "stock_code": "3219",
+          "cb_code": null,
+          "event_date": "2026-08-10",
+          "entry_offset": -5,
+          "exit_offset": 20,
+          "buy_date": "2026-08-05",
+          "return_pct": 40.0
+        },
+        {
+          "stock_code": "3219",
+          "cb_code": "32191",
+          "event_date": "2026-08-10",
+          "entry_offset": -5,
+          "exit_offset": 20,
+          "buy_date": "2026-08-05",
+          "return_pct": 40.0
+        }
+      ]
+    },
+    {
+      "stage": "AUCTION_BID_START",
+      "entry_offset": -5,
+      "exit_offset": 20,
+      "rules": [
+        "momentum5_positive",
+        "momentum10_positive",
+        "foreign_or_trust_positive"
+      ],
+      "n": 11,
+      "win_rate": 81.82,
+      "avg_return": 28.51,
+      "median_return": 35.83,
+      "worst_return": -17.95,
+      "best_return": 110.31,
+      "trade_keys": [
+        {
+          "stock_code": "8021",
+          "cb_code": null,
+          "event_date": "2026-01-05",
+          "entry_offset": -5,
+          "exit_offset": 20,
+          "buy_date": "2025-12-31",
+          "return_pct": 20.7895
+        },
+        {
+          "stock_code": "2467",
+          "cb_code": null,
+          "event_date": "2026-01-07",
+          "entry_offset": -5,
+          "exit_offset": 20,
+          "buy_date": "2026-01-02",
+          "return_pct": -12.2222
+        },
+        {
+          "stock_code": "6515",
+          "cb_code": "65151",
+          "event_date": "2026-01-21",
+          "entry_offset": -5,
+          "exit_offset": 20,
+          "buy_date": "2026-01-16",
+          "return_pct": 38.4724
+        },
+        {
+          "stock_code": "3324",
+          "cb_code": "33244",
+          "event_date": "2026-02-26",
+          "entry_offset": -5,
+          "exit_offset": 20,
+          "buy_date": "2026-02-23",
+          "return_pct": 1.4778
+        },
+        {
+          "stock_code": "3680",
+          "cb_code": "36803",
+          "event_date": "2026-05-06",
+          "entry_offset": -5,
+          "exit_offset": 20,
+          "buy_date": "2026-05-04",
+          "return_pct": 4.4326
+        },
+        {
+          "stock_code": "5464",
+          "cb_code": null,
+          "event_date": "2026-05-08",
+          "entry_offset": -5,
+          "exit_offset": 20,
+          "buy_date": "2026-05-04",
+          "return_pct": 110.3064
+        },
+        {
+          "stock_code": "4931",
+          "cb_code": null,
+          "event_date": "2026-05-14",
+          "entry_offset": -5,
+          "exit_offset": 20,
+          "buy_date": "2026-05-11",
+          "return_pct": 35.8289
+        },
+        {
+          "stock_code": "8096",
+          "cb_code": "80962",
+          "event_date": "2026-06-29",
+          "entry_offset": -5,
+          "exit_offset": 20,
+          "buy_date": "2026-06-24",
+          "return_pct": -17.9487
+        },
+        {
+          "stock_code": "3081",
+          "cb_code": "30811",
+          "event_date": "2026-07-28",
+          "entry_offset": -5,
+          "exit_offset": 20,
+          "buy_date": "2026-07-23",
+          "return_pct": 52.459
+        },
+        {
+          "stock_code": "3219",
+          "cb_code": null,
+          "event_date": "2026-08-10",
+          "entry_offset": -5,
+          "exit_offset": 20,
+          "buy_date": "2026-08-05",
+          "return_pct": 40.0
+        },
+        {
+          "stock_code": "3219",
+          "cb_code": "32191",
+          "event_date": "2026-08-10",
+          "entry_offset": -5,
+          "exit_offset": 20,
+          "buy_date": "2026-08-05",
+          "return_pct": 40.0
+        }
+      ]
+    },
+    {
+      "stage": "AUCTION_BID_START",
+      "entry_offset": -5,
+      "exit_offset": 19,
+      "rules": [
+        "momentum5_positive",
+        "momentum10_positive",
+        "foreign_positive"
+      ],
+      "n": 11,
+      "win_rate": 81.82,
+      "avg_return": 26.0,
+      "median_return": 23.53,
+      "worst_return": -17.95,
+      "best_return": 98.05,
+      "trade_keys": [
+        {
+          "stock_code": "8021",
+          "cb_code": null,
+          "event_date": "2026-01-05",
+          "entry_offset": -5,
+          "exit_offset": 19,
+          "buy_date": "2025-12-31",
+          "return_pct": 20.7895
+        },
+        {
+          "stock_code": "2467",
+          "cb_code": null,
+          "event_date": "2026-01-07",
+          "entry_offset": -5,
+          "exit_offset": 19,
+          "buy_date": "2026-01-02",
+          "return_pct": -13.3333
+        },
+        {
+          "stock_code": "6515",
+          "cb_code": "65151",
+          "event_date": "2026-01-21",
+          "entry_offset": -5,
+          "exit_offset": 19,
+          "buy_date": "2026-01-16",
+          "return_pct": 33.5219
+        },
+        {
+          "stock_code": "3324",
+          "cb_code": "33244",
+          "event_date": "2026-02-26",
+          "entry_offset": -5,
+          "exit_offset": 19,
+          "buy_date": "2026-02-23",
+          "return_pct": 3.4483
+        },
+        {
+          "stock_code": "3680",
+          "cb_code": "36803",
+          "event_date": "2026-05-06",
+          "entry_offset": -5,
+          "exit_offset": 19,
+          "buy_date": "2026-05-04",
+          "return_pct": 5.4965
+        },
+        {
+          "stock_code": "5464",
+          "cb_code": null,
+          "event_date": "2026-05-08",
+          "entry_offset": -5,
+          "exit_offset": 19,
+          "buy_date": "2026-05-04",
+          "return_pct": 98.0501
+        },
+        {
+          "stock_code": "4931",
+          "cb_code": null,
+          "event_date": "2026-05-14",
+          "entry_offset": -5,
+          "exit_offset": 19,
+          "buy_date": "2026-05-11",
+          "return_pct": 23.5294
+        },
+        {
+          "stock_code": "8096",
+          "cb_code": "80962",
+          "event_date": "2026-06-29",
+          "entry_offset": -5,
+          "exit_offset": 19,
+          "buy_date": "2026-06-24",
+          "return_pct": -17.9487
+        },
+        {
+          "stock_code": "3081",
+          "cb_code": "30811",
+          "event_date": "2026-07-28",
+          "entry_offset": -5,
+          "exit_offset": 19,
+          "buy_date": "2026-07-23",
+          "return_pct": 52.459
+        },
+        {
+          "stock_code": "3219",
+          "cb_code": null,
+          "event_date": "2026-08-10",
+          "entry_offset": -5,
+          "exit_offset": 19,
+          "buy_date": "2026-08-05",
+          "return_pct": 40.0
+        },
+        {
+          "stock_code": "3219",
+          "cb_code": "32191",
+          "event_date": "2026-08-10",
+          "entry_offset": -5,
+          "exit_offset": 19,
+          "buy_date": "2026-08-05",
+          "return_pct": 40.0
+        }
+      ]
+    },
+    {
+      "stage": "AUCTION_BID_START",
+      "entry_offset": -5,
+      "exit_offset": 19,
+      "rules": [
+        "momentum5_positive",
+        "momentum10_positive",
+        "trust_positive"
+      ],
+      "n": 11,
+      "win_rate": 81.82,
+      "avg_return": 26.0,
+      "median_return": 23.53,
+      "worst_return": -17.95,
+      "best_return": 98.05,
+      "trade_keys": [
+        {
+          "stock_code": "8021",
+          "cb_code": null,
+          "event_date": "2026-01-05",
+          "entry_offset": -5,
+          "exit_offset": 19,
+          "buy_date": "2025-12-31",
+          "return_pct": 20.7895
+        },
+        {
+          "stock_code": "2467",
+          "cb_code": null,
+          "event_date": "2026-01-07",
+          "entry_offset": -5,
+          "exit_offset": 19,
+          "buy_date": "2026-01-02",
+          "return_pct": -13.3333
+        },
+        {
+          "stock_code": "6515",
+          "cb_code": "65151",
+          "event_date": "2026-01-21",
+          "entry_offset": -5,
+          "exit_offset": 19,
+          "buy_date": "2026-01-16",
+          "return_pct": 33.5219
+        },
+        {
+          "stock_code": "3324",
+          "cb_code": "33244",
+          "event_date": "2026-02-26",
+          "entry_offset": -5,
+          "exit_offset": 19,
+          "buy_date": "2026-02-23",
+          "return_pct": 3.4483
+        },
+        {
+          "stock_code": "3680",
+          "cb_code": "36803",
+          "event_date": "2026-05-06",
+          "entry_offset": -5,
+          "exit_offset": 19,
+          "buy_date": "2026-05-04",
+          "return_pct": 5.4965
+        },
+        {
+          "stock_code": "5464",
+          "cb_code": null,
+          "event_date": "2026-05-08",
+          "entry_offset": -5,
+          "exit_offset": 19,
+          "buy_date": "2026-05-04",
+          "return_pct": 98.0501
+        },
+        {
+          "stock_code": "4931",
+          "cb_code": null,
+          "event_date": "2026-05-14",
+          "entry_offset": -5,
+          "exit_offset": 19,
+          "buy_date": "2026-05-11",
+          "return_pct": 23.5294
+        },
+        {
+          "stock_code": "8096",
+          "cb_code": "80962",
+          "event_date": "2026-06-29",
+          "entry_offset": -5,
+          "exit_offset": 19,
+          "buy_date": "2026-06-24",
+          "return_pct": -17.9487
+        },
+        {
+          "stock_code": "3081",
+          "cb_code": "30811",
+          "event_date": "2026-07-28",
+          "entry_offset": -5,
+          "exit_offset": 19,
+          "buy_date": "2026-07-23",
+          "return_pct": 52.459
+        },
+        {
+          "stock_code": "3219",
+          "cb_code": null,
+          "event_date": "2026-08-10",
+          "entry_offset": -5,
+          "exit_offset": 19,
+          "buy_date": "2026-08-05",
+          "return_pct": 40.0
+        },
+        {
+          "stock_code": "3219",
+          "cb_code": "32191",
+          "event_date": "2026-08-10",
+          "entry_offset": -5,
+          "exit_offset": 19,
+          "buy_date": "2026-08-05",
+          "return_pct": 40.0
+        }
+      ]
+    },
+    {
+      "stage": "AUCTION_BID_START",
+      "entry_offset": -5,
+      "exit_offset": 19,
+      "rules": [
+        "momentum5_positive",
+        "momentum10_positive",
+        "foreign_or_trust_positive"
+      ],
+      "n": 11,
+      "win_rate": 81.82,
+      "avg_return": 26.0,
+      "median_return": 23.53,
+      "worst_return": -17.95,
+      "best_return": 98.05,
+      "trade_keys": [
+        {
+          "stock_code": "8021",
+          "cb_code": null,
+          "event_date": "2026-01-05",
+          "entry_offset": -5,
+          "exit_offset": 19,
+          "buy_date": "2025-12-31",
+          "return_pct": 20.7895
+        },
+        {
+          "stock_code": "2467",
+          "cb_code": null,
+          "event_date": "2026-01-07",
+          "entry_offset": -5,
+          "exit_offset": 19,
+          "buy_date": "2026-01-02",
+          "return_pct": -13.3333
+        },
+        {
+          "stock_code": "6515",
+          "cb_code": "65151",
+          "event_date": "2026-01-21",
+          "entry_offset": -5,
+          "exit_offset": 19,
+          "buy_date": "2026-01-16",
+          "return_pct": 33.5219
+        },
+        {
+          "stock_code": "3324",
+          "cb_code": "33244",
+          "event_date": "2026-02-26",
+          "entry_offset": -5,
+          "exit_offset": 19,
+          "buy_date": "2026-02-23",
+          "return_pct": 3.4483
+        },
+        {
+          "stock_code": "3680",
+          "cb_code": "36803",
+          "event_date": "2026-05-06",
+          "entry_offset": -5,
+          "exit_offset": 19,
+          "buy_date": "2026-05-04",
+          "return_pct": 5.4965
+        },
+        {
+          "stock_code": "5464",
+          "cb_code": null,
+          "event_date": "2026-05-08",
+          "entry_offset": -5,
+          "exit_offset": 19,
+          "buy_date": "2026-05-04",
+          "return_pct": 98.0501
+        },
+        {
+          "stock_code": "4931",
+          "cb_code": null,
+          "event_date": "2026-05-14",
+          "entry_offset": -5,
+          "exit_offset": 19,
+          "buy_date": "2026-05-11",
+          "return_pct": 23.5294
+        },
+        {
+          "stock_code": "8096",
+          "cb_code": "80962",
+          "event_date": "2026-06-29",
+          "entry_offset": -5,
+          "exit_offset": 19,
+          "buy_date": "2026-06-24",
+          "return_pct": -17.9487
+        },
+        {
+          "stock_code": "3081",
+          "cb_code": "30811",
+          "event_date": "2026-07-28",
+          "entry_offset": -5,
+          "exit_offset": 19,
+          "buy_date": "2026-07-23",
+          "return_pct": 52.459
+        },
+        {
+          "stock_code": "3219",
+          "cb_code": null,
+          "event_date": "2026-08-10",
+          "entry_offset": -5,
+          "exit_offset": 19,
+          "buy_date": "2026-08-05",
+          "return_pct": 40.0
+        },
+        {
+          "stock_code": "3219",
+          "cb_code": "32191",
+          "event_date": "2026-08-10",
+          "entry_offset": -5,
+          "exit_offset": 19,
+          "buy_date": "2026-08-05",
+          "return_pct": 40.0
+        }
+      ]
+    },
     {
       "stage": "AUCTION_BID_START",
       "entry_offset": -5,
@@ -18,10 +720,10 @@
         "momentum5_positive",
         "foreign_positive"
       ],
-      "n": 11,
-      "win_rate": 81.82,
-      "avg_return": 21.91,
-      "median_return": 4.43,
+      "n": 13,
+      "win_rate": 84.62,
+      "avg_return": 24.69,
+      "median_return": 20.79,
       "worst_return": -17.95,
       "best_return": 110.31,
       "trade_keys": [
@@ -123,6 +825,24 @@
           "exit_offset": 20,
           "buy_date": "2026-07-24",
           "return_pct": 3.5714
+        },
+        {
+          "stock_code": "3219",
+          "cb_code": null,
+          "event_date": "2026-08-10",
+          "entry_offset": -5,
+          "exit_offset": 20,
+          "buy_date": "2026-08-05",
+          "return_pct": 40.0
+        },
+        {
+          "stock_code": "3219",
+          "cb_code": "32191",
+          "event_date": "2026-08-10",
+          "entry_offset": -5,
+          "exit_offset": 20,
+          "buy_date": "2026-08-05",
+          "return_pct": 40.0
         }
       ]
     },
@@ -135,10 +855,10 @@
         "volume_not_crowded",
         "foreign_positive"
       ],
-      "n": 11,
-      "win_rate": 81.82,
-      "avg_return": 21.91,
-      "median_return": 4.43,
+      "n": 13,
+      "win_rate": 84.62,
+      "avg_return": 24.69,
+      "median_return": 20.79,
       "worst_return": -17.95,
       "best_return": 110.31,
       "trade_keys": [
@@ -240,6 +960,24 @@
           "exit_offset": 20,
           "buy_date": "2026-07-24",
           "return_pct": 3.5714
+        },
+        {
+          "stock_code": "3219",
+          "cb_code": null,
+          "event_date": "2026-08-10",
+          "entry_offset": -5,
+          "exit_offset": 20,
+          "buy_date": "2026-08-05",
+          "return_pct": 40.0
+        },
+        {
+          "stock_code": "3219",
+          "cb_code": "32191",
+          "event_date": "2026-08-10",
+          "entry_offset": -5,
+          "exit_offset": 20,
+          "buy_date": "2026-08-05",
+          "return_pct": 40.0
         }
       ]
     },
@@ -252,10 +990,10 @@
         "foreign_positive",
         "trust_positive"
       ],
-      "n": 11,
-      "win_rate": 81.82,
-      "avg_return": 21.91,
-      "median_return": 4.43,
+      "n": 13,
+      "win_rate": 84.62,
+      "avg_return": 24.69,
+      "median_return": 20.79,
       "worst_return": -17.95,
       "best_return": 110.31,
       "trade_keys": [
@@ -357,6 +1095,24 @@
           "exit_offset": 20,
           "buy_date": "2026-07-24",
           "return_pct": 3.5714
+        },
+        {
+          "stock_code": "3219",
+          "cb_code": null,
+          "event_date": "2026-08-10",
+          "entry_offset": -5,
+          "exit_offset": 20,
+          "buy_date": "2026-08-05",
+          "return_pct": 40.0
+        },
+        {
+          "stock_code": "3219",
+          "cb_code": "32191",
+          "event_date": "2026-08-10",
+          "entry_offset": -5,
+          "exit_offset": 20,
+          "buy_date": "2026-08-05",
+          "return_pct": 40.0
         }
       ]
     },
@@ -369,10 +1125,10 @@
         "foreign_positive",
         "foreign_or_trust_positive"
       ],
-      "n": 11,
-      "win_rate": 81.82,
-      "avg_return": 21.91,
-      "median_return": 4.43,
+      "n": 13,
+      "win_rate": 84.62,
+      "avg_return": 24.69,
+      "median_return": 20.79,
       "worst_return": -17.95,
       "best_return": 110.31,
       "trade_keys": [
@@ -474,6 +1230,24 @@
           "exit_offset": 20,
           "buy_date": "2026-07-24",
           "return_pct": 3.5714
+        },
+        {
+          "stock_code": "3219",
+          "cb_code": null,
+          "event_date": "2026-08-10",
+          "entry_offset": -5,
+          "exit_offset": 20,
+          "buy_date": "2026-08-05",
+          "return_pct": 40.0
+        },
+        {
+          "stock_code": "3219",
+          "cb_code": "32191",
+          "event_date": "2026-08-10",
+          "entry_offset": -5,
+          "exit_offset": 20,
+          "buy_date": "2026-08-05",
+          "return_pct": 40.0
         }
       ]
     },
@@ -486,10 +1260,10 @@
         "foreign_positive",
         "trust_positive"
       ],
-      "n": 11,
-      "win_rate": 72.73,
-      "avg_return": 21.52,
-      "median_return": 11.47,
+      "n": 13,
+      "win_rate": 76.92,
+      "avg_return": 24.36,
+      "median_return": 20.79,
       "worst_return": -17.95,
       "best_return": 110.31,
       "trade_keys": [
@@ -591,6 +1365,2332 @@
           "exit_offset": 20,
           "buy_date": "2026-07-23",
           "return_pct": 52.459
+        },
+        {
+          "stock_code": "3219",
+          "cb_code": null,
+          "event_date": "2026-08-10",
+          "entry_offset": -5,
+          "exit_offset": 20,
+          "buy_date": "2026-08-05",
+          "return_pct": 40.0
+        },
+        {
+          "stock_code": "3219",
+          "cb_code": "32191",
+          "event_date": "2026-08-10",
+          "entry_offset": -5,
+          "exit_offset": 20,
+          "buy_date": "2026-08-05",
+          "return_pct": 40.0
+        }
+      ]
+    },
+    {
+      "stage": "AUCTION_BID_START",
+      "entry_offset": -5,
+      "exit_offset": 19,
+      "rules": [
+        "momentum5_positive",
+        "foreign_positive"
+      ],
+      "n": 13,
+      "win_rate": 84.62,
+      "avg_return": 22.62,
+      "median_return": 20.79,
+      "worst_return": -17.95,
+      "best_return": 98.05,
+      "trade_keys": [
+        {
+          "stock_code": "8021",
+          "cb_code": null,
+          "event_date": "2026-01-05",
+          "entry_offset": -5,
+          "exit_offset": 19,
+          "buy_date": "2025-12-31",
+          "return_pct": 20.7895
+        },
+        {
+          "stock_code": "2467",
+          "cb_code": null,
+          "event_date": "2026-01-07",
+          "entry_offset": -5,
+          "exit_offset": 19,
+          "buy_date": "2026-01-02",
+          "return_pct": -13.3333
+        },
+        {
+          "stock_code": "6515",
+          "cb_code": "65151",
+          "event_date": "2026-01-21",
+          "entry_offset": -5,
+          "exit_offset": 19,
+          "buy_date": "2026-01-16",
+          "return_pct": 33.5219
+        },
+        {
+          "stock_code": "3324",
+          "cb_code": "33244",
+          "event_date": "2026-02-26",
+          "entry_offset": -5,
+          "exit_offset": 19,
+          "buy_date": "2026-02-23",
+          "return_pct": 3.4483
+        },
+        {
+          "stock_code": "4714",
+          "cb_code": "47146",
+          "event_date": "2026-04-16",
+          "entry_offset": -5,
+          "exit_offset": 19,
+          "buy_date": "2026-04-13",
+          "return_pct": 5.5944
+        },
+        {
+          "stock_code": "3680",
+          "cb_code": "36803",
+          "event_date": "2026-05-06",
+          "entry_offset": -5,
+          "exit_offset": 19,
+          "buy_date": "2026-05-04",
+          "return_pct": 5.4965
+        },
+        {
+          "stock_code": "5464",
+          "cb_code": null,
+          "event_date": "2026-05-08",
+          "entry_offset": -5,
+          "exit_offset": 19,
+          "buy_date": "2026-05-04",
+          "return_pct": 98.0501
+        },
+        {
+          "stock_code": "4931",
+          "cb_code": null,
+          "event_date": "2026-05-14",
+          "entry_offset": -5,
+          "exit_offset": 19,
+          "buy_date": "2026-05-11",
+          "return_pct": 23.5294
+        },
+        {
+          "stock_code": "8096",
+          "cb_code": "80962",
+          "event_date": "2026-06-29",
+          "entry_offset": -5,
+          "exit_offset": 19,
+          "buy_date": "2026-06-24",
+          "return_pct": -17.9487
+        },
+        {
+          "stock_code": "3081",
+          "cb_code": "30811",
+          "event_date": "2026-07-28",
+          "entry_offset": -5,
+          "exit_offset": 19,
+          "buy_date": "2026-07-23",
+          "return_pct": 52.459
+        },
+        {
+          "stock_code": "8155",
+          "cb_code": "81552",
+          "event_date": "2026-07-29",
+          "entry_offset": -5,
+          "exit_offset": 19,
+          "buy_date": "2026-07-24",
+          "return_pct": 2.4351
+        },
+        {
+          "stock_code": "3219",
+          "cb_code": null,
+          "event_date": "2026-08-10",
+          "entry_offset": -5,
+          "exit_offset": 19,
+          "buy_date": "2026-08-05",
+          "return_pct": 40.0
+        },
+        {
+          "stock_code": "3219",
+          "cb_code": "32191",
+          "event_date": "2026-08-10",
+          "entry_offset": -5,
+          "exit_offset": 19,
+          "buy_date": "2026-08-05",
+          "return_pct": 40.0
+        }
+      ]
+    },
+    {
+      "stage": "AUCTION_BID_START",
+      "entry_offset": -5,
+      "exit_offset": 19,
+      "rules": [
+        "momentum5_positive",
+        "volume_not_crowded",
+        "foreign_positive"
+      ],
+      "n": 13,
+      "win_rate": 84.62,
+      "avg_return": 22.62,
+      "median_return": 20.79,
+      "worst_return": -17.95,
+      "best_return": 98.05,
+      "trade_keys": [
+        {
+          "stock_code": "8021",
+          "cb_code": null,
+          "event_date": "2026-01-05",
+          "entry_offset": -5,
+          "exit_offset": 19,
+          "buy_date": "2025-12-31",
+          "return_pct": 20.7895
+        },
+        {
+          "stock_code": "2467",
+          "cb_code": null,
+          "event_date": "2026-01-07",
+          "entry_offset": -5,
+          "exit_offset": 19,
+          "buy_date": "2026-01-02",
+          "return_pct": -13.3333
+        },
+        {
+          "stock_code": "6515",
+          "cb_code": "65151",
+          "event_date": "2026-01-21",
+          "entry_offset": -5,
+          "exit_offset": 19,
+          "buy_date": "2026-01-16",
+          "return_pct": 33.5219
+        },
+        {
+          "stock_code": "3324",
+          "cb_code": "33244",
+          "event_date": "2026-02-26",
+          "entry_offset": -5,
+          "exit_offset": 19,
+          "buy_date": "2026-02-23",
+          "return_pct": 3.4483
+        },
+        {
+          "stock_code": "4714",
+          "cb_code": "47146",
+          "event_date": "2026-04-16",
+          "entry_offset": -5,
+          "exit_offset": 19,
+          "buy_date": "2026-04-13",
+          "return_pct": 5.5944
+        },
+        {
+          "stock_code": "3680",
+          "cb_code": "36803",
+          "event_date": "2026-05-06",
+          "entry_offset": -5,
+          "exit_offset": 19,
+          "buy_date": "2026-05-04",
+          "return_pct": 5.4965
+        },
+        {
+          "stock_code": "5464",
+          "cb_code": null,
+          "event_date": "2026-05-08",
+          "entry_offset": -5,
+          "exit_offset": 19,
+          "buy_date": "2026-05-04",
+          "return_pct": 98.0501
+        },
+        {
+          "stock_code": "4931",
+          "cb_code": null,
+          "event_date": "2026-05-14",
+          "entry_offset": -5,
+          "exit_offset": 19,
+          "buy_date": "2026-05-11",
+          "return_pct": 23.5294
+        },
+        {
+          "stock_code": "8096",
+          "cb_code": "80962",
+          "event_date": "2026-06-29",
+          "entry_offset": -5,
+          "exit_offset": 19,
+          "buy_date": "2026-06-24",
+          "return_pct": -17.9487
+        },
+        {
+          "stock_code": "3081",
+          "cb_code": "30811",
+          "event_date": "2026-07-28",
+          "entry_offset": -5,
+          "exit_offset": 19,
+          "buy_date": "2026-07-23",
+          "return_pct": 52.459
+        },
+        {
+          "stock_code": "8155",
+          "cb_code": "81552",
+          "event_date": "2026-07-29",
+          "entry_offset": -5,
+          "exit_offset": 19,
+          "buy_date": "2026-07-24",
+          "return_pct": 2.4351
+        },
+        {
+          "stock_code": "3219",
+          "cb_code": null,
+          "event_date": "2026-08-10",
+          "entry_offset": -5,
+          "exit_offset": 19,
+          "buy_date": "2026-08-05",
+          "return_pct": 40.0
+        },
+        {
+          "stock_code": "3219",
+          "cb_code": "32191",
+          "event_date": "2026-08-10",
+          "entry_offset": -5,
+          "exit_offset": 19,
+          "buy_date": "2026-08-05",
+          "return_pct": 40.0
+        }
+      ]
+    },
+    {
+      "stage": "AUCTION_BID_START",
+      "entry_offset": -5,
+      "exit_offset": 19,
+      "rules": [
+        "momentum5_positive",
+        "foreign_positive",
+        "trust_positive"
+      ],
+      "n": 13,
+      "win_rate": 84.62,
+      "avg_return": 22.62,
+      "median_return": 20.79,
+      "worst_return": -17.95,
+      "best_return": 98.05,
+      "trade_keys": [
+        {
+          "stock_code": "8021",
+          "cb_code": null,
+          "event_date": "2026-01-05",
+          "entry_offset": -5,
+          "exit_offset": 19,
+          "buy_date": "2025-12-31",
+          "return_pct": 20.7895
+        },
+        {
+          "stock_code": "2467",
+          "cb_code": null,
+          "event_date": "2026-01-07",
+          "entry_offset": -5,
+          "exit_offset": 19,
+          "buy_date": "2026-01-02",
+          "return_pct": -13.3333
+        },
+        {
+          "stock_code": "6515",
+          "cb_code": "65151",
+          "event_date": "2026-01-21",
+          "entry_offset": -5,
+          "exit_offset": 19,
+          "buy_date": "2026-01-16",
+          "return_pct": 33.5219
+        },
+        {
+          "stock_code": "3324",
+          "cb_code": "33244",
+          "event_date": "2026-02-26",
+          "entry_offset": -5,
+          "exit_offset": 19,
+          "buy_date": "2026-02-23",
+          "return_pct": 3.4483
+        },
+        {
+          "stock_code": "4714",
+          "cb_code": "47146",
+          "event_date": "2026-04-16",
+          "entry_offset": -5,
+          "exit_offset": 19,
+          "buy_date": "2026-04-13",
+          "return_pct": 5.5944
+        },
+        {
+          "stock_code": "3680",
+          "cb_code": "36803",
+          "event_date": "2026-05-06",
+          "entry_offset": -5,
+          "exit_offset": 19,
+          "buy_date": "2026-05-04",
+          "return_pct": 5.4965
+        },
+        {
+          "stock_code": "5464",
+          "cb_code": null,
+          "event_date": "2026-05-08",
+          "entry_offset": -5,
+          "exit_offset": 19,
+          "buy_date": "2026-05-04",
+          "return_pct": 98.0501
+        },
+        {
+          "stock_code": "4931",
+          "cb_code": null,
+          "event_date": "2026-05-14",
+          "entry_offset": -5,
+          "exit_offset": 19,
+          "buy_date": "2026-05-11",
+          "return_pct": 23.5294
+        },
+        {
+          "stock_code": "8096",
+          "cb_code": "80962",
+          "event_date": "2026-06-29",
+          "entry_offset": -5,
+          "exit_offset": 19,
+          "buy_date": "2026-06-24",
+          "return_pct": -17.9487
+        },
+        {
+          "stock_code": "3081",
+          "cb_code": "30811",
+          "event_date": "2026-07-28",
+          "entry_offset": -5,
+          "exit_offset": 19,
+          "buy_date": "2026-07-23",
+          "return_pct": 52.459
+        },
+        {
+          "stock_code": "8155",
+          "cb_code": "81552",
+          "event_date": "2026-07-29",
+          "entry_offset": -5,
+          "exit_offset": 19,
+          "buy_date": "2026-07-24",
+          "return_pct": 2.4351
+        },
+        {
+          "stock_code": "3219",
+          "cb_code": null,
+          "event_date": "2026-08-10",
+          "entry_offset": -5,
+          "exit_offset": 19,
+          "buy_date": "2026-08-05",
+          "return_pct": 40.0
+        },
+        {
+          "stock_code": "3219",
+          "cb_code": "32191",
+          "event_date": "2026-08-10",
+          "entry_offset": -5,
+          "exit_offset": 19,
+          "buy_date": "2026-08-05",
+          "return_pct": 40.0
+        }
+      ]
+    },
+    {
+      "stage": "AUCTION_BID_START",
+      "entry_offset": -5,
+      "exit_offset": 19,
+      "rules": [
+        "momentum5_positive",
+        "foreign_positive",
+        "foreign_or_trust_positive"
+      ],
+      "n": 13,
+      "win_rate": 84.62,
+      "avg_return": 22.62,
+      "median_return": 20.79,
+      "worst_return": -17.95,
+      "best_return": 98.05,
+      "trade_keys": [
+        {
+          "stock_code": "8021",
+          "cb_code": null,
+          "event_date": "2026-01-05",
+          "entry_offset": -5,
+          "exit_offset": 19,
+          "buy_date": "2025-12-31",
+          "return_pct": 20.7895
+        },
+        {
+          "stock_code": "2467",
+          "cb_code": null,
+          "event_date": "2026-01-07",
+          "entry_offset": -5,
+          "exit_offset": 19,
+          "buy_date": "2026-01-02",
+          "return_pct": -13.3333
+        },
+        {
+          "stock_code": "6515",
+          "cb_code": "65151",
+          "event_date": "2026-01-21",
+          "entry_offset": -5,
+          "exit_offset": 19,
+          "buy_date": "2026-01-16",
+          "return_pct": 33.5219
+        },
+        {
+          "stock_code": "3324",
+          "cb_code": "33244",
+          "event_date": "2026-02-26",
+          "entry_offset": -5,
+          "exit_offset": 19,
+          "buy_date": "2026-02-23",
+          "return_pct": 3.4483
+        },
+        {
+          "stock_code": "4714",
+          "cb_code": "47146",
+          "event_date": "2026-04-16",
+          "entry_offset": -5,
+          "exit_offset": 19,
+          "buy_date": "2026-04-13",
+          "return_pct": 5.5944
+        },
+        {
+          "stock_code": "3680",
+          "cb_code": "36803",
+          "event_date": "2026-05-06",
+          "entry_offset": -5,
+          "exit_offset": 19,
+          "buy_date": "2026-05-04",
+          "return_pct": 5.4965
+        },
+        {
+          "stock_code": "5464",
+          "cb_code": null,
+          "event_date": "2026-05-08",
+          "entry_offset": -5,
+          "exit_offset": 19,
+          "buy_date": "2026-05-04",
+          "return_pct": 98.0501
+        },
+        {
+          "stock_code": "4931",
+          "cb_code": null,
+          "event_date": "2026-05-14",
+          "entry_offset": -5,
+          "exit_offset": 19,
+          "buy_date": "2026-05-11",
+          "return_pct": 23.5294
+        },
+        {
+          "stock_code": "8096",
+          "cb_code": "80962",
+          "event_date": "2026-06-29",
+          "entry_offset": -5,
+          "exit_offset": 19,
+          "buy_date": "2026-06-24",
+          "return_pct": -17.9487
+        },
+        {
+          "stock_code": "3081",
+          "cb_code": "30811",
+          "event_date": "2026-07-28",
+          "entry_offset": -5,
+          "exit_offset": 19,
+          "buy_date": "2026-07-23",
+          "return_pct": 52.459
+        },
+        {
+          "stock_code": "8155",
+          "cb_code": "81552",
+          "event_date": "2026-07-29",
+          "entry_offset": -5,
+          "exit_offset": 19,
+          "buy_date": "2026-07-24",
+          "return_pct": 2.4351
+        },
+        {
+          "stock_code": "3219",
+          "cb_code": null,
+          "event_date": "2026-08-10",
+          "entry_offset": -5,
+          "exit_offset": 19,
+          "buy_date": "2026-08-05",
+          "return_pct": 40.0
+        },
+        {
+          "stock_code": "3219",
+          "cb_code": "32191",
+          "event_date": "2026-08-10",
+          "entry_offset": -5,
+          "exit_offset": 19,
+          "buy_date": "2026-08-05",
+          "return_pct": 40.0
+        }
+      ]
+    },
+    {
+      "stage": "AUCTION_BID_START",
+      "entry_offset": -5,
+      "exit_offset": 20,
+      "rules": [
+        "momentum5_positive",
+        "trust_positive"
+      ],
+      "n": 14,
+      "win_rate": 78.57,
+      "avg_return": 22.58,
+      "median_return": 20.79,
+      "worst_return": -17.95,
+      "best_return": 110.31,
+      "trade_keys": [
+        {
+          "stock_code": "8021",
+          "cb_code": null,
+          "event_date": "2026-01-05",
+          "entry_offset": -5,
+          "exit_offset": 20,
+          "buy_date": "2025-12-31",
+          "return_pct": 20.7895
+        },
+        {
+          "stock_code": "2467",
+          "cb_code": null,
+          "event_date": "2026-01-07",
+          "entry_offset": -5,
+          "exit_offset": 20,
+          "buy_date": "2026-01-02",
+          "return_pct": -12.2222
+        },
+        {
+          "stock_code": "8210",
+          "cb_code": "82101",
+          "event_date": "2026-01-19",
+          "entry_offset": -5,
+          "exit_offset": 20,
+          "buy_date": "2026-01-14",
+          "return_pct": -4.903
+        },
+        {
+          "stock_code": "6515",
+          "cb_code": "65151",
+          "event_date": "2026-01-21",
+          "entry_offset": -5,
+          "exit_offset": 20,
+          "buy_date": "2026-01-16",
+          "return_pct": 38.4724
+        },
+        {
+          "stock_code": "3324",
+          "cb_code": "33244",
+          "event_date": "2026-02-26",
+          "entry_offset": -5,
+          "exit_offset": 20,
+          "buy_date": "2026-02-23",
+          "return_pct": 1.4778
+        },
+        {
+          "stock_code": "4714",
+          "cb_code": "47146",
+          "event_date": "2026-04-16",
+          "entry_offset": -5,
+          "exit_offset": 20,
+          "buy_date": "2026-04-13",
+          "return_pct": 3.8462
+        },
+        {
+          "stock_code": "3680",
+          "cb_code": "36803",
+          "event_date": "2026-05-06",
+          "entry_offset": -5,
+          "exit_offset": 20,
+          "buy_date": "2026-05-04",
+          "return_pct": 4.4326
+        },
+        {
+          "stock_code": "5464",
+          "cb_code": null,
+          "event_date": "2026-05-08",
+          "entry_offset": -5,
+          "exit_offset": 20,
+          "buy_date": "2026-05-04",
+          "return_pct": 110.3064
+        },
+        {
+          "stock_code": "4931",
+          "cb_code": null,
+          "event_date": "2026-05-14",
+          "entry_offset": -5,
+          "exit_offset": 20,
+          "buy_date": "2026-05-11",
+          "return_pct": 35.8289
+        },
+        {
+          "stock_code": "8096",
+          "cb_code": "80962",
+          "event_date": "2026-06-29",
+          "entry_offset": -5,
+          "exit_offset": 20,
+          "buy_date": "2026-06-24",
+          "return_pct": -17.9487
+        },
+        {
+          "stock_code": "3081",
+          "cb_code": "30811",
+          "event_date": "2026-07-28",
+          "entry_offset": -5,
+          "exit_offset": 20,
+          "buy_date": "2026-07-23",
+          "return_pct": 52.459
+        },
+        {
+          "stock_code": "8155",
+          "cb_code": "81552",
+          "event_date": "2026-07-29",
+          "entry_offset": -5,
+          "exit_offset": 20,
+          "buy_date": "2026-07-24",
+          "return_pct": 3.5714
+        },
+        {
+          "stock_code": "3219",
+          "cb_code": null,
+          "event_date": "2026-08-10",
+          "entry_offset": -5,
+          "exit_offset": 20,
+          "buy_date": "2026-08-05",
+          "return_pct": 40.0
+        },
+        {
+          "stock_code": "3219",
+          "cb_code": "32191",
+          "event_date": "2026-08-10",
+          "entry_offset": -5,
+          "exit_offset": 20,
+          "buy_date": "2026-08-05",
+          "return_pct": 40.0
+        }
+      ]
+    },
+    {
+      "stage": "AUCTION_BID_START",
+      "entry_offset": -5,
+      "exit_offset": 20,
+      "rules": [
+        "momentum5_positive",
+        "foreign_or_trust_positive"
+      ],
+      "n": 14,
+      "win_rate": 78.57,
+      "avg_return": 22.58,
+      "median_return": 20.79,
+      "worst_return": -17.95,
+      "best_return": 110.31,
+      "trade_keys": [
+        {
+          "stock_code": "8021",
+          "cb_code": null,
+          "event_date": "2026-01-05",
+          "entry_offset": -5,
+          "exit_offset": 20,
+          "buy_date": "2025-12-31",
+          "return_pct": 20.7895
+        },
+        {
+          "stock_code": "2467",
+          "cb_code": null,
+          "event_date": "2026-01-07",
+          "entry_offset": -5,
+          "exit_offset": 20,
+          "buy_date": "2026-01-02",
+          "return_pct": -12.2222
+        },
+        {
+          "stock_code": "8210",
+          "cb_code": "82101",
+          "event_date": "2026-01-19",
+          "entry_offset": -5,
+          "exit_offset": 20,
+          "buy_date": "2026-01-14",
+          "return_pct": -4.903
+        },
+        {
+          "stock_code": "6515",
+          "cb_code": "65151",
+          "event_date": "2026-01-21",
+          "entry_offset": -5,
+          "exit_offset": 20,
+          "buy_date": "2026-01-16",
+          "return_pct": 38.4724
+        },
+        {
+          "stock_code": "3324",
+          "cb_code": "33244",
+          "event_date": "2026-02-26",
+          "entry_offset": -5,
+          "exit_offset": 20,
+          "buy_date": "2026-02-23",
+          "return_pct": 1.4778
+        },
+        {
+          "stock_code": "4714",
+          "cb_code": "47146",
+          "event_date": "2026-04-16",
+          "entry_offset": -5,
+          "exit_offset": 20,
+          "buy_date": "2026-04-13",
+          "return_pct": 3.8462
+        },
+        {
+          "stock_code": "3680",
+          "cb_code": "36803",
+          "event_date": "2026-05-06",
+          "entry_offset": -5,
+          "exit_offset": 20,
+          "buy_date": "2026-05-04",
+          "return_pct": 4.4326
+        },
+        {
+          "stock_code": "5464",
+          "cb_code": null,
+          "event_date": "2026-05-08",
+          "entry_offset": -5,
+          "exit_offset": 20,
+          "buy_date": "2026-05-04",
+          "return_pct": 110.3064
+        },
+        {
+          "stock_code": "4931",
+          "cb_code": null,
+          "event_date": "2026-05-14",
+          "entry_offset": -5,
+          "exit_offset": 20,
+          "buy_date": "2026-05-11",
+          "return_pct": 35.8289
+        },
+        {
+          "stock_code": "8096",
+          "cb_code": "80962",
+          "event_date": "2026-06-29",
+          "entry_offset": -5,
+          "exit_offset": 20,
+          "buy_date": "2026-06-24",
+          "return_pct": -17.9487
+        },
+        {
+          "stock_code": "3081",
+          "cb_code": "30811",
+          "event_date": "2026-07-28",
+          "entry_offset": -5,
+          "exit_offset": 20,
+          "buy_date": "2026-07-23",
+          "return_pct": 52.459
+        },
+        {
+          "stock_code": "8155",
+          "cb_code": "81552",
+          "event_date": "2026-07-29",
+          "entry_offset": -5,
+          "exit_offset": 20,
+          "buy_date": "2026-07-24",
+          "return_pct": 3.5714
+        },
+        {
+          "stock_code": "3219",
+          "cb_code": null,
+          "event_date": "2026-08-10",
+          "entry_offset": -5,
+          "exit_offset": 20,
+          "buy_date": "2026-08-05",
+          "return_pct": 40.0
+        },
+        {
+          "stock_code": "3219",
+          "cb_code": "32191",
+          "event_date": "2026-08-10",
+          "entry_offset": -5,
+          "exit_offset": 20,
+          "buy_date": "2026-08-05",
+          "return_pct": 40.0
+        }
+      ]
+    },
+    {
+      "stage": "AUCTION_BID_START",
+      "entry_offset": -5,
+      "exit_offset": 20,
+      "rules": [
+        "momentum5_positive",
+        "volume_not_crowded",
+        "trust_positive"
+      ],
+      "n": 14,
+      "win_rate": 78.57,
+      "avg_return": 22.58,
+      "median_return": 20.79,
+      "worst_return": -17.95,
+      "best_return": 110.31,
+      "trade_keys": [
+        {
+          "stock_code": "8021",
+          "cb_code": null,
+          "event_date": "2026-01-05",
+          "entry_offset": -5,
+          "exit_offset": 20,
+          "buy_date": "2025-12-31",
+          "return_pct": 20.7895
+        },
+        {
+          "stock_code": "2467",
+          "cb_code": null,
+          "event_date": "2026-01-07",
+          "entry_offset": -5,
+          "exit_offset": 20,
+          "buy_date": "2026-01-02",
+          "return_pct": -12.2222
+        },
+        {
+          "stock_code": "8210",
+          "cb_code": "82101",
+          "event_date": "2026-01-19",
+          "entry_offset": -5,
+          "exit_offset": 20,
+          "buy_date": "2026-01-14",
+          "return_pct": -4.903
+        },
+        {
+          "stock_code": "6515",
+          "cb_code": "65151",
+          "event_date": "2026-01-21",
+          "entry_offset": -5,
+          "exit_offset": 20,
+          "buy_date": "2026-01-16",
+          "return_pct": 38.4724
+        },
+        {
+          "stock_code": "3324",
+          "cb_code": "33244",
+          "event_date": "2026-02-26",
+          "entry_offset": -5,
+          "exit_offset": 20,
+          "buy_date": "2026-02-23",
+          "return_pct": 1.4778
+        },
+        {
+          "stock_code": "4714",
+          "cb_code": "47146",
+          "event_date": "2026-04-16",
+          "entry_offset": -5,
+          "exit_offset": 20,
+          "buy_date": "2026-04-13",
+          "return_pct": 3.8462
+        },
+        {
+          "stock_code": "3680",
+          "cb_code": "36803",
+          "event_date": "2026-05-06",
+          "entry_offset": -5,
+          "exit_offset": 20,
+          "buy_date": "2026-05-04",
+          "return_pct": 4.4326
+        },
+        {
+          "stock_code": "5464",
+          "cb_code": null,
+          "event_date": "2026-05-08",
+          "entry_offset": -5,
+          "exit_offset": 20,
+          "buy_date": "2026-05-04",
+          "return_pct": 110.3064
+        },
+        {
+          "stock_code": "4931",
+          "cb_code": null,
+          "event_date": "2026-05-14",
+          "entry_offset": -5,
+          "exit_offset": 20,
+          "buy_date": "2026-05-11",
+          "return_pct": 35.8289
+        },
+        {
+          "stock_code": "8096",
+          "cb_code": "80962",
+          "event_date": "2026-06-29",
+          "entry_offset": -5,
+          "exit_offset": 20,
+          "buy_date": "2026-06-24",
+          "return_pct": -17.9487
+        },
+        {
+          "stock_code": "3081",
+          "cb_code": "30811",
+          "event_date": "2026-07-28",
+          "entry_offset": -5,
+          "exit_offset": 20,
+          "buy_date": "2026-07-23",
+          "return_pct": 52.459
+        },
+        {
+          "stock_code": "8155",
+          "cb_code": "81552",
+          "event_date": "2026-07-29",
+          "entry_offset": -5,
+          "exit_offset": 20,
+          "buy_date": "2026-07-24",
+          "return_pct": 3.5714
+        },
+        {
+          "stock_code": "3219",
+          "cb_code": null,
+          "event_date": "2026-08-10",
+          "entry_offset": -5,
+          "exit_offset": 20,
+          "buy_date": "2026-08-05",
+          "return_pct": 40.0
+        },
+        {
+          "stock_code": "3219",
+          "cb_code": "32191",
+          "event_date": "2026-08-10",
+          "entry_offset": -5,
+          "exit_offset": 20,
+          "buy_date": "2026-08-05",
+          "return_pct": 40.0
+        }
+      ]
+    },
+    {
+      "stage": "AUCTION_BID_START",
+      "entry_offset": -5,
+      "exit_offset": 20,
+      "rules": [
+        "momentum5_positive",
+        "volume_not_crowded",
+        "foreign_or_trust_positive"
+      ],
+      "n": 14,
+      "win_rate": 78.57,
+      "avg_return": 22.58,
+      "median_return": 20.79,
+      "worst_return": -17.95,
+      "best_return": 110.31,
+      "trade_keys": [
+        {
+          "stock_code": "8021",
+          "cb_code": null,
+          "event_date": "2026-01-05",
+          "entry_offset": -5,
+          "exit_offset": 20,
+          "buy_date": "2025-12-31",
+          "return_pct": 20.7895
+        },
+        {
+          "stock_code": "2467",
+          "cb_code": null,
+          "event_date": "2026-01-07",
+          "entry_offset": -5,
+          "exit_offset": 20,
+          "buy_date": "2026-01-02",
+          "return_pct": -12.2222
+        },
+        {
+          "stock_code": "8210",
+          "cb_code": "82101",
+          "event_date": "2026-01-19",
+          "entry_offset": -5,
+          "exit_offset": 20,
+          "buy_date": "2026-01-14",
+          "return_pct": -4.903
+        },
+        {
+          "stock_code": "6515",
+          "cb_code": "65151",
+          "event_date": "2026-01-21",
+          "entry_offset": -5,
+          "exit_offset": 20,
+          "buy_date": "2026-01-16",
+          "return_pct": 38.4724
+        },
+        {
+          "stock_code": "3324",
+          "cb_code": "33244",
+          "event_date": "2026-02-26",
+          "entry_offset": -5,
+          "exit_offset": 20,
+          "buy_date": "2026-02-23",
+          "return_pct": 1.4778
+        },
+        {
+          "stock_code": "4714",
+          "cb_code": "47146",
+          "event_date": "2026-04-16",
+          "entry_offset": -5,
+          "exit_offset": 20,
+          "buy_date": "2026-04-13",
+          "return_pct": 3.8462
+        },
+        {
+          "stock_code": "3680",
+          "cb_code": "36803",
+          "event_date": "2026-05-06",
+          "entry_offset": -5,
+          "exit_offset": 20,
+          "buy_date": "2026-05-04",
+          "return_pct": 4.4326
+        },
+        {
+          "stock_code": "5464",
+          "cb_code": null,
+          "event_date": "2026-05-08",
+          "entry_offset": -5,
+          "exit_offset": 20,
+          "buy_date": "2026-05-04",
+          "return_pct": 110.3064
+        },
+        {
+          "stock_code": "4931",
+          "cb_code": null,
+          "event_date": "2026-05-14",
+          "entry_offset": -5,
+          "exit_offset": 20,
+          "buy_date": "2026-05-11",
+          "return_pct": 35.8289
+        },
+        {
+          "stock_code": "8096",
+          "cb_code": "80962",
+          "event_date": "2026-06-29",
+          "entry_offset": -5,
+          "exit_offset": 20,
+          "buy_date": "2026-06-24",
+          "return_pct": -17.9487
+        },
+        {
+          "stock_code": "3081",
+          "cb_code": "30811",
+          "event_date": "2026-07-28",
+          "entry_offset": -5,
+          "exit_offset": 20,
+          "buy_date": "2026-07-23",
+          "return_pct": 52.459
+        },
+        {
+          "stock_code": "8155",
+          "cb_code": "81552",
+          "event_date": "2026-07-29",
+          "entry_offset": -5,
+          "exit_offset": 20,
+          "buy_date": "2026-07-24",
+          "return_pct": 3.5714
+        },
+        {
+          "stock_code": "3219",
+          "cb_code": null,
+          "event_date": "2026-08-10",
+          "entry_offset": -5,
+          "exit_offset": 20,
+          "buy_date": "2026-08-05",
+          "return_pct": 40.0
+        },
+        {
+          "stock_code": "3219",
+          "cb_code": "32191",
+          "event_date": "2026-08-10",
+          "entry_offset": -5,
+          "exit_offset": 20,
+          "buy_date": "2026-08-05",
+          "return_pct": 40.0
+        }
+      ]
+    },
+    {
+      "stage": "AUCTION_BID_START",
+      "entry_offset": -5,
+      "exit_offset": 20,
+      "rules": [
+        "momentum5_positive",
+        "trust_positive",
+        "foreign_or_trust_positive"
+      ],
+      "n": 14,
+      "win_rate": 78.57,
+      "avg_return": 22.58,
+      "median_return": 20.79,
+      "worst_return": -17.95,
+      "best_return": 110.31,
+      "trade_keys": [
+        {
+          "stock_code": "8021",
+          "cb_code": null,
+          "event_date": "2026-01-05",
+          "entry_offset": -5,
+          "exit_offset": 20,
+          "buy_date": "2025-12-31",
+          "return_pct": 20.7895
+        },
+        {
+          "stock_code": "2467",
+          "cb_code": null,
+          "event_date": "2026-01-07",
+          "entry_offset": -5,
+          "exit_offset": 20,
+          "buy_date": "2026-01-02",
+          "return_pct": -12.2222
+        },
+        {
+          "stock_code": "8210",
+          "cb_code": "82101",
+          "event_date": "2026-01-19",
+          "entry_offset": -5,
+          "exit_offset": 20,
+          "buy_date": "2026-01-14",
+          "return_pct": -4.903
+        },
+        {
+          "stock_code": "6515",
+          "cb_code": "65151",
+          "event_date": "2026-01-21",
+          "entry_offset": -5,
+          "exit_offset": 20,
+          "buy_date": "2026-01-16",
+          "return_pct": 38.4724
+        },
+        {
+          "stock_code": "3324",
+          "cb_code": "33244",
+          "event_date": "2026-02-26",
+          "entry_offset": -5,
+          "exit_offset": 20,
+          "buy_date": "2026-02-23",
+          "return_pct": 1.4778
+        },
+        {
+          "stock_code": "4714",
+          "cb_code": "47146",
+          "event_date": "2026-04-16",
+          "entry_offset": -5,
+          "exit_offset": 20,
+          "buy_date": "2026-04-13",
+          "return_pct": 3.8462
+        },
+        {
+          "stock_code": "3680",
+          "cb_code": "36803",
+          "event_date": "2026-05-06",
+          "entry_offset": -5,
+          "exit_offset": 20,
+          "buy_date": "2026-05-04",
+          "return_pct": 4.4326
+        },
+        {
+          "stock_code": "5464",
+          "cb_code": null,
+          "event_date": "2026-05-08",
+          "entry_offset": -5,
+          "exit_offset": 20,
+          "buy_date": "2026-05-04",
+          "return_pct": 110.3064
+        },
+        {
+          "stock_code": "4931",
+          "cb_code": null,
+          "event_date": "2026-05-14",
+          "entry_offset": -5,
+          "exit_offset": 20,
+          "buy_date": "2026-05-11",
+          "return_pct": 35.8289
+        },
+        {
+          "stock_code": "8096",
+          "cb_code": "80962",
+          "event_date": "2026-06-29",
+          "entry_offset": -5,
+          "exit_offset": 20,
+          "buy_date": "2026-06-24",
+          "return_pct": -17.9487
+        },
+        {
+          "stock_code": "3081",
+          "cb_code": "30811",
+          "event_date": "2026-07-28",
+          "entry_offset": -5,
+          "exit_offset": 20,
+          "buy_date": "2026-07-23",
+          "return_pct": 52.459
+        },
+        {
+          "stock_code": "8155",
+          "cb_code": "81552",
+          "event_date": "2026-07-29",
+          "entry_offset": -5,
+          "exit_offset": 20,
+          "buy_date": "2026-07-24",
+          "return_pct": 3.5714
+        },
+        {
+          "stock_code": "3219",
+          "cb_code": null,
+          "event_date": "2026-08-10",
+          "entry_offset": -5,
+          "exit_offset": 20,
+          "buy_date": "2026-08-05",
+          "return_pct": 40.0
+        },
+        {
+          "stock_code": "3219",
+          "cb_code": "32191",
+          "event_date": "2026-08-10",
+          "entry_offset": -5,
+          "exit_offset": 20,
+          "buy_date": "2026-08-05",
+          "return_pct": 40.0
+        }
+      ]
+    },
+    {
+      "stage": "AUCTION_BID_START",
+      "entry_offset": -5,
+      "exit_offset": 20,
+      "rules": [
+        "momentum10_positive",
+        "foreign_positive"
+      ],
+      "n": 15,
+      "win_rate": 73.33,
+      "avg_return": 22.54,
+      "median_return": 20.79,
+      "worst_return": -17.95,
+      "best_return": 110.31,
+      "trade_keys": [
+        {
+          "stock_code": "8021",
+          "cb_code": null,
+          "event_date": "2026-01-05",
+          "entry_offset": -5,
+          "exit_offset": 20,
+          "buy_date": "2025-12-31",
+          "return_pct": 20.7895
+        },
+        {
+          "stock_code": "2467",
+          "cb_code": null,
+          "event_date": "2026-01-07",
+          "entry_offset": -5,
+          "exit_offset": 20,
+          "buy_date": "2026-01-02",
+          "return_pct": -12.2222
+        },
+        {
+          "stock_code": "3587",
+          "cb_code": "35871",
+          "event_date": "2026-01-20",
+          "entry_offset": -5,
+          "exit_offset": 20,
+          "buy_date": "2026-01-15",
+          "return_pct": 11.4667
+        },
+        {
+          "stock_code": "6515",
+          "cb_code": "65151",
+          "event_date": "2026-01-21",
+          "entry_offset": -5,
+          "exit_offset": 20,
+          "buy_date": "2026-01-16",
+          "return_pct": 38.4724
+        },
+        {
+          "stock_code": "3324",
+          "cb_code": "33244",
+          "event_date": "2026-02-26",
+          "entry_offset": -5,
+          "exit_offset": 20,
+          "buy_date": "2026-02-23",
+          "return_pct": 1.4778
+        },
+        {
+          "stock_code": "3715",
+          "cb_code": null,
+          "event_date": "2026-03-09",
+          "entry_offset": -5,
+          "exit_offset": 20,
+          "buy_date": "2026-03-04",
+          "return_pct": 27.5862
+        },
+        {
+          "stock_code": "6472",
+          "cb_code": "64722",
+          "event_date": "2026-03-27",
+          "entry_offset": -5,
+          "exit_offset": 20,
+          "buy_date": "2026-03-23",
+          "return_pct": -6.1742
+        },
+        {
+          "stock_code": "3680",
+          "cb_code": "36803",
+          "event_date": "2026-05-06",
+          "entry_offset": -5,
+          "exit_offset": 20,
+          "buy_date": "2026-05-04",
+          "return_pct": 4.4326
+        },
+        {
+          "stock_code": "5464",
+          "cb_code": null,
+          "event_date": "2026-05-08",
+          "entry_offset": -5,
+          "exit_offset": 20,
+          "buy_date": "2026-05-04",
+          "return_pct": 110.3064
+        },
+        {
+          "stock_code": "4931",
+          "cb_code": null,
+          "event_date": "2026-05-14",
+          "entry_offset": -5,
+          "exit_offset": 20,
+          "buy_date": "2026-05-11",
+          "return_pct": 35.8289
+        },
+        {
+          "stock_code": "5289",
+          "cb_code": "52892",
+          "event_date": "2026-06-15",
+          "entry_offset": -5,
+          "exit_offset": 20,
+          "buy_date": "2026-06-10",
+          "return_pct": -8.3565
+        },
+        {
+          "stock_code": "8096",
+          "cb_code": "80962",
+          "event_date": "2026-06-29",
+          "entry_offset": -5,
+          "exit_offset": 20,
+          "buy_date": "2026-06-24",
+          "return_pct": -17.9487
+        },
+        {
+          "stock_code": "3081",
+          "cb_code": "30811",
+          "event_date": "2026-07-28",
+          "entry_offset": -5,
+          "exit_offset": 20,
+          "buy_date": "2026-07-23",
+          "return_pct": 52.459
+        },
+        {
+          "stock_code": "3219",
+          "cb_code": null,
+          "event_date": "2026-08-10",
+          "entry_offset": -5,
+          "exit_offset": 20,
+          "buy_date": "2026-08-05",
+          "return_pct": 40.0
+        },
+        {
+          "stock_code": "3219",
+          "cb_code": "32191",
+          "event_date": "2026-08-10",
+          "entry_offset": -5,
+          "exit_offset": 20,
+          "buy_date": "2026-08-05",
+          "return_pct": 40.0
+        }
+      ]
+    },
+    {
+      "stage": "AUCTION_BID_START",
+      "entry_offset": -5,
+      "exit_offset": 20,
+      "rules": [
+        "momentum10_positive",
+        "volume_not_crowded",
+        "foreign_positive"
+      ],
+      "n": 15,
+      "win_rate": 73.33,
+      "avg_return": 22.54,
+      "median_return": 20.79,
+      "worst_return": -17.95,
+      "best_return": 110.31,
+      "trade_keys": [
+        {
+          "stock_code": "8021",
+          "cb_code": null,
+          "event_date": "2026-01-05",
+          "entry_offset": -5,
+          "exit_offset": 20,
+          "buy_date": "2025-12-31",
+          "return_pct": 20.7895
+        },
+        {
+          "stock_code": "2467",
+          "cb_code": null,
+          "event_date": "2026-01-07",
+          "entry_offset": -5,
+          "exit_offset": 20,
+          "buy_date": "2026-01-02",
+          "return_pct": -12.2222
+        },
+        {
+          "stock_code": "3587",
+          "cb_code": "35871",
+          "event_date": "2026-01-20",
+          "entry_offset": -5,
+          "exit_offset": 20,
+          "buy_date": "2026-01-15",
+          "return_pct": 11.4667
+        },
+        {
+          "stock_code": "6515",
+          "cb_code": "65151",
+          "event_date": "2026-01-21",
+          "entry_offset": -5,
+          "exit_offset": 20,
+          "buy_date": "2026-01-16",
+          "return_pct": 38.4724
+        },
+        {
+          "stock_code": "3324",
+          "cb_code": "33244",
+          "event_date": "2026-02-26",
+          "entry_offset": -5,
+          "exit_offset": 20,
+          "buy_date": "2026-02-23",
+          "return_pct": 1.4778
+        },
+        {
+          "stock_code": "3715",
+          "cb_code": null,
+          "event_date": "2026-03-09",
+          "entry_offset": -5,
+          "exit_offset": 20,
+          "buy_date": "2026-03-04",
+          "return_pct": 27.5862
+        },
+        {
+          "stock_code": "6472",
+          "cb_code": "64722",
+          "event_date": "2026-03-27",
+          "entry_offset": -5,
+          "exit_offset": 20,
+          "buy_date": "2026-03-23",
+          "return_pct": -6.1742
+        },
+        {
+          "stock_code": "3680",
+          "cb_code": "36803",
+          "event_date": "2026-05-06",
+          "entry_offset": -5,
+          "exit_offset": 20,
+          "buy_date": "2026-05-04",
+          "return_pct": 4.4326
+        },
+        {
+          "stock_code": "5464",
+          "cb_code": null,
+          "event_date": "2026-05-08",
+          "entry_offset": -5,
+          "exit_offset": 20,
+          "buy_date": "2026-05-04",
+          "return_pct": 110.3064
+        },
+        {
+          "stock_code": "4931",
+          "cb_code": null,
+          "event_date": "2026-05-14",
+          "entry_offset": -5,
+          "exit_offset": 20,
+          "buy_date": "2026-05-11",
+          "return_pct": 35.8289
+        },
+        {
+          "stock_code": "5289",
+          "cb_code": "52892",
+          "event_date": "2026-06-15",
+          "entry_offset": -5,
+          "exit_offset": 20,
+          "buy_date": "2026-06-10",
+          "return_pct": -8.3565
+        },
+        {
+          "stock_code": "8096",
+          "cb_code": "80962",
+          "event_date": "2026-06-29",
+          "entry_offset": -5,
+          "exit_offset": 20,
+          "buy_date": "2026-06-24",
+          "return_pct": -17.9487
+        },
+        {
+          "stock_code": "3081",
+          "cb_code": "30811",
+          "event_date": "2026-07-28",
+          "entry_offset": -5,
+          "exit_offset": 20,
+          "buy_date": "2026-07-23",
+          "return_pct": 52.459
+        },
+        {
+          "stock_code": "3219",
+          "cb_code": null,
+          "event_date": "2026-08-10",
+          "entry_offset": -5,
+          "exit_offset": 20,
+          "buy_date": "2026-08-05",
+          "return_pct": 40.0
+        },
+        {
+          "stock_code": "3219",
+          "cb_code": "32191",
+          "event_date": "2026-08-10",
+          "entry_offset": -5,
+          "exit_offset": 20,
+          "buy_date": "2026-08-05",
+          "return_pct": 40.0
+        }
+      ]
+    },
+    {
+      "stage": "AUCTION_BID_START",
+      "entry_offset": -5,
+      "exit_offset": 20,
+      "rules": [
+        "momentum10_positive",
+        "foreign_positive",
+        "foreign_or_trust_positive"
+      ],
+      "n": 15,
+      "win_rate": 73.33,
+      "avg_return": 22.54,
+      "median_return": 20.79,
+      "worst_return": -17.95,
+      "best_return": 110.31,
+      "trade_keys": [
+        {
+          "stock_code": "8021",
+          "cb_code": null,
+          "event_date": "2026-01-05",
+          "entry_offset": -5,
+          "exit_offset": 20,
+          "buy_date": "2025-12-31",
+          "return_pct": 20.7895
+        },
+        {
+          "stock_code": "2467",
+          "cb_code": null,
+          "event_date": "2026-01-07",
+          "entry_offset": -5,
+          "exit_offset": 20,
+          "buy_date": "2026-01-02",
+          "return_pct": -12.2222
+        },
+        {
+          "stock_code": "3587",
+          "cb_code": "35871",
+          "event_date": "2026-01-20",
+          "entry_offset": -5,
+          "exit_offset": 20,
+          "buy_date": "2026-01-15",
+          "return_pct": 11.4667
+        },
+        {
+          "stock_code": "6515",
+          "cb_code": "65151",
+          "event_date": "2026-01-21",
+          "entry_offset": -5,
+          "exit_offset": 20,
+          "buy_date": "2026-01-16",
+          "return_pct": 38.4724
+        },
+        {
+          "stock_code": "3324",
+          "cb_code": "33244",
+          "event_date": "2026-02-26",
+          "entry_offset": -5,
+          "exit_offset": 20,
+          "buy_date": "2026-02-23",
+          "return_pct": 1.4778
+        },
+        {
+          "stock_code": "3715",
+          "cb_code": null,
+          "event_date": "2026-03-09",
+          "entry_offset": -5,
+          "exit_offset": 20,
+          "buy_date": "2026-03-04",
+          "return_pct": 27.5862
+        },
+        {
+          "stock_code": "6472",
+          "cb_code": "64722",
+          "event_date": "2026-03-27",
+          "entry_offset": -5,
+          "exit_offset": 20,
+          "buy_date": "2026-03-23",
+          "return_pct": -6.1742
+        },
+        {
+          "stock_code": "3680",
+          "cb_code": "36803",
+          "event_date": "2026-05-06",
+          "entry_offset": -5,
+          "exit_offset": 20,
+          "buy_date": "2026-05-04",
+          "return_pct": 4.4326
+        },
+        {
+          "stock_code": "5464",
+          "cb_code": null,
+          "event_date": "2026-05-08",
+          "entry_offset": -5,
+          "exit_offset": 20,
+          "buy_date": "2026-05-04",
+          "return_pct": 110.3064
+        },
+        {
+          "stock_code": "4931",
+          "cb_code": null,
+          "event_date": "2026-05-14",
+          "entry_offset": -5,
+          "exit_offset": 20,
+          "buy_date": "2026-05-11",
+          "return_pct": 35.8289
+        },
+        {
+          "stock_code": "5289",
+          "cb_code": "52892",
+          "event_date": "2026-06-15",
+          "entry_offset": -5,
+          "exit_offset": 20,
+          "buy_date": "2026-06-10",
+          "return_pct": -8.3565
+        },
+        {
+          "stock_code": "8096",
+          "cb_code": "80962",
+          "event_date": "2026-06-29",
+          "entry_offset": -5,
+          "exit_offset": 20,
+          "buy_date": "2026-06-24",
+          "return_pct": -17.9487
+        },
+        {
+          "stock_code": "3081",
+          "cb_code": "30811",
+          "event_date": "2026-07-28",
+          "entry_offset": -5,
+          "exit_offset": 20,
+          "buy_date": "2026-07-23",
+          "return_pct": 52.459
+        },
+        {
+          "stock_code": "3219",
+          "cb_code": null,
+          "event_date": "2026-08-10",
+          "entry_offset": -5,
+          "exit_offset": 20,
+          "buy_date": "2026-08-05",
+          "return_pct": 40.0
+        },
+        {
+          "stock_code": "3219",
+          "cb_code": "32191",
+          "event_date": "2026-08-10",
+          "entry_offset": -5,
+          "exit_offset": 20,
+          "buy_date": "2026-08-05",
+          "return_pct": 40.0
+        }
+      ]
+    },
+    {
+      "stage": "AUCTION_BID_START",
+      "entry_offset": -3,
+      "exit_offset": 20,
+      "rules": [
+        "momentum10_positive",
+        "trust_positive"
+      ],
+      "n": 11,
+      "win_rate": 81.82,
+      "avg_return": 22.38,
+      "median_return": 22.91,
+      "worst_return": -19.43,
+      "best_return": 91.38,
+      "trade_keys": [
+        {
+          "stock_code": "8021",
+          "cb_code": null,
+          "event_date": "2026-01-05",
+          "entry_offset": -3,
+          "exit_offset": 20,
+          "buy_date": "2026-01-02",
+          "return_pct": 21.1082
+        },
+        {
+          "stock_code": "2467",
+          "cb_code": null,
+          "event_date": "2026-01-07",
+          "entry_offset": -3,
+          "exit_offset": 20,
+          "buy_date": "2026-01-05",
+          "return_pct": -15.2057
+        },
+        {
+          "stock_code": "6515",
+          "cb_code": "65151",
+          "event_date": "2026-01-21",
+          "entry_offset": -3,
+          "exit_offset": 20,
+          "buy_date": "2026-01-19",
+          "return_pct": 41.474
+        },
+        {
+          "stock_code": "3324",
+          "cb_code": "33244",
+          "event_date": "2026-02-26",
+          "entry_offset": -3,
+          "exit_offset": 20,
+          "buy_date": "2026-02-23",
+          "return_pct": 1.4778
+        },
+        {
+          "stock_code": "3680",
+          "cb_code": "36803",
+          "event_date": "2026-05-06",
+          "entry_offset": -3,
+          "exit_offset": 20,
+          "buy_date": "2026-05-04",
+          "return_pct": 4.4326
+        },
+        {
+          "stock_code": "5464",
+          "cb_code": null,
+          "event_date": "2026-05-08",
+          "entry_offset": -3,
+          "exit_offset": 20,
+          "buy_date": "2026-05-05",
+          "return_pct": 91.3815
+        },
+        {
+          "stock_code": "4931",
+          "cb_code": null,
+          "event_date": "2026-05-14",
+          "entry_offset": -3,
+          "exit_offset": 20,
+          "buy_date": "2026-05-11",
+          "return_pct": 35.8289
+        },
+        {
+          "stock_code": "3491",
+          "cb_code": "34912",
+          "event_date": "2026-05-25",
+          "entry_offset": -3,
+          "exit_offset": 20,
+          "buy_date": "2026-05-22",
+          "return_pct": -19.4301
+        },
+        {
+          "stock_code": "4967",
+          "cb_code": "49671",
+          "event_date": "2026-08-03",
+          "entry_offset": -3,
+          "exit_offset": 20,
+          "buy_date": "2026-07-31",
+          "return_pct": 22.9105
+        },
+        {
+          "stock_code": "3219",
+          "cb_code": null,
+          "event_date": "2026-08-10",
+          "entry_offset": -3,
+          "exit_offset": 20,
+          "buy_date": "2026-08-07",
+          "return_pct": 31.1239
+        },
+        {
+          "stock_code": "3219",
+          "cb_code": "32191",
+          "event_date": "2026-08-10",
+          "entry_offset": -3,
+          "exit_offset": 20,
+          "buy_date": "2026-08-07",
+          "return_pct": 31.1239
+        }
+      ]
+    },
+    {
+      "stage": "AUCTION_BID_START",
+      "entry_offset": -3,
+      "exit_offset": 20,
+      "rules": [
+        "momentum10_positive",
+        "volume_not_crowded",
+        "trust_positive"
+      ],
+      "n": 11,
+      "win_rate": 81.82,
+      "avg_return": 22.38,
+      "median_return": 22.91,
+      "worst_return": -19.43,
+      "best_return": 91.38,
+      "trade_keys": [
+        {
+          "stock_code": "8021",
+          "cb_code": null,
+          "event_date": "2026-01-05",
+          "entry_offset": -3,
+          "exit_offset": 20,
+          "buy_date": "2026-01-02",
+          "return_pct": 21.1082
+        },
+        {
+          "stock_code": "2467",
+          "cb_code": null,
+          "event_date": "2026-01-07",
+          "entry_offset": -3,
+          "exit_offset": 20,
+          "buy_date": "2026-01-05",
+          "return_pct": -15.2057
+        },
+        {
+          "stock_code": "6515",
+          "cb_code": "65151",
+          "event_date": "2026-01-21",
+          "entry_offset": -3,
+          "exit_offset": 20,
+          "buy_date": "2026-01-19",
+          "return_pct": 41.474
+        },
+        {
+          "stock_code": "3324",
+          "cb_code": "33244",
+          "event_date": "2026-02-26",
+          "entry_offset": -3,
+          "exit_offset": 20,
+          "buy_date": "2026-02-23",
+          "return_pct": 1.4778
+        },
+        {
+          "stock_code": "3680",
+          "cb_code": "36803",
+          "event_date": "2026-05-06",
+          "entry_offset": -3,
+          "exit_offset": 20,
+          "buy_date": "2026-05-04",
+          "return_pct": 4.4326
+        },
+        {
+          "stock_code": "5464",
+          "cb_code": null,
+          "event_date": "2026-05-08",
+          "entry_offset": -3,
+          "exit_offset": 20,
+          "buy_date": "2026-05-05",
+          "return_pct": 91.3815
+        },
+        {
+          "stock_code": "4931",
+          "cb_code": null,
+          "event_date": "2026-05-14",
+          "entry_offset": -3,
+          "exit_offset": 20,
+          "buy_date": "2026-05-11",
+          "return_pct": 35.8289
+        },
+        {
+          "stock_code": "3491",
+          "cb_code": "34912",
+          "event_date": "2026-05-25",
+          "entry_offset": -3,
+          "exit_offset": 20,
+          "buy_date": "2026-05-22",
+          "return_pct": -19.4301
+        },
+        {
+          "stock_code": "4967",
+          "cb_code": "49671",
+          "event_date": "2026-08-03",
+          "entry_offset": -3,
+          "exit_offset": 20,
+          "buy_date": "2026-07-31",
+          "return_pct": 22.9105
+        },
+        {
+          "stock_code": "3219",
+          "cb_code": null,
+          "event_date": "2026-08-10",
+          "entry_offset": -3,
+          "exit_offset": 20,
+          "buy_date": "2026-08-07",
+          "return_pct": 31.1239
+        },
+        {
+          "stock_code": "3219",
+          "cb_code": "32191",
+          "event_date": "2026-08-10",
+          "entry_offset": -3,
+          "exit_offset": 20,
+          "buy_date": "2026-08-07",
+          "return_pct": 31.1239
+        }
+      ]
+    },
+    {
+      "stage": "AUCTION_BID_START",
+      "entry_offset": -3,
+      "exit_offset": 20,
+      "rules": [
+        "momentum10_positive",
+        "trust_positive",
+        "foreign_or_trust_positive"
+      ],
+      "n": 11,
+      "win_rate": 81.82,
+      "avg_return": 22.38,
+      "median_return": 22.91,
+      "worst_return": -19.43,
+      "best_return": 91.38,
+      "trade_keys": [
+        {
+          "stock_code": "8021",
+          "cb_code": null,
+          "event_date": "2026-01-05",
+          "entry_offset": -3,
+          "exit_offset": 20,
+          "buy_date": "2026-01-02",
+          "return_pct": 21.1082
+        },
+        {
+          "stock_code": "2467",
+          "cb_code": null,
+          "event_date": "2026-01-07",
+          "entry_offset": -3,
+          "exit_offset": 20,
+          "buy_date": "2026-01-05",
+          "return_pct": -15.2057
+        },
+        {
+          "stock_code": "6515",
+          "cb_code": "65151",
+          "event_date": "2026-01-21",
+          "entry_offset": -3,
+          "exit_offset": 20,
+          "buy_date": "2026-01-19",
+          "return_pct": 41.474
+        },
+        {
+          "stock_code": "3324",
+          "cb_code": "33244",
+          "event_date": "2026-02-26",
+          "entry_offset": -3,
+          "exit_offset": 20,
+          "buy_date": "2026-02-23",
+          "return_pct": 1.4778
+        },
+        {
+          "stock_code": "3680",
+          "cb_code": "36803",
+          "event_date": "2026-05-06",
+          "entry_offset": -3,
+          "exit_offset": 20,
+          "buy_date": "2026-05-04",
+          "return_pct": 4.4326
+        },
+        {
+          "stock_code": "5464",
+          "cb_code": null,
+          "event_date": "2026-05-08",
+          "entry_offset": -3,
+          "exit_offset": 20,
+          "buy_date": "2026-05-05",
+          "return_pct": 91.3815
+        },
+        {
+          "stock_code": "4931",
+          "cb_code": null,
+          "event_date": "2026-05-14",
+          "entry_offset": -3,
+          "exit_offset": 20,
+          "buy_date": "2026-05-11",
+          "return_pct": 35.8289
+        },
+        {
+          "stock_code": "3491",
+          "cb_code": "34912",
+          "event_date": "2026-05-25",
+          "entry_offset": -3,
+          "exit_offset": 20,
+          "buy_date": "2026-05-22",
+          "return_pct": -19.4301
+        },
+        {
+          "stock_code": "4967",
+          "cb_code": "49671",
+          "event_date": "2026-08-03",
+          "entry_offset": -3,
+          "exit_offset": 20,
+          "buy_date": "2026-07-31",
+          "return_pct": 22.9105
+        },
+        {
+          "stock_code": "3219",
+          "cb_code": null,
+          "event_date": "2026-08-10",
+          "entry_offset": -3,
+          "exit_offset": 20,
+          "buy_date": "2026-08-07",
+          "return_pct": 31.1239
+        },
+        {
+          "stock_code": "3219",
+          "cb_code": "32191",
+          "event_date": "2026-08-10",
+          "entry_offset": -3,
+          "exit_offset": 20,
+          "buy_date": "2026-08-07",
+          "return_pct": 31.1239
+        }
+      ]
+    },
+    {
+      "stage": "AUCTION_BID_START",
+      "entry_offset": -3,
+      "exit_offset": 20,
+      "rules": [
+        "momentum10_positive",
+        "foreign_positive",
+        "trust_positive"
+      ],
+      "n": 10,
+      "win_rate": 80.0,
+      "avg_return": 22.33,
+      "median_return": 31.12,
+      "worst_return": -19.43,
+      "best_return": 91.38,
+      "trade_keys": [
+        {
+          "stock_code": "8021",
+          "cb_code": null,
+          "event_date": "2026-01-05",
+          "entry_offset": -3,
+          "exit_offset": 20,
+          "buy_date": "2026-01-02",
+          "return_pct": 21.1082
+        },
+        {
+          "stock_code": "2467",
+          "cb_code": null,
+          "event_date": "2026-01-07",
+          "entry_offset": -3,
+          "exit_offset": 20,
+          "buy_date": "2026-01-05",
+          "return_pct": -15.2057
+        },
+        {
+          "stock_code": "6515",
+          "cb_code": "65151",
+          "event_date": "2026-01-21",
+          "entry_offset": -3,
+          "exit_offset": 20,
+          "buy_date": "2026-01-19",
+          "return_pct": 41.474
+        },
+        {
+          "stock_code": "3324",
+          "cb_code": "33244",
+          "event_date": "2026-02-26",
+          "entry_offset": -3,
+          "exit_offset": 20,
+          "buy_date": "2026-02-23",
+          "return_pct": 1.4778
+        },
+        {
+          "stock_code": "3680",
+          "cb_code": "36803",
+          "event_date": "2026-05-06",
+          "entry_offset": -3,
+          "exit_offset": 20,
+          "buy_date": "2026-05-04",
+          "return_pct": 4.4326
+        },
+        {
+          "stock_code": "5464",
+          "cb_code": null,
+          "event_date": "2026-05-08",
+          "entry_offset": -3,
+          "exit_offset": 20,
+          "buy_date": "2026-05-05",
+          "return_pct": 91.3815
+        },
+        {
+          "stock_code": "4931",
+          "cb_code": null,
+          "event_date": "2026-05-14",
+          "entry_offset": -3,
+          "exit_offset": 20,
+          "buy_date": "2026-05-11",
+          "return_pct": 35.8289
+        },
+        {
+          "stock_code": "3491",
+          "cb_code": "34912",
+          "event_date": "2026-05-25",
+          "entry_offset": -3,
+          "exit_offset": 20,
+          "buy_date": "2026-05-22",
+          "return_pct": -19.4301
+        },
+        {
+          "stock_code": "3219",
+          "cb_code": null,
+          "event_date": "2026-08-10",
+          "entry_offset": -3,
+          "exit_offset": 20,
+          "buy_date": "2026-08-07",
+          "return_pct": 31.1239
+        },
+        {
+          "stock_code": "3219",
+          "cb_code": "32191",
+          "event_date": "2026-08-10",
+          "entry_offset": -3,
+          "exit_offset": 20,
+          "buy_date": "2026-08-07",
+          "return_pct": 31.1239
+        }
+      ]
+    },
+    {
+      "stage": "AUCTION_BID_START",
+      "entry_offset": -5,
+      "exit_offset": 19,
+      "rules": [
+        "momentum10_positive",
+        "foreign_positive",
+        "trust_positive"
+      ],
+      "n": 13,
+      "win_rate": 76.92,
+      "avg_return": 22.24,
+      "median_return": 20.79,
+      "worst_return": -17.95,
+      "best_return": 98.05,
+      "trade_keys": [
+        {
+          "stock_code": "8021",
+          "cb_code": null,
+          "event_date": "2026-01-05",
+          "entry_offset": -5,
+          "exit_offset": 19,
+          "buy_date": "2025-12-31",
+          "return_pct": 20.7895
+        },
+        {
+          "stock_code": "2467",
+          "cb_code": null,
+          "event_date": "2026-01-07",
+          "entry_offset": -5,
+          "exit_offset": 19,
+          "buy_date": "2026-01-02",
+          "return_pct": -13.3333
+        },
+        {
+          "stock_code": "3587",
+          "cb_code": "35871",
+          "event_date": "2026-01-20",
+          "entry_offset": -5,
+          "exit_offset": 19,
+          "buy_date": "2026-01-15",
+          "return_pct": 11.4667
+        },
+        {
+          "stock_code": "6515",
+          "cb_code": "65151",
+          "event_date": "2026-01-21",
+          "entry_offset": -5,
+          "exit_offset": 19,
+          "buy_date": "2026-01-16",
+          "return_pct": 33.5219
+        },
+        {
+          "stock_code": "3324",
+          "cb_code": "33244",
+          "event_date": "2026-02-26",
+          "entry_offset": -5,
+          "exit_offset": 19,
+          "buy_date": "2026-02-23",
+          "return_pct": 3.4483
+        },
+        {
+          "stock_code": "3680",
+          "cb_code": "36803",
+          "event_date": "2026-05-06",
+          "entry_offset": -5,
+          "exit_offset": 19,
+          "buy_date": "2026-05-04",
+          "return_pct": 5.4965
+        },
+        {
+          "stock_code": "5464",
+          "cb_code": null,
+          "event_date": "2026-05-08",
+          "entry_offset": -5,
+          "exit_offset": 19,
+          "buy_date": "2026-05-04",
+          "return_pct": 98.0501
+        },
+        {
+          "stock_code": "4931",
+          "cb_code": null,
+          "event_date": "2026-05-14",
+          "entry_offset": -5,
+          "exit_offset": 19,
+          "buy_date": "2026-05-11",
+          "return_pct": 23.5294
+        },
+        {
+          "stock_code": "5289",
+          "cb_code": "52892",
+          "event_date": "2026-06-15",
+          "entry_offset": -5,
+          "exit_offset": 19,
+          "buy_date": "2026-06-10",
+          "return_pct": -8.3565
+        },
+        {
+          "stock_code": "8096",
+          "cb_code": "80962",
+          "event_date": "2026-06-29",
+          "entry_offset": -5,
+          "exit_offset": 19,
+          "buy_date": "2026-06-24",
+          "return_pct": -17.9487
+        },
+        {
+          "stock_code": "3081",
+          "cb_code": "30811",
+          "event_date": "2026-07-28",
+          "entry_offset": -5,
+          "exit_offset": 19,
+          "buy_date": "2026-07-23",
+          "return_pct": 52.459
+        },
+        {
+          "stock_code": "3219",
+          "cb_code": null,
+          "event_date": "2026-08-10",
+          "entry_offset": -5,
+          "exit_offset": 19,
+          "buy_date": "2026-08-05",
+          "return_pct": 40.0
+        },
+        {
+          "stock_code": "3219",
+          "cb_code": "32191",
+          "event_date": "2026-08-10",
+          "entry_offset": -5,
+          "exit_offset": 19,
+          "buy_date": "2026-08-05",
+          "return_pct": 40.0
         }
       ]
     },
@@ -602,10 +3702,10 @@
         "momentum10_positive",
         "foreign_or_trust_positive"
       ],
-      "n": 10,
-      "win_rate": 80.0,
-      "avg_return": 20.45,
-      "median_return": 21.11,
+      "n": 12,
+      "win_rate": 83.33,
+      "avg_return": 22.23,
+      "median_return": 22.91,
       "worst_return": -19.43,
       "best_return": 91.38,
       "trade_keys": [
@@ -698,6 +3798,24 @@
           "exit_offset": 20,
           "buy_date": "2026-07-31",
           "return_pct": 22.9105
+        },
+        {
+          "stock_code": "3219",
+          "cb_code": null,
+          "event_date": "2026-08-10",
+          "entry_offset": -3,
+          "exit_offset": 20,
+          "buy_date": "2026-08-07",
+          "return_pct": 31.1239
+        },
+        {
+          "stock_code": "3219",
+          "cb_code": "32191",
+          "event_date": "2026-08-10",
+          "entry_offset": -3,
+          "exit_offset": 20,
+          "buy_date": "2026-08-07",
+          "return_pct": 31.1239
         }
       ]
     },
@@ -710,10 +3828,10 @@
         "volume_not_crowded",
         "foreign_or_trust_positive"
       ],
-      "n": 10,
-      "win_rate": 80.0,
-      "avg_return": 20.45,
-      "median_return": 21.11,
+      "n": 12,
+      "win_rate": 83.33,
+      "avg_return": 22.23,
+      "median_return": 22.91,
       "worst_return": -19.43,
       "best_return": 91.38,
       "trade_keys": [
@@ -806,6 +3924,2143 @@
           "exit_offset": 20,
           "buy_date": "2026-07-31",
           "return_pct": 22.9105
+        },
+        {
+          "stock_code": "3219",
+          "cb_code": null,
+          "event_date": "2026-08-10",
+          "entry_offset": -3,
+          "exit_offset": 20,
+          "buy_date": "2026-08-07",
+          "return_pct": 31.1239
+        },
+        {
+          "stock_code": "3219",
+          "cb_code": "32191",
+          "event_date": "2026-08-10",
+          "entry_offset": -3,
+          "exit_offset": 20,
+          "buy_date": "2026-08-07",
+          "return_pct": 31.1239
+        }
+      ]
+    },
+    {
+      "stage": "AUCTION_BID_START",
+      "entry_offset": -3,
+      "exit_offset": 20,
+      "rules": [
+        "momentum10_positive",
+        "foreign_positive"
+      ],
+      "n": 11,
+      "win_rate": 81.82,
+      "avg_return": 22.17,
+      "median_return": 21.11,
+      "worst_return": -19.43,
+      "best_return": 91.38,
+      "trade_keys": [
+        {
+          "stock_code": "8021",
+          "cb_code": null,
+          "event_date": "2026-01-05",
+          "entry_offset": -3,
+          "exit_offset": 20,
+          "buy_date": "2026-01-02",
+          "return_pct": 21.1082
+        },
+        {
+          "stock_code": "2467",
+          "cb_code": null,
+          "event_date": "2026-01-07",
+          "entry_offset": -3,
+          "exit_offset": 20,
+          "buy_date": "2026-01-05",
+          "return_pct": -15.2057
+        },
+        {
+          "stock_code": "6515",
+          "cb_code": "65151",
+          "event_date": "2026-01-21",
+          "entry_offset": -3,
+          "exit_offset": 20,
+          "buy_date": "2026-01-19",
+          "return_pct": 41.474
+        },
+        {
+          "stock_code": "3324",
+          "cb_code": "33244",
+          "event_date": "2026-02-26",
+          "entry_offset": -3,
+          "exit_offset": 20,
+          "buy_date": "2026-02-23",
+          "return_pct": 1.4778
+        },
+        {
+          "stock_code": "3715",
+          "cb_code": null,
+          "event_date": "2026-03-09",
+          "entry_offset": -3,
+          "exit_offset": 20,
+          "buy_date": "2026-03-06",
+          "return_pct": 20.5212
+        },
+        {
+          "stock_code": "3680",
+          "cb_code": "36803",
+          "event_date": "2026-05-06",
+          "entry_offset": -3,
+          "exit_offset": 20,
+          "buy_date": "2026-05-04",
+          "return_pct": 4.4326
+        },
+        {
+          "stock_code": "5464",
+          "cb_code": null,
+          "event_date": "2026-05-08",
+          "entry_offset": -3,
+          "exit_offset": 20,
+          "buy_date": "2026-05-05",
+          "return_pct": 91.3815
+        },
+        {
+          "stock_code": "4931",
+          "cb_code": null,
+          "event_date": "2026-05-14",
+          "entry_offset": -3,
+          "exit_offset": 20,
+          "buy_date": "2026-05-11",
+          "return_pct": 35.8289
+        },
+        {
+          "stock_code": "3491",
+          "cb_code": "34912",
+          "event_date": "2026-05-25",
+          "entry_offset": -3,
+          "exit_offset": 20,
+          "buy_date": "2026-05-22",
+          "return_pct": -19.4301
+        },
+        {
+          "stock_code": "3219",
+          "cb_code": null,
+          "event_date": "2026-08-10",
+          "entry_offset": -3,
+          "exit_offset": 20,
+          "buy_date": "2026-08-07",
+          "return_pct": 31.1239
+        },
+        {
+          "stock_code": "3219",
+          "cb_code": "32191",
+          "event_date": "2026-08-10",
+          "entry_offset": -3,
+          "exit_offset": 20,
+          "buy_date": "2026-08-07",
+          "return_pct": 31.1239
+        }
+      ]
+    },
+    {
+      "stage": "AUCTION_BID_START",
+      "entry_offset": -3,
+      "exit_offset": 20,
+      "rules": [
+        "momentum10_positive",
+        "volume_not_crowded",
+        "foreign_positive"
+      ],
+      "n": 11,
+      "win_rate": 81.82,
+      "avg_return": 22.17,
+      "median_return": 21.11,
+      "worst_return": -19.43,
+      "best_return": 91.38,
+      "trade_keys": [
+        {
+          "stock_code": "8021",
+          "cb_code": null,
+          "event_date": "2026-01-05",
+          "entry_offset": -3,
+          "exit_offset": 20,
+          "buy_date": "2026-01-02",
+          "return_pct": 21.1082
+        },
+        {
+          "stock_code": "2467",
+          "cb_code": null,
+          "event_date": "2026-01-07",
+          "entry_offset": -3,
+          "exit_offset": 20,
+          "buy_date": "2026-01-05",
+          "return_pct": -15.2057
+        },
+        {
+          "stock_code": "6515",
+          "cb_code": "65151",
+          "event_date": "2026-01-21",
+          "entry_offset": -3,
+          "exit_offset": 20,
+          "buy_date": "2026-01-19",
+          "return_pct": 41.474
+        },
+        {
+          "stock_code": "3324",
+          "cb_code": "33244",
+          "event_date": "2026-02-26",
+          "entry_offset": -3,
+          "exit_offset": 20,
+          "buy_date": "2026-02-23",
+          "return_pct": 1.4778
+        },
+        {
+          "stock_code": "3715",
+          "cb_code": null,
+          "event_date": "2026-03-09",
+          "entry_offset": -3,
+          "exit_offset": 20,
+          "buy_date": "2026-03-06",
+          "return_pct": 20.5212
+        },
+        {
+          "stock_code": "3680",
+          "cb_code": "36803",
+          "event_date": "2026-05-06",
+          "entry_offset": -3,
+          "exit_offset": 20,
+          "buy_date": "2026-05-04",
+          "return_pct": 4.4326
+        },
+        {
+          "stock_code": "5464",
+          "cb_code": null,
+          "event_date": "2026-05-08",
+          "entry_offset": -3,
+          "exit_offset": 20,
+          "buy_date": "2026-05-05",
+          "return_pct": 91.3815
+        },
+        {
+          "stock_code": "4931",
+          "cb_code": null,
+          "event_date": "2026-05-14",
+          "entry_offset": -3,
+          "exit_offset": 20,
+          "buy_date": "2026-05-11",
+          "return_pct": 35.8289
+        },
+        {
+          "stock_code": "3491",
+          "cb_code": "34912",
+          "event_date": "2026-05-25",
+          "entry_offset": -3,
+          "exit_offset": 20,
+          "buy_date": "2026-05-22",
+          "return_pct": -19.4301
+        },
+        {
+          "stock_code": "3219",
+          "cb_code": null,
+          "event_date": "2026-08-10",
+          "entry_offset": -3,
+          "exit_offset": 20,
+          "buy_date": "2026-08-07",
+          "return_pct": 31.1239
+        },
+        {
+          "stock_code": "3219",
+          "cb_code": "32191",
+          "event_date": "2026-08-10",
+          "entry_offset": -3,
+          "exit_offset": 20,
+          "buy_date": "2026-08-07",
+          "return_pct": 31.1239
+        }
+      ]
+    },
+    {
+      "stage": "AUCTION_BID_START",
+      "entry_offset": -3,
+      "exit_offset": 20,
+      "rules": [
+        "momentum10_positive",
+        "foreign_positive",
+        "foreign_or_trust_positive"
+      ],
+      "n": 11,
+      "win_rate": 81.82,
+      "avg_return": 22.17,
+      "median_return": 21.11,
+      "worst_return": -19.43,
+      "best_return": 91.38,
+      "trade_keys": [
+        {
+          "stock_code": "8021",
+          "cb_code": null,
+          "event_date": "2026-01-05",
+          "entry_offset": -3,
+          "exit_offset": 20,
+          "buy_date": "2026-01-02",
+          "return_pct": 21.1082
+        },
+        {
+          "stock_code": "2467",
+          "cb_code": null,
+          "event_date": "2026-01-07",
+          "entry_offset": -3,
+          "exit_offset": 20,
+          "buy_date": "2026-01-05",
+          "return_pct": -15.2057
+        },
+        {
+          "stock_code": "6515",
+          "cb_code": "65151",
+          "event_date": "2026-01-21",
+          "entry_offset": -3,
+          "exit_offset": 20,
+          "buy_date": "2026-01-19",
+          "return_pct": 41.474
+        },
+        {
+          "stock_code": "3324",
+          "cb_code": "33244",
+          "event_date": "2026-02-26",
+          "entry_offset": -3,
+          "exit_offset": 20,
+          "buy_date": "2026-02-23",
+          "return_pct": 1.4778
+        },
+        {
+          "stock_code": "3715",
+          "cb_code": null,
+          "event_date": "2026-03-09",
+          "entry_offset": -3,
+          "exit_offset": 20,
+          "buy_date": "2026-03-06",
+          "return_pct": 20.5212
+        },
+        {
+          "stock_code": "3680",
+          "cb_code": "36803",
+          "event_date": "2026-05-06",
+          "entry_offset": -3,
+          "exit_offset": 20,
+          "buy_date": "2026-05-04",
+          "return_pct": 4.4326
+        },
+        {
+          "stock_code": "5464",
+          "cb_code": null,
+          "event_date": "2026-05-08",
+          "entry_offset": -3,
+          "exit_offset": 20,
+          "buy_date": "2026-05-05",
+          "return_pct": 91.3815
+        },
+        {
+          "stock_code": "4931",
+          "cb_code": null,
+          "event_date": "2026-05-14",
+          "entry_offset": -3,
+          "exit_offset": 20,
+          "buy_date": "2026-05-11",
+          "return_pct": 35.8289
+        },
+        {
+          "stock_code": "3491",
+          "cb_code": "34912",
+          "event_date": "2026-05-25",
+          "entry_offset": -3,
+          "exit_offset": 20,
+          "buy_date": "2026-05-22",
+          "return_pct": -19.4301
+        },
+        {
+          "stock_code": "3219",
+          "cb_code": null,
+          "event_date": "2026-08-10",
+          "entry_offset": -3,
+          "exit_offset": 20,
+          "buy_date": "2026-08-07",
+          "return_pct": 31.1239
+        },
+        {
+          "stock_code": "3219",
+          "cb_code": "32191",
+          "event_date": "2026-08-10",
+          "entry_offset": -3,
+          "exit_offset": 20,
+          "buy_date": "2026-08-07",
+          "return_pct": 31.1239
+        }
+      ]
+    },
+    {
+      "stage": "AUCTION_BID_START",
+      "entry_offset": -5,
+      "exit_offset": 19,
+      "rules": [
+        "momentum10_positive",
+        "foreign_positive"
+      ],
+      "n": 15,
+      "win_rate": 73.33,
+      "avg_return": 20.71,
+      "median_return": 20.79,
+      "worst_return": -17.95,
+      "best_return": 98.05,
+      "trade_keys": [
+        {
+          "stock_code": "8021",
+          "cb_code": null,
+          "event_date": "2026-01-05",
+          "entry_offset": -5,
+          "exit_offset": 19,
+          "buy_date": "2025-12-31",
+          "return_pct": 20.7895
+        },
+        {
+          "stock_code": "2467",
+          "cb_code": null,
+          "event_date": "2026-01-07",
+          "entry_offset": -5,
+          "exit_offset": 19,
+          "buy_date": "2026-01-02",
+          "return_pct": -13.3333
+        },
+        {
+          "stock_code": "3587",
+          "cb_code": "35871",
+          "event_date": "2026-01-20",
+          "entry_offset": -5,
+          "exit_offset": 19,
+          "buy_date": "2026-01-15",
+          "return_pct": 11.4667
+        },
+        {
+          "stock_code": "6515",
+          "cb_code": "65151",
+          "event_date": "2026-01-21",
+          "entry_offset": -5,
+          "exit_offset": 19,
+          "buy_date": "2026-01-16",
+          "return_pct": 33.5219
+        },
+        {
+          "stock_code": "3324",
+          "cb_code": "33244",
+          "event_date": "2026-02-26",
+          "entry_offset": -5,
+          "exit_offset": 19,
+          "buy_date": "2026-02-23",
+          "return_pct": 3.4483
+        },
+        {
+          "stock_code": "3715",
+          "cb_code": null,
+          "event_date": "2026-03-09",
+          "entry_offset": -5,
+          "exit_offset": 19,
+          "buy_date": "2026-03-04",
+          "return_pct": 27.5862
+        },
+        {
+          "stock_code": "6472",
+          "cb_code": "64722",
+          "event_date": "2026-03-27",
+          "entry_offset": -5,
+          "exit_offset": 19,
+          "buy_date": "2026-03-23",
+          "return_pct": -6.0639
+        },
+        {
+          "stock_code": "3680",
+          "cb_code": "36803",
+          "event_date": "2026-05-06",
+          "entry_offset": -5,
+          "exit_offset": 19,
+          "buy_date": "2026-05-04",
+          "return_pct": 5.4965
+        },
+        {
+          "stock_code": "5464",
+          "cb_code": null,
+          "event_date": "2026-05-08",
+          "entry_offset": -5,
+          "exit_offset": 19,
+          "buy_date": "2026-05-04",
+          "return_pct": 98.0501
+        },
+        {
+          "stock_code": "4931",
+          "cb_code": null,
+          "event_date": "2026-05-14",
+          "entry_offset": -5,
+          "exit_offset": 19,
+          "buy_date": "2026-05-11",
+          "return_pct": 23.5294
+        },
+        {
+          "stock_code": "5289",
+          "cb_code": "52892",
+          "event_date": "2026-06-15",
+          "entry_offset": -5,
+          "exit_offset": 19,
+          "buy_date": "2026-06-10",
+          "return_pct": -8.3565
+        },
+        {
+          "stock_code": "8096",
+          "cb_code": "80962",
+          "event_date": "2026-06-29",
+          "entry_offset": -5,
+          "exit_offset": 19,
+          "buy_date": "2026-06-24",
+          "return_pct": -17.9487
+        },
+        {
+          "stock_code": "3081",
+          "cb_code": "30811",
+          "event_date": "2026-07-28",
+          "entry_offset": -5,
+          "exit_offset": 19,
+          "buy_date": "2026-07-23",
+          "return_pct": 52.459
+        },
+        {
+          "stock_code": "3219",
+          "cb_code": null,
+          "event_date": "2026-08-10",
+          "entry_offset": -5,
+          "exit_offset": 19,
+          "buy_date": "2026-08-05",
+          "return_pct": 40.0
+        },
+        {
+          "stock_code": "3219",
+          "cb_code": "32191",
+          "event_date": "2026-08-10",
+          "entry_offset": -5,
+          "exit_offset": 19,
+          "buy_date": "2026-08-05",
+          "return_pct": 40.0
+        }
+      ]
+    },
+    {
+      "stage": "AUCTION_BID_START",
+      "entry_offset": -5,
+      "exit_offset": 19,
+      "rules": [
+        "momentum10_positive",
+        "volume_not_crowded",
+        "foreign_positive"
+      ],
+      "n": 15,
+      "win_rate": 73.33,
+      "avg_return": 20.71,
+      "median_return": 20.79,
+      "worst_return": -17.95,
+      "best_return": 98.05,
+      "trade_keys": [
+        {
+          "stock_code": "8021",
+          "cb_code": null,
+          "event_date": "2026-01-05",
+          "entry_offset": -5,
+          "exit_offset": 19,
+          "buy_date": "2025-12-31",
+          "return_pct": 20.7895
+        },
+        {
+          "stock_code": "2467",
+          "cb_code": null,
+          "event_date": "2026-01-07",
+          "entry_offset": -5,
+          "exit_offset": 19,
+          "buy_date": "2026-01-02",
+          "return_pct": -13.3333
+        },
+        {
+          "stock_code": "3587",
+          "cb_code": "35871",
+          "event_date": "2026-01-20",
+          "entry_offset": -5,
+          "exit_offset": 19,
+          "buy_date": "2026-01-15",
+          "return_pct": 11.4667
+        },
+        {
+          "stock_code": "6515",
+          "cb_code": "65151",
+          "event_date": "2026-01-21",
+          "entry_offset": -5,
+          "exit_offset": 19,
+          "buy_date": "2026-01-16",
+          "return_pct": 33.5219
+        },
+        {
+          "stock_code": "3324",
+          "cb_code": "33244",
+          "event_date": "2026-02-26",
+          "entry_offset": -5,
+          "exit_offset": 19,
+          "buy_date": "2026-02-23",
+          "return_pct": 3.4483
+        },
+        {
+          "stock_code": "3715",
+          "cb_code": null,
+          "event_date": "2026-03-09",
+          "entry_offset": -5,
+          "exit_offset": 19,
+          "buy_date": "2026-03-04",
+          "return_pct": 27.5862
+        },
+        {
+          "stock_code": "6472",
+          "cb_code": "64722",
+          "event_date": "2026-03-27",
+          "entry_offset": -5,
+          "exit_offset": 19,
+          "buy_date": "2026-03-23",
+          "return_pct": -6.0639
+        },
+        {
+          "stock_code": "3680",
+          "cb_code": "36803",
+          "event_date": "2026-05-06",
+          "entry_offset": -5,
+          "exit_offset": 19,
+          "buy_date": "2026-05-04",
+          "return_pct": 5.4965
+        },
+        {
+          "stock_code": "5464",
+          "cb_code": null,
+          "event_date": "2026-05-08",
+          "entry_offset": -5,
+          "exit_offset": 19,
+          "buy_date": "2026-05-04",
+          "return_pct": 98.0501
+        },
+        {
+          "stock_code": "4931",
+          "cb_code": null,
+          "event_date": "2026-05-14",
+          "entry_offset": -5,
+          "exit_offset": 19,
+          "buy_date": "2026-05-11",
+          "return_pct": 23.5294
+        },
+        {
+          "stock_code": "5289",
+          "cb_code": "52892",
+          "event_date": "2026-06-15",
+          "entry_offset": -5,
+          "exit_offset": 19,
+          "buy_date": "2026-06-10",
+          "return_pct": -8.3565
+        },
+        {
+          "stock_code": "8096",
+          "cb_code": "80962",
+          "event_date": "2026-06-29",
+          "entry_offset": -5,
+          "exit_offset": 19,
+          "buy_date": "2026-06-24",
+          "return_pct": -17.9487
+        },
+        {
+          "stock_code": "3081",
+          "cb_code": "30811",
+          "event_date": "2026-07-28",
+          "entry_offset": -5,
+          "exit_offset": 19,
+          "buy_date": "2026-07-23",
+          "return_pct": 52.459
+        },
+        {
+          "stock_code": "3219",
+          "cb_code": null,
+          "event_date": "2026-08-10",
+          "entry_offset": -5,
+          "exit_offset": 19,
+          "buy_date": "2026-08-05",
+          "return_pct": 40.0
+        },
+        {
+          "stock_code": "3219",
+          "cb_code": "32191",
+          "event_date": "2026-08-10",
+          "entry_offset": -5,
+          "exit_offset": 19,
+          "buy_date": "2026-08-05",
+          "return_pct": 40.0
+        }
+      ]
+    },
+    {
+      "stage": "AUCTION_BID_START",
+      "entry_offset": -5,
+      "exit_offset": 19,
+      "rules": [
+        "momentum10_positive",
+        "foreign_positive",
+        "foreign_or_trust_positive"
+      ],
+      "n": 15,
+      "win_rate": 73.33,
+      "avg_return": 20.71,
+      "median_return": 20.79,
+      "worst_return": -17.95,
+      "best_return": 98.05,
+      "trade_keys": [
+        {
+          "stock_code": "8021",
+          "cb_code": null,
+          "event_date": "2026-01-05",
+          "entry_offset": -5,
+          "exit_offset": 19,
+          "buy_date": "2025-12-31",
+          "return_pct": 20.7895
+        },
+        {
+          "stock_code": "2467",
+          "cb_code": null,
+          "event_date": "2026-01-07",
+          "entry_offset": -5,
+          "exit_offset": 19,
+          "buy_date": "2026-01-02",
+          "return_pct": -13.3333
+        },
+        {
+          "stock_code": "3587",
+          "cb_code": "35871",
+          "event_date": "2026-01-20",
+          "entry_offset": -5,
+          "exit_offset": 19,
+          "buy_date": "2026-01-15",
+          "return_pct": 11.4667
+        },
+        {
+          "stock_code": "6515",
+          "cb_code": "65151",
+          "event_date": "2026-01-21",
+          "entry_offset": -5,
+          "exit_offset": 19,
+          "buy_date": "2026-01-16",
+          "return_pct": 33.5219
+        },
+        {
+          "stock_code": "3324",
+          "cb_code": "33244",
+          "event_date": "2026-02-26",
+          "entry_offset": -5,
+          "exit_offset": 19,
+          "buy_date": "2026-02-23",
+          "return_pct": 3.4483
+        },
+        {
+          "stock_code": "3715",
+          "cb_code": null,
+          "event_date": "2026-03-09",
+          "entry_offset": -5,
+          "exit_offset": 19,
+          "buy_date": "2026-03-04",
+          "return_pct": 27.5862
+        },
+        {
+          "stock_code": "6472",
+          "cb_code": "64722",
+          "event_date": "2026-03-27",
+          "entry_offset": -5,
+          "exit_offset": 19,
+          "buy_date": "2026-03-23",
+          "return_pct": -6.0639
+        },
+        {
+          "stock_code": "3680",
+          "cb_code": "36803",
+          "event_date": "2026-05-06",
+          "entry_offset": -5,
+          "exit_offset": 19,
+          "buy_date": "2026-05-04",
+          "return_pct": 5.4965
+        },
+        {
+          "stock_code": "5464",
+          "cb_code": null,
+          "event_date": "2026-05-08",
+          "entry_offset": -5,
+          "exit_offset": 19,
+          "buy_date": "2026-05-04",
+          "return_pct": 98.0501
+        },
+        {
+          "stock_code": "4931",
+          "cb_code": null,
+          "event_date": "2026-05-14",
+          "entry_offset": -5,
+          "exit_offset": 19,
+          "buy_date": "2026-05-11",
+          "return_pct": 23.5294
+        },
+        {
+          "stock_code": "5289",
+          "cb_code": "52892",
+          "event_date": "2026-06-15",
+          "entry_offset": -5,
+          "exit_offset": 19,
+          "buy_date": "2026-06-10",
+          "return_pct": -8.3565
+        },
+        {
+          "stock_code": "8096",
+          "cb_code": "80962",
+          "event_date": "2026-06-29",
+          "entry_offset": -5,
+          "exit_offset": 19,
+          "buy_date": "2026-06-24",
+          "return_pct": -17.9487
+        },
+        {
+          "stock_code": "3081",
+          "cb_code": "30811",
+          "event_date": "2026-07-28",
+          "entry_offset": -5,
+          "exit_offset": 19,
+          "buy_date": "2026-07-23",
+          "return_pct": 52.459
+        },
+        {
+          "stock_code": "3219",
+          "cb_code": null,
+          "event_date": "2026-08-10",
+          "entry_offset": -5,
+          "exit_offset": 19,
+          "buy_date": "2026-08-05",
+          "return_pct": 40.0
+        },
+        {
+          "stock_code": "3219",
+          "cb_code": "32191",
+          "event_date": "2026-08-10",
+          "entry_offset": -5,
+          "exit_offset": 19,
+          "buy_date": "2026-08-05",
+          "return_pct": 40.0
+        }
+      ]
+    },
+    {
+      "stage": "AUCTION_BID_START",
+      "entry_offset": -5,
+      "exit_offset": 19,
+      "rules": [
+        "momentum5_positive",
+        "trust_positive"
+      ],
+      "n": 14,
+      "win_rate": 78.57,
+      "avg_return": 20.65,
+      "median_return": 20.79,
+      "worst_return": -17.95,
+      "best_return": 98.05,
+      "trade_keys": [
+        {
+          "stock_code": "8021",
+          "cb_code": null,
+          "event_date": "2026-01-05",
+          "entry_offset": -5,
+          "exit_offset": 19,
+          "buy_date": "2025-12-31",
+          "return_pct": 20.7895
+        },
+        {
+          "stock_code": "2467",
+          "cb_code": null,
+          "event_date": "2026-01-07",
+          "entry_offset": -5,
+          "exit_offset": 19,
+          "buy_date": "2026-01-02",
+          "return_pct": -13.3333
+        },
+        {
+          "stock_code": "8210",
+          "cb_code": "82101",
+          "event_date": "2026-01-19",
+          "entry_offset": -5,
+          "exit_offset": 19,
+          "buy_date": "2026-01-14",
+          "return_pct": -4.903
+        },
+        {
+          "stock_code": "6515",
+          "cb_code": "65151",
+          "event_date": "2026-01-21",
+          "entry_offset": -5,
+          "exit_offset": 19,
+          "buy_date": "2026-01-16",
+          "return_pct": 33.5219
+        },
+        {
+          "stock_code": "3324",
+          "cb_code": "33244",
+          "event_date": "2026-02-26",
+          "entry_offset": -5,
+          "exit_offset": 19,
+          "buy_date": "2026-02-23",
+          "return_pct": 3.4483
+        },
+        {
+          "stock_code": "4714",
+          "cb_code": "47146",
+          "event_date": "2026-04-16",
+          "entry_offset": -5,
+          "exit_offset": 19,
+          "buy_date": "2026-04-13",
+          "return_pct": 5.5944
+        },
+        {
+          "stock_code": "3680",
+          "cb_code": "36803",
+          "event_date": "2026-05-06",
+          "entry_offset": -5,
+          "exit_offset": 19,
+          "buy_date": "2026-05-04",
+          "return_pct": 5.4965
+        },
+        {
+          "stock_code": "5464",
+          "cb_code": null,
+          "event_date": "2026-05-08",
+          "entry_offset": -5,
+          "exit_offset": 19,
+          "buy_date": "2026-05-04",
+          "return_pct": 98.0501
+        },
+        {
+          "stock_code": "4931",
+          "cb_code": null,
+          "event_date": "2026-05-14",
+          "entry_offset": -5,
+          "exit_offset": 19,
+          "buy_date": "2026-05-11",
+          "return_pct": 23.5294
+        },
+        {
+          "stock_code": "8096",
+          "cb_code": "80962",
+          "event_date": "2026-06-29",
+          "entry_offset": -5,
+          "exit_offset": 19,
+          "buy_date": "2026-06-24",
+          "return_pct": -17.9487
+        },
+        {
+          "stock_code": "3081",
+          "cb_code": "30811",
+          "event_date": "2026-07-28",
+          "entry_offset": -5,
+          "exit_offset": 19,
+          "buy_date": "2026-07-23",
+          "return_pct": 52.459
+        },
+        {
+          "stock_code": "8155",
+          "cb_code": "81552",
+          "event_date": "2026-07-29",
+          "entry_offset": -5,
+          "exit_offset": 19,
+          "buy_date": "2026-07-24",
+          "return_pct": 2.4351
+        },
+        {
+          "stock_code": "3219",
+          "cb_code": null,
+          "event_date": "2026-08-10",
+          "entry_offset": -5,
+          "exit_offset": 19,
+          "buy_date": "2026-08-05",
+          "return_pct": 40.0
+        },
+        {
+          "stock_code": "3219",
+          "cb_code": "32191",
+          "event_date": "2026-08-10",
+          "entry_offset": -5,
+          "exit_offset": 19,
+          "buy_date": "2026-08-05",
+          "return_pct": 40.0
+        }
+      ]
+    },
+    {
+      "stage": "AUCTION_BID_START",
+      "entry_offset": -5,
+      "exit_offset": 19,
+      "rules": [
+        "momentum5_positive",
+        "foreign_or_trust_positive"
+      ],
+      "n": 14,
+      "win_rate": 78.57,
+      "avg_return": 20.65,
+      "median_return": 20.79,
+      "worst_return": -17.95,
+      "best_return": 98.05,
+      "trade_keys": [
+        {
+          "stock_code": "8021",
+          "cb_code": null,
+          "event_date": "2026-01-05",
+          "entry_offset": -5,
+          "exit_offset": 19,
+          "buy_date": "2025-12-31",
+          "return_pct": 20.7895
+        },
+        {
+          "stock_code": "2467",
+          "cb_code": null,
+          "event_date": "2026-01-07",
+          "entry_offset": -5,
+          "exit_offset": 19,
+          "buy_date": "2026-01-02",
+          "return_pct": -13.3333
+        },
+        {
+          "stock_code": "8210",
+          "cb_code": "82101",
+          "event_date": "2026-01-19",
+          "entry_offset": -5,
+          "exit_offset": 19,
+          "buy_date": "2026-01-14",
+          "return_pct": -4.903
+        },
+        {
+          "stock_code": "6515",
+          "cb_code": "65151",
+          "event_date": "2026-01-21",
+          "entry_offset": -5,
+          "exit_offset": 19,
+          "buy_date": "2026-01-16",
+          "return_pct": 33.5219
+        },
+        {
+          "stock_code": "3324",
+          "cb_code": "33244",
+          "event_date": "2026-02-26",
+          "entry_offset": -5,
+          "exit_offset": 19,
+          "buy_date": "2026-02-23",
+          "return_pct": 3.4483
+        },
+        {
+          "stock_code": "4714",
+          "cb_code": "47146",
+          "event_date": "2026-04-16",
+          "entry_offset": -5,
+          "exit_offset": 19,
+          "buy_date": "2026-04-13",
+          "return_pct": 5.5944
+        },
+        {
+          "stock_code": "3680",
+          "cb_code": "36803",
+          "event_date": "2026-05-06",
+          "entry_offset": -5,
+          "exit_offset": 19,
+          "buy_date": "2026-05-04",
+          "return_pct": 5.4965
+        },
+        {
+          "stock_code": "5464",
+          "cb_code": null,
+          "event_date": "2026-05-08",
+          "entry_offset": -5,
+          "exit_offset": 19,
+          "buy_date": "2026-05-04",
+          "return_pct": 98.0501
+        },
+        {
+          "stock_code": "4931",
+          "cb_code": null,
+          "event_date": "2026-05-14",
+          "entry_offset": -5,
+          "exit_offset": 19,
+          "buy_date": "2026-05-11",
+          "return_pct": 23.5294
+        },
+        {
+          "stock_code": "8096",
+          "cb_code": "80962",
+          "event_date": "2026-06-29",
+          "entry_offset": -5,
+          "exit_offset": 19,
+          "buy_date": "2026-06-24",
+          "return_pct": -17.9487
+        },
+        {
+          "stock_code": "3081",
+          "cb_code": "30811",
+          "event_date": "2026-07-28",
+          "entry_offset": -5,
+          "exit_offset": 19,
+          "buy_date": "2026-07-23",
+          "return_pct": 52.459
+        },
+        {
+          "stock_code": "8155",
+          "cb_code": "81552",
+          "event_date": "2026-07-29",
+          "entry_offset": -5,
+          "exit_offset": 19,
+          "buy_date": "2026-07-24",
+          "return_pct": 2.4351
+        },
+        {
+          "stock_code": "3219",
+          "cb_code": null,
+          "event_date": "2026-08-10",
+          "entry_offset": -5,
+          "exit_offset": 19,
+          "buy_date": "2026-08-05",
+          "return_pct": 40.0
+        },
+        {
+          "stock_code": "3219",
+          "cb_code": "32191",
+          "event_date": "2026-08-10",
+          "entry_offset": -5,
+          "exit_offset": 19,
+          "buy_date": "2026-08-05",
+          "return_pct": 40.0
+        }
+      ]
+    },
+    {
+      "stage": "AUCTION_BID_START",
+      "entry_offset": -5,
+      "exit_offset": 19,
+      "rules": [
+        "momentum5_positive",
+        "volume_not_crowded",
+        "trust_positive"
+      ],
+      "n": 14,
+      "win_rate": 78.57,
+      "avg_return": 20.65,
+      "median_return": 20.79,
+      "worst_return": -17.95,
+      "best_return": 98.05,
+      "trade_keys": [
+        {
+          "stock_code": "8021",
+          "cb_code": null,
+          "event_date": "2026-01-05",
+          "entry_offset": -5,
+          "exit_offset": 19,
+          "buy_date": "2025-12-31",
+          "return_pct": 20.7895
+        },
+        {
+          "stock_code": "2467",
+          "cb_code": null,
+          "event_date": "2026-01-07",
+          "entry_offset": -5,
+          "exit_offset": 19,
+          "buy_date": "2026-01-02",
+          "return_pct": -13.3333
+        },
+        {
+          "stock_code": "8210",
+          "cb_code": "82101",
+          "event_date": "2026-01-19",
+          "entry_offset": -5,
+          "exit_offset": 19,
+          "buy_date": "2026-01-14",
+          "return_pct": -4.903
+        },
+        {
+          "stock_code": "6515",
+          "cb_code": "65151",
+          "event_date": "2026-01-21",
+          "entry_offset": -5,
+          "exit_offset": 19,
+          "buy_date": "2026-01-16",
+          "return_pct": 33.5219
+        },
+        {
+          "stock_code": "3324",
+          "cb_code": "33244",
+          "event_date": "2026-02-26",
+          "entry_offset": -5,
+          "exit_offset": 19,
+          "buy_date": "2026-02-23",
+          "return_pct": 3.4483
+        },
+        {
+          "stock_code": "4714",
+          "cb_code": "47146",
+          "event_date": "2026-04-16",
+          "entry_offset": -5,
+          "exit_offset": 19,
+          "buy_date": "2026-04-13",
+          "return_pct": 5.5944
+        },
+        {
+          "stock_code": "3680",
+          "cb_code": "36803",
+          "event_date": "2026-05-06",
+          "entry_offset": -5,
+          "exit_offset": 19,
+          "buy_date": "2026-05-04",
+          "return_pct": 5.4965
+        },
+        {
+          "stock_code": "5464",
+          "cb_code": null,
+          "event_date": "2026-05-08",
+          "entry_offset": -5,
+          "exit_offset": 19,
+          "buy_date": "2026-05-04",
+          "return_pct": 98.0501
+        },
+        {
+          "stock_code": "4931",
+          "cb_code": null,
+          "event_date": "2026-05-14",
+          "entry_offset": -5,
+          "exit_offset": 19,
+          "buy_date": "2026-05-11",
+          "return_pct": 23.5294
+        },
+        {
+          "stock_code": "8096",
+          "cb_code": "80962",
+          "event_date": "2026-06-29",
+          "entry_offset": -5,
+          "exit_offset": 19,
+          "buy_date": "2026-06-24",
+          "return_pct": -17.9487
+        },
+        {
+          "stock_code": "3081",
+          "cb_code": "30811",
+          "event_date": "2026-07-28",
+          "entry_offset": -5,
+          "exit_offset": 19,
+          "buy_date": "2026-07-23",
+          "return_pct": 52.459
+        },
+        {
+          "stock_code": "8155",
+          "cb_code": "81552",
+          "event_date": "2026-07-29",
+          "entry_offset": -5,
+          "exit_offset": 19,
+          "buy_date": "2026-07-24",
+          "return_pct": 2.4351
+        },
+        {
+          "stock_code": "3219",
+          "cb_code": null,
+          "event_date": "2026-08-10",
+          "entry_offset": -5,
+          "exit_offset": 19,
+          "buy_date": "2026-08-05",
+          "return_pct": 40.0
+        },
+        {
+          "stock_code": "3219",
+          "cb_code": "32191",
+          "event_date": "2026-08-10",
+          "entry_offset": -5,
+          "exit_offset": 19,
+          "buy_date": "2026-08-05",
+          "return_pct": 40.0
+        }
+      ]
+    },
+    {
+      "stage": "AUCTION_BID_START",
+      "entry_offset": -5,
+      "exit_offset": 19,
+      "rules": [
+        "momentum5_positive",
+        "volume_not_crowded",
+        "foreign_or_trust_positive"
+      ],
+      "n": 14,
+      "win_rate": 78.57,
+      "avg_return": 20.65,
+      "median_return": 20.79,
+      "worst_return": -17.95,
+      "best_return": 98.05,
+      "trade_keys": [
+        {
+          "stock_code": "8021",
+          "cb_code": null,
+          "event_date": "2026-01-05",
+          "entry_offset": -5,
+          "exit_offset": 19,
+          "buy_date": "2025-12-31",
+          "return_pct": 20.7895
+        },
+        {
+          "stock_code": "2467",
+          "cb_code": null,
+          "event_date": "2026-01-07",
+          "entry_offset": -5,
+          "exit_offset": 19,
+          "buy_date": "2026-01-02",
+          "return_pct": -13.3333
+        },
+        {
+          "stock_code": "8210",
+          "cb_code": "82101",
+          "event_date": "2026-01-19",
+          "entry_offset": -5,
+          "exit_offset": 19,
+          "buy_date": "2026-01-14",
+          "return_pct": -4.903
+        },
+        {
+          "stock_code": "6515",
+          "cb_code": "65151",
+          "event_date": "2026-01-21",
+          "entry_offset": -5,
+          "exit_offset": 19,
+          "buy_date": "2026-01-16",
+          "return_pct": 33.5219
+        },
+        {
+          "stock_code": "3324",
+          "cb_code": "33244",
+          "event_date": "2026-02-26",
+          "entry_offset": -5,
+          "exit_offset": 19,
+          "buy_date": "2026-02-23",
+          "return_pct": 3.4483
+        },
+        {
+          "stock_code": "4714",
+          "cb_code": "47146",
+          "event_date": "2026-04-16",
+          "entry_offset": -5,
+          "exit_offset": 19,
+          "buy_date": "2026-04-13",
+          "return_pct": 5.5944
+        },
+        {
+          "stock_code": "3680",
+          "cb_code": "36803",
+          "event_date": "2026-05-06",
+          "entry_offset": -5,
+          "exit_offset": 19,
+          "buy_date": "2026-05-04",
+          "return_pct": 5.4965
+        },
+        {
+          "stock_code": "5464",
+          "cb_code": null,
+          "event_date": "2026-05-08",
+          "entry_offset": -5,
+          "exit_offset": 19,
+          "buy_date": "2026-05-04",
+          "return_pct": 98.0501
+        },
+        {
+          "stock_code": "4931",
+          "cb_code": null,
+          "event_date": "2026-05-14",
+          "entry_offset": -5,
+          "exit_offset": 19,
+          "buy_date": "2026-05-11",
+          "return_pct": 23.5294
+        },
+        {
+          "stock_code": "8096",
+          "cb_code": "80962",
+          "event_date": "2026-06-29",
+          "entry_offset": -5,
+          "exit_offset": 19,
+          "buy_date": "2026-06-24",
+          "return_pct": -17.9487
+        },
+        {
+          "stock_code": "3081",
+          "cb_code": "30811",
+          "event_date": "2026-07-28",
+          "entry_offset": -5,
+          "exit_offset": 19,
+          "buy_date": "2026-07-23",
+          "return_pct": 52.459
+        },
+        {
+          "stock_code": "8155",
+          "cb_code": "81552",
+          "event_date": "2026-07-29",
+          "entry_offset": -5,
+          "exit_offset": 19,
+          "buy_date": "2026-07-24",
+          "return_pct": 2.4351
+        },
+        {
+          "stock_code": "3219",
+          "cb_code": null,
+          "event_date": "2026-08-10",
+          "entry_offset": -5,
+          "exit_offset": 19,
+          "buy_date": "2026-08-05",
+          "return_pct": 40.0
+        },
+        {
+          "stock_code": "3219",
+          "cb_code": "32191",
+          "event_date": "2026-08-10",
+          "entry_offset": -5,
+          "exit_offset": 19,
+          "buy_date": "2026-08-05",
+          "return_pct": 40.0
+        }
+      ]
+    },
+    {
+      "stage": "AUCTION_BID_START",
+      "entry_offset": -5,
+      "exit_offset": 19,
+      "rules": [
+        "momentum5_positive",
+        "trust_positive",
+        "foreign_or_trust_positive"
+      ],
+      "n": 14,
+      "win_rate": 78.57,
+      "avg_return": 20.65,
+      "median_return": 20.79,
+      "worst_return": -17.95,
+      "best_return": 98.05,
+      "trade_keys": [
+        {
+          "stock_code": "8021",
+          "cb_code": null,
+          "event_date": "2026-01-05",
+          "entry_offset": -5,
+          "exit_offset": 19,
+          "buy_date": "2025-12-31",
+          "return_pct": 20.7895
+        },
+        {
+          "stock_code": "2467",
+          "cb_code": null,
+          "event_date": "2026-01-07",
+          "entry_offset": -5,
+          "exit_offset": 19,
+          "buy_date": "2026-01-02",
+          "return_pct": -13.3333
+        },
+        {
+          "stock_code": "8210",
+          "cb_code": "82101",
+          "event_date": "2026-01-19",
+          "entry_offset": -5,
+          "exit_offset": 19,
+          "buy_date": "2026-01-14",
+          "return_pct": -4.903
+        },
+        {
+          "stock_code": "6515",
+          "cb_code": "65151",
+          "event_date": "2026-01-21",
+          "entry_offset": -5,
+          "exit_offset": 19,
+          "buy_date": "2026-01-16",
+          "return_pct": 33.5219
+        },
+        {
+          "stock_code": "3324",
+          "cb_code": "33244",
+          "event_date": "2026-02-26",
+          "entry_offset": -5,
+          "exit_offset": 19,
+          "buy_date": "2026-02-23",
+          "return_pct": 3.4483
+        },
+        {
+          "stock_code": "4714",
+          "cb_code": "47146",
+          "event_date": "2026-04-16",
+          "entry_offset": -5,
+          "exit_offset": 19,
+          "buy_date": "2026-04-13",
+          "return_pct": 5.5944
+        },
+        {
+          "stock_code": "3680",
+          "cb_code": "36803",
+          "event_date": "2026-05-06",
+          "entry_offset": -5,
+          "exit_offset": 19,
+          "buy_date": "2026-05-04",
+          "return_pct": 5.4965
+        },
+        {
+          "stock_code": "5464",
+          "cb_code": null,
+          "event_date": "2026-05-08",
+          "entry_offset": -5,
+          "exit_offset": 19,
+          "buy_date": "2026-05-04",
+          "return_pct": 98.0501
+        },
+        {
+          "stock_code": "4931",
+          "cb_code": null,
+          "event_date": "2026-05-14",
+          "entry_offset": -5,
+          "exit_offset": 19,
+          "buy_date": "2026-05-11",
+          "return_pct": 23.5294
+        },
+        {
+          "stock_code": "8096",
+          "cb_code": "80962",
+          "event_date": "2026-06-29",
+          "entry_offset": -5,
+          "exit_offset": 19,
+          "buy_date": "2026-06-24",
+          "return_pct": -17.9487
+        },
+        {
+          "stock_code": "3081",
+          "cb_code": "30811",
+          "event_date": "2026-07-28",
+          "entry_offset": -5,
+          "exit_offset": 19,
+          "buy_date": "2026-07-23",
+          "return_pct": 52.459
+        },
+        {
+          "stock_code": "8155",
+          "cb_code": "81552",
+          "event_date": "2026-07-29",
+          "entry_offset": -5,
+          "exit_offset": 19,
+          "buy_date": "2026-07-24",
+          "return_pct": 2.4351
+        },
+        {
+          "stock_code": "3219",
+          "cb_code": null,
+          "event_date": "2026-08-10",
+          "entry_offset": -5,
+          "exit_offset": 19,
+          "buy_date": "2026-08-05",
+          "return_pct": 40.0
+        },
+        {
+          "stock_code": "3219",
+          "cb_code": "32191",
+          "event_date": "2026-08-10",
+          "entry_offset": -5,
+          "exit_offset": 19,
+          "buy_date": "2026-08-05",
+          "return_pct": 40.0
+        }
+      ]
+    },
+    {
+      "stage": "AUCTION_BID_START",
+      "entry_offset": -3,
+      "exit_offset": 20,
+      "rules": [
+        "momentum5_positive",
+        "momentum10_positive",
+        "trust_positive"
+      ],
+      "n": 10,
+      "win_rate": 80.0,
+      "avg_return": 20.48,
+      "median_return": 22.91,
+      "worst_return": -19.43,
+      "best_return": 91.38,
+      "trade_keys": [
+        {
+          "stock_code": "8021",
+          "cb_code": null,
+          "event_date": "2026-01-05",
+          "entry_offset": -3,
+          "exit_offset": 20,
+          "buy_date": "2026-01-02",
+          "return_pct": 21.1082
+        },
+        {
+          "stock_code": "2467",
+          "cb_code": null,
+          "event_date": "2026-01-07",
+          "entry_offset": -3,
+          "exit_offset": 20,
+          "buy_date": "2026-01-05",
+          "return_pct": -15.2057
+        },
+        {
+          "stock_code": "3324",
+          "cb_code": "33244",
+          "event_date": "2026-02-26",
+          "entry_offset": -3,
+          "exit_offset": 20,
+          "buy_date": "2026-02-23",
+          "return_pct": 1.4778
+        },
+        {
+          "stock_code": "3680",
+          "cb_code": "36803",
+          "event_date": "2026-05-06",
+          "entry_offset": -3,
+          "exit_offset": 20,
+          "buy_date": "2026-05-04",
+          "return_pct": 4.4326
+        },
+        {
+          "stock_code": "5464",
+          "cb_code": null,
+          "event_date": "2026-05-08",
+          "entry_offset": -3,
+          "exit_offset": 20,
+          "buy_date": "2026-05-05",
+          "return_pct": 91.3815
+        },
+        {
+          "stock_code": "4931",
+          "cb_code": null,
+          "event_date": "2026-05-14",
+          "entry_offset": -3,
+          "exit_offset": 20,
+          "buy_date": "2026-05-11",
+          "return_pct": 35.8289
+        },
+        {
+          "stock_code": "3491",
+          "cb_code": "34912",
+          "event_date": "2026-05-25",
+          "entry_offset": -3,
+          "exit_offset": 20,
+          "buy_date": "2026-05-22",
+          "return_pct": -19.4301
+        },
+        {
+          "stock_code": "4967",
+          "cb_code": "49671",
+          "event_date": "2026-08-03",
+          "entry_offset": -3,
+          "exit_offset": 20,
+          "buy_date": "2026-07-31",
+          "return_pct": 22.9105
+        },
+        {
+          "stock_code": "3219",
+          "cb_code": null,
+          "event_date": "2026-08-10",
+          "entry_offset": -3,
+          "exit_offset": 20,
+          "buy_date": "2026-08-07",
+          "return_pct": 31.1239
+        },
+        {
+          "stock_code": "3219",
+          "cb_code": "32191",
+          "event_date": "2026-08-10",
+          "entry_offset": -3,
+          "exit_offset": 20,
+          "buy_date": "2026-08-07",
+          "return_pct": 31.1239
+        }
+      ]
+    },
+    {
+      "stage": "AUCTION_BID_START",
+      "entry_offset": -3,
+      "exit_offset": 20,
+      "rules": [
+        "momentum5_positive",
+        "momentum10_positive",
+        "foreign_or_trust_positive"
+      ],
+      "n": 10,
+      "win_rate": 80.0,
+      "avg_return": 20.48,
+      "median_return": 22.91,
+      "worst_return": -19.43,
+      "best_return": 91.38,
+      "trade_keys": [
+        {
+          "stock_code": "8021",
+          "cb_code": null,
+          "event_date": "2026-01-05",
+          "entry_offset": -3,
+          "exit_offset": 20,
+          "buy_date": "2026-01-02",
+          "return_pct": 21.1082
+        },
+        {
+          "stock_code": "2467",
+          "cb_code": null,
+          "event_date": "2026-01-07",
+          "entry_offset": -3,
+          "exit_offset": 20,
+          "buy_date": "2026-01-05",
+          "return_pct": -15.2057
+        },
+        {
+          "stock_code": "3324",
+          "cb_code": "33244",
+          "event_date": "2026-02-26",
+          "entry_offset": -3,
+          "exit_offset": 20,
+          "buy_date": "2026-02-23",
+          "return_pct": 1.4778
+        },
+        {
+          "stock_code": "3680",
+          "cb_code": "36803",
+          "event_date": "2026-05-06",
+          "entry_offset": -3,
+          "exit_offset": 20,
+          "buy_date": "2026-05-04",
+          "return_pct": 4.4326
+        },
+        {
+          "stock_code": "5464",
+          "cb_code": null,
+          "event_date": "2026-05-08",
+          "entry_offset": -3,
+          "exit_offset": 20,
+          "buy_date": "2026-05-05",
+          "return_pct": 91.3815
+        },
+        {
+          "stock_code": "4931",
+          "cb_code": null,
+          "event_date": "2026-05-14",
+          "entry_offset": -3,
+          "exit_offset": 20,
+          "buy_date": "2026-05-11",
+          "return_pct": 35.8289
+        },
+        {
+          "stock_code": "3491",
+          "cb_code": "34912",
+          "event_date": "2026-05-25",
+          "entry_offset": -3,
+          "exit_offset": 20,
+          "buy_date": "2026-05-22",
+          "return_pct": -19.4301
+        },
+        {
+          "stock_code": "4967",
+          "cb_code": "49671",
+          "event_date": "2026-08-03",
+          "entry_offset": -3,
+          "exit_offset": 20,
+          "buy_date": "2026-07-31",
+          "return_pct": 22.9105
+        },
+        {
+          "stock_code": "3219",
+          "cb_code": null,
+          "event_date": "2026-08-10",
+          "entry_offset": -3,
+          "exit_offset": 20,
+          "buy_date": "2026-08-07",
+          "return_pct": 31.1239
+        },
+        {
+          "stock_code": "3219",
+          "cb_code": "32191",
+          "event_date": "2026-08-10",
+          "entry_offset": -3,
+          "exit_offset": 20,
+          "buy_date": "2026-08-07",
+          "return_pct": 31.1239
+        }
+      ]
+    },
+    {
+      "stage": "AUCTION_BID_START",
+      "entry_offset": -5,
+      "exit_offset": 20,
+      "rules": [
+        "momentum5_positive",
+        "momentum10_positive"
+      ],
+      "n": 19,
+      "win_rate": 63.16,
+      "avg_return": 20.24,
+      "median_return": 12.57,
+      "worst_return": -17.95,
+      "best_return": 110.31,
+      "trade_keys": [
+        {
+          "stock_code": "8021",
+          "cb_code": null,
+          "event_date": "2026-01-05",
+          "entry_offset": -5,
+          "exit_offset": 20,
+          "buy_date": "2025-12-31",
+          "return_pct": 20.7895
+        },
+        {
+          "stock_code": "2467",
+          "cb_code": null,
+          "event_date": "2026-01-07",
+          "entry_offset": -5,
+          "exit_offset": 20,
+          "buy_date": "2026-01-02",
+          "return_pct": -12.2222
+        },
+        {
+          "stock_code": "6515",
+          "cb_code": "65151",
+          "event_date": "2026-01-21",
+          "entry_offset": -5,
+          "exit_offset": 20,
+          "buy_date": "2026-01-16",
+          "return_pct": 38.4724
+        },
+        {
+          "stock_code": "3324",
+          "cb_code": "33244",
+          "event_date": "2026-02-26",
+          "entry_offset": -5,
+          "exit_offset": 20,
+          "buy_date": "2026-02-23",
+          "return_pct": 1.4778
+        },
+        {
+          "stock_code": "8271",
+          "cb_code": null,
+          "event_date": "2026-04-17",
+          "entry_offset": -5,
+          "exit_offset": 20,
+          "buy_date": "2026-04-13",
+          "return_pct": 58.9744
+        },
+        {
+          "stock_code": "5284",
+          "cb_code": null,
+          "event_date": "2026-04-23",
+          "entry_offset": -5,
+          "exit_offset": 20,
+          "buy_date": "2026-04-20",
+          "return_pct": 12.5714
+        },
+        {
+          "stock_code": "4503",
+          "cb_code": null,
+          "event_date": "2026-04-27",
+          "entry_offset": -5,
+          "exit_offset": 20,
+          "buy_date": "2026-04-22",
+          "return_pct": -2.7335
+        },
+        {
+          "stock_code": "8074",
+          "cb_code": null,
+          "event_date": "2026-04-28",
+          "entry_offset": -5,
+          "exit_offset": 20,
+          "buy_date": "2026-04-23",
+          "return_pct": -2.4413
+        },
+        {
+          "stock_code": "3680",
+          "cb_code": "36803",
+          "event_date": "2026-05-06",
+          "entry_offset": -5,
+          "exit_offset": 20,
+          "buy_date": "2026-05-04",
+          "return_pct": 4.4326
+        },
+        {
+          "stock_code": "6803",
+          "cb_code": null,
+          "event_date": "2026-05-06",
+          "entry_offset": -5,
+          "exit_offset": 20,
+          "buy_date": "2026-05-04",
+          "return_pct": -1.5491
+        },
+        {
+          "stock_code": "5464",
+          "cb_code": null,
+          "event_date": "2026-05-08",
+          "entry_offset": -5,
+          "exit_offset": 20,
+          "buy_date": "2026-05-04",
+          "return_pct": 110.3064
+        },
+        {
+          "stock_code": "4749",
+          "cb_code": null,
+          "event_date": "2026-05-13",
+          "entry_offset": -5,
+          "exit_offset": 20,
+          "buy_date": "2026-05-08",
+          "return_pct": -3.2258
+        },
+        {
+          "stock_code": "4931",
+          "cb_code": null,
+          "event_date": "2026-05-14",
+          "entry_offset": -5,
+          "exit_offset": 20,
+          "buy_date": "2026-05-11",
+          "return_pct": 35.8289
+        },
+        {
+          "stock_code": "3491",
+          "cb_code": "34912",
+          "event_date": "2026-05-25",
+          "entry_offset": -5,
+          "exit_offset": 20,
+          "buy_date": "2026-05-20",
+          "return_pct": -11.396
+        },
+        {
+          "stock_code": "6220",
+          "cb_code": "62209",
+          "event_date": "2026-05-26",
+          "entry_offset": -5,
+          "exit_offset": 20,
+          "buy_date": "2026-05-21",
+          "return_pct": 20.7178
+        },
+        {
+          "stock_code": "8096",
+          "cb_code": "80962",
+          "event_date": "2026-06-29",
+          "entry_offset": -5,
+          "exit_offset": 20,
+          "buy_date": "2026-06-24",
+          "return_pct": -17.9487
+        },
+        {
+          "stock_code": "3081",
+          "cb_code": "30811",
+          "event_date": "2026-07-28",
+          "entry_offset": -5,
+          "exit_offset": 20,
+          "buy_date": "2026-07-23",
+          "return_pct": 52.459
+        },
+        {
+          "stock_code": "3219",
+          "cb_code": null,
+          "event_date": "2026-08-10",
+          "entry_offset": -5,
+          "exit_offset": 20,
+          "buy_date": "2026-08-05",
+          "return_pct": 40.0
+        },
+        {
+          "stock_code": "3219",
+          "cb_code": "32191",
+          "event_date": "2026-08-10",
+          "entry_offset": -5,
+          "exit_offset": 20,
+          "buy_date": "2026-08-05",
+          "return_pct": 40.0
+        }
+      ]
+    },
+    {
+      "stage": "AUCTION_BID_START",
+      "entry_offset": -5,
+      "exit_offset": 20,
+      "rules": [
+        "momentum5_positive",
+        "momentum10_positive",
+        "volume_not_crowded"
+      ],
+      "n": 19,
+      "win_rate": 63.16,
+      "avg_return": 20.24,
+      "median_return": 12.57,
+      "worst_return": -17.95,
+      "best_return": 110.31,
+      "trade_keys": [
+        {
+          "stock_code": "8021",
+          "cb_code": null,
+          "event_date": "2026-01-05",
+          "entry_offset": -5,
+          "exit_offset": 20,
+          "buy_date": "2025-12-31",
+          "return_pct": 20.7895
+        },
+        {
+          "stock_code": "2467",
+          "cb_code": null,
+          "event_date": "2026-01-07",
+          "entry_offset": -5,
+          "exit_offset": 20,
+          "buy_date": "2026-01-02",
+          "return_pct": -12.2222
+        },
+        {
+          "stock_code": "6515",
+          "cb_code": "65151",
+          "event_date": "2026-01-21",
+          "entry_offset": -5,
+          "exit_offset": 20,
+          "buy_date": "2026-01-16",
+          "return_pct": 38.4724
+        },
+        {
+          "stock_code": "3324",
+          "cb_code": "33244",
+          "event_date": "2026-02-26",
+          "entry_offset": -5,
+          "exit_offset": 20,
+          "buy_date": "2026-02-23",
+          "return_pct": 1.4778
+        },
+        {
+          "stock_code": "8271",
+          "cb_code": null,
+          "event_date": "2026-04-17",
+          "entry_offset": -5,
+          "exit_offset": 20,
+          "buy_date": "2026-04-13",
+          "return_pct": 58.9744
+        },
+        {
+          "stock_code": "5284",
+          "cb_code": null,
+          "event_date": "2026-04-23",
+          "entry_offset": -5,
+          "exit_offset": 20,
+          "buy_date": "2026-04-20",
+          "return_pct": 12.5714
+        },
+        {
+          "stock_code": "4503",
+          "cb_code": null,
+          "event_date": "2026-04-27",
+          "entry_offset": -5,
+          "exit_offset": 20,
+          "buy_date": "2026-04-22",
+          "return_pct": -2.7335
+        },
+        {
+          "stock_code": "8074",
+          "cb_code": null,
+          "event_date": "2026-04-28",
+          "entry_offset": -5,
+          "exit_offset": 20,
+          "buy_date": "2026-04-23",
+          "return_pct": -2.4413
+        },
+        {
+          "stock_code": "3680",
+          "cb_code": "36803",
+          "event_date": "2026-05-06",
+          "entry_offset": -5,
+          "exit_offset": 20,
+          "buy_date": "2026-05-04",
+          "return_pct": 4.4326
+        },
+        {
+          "stock_code": "6803",
+          "cb_code": null,
+          "event_date": "2026-05-06",
+          "entry_offset": -5,
+          "exit_offset": 20,
+          "buy_date": "2026-05-04",
+          "return_pct": -1.5491
+        },
+        {
+          "stock_code": "5464",
+          "cb_code": null,
+          "event_date": "2026-05-08",
+          "entry_offset": -5,
+          "exit_offset": 20,
+          "buy_date": "2026-05-04",
+          "return_pct": 110.3064
+        },
+        {
+          "stock_code": "4749",
+          "cb_code": null,
+          "event_date": "2026-05-13",
+          "entry_offset": -5,
+          "exit_offset": 20,
+          "buy_date": "2026-05-08",
+          "return_pct": -3.2258
+        },
+        {
+          "stock_code": "4931",
+          "cb_code": null,
+          "event_date": "2026-05-14",
+          "entry_offset": -5,
+          "exit_offset": 20,
+          "buy_date": "2026-05-11",
+          "return_pct": 35.8289
+        },
+        {
+          "stock_code": "3491",
+          "cb_code": "34912",
+          "event_date": "2026-05-25",
+          "entry_offset": -5,
+          "exit_offset": 20,
+          "buy_date": "2026-05-20",
+          "return_pct": -11.396
+        },
+        {
+          "stock_code": "6220",
+          "cb_code": "62209",
+          "event_date": "2026-05-26",
+          "entry_offset": -5,
+          "exit_offset": 20,
+          "buy_date": "2026-05-21",
+          "return_pct": 20.7178
+        },
+        {
+          "stock_code": "8096",
+          "cb_code": "80962",
+          "event_date": "2026-06-29",
+          "entry_offset": -5,
+          "exit_offset": 20,
+          "buy_date": "2026-06-24",
+          "return_pct": -17.9487
+        },
+        {
+          "stock_code": "3081",
+          "cb_code": "30811",
+          "event_date": "2026-07-28",
+          "entry_offset": -5,
+          "exit_offset": 20,
+          "buy_date": "2026-07-23",
+          "return_pct": 52.459
+        },
+        {
+          "stock_code": "3219",
+          "cb_code": null,
+          "event_date": "2026-08-10",
+          "entry_offset": -5,
+          "exit_offset": 20,
+          "buy_date": "2026-08-05",
+          "return_pct": 40.0
+        },
+        {
+          "stock_code": "3219",
+          "cb_code": "32191",
+          "event_date": "2026-08-10",
+          "entry_offset": -5,
+          "exit_offset": 20,
+          "buy_date": "2026-08-05",
+          "return_pct": 40.0
         }
       ]
     },
@@ -914,6 +6169,257 @@
           "exit_offset": 20,
           "buy_date": "2026-06-24",
           "return_pct": -17.9487
+        }
+      ]
+    },
+    {
+      "stage": "AUCTION_BID_START",
+      "entry_offset": -3,
+      "exit_offset": 19,
+      "rules": [
+        "momentum10_positive",
+        "foreign_or_trust_positive"
+      ],
+      "n": 12,
+      "win_rate": 83.33,
+      "avg_return": 20.02,
+      "median_return": 22.91,
+      "worst_return": -19.43,
+      "best_return": 80.23,
+      "trade_keys": [
+        {
+          "stock_code": "8021",
+          "cb_code": null,
+          "event_date": "2026-01-05",
+          "entry_offset": -3,
+          "exit_offset": 19,
+          "buy_date": "2026-01-02",
+          "return_pct": 21.1082
+        },
+        {
+          "stock_code": "2467",
+          "cb_code": null,
+          "event_date": "2026-01-07",
+          "entry_offset": -3,
+          "exit_offset": 19,
+          "buy_date": "2026-01-05",
+          "return_pct": -16.2791
+        },
+        {
+          "stock_code": "6515",
+          "cb_code": "65151",
+          "event_date": "2026-01-21",
+          "entry_offset": -3,
+          "exit_offset": 19,
+          "buy_date": "2026-01-19",
+          "return_pct": 36.4162
+        },
+        {
+          "stock_code": "3324",
+          "cb_code": "33244",
+          "event_date": "2026-02-26",
+          "entry_offset": -3,
+          "exit_offset": 19,
+          "buy_date": "2026-02-23",
+          "return_pct": 3.4483
+        },
+        {
+          "stock_code": "3715",
+          "cb_code": null,
+          "event_date": "2026-03-09",
+          "entry_offset": -3,
+          "exit_offset": 19,
+          "buy_date": "2026-03-06",
+          "return_pct": 20.5212
+        },
+        {
+          "stock_code": "3680",
+          "cb_code": "36803",
+          "event_date": "2026-05-06",
+          "entry_offset": -3,
+          "exit_offset": 19,
+          "buy_date": "2026-05-04",
+          "return_pct": 5.4965
+        },
+        {
+          "stock_code": "5464",
+          "cb_code": null,
+          "event_date": "2026-05-08",
+          "entry_offset": -3,
+          "exit_offset": 19,
+          "buy_date": "2026-05-05",
+          "return_pct": 80.2281
+        },
+        {
+          "stock_code": "4931",
+          "cb_code": null,
+          "event_date": "2026-05-14",
+          "entry_offset": -3,
+          "exit_offset": 19,
+          "buy_date": "2026-05-11",
+          "return_pct": 23.5294
+        },
+        {
+          "stock_code": "3491",
+          "cb_code": "34912",
+          "event_date": "2026-05-25",
+          "entry_offset": -3,
+          "exit_offset": 19,
+          "buy_date": "2026-05-22",
+          "return_pct": -19.4301
+        },
+        {
+          "stock_code": "4967",
+          "cb_code": "49671",
+          "event_date": "2026-08-03",
+          "entry_offset": -3,
+          "exit_offset": 19,
+          "buy_date": "2026-07-31",
+          "return_pct": 22.9105
+        },
+        {
+          "stock_code": "3219",
+          "cb_code": null,
+          "event_date": "2026-08-10",
+          "entry_offset": -3,
+          "exit_offset": 19,
+          "buy_date": "2026-08-07",
+          "return_pct": 31.1239
+        },
+        {
+          "stock_code": "3219",
+          "cb_code": "32191",
+          "event_date": "2026-08-10",
+          "entry_offset": -3,
+          "exit_offset": 19,
+          "buy_date": "2026-08-07",
+          "return_pct": 31.1239
+        }
+      ]
+    },
+    {
+      "stage": "AUCTION_BID_START",
+      "entry_offset": -3,
+      "exit_offset": 19,
+      "rules": [
+        "momentum10_positive",
+        "volume_not_crowded",
+        "foreign_or_trust_positive"
+      ],
+      "n": 12,
+      "win_rate": 83.33,
+      "avg_return": 20.02,
+      "median_return": 22.91,
+      "worst_return": -19.43,
+      "best_return": 80.23,
+      "trade_keys": [
+        {
+          "stock_code": "8021",
+          "cb_code": null,
+          "event_date": "2026-01-05",
+          "entry_offset": -3,
+          "exit_offset": 19,
+          "buy_date": "2026-01-02",
+          "return_pct": 21.1082
+        },
+        {
+          "stock_code": "2467",
+          "cb_code": null,
+          "event_date": "2026-01-07",
+          "entry_offset": -3,
+          "exit_offset": 19,
+          "buy_date": "2026-01-05",
+          "return_pct": -16.2791
+        },
+        {
+          "stock_code": "6515",
+          "cb_code": "65151",
+          "event_date": "2026-01-21",
+          "entry_offset": -3,
+          "exit_offset": 19,
+          "buy_date": "2026-01-19",
+          "return_pct": 36.4162
+        },
+        {
+          "stock_code": "3324",
+          "cb_code": "33244",
+          "event_date": "2026-02-26",
+          "entry_offset": -3,
+          "exit_offset": 19,
+          "buy_date": "2026-02-23",
+          "return_pct": 3.4483
+        },
+        {
+          "stock_code": "3715",
+          "cb_code": null,
+          "event_date": "2026-03-09",
+          "entry_offset": -3,
+          "exit_offset": 19,
+          "buy_date": "2026-03-06",
+          "return_pct": 20.5212
+        },
+        {
+          "stock_code": "3680",
+          "cb_code": "36803",
+          "event_date": "2026-05-06",
+          "entry_offset": -3,
+          "exit_offset": 19,
+          "buy_date": "2026-05-04",
+          "return_pct": 5.4965
+        },
+        {
+          "stock_code": "5464",
+          "cb_code": null,
+          "event_date": "2026-05-08",
+          "entry_offset": -3,
+          "exit_offset": 19,
+          "buy_date": "2026-05-05",
+          "return_pct": 80.2281
+        },
+        {
+          "stock_code": "4931",
+          "cb_code": null,
+          "event_date": "2026-05-14",
+          "entry_offset": -3,
+          "exit_offset": 19,
+          "buy_date": "2026-05-11",
+          "return_pct": 23.5294
+        },
+        {
+          "stock_code": "3491",
+          "cb_code": "34912",
+          "event_date": "2026-05-25",
+          "entry_offset": -3,
+          "exit_offset": 19,
+          "buy_date": "2026-05-22",
+          "return_pct": -19.4301
+        },
+        {
+          "stock_code": "4967",
+          "cb_code": "49671",
+          "event_date": "2026-08-03",
+          "entry_offset": -3,
+          "exit_offset": 19,
+          "buy_date": "2026-07-31",
+          "return_pct": 22.9105
+        },
+        {
+          "stock_code": "3219",
+          "cb_code": null,
+          "event_date": "2026-08-10",
+          "entry_offset": -3,
+          "exit_offset": 19,
+          "buy_date": "2026-08-07",
+          "return_pct": 31.1239
+        },
+        {
+          "stock_code": "3219",
+          "cb_code": "32191",
+          "event_date": "2026-08-10",
+          "entry_offset": -3,
+          "exit_offset": 19,
+          "buy_date": "2026-08-07",
+          "return_pct": 31.1239
         }
       ]
     }

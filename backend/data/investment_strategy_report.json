@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-08-30T17:15:01",
+  "generated_at": "2026-08-31T17:15:57",
   "report_title": "公司債事件策略投資報告",
   "report_status": "research_only",
   "summary": {
     "headline": "目前已有平均報酬超過 20% 的候選，但尚未達到正式操盤標準。",
     "reason": "競拍歷史資料目前集中在 2026 年，且最佳候選去除單一最大值後平均報酬降至 13.52%。",
-    "search_samples": 8420,
-    "matching_strategies": 8
+    "search_samples": 8451,
+    "matching_strategies": 48
   },
   "candidates": [
     {
@@ -17,14 +17,15 @@
       "exit": "競拍開始日後第 20 天出場",
       "conditions": [
         "買進前 5 日股價動能為正",
+        "買進前 10 日股價動能為正",
         "外資近 5 日累計買超"
       ],
       "metrics": {
         "samples": 11,
         "win_rate": 81.82,
-        "avg_return": 21.91,
-        "median_return": 4.43,
-        "trimmed_avg_return": 13.07,
+        "avg_return": 28.51,
+        "median_return": 35.83,
+        "trimmed_avg_return": 20.33,
         "worst_return": -17.95,
         "best_return": 110.31,
         "years": [
@@ -41,40 +42,15 @@
       "exit": "競拍開始日後第 20 天出場",
       "conditions": [
         "買進前 5 日股價動能為正",
-        "近 5 日量能未超過 20 日均量 3 倍",
-        "外資近 5 日累計買超"
-      ],
-      "metrics": {
-        "samples": 11,
-        "win_rate": 81.82,
-        "avg_return": 21.91,
-        "median_return": 4.43,
-        "trimmed_avg_return": 13.07,
-        "worst_return": -17.95,
-        "best_return": 110.31,
-        "years": [
-          "2026"
-        ]
-      },
-      "warning": "平均報酬受單一大漲案例影響；去除最佳案例後未達 20%，目前不得自動下單。"
-    },
-    {
-      "status": "research_only",
-      "status_label": "研究候選，尚未通過",
-      "name": "競拍前法人動能策略",
-      "entry": "競拍開始日前 5 天，條件全部成立才考慮買進",
-      "exit": "競拍開始日後第 20 天出場",
-      "conditions": [
-        "買進前 5 日股價動能為正",
-        "外資近 5 日累計買超",
+        "買進前 10 日股價動能為正",
         "投信近 5 日累計買超"
       ],
       "metrics": {
         "samples": 11,
         "win_rate": 81.82,
-        "avg_return": 21.91,
-        "median_return": 4.43,
-        "trimmed_avg_return": 13.07,
+        "avg_return": 28.51,
+        "median_return": 35.83,
+        "trimmed_avg_return": 20.33,
         "worst_return": -17.95,
         "best_return": 110.31,
         "years": [
@@ -91,15 +67,15 @@
       "exit": "競拍開始日後第 20 天出場",
       "conditions": [
         "買進前 5 日股價動能為正",
-        "外資近 5 日累計買超",
+        "買進前 10 日股價動能為正",
         "外資或投信近 5 日累計買超"
       ],
       "metrics": {
         "samples": 11,
         "win_rate": 81.82,
-        "avg_return": 21.91,
-        "median_return": 4.43,
-        "trimmed_avg_return": 13.07,
+        "avg_return": 28.51,
+        "median_return": 35.83,
+        "trimmed_avg_return": 20.33,
         "worst_return": -17.95,
         "best_return": 110.31,
         "years": [
@@ -113,20 +89,45 @@
       "status_label": "研究候選，尚未通過",
       "name": "競拍前法人動能策略",
       "entry": "競拍開始日前 5 天，條件全部成立才考慮買進",
-      "exit": "競拍開始日後第 20 天出場",
+      "exit": "競拍開始日後第 19 天出場",
       "conditions": [
+        "買進前 5 日股價動能為正",
         "買進前 10 日股價動能為正",
-        "外資近 5 日累計買超",
+        "外資近 5 日累計買超"
+      ],
+      "metrics": {
+        "samples": 11,
+        "win_rate": 81.82,
+        "avg_return": 26.0,
+        "median_return": 23.53,
+        "trimmed_avg_return": 18.8,
+        "worst_return": -17.95,
+        "best_return": 98.05,
+        "years": [
+          "2026"
+        ]
+      },
+      "warning": "平均報酬受單一大漲案例影響；去除最佳案例後未達 20%，目前不得自動下單。"
+    },
+    {
+      "status": "research_only",
+      "status_label": "研究候選，尚未通過",
+      "name": "競拍前法人動能策略",
+      "entry": "競拍開始日前 5 天，條件全部成立才考慮買進",
+      "exit": "競拍開始日後第 19 天出場",
+      "conditions": [
+        "買進前 5 日股價動能為正",
+        "買進前 10 日股價動能為正",
         "投信近 5 日累計買超"
       ],
       "metrics": {
         "samples": 11,
-        "win_rate": 72.73,
-        "avg_return": 21.52,
-        "median_return": 11.47,
-        "trimmed_avg_return": 12.64,
+        "win_rate": 81.82,
+        "avg_return": 26.0,
+        "median_return": 23.53,
+        "trimmed_avg_return": 18.8,
         "worst_return": -17.95,
-        "best_return": 110.31,
+        "best_return": 98.05,
         "years": [
           "2026"
         ]

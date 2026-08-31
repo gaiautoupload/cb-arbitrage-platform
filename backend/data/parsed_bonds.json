@@ -7933,5 +7933,20 @@
     "maturity_date_minguo": "118年9月3日",
     "maturity_date": "2029-09-03",
     "issue_amount": "新台幣10億元整"
+  },
+  {
+    "file_id": "11500056061",
+    "company_name": "盟立自動化股份有限公司",
+    "bond_name": "盟立自動化股份有限公司國內第三次無擔保轉換公司債",
+    "cb_code": "24643",
+    "stock_code": "2464",
+    "short_name": "盟立三",
+    "announcement_date_minguo": "115年8月31日",
+    "announcement_date": "2026-08-31",
+    "issue_date_minguo": "115年9月7日",
+    "issue_date": "2026-09-07",
+    "maturity_date_minguo": "118年9月7日",
+    "maturity_date": "2029-09-07",
+    "issue_amount": "新台幣10億元整"
   }
 ]

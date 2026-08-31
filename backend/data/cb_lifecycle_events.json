@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-30T17:14:16",
+  "generated_at": "2026-08-31T17:15:07",
   "source_files": {
     "mops_wiki_db": "mops_wiki_db.json",
     "parsed_bonds": "parsed_bonds.json",
@@ -12,19 +12,19 @@
     "Generated linked BOARD_RESOLUTION/EFFECTIVE dates are retained only as low-confidence proxy events."
   ],
   "summary": {
-    "total_events": 3438,
-    "actual_or_observed_events": 1284,
-    "inferred_events": 2154,
+    "total_events": 3441,
+    "actual_or_observed_events": 1286,
+    "inferred_events": 2155,
     "by_stage": {
       "BOARD_RESOLUTION": 560,
       "FILING": 13,
-      "EFFECTIVE": 522,
-      "PRICING": 519,
+      "EFFECTIVE": 523,
+      "PRICING": 520,
       "PAYMENT_BANK": 33,
       "AUCTION_BID_START": 58,
       "AUCTION_BID_END": 58,
       "AUCTION_RESULT_ESTIMATED": 58,
-      "LISTING": 522,
+      "LISTING": 523,
       "CBAS_PROXY_START": 365,
       "CBAS_PROXY_END": 365,
       "T_PLUS_19_EXIT_PROXY": 365
@@ -5771,6 +5771,18 @@
     },
     {
       "stock_code": "2464",
+      "company_name": "盟立自動化股份有限公司",
+      "short_name": "盟立三",
+      "stage": "EFFECTIVE",
+      "date": "2026-08-03",
+      "source": "linked_bond_stages_proxy",
+      "confidence": 0.25,
+      "is_inferred": true,
+      "title": "金管會申報生效發行無擔保轉換公司債",
+      "summary": "可轉債申報生效，正式進入定價與發行準備期"
+    },
+    {
+      "stock_code": "2464",
       "company_name": "盟立",
       "short_name": "盟立二",
       "stage": "PAYMENT_BANK",
@@ -5835,6 +5847,30 @@
       "summary": "董事會/股東會決議: 補充說明本公司115年6月16日公告\r\n發行國內第三次無擔保轉換公司債",
       "event_type": "CB_ISSUANCE",
       "published_at": "2026-08-27T160506"
+    },
+    {
+      "stock_code": "2464",
+      "company_name": "盟立自動化股份有限公司",
+      "short_name": "盟立三",
+      "stage": "PRICING",
+      "date": "2026-08-31",
+      "source": "parsed_bonds",
+      "confidence": 0.65,
+      "is_inferred": false,
+      "title": "盟立三 announcement/pricing date",
+      "cb_code": "24643"
+    },
+    {
+      "stock_code": "2464",
+      "company_name": "盟立自動化股份有限公司",
+      "short_name": "盟立三",
+      "stage": "LISTING",
+      "date": "2026-09-07",
+      "source": "parsed_bonds",
+      "confidence": 0.65,
+      "is_inferred": false,
+      "title": "盟立三 issue/listing date",
+      "cb_code": "24643"
     },
     {
       "stock_code": "2466",
