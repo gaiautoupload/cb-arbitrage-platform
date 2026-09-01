@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-31T17:15:07",
+  "generated_at": "2026-09-01T17:10:45",
   "source_files": {
     "mops_wiki_db": "mops_wiki_db.json",
     "parsed_bonds": "parsed_bonds.json",
@@ -12,22 +12,22 @@
     "Generated linked BOARD_RESOLUTION/EFFECTIVE dates are retained only as low-confidence proxy events."
   ],
   "summary": {
-    "total_events": 3441,
-    "actual_or_observed_events": 1286,
-    "inferred_events": 2155,
+    "total_events": 3447,
+    "actual_or_observed_events": 1290,
+    "inferred_events": 2157,
     "by_stage": {
-      "BOARD_RESOLUTION": 560,
+      "BOARD_RESOLUTION": 561,
       "FILING": 13,
-      "EFFECTIVE": 523,
+      "EFFECTIVE": 524,
       "PRICING": 520,
       "PAYMENT_BANK": 33,
       "AUCTION_BID_START": 58,
       "AUCTION_BID_END": 58,
       "AUCTION_RESULT_ESTIMATED": 58,
-      "LISTING": 523,
-      "CBAS_PROXY_START": 365,
-      "CBAS_PROXY_END": 365,
-      "T_PLUS_19_EXIT_PROXY": 365
+      "LISTING": 524,
+      "CBAS_PROXY_START": 366,
+      "CBAS_PROXY_END": 366,
+      "T_PLUS_19_EXIT_PROXY": 366
     }
   },
   "events": [
@@ -1147,18 +1147,6 @@
       "stock_code": "1526",
       "company_name": "日馳企業股份有限公司",
       "short_name": "日馳一",
-      "stage": "BOARD_RESOLUTION",
-      "date": "2023-07-06",
-      "source": "linked_bond_stages_proxy",
-      "confidence": 0.25,
-      "is_inferred": true,
-      "title": "董事會決議發行無擔保轉換公司債",
-      "summary": "董事會通過發行可轉債以充實營運資金或償還債務"
-    },
-    {
-      "stock_code": "1526",
-      "company_name": "日馳企業股份有限公司",
-      "short_name": "日馳一",
       "stage": "EFFECTIVE",
       "date": "2023-08-15",
       "source": "linked_bond_stages_proxy",
@@ -1223,6 +1211,20 @@
       "confidence": 0.3,
       "is_inferred": true,
       "based_on": "2023-09-19"
+    },
+    {
+      "stock_code": "1526",
+      "company_name": "日馳",
+      "short_name": "日馳一",
+      "stage": "BOARD_RESOLUTION",
+      "date": "2026-08-31",
+      "source": "mops_wiki_db",
+      "confidence": 0.85,
+      "is_inferred": false,
+      "title": "公告本公司國內第一次無擔保轉換公司債到期還本暨終止上櫃事宜",
+      "summary": "董事會/股東會決議: 公告本公司國內第一次無擔保轉換公司債到期還本暨終止上櫃事宜",
+      "event_type": "CB_ISSUANCE",
+      "published_at": "2026-08-31T172650"
     },
     {
       "stock_code": "1532",
@@ -17328,6 +17330,53 @@
       "summary": "董事會/股東會決議: 本公司擬認購子公司矽品精密工業(股)公司(下稱「矽品」)\r\n現金增資所發行之普通股新股(補充115/08/10公告)",
       "event_type": "CB_ISSUANCE",
       "published_at": "2026-08-14T165937"
+    },
+    {
+      "stock_code": "3712",
+      "company_name": "永崴投控",
+      "short_name": "",
+      "stage": "LISTING",
+      "date": "2026-08-31",
+      "source": "mops_wiki_db",
+      "confidence": 0.85,
+      "is_inferred": false,
+      "title": "公告本公司對子公司森崴能源股份有限公司及其子公司降低\r\n持股比例達百分之十以上及喪失控制力",
+      "summary": "掛牌/發行: 公告本公司對子公司森崴能源股份有限公司及其子公司降低\r\n持股比例達百分之十以上及喪失控制力",
+      "event_type": "CB_ISSUANCE",
+      "published_at": "2026-08-31T191721"
+    },
+    {
+      "stock_code": "3712",
+      "company_name": "永崴投控",
+      "short_name": "",
+      "stage": "CBAS_PROXY_START",
+      "date": "2026-09-01",
+      "source": "cbas_proxy",
+      "confidence": 0.3,
+      "is_inferred": true,
+      "based_on": "2026-08-31"
+    },
+    {
+      "stock_code": "3712",
+      "company_name": "永崴投控",
+      "short_name": "",
+      "stage": "CBAS_PROXY_END",
+      "date": "2026-09-18",
+      "source": "cbas_proxy",
+      "confidence": 0.3,
+      "is_inferred": true,
+      "based_on": "2026-08-31"
+    },
+    {
+      "stock_code": "3712",
+      "company_name": "永崴投控",
+      "short_name": "",
+      "stage": "T_PLUS_19_EXIT_PROXY",
+      "date": "2026-09-19",
+      "source": "cbas_proxy",
+      "confidence": 0.3,
+      "is_inferred": true,
+      "based_on": "2026-08-31"
     },
     {
       "stock_code": "3713",
@@ -34810,6 +34859,20 @@
       "based_on": "2024-12-05"
     },
     {
+      "stock_code": "6870",
+      "company_name": "騰雲",
+      "short_name": "騰雲二",
+      "stage": "BOARD_RESOLUTION",
+      "date": "2026-08-31",
+      "source": "mops_wiki_db",
+      "confidence": 0.85,
+      "is_inferred": false,
+      "title": "公告本公司董事會決議通過公司章程變更每股面額",
+      "summary": "董事會/股東會決議: 公告本公司董事會決議通過公司章程變更每股面額",
+      "event_type": "CB_ISSUANCE",
+      "published_at": "2026-08-31T182407"
+    },
+    {
       "stock_code": "6873",
       "company_name": "泓德能源科技股份有限公司",
       "short_name": "泓德能源一創",
@@ -40678,6 +40741,20 @@
       "is_inferred": false,
       "title": "世紀鋼八永 issue/listing date",
       "cb_code": "99588"
+    },
+    {
+      "stock_code": "9958",
+      "company_name": "世紀鋼",
+      "short_name": "世紀鋼四",
+      "stage": "EFFECTIVE",
+      "date": "2026-08-31",
+      "source": "mops_wiki_db",
+      "confidence": 0.85,
+      "is_inferred": false,
+      "title": "公告本公司申請延長發行國內第九次無擔保轉換公司債\r\n募集期間三個月，業經金管會核准",
+      "summary": "申報生效: 公告本公司申請延長發行國內第九次無擔保轉換公司債\r\n募集期間三個月，業經金管會核准",
+      "event_type": "CB_ISSUANCE",
+      "published_at": "2026-08-31T144300"
     }
   ]
 }

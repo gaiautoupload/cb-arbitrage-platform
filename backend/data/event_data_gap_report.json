@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-31T17:15:08",
+  "generated_at": "2026-09-01T17:10:46",
   "database": "D:\\bond\\backend\\data\\cb_event_master.sqlite",
   "required_stages": [
     "BOARD_RESOLUTION",
@@ -16,13 +16,13 @@
     "CBAS_ACTUAL"
   ],
   "summary": {
-    "issues": 589,
-    "events": 3494,
-    "issues_with_missing_stages": 589
+    "issues": 590,
+    "events": 3501,
+    "issues_with_missing_stages": 590
   },
   "stage_summary": {
     "BOARD_RESOLUTION": {
-      "observed_events": 83,
+      "observed_events": 85,
       "inferred_events": 496,
       "issues_with_stage": 534
     },
@@ -32,7 +32,7 @@
       "issues_with_stage": 10
     },
     "EFFECTIVE": {
-      "observed_events": 3,
+      "observed_events": 4,
       "inferred_events": 521,
       "issues_with_stage": 521
     },
@@ -72,9 +72,9 @@
       "issues_with_stage": 0
     },
     "LISTING": {
-      "observed_events": 523,
+      "observed_events": 524,
       "inferred_events": 0,
-      "issues_with_stage": 520
+      "issues_with_stage": 521
     },
     "CBAS_ACTUAL": {
       "observed_events": 0,
@@ -535,8 +535,9 @@
       "stock_code": "1526",
       "cb_code": "15261",
       "short_name": "日馳一",
-      "company_name": "日馳企業股份有限公司",
+      "company_name": "日馳",
       "observed_stages": [
+        "BOARD_RESOLUTION",
         "LISTING",
         "PRICING"
       ],
@@ -557,7 +558,7 @@
         "UNDERWRITING_NOTICE",
         "CBAS_ACTUAL"
       ],
-      "event_count": 7
+      "event_count": 8
     },
     {
       "issue_id": "issue_505aef62e8ae01ffddd4",
@@ -7113,6 +7114,35 @@
         "CBAS_ACTUAL"
       ],
       "event_count": 2
+    },
+    {
+      "issue_id": "issue_98b802b17c3f64df6041",
+      "stock_code": "3712",
+      "cb_code": null,
+      "short_name": null,
+      "company_name": "永崴投控",
+      "observed_stages": [
+        "LISTING"
+      ],
+      "inferred_stages": [
+        "CBAS_PROXY_END",
+        "CBAS_PROXY_START",
+        "T_PLUS_19_EXIT_PROXY"
+      ],
+      "missing_stages": [
+        "BOARD_RESOLUTION",
+        "FILING",
+        "EFFECTIVE",
+        "PRICING",
+        "AUCTION_BID_START",
+        "AUCTION_BID_END",
+        "BOOKBUILDING_START",
+        "BOOKBUILDING_END",
+        "BOOKBUILDING_RESULT",
+        "UNDERWRITING_NOTICE",
+        "CBAS_ACTUAL"
+      ],
+      "event_count": 4
     },
     {
       "issue_id": "issue_eeab52533b2e7a9f2c5f",
@@ -14090,8 +14120,9 @@
       "stock_code": "6870",
       "cb_code": "68702",
       "short_name": "騰雲二",
-      "company_name": "騰雲科技服務股份有限公司",
+      "company_name": "騰雲",
       "observed_stages": [
+        "BOARD_RESOLUTION",
         "LISTING",
         "PRICING"
       ],
@@ -14112,7 +14143,7 @@
         "UNDERWRITING_NOTICE",
         "CBAS_ACTUAL"
       ],
-      "event_count": 7
+      "event_count": 8
     },
     {
       "issue_id": "issue_9fb615f9b806d16db248",
@@ -16466,8 +16497,9 @@
       "stock_code": "9958",
       "cb_code": "99584",
       "short_name": "世紀鋼四",
-      "company_name": "世紀鋼鐵結構股份有限公司",
+      "company_name": "世紀鋼",
       "observed_stages": [
+        "EFFECTIVE",
         "LISTING",
         "PRICING"
       ],
@@ -16488,7 +16520,7 @@
         "UNDERWRITING_NOTICE",
         "CBAS_ACTUAL"
       ],
-      "event_count": 7
+      "event_count": 8
     },
     {
       "issue_id": "issue_a67f2d6dadc6abc877c1",
