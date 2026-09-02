@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-01T17:11:05",
+  "generated_at": "2026-09-02T19:06:18",
   "source": "D:\\bond\\backend\\data\\observable_event_strategy_search.json",
   "note": "This is a robustness screen; it does not replace out-of-sample or portfolio-level validation.",
   "validations": [
@@ -411,273 +411,6 @@
         "entry_offset": -5,
         "exit_offset": 20,
         "rules": [
-          "momentum5_positive",
-          "foreign_positive"
-        ],
-        "n": 13,
-        "win_rate": 84.62,
-        "avg_return": 24.69,
-        "worst_return": -17.95,
-        "best_return": 110.31
-      },
-      "all_trades": {
-        "n": 13,
-        "win_rate": 84.62,
-        "avg_return": 24.69,
-        "median_return": 20.79,
-        "worst_return": -17.95,
-        "best_return": 110.31
-      },
-      "trimmed_without_best": {
-        "n": 12,
-        "win_rate": 83.33,
-        "avg_return": 17.56,
-        "median_return": 20.79,
-        "worst_return": -17.95,
-        "best_return": 52.46
-      },
-      "by_event_year": {
-        "2026": {
-          "n": 13,
-          "win_rate": 84.62,
-          "avg_return": 24.69,
-          "median_return": 20.79,
-          "worst_return": -17.95,
-          "best_return": 110.31
-        }
-      },
-      "leave_one_out_min_avg": {
-        "n": 12,
-        "win_rate": 83.33,
-        "avg_return": 17.56,
-        "median_return": 20.79,
-        "worst_return": -17.95,
-        "best_return": 52.46,
-        "excluded": {
-          "stock_code": "5464",
-          "return_pct": 110.3064
-        }
-      },
-      "leave_one_out_max_avg": {
-        "n": 12,
-        "win_rate": 91.67,
-        "avg_return": 28.25,
-        "median_return": 35.83,
-        "worst_return": -12.22,
-        "best_return": 110.31,
-        "excluded": {
-          "stock_code": "8096",
-          "return_pct": -17.9487
-        }
-      }
-    },
-    {
-      "strategy": {
-        "stage": "AUCTION_BID_START",
-        "entry_offset": -5,
-        "exit_offset": 20,
-        "rules": [
-          "momentum5_positive",
-          "volume_not_crowded",
-          "foreign_positive"
-        ],
-        "n": 13,
-        "win_rate": 84.62,
-        "avg_return": 24.69,
-        "worst_return": -17.95,
-        "best_return": 110.31
-      },
-      "all_trades": {
-        "n": 13,
-        "win_rate": 84.62,
-        "avg_return": 24.69,
-        "median_return": 20.79,
-        "worst_return": -17.95,
-        "best_return": 110.31
-      },
-      "trimmed_without_best": {
-        "n": 12,
-        "win_rate": 83.33,
-        "avg_return": 17.56,
-        "median_return": 20.79,
-        "worst_return": -17.95,
-        "best_return": 52.46
-      },
-      "by_event_year": {
-        "2026": {
-          "n": 13,
-          "win_rate": 84.62,
-          "avg_return": 24.69,
-          "median_return": 20.79,
-          "worst_return": -17.95,
-          "best_return": 110.31
-        }
-      },
-      "leave_one_out_min_avg": {
-        "n": 12,
-        "win_rate": 83.33,
-        "avg_return": 17.56,
-        "median_return": 20.79,
-        "worst_return": -17.95,
-        "best_return": 52.46,
-        "excluded": {
-          "stock_code": "5464",
-          "return_pct": 110.3064
-        }
-      },
-      "leave_one_out_max_avg": {
-        "n": 12,
-        "win_rate": 91.67,
-        "avg_return": 28.25,
-        "median_return": 35.83,
-        "worst_return": -12.22,
-        "best_return": 110.31,
-        "excluded": {
-          "stock_code": "8096",
-          "return_pct": -17.9487
-        }
-      }
-    },
-    {
-      "strategy": {
-        "stage": "AUCTION_BID_START",
-        "entry_offset": -5,
-        "exit_offset": 20,
-        "rules": [
-          "momentum5_positive",
-          "foreign_positive",
-          "trust_positive"
-        ],
-        "n": 13,
-        "win_rate": 84.62,
-        "avg_return": 24.69,
-        "worst_return": -17.95,
-        "best_return": 110.31
-      },
-      "all_trades": {
-        "n": 13,
-        "win_rate": 84.62,
-        "avg_return": 24.69,
-        "median_return": 20.79,
-        "worst_return": -17.95,
-        "best_return": 110.31
-      },
-      "trimmed_without_best": {
-        "n": 12,
-        "win_rate": 83.33,
-        "avg_return": 17.56,
-        "median_return": 20.79,
-        "worst_return": -17.95,
-        "best_return": 52.46
-      },
-      "by_event_year": {
-        "2026": {
-          "n": 13,
-          "win_rate": 84.62,
-          "avg_return": 24.69,
-          "median_return": 20.79,
-          "worst_return": -17.95,
-          "best_return": 110.31
-        }
-      },
-      "leave_one_out_min_avg": {
-        "n": 12,
-        "win_rate": 83.33,
-        "avg_return": 17.56,
-        "median_return": 20.79,
-        "worst_return": -17.95,
-        "best_return": 52.46,
-        "excluded": {
-          "stock_code": "5464",
-          "return_pct": 110.3064
-        }
-      },
-      "leave_one_out_max_avg": {
-        "n": 12,
-        "win_rate": 91.67,
-        "avg_return": 28.25,
-        "median_return": 35.83,
-        "worst_return": -12.22,
-        "best_return": 110.31,
-        "excluded": {
-          "stock_code": "8096",
-          "return_pct": -17.9487
-        }
-      }
-    },
-    {
-      "strategy": {
-        "stage": "AUCTION_BID_START",
-        "entry_offset": -5,
-        "exit_offset": 20,
-        "rules": [
-          "momentum5_positive",
-          "foreign_positive",
-          "foreign_or_trust_positive"
-        ],
-        "n": 13,
-        "win_rate": 84.62,
-        "avg_return": 24.69,
-        "worst_return": -17.95,
-        "best_return": 110.31
-      },
-      "all_trades": {
-        "n": 13,
-        "win_rate": 84.62,
-        "avg_return": 24.69,
-        "median_return": 20.79,
-        "worst_return": -17.95,
-        "best_return": 110.31
-      },
-      "trimmed_without_best": {
-        "n": 12,
-        "win_rate": 83.33,
-        "avg_return": 17.56,
-        "median_return": 20.79,
-        "worst_return": -17.95,
-        "best_return": 52.46
-      },
-      "by_event_year": {
-        "2026": {
-          "n": 13,
-          "win_rate": 84.62,
-          "avg_return": 24.69,
-          "median_return": 20.79,
-          "worst_return": -17.95,
-          "best_return": 110.31
-        }
-      },
-      "leave_one_out_min_avg": {
-        "n": 12,
-        "win_rate": 83.33,
-        "avg_return": 17.56,
-        "median_return": 20.79,
-        "worst_return": -17.95,
-        "best_return": 52.46,
-        "excluded": {
-          "stock_code": "5464",
-          "return_pct": 110.3064
-        }
-      },
-      "leave_one_out_max_avg": {
-        "n": 12,
-        "win_rate": 91.67,
-        "avg_return": 28.25,
-        "median_return": 35.83,
-        "worst_return": -12.22,
-        "best_return": 110.31,
-        "excluded": {
-          "stock_code": "8096",
-          "return_pct": -17.9487
-        }
-      }
-    },
-    {
-      "strategy": {
-        "stage": "AUCTION_BID_START",
-        "entry_offset": -5,
-        "exit_offset": 20,
-        "rules": [
           "momentum10_positive",
           "foreign_positive",
           "trust_positive"
@@ -946,18 +679,18 @@
         "exit_offset": 20,
         "rules": [
           "momentum5_positive",
-          "trust_positive"
+          "foreign_positive"
         ],
         "n": 14,
         "win_rate": 78.57,
-        "avg_return": 22.58,
+        "avg_return": 22.69,
         "worst_return": -17.95,
         "best_return": 110.31
       },
       "all_trades": {
         "n": 14,
         "win_rate": 78.57,
-        "avg_return": 22.58,
+        "avg_return": 22.69,
         "median_return": 20.79,
         "worst_return": -17.95,
         "best_return": 110.31
@@ -965,7 +698,7 @@
       "trimmed_without_best": {
         "n": 13,
         "win_rate": 76.92,
-        "avg_return": 15.83,
+        "avg_return": 15.95,
         "median_return": 4.43,
         "worst_return": -17.95,
         "best_return": 52.46
@@ -974,7 +707,7 @@
         "2026": {
           "n": 14,
           "win_rate": 78.57,
-          "avg_return": 22.58,
+          "avg_return": 22.69,
           "median_return": 20.79,
           "worst_return": -17.95,
           "best_return": 110.31
@@ -983,7 +716,7 @@
       "leave_one_out_min_avg": {
         "n": 13,
         "win_rate": 76.92,
-        "avg_return": 15.83,
+        "avg_return": 15.95,
         "median_return": 4.43,
         "worst_return": -17.95,
         "best_return": 52.46,
@@ -995,73 +728,7 @@
       "leave_one_out_max_avg": {
         "n": 13,
         "win_rate": 84.62,
-        "avg_return": 25.7,
-        "median_return": 20.79,
-        "worst_return": -12.22,
-        "best_return": 110.31,
-        "excluded": {
-          "stock_code": "8096",
-          "return_pct": -17.9487
-        }
-      }
-    },
-    {
-      "strategy": {
-        "stage": "AUCTION_BID_START",
-        "entry_offset": -5,
-        "exit_offset": 20,
-        "rules": [
-          "momentum5_positive",
-          "foreign_or_trust_positive"
-        ],
-        "n": 14,
-        "win_rate": 78.57,
-        "avg_return": 22.58,
-        "worst_return": -17.95,
-        "best_return": 110.31
-      },
-      "all_trades": {
-        "n": 14,
-        "win_rate": 78.57,
-        "avg_return": 22.58,
-        "median_return": 20.79,
-        "worst_return": -17.95,
-        "best_return": 110.31
-      },
-      "trimmed_without_best": {
-        "n": 13,
-        "win_rate": 76.92,
-        "avg_return": 15.83,
-        "median_return": 4.43,
-        "worst_return": -17.95,
-        "best_return": 52.46
-      },
-      "by_event_year": {
-        "2026": {
-          "n": 14,
-          "win_rate": 78.57,
-          "avg_return": 22.58,
-          "median_return": 20.79,
-          "worst_return": -17.95,
-          "best_return": 110.31
-        }
-      },
-      "leave_one_out_min_avg": {
-        "n": 13,
-        "win_rate": 76.92,
-        "avg_return": 15.83,
-        "median_return": 4.43,
-        "worst_return": -17.95,
-        "best_return": 52.46,
-        "excluded": {
-          "stock_code": "5464",
-          "return_pct": 110.3064
-        }
-      },
-      "leave_one_out_max_avg": {
-        "n": 13,
-        "win_rate": 84.62,
-        "avg_return": 25.7,
+        "avg_return": 25.81,
         "median_return": 20.79,
         "worst_return": -12.22,
         "best_return": 110.31,
@@ -1079,18 +746,85 @@
         "rules": [
           "momentum5_positive",
           "volume_not_crowded",
+          "foreign_positive"
+        ],
+        "n": 14,
+        "win_rate": 78.57,
+        "avg_return": 22.69,
+        "worst_return": -17.95,
+        "best_return": 110.31
+      },
+      "all_trades": {
+        "n": 14,
+        "win_rate": 78.57,
+        "avg_return": 22.69,
+        "median_return": 20.79,
+        "worst_return": -17.95,
+        "best_return": 110.31
+      },
+      "trimmed_without_best": {
+        "n": 13,
+        "win_rate": 76.92,
+        "avg_return": 15.95,
+        "median_return": 4.43,
+        "worst_return": -17.95,
+        "best_return": 52.46
+      },
+      "by_event_year": {
+        "2026": {
+          "n": 14,
+          "win_rate": 78.57,
+          "avg_return": 22.69,
+          "median_return": 20.79,
+          "worst_return": -17.95,
+          "best_return": 110.31
+        }
+      },
+      "leave_one_out_min_avg": {
+        "n": 13,
+        "win_rate": 76.92,
+        "avg_return": 15.95,
+        "median_return": 4.43,
+        "worst_return": -17.95,
+        "best_return": 52.46,
+        "excluded": {
+          "stock_code": "5464",
+          "return_pct": 110.3064
+        }
+      },
+      "leave_one_out_max_avg": {
+        "n": 13,
+        "win_rate": 84.62,
+        "avg_return": 25.81,
+        "median_return": 20.79,
+        "worst_return": -12.22,
+        "best_return": 110.31,
+        "excluded": {
+          "stock_code": "8096",
+          "return_pct": -17.9487
+        }
+      }
+    },
+    {
+      "strategy": {
+        "stage": "AUCTION_BID_START",
+        "entry_offset": -5,
+        "exit_offset": 20,
+        "rules": [
+          "momentum5_positive",
+          "foreign_positive",
           "trust_positive"
         ],
         "n": 14,
         "win_rate": 78.57,
-        "avg_return": 22.58,
+        "avg_return": 22.69,
         "worst_return": -17.95,
         "best_return": 110.31
       },
       "all_trades": {
         "n": 14,
         "win_rate": 78.57,
-        "avg_return": 22.58,
+        "avg_return": 22.69,
         "median_return": 20.79,
         "worst_return": -17.95,
         "best_return": 110.31
@@ -1098,7 +832,7 @@
       "trimmed_without_best": {
         "n": 13,
         "win_rate": 76.92,
-        "avg_return": 15.83,
+        "avg_return": 15.95,
         "median_return": 4.43,
         "worst_return": -17.95,
         "best_return": 52.46
@@ -1107,7 +841,7 @@
         "2026": {
           "n": 14,
           "win_rate": 78.57,
-          "avg_return": 22.58,
+          "avg_return": 22.69,
           "median_return": 20.79,
           "worst_return": -17.95,
           "best_return": 110.31
@@ -1116,7 +850,7 @@
       "leave_one_out_min_avg": {
         "n": 13,
         "win_rate": 76.92,
-        "avg_return": 15.83,
+        "avg_return": 15.95,
         "median_return": 4.43,
         "worst_return": -17.95,
         "best_return": 52.46,
@@ -1128,7 +862,7 @@
       "leave_one_out_max_avg": {
         "n": 13,
         "win_rate": 84.62,
-        "avg_return": 25.7,
+        "avg_return": 25.81,
         "median_return": 20.79,
         "worst_return": -12.22,
         "best_return": 110.31,
@@ -1145,19 +879,19 @@
         "exit_offset": 20,
         "rules": [
           "momentum5_positive",
-          "volume_not_crowded",
+          "foreign_positive",
           "foreign_or_trust_positive"
         ],
         "n": 14,
         "win_rate": 78.57,
-        "avg_return": 22.58,
+        "avg_return": 22.69,
         "worst_return": -17.95,
         "best_return": 110.31
       },
       "all_trades": {
         "n": 14,
         "win_rate": 78.57,
-        "avg_return": 22.58,
+        "avg_return": 22.69,
         "median_return": 20.79,
         "worst_return": -17.95,
         "best_return": 110.31
@@ -1165,7 +899,7 @@
       "trimmed_without_best": {
         "n": 13,
         "win_rate": 76.92,
-        "avg_return": 15.83,
+        "avg_return": 15.95,
         "median_return": 4.43,
         "worst_return": -17.95,
         "best_return": 52.46
@@ -1174,7 +908,7 @@
         "2026": {
           "n": 14,
           "win_rate": 78.57,
-          "avg_return": 22.58,
+          "avg_return": 22.69,
           "median_return": 20.79,
           "worst_return": -17.95,
           "best_return": 110.31
@@ -1183,7 +917,7 @@
       "leave_one_out_min_avg": {
         "n": 13,
         "win_rate": 76.92,
-        "avg_return": 15.83,
+        "avg_return": 15.95,
         "median_return": 4.43,
         "worst_return": -17.95,
         "best_return": 52.46,
@@ -1195,7 +929,7 @@
       "leave_one_out_max_avg": {
         "n": 13,
         "win_rate": 84.62,
-        "avg_return": 25.7,
+        "avg_return": 25.81,
         "median_return": 20.79,
         "worst_return": -12.22,
         "best_return": 110.31,
@@ -1208,64 +942,130 @@
     {
       "strategy": {
         "stage": "AUCTION_BID_START",
-        "entry_offset": -5,
+        "entry_offset": -3,
         "exit_offset": 20,
         "rules": [
-          "momentum5_positive",
-          "trust_positive",
+          "momentum10_positive",
           "foreign_or_trust_positive"
         ],
-        "n": 14,
-        "win_rate": 78.57,
-        "avg_return": 22.58,
-        "worst_return": -17.95,
-        "best_return": 110.31
+        "n": 12,
+        "win_rate": 83.33,
+        "avg_return": 22.23,
+        "worst_return": -19.43,
+        "best_return": 91.38
       },
       "all_trades": {
-        "n": 14,
-        "win_rate": 78.57,
-        "avg_return": 22.58,
-        "median_return": 20.79,
-        "worst_return": -17.95,
-        "best_return": 110.31
+        "n": 12,
+        "win_rate": 83.33,
+        "avg_return": 22.23,
+        "median_return": 22.91,
+        "worst_return": -19.43,
+        "best_return": 91.38
       },
       "trimmed_without_best": {
+        "n": 11,
+        "win_rate": 81.82,
+        "avg_return": 15.94,
+        "median_return": 21.11,
+        "worst_return": -19.43,
+        "best_return": 41.47
+      },
+      "by_event_year": {
+        "2026": {
+          "n": 12,
+          "win_rate": 83.33,
+          "avg_return": 22.23,
+          "median_return": 22.91,
+          "worst_return": -19.43,
+          "best_return": 91.38
+        }
+      },
+      "leave_one_out_min_avg": {
+        "n": 11,
+        "win_rate": 81.82,
+        "avg_return": 15.94,
+        "median_return": 21.11,
+        "worst_return": -19.43,
+        "best_return": 41.47,
+        "excluded": {
+          "stock_code": "5464",
+          "return_pct": 91.3815
+        }
+      },
+      "leave_one_out_max_avg": {
+        "n": 11,
+        "win_rate": 90.91,
+        "avg_return": 26.02,
+        "median_return": 22.91,
+        "worst_return": -15.21,
+        "best_return": 91.38,
+        "excluded": {
+          "stock_code": "3491",
+          "return_pct": -19.4301
+        }
+      }
+    },
+    {
+      "strategy": {
+        "stage": "AUCTION_BID_START",
+        "entry_offset": -5,
+        "exit_offset": 19,
+        "rules": [
+          "momentum10_positive",
+          "foreign_positive",
+          "trust_positive"
+        ],
         "n": 13,
         "win_rate": 76.92,
-        "avg_return": 15.83,
-        "median_return": 4.43,
+        "avg_return": 22.24,
+        "worst_return": -17.95,
+        "best_return": 98.05
+      },
+      "all_trades": {
+        "n": 13,
+        "win_rate": 76.92,
+        "avg_return": 22.24,
+        "median_return": 20.79,
+        "worst_return": -17.95,
+        "best_return": 98.05
+      },
+      "trimmed_without_best": {
+        "n": 12,
+        "win_rate": 75.0,
+        "avg_return": 15.92,
+        "median_return": 20.79,
         "worst_return": -17.95,
         "best_return": 52.46
       },
       "by_event_year": {
         "2026": {
-          "n": 14,
-          "win_rate": 78.57,
-          "avg_return": 22.58,
+          "n": 13,
+          "win_rate": 76.92,
+          "avg_return": 22.24,
           "median_return": 20.79,
           "worst_return": -17.95,
-          "best_return": 110.31
+          "best_return": 98.05
         }
       },
       "leave_one_out_min_avg": {
-        "n": 13,
-        "win_rate": 76.92,
-        "avg_return": 15.83,
-        "median_return": 4.43,
+        "n": 12,
+        "win_rate": 75.0,
+        "avg_return": 15.92,
+        "median_return": 20.79,
         "worst_return": -17.95,
         "best_return": 52.46,
         "excluded": {
           "stock_code": "5464",
-          "return_pct": 110.3064
+          "return_pct": 98.0501
         }
       },
       "leave_one_out_max_avg": {
-        "n": 13,
-        "win_rate": 84.62,
-        "avg_return": 25.7,
-        "median_return": 20.79,
-        "worst_return": -12.22,
-        "best_return": 110.31,
+        "n": 12,
+        "win_rate": 83.33,
+        "avg_return": 25.59,
+        "median_return": 23.53,
+        "worst_return": -13.33,
+        "best_return": 98.05,
         "excluded": {
           "stock_code": "8096",
           "return_pct": -17.9487
@@ -1329,6 +1129,207 @@
         "n": 10,
         "win_rate": 90.0,
         "avg_return": 26.57,
+        "median_return": 31.12,
+        "worst_return": -15.21,
+        "best_return": 91.38,
+        "excluded": {
+          "stock_code": "3491",
+          "return_pct": -19.4301
+        }
+      }
+    },
+    {
+      "strategy": {
+        "stage": "AUCTION_BID_START",
+        "entry_offset": -3,
+        "exit_offset": 20,
+        "rules": [
+          "momentum10_positive",
+          "volume_not_crowded",
+          "trust_positive"
+        ],
+        "n": 11,
+        "win_rate": 81.82,
+        "avg_return": 22.38,
+        "worst_return": -19.43,
+        "best_return": 91.38
+      },
+      "all_trades": {
+        "n": 11,
+        "win_rate": 81.82,
+        "avg_return": 22.38,
+        "median_return": 22.91,
+        "worst_return": -19.43,
+        "best_return": 91.38
+      },
+      "trimmed_without_best": {
+        "n": 10,
+        "win_rate": 80.0,
+        "avg_return": 15.48,
+        "median_return": 22.91,
+        "worst_return": -19.43,
+        "best_return": 41.47
+      },
+      "by_event_year": {
+        "2026": {
+          "n": 11,
+          "win_rate": 81.82,
+          "avg_return": 22.38,
+          "median_return": 22.91,
+          "worst_return": -19.43,
+          "best_return": 91.38
+        }
+      },
+      "leave_one_out_min_avg": {
+        "n": 10,
+        "win_rate": 80.0,
+        "avg_return": 15.48,
+        "median_return": 22.91,
+        "worst_return": -19.43,
+        "best_return": 41.47,
+        "excluded": {
+          "stock_code": "5464",
+          "return_pct": 91.3815
+        }
+      },
+      "leave_one_out_max_avg": {
+        "n": 10,
+        "win_rate": 90.0,
+        "avg_return": 26.57,
+        "median_return": 31.12,
+        "worst_return": -15.21,
+        "best_return": 91.38,
+        "excluded": {
+          "stock_code": "3491",
+          "return_pct": -19.4301
+        }
+      }
+    },
+    {
+      "strategy": {
+        "stage": "AUCTION_BID_START",
+        "entry_offset": -3,
+        "exit_offset": 20,
+        "rules": [
+          "momentum10_positive",
+          "trust_positive",
+          "foreign_or_trust_positive"
+        ],
+        "n": 11,
+        "win_rate": 81.82,
+        "avg_return": 22.38,
+        "worst_return": -19.43,
+        "best_return": 91.38
+      },
+      "all_trades": {
+        "n": 11,
+        "win_rate": 81.82,
+        "avg_return": 22.38,
+        "median_return": 22.91,
+        "worst_return": -19.43,
+        "best_return": 91.38
+      },
+      "trimmed_without_best": {
+        "n": 10,
+        "win_rate": 80.0,
+        "avg_return": 15.48,
+        "median_return": 22.91,
+        "worst_return": -19.43,
+        "best_return": 41.47
+      },
+      "by_event_year": {
+        "2026": {
+          "n": 11,
+          "win_rate": 81.82,
+          "avg_return": 22.38,
+          "median_return": 22.91,
+          "worst_return": -19.43,
+          "best_return": 91.38
+        }
+      },
+      "leave_one_out_min_avg": {
+        "n": 10,
+        "win_rate": 80.0,
+        "avg_return": 15.48,
+        "median_return": 22.91,
+        "worst_return": -19.43,
+        "best_return": 41.47,
+        "excluded": {
+          "stock_code": "5464",
+          "return_pct": 91.3815
+        }
+      },
+      "leave_one_out_max_avg": {
+        "n": 10,
+        "win_rate": 90.0,
+        "avg_return": 26.57,
+        "median_return": 31.12,
+        "worst_return": -15.21,
+        "best_return": 91.38,
+        "excluded": {
+          "stock_code": "3491",
+          "return_pct": -19.4301
+        }
+      }
+    },
+    {
+      "strategy": {
+        "stage": "AUCTION_BID_START",
+        "entry_offset": -3,
+        "exit_offset": 20,
+        "rules": [
+          "momentum10_positive",
+          "foreign_positive",
+          "trust_positive"
+        ],
+        "n": 10,
+        "win_rate": 80.0,
+        "avg_return": 22.33,
+        "worst_return": -19.43,
+        "best_return": 91.38
+      },
+      "all_trades": {
+        "n": 10,
+        "win_rate": 80.0,
+        "avg_return": 22.33,
+        "median_return": 31.12,
+        "worst_return": -19.43,
+        "best_return": 91.38
+      },
+      "trimmed_without_best": {
+        "n": 9,
+        "win_rate": 77.78,
+        "avg_return": 14.66,
+        "median_return": 21.11,
+        "worst_return": -19.43,
+        "best_return": 41.47
+      },
+      "by_event_year": {
+        "2026": {
+          "n": 10,
+          "win_rate": 80.0,
+          "avg_return": 22.33,
+          "median_return": 31.12,
+          "worst_return": -19.43,
+          "best_return": 91.38
+        }
+      },
+      "leave_one_out_min_avg": {
+        "n": 9,
+        "win_rate": 77.78,
+        "avg_return": 14.66,
+        "median_return": 21.11,
+        "worst_return": -19.43,
+        "best_return": 41.47,
+        "excluded": {
+          "stock_code": "5464",
+          "return_pct": 91.3815
+        }
+      },
+      "leave_one_out_max_avg": {
+        "n": 9,
+        "win_rate": 88.89,
+        "avg_return": 26.97,
         "median_return": 31.12,
         "worst_return": -15.21,
         "best_return": 91.38,

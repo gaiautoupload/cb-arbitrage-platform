@@ -6677,6 +6677,52 @@
     "parsed_at": "2026-09-01T17:00:20"
   },
   {
+    "date": "2026-09-01",
+    "time": "183434",
+    "stock_code": "3141",
+    "company_name": "晶宏",
+    "event_title": "公告本公司國內第五次無擔保轉換公司債代收債款\r\n及存儲專戶行庫",
+    "event_type": "CB_ISSUANCE",
+    "stage": "BOARD_RESOLUTION",
+    "wiki_details": {},
+    "sentiment": "NEUTRAL",
+    "summary": "董事會/股東會決議: 公告本公司國內第五次無擔保轉換公司債代收債款\r\n及存儲專戶行庫",
+    "parser": "rule_v2",
+    "parsed_at": "2026-09-02T18:51:58"
+  },
+  {
+    "date": "2026-09-01",
+    "time": "143853",
+    "stock_code": "3597",
+    "company_name": "映興",
+    "event_title": "公告本公司發行國內第二次無擔保轉換公司債變更承銷方式",
+    "event_type": "CB_ISSUANCE",
+    "stage": "BOARD_RESOLUTION",
+    "wiki_details": {
+      "board_date": "115/09/01"
+    },
+    "sentiment": "NEUTRAL",
+    "summary": "董事會/股東會決議: 公告本公司發行國內第二次無擔保轉換公司債變更承銷方式",
+    "parser": "rule_v2",
+    "parsed_at": "2026-09-02T18:51:58"
+  },
+  {
+    "date": "2026-09-01",
+    "time": "173655",
+    "stock_code": "6937",
+    "company_name": "天虹",
+    "event_title": "公告本公司董事會決議通過發行國內第一次無擔保轉\r\n換公司債",
+    "event_type": "CB_ISSUANCE",
+    "stage": "BOARD_RESOLUTION",
+    "wiki_details": {
+      "board_date": "115/09/01"
+    },
+    "sentiment": "NEUTRAL",
+    "summary": "董事會/股東會決議: 公告本公司董事會決議通過發行國內第一次無擔保轉\r\n換公司債",
+    "parser": "rule_v2",
+    "parsed_at": "2026-09-02T18:51:58"
+  },
+  {
     "date": "2026-02-12",
     "time": "140510",
     "stock_code": "3260",

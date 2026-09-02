@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-01T17:10:46",
+  "generated_at": "2026-09-02T19:05:41",
   "database": "D:\\bond\\backend\\data\\cb_event_master.sqlite",
   "required_stages": [
     "BOARD_RESOLUTION",
@@ -16,15 +16,15 @@
     "CBAS_ACTUAL"
   ],
   "summary": {
-    "issues": 590,
-    "events": 3501,
-    "issues_with_missing_stages": 590
+    "issues": 591,
+    "events": 3504,
+    "issues_with_missing_stages": 591
   },
   "stage_summary": {
     "BOARD_RESOLUTION": {
-      "observed_events": 85,
+      "observed_events": 88,
       "inferred_events": 496,
-      "issues_with_stage": 534
+      "issues_with_stage": 535
     },
     "FILING": {
       "observed_events": 13,
@@ -4180,7 +4180,7 @@
         "UNDERWRITING_NOTICE",
         "CBAS_ACTUAL"
       ],
-      "event_count": 8
+      "event_count": 9
     },
     {
       "issue_id": "issue_02689aada98f16e99363",
@@ -6434,8 +6434,9 @@
       "stock_code": "3597",
       "cb_code": "35971",
       "short_name": "映興一",
-      "company_name": "映興電子股份有限公司",
+      "company_name": "映興",
       "observed_stages": [
+        "BOARD_RESOLUTION",
         "LISTING",
         "PRICING"
       ],
@@ -6456,7 +6457,7 @@
         "UNDERWRITING_NOTICE",
         "CBAS_ACTUAL"
       ],
-      "event_count": 7
+      "event_count": 8
     },
     {
       "issue_id": "issue_48742489cae4d8247846",
@@ -14335,6 +14336,31 @@
         "CBAS_ACTUAL"
       ],
       "event_count": 3
+    },
+    {
+      "issue_id": "issue_0cf6016817b756154a6e",
+      "stock_code": "6937",
+      "cb_code": null,
+      "short_name": null,
+      "company_name": "天虹",
+      "observed_stages": [
+        "BOARD_RESOLUTION"
+      ],
+      "inferred_stages": [],
+      "missing_stages": [
+        "FILING",
+        "EFFECTIVE",
+        "PRICING",
+        "AUCTION_BID_START",
+        "AUCTION_BID_END",
+        "BOOKBUILDING_START",
+        "BOOKBUILDING_END",
+        "BOOKBUILDING_RESULT",
+        "UNDERWRITING_NOTICE",
+        "LISTING",
+        "CBAS_ACTUAL"
+      ],
+      "event_count": 1
     },
     {
       "issue_id": "issue_008238211cd9a2869b90",

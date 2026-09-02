@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-01T17:10:45",
+  "generated_at": "2026-09-02T19:05:40",
   "source_files": {
     "mops_wiki_db": "mops_wiki_db.json",
     "parsed_bonds": "parsed_bonds.json",
@@ -12,11 +12,11 @@
     "Generated linked BOARD_RESOLUTION/EFFECTIVE dates are retained only as low-confidence proxy events."
   ],
   "summary": {
-    "total_events": 3447,
-    "actual_or_observed_events": 1290,
+    "total_events": 3450,
+    "actual_or_observed_events": 1293,
     "inferred_events": 2157,
     "by_stage": {
-      "BOARD_RESOLUTION": 561,
+      "BOARD_RESOLUTION": 564,
       "FILING": 13,
       "EFFECTIVE": 524,
       "PRICING": 520,
@@ -10185,6 +10185,20 @@
       "cb_code": "31414"
     },
     {
+      "stock_code": "3141",
+      "company_name": "晶宏",
+      "short_name": "晶宏一",
+      "stage": "BOARD_RESOLUTION",
+      "date": "2026-09-01",
+      "source": "mops_wiki_db",
+      "confidence": 0.85,
+      "is_inferred": false,
+      "title": "公告本公司國內第五次無擔保轉換公司債代收債款\r\n及存儲專戶行庫",
+      "summary": "董事會/股東會決議: 公告本公司國內第五次無擔保轉換公司債代收債款\r\n及存儲專戶行庫",
+      "event_type": "CB_ISSUANCE",
+      "published_at": "2026-09-01T183434"
+    },
+    {
       "stock_code": "3149",
       "company_name": "正達國際光電股份有限公司",
       "short_name": "正達三",
@@ -15869,6 +15883,20 @@
       "confidence": 0.3,
       "is_inferred": true,
       "based_on": "2021-06-22"
+    },
+    {
+      "stock_code": "3597",
+      "company_name": "映興",
+      "short_name": "映興一",
+      "stage": "BOARD_RESOLUTION",
+      "date": "2026-09-01",
+      "source": "mops_wiki_db",
+      "confidence": 0.85,
+      "is_inferred": false,
+      "title": "公告本公司發行國內第二次無擔保轉換公司債變更承銷方式",
+      "summary": "董事會/股東會決議: 公告本公司發行國內第二次無擔保轉換公司債變更承銷方式",
+      "event_type": "CB_ISSUANCE",
+      "published_at": "2026-09-01T143853"
     },
     {
       "stock_code": "3605",
@@ -35242,6 +35270,20 @@
       "confidence": 0.35,
       "is_inferred": true,
       "serial": "115015"
+    },
+    {
+      "stock_code": "6937",
+      "company_name": "天虹",
+      "short_name": "",
+      "stage": "BOARD_RESOLUTION",
+      "date": "2026-09-01",
+      "source": "mops_wiki_db",
+      "confidence": 0.85,
+      "is_inferred": false,
+      "title": "公告本公司董事會決議通過發行國內第一次無擔保轉\r\n換公司債",
+      "summary": "董事會/股東會決議: 公告本公司董事會決議通過發行國內第一次無擔保轉\r\n換公司債",
+      "event_type": "CB_ISSUANCE",
+      "published_at": "2026-09-01T173655"
     },
     {
       "stock_code": "7402",
