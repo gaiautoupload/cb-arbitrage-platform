@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-02T19:05:41",
+  "generated_at": "2026-09-03T19:13:58",
   "database": "D:\\bond\\backend\\data\\cb_event_master.sqlite",
   "required_stages": [
     "BOARD_RESOLUTION",
@@ -16,15 +16,15 @@
     "CBAS_ACTUAL"
   ],
   "summary": {
-    "issues": 591,
-    "events": 3504,
-    "issues_with_missing_stages": 591
+    "issues": 593,
+    "events": 3520,
+    "issues_with_missing_stages": 593
   },
   "stage_summary": {
     "BOARD_RESOLUTION": {
-      "observed_events": 88,
-      "inferred_events": 496,
-      "issues_with_stage": 535
+      "observed_events": 90,
+      "inferred_events": 497,
+      "issues_with_stage": 537
     },
     "FILING": {
       "observed_events": 13,
@@ -32,24 +32,24 @@
       "issues_with_stage": 10
     },
     "EFFECTIVE": {
-      "observed_events": 4,
-      "inferred_events": 521,
-      "issues_with_stage": 521
+      "observed_events": 5,
+      "inferred_events": 522,
+      "issues_with_stage": 522
     },
     "PRICING": {
-      "observed_events": 520,
+      "observed_events": 521,
       "inferred_events": 0,
-      "issues_with_stage": 519
+      "issues_with_stage": 520
     },
     "AUCTION_BID_START": {
-      "observed_events": 65,
+      "observed_events": 66,
       "inferred_events": 0,
-      "issues_with_stage": 65
+      "issues_with_stage": 66
     },
     "AUCTION_BID_END": {
-      "observed_events": 65,
+      "observed_events": 66,
       "inferred_events": 0,
-      "issues_with_stage": 65
+      "issues_with_stage": 66
     },
     "BOOKBUILDING_START": {
       "observed_events": 0,
@@ -72,9 +72,9 @@
       "issues_with_stage": 0
     },
     "LISTING": {
-      "observed_events": 524,
+      "observed_events": 525,
       "inferred_events": 0,
-      "issues_with_stage": 521
+      "issues_with_stage": 522
     },
     "CBAS_ACTUAL": {
       "observed_events": 0,
@@ -1830,7 +1830,7 @@
       "stock_code": "2303",
       "cb_code": "23031",
       "short_name": "聯電一",
-      "company_name": "聯華電子股份有限公司",
+      "company_name": "聯電",
       "observed_stages": [
         "AUCTION_BID_END",
         "AUCTION_BID_START",
@@ -1853,7 +1853,7 @@
         "UNDERWRITING_NOTICE",
         "CBAS_ACTUAL"
       ],
-      "event_count": 11
+      "event_count": 12
     },
     {
       "issue_id": "issue_8e203ca3018ec2be298a",
@@ -7955,7 +7955,7 @@
         "LISTING",
         "CBAS_ACTUAL"
       ],
-      "event_count": 1
+      "event_count": 2
     },
     {
       "issue_id": "issue_1f6477052d145eac8832",
@@ -14472,6 +14472,32 @@
       "event_count": 8
     },
     {
+      "issue_id": "issue_2d557bdea8cc4403c7d5",
+      "stock_code": "7743",
+      "cb_code": null,
+      "short_name": null,
+      "company_name": "金利食安",
+      "observed_stages": [
+        "BOARD_RESOLUTION",
+        "PAYMENT_BANK"
+      ],
+      "inferred_stages": [],
+      "missing_stages": [
+        "FILING",
+        "EFFECTIVE",
+        "PRICING",
+        "AUCTION_BID_START",
+        "AUCTION_BID_END",
+        "BOOKBUILDING_START",
+        "BOOKBUILDING_END",
+        "BOOKBUILDING_RESULT",
+        "UNDERWRITING_NOTICE",
+        "LISTING",
+        "CBAS_ACTUAL"
+      ],
+      "event_count": 2
+    },
+    {
       "issue_id": "issue_8429b7fc58fe3b422936",
       "stock_code": "8021",
       "cb_code": null,
@@ -15367,6 +15393,38 @@
         "CBAS_ACTUAL"
       ],
       "event_count": 5
+    },
+    {
+      "issue_id": "issue_6281daa3a197bc1ee924",
+      "stock_code": "8222",
+      "cb_code": "82221",
+      "short_name": "寶一一",
+      "company_name": "寶一科技股份有限公司",
+      "observed_stages": [
+        "AUCTION_BID_END",
+        "AUCTION_BID_START",
+        "EFFECTIVE",
+        "LISTING",
+        "PAYMENT_BANK",
+        "PRICING"
+      ],
+      "inferred_stages": [
+        "AUCTION_RESULT_ESTIMATED",
+        "BOARD_RESOLUTION",
+        "CBAS_PROXY_END",
+        "CBAS_PROXY_START",
+        "EFFECTIVE",
+        "T_PLUS_19_EXIT_PROXY"
+      ],
+      "missing_stages": [
+        "FILING",
+        "BOOKBUILDING_START",
+        "BOOKBUILDING_END",
+        "BOOKBUILDING_RESULT",
+        "UNDERWRITING_NOTICE",
+        "CBAS_ACTUAL"
+      ],
+      "event_count": 12
     },
     {
       "issue_id": "issue_0666a86be162655683fd",

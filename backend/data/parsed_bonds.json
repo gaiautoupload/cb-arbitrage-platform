@@ -7948,5 +7948,20 @@
     "maturity_date_minguo": "118年9月7日",
     "maturity_date": "2029-09-07",
     "issue_amount": "新台幣10億元整"
+  },
+  {
+    "file_id": "11500056761",
+    "company_name": "寶一科技股份有限公司",
+    "bond_name": "寶一科技股份有限公司國內第一次有擔保轉換公司債",
+    "cb_code": "82221",
+    "stock_code": "8222",
+    "short_name": "寶一一",
+    "announcement_date_minguo": "115年9月3日",
+    "announcement_date": "2026-09-03",
+    "issue_date_minguo": "115年9月10日",
+    "issue_date": "2026-09-10",
+    "maturity_date_minguo": "118年9月10日",
+    "maturity_date": "2029-09-10",
+    "issue_amount": "新台幣4億元整"
   }
 ]
