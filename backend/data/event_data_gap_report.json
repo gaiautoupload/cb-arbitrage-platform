@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-03T19:13:58",
+  "generated_at": "2026-09-04T17:14:48",
   "database": "D:\\bond\\backend\\data\\cb_event_master.sqlite",
   "required_stages": [
     "BOARD_RESOLUTION",
@@ -16,15 +16,15 @@
     "CBAS_ACTUAL"
   ],
   "summary": {
-    "issues": 593,
-    "events": 3520,
-    "issues_with_missing_stages": 593
+    "issues": 594,
+    "events": 3533,
+    "issues_with_missing_stages": 594
   },
   "stage_summary": {
     "BOARD_RESOLUTION": {
-      "observed_events": 90,
+      "observed_events": 92,
       "inferred_events": 497,
-      "issues_with_stage": 537
+      "issues_with_stage": 538
     },
     "FILING": {
       "observed_events": 13,
@@ -33,23 +33,23 @@
     },
     "EFFECTIVE": {
       "observed_events": 5,
-      "inferred_events": 522,
-      "issues_with_stage": 522
+      "inferred_events": 523,
+      "issues_with_stage": 523
     },
     "PRICING": {
-      "observed_events": 521,
+      "observed_events": 522,
       "inferred_events": 0,
-      "issues_with_stage": 520
+      "issues_with_stage": 521
     },
     "AUCTION_BID_START": {
-      "observed_events": 66,
+      "observed_events": 67,
       "inferred_events": 0,
-      "issues_with_stage": 66
+      "issues_with_stage": 67
     },
     "AUCTION_BID_END": {
-      "observed_events": 66,
+      "observed_events": 67,
       "inferred_events": 0,
-      "issues_with_stage": 66
+      "issues_with_stage": 67
     },
     "BOOKBUILDING_START": {
       "observed_events": 0,
@@ -72,9 +72,9 @@
       "issues_with_stage": 0
     },
     "LISTING": {
-      "observed_events": 525,
+      "observed_events": 526,
       "inferred_events": 0,
-      "issues_with_stage": 522
+      "issues_with_stage": 523
     },
     "CBAS_ACTUAL": {
       "observed_events": 0,
@@ -1669,6 +1669,7 @@
       "company_name": "大甲",
       "observed_stages": [
         "BOARD_RESOLUTION",
+        "FINAL_PRICING",
         "PAYMENT_BANK"
       ],
       "inferred_stages": [],
@@ -1685,7 +1686,7 @@
         "LISTING",
         "CBAS_ACTUAL"
       ],
-      "event_count": 2
+      "event_count": 3
     },
     {
       "issue_id": "issue_8e5fa695856f802ad7ab",
@@ -7938,16 +7939,18 @@
       "short_name": null,
       "company_name": "晟田",
       "observed_stages": [
+        "AUCTION_BID_END",
+        "AUCTION_BID_START",
         "PAYMENT_BANK"
       ],
-      "inferred_stages": [],
+      "inferred_stages": [
+        "AUCTION_RESULT_ESTIMATED"
+      ],
       "missing_stages": [
         "BOARD_RESOLUTION",
         "FILING",
         "EFFECTIVE",
         "PRICING",
-        "AUCTION_BID_START",
-        "AUCTION_BID_END",
         "BOOKBUILDING_START",
         "BOOKBUILDING_END",
         "BOOKBUILDING_RESULT",
@@ -7955,7 +7958,7 @@
         "LISTING",
         "CBAS_ACTUAL"
       ],
-      "event_count": 2
+      "event_count": 5
     },
     {
       "issue_id": "issue_1f6477052d145eac8832",
@@ -8153,7 +8156,7 @@
         "UNDERWRITING_NOTICE",
         "CBAS_ACTUAL"
       ],
-      "event_count": 8
+      "event_count": 9
     },
     {
       "issue_id": "issue_91387be59f68dbab1625",
@@ -14496,6 +14499,36 @@
         "CBAS_ACTUAL"
       ],
       "event_count": 2
+    },
+    {
+      "issue_id": "issue_9c7bc6995328df2942e5",
+      "stock_code": "7743",
+      "cb_code": "77431",
+      "short_name": "金利食安一",
+      "company_name": "金利食安科技股份有限公司",
+      "observed_stages": [
+        "BOARD_RESOLUTION",
+        "LISTING",
+        "PAYMENT_BANK",
+        "PRICING"
+      ],
+      "inferred_stages": [
+        "CBAS_PROXY_END",
+        "CBAS_PROXY_START",
+        "EFFECTIVE",
+        "T_PLUS_19_EXIT_PROXY"
+      ],
+      "missing_stages": [
+        "FILING",
+        "AUCTION_BID_START",
+        "AUCTION_BID_END",
+        "BOOKBUILDING_START",
+        "BOOKBUILDING_END",
+        "BOOKBUILDING_RESULT",
+        "UNDERWRITING_NOTICE",
+        "CBAS_ACTUAL"
+      ],
+      "event_count": 8
     },
     {
       "issue_id": "issue_8429b7fc58fe3b422936",

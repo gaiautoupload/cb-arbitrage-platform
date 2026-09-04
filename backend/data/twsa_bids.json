@@ -706,5 +706,17 @@
     "bidding_shares_thousand": "3,400",
     "bidding_period": "2026/08/26~2026/08/28",
     "min_price": "101.00"
+  },
+  {
+    "serial": "115066",
+    "company_name": "晟田",
+    "full_company_name": "晟田科技工業股份有限公司",
+    "ticker": "4541",
+    "underwriter": "凱基證券股份有限公司",
+    "bond_type": "有擔保轉換公司債",
+    "shares_thousand": "3,000",
+    "bidding_shares_thousand": "2,550",
+    "bidding_period": "2026/09/04~2026/09/08",
+    "min_price": "100.00"
   }
 ]

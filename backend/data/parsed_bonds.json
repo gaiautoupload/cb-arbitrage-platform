@@ -7963,5 +7963,20 @@
     "maturity_date_minguo": "118年9月10日",
     "maturity_date": "2029-09-10",
     "issue_amount": "新台幣4億元整"
+  },
+  {
+    "file_id": "11500056911",
+    "company_name": "金利食安科技股份有限公司",
+    "bond_name": "金利食安科技股份有限公司國內第一次無擔保轉換公司債",
+    "cb_code": "77431",
+    "stock_code": "7743",
+    "short_name": "金利食安一",
+    "announcement_date_minguo": "115年9月4日",
+    "announcement_date": "2026-09-04",
+    "issue_date_minguo": "115年9月10日",
+    "issue_date": "2026-09-10",
+    "maturity_date_minguo": "118年9月10日",
+    "maturity_date": "2029-09-10",
+    "issue_amount": "新台幣2億元整"
   }
 ]
