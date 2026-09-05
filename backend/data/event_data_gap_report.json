@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-04T17:14:48",
+  "generated_at": "2026-09-05T17:14:40",
   "database": "D:\\bond\\backend\\data\\cb_event_master.sqlite",
   "required_stages": [
     "BOARD_RESOLUTION",
@@ -17,22 +17,22 @@
   ],
   "summary": {
     "issues": 594,
-    "events": 3533,
+    "events": 3539,
     "issues_with_missing_stages": 594
   },
   "stage_summary": {
     "BOARD_RESOLUTION": {
-      "observed_events": 92,
+      "observed_events": 94,
       "inferred_events": 497,
       "issues_with_stage": 538
     },
     "FILING": {
-      "observed_events": 13,
+      "observed_events": 14,
       "inferred_events": 0,
-      "issues_with_stage": 10
+      "issues_with_stage": 11
     },
     "EFFECTIVE": {
-      "observed_events": 5,
+      "observed_events": 6,
       "inferred_events": 523,
       "issues_with_stage": 523
     },
@@ -677,11 +677,12 @@
       "stock_code": "1560",
       "cb_code": "15601",
       "short_name": "中砂一",
-      "company_name": "中國砂輪企業",
+      "company_name": "中砂",
       "observed_stages": [
         "AUCTION_BID_END",
         "AUCTION_BID_START",
         "BOARD_RESOLUTION",
+        "FILING",
         "LISTING",
         "PAYMENT_BANK",
         "PRICING"
@@ -695,14 +696,13 @@
         "T_PLUS_19_EXIT_PROXY"
       ],
       "missing_stages": [
-        "FILING",
         "BOOKBUILDING_START",
         "BOOKBUILDING_END",
         "BOOKBUILDING_RESULT",
         "UNDERWRITING_NOTICE",
         "CBAS_ACTUAL"
       ],
-      "event_count": 12
+      "event_count": 13
     },
     {
       "issue_id": "issue_6a79a67891e71faf2ea2",
@@ -2441,7 +2441,7 @@
         "UNDERWRITING_NOTICE",
         "CBAS_ACTUAL"
       ],
-      "event_count": 13
+      "event_count": 14
     },
     {
       "issue_id": "issue_001fc5a0c70ac6e4548c",
@@ -2673,8 +2673,9 @@
       "stock_code": "2492",
       "cb_code": "24921",
       "short_name": "華新科一",
-      "company_name": "華新科技股份有限公司",
+      "company_name": "華新科",
       "observed_stages": [
+        "BOARD_RESOLUTION",
         "LISTING",
         "PRICING"
       ],
@@ -2695,7 +2696,7 @@
         "UNDERWRITING_NOTICE",
         "CBAS_ACTUAL"
       ],
-      "event_count": 7
+      "event_count": 8
     },
     {
       "issue_id": "issue_6cb25d8eb88a89c3544b",
@@ -3370,7 +3371,7 @@
         "UNDERWRITING_NOTICE",
         "CBAS_ACTUAL"
       ],
-      "event_count": 8
+      "event_count": 9
     },
     {
       "issue_id": "issue_cc7e64e9be2b25e38fc1",
@@ -3738,8 +3739,9 @@
       "stock_code": "3033",
       "cb_code": "30335",
       "short_name": "威健五",
-      "company_name": "威健實業股份有限公司",
+      "company_name": "威健",
       "observed_stages": [
+        "BOARD_RESOLUTION",
         "LISTING",
         "PRICING"
       ],
@@ -3760,7 +3762,7 @@
         "UNDERWRITING_NOTICE",
         "CBAS_ACTUAL"
       ],
-      "event_count": 7
+      "event_count": 8
     },
     {
       "issue_id": "issue_45177d73323e478e8818",
@@ -4588,6 +4590,7 @@
       "observed_stages": [
         "BOARD_RESOLUTION",
         "LISTING",
+        "PAYMENT_BANK",
         "PRICING"
       ],
       "inferred_stages": [
@@ -4607,7 +4610,7 @@
         "UNDERWRITING_NOTICE",
         "CBAS_ACTUAL"
       ],
-      "event_count": 8
+      "event_count": 9
     },
     {
       "issue_id": "issue_abbe40dace546905ed9b",

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-04T17:14:48",
+  "generated_at": "2026-09-05T17:14:39",
   "source_files": {
     "mops_wiki_db": "mops_wiki_db.json",
     "parsed_bonds": "parsed_bonds.json",
@@ -12,16 +12,16 @@
     "Generated linked BOARD_RESOLUTION/EFFECTIVE dates are retained only as low-confidence proxy events."
   ],
   "summary": {
-    "total_events": 3472,
-    "actual_or_observed_events": 1305,
+    "total_events": 3478,
+    "actual_or_observed_events": 1311,
     "inferred_events": 2167,
     "by_stage": {
-      "BOARD_RESOLUTION": 568,
-      "FILING": 13,
-      "EFFECTIVE": 526,
+      "BOARD_RESOLUTION": 570,
+      "FILING": 14,
+      "EFFECTIVE": 527,
       "PRICING": 522,
       "FINAL_PRICING": 1,
-      "PAYMENT_BANK": 35,
+      "PAYMENT_BANK": 37,
       "AUCTION_BID_START": 59,
       "AUCTION_BID_END": 59,
       "AUCTION_RESULT_ESTIMATED": 59,
@@ -1668,6 +1668,20 @@
       "is_inferred": false,
       "title": "中砂二 issue/listing date",
       "cb_code": "15602"
+    },
+    {
+      "stock_code": "1560",
+      "company_name": "中砂",
+      "short_name": "中砂一",
+      "stage": "FILING",
+      "date": "2026-09-04",
+      "source": "mops_wiki_db",
+      "confidence": 0.85,
+      "is_inferred": false,
+      "title": "公告本公司國內第二次無擔保轉換公司債收足價款",
+      "summary": "送件/申報: 公告本公司國內第二次無擔保轉換公司債收足價款",
+      "event_type": "CB_ISSUANCE",
+      "published_at": "2026-09-04T173538"
     },
     {
       "stock_code": "1582",
@@ -5893,6 +5907,20 @@
     },
     {
       "stock_code": "2464",
+      "company_name": "盟立",
+      "short_name": "盟立二",
+      "stage": "PAYMENT_BANK",
+      "date": "2026-09-04",
+      "source": "mops_wiki_db",
+      "confidence": 0.85,
+      "is_inferred": false,
+      "title": "公告本公司國內第三次無擔保轉換公司債收足債款",
+      "summary": "代收價款/專戶: 公告本公司國內第三次無擔保轉換公司債收足債款",
+      "event_type": "CB_ISSUANCE",
+      "published_at": "2026-09-04T140254"
+    },
+    {
+      "stock_code": "2464",
       "company_name": "盟立自動化股份有限公司",
       "short_name": "盟立三",
       "stage": "LISTING",
@@ -6489,6 +6517,20 @@
       "confidence": 0.3,
       "is_inferred": true,
       "based_on": "2020-04-29"
+    },
+    {
+      "stock_code": "2492",
+      "company_name": "華新科",
+      "short_name": "華新科一",
+      "stage": "BOARD_RESOLUTION",
+      "date": "2026-09-04",
+      "source": "mops_wiki_db",
+      "confidence": 0.85,
+      "is_inferred": false,
+      "title": "公告本公司董事會決議發行國內第二次無擔保轉換公司債",
+      "summary": "董事會/股東會決議: 公告本公司董事會決議發行國內第二次無擔保轉換公司債",
+      "event_type": "CB_ISSUANCE",
+      "published_at": "2026-09-04T150423"
     },
     {
       "stock_code": "2497",
@@ -8165,6 +8207,20 @@
       "published_at": "2026-08-26T142855"
     },
     {
+      "stock_code": "3006",
+      "company_name": "晶豪科",
+      "short_name": "晶豪科一",
+      "stage": "EFFECTIVE",
+      "date": "2026-09-04",
+      "source": "mops_wiki_db",
+      "confidence": 0.85,
+      "is_inferred": false,
+      "title": "公告本公司發行國內第二次有擔保轉換公司債案向金管會\r\n申請延長募集期間，業經金管會准予備查",
+      "summary": "申報生效: 公告本公司發行國內第二次有擔保轉換公司債案向金管會\r\n申請延長募集期間，業經金管會准予備查",
+      "event_type": "CB_ISSUANCE",
+      "published_at": "2026-09-04T154413"
+    },
+    {
       "stock_code": "3010",
       "company_name": "華立企業股份有限公司",
       "short_name": "華立三",
@@ -9150,6 +9206,20 @@
       "is_inferred": false,
       "title": "威健七 issue/listing date",
       "cb_code": "30337"
+    },
+    {
+      "stock_code": "3033",
+      "company_name": "威健",
+      "short_name": "威健五",
+      "stage": "BOARD_RESOLUTION",
+      "date": "2026-09-04",
+      "source": "mops_wiki_db",
+      "confidence": 0.85,
+      "is_inferred": false,
+      "title": "公告本公司董事會決議通過辦理發行國內第八次無擔保\r\n轉換公司債案",
+      "summary": "董事會/股東會決議: 公告本公司董事會決議通過辦理發行國內第八次無擔保\r\n轉換公司債案",
+      "event_type": "CB_ISSUANCE",
+      "published_at": "2026-09-04T165111"
     },
     {
       "stock_code": "3042",
@@ -11234,6 +11304,20 @@
       "summary": "董事會/股東會決議: 公告本公司董事會決議發行國內第九次無擔保轉換公司債\r\n(更正發行總額)",
       "event_type": "CB_ISSUANCE",
       "published_at": "2026-07-30T161333"
+    },
+    {
+      "stock_code": "3260",
+      "company_name": "威剛",
+      "short_name": "威剛七",
+      "stage": "PAYMENT_BANK",
+      "date": "2026-09-04",
+      "source": "mops_wiki_db",
+      "confidence": 0.85,
+      "is_inferred": false,
+      "title": "公告本公司發行國內第九次無擔保轉換公司債代收價款及存\r\n儲專戶行庫",
+      "summary": "代收價款/專戶: 公告本公司發行國內第九次無擔保轉換公司債代收價款及存\r\n儲專戶行庫",
+      "event_type": "CB_ISSUANCE",
+      "published_at": "2026-09-04T152307"
     },
     {
       "stock_code": "3268",
