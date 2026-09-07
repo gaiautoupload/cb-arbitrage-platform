@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-06T17:14:26",
+  "generated_at": "2026-09-07T17:11:01",
   "database": "D:\\bond\\backend\\data\\cb_event_master.sqlite",
   "required_stages": [
     "BOARD_RESOLUTION",
@@ -17,7 +17,7 @@
   ],
   "summary": {
     "issues": 594,
-    "events": 3539,
+    "events": 3545,
     "issues_with_missing_stages": 594
   },
   "stage_summary": {
@@ -42,14 +42,14 @@
       "issues_with_stage": 521
     },
     "AUCTION_BID_START": {
-      "observed_events": 67,
+      "observed_events": 69,
       "inferred_events": 0,
-      "issues_with_stage": 67
+      "issues_with_stage": 69
     },
     "AUCTION_BID_END": {
-      "observed_events": 67,
+      "observed_events": 69,
       "inferred_events": 0,
-      "issues_with_stage": 67
+      "issues_with_stage": 69
     },
     "BOOKBUILDING_START": {
       "observed_events": 0,
@@ -4160,13 +4160,16 @@
       "stock_code": "3141",
       "cb_code": "31411",
       "short_name": "晶宏一",
-      "company_name": "晶宏",
+      "company_name": "晶宏半導體",
       "observed_stages": [
+        "AUCTION_BID_END",
+        "AUCTION_BID_START",
         "BOARD_RESOLUTION",
         "LISTING",
         "PRICING"
       ],
       "inferred_stages": [
+        "AUCTION_RESULT_ESTIMATED",
         "BOARD_RESOLUTION",
         "CBAS_PROXY_END",
         "CBAS_PROXY_START",
@@ -4175,15 +4178,13 @@
       ],
       "missing_stages": [
         "FILING",
-        "AUCTION_BID_START",
-        "AUCTION_BID_END",
         "BOOKBUILDING_START",
         "BOOKBUILDING_END",
         "BOOKBUILDING_RESULT",
         "UNDERWRITING_NOTICE",
         "CBAS_ACTUAL"
       ],
-      "event_count": 9
+      "event_count": 12
     },
     {
       "issue_id": "issue_02689aada98f16e99363",
@@ -6241,14 +6242,17 @@
       "stock_code": "3583",
       "cb_code": "35831",
       "short_name": "辛耘一",
-      "company_name": "辛耘",
+      "company_name": "辛耘企業",
       "observed_stages": [
+        "AUCTION_BID_END",
+        "AUCTION_BID_START",
         "BOARD_RESOLUTION",
         "FILING",
         "LISTING",
         "PRICING"
       ],
       "inferred_stages": [
+        "AUCTION_RESULT_ESTIMATED",
         "BOARD_RESOLUTION",
         "CBAS_PROXY_END",
         "CBAS_PROXY_START",
@@ -6256,15 +6260,13 @@
         "T_PLUS_19_EXIT_PROXY"
       ],
       "missing_stages": [
-        "AUCTION_BID_START",
-        "AUCTION_BID_END",
         "BOOKBUILDING_START",
         "BOOKBUILDING_END",
         "BOOKBUILDING_RESULT",
         "UNDERWRITING_NOTICE",
         "CBAS_ACTUAL"
       ],
-      "event_count": 11
+      "event_count": 14
     },
     {
       "issue_id": "issue_8ebb257956a34adff853",
