@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-07T17:11:00",
+  "generated_at": "2026-09-08T17:13:06",
   "source_files": {
     "mops_wiki_db": "mops_wiki_db.json",
     "parsed_bonds": "parsed_bonds.json",
@@ -12,11 +12,11 @@
     "Generated linked BOARD_RESOLUTION/EFFECTIVE dates are retained only as low-confidence proxy events."
   ],
   "summary": {
-    "total_events": 3484,
-    "actual_or_observed_events": 1315,
+    "total_events": 3487,
+    "actual_or_observed_events": 1318,
     "inferred_events": 2169,
     "by_stage": {
-      "BOARD_RESOLUTION": 570,
+      "BOARD_RESOLUTION": 573,
       "FILING": 14,
       "EFFECTIVE": 527,
       "PRICING": 522,
@@ -9031,6 +9031,20 @@
       "cb_code": "30285"
     },
     {
+      "stock_code": "3028",
+      "company_name": "增你強",
+      "short_name": "增你強四",
+      "stage": "BOARD_RESOLUTION",
+      "date": "2026-09-07",
+      "source": "mops_wiki_db",
+      "confidence": 0.85,
+      "is_inferred": false,
+      "title": "公告本公司發行國內第六次無擔保轉換公司債之轉換價格\r\n及溢價率",
+      "summary": "董事會/股東會決議: 公告本公司發行國內第六次無擔保轉換公司債之轉換價格\r\n及溢價率",
+      "event_type": "CB_ISSUANCE",
+      "published_at": "2026-09-07T193710"
+    },
+    {
       "stock_code": "3033",
       "company_name": "威健實業股份有限公司",
       "short_name": "威健五",
@@ -17522,6 +17536,20 @@
       "published_at": "2026-08-07T164518"
     },
     {
+      "stock_code": "3708",
+      "company_name": "上緯投控",
+      "short_name": "",
+      "stage": "BOARD_RESOLUTION",
+      "date": "2026-09-07",
+      "source": "mops_wiki_db",
+      "confidence": 0.85,
+      "is_inferred": false,
+      "title": "公告本公司國內第三次有擔保轉換公司債及第四次無擔保\r\n轉換公司債到期還本暨終止上櫃事宜",
+      "summary": "董事會/股東會決議: 公告本公司國內第三次有擔保轉換公司債及第四次無擔保\r\n轉換公司債到期還本暨終止上櫃事宜",
+      "event_type": "CB_ISSUANCE",
+      "published_at": "2026-09-07T162458"
+    },
+    {
       "stock_code": "3711",
       "company_name": "日月光投控",
       "short_name": "",
@@ -19681,6 +19709,20 @@
       "confidence": 0.3,
       "is_inferred": true,
       "based_on": "2024-09-06"
+    },
+    {
+      "stock_code": "4542",
+      "company_name": "科嶠",
+      "short_name": "科嶠一",
+      "stage": "BOARD_RESOLUTION",
+      "date": "2026-09-07",
+      "source": "mops_wiki_db",
+      "confidence": 0.85,
+      "is_inferred": false,
+      "title": "本公司115/09/07董事會重大決議事項",
+      "summary": "董事會/股東會決議: 本公司115/09/07董事會重大決議事項",
+      "event_type": "CB_ISSUANCE",
+      "published_at": "2026-09-07T152631"
     },
     {
       "stock_code": "4549",

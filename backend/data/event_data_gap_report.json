@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-07T17:11:01",
+  "generated_at": "2026-09-08T17:13:06",
   "database": "D:\\bond\\backend\\data\\cb_event_master.sqlite",
   "required_stages": [
     "BOARD_RESOLUTION",
@@ -17,12 +17,12 @@
   ],
   "summary": {
     "issues": 594,
-    "events": 3545,
+    "events": 3548,
     "issues_with_missing_stages": 594
   },
   "stage_summary": {
     "BOARD_RESOLUTION": {
-      "observed_events": 94,
+      "observed_events": 97,
       "inferred_events": 497,
       "issues_with_stage": 538
     },
@@ -3685,6 +3685,7 @@
       "short_name": "增你強四",
       "company_name": "增你強",
       "observed_stages": [
+        "BOARD_RESOLUTION",
         "LISTING",
         "PAYMENT_BANK",
         "PRICING"
@@ -3706,7 +3707,7 @@
         "UNDERWRITING_NOTICE",
         "CBAS_ACTUAL"
       ],
-      "event_count": 8
+      "event_count": 9
     },
     {
       "issue_id": "issue_0618fec2c9ac559a4b08",
@@ -7095,7 +7096,7 @@
         "LISTING",
         "CBAS_ACTUAL"
       ],
-      "event_count": 1
+      "event_count": 2
     },
     {
       "issue_id": "issue_b6085f6d06b9aeefdf53",
@@ -7970,8 +7971,9 @@
       "stock_code": "4542",
       "cb_code": "45421",
       "short_name": "科嶠一",
-      "company_name": "科嶠工業股份有限公司",
+      "company_name": "科嶠",
       "observed_stages": [
+        "BOARD_RESOLUTION",
         "LISTING",
         "PRICING"
       ],
@@ -7992,7 +7994,7 @@
         "UNDERWRITING_NOTICE",
         "CBAS_ACTUAL"
       ],
-      "event_count": 7
+      "event_count": 8
     },
     {
       "issue_id": "issue_4847d57cebf3b803495b",
