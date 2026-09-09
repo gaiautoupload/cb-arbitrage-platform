@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-08T17:13:06",
+  "generated_at": "2026-09-09T17:07:49",
   "database": "D:\\bond\\backend\\data\\cb_event_master.sqlite",
   "required_stages": [
     "BOARD_RESOLUTION",
@@ -16,15 +16,15 @@
     "CBAS_ACTUAL"
   ],
   "summary": {
-    "issues": 594,
-    "events": 3548,
-    "issues_with_missing_stages": 594
+    "issues": 596,
+    "events": 3554,
+    "issues_with_missing_stages": 596
   },
   "stage_summary": {
     "BOARD_RESOLUTION": {
-      "observed_events": 97,
+      "observed_events": 99,
       "inferred_events": 497,
-      "issues_with_stage": 538
+      "issues_with_stage": 539
     },
     "FILING": {
       "observed_events": 14,
@@ -32,9 +32,9 @@
       "issues_with_stage": 11
     },
     "EFFECTIVE": {
-      "observed_events": 6,
+      "observed_events": 7,
       "inferred_events": 523,
-      "issues_with_stage": 523
+      "issues_with_stage": 524
     },
     "PRICING": {
       "observed_events": 522,
@@ -2757,6 +2757,31 @@
       "event_count": 7
     },
     {
+      "issue_id": "issue_e5bc889d15794e0fa09a",
+      "stock_code": "2530",
+      "cb_code": null,
+      "short_name": null,
+      "company_name": "華建",
+      "observed_stages": [
+        "EFFECTIVE"
+      ],
+      "inferred_stages": [],
+      "missing_stages": [
+        "BOARD_RESOLUTION",
+        "FILING",
+        "PRICING",
+        "AUCTION_BID_START",
+        "AUCTION_BID_END",
+        "BOOKBUILDING_START",
+        "BOOKBUILDING_END",
+        "BOOKBUILDING_RESULT",
+        "UNDERWRITING_NOTICE",
+        "LISTING",
+        "CBAS_ACTUAL"
+      ],
+      "event_count": 1
+    },
+    {
       "issue_id": "issue_65f693a2042ba922ec60",
       "stock_code": "2548",
       "cb_code": "25483",
@@ -3036,6 +3061,31 @@
       "event_count": 4
     },
     {
+      "issue_id": "issue_3ac40982c35b71ed48f2",
+      "stock_code": "2646",
+      "cb_code": null,
+      "short_name": null,
+      "company_name": "星宇航空",
+      "observed_stages": [
+        "BOARD_RESOLUTION"
+      ],
+      "inferred_stages": [],
+      "missing_stages": [
+        "FILING",
+        "EFFECTIVE",
+        "PRICING",
+        "AUCTION_BID_START",
+        "AUCTION_BID_END",
+        "BOOKBUILDING_START",
+        "BOOKBUILDING_END",
+        "BOOKBUILDING_RESULT",
+        "UNDERWRITING_NOTICE",
+        "LISTING",
+        "CBAS_ACTUAL"
+      ],
+      "event_count": 1
+    },
+    {
       "issue_id": "issue_e1dd5b1bdc7f80b622a3",
       "stock_code": "2727",
       "cb_code": "27271",
@@ -3155,7 +3205,8 @@
       "short_name": null,
       "company_name": "聯發國際",
       "observed_stages": [
-        "BOARD_RESOLUTION"
+        "BOARD_RESOLUTION",
+        "PAYMENT_BANK"
       ],
       "inferred_stages": [],
       "missing_stages": [
@@ -3171,7 +3222,7 @@
         "LISTING",
         "CBAS_ACTUAL"
       ],
-      "event_count": 1
+      "event_count": 2
     },
     {
       "issue_id": "issue_01ae2dec2beb80672739",
@@ -14186,8 +14237,9 @@
       "stock_code": "6873",
       "cb_code": "68731",
       "short_name": "泓德能源一創",
-      "company_name": "泓德能源科技股份有限公司",
+      "company_name": "泓德能源",
       "observed_stages": [
+        "BOARD_RESOLUTION",
         "LISTING",
         "PRICING"
       ],
@@ -14208,7 +14260,7 @@
         "UNDERWRITING_NOTICE",
         "CBAS_ACTUAL"
       ],
-      "event_count": 7
+      "event_count": 8
     },
     {
       "issue_id": "issue_5d4602f1f39bc8f9c2db",
@@ -14535,7 +14587,7 @@
         "UNDERWRITING_NOTICE",
         "CBAS_ACTUAL"
       ],
-      "event_count": 8
+      "event_count": 9
     },
     {
       "issue_id": "issue_8429b7fc58fe3b422936",
@@ -15464,7 +15516,7 @@
         "UNDERWRITING_NOTICE",
         "CBAS_ACTUAL"
       ],
-      "event_count": 12
+      "event_count": 13
     },
     {
       "issue_id": "issue_0666a86be162655683fd",
