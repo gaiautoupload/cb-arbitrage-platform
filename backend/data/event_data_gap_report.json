@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-10T17:11:37",
+  "generated_at": "2026-09-11T19:13:59",
   "database": "D:\\bond\\backend\\data\\cb_event_master.sqlite",
   "required_stages": [
     "BOARD_RESOLUTION",
@@ -16,13 +16,13 @@
     "CBAS_ACTUAL"
   ],
   "summary": {
-    "issues": 596,
-    "events": 3558,
-    "issues_with_missing_stages": 596
+    "issues": 597,
+    "events": 3568,
+    "issues_with_missing_stages": 597
   },
   "stage_summary": {
     "BOARD_RESOLUTION": {
-      "observed_events": 99,
+      "observed_events": 101,
       "inferred_events": 497,
       "issues_with_stage": 539
     },
@@ -42,14 +42,14 @@
       "issues_with_stage": 521
     },
     "AUCTION_BID_START": {
-      "observed_events": 70,
+      "observed_events": 71,
       "inferred_events": 0,
-      "issues_with_stage": 70
+      "issues_with_stage": 71
     },
     "AUCTION_BID_END": {
-      "observed_events": 70,
+      "observed_events": 71,
       "inferred_events": 0,
-      "issues_with_stage": 70
+      "issues_with_stage": 71
     },
     "BOOKBUILDING_START": {
       "observed_events": 0,
@@ -72,9 +72,9 @@
       "issues_with_stage": 0
     },
     "LISTING": {
-      "observed_events": 526,
+      "observed_events": 528,
       "inferred_events": 0,
-      "issues_with_stage": 523
+      "issues_with_stage": 524
     },
     "CBAS_ACTUAL": {
       "observed_events": 0,
@@ -2078,6 +2078,35 @@
       "event_count": 4
     },
     {
+      "issue_id": "issue_c365236cd3bf9f5224cb",
+      "stock_code": "2392",
+      "cb_code": null,
+      "short_name": null,
+      "company_name": "正崴",
+      "observed_stages": [
+        "LISTING"
+      ],
+      "inferred_stages": [
+        "CBAS_PROXY_END",
+        "CBAS_PROXY_START",
+        "T_PLUS_19_EXIT_PROXY"
+      ],
+      "missing_stages": [
+        "BOARD_RESOLUTION",
+        "FILING",
+        "EFFECTIVE",
+        "PRICING",
+        "AUCTION_BID_START",
+        "AUCTION_BID_END",
+        "BOOKBUILDING_START",
+        "BOOKBUILDING_END",
+        "BOOKBUILDING_RESULT",
+        "UNDERWRITING_NOTICE",
+        "CBAS_ACTUAL"
+      ],
+      "event_count": 4
+    },
+    {
       "issue_id": "issue_62aa544e4a175a48bf42",
       "stock_code": "2421",
       "cb_code": "24213",
@@ -3067,15 +3096,17 @@
       "short_name": null,
       "company_name": "星宇航空",
       "observed_stages": [
+        "AUCTION_BID_END",
+        "AUCTION_BID_START",
         "BOARD_RESOLUTION"
       ],
-      "inferred_stages": [],
+      "inferred_stages": [
+        "AUCTION_RESULT_ESTIMATED"
+      ],
       "missing_stages": [
         "FILING",
         "EFFECTIVE",
         "PRICING",
-        "AUCTION_BID_START",
-        "AUCTION_BID_END",
         "BOOKBUILDING_START",
         "BOOKBUILDING_END",
         "BOOKBUILDING_RESULT",
@@ -3083,7 +3114,7 @@
         "LISTING",
         "CBAS_ACTUAL"
       ],
-      "event_count": 1
+      "event_count": 4
     },
     {
       "issue_id": "issue_e1dd5b1bdc7f80b622a3",
@@ -3401,6 +3432,7 @@
       "short_name": "晶豪科一",
       "company_name": "晶豪科",
       "observed_stages": [
+        "BOARD_RESOLUTION",
         "EFFECTIVE",
         "LISTING",
         "PRICING"
@@ -3422,7 +3454,7 @@
         "UNDERWRITING_NOTICE",
         "CBAS_ACTUAL"
       ],
-      "event_count": 9
+      "event_count": 10
     },
     {
       "issue_id": "issue_cc7e64e9be2b25e38fc1",
@@ -4664,7 +4696,7 @@
         "UNDERWRITING_NOTICE",
         "CBAS_ACTUAL"
       ],
-      "event_count": 9
+      "event_count": 10
     },
     {
       "issue_id": "issue_abbe40dace546905ed9b",
@@ -7202,7 +7234,7 @@
         "UNDERWRITING_NOTICE",
         "CBAS_ACTUAL"
       ],
-      "event_count": 4
+      "event_count": 5
     },
     {
       "issue_id": "issue_eeab52533b2e7a9f2c5f",

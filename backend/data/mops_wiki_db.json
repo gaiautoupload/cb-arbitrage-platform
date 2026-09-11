@@ -7303,6 +7303,80 @@
     "parsed_at": "2026-09-10T17:00:30"
   },
   {
+    "date": "2026-09-10",
+    "time": "194642",
+    "stock_code": "2392",
+    "company_name": "正崴",
+    "event_title": "公告本公司之子公司及孫公司處分重要子公司\r\n達喪失控制力之相關事宜(補充公告)",
+    "event_type": "CB_ISSUANCE",
+    "stage": "LISTING",
+    "wiki_details": {
+      "board_date": "115/08/31"
+    },
+    "sentiment": "BULLISH",
+    "summary": "掛牌/發行: 公告本公司之子公司及孫公司處分重要子公司\r\n達喪失控制力之相關事宜(補充公告)",
+    "parser": "rule_v2",
+    "parsed_at": "2026-09-11T18:59:36"
+  },
+  {
+    "date": "2026-09-10",
+    "time": "143623",
+    "stock_code": "3006",
+    "company_name": "晶豪科",
+    "event_title": "公告本公司國內第二次有擔保轉換公司債完成訂價",
+    "event_type": "CB_ISSUANCE",
+    "stage": "BOARD_RESOLUTION",
+    "wiki_details": {},
+    "sentiment": "NEUTRAL",
+    "summary": "董事會/股東會決議: 公告本公司國內第二次有擔保轉換公司債完成訂價",
+    "parser": "rule_v2",
+    "parsed_at": "2026-09-11T18:59:36"
+  },
+  {
+    "date": "2026-09-10",
+    "time": "150044",
+    "stock_code": "3260",
+    "company_name": "威剛",
+    "event_title": "公告本公司第九次無擔保轉換公司債完成訂價",
+    "event_type": "CB_ISSUANCE",
+    "stage": "BOARD_RESOLUTION",
+    "wiki_details": {},
+    "sentiment": "NEUTRAL",
+    "summary": "董事會/股東會決議: 公告本公司第九次無擔保轉換公司債完成訂價",
+    "parser": "rule_v2",
+    "parsed_at": "2026-09-11T18:59:36"
+  },
+  {
+    "date": "2026-09-10",
+    "time": "144534",
+    "stock_code": "3288",
+    "company_name": "點晶",
+    "event_title": "115年08月銀行融資額度與使用情形暨未來三個月\r\n現金收支預估情形",
+    "event_type": "OTHER",
+    "stage": "N/A",
+    "wiki_details": {},
+    "sentiment": "NEUTRAL",
+    "summary": "CB 相關公告: 115年08月銀行融資額度與使用情形暨未來三個月\r\n現金收支預估情形",
+    "parser": "rule_v2",
+    "parsed_at": "2026-09-11T18:59:36"
+  },
+  {
+    "date": "2026-09-10",
+    "time": "174231",
+    "stock_code": "3712",
+    "company_name": "永崴投控",
+    "event_title": "公告本公司對子公司森崴能源股份有限公司及其子公司降低\r\n持股比例達百分之十以上及喪失控制力(補充公告)",
+    "event_type": "CB_ISSUANCE",
+    "stage": "LISTING",
+    "wiki_details": {
+      "board_date": "115/08/31"
+    },
+    "sentiment": "BULLISH",
+    "summary": "掛牌/發行: 公告本公司對子公司森崴能源股份有限公司及其子公司降低\r\n持股比例達百分之十以上及喪失控制力(補充公告)",
+    "parser": "rule_v2",
+    "parsed_at": "2026-09-11T18:59:36"
+  },
+  {
     "date": "2026-02-12",
     "time": "140510",
     "stock_code": "3260",
