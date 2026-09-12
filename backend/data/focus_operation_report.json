@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-11T19:17:40",
-  "as_of": "2026-09-11",
+  "generated_at": "2026-09-12T17:18:12",
+  "as_of": "2026-09-12",
   "strategies": {
     "short": "官方發行日T確定後，T-16收盤審核，T-15開盤買入，T+9收盤賣出。",
     "long": "技術、法人與營收11分制；8分以上僅列候選，配合分批與移動停利。"
@@ -25,7 +25,7 @@
         "ma_bull": false,
         "momentum_20d_pct": -6.55,
         "distance_from_60d_high_pct": -40.25,
-        "volume_ratio_5v20": 0.46
+        "volume_ratio_5v20": 0.45
       },
       "top1": {
         "chip_date": "2026-09-11",
@@ -156,7 +156,7 @@
         "ma_bull": true,
         "momentum_20d_pct": -5.84,
         "distance_from_60d_high_pct": -33.17,
-        "volume_ratio_5v20": 1.32
+        "volume_ratio_5v20": 1.31
       },
       "top1": {
         "chip_date": "2026-09-11",

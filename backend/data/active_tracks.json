@@ -74,16 +74,10 @@
       "ma_bull": false,
       "foreign_net_5d": 139.3,
       "trust_net_5d": 0.0,
-      "volume_ratio_5v20": 0.39,
+      "volume_ratio_5v20": 0.38,
       "chip_date": "2026-09-11"
     },
     "latest_news": [
-      {
-        "title": "4764 雙鍵- 今天起，連續三天特定人認購! - 股市爆料同學會 - CMoney",
-        "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBXRHhib2xjMGt1VUVaZDd3VkktaGt5el9tMXdZTTBQb3pvOHYxQjVoT2p0cm52bldwTFFRWWZydWxhd0RGaEZ6Umh4R3IxODlLeEVGVV94UHQ?oc=5",
-        "source": "CMoney",
-        "published_at": "2026-09-09T12:59:44+08:00"
-      },
       {
         "title": "抽中賺7萬！台股本週雙鍵「8檔股票」申購：這檔本金低、價差破萬 - NOWnews今日新聞",
         "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTFBVb3FaODJPcExob3NtOElYaElNTlYyWHJ0c1QxQ0E0dzdaclBrc2JVaTVIQV8xQUF3WlVJZHB5YjJPVVVWRjlQYm9MNmHSAVJBVV95cUxPR1FTZ2dBNUIybHFkemplUkFSSTh6SmJacG5HcklsWVRWNWQ4cFVlVnhmX19GTGpVWXdUcjhXX0V3OFQ5d0xUS3UtZlZFX19aUUJB?oc=5",
@@ -91,10 +85,16 @@
         "published_at": "2026-09-03T15:00:00+08:00"
       },
       {
-        "title": "最新股票抽籤／化工大廠雙鍵「抽中賺7萬」！這檔拿2萬多去抽，中籤進帳1萬…8檔申購時間一次看 - 今周刊",
+        "title": "最新股票抽籤／化工大廠雙鍵「抽中賺7萬」！這檔拿2萬多去抽，中籤進帳1萬…8檔申購時間一次看 - businesstoday.com.tw",
         "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNa2g3bTB5ZWF2TXhtZzR6YU43Q3FMTUYzRzlHQTd6RllGU3dLU0Q0aldjYkFEMzR6OTJNa2VYdnBYR1hTWmgzRFZvT3g3SlRjMlNPRXZ4Ni1yLVF4S0l0LTZycHNCZExkYUZ6bnBQeGJrTTJYREhnWUF1STNUZUdQRw?oc=5",
-        "source": "今周刊",
-        "published_at": "2026-09-03T11:45:04+08:00"
+        "source": "businesstoday.com.tw",
+        "published_at": "2026-09-03T15:00:00+08:00"
+      },
+      {
+        "title": "《股市行事曆3-2》振大(4441)除息、雙鍵(4764)除權 - 富聯網",
+        "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQT1R1YVlyUy1XYUFpZlZyNXBRU2VfZzYyRVp2Z3RGMTJnNFBNYlZfLVZqUUk5YzhTX3E5cVpGbjVlMlpRaUFJMy1HTDVYYzNfSkVaYjJyTkEzc0R5WFJ1R3dxOVhURFJxMEU3b3Ixc1ZVQjdia21jR0tORV9ERk9IbERlU0NLWHVx?oc=5",
+        "source": "富聯網",
+        "published_at": "2026-08-20T15:00:00+08:00"
       }
     ],
     "operation_signals": {
@@ -116,7 +116,7 @@
         "ma_bull": false,
         "momentum_20d_pct": -6.55,
         "distance_from_60d_high_pct": -40.25,
-        "volume_ratio_5v20": 0.46
+        "volume_ratio_5v20": 0.45
       },
       "top1": {
         "chip_date": "2026-09-11",
@@ -236,16 +236,10 @@
       "ma_bull": false,
       "foreign_net_5d": 139.3,
       "trust_net_5d": 0.0,
-      "volume_ratio_5v20": 0.39,
+      "volume_ratio_5v20": 0.38,
       "chip_date": "2026-09-11"
     },
     "latest_news": [
-      {
-        "title": "4764 雙鍵- 今天起，連續三天特定人認購! - 股市爆料同學會 - CMoney",
-        "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBXRHhib2xjMGt1VUVaZDd3VkktaGt5el9tMXdZTTBQb3pvOHYxQjVoT2p0cm52bldwTFFRWWZydWxhd0RGaEZ6Umh4R3IxODlLeEVGVV94UHQ?oc=5",
-        "source": "CMoney",
-        "published_at": "2026-09-09T12:59:44+08:00"
-      },
       {
         "title": "抽中賺7萬！台股本週雙鍵「8檔股票」申購：這檔本金低、價差破萬 - NOWnews今日新聞",
         "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTFBVb3FaODJPcExob3NtOElYaElNTlYyWHJ0c1QxQ0E0dzdaclBrc2JVaTVIQV8xQUF3WlVJZHB5YjJPVVVWRjlQYm9MNmHSAVJBVV95cUxPR1FTZ2dBNUIybHFkemplUkFSSTh6SmJacG5HcklsWVRWNWQ4cFVlVnhmX19GTGpVWXdUcjhXX0V3OFQ5d0xUS3UtZlZFX19aUUJB?oc=5",
@@ -253,10 +247,16 @@
         "published_at": "2026-09-03T15:00:00+08:00"
       },
       {
-        "title": "最新股票抽籤／化工大廠雙鍵「抽中賺7萬」！這檔拿2萬多去抽，中籤進帳1萬…8檔申購時間一次看 - 今周刊",
+        "title": "最新股票抽籤／化工大廠雙鍵「抽中賺7萬」！這檔拿2萬多去抽，中籤進帳1萬…8檔申購時間一次看 - businesstoday.com.tw",
         "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNa2g3bTB5ZWF2TXhtZzR6YU43Q3FMTUYzRzlHQTd6RllGU3dLU0Q0aldjYkFEMzR6OTJNa2VYdnBYR1hTWmgzRFZvT3g3SlRjMlNPRXZ4Ni1yLVF4S0l0LTZycHNCZExkYUZ6bnBQeGJrTTJYREhnWUF1STNUZUdQRw?oc=5",
-        "source": "今周刊",
-        "published_at": "2026-09-03T11:45:04+08:00"
+        "source": "businesstoday.com.tw",
+        "published_at": "2026-09-03T15:00:00+08:00"
+      },
+      {
+        "title": "《股市行事曆3-2》振大(4441)除息、雙鍵(4764)除權 - 富聯網",
+        "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQT1R1YVlyUy1XYUFpZlZyNXBRU2VfZzYyRVp2Z3RGMTJnNFBNYlZfLVZqUUk5YzhTX3E5cVpGbjVlMlpRaUFJMy1HTDVYYzNfSkVaYjJyTkEzc0R5WFJ1R3dxOVhURFJxMEU3b3Ixc1ZVQjdia21jR0tORV9ERk9IbERlU0NLWHVx?oc=5",
+        "source": "富聯網",
+        "published_at": "2026-08-20T15:00:00+08:00"
       }
     ],
     "operation_signals": {
@@ -278,7 +278,7 @@
         "ma_bull": false,
         "momentum_20d_pct": -6.55,
         "distance_from_60d_high_pct": -40.25,
-        "volume_ratio_5v20": 0.46
+        "volume_ratio_5v20": 0.45
       },
       "top1": {
         "chip_date": "2026-09-11",
@@ -403,10 +403,10 @@
     },
     "latest_news": [
       {
-        "title": "聯電(2303) 個股概覽 | 個股 - 股市 - CMoney",
-        "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1WRTdEMGpRMzU1MmdaREF5RkZvOGdTd2dPQ3U1TGp6Y21RZGtGUG5kZi1VMWJ5RFlwZDBaUUxBMl9Wb0o0Ym9taDU5bzVjZzZvVWxR?oc=5",
-        "source": "CMoney",
-        "published_at": "2026-09-11T16:13:07+08:00"
+        "title": "【09/11 申報轉讓】聯電(2303)經理人劉啟東將於09/14申報轉讓聯電股票1,600張-CMoney 小編 - CMoney投資網誌",
+        "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxObHlCeVhWd0ZyaktFQlVydXZHd3kwRzZGMFNnUkxKXzhub3RlaTRmbEJLTDltaVdVa1dwNEsyZjB3VnIwalkwUFp1TWZNOWVMTzRiRmhqbTQtendNYnJWMDdSeWdob3ExTmpvaGhYaVlrQWI4aVo2T0dhbW9CZHhIZVBjYXp3QUt6WVE?oc=5",
+        "source": "CMoney投資網誌",
+        "published_at": "2026-09-11T21:10:08+08:00"
       },
       {
         "title": "【即時新聞】最新聯電股票爆量31萬張轉強，法人狂掃逾5萬張還能追嗎？ - CMoney投資網誌",
@@ -565,10 +565,29 @@
       "ma_bull": true,
       "foreign_net_5d": -266.3,
       "trust_net_5d": 67.0,
-      "volume_ratio_5v20": 1.47,
+      "volume_ratio_5v20": 1.46,
       "chip_date": "2026-09-11"
     },
-    "latest_news": [],
+    "latest_news": [
+      {
+        "title": "雍智科技(6683) 個股概覽 | 個股 - 股市 - CMoney",
+        "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTFBmZHZmQk5iQXV5akhQTEdva2k1bVlQR0NKdjZhZ0o4dFRta2s3N2hqUS1XRDJaYk54Sk1uazk4eWlmVmZkOXFaVjZB?oc=5",
+        "source": "CMoney",
+        "published_at": "2026-09-05T14:28:32+08:00"
+      },
+      {
+        "title": "6683 雍智科技- 大哥在發威，小弟跟著跑- 股市爆料同學會 - CMoney",
+        "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBiZ0JfQkJqRXhrUGU3THN3LS1fZm50R2FDeUJhZGZ6UklGZEhFN0UtdXNwSzB3OG4ybzZkNE9PYTdFbTd1bFRJaS1YdUtyWExjcjRIRkNIQzc?oc=5",
+        "source": "CMoney",
+        "published_at": "2026-09-01T18:15:09+08:00"
+      },
+      {
+        "title": "【07/22處置股公告】雍智科技(6683) 07/22到08/04列入處置股，採分盤交易-CMoney 小編 - CMoney投資網誌",
+        "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNcXlLbUxtQXJzZDcwY29Oc012YWFDSjhHal9TNm9LNG5ZY0ZoMkh5YWp4ZEhqVHVjZmVIeXh0dW1rbElSOWFLaUZZSktjZ0YtWEJGYjk5MXNhc1FjQzdaWFZRckxlTTBJLWlfM210TlJDX1pPSlFia21qVmdaWUJYVE5QTW5SZ0hBUVE?oc=5",
+        "source": "CMoney投資網誌",
+        "published_at": "2026-07-22T15:00:00+08:00"
+      }
+    ],
     "operation_signals": {
       "stock_code": "6683",
       "company_name": "雍智科技",
@@ -588,7 +607,7 @@
         "ma_bull": true,
         "momentum_20d_pct": -5.84,
         "distance_from_60d_high_pct": -33.17,
-        "volume_ratio_5v20": 1.32
+        "volume_ratio_5v20": 1.31
       },
       "top1": {
         "chip_date": "2026-09-11",
@@ -712,10 +731,29 @@
       "ma_bull": true,
       "foreign_net_5d": -266.3,
       "trust_net_5d": 67.0,
-      "volume_ratio_5v20": 1.47,
+      "volume_ratio_5v20": 1.46,
       "chip_date": "2026-09-11"
     },
-    "latest_news": [],
+    "latest_news": [
+      {
+        "title": "雍智科技(6683) 個股概覽 | 個股 - 股市 - CMoney",
+        "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTFBmZHZmQk5iQXV5akhQTEdva2k1bVlQR0NKdjZhZ0o4dFRta2s3N2hqUS1XRDJaYk54Sk1uazk4eWlmVmZkOXFaVjZB?oc=5",
+        "source": "CMoney",
+        "published_at": "2026-09-05T14:28:32+08:00"
+      },
+      {
+        "title": "6683 雍智科技- 大哥在發威，小弟跟著跑- 股市爆料同學會 - CMoney",
+        "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBiZ0JfQkJqRXhrUGU3THN3LS1fZm50R2FDeUJhZGZ6UklGZEhFN0UtdXNwSzB3OG4ybzZkNE9PYTdFbTd1bFRJaS1YdUtyWExjcjRIRkNIQzc?oc=5",
+        "source": "CMoney",
+        "published_at": "2026-09-01T18:15:09+08:00"
+      },
+      {
+        "title": "【07/22處置股公告】雍智科技(6683) 07/22到08/04列入處置股，採分盤交易-CMoney 小編 - CMoney投資網誌",
+        "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNcXlLbUxtQXJzZDcwY29Oc012YWFDSjhHal9TNm9LNG5ZY0ZoMkh5YWp4ZEhqVHVjZmVIeXh0dW1rbElSOWFLaUZZSktjZ0YtWEJGYjk5MXNhc1FjQzdaWFZRckxlTTBJLWlfM210TlJDX1pPSlFia21qVmdaWUJYVE5QTW5SZ0hBUVE?oc=5",
+        "source": "CMoney投資網誌",
+        "published_at": "2026-07-22T15:00:00+08:00"
+      }
+    ],
     "operation_signals": {
       "stock_code": "6683",
       "company_name": "雍智科技",
@@ -735,7 +773,7 @@
         "ma_bull": true,
         "momentum_20d_pct": -5.84,
         "distance_from_60d_high_pct": -33.17,
-        "volume_ratio_5v20": 1.32
+        "volume_ratio_5v20": 1.31
       },
       "top1": {
         "chip_date": "2026-09-11",

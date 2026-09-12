@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-11T19:13:58",
+  "generated_at": "2026-09-12T17:14:27",
   "source_files": {
     "mops_wiki_db": "mops_wiki_db.json",
     "parsed_bonds": "parsed_bonds.json",
@@ -12,8 +12,8 @@
     "Generated linked BOARD_RESOLUTION/EFFECTIVE dates are retained only as low-confidence proxy events."
   ],
   "summary": {
-    "total_events": 3506,
-    "actual_or_observed_events": 1333,
+    "total_events": 3507,
+    "actual_or_observed_events": 1334,
     "inferred_events": 2173,
     "by_stage": {
       "BOARD_RESOLUTION": 576,
@@ -21,7 +21,7 @@
       "EFFECTIVE": 528,
       "PRICING": 522,
       "FINAL_PRICING": 1,
-      "PAYMENT_BANK": 41,
+      "PAYMENT_BANK": 42,
       "AUCTION_BID_START": 63,
       "AUCTION_BID_END": 63,
       "AUCTION_RESULT_ESTIMATED": 63,
@@ -39098,6 +39098,20 @@
       "confidence": 0.3,
       "is_inferred": true,
       "based_on": "2022-11-22"
+    },
+    {
+      "stock_code": "8422",
+      "company_name": "可寧衛*",
+      "short_name": "可寧衛一",
+      "stage": "PAYMENT_BANK",
+      "date": "2026-09-11",
+      "source": "mops_wiki_db",
+      "confidence": 0.85,
+      "is_inferred": false,
+      "title": "公告本公司國內第三次無擔保轉換公司債代收價款及存儲專戶行庫",
+      "summary": "代收價款/專戶: 公告本公司國內第三次無擔保轉換公司債代收價款及存儲專戶行庫",
+      "event_type": "CB_ISSUANCE",
+      "published_at": "2026-09-11T163042"
     },
     {
       "stock_code": "8433",

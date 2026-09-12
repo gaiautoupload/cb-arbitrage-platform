@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-11T19:13:59",
+  "generated_at": "2026-09-12T17:14:28",
   "database": "D:\\bond\\backend\\data\\cb_event_master.sqlite",
   "required_stages": [
     "BOARD_RESOLUTION",
@@ -17,7 +17,7 @@
   ],
   "summary": {
     "issues": 597,
-    "events": 3568,
+    "events": 3569,
     "issues_with_missing_stages": 597
   },
   "stage_summary": {
@@ -15783,9 +15783,10 @@
       "stock_code": "8422",
       "cb_code": "84221",
       "short_name": "可寧衛一",
-      "company_name": "可寧衛股份有限公司",
+      "company_name": "可寧衛*",
       "observed_stages": [
         "LISTING",
+        "PAYMENT_BANK",
         "PRICING"
       ],
       "inferred_stages": [
@@ -15805,7 +15806,7 @@
         "UNDERWRITING_NOTICE",
         "CBAS_ACTUAL"
       ],
-      "event_count": 7
+      "event_count": 8
     },
     {
       "issue_id": "issue_01e5ed4c8af5b25b1e4b",
