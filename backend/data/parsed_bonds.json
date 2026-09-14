@@ -7978,5 +7978,20 @@
     "maturity_date_minguo": "118年9月10日",
     "maturity_date": "2029-09-10",
     "issue_amount": "新台幣2億元整"
+  },
+  {
+    "file_id": "11500058661",
+    "company_name": "晟田科技工業股份有限公司",
+    "bond_name": "晟田科技工業股份有限公司國內第五次有擔保轉換公司債",
+    "cb_code": "45415",
+    "stock_code": "4541",
+    "short_name": "晟田五",
+    "announcement_date_minguo": "115年9月14日",
+    "announcement_date": "2026-09-14",
+    "issue_date_minguo": "115年9月21日",
+    "issue_date": "2026-09-21",
+    "maturity_date_minguo": "120年9月21日",
+    "maturity_date": "2031-09-21",
+    "issue_amount": "新台幣3億元整"
   }
 ]

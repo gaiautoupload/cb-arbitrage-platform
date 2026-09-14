@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-13T17:16:14",
+  "generated_at": "2026-09-14T18:02:51",
   "source_files": {
     "mops_wiki_db": "mops_wiki_db.json",
     "parsed_bonds": "parsed_bonds.json",
@@ -12,23 +12,23 @@
     "Generated linked BOARD_RESOLUTION/EFFECTIVE dates are retained only as low-confidence proxy events."
   ],
   "summary": {
-    "total_events": 3507,
-    "actual_or_observed_events": 1334,
-    "inferred_events": 2173,
+    "total_events": 3514,
+    "actual_or_observed_events": 1336,
+    "inferred_events": 2178,
     "by_stage": {
-      "BOARD_RESOLUTION": 576,
+      "BOARD_RESOLUTION": 577,
       "FILING": 14,
-      "EFFECTIVE": 528,
-      "PRICING": 522,
+      "EFFECTIVE": 529,
+      "PRICING": 523,
       "FINAL_PRICING": 1,
       "PAYMENT_BANK": 42,
       "AUCTION_BID_START": 63,
       "AUCTION_BID_END": 63,
       "AUCTION_RESULT_ESTIMATED": 63,
-      "LISTING": 528,
-      "CBAS_PROXY_START": 369,
-      "CBAS_PROXY_END": 369,
-      "T_PLUS_19_EXIT_PROXY": 369
+      "LISTING": 529,
+      "CBAS_PROXY_START": 370,
+      "CBAS_PROXY_END": 370,
+      "T_PLUS_19_EXIT_PROXY": 370
     }
   },
   "events": [
@@ -19787,8 +19787,32 @@
     },
     {
       "stock_code": "4541",
+      "company_name": "晟田科技工業股份有限公司",
+      "short_name": "晟田五",
+      "stage": "BOARD_RESOLUTION",
+      "date": "2026-07-08",
+      "source": "linked_bond_stages_proxy",
+      "confidence": 0.25,
+      "is_inferred": true,
+      "title": "董事會決議發行無擔保轉換公司債",
+      "summary": "董事會通過發行可轉債以充實營運資金或償還債務"
+    },
+    {
+      "stock_code": "4541",
+      "company_name": "晟田科技工業股份有限公司",
+      "short_name": "晟田五",
+      "stage": "EFFECTIVE",
+      "date": "2026-08-17",
+      "source": "linked_bond_stages_proxy",
+      "confidence": 0.25,
+      "is_inferred": true,
+      "title": "金管會申報生效發行無擔保轉換公司債",
+      "summary": "可轉債申報生效，正式進入定價與發行準備期"
+    },
+    {
+      "stock_code": "4541",
       "company_name": "晟田",
-      "short_name": "",
+      "short_name": "晟田五",
       "stage": "PAYMENT_BANK",
       "date": "2026-08-27",
       "source": "mops_wiki_db",
@@ -19802,7 +19826,7 @@
     {
       "stock_code": "4541",
       "company_name": "晟田",
-      "short_name": "",
+      "short_name": "晟田五",
       "stage": "PAYMENT_BANK",
       "date": "2026-09-02",
       "source": "mops_wiki_db",
@@ -19816,7 +19840,7 @@
     {
       "stock_code": "4541",
       "company_name": "晟田",
-      "short_name": "",
+      "short_name": "晟田五",
       "stage": "AUCTION_BID_START",
       "date": "2026-09-04",
       "source": "twsa_bids",
@@ -19830,7 +19854,7 @@
     {
       "stock_code": "4541",
       "company_name": "晟田",
-      "short_name": "",
+      "short_name": "晟田五",
       "stage": "AUCTION_BID_END",
       "date": "2026-09-08",
       "source": "twsa_bids",
@@ -19844,13 +19868,70 @@
     {
       "stock_code": "4541",
       "company_name": "晟田",
-      "short_name": "",
+      "short_name": "晟田五",
       "stage": "AUCTION_RESULT_ESTIMATED",
       "date": "2026-09-09",
       "source": "calendar_proxy",
       "confidence": 0.35,
       "is_inferred": true,
       "serial": "115066"
+    },
+    {
+      "stock_code": "4541",
+      "company_name": "晟田科技工業股份有限公司",
+      "short_name": "晟田五",
+      "stage": "PRICING",
+      "date": "2026-09-14",
+      "source": "parsed_bonds",
+      "confidence": 0.65,
+      "is_inferred": false,
+      "title": "晟田五 announcement/pricing date",
+      "cb_code": "45415"
+    },
+    {
+      "stock_code": "4541",
+      "company_name": "晟田科技工業股份有限公司",
+      "short_name": "晟田五",
+      "stage": "LISTING",
+      "date": "2026-09-21",
+      "source": "parsed_bonds",
+      "confidence": 0.65,
+      "is_inferred": false,
+      "title": "晟田五 issue/listing date",
+      "cb_code": "45415"
+    },
+    {
+      "stock_code": "4541",
+      "company_name": "晟田科技工業股份有限公司",
+      "short_name": "晟田五",
+      "stage": "CBAS_PROXY_START",
+      "date": "2026-09-22",
+      "source": "cbas_proxy",
+      "confidence": 0.3,
+      "is_inferred": true,
+      "based_on": "2026-09-21"
+    },
+    {
+      "stock_code": "4541",
+      "company_name": "晟田科技工業股份有限公司",
+      "short_name": "晟田五",
+      "stage": "CBAS_PROXY_END",
+      "date": "2026-10-09",
+      "source": "cbas_proxy",
+      "confidence": 0.3,
+      "is_inferred": true,
+      "based_on": "2026-09-21"
+    },
+    {
+      "stock_code": "4541",
+      "company_name": "晟田科技工業股份有限公司",
+      "short_name": "晟田五",
+      "stage": "T_PLUS_19_EXIT_PROXY",
+      "date": "2026-10-10",
+      "source": "cbas_proxy",
+      "confidence": 0.3,
+      "is_inferred": true,
+      "based_on": "2026-09-21"
     },
     {
       "stock_code": "4542",
