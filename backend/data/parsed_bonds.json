@@ -7980,6 +7980,21 @@
     "issue_amount": "新台幣2億元整"
   },
   {
+    "file_id": "11500058611",
+    "company_name": "威剛科技股份有限公司",
+    "bond_name": "威剛科技股份有限公司國內第九次無擔保轉換公司債",
+    "cb_code": "32609",
+    "stock_code": "3260",
+    "short_name": "威剛九",
+    "announcement_date_minguo": "115年9月15日",
+    "announcement_date": "2026-09-15",
+    "issue_date_minguo": "115年9月18日",
+    "issue_date": "2026-09-18",
+    "maturity_date_minguo": "118年9月18日",
+    "maturity_date": "2029-09-18",
+    "issue_amount": "新台幣30億元整"
+  },
+  {
     "file_id": "11500058661",
     "company_name": "晟田科技工業股份有限公司",
     "bond_name": "晟田科技工業股份有限公司國內第五次有擔保轉換公司債",
@@ -7993,5 +8008,35 @@
     "maturity_date_minguo": "120年9月21日",
     "maturity_date": "2031-09-21",
     "issue_amount": "新台幣3億元整"
+  },
+  {
+    "file_id": "11500059041",
+    "company_name": "晶宏半導體股份有限公司",
+    "bond_name": "晶宏半導體股份有限公司國內第五次無擔保轉換公司債",
+    "cb_code": "31415",
+    "stock_code": "3141",
+    "short_name": "晶宏五",
+    "announcement_date_minguo": "115年9月15日",
+    "announcement_date": "2026-09-15",
+    "issue_date_minguo": "115年9月22日",
+    "issue_date": "2026-09-22",
+    "maturity_date_minguo": "118年9月22日",
+    "maturity_date": "2029-09-22",
+    "issue_amount": "新台幣5億元整"
+  },
+  {
+    "file_id": "11500059091",
+    "company_name": "晟田科技工業股份有限公司",
+    "bond_name": "晟田科技工業股份有限公司國內第六次無擔保轉換公司債",
+    "cb_code": "45416",
+    "stock_code": "4541",
+    "short_name": "晟田六",
+    "announcement_date_minguo": "115年9月15日",
+    "announcement_date": "2026-09-15",
+    "issue_date_minguo": "115年9月22日",
+    "issue_date": "2026-09-22",
+    "maturity_date_minguo": "120年9月22日",
+    "maturity_date": "2031-09-22",
+    "issue_amount": "新台幣2億元整"
   }
 ]

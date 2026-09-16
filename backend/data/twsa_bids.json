@@ -766,5 +766,17 @@
     "bidding_shares_thousand": "13,500",
     "bidding_period": "2026/09/11~2026/09/15",
     "min_price": "100.00"
+  },
+  {
+    "serial": "115070",
+    "company_name": "晶豪",
+    "full_company_name": "晶豪科技股份有限公司",
+    "ticker": "3006",
+    "underwriter": "凱基證券股份有限公司",
+    "bond_type": "有擔保轉換公司債",
+    "shares_thousand": "20,000",
+    "bidding_shares_thousand": "17,290",
+    "bidding_period": "2026/09/15~2026/09/17",
+    "min_price": "102.00"
   }
 ]
