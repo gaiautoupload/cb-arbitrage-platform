@@ -7447,6 +7447,98 @@
     "parsed_at": "2026-09-16T17:00:28"
   },
   {
+    "date": "2026-09-16",
+    "time": "183223",
+    "stock_code": "2344",
+    "company_name": "華邦電",
+    "event_title": "本公司董事會決議發行國內第四次無擔保轉換公司債",
+    "event_type": "CB_ISSUANCE",
+    "stage": "BOARD_RESOLUTION",
+    "wiki_details": {
+      "board_date": "115/09/16"
+    },
+    "sentiment": "NEUTRAL",
+    "summary": "董事會/股東會決議: 本公司董事會決議發行國內第四次無擔保轉換公司債",
+    "parser": "rule_v2",
+    "parsed_at": "2026-09-17T18:50:54"
+  },
+  {
+    "date": "2026-09-16",
+    "time": "183336",
+    "stock_code": "2344",
+    "company_name": "華邦電",
+    "event_title": "本公司董事會決議發行國內第五次無擔保轉換公司債",
+    "event_type": "CB_ISSUANCE",
+    "stage": "BOARD_RESOLUTION",
+    "wiki_details": {
+      "board_date": "115/09/16"
+    },
+    "sentiment": "NEUTRAL",
+    "summary": "董事會/股東會決議: 本公司董事會決議發行國內第五次無擔保轉換公司債",
+    "parser": "rule_v2",
+    "parsed_at": "2026-09-17T18:50:54"
+  },
+  {
+    "date": "2026-09-16",
+    "time": "170230",
+    "stock_code": "2530",
+    "company_name": "華建",
+    "event_title": "公告本公司發行國內第五次無擔保轉換公司債案向\r\n金管會申請延長募集期間，業經金管會准予備查",
+    "event_type": "CB_ISSUANCE",
+    "stage": "EFFECTIVE",
+    "wiki_details": {},
+    "sentiment": "BULLISH",
+    "summary": "申報生效: 公告本公司發行國內第五次無擔保轉換公司債案向\r\n金管會申請延長募集期間，業經金管會准予備查",
+    "parser": "rule_v2",
+    "parsed_at": "2026-09-17T18:50:54"
+  },
+  {
+    "date": "2026-09-16",
+    "time": "144317",
+    "stock_code": "3260",
+    "company_name": "威剛",
+    "event_title": "公告本公司國內第九次無擔保轉換公司債收足應募價款",
+    "event_type": "CB_ISSUANCE",
+    "stage": "FILING",
+    "wiki_details": {},
+    "sentiment": "NEUTRAL",
+    "summary": "送件/申報: 公告本公司國內第九次無擔保轉換公司債收足應募價款",
+    "parser": "rule_v2",
+    "parsed_at": "2026-09-17T18:50:54"
+  },
+  {
+    "date": "2026-09-16",
+    "time": "171853",
+    "stock_code": "3689",
+    "company_name": "湧德",
+    "event_title": "本公司國內第四次無擔保轉換公司債行使債券贖回權，申請\r\n轉換為普通股最後期限為115年10月02日，為確保本債券持有人\r\n權益，特此催告。",
+    "event_type": "OTHER",
+    "stage": "N/A",
+    "wiki_details": {},
+    "sentiment": "NEUTRAL",
+    "summary": "CB 相關公告: 本公司國內第四次無擔保轉換公司債行使債券贖回權，申請\r\n轉換為普通股最後期限為115年10月02日，為確保本債券持有人\r\n權益，特此催告。",
+    "parser": "rule_v2",
+    "parsed_at": "2026-09-17T18:50:54"
+  },
+  {
+    "date": "2026-09-16",
+    "time": "141558",
+    "stock_code": "8021",
+    "company_name": "尖點",
+    "event_title": "本公司115年現金增資發行新股認股率更新公告",
+    "event_type": "CB_ISSUANCE",
+    "stage": "BOARD_RESOLUTION",
+    "wiki_details": {
+      "board_date": "115/08/14",
+      "effective_date": "115/09/04",
+      "issue_date": "115/08/14"
+    },
+    "sentiment": "NEUTRAL",
+    "summary": "董事會/股東會決議: 本公司115年現金增資發行新股認股率更新公告",
+    "parser": "rule_v2",
+    "parsed_at": "2026-09-17T18:50:54"
+  },
+  {
     "date": "2026-02-12",
     "time": "140510",
     "stock_code": "3260",

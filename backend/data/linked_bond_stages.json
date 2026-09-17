@@ -16529,6 +16529,37 @@
     }
   },
   {
+    "stock_code": "3583",
+    "company_name": "辛耘企業股份有限公司",
+    "short_name": "辛耘四",
+    "stages": {
+      "BOARD_RESOLUTION": {
+        "date": "2026-07-06",
+        "title": "公告本公司國內第三次及第四次無擔保轉換公司債\r\n代收價款行庫及存儲專戶行庫",
+        "sentiment": "NEUTRAL",
+        "summary": "董事會/股東會決議: 公告本公司國內第三次及第四次無擔保轉換公司債\r\n代收價款行庫及存儲專戶行庫"
+      },
+      "EFFECTIVE": {
+        "date": "2026-08-18",
+        "title": "金管會申報生效發行無擔保轉換公司債",
+        "sentiment": "BULLISH",
+        "summary": "可轉債申報生效，正式進入定價與發行準備期"
+      },
+      "PRICING": {
+        "date": "2026-09-17",
+        "title": "公告「辛耘四」發行及訂價等事宜 (櫃買公告)",
+        "sentiment": "NEUTRAL",
+        "summary": "櫃檯買賣中心公告發行資料"
+      },
+      "LISTING": {
+        "date": "2026-09-22",
+        "title": "「辛耘四」掛牌買賣/發行日",
+        "sentiment": "BULLISH",
+        "summary": "可轉債正式掛牌交易"
+      }
+    }
+  },
+  {
     "stock_code": "3141",
     "company_name": "晶宏半導體股份有限公司",
     "short_name": "晶宏五",

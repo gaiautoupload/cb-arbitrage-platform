@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-16T17:11:23",
+  "generated_at": "2026-09-17T19:05:02",
   "database": "D:\\bond\\backend\\data\\cb_event_master.sqlite",
   "required_stages": [
     "BOARD_RESOLUTION",
@@ -16,40 +16,40 @@
     "CBAS_ACTUAL"
   ],
   "summary": {
-    "issues": 602,
-    "events": 3596,
-    "issues_with_missing_stages": 602
+    "issues": 604,
+    "events": 3606,
+    "issues_with_missing_stages": 604
   },
   "stage_summary": {
     "BOARD_RESOLUTION": {
-      "observed_events": 102,
+      "observed_events": 104,
       "inferred_events": 499,
-      "issues_with_stage": 541
+      "issues_with_stage": 542
     },
     "FILING": {
-      "observed_events": 14,
+      "observed_events": 15,
       "inferred_events": 0,
-      "issues_with_stage": 11
+      "issues_with_stage": 12
     },
     "EFFECTIVE": {
-      "observed_events": 7,
-      "inferred_events": 527,
-      "issues_with_stage": 528
+      "observed_events": 8,
+      "inferred_events": 528,
+      "issues_with_stage": 529
     },
     "PRICING": {
-      "observed_events": 526,
+      "observed_events": 527,
       "inferred_events": 0,
-      "issues_with_stage": 525
+      "issues_with_stage": 526
     },
     "AUCTION_BID_START": {
-      "observed_events": 73,
+      "observed_events": 74,
       "inferred_events": 0,
-      "issues_with_stage": 73
+      "issues_with_stage": 74
     },
     "AUCTION_BID_END": {
-      "observed_events": 73,
+      "observed_events": 74,
       "inferred_events": 0,
-      "issues_with_stage": 73
+      "issues_with_stage": 74
     },
     "BOOKBUILDING_START": {
       "observed_events": 0,
@@ -72,9 +72,9 @@
       "issues_with_stage": 0
     },
     "LISTING": {
-      "observed_events": 532,
+      "observed_events": 533,
       "inferred_events": 0,
-      "issues_with_stage": 528
+      "issues_with_stage": 529
     },
     "CBAS_ACTUAL": {
       "observed_events": 0,
@@ -1938,6 +1938,31 @@
       "event_count": 8
     },
     {
+      "issue_id": "issue_b570f19389145951bef2",
+      "stock_code": "2344",
+      "cb_code": null,
+      "short_name": null,
+      "company_name": "華邦電",
+      "observed_stages": [
+        "BOARD_RESOLUTION"
+      ],
+      "inferred_stages": [],
+      "missing_stages": [
+        "FILING",
+        "EFFECTIVE",
+        "PRICING",
+        "AUCTION_BID_START",
+        "AUCTION_BID_END",
+        "BOOKBUILDING_START",
+        "BOOKBUILDING_END",
+        "BOOKBUILDING_RESULT",
+        "UNDERWRITING_NOTICE",
+        "LISTING",
+        "CBAS_ACTUAL"
+      ],
+      "event_count": 1
+    },
+    {
       "issue_id": "issue_e15a668db90a49d2b55a",
       "stock_code": "2358",
       "cb_code": "23581",
@@ -2808,7 +2833,7 @@
         "LISTING",
         "CBAS_ACTUAL"
       ],
-      "event_count": 1
+      "event_count": 2
     },
     {
       "issue_id": "issue_65f693a2042ba922ec60",
@@ -4702,6 +4727,7 @@
       "company_name": "威剛",
       "observed_stages": [
         "BOARD_RESOLUTION",
+        "FILING",
         "LISTING",
         "PAYMENT_BANK",
         "PRICING"
@@ -4714,7 +4740,6 @@
         "T_PLUS_19_EXIT_PROXY"
       ],
       "missing_stages": [
-        "FILING",
         "AUCTION_BID_START",
         "AUCTION_BID_END",
         "BOOKBUILDING_START",
@@ -4723,7 +4748,7 @@
         "UNDERWRITING_NOTICE",
         "CBAS_ACTUAL"
       ],
-      "event_count": 10
+      "event_count": 11
     },
     {
       "issue_id": "issue_fcf08a1143c117ce3d16",
@@ -6437,6 +6462,32 @@
       "stock_code": "3583",
       "cb_code": "35833",
       "short_name": "辛耘三",
+      "company_name": "辛耘企業股份有限公司",
+      "observed_stages": [
+        "LISTING",
+        "PRICING"
+      ],
+      "inferred_stages": [
+        "EFFECTIVE"
+      ],
+      "missing_stages": [
+        "BOARD_RESOLUTION",
+        "FILING",
+        "AUCTION_BID_START",
+        "AUCTION_BID_END",
+        "BOOKBUILDING_START",
+        "BOOKBUILDING_END",
+        "BOOKBUILDING_RESULT",
+        "UNDERWRITING_NOTICE",
+        "CBAS_ACTUAL"
+      ],
+      "event_count": 3
+    },
+    {
+      "issue_id": "issue_a32a5a7eb5051aeb6a37",
+      "stock_code": "3583",
+      "cb_code": "35834",
+      "short_name": "辛耘四",
       "company_name": "辛耘企業股份有限公司",
       "observed_stages": [
         "LISTING",
@@ -14783,7 +14834,7 @@
         "LISTING",
         "CBAS_ACTUAL"
       ],
-      "event_count": 4
+      "event_count": 5
     },
     {
       "issue_id": "issue_e02db483a9e068574cd2",
@@ -15919,13 +15970,16 @@
       "stock_code": "8422",
       "cb_code": "84221",
       "short_name": "可寧衛一",
-      "company_name": "可寧衛*",
+      "company_name": "可寧衛",
       "observed_stages": [
+        "AUCTION_BID_END",
+        "AUCTION_BID_START",
         "LISTING",
         "PAYMENT_BANK",
         "PRICING"
       ],
       "inferred_stages": [
+        "AUCTION_RESULT_ESTIMATED",
         "BOARD_RESOLUTION",
         "CBAS_PROXY_END",
         "CBAS_PROXY_START",
@@ -15934,15 +15988,13 @@
       ],
       "missing_stages": [
         "FILING",
-        "AUCTION_BID_START",
-        "AUCTION_BID_END",
         "BOOKBUILDING_START",
         "BOOKBUILDING_END",
         "BOOKBUILDING_RESULT",
         "UNDERWRITING_NOTICE",
         "CBAS_ACTUAL"
       ],
-      "event_count": 8
+      "event_count": 11
     },
     {
       "issue_id": "issue_01e5ed4c8af5b25b1e4b",

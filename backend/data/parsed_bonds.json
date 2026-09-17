@@ -8010,6 +8010,21 @@
     "issue_amount": "新台幣3億元整"
   },
   {
+    "file_id": "11500058871",
+    "company_name": "辛耘企業股份有限公司",
+    "bond_name": "辛耘企業股份有限公司國內第四次無擔保轉換公司債",
+    "cb_code": "35834",
+    "stock_code": "3583",
+    "short_name": "辛耘四",
+    "announcement_date_minguo": "115年9月17日",
+    "announcement_date": "2026-09-17",
+    "issue_date_minguo": "115年9月22日",
+    "issue_date": "2026-09-22",
+    "maturity_date_minguo": "118年9月22日",
+    "maturity_date": "2029-09-22",
+    "issue_amount": "新台幣15億元整"
+  },
+  {
     "file_id": "11500059041",
     "company_name": "晶宏半導體股份有限公司",
     "bond_name": "晶宏半導體股份有限公司國內第五次無擔保轉換公司債",

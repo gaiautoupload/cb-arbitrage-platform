@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-16T17:11:22",
+  "generated_at": "2026-09-17T19:05:02",
   "source_files": {
     "mops_wiki_db": "mops_wiki_db.json",
     "parsed_bonds": "parsed_bonds.json",
@@ -12,20 +12,20 @@
     "Generated linked BOARD_RESOLUTION/EFFECTIVE dates are retained only as low-confidence proxy events."
   ],
   "summary": {
-    "total_events": 3529,
-    "actual_or_observed_events": 1346,
-    "inferred_events": 2183,
+    "total_events": 3539,
+    "actual_or_observed_events": 1354,
+    "inferred_events": 2185,
     "by_stage": {
-      "BOARD_RESOLUTION": 579,
-      "FILING": 14,
-      "EFFECTIVE": 532,
-      "PRICING": 526,
+      "BOARD_RESOLUTION": 581,
+      "FILING": 15,
+      "EFFECTIVE": 534,
+      "PRICING": 527,
       "FINAL_PRICING": 1,
       "PAYMENT_BANK": 43,
-      "AUCTION_BID_START": 64,
-      "AUCTION_BID_END": 64,
-      "AUCTION_RESULT_ESTIMATED": 64,
-      "LISTING": 532,
+      "AUCTION_BID_START": 65,
+      "AUCTION_BID_END": 65,
+      "AUCTION_RESULT_ESTIMATED": 65,
+      "LISTING": 533,
       "CBAS_PROXY_START": 370,
       "CBAS_PROXY_END": 370,
       "T_PLUS_19_EXIT_PROXY": 370
@@ -4600,6 +4600,20 @@
       "published_at": "2026-07-15T174319"
     },
     {
+      "stock_code": "2344",
+      "company_name": "華邦電",
+      "short_name": "",
+      "stage": "BOARD_RESOLUTION",
+      "date": "2026-09-16",
+      "source": "mops_wiki_db",
+      "confidence": 0.85,
+      "is_inferred": false,
+      "title": "本公司董事會決議發行國內第四次無擔保轉換公司債",
+      "summary": "董事會/股東會決議: 本公司董事會決議發行國內第四次無擔保轉換公司債",
+      "event_type": "CB_ISSUANCE",
+      "published_at": "2026-09-16T183223"
+    },
+    {
       "stock_code": "2358",
       "company_name": "廷鑫興業股份有限公司",
       "short_name": "廷鑫一",
@@ -6768,6 +6782,20 @@
       "summary": "申報生效: 公告本公司發行國內第五次無擔保轉換公司債案向\r\n金管會申請延長募集期間",
       "event_type": "CB_ISSUANCE",
       "published_at": "2026-09-08T171115"
+    },
+    {
+      "stock_code": "2530",
+      "company_name": "華建",
+      "short_name": "",
+      "stage": "EFFECTIVE",
+      "date": "2026-09-16",
+      "source": "mops_wiki_db",
+      "confidence": 0.85,
+      "is_inferred": false,
+      "title": "公告本公司發行國內第五次無擔保轉換公司債案向\r\n金管會申請延長募集期間，業經金管會准予備查",
+      "summary": "申報生效: 公告本公司發行國內第五次無擔保轉換公司債案向\r\n金管會申請延長募集期間，業經金管會准予備查",
+      "event_type": "CB_ISSUANCE",
+      "published_at": "2026-09-16T170230"
     },
     {
       "stock_code": "2548",
@@ -11696,6 +11724,20 @@
     },
     {
       "stock_code": "3260",
+      "company_name": "威剛",
+      "short_name": "威剛七",
+      "stage": "FILING",
+      "date": "2026-09-16",
+      "source": "mops_wiki_db",
+      "confidence": 0.85,
+      "is_inferred": false,
+      "title": "公告本公司國內第九次無擔保轉換公司債收足應募價款",
+      "summary": "送件/申報: 公告本公司國內第九次無擔保轉換公司債收足應募價款",
+      "event_type": "CB_ISSUANCE",
+      "published_at": "2026-09-16T144317"
+    },
+    {
+      "stock_code": "3260",
       "company_name": "威剛科技股份有限公司",
       "short_name": "威剛九",
       "stage": "LISTING",
@@ -15973,6 +16015,18 @@
     },
     {
       "stock_code": "3583",
+      "company_name": "辛耘企業股份有限公司",
+      "short_name": "辛耘四",
+      "stage": "EFFECTIVE",
+      "date": "2026-08-18",
+      "source": "linked_bond_stages_proxy",
+      "confidence": 0.25,
+      "is_inferred": true,
+      "title": "金管會申報生效發行無擔保轉換公司債",
+      "summary": "可轉債申報生效，正式進入定價與發行準備期"
+    },
+    {
+      "stock_code": "3583",
       "company_name": "辛耘企業",
       "short_name": "辛耘一",
       "stage": "AUCTION_BID_START",
@@ -16009,6 +16063,30 @@
       "confidence": 0.35,
       "is_inferred": true,
       "serial": "115065"
+    },
+    {
+      "stock_code": "3583",
+      "company_name": "辛耘企業股份有限公司",
+      "short_name": "辛耘四",
+      "stage": "PRICING",
+      "date": "2026-09-17",
+      "source": "parsed_bonds",
+      "confidence": 0.65,
+      "is_inferred": false,
+      "title": "辛耘四 announcement/pricing date",
+      "cb_code": "35834"
+    },
+    {
+      "stock_code": "3583",
+      "company_name": "辛耘企業股份有限公司",
+      "short_name": "辛耘四",
+      "stage": "LISTING",
+      "date": "2026-09-22",
+      "source": "parsed_bonds",
+      "confidence": 0.65,
+      "is_inferred": false,
+      "title": "辛耘四 issue/listing date",
+      "cb_code": "35834"
     },
     {
       "stock_code": "3587",
@@ -36450,6 +36528,20 @@
       "published_at": "2026-08-14T140253"
     },
     {
+      "stock_code": "8021",
+      "company_name": "尖點",
+      "short_name": "",
+      "stage": "BOARD_RESOLUTION",
+      "date": "2026-09-16",
+      "source": "mops_wiki_db",
+      "confidence": 0.85,
+      "is_inferred": false,
+      "title": "本公司115年現金增資發行新股認股率更新公告",
+      "summary": "董事會/股東會決議: 本公司115年現金增資發行新股認股率更新公告",
+      "event_type": "CB_ISSUANCE",
+      "published_at": "2026-09-16T141558"
+    },
+    {
       "stock_code": "8027",
       "company_name": "鈦昇科技股份有限公司",
       "short_name": "鈦昇三",
@@ -39380,6 +39472,45 @@
       "summary": "代收價款/專戶: 公告本公司國內第三次無擔保轉換公司債代收價款及存儲專戶行庫",
       "event_type": "CB_ISSUANCE",
       "published_at": "2026-09-11T163042"
+    },
+    {
+      "stock_code": "8422",
+      "company_name": "可寧衛",
+      "short_name": "可寧衛一",
+      "stage": "AUCTION_BID_START",
+      "date": "2026-09-17",
+      "source": "twsa_bids",
+      "confidence": 0.9,
+      "is_inferred": false,
+      "serial": "115071",
+      "underwriter": "中國信託綜合證券股份有限公司",
+      "min_price": "100.00",
+      "bidding_period": "2026/09/17~2026/09/21"
+    },
+    {
+      "stock_code": "8422",
+      "company_name": "可寧衛",
+      "short_name": "可寧衛一",
+      "stage": "AUCTION_BID_END",
+      "date": "2026-09-21",
+      "source": "twsa_bids",
+      "confidence": 0.9,
+      "is_inferred": false,
+      "serial": "115071",
+      "underwriter": "中國信託綜合證券股份有限公司",
+      "min_price": "100.00",
+      "bidding_period": "2026/09/17~2026/09/21"
+    },
+    {
+      "stock_code": "8422",
+      "company_name": "可寧衛",
+      "short_name": "可寧衛一",
+      "stage": "AUCTION_RESULT_ESTIMATED",
+      "date": "2026-09-22",
+      "source": "calendar_proxy",
+      "confidence": 0.35,
+      "is_inferred": true,
+      "serial": "115071"
     },
     {
       "stock_code": "8433",
