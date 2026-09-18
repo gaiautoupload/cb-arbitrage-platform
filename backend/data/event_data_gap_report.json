@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-17T19:05:02",
+  "generated_at": "2026-09-18T19:05:09",
   "database": "D:\\bond\\backend\\data\\cb_event_master.sqlite",
   "required_stages": [
     "BOARD_RESOLUTION",
@@ -16,15 +16,15 @@
     "CBAS_ACTUAL"
   ],
   "summary": {
-    "issues": 604,
-    "events": 3606,
-    "issues_with_missing_stages": 604
+    "issues": 605,
+    "events": 3607,
+    "issues_with_missing_stages": 605
   },
   "stage_summary": {
     "BOARD_RESOLUTION": {
-      "observed_events": 104,
+      "observed_events": 105,
       "inferred_events": 499,
-      "issues_with_stage": 542
+      "issues_with_stage": 543
     },
     "FILING": {
       "observed_events": 15,
@@ -14752,6 +14752,31 @@
         "CBAS_ACTUAL"
       ],
       "event_count": 8
+    },
+    {
+      "issue_id": "issue_6c753bbd6b59174a7c5d",
+      "stock_code": "7711",
+      "cb_code": null,
+      "short_name": null,
+      "company_name": "永擎",
+      "observed_stages": [
+        "BOARD_RESOLUTION"
+      ],
+      "inferred_stages": [],
+      "missing_stages": [
+        "FILING",
+        "EFFECTIVE",
+        "PRICING",
+        "AUCTION_BID_START",
+        "AUCTION_BID_END",
+        "BOOKBUILDING_START",
+        "BOOKBUILDING_END",
+        "BOOKBUILDING_RESULT",
+        "UNDERWRITING_NOTICE",
+        "LISTING",
+        "CBAS_ACTUAL"
+      ],
+      "event_count": 1
     },
     {
       "issue_id": "issue_2d557bdea8cc4403c7d5",

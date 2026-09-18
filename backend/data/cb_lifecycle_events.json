@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-17T19:05:02",
+  "generated_at": "2026-09-18T19:05:09",
   "source_files": {
     "mops_wiki_db": "mops_wiki_db.json",
     "parsed_bonds": "parsed_bonds.json",
@@ -12,11 +12,11 @@
     "Generated linked BOARD_RESOLUTION/EFFECTIVE dates are retained only as low-confidence proxy events."
   ],
   "summary": {
-    "total_events": 3539,
-    "actual_or_observed_events": 1354,
+    "total_events": 3540,
+    "actual_or_observed_events": 1355,
     "inferred_events": 2185,
     "by_stage": {
-      "BOARD_RESOLUTION": 581,
+      "BOARD_RESOLUTION": 582,
       "FILING": 15,
       "EFFECTIVE": 534,
       "PRICING": 527,
@@ -36362,6 +36362,20 @@
       "confidence": 0.3,
       "is_inferred": true,
       "based_on": "2026-08-26"
+    },
+    {
+      "stock_code": "7711",
+      "company_name": "永擎",
+      "short_name": "",
+      "stage": "BOARD_RESOLUTION",
+      "date": "2026-09-17",
+      "source": "mops_wiki_db",
+      "confidence": 0.85,
+      "is_inferred": false,
+      "title": "公告本公司董事會決議發行國內第一次無擔保轉換公司債",
+      "summary": "董事會/股東會決議: 公告本公司董事會決議發行國內第一次無擔保轉換公司債",
+      "event_type": "CB_ISSUANCE",
+      "published_at": "2026-09-17T201112"
     },
     {
       "stock_code": "7743",
