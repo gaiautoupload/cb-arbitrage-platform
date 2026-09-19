@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-18T19:05:09",
+  "generated_at": "2026-09-19T17:14:38",
   "source_files": {
     "mops_wiki_db": "mops_wiki_db.json",
     "parsed_bonds": "parsed_bonds.json",
@@ -12,8 +12,8 @@
     "Generated linked BOARD_RESOLUTION/EFFECTIVE dates are retained only as low-confidence proxy events."
   ],
   "summary": {
-    "total_events": 3540,
-    "actual_or_observed_events": 1355,
+    "total_events": 3541,
+    "actual_or_observed_events": 1356,
     "inferred_events": 2185,
     "by_stage": {
       "BOARD_RESOLUTION": 582,
@@ -21,7 +21,7 @@
       "EFFECTIVE": 534,
       "PRICING": 527,
       "FINAL_PRICING": 1,
-      "PAYMENT_BANK": 43,
+      "PAYMENT_BANK": 44,
       "AUCTION_BID_START": 65,
       "AUCTION_BID_END": 65,
       "AUCTION_RESULT_ESTIMATED": 65,
@@ -10649,6 +10649,20 @@
       "is_inferred": false,
       "title": "晶宏五 announcement/pricing date",
       "cb_code": "31415"
+    },
+    {
+      "stock_code": "3141",
+      "company_name": "晶宏",
+      "short_name": "晶宏一",
+      "stage": "PAYMENT_BANK",
+      "date": "2026-09-18",
+      "source": "mops_wiki_db",
+      "confidence": 0.85,
+      "is_inferred": false,
+      "title": "公告本公司國內第五次無擔保轉換公司債收足債款",
+      "summary": "代收價款/專戶: 公告本公司國內第五次無擔保轉換公司債收足債款",
+      "event_type": "CB_ISSUANCE",
+      "published_at": "2026-09-18T125319"
     },
     {
       "stock_code": "3141",

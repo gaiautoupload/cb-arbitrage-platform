@@ -79,12 +79,6 @@
     },
     "latest_news": [
       {
-        "title": "4764 雙鍵 - 等等就上去了！上車嘍～ - 股市爆料同學會 - CMoney",
-        "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE13c2tvLTQyM2pwaHVsX0tLM1I4bDdPNVZfRWZwZmZtQnM4d0RMZnhpUGRRcTJSMnNFb3NwVlRxVGFvbkVwZFVoR2pYWkd0OXpKU2JsRlhSX2c?oc=5",
-        "source": "CMoney",
-        "published_at": "2026-09-17T09:34:09+08:00"
-      },
-      {
         "title": "【09/14 申報轉讓】雙鍵(4764)大股東利用他人名義持有者顥揚投資有限公司將於09/17申報轉讓雙鍵股票500張 - CMoney投資網誌",
         "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNZC01SnhUb1A2MEc2SGJ5MmJySnlFRW1Ib2Nqb3Zmdnptbnp5emNWNjlDNFFSOEpTNGJsanpibFQzTkZxTWZEREw1X0RQVXZaT01BdVNyc2pWdDdNeG9sMS0tUGZsaVhFd0NUbjB5U1BSSWZ3bGVwLTNmQ1lYVl9VX3ZCT3ZTX1lod3c?oc=5",
         "source": "CMoney投資網誌",
@@ -95,6 +89,12 @@
         "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBXRHhib2xjMGt1VUVaZDd3VkktaGt5el9tMXdZTTBQb3pvOHYxQjVoT2p0cm52bldwTFFRWWZydWxhd0RGaEZ6Umh4R3IxODlLeEVGVV94UHQ?oc=5",
         "source": "CMoney",
         "published_at": "2026-09-09T12:59:44+08:00"
+      },
+      {
+        "title": "抽中賺7萬！台股本週雙鍵「8檔股票」申購：這檔本金低、價差破萬 - nownews.com",
+        "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTFBVb3FaODJPcExob3NtOElYaElNTlYyWHJ0c1QxQ0E0dzdaclBrc2JVaTVIQV8xQUF3WlVJZHB5YjJPVVVWRjlQYm9MNmHSAVJBVV95cUxPR1FTZ2dBNUIybHFkemplUkFSSTh6SmJacG5HcklsWVRWNWQ4cFVlVnhmX19GTGpVWXdUcjhXX0V3OFQ5d0xUS3UtZlZFX19aUUJB?oc=5",
+        "source": "nownews.com",
+        "published_at": "2026-09-03T15:00:00+08:00"
       }
     ],
     "operation_signals": {
@@ -116,7 +116,7 @@
         "ma_bull": false,
         "momentum_20d_pct": -6.62,
         "distance_from_60d_high_pct": -43.17,
-        "volume_ratio_5v20": 0.64
+        "volume_ratio_5v20": 0.63
       },
       "top1": {
         "chip_date": "2026-09-18",
@@ -241,12 +241,6 @@
     },
     "latest_news": [
       {
-        "title": "4764 雙鍵 - 等等就上去了！上車嘍～ - 股市爆料同學會 - CMoney",
-        "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE13c2tvLTQyM2pwaHVsX0tLM1I4bDdPNVZfRWZwZmZtQnM4d0RMZnhpUGRRcTJSMnNFb3NwVlRxVGFvbkVwZFVoR2pYWkd0OXpKU2JsRlhSX2c?oc=5",
-        "source": "CMoney",
-        "published_at": "2026-09-17T09:34:09+08:00"
-      },
-      {
         "title": "【09/14 申報轉讓】雙鍵(4764)大股東利用他人名義持有者顥揚投資有限公司將於09/17申報轉讓雙鍵股票500張 - CMoney投資網誌",
         "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNZC01SnhUb1A2MEc2SGJ5MmJySnlFRW1Ib2Nqb3Zmdnptbnp5emNWNjlDNFFSOEpTNGJsanpibFQzTkZxTWZEREw1X0RQVXZaT01BdVNyc2pWdDdNeG9sMS0tUGZsaVhFd0NUbjB5U1BSSWZ3bGVwLTNmQ1lYVl9VX3ZCT3ZTX1lod3c?oc=5",
         "source": "CMoney投資網誌",
@@ -257,6 +251,12 @@
         "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBXRHhib2xjMGt1VUVaZDd3VkktaGt5el9tMXdZTTBQb3pvOHYxQjVoT2p0cm52bldwTFFRWWZydWxhd0RGaEZ6Umh4R3IxODlLeEVGVV94UHQ?oc=5",
         "source": "CMoney",
         "published_at": "2026-09-09T12:59:44+08:00"
+      },
+      {
+        "title": "抽中賺7萬！台股本週雙鍵「8檔股票」申購：這檔本金低、價差破萬 - nownews.com",
+        "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTFBVb3FaODJPcExob3NtOElYaElNTlYyWHJ0c1QxQ0E0dzdaclBrc2JVaTVIQV8xQUF3WlVJZHB5YjJPVVVWRjlQYm9MNmHSAVJBVV95cUxPR1FTZ2dBNUIybHFkemplUkFSSTh6SmJacG5HcklsWVRWNWQ4cFVlVnhmX19GTGpVWXdUcjhXX0V3OFQ5d0xUS3UtZlZFX19aUUJB?oc=5",
+        "source": "nownews.com",
+        "published_at": "2026-09-03T15:00:00+08:00"
       }
     ],
     "operation_signals": {
@@ -278,7 +278,7 @@
         "ma_bull": false,
         "momentum_20d_pct": -6.62,
         "distance_from_60d_high_pct": -43.17,
-        "volume_ratio_5v20": 0.64
+        "volume_ratio_5v20": 0.63
       },
       "top1": {
         "chip_date": "2026-09-18",
@@ -403,22 +403,22 @@
     },
     "latest_news": [
       {
-        "title": "聯電(2303) 今日股價與討論 - 股市爆料同學會 - CMoney",
-        "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE96aW81YUJ2YzVINnlkSFlHQjdQN2NSbE5yRFZqelZoX2ZkcGEzdDB2ZW9oanlVbGhfM2c3Zms3UWFIT0w3M04zdzRENTVsdjQ?oc=5",
+        "title": "聯電(2303) 個股概覽 | 個股 - 股市 - CMoney",
+        "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1WRTdEMGpRMzU1MmdaREF5RkZvOGdTd2dPQ3U1TGp6Y21RZGtGUG5kZi1VMWJ5RFlwZDBaUUxBMl9Wb0o0Ym9taDU5bzVjZzZvVWxR?oc=5",
         "source": "CMoney",
-        "published_at": "2026-09-14T15:00:00+08:00"
+        "published_at": "2026-09-19T14:32:00+08:00"
+      },
+      {
+        "title": "2303 聯電 - 主力大買 散戶下車 - 股市爆料同學會 - CMoney",
+        "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5MbHhHZ2Z0cU1zRG9oN1lGRmg1T3g1Mm51anJsSF9rMkUtdkJPODZPRzRWeDJFSWxxaWVJNmZFNEhNM1hoS2dMMkVHZ05ST1ctQ3puZE4tV1c?oc=5",
+        "source": "CMoney",
+        "published_at": "2026-09-19T08:44:36+08:00"
       },
       {
         "title": "【09/11 申報轉讓】聯電(2303)經理人劉啟東將於09/14申報轉讓聯電股票1,600張-CMoney 小編 - CMoney投資網誌",
         "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxObHlCeVhWd0ZyaktFQlVydXZHd3kwRzZGMFNnUkxKXzhub3RlaTRmbEJLTDltaVdVa1dwNEsyZjB3VnIwalkwUFp1TWZNOWVMTzRiRmhqbTQtendNYnJWMDdSeWdob3ExTmpvaGhYaVlrQWI4aVo2T0dhbW9CZHhIZVBjYXp3QUt6WVE?oc=5",
         "source": "CMoney投資網誌",
         "published_at": "2026-09-11T21:10:08+08:00"
-      },
-      {
-        "title": "三大法人買賣超 – 外資買超(2303)聯電、(2330)台積電，投信買超(3017)奇鋐、(1303)南亞，法人合計買超468.18億元 - sinotrade.com.tw",
-        "url": "https://news.google.com/rss/articles/CBMixwRBVV95cUxNa1BKQWVGRTZFY2NLRlRPbS0xNGpHM3R4c3JFTFNSV09CSGFCRVBUWmt4bGhXZFptNkYxbFBPNzByYVNHZ2tuRUkwMWJ5aHNXTkFrTTJjenV4VE9IblcyRE0tQURQMjhHel9XZmx3ZEZHbWZKYkxEVkc4cXFOaUZjX1VWOXJodDhBMWt3bHRJM2tyMUZVOWRydUhyb1N3Mm0tZkpMcVJBSzRzY3dEdUMxQ1JsUGRlMFFpaGY2czFlN1BwX3VzRGlHUndubE0wM3NPMll4UHVQM1RvZU9zWnYyZEVjZzY5Vzg5ZlM4SkduMUZoa1BYcU5fNVZKTHBOeC1oZ2cxa1picUJzVlF6Qk4zS2ljek1ITUJjOVZKSmNTYUVaMkpXYVAwMmNLZWZxSjV4WGpTWC16YVo2bG5ldGhiblBUMWxESGIwdnlpbWVxbUkxYk93d05fVER0eTNFVC15cGZyTy10VnJYbDNWenRBamxaZ05zODVTQ1pWUGlHcm1weGFYeVduVWVJWXpRcFdjX0NSWldUbXI5U25UVWVqb3I2NkFBNWdxODhyb0FXWGdkLWVxWUFhOG55eVlmeXZFWklMOVUtd3dBaVhyX0JBY1VfSHlGRmw0WEJZSmFoM091VUx2X0RyRkIxTldBTy0zRVl2SHB4dE5NZU0tSFRIeWxqLUlucDdobm5IR1duV3B2MnZBNndQanZicS0xZWV5N044bklGc0VUUjQ4Nlc4eEJxUE03UGJJeWRjT2JTNy1DVldsQ0RZ?oc=5",
-        "source": "sinotrade.com.tw",
-        "published_at": "2026-08-31T15:00:00+08:00"
       }
     ],
     "operation_signals": {
@@ -440,7 +440,7 @@
         "ma_bull": true,
         "momentum_20d_pct": 33.91,
         "distance_from_60d_high_pct": -6.94,
-        "volume_ratio_5v20": 0.96
+        "volume_ratio_5v20": 0.95
       },
       "top1": {
         "chip_date": "2026-09-18",
@@ -565,7 +565,7 @@
       "ma_bull": true,
       "foreign_net_5d": 306.6,
       "trust_net_5d": 7.0,
-      "volume_ratio_5v20": 2.37,
+      "volume_ratio_5v20": 2.35,
       "chip_date": "2026-09-18"
     },
     "latest_news": [
@@ -573,19 +573,19 @@
         "title": "雍智科技(6683) 個股概覽 | 個股 - 股市 - CMoney",
         "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1aYkRjN1RvR3dfSmJqbFdtN2dEdGc4UmxnWDN3eHZRdWU1aDdsbHJkc0h6c2xUUUpkTkJxcHExcjJUVGw2TUtaYm1wUVp3Q2VZRWQ4?oc=5",
         "source": "CMoney",
-        "published_at": "2026-09-18T16:20:32+08:00"
+        "published_at": "2026-09-19T15:12:58+08:00"
+      },
+      {
+        "title": "6683 雍智科技- 大哥在發威，小弟跟著跑- 股市爆料同學會 - CMoney",
+        "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBiZ0JfQkJqRXhrUGU3THN3LS1fZm50R2FDeUJhZGZ6UklGZEhFN0UtdXNwSzB3OG4ybzZkNE9PYTdFbTd1bFRJaS1YdUtyWExjcjRIRkNIQzc?oc=5",
+        "source": "CMoney",
+        "published_at": "2026-09-01T18:15:09+08:00"
       },
       {
         "title": "【07/22處置股公告】雍智科技(6683) 07/22到08/04列入處置股，採分盤交易-CMoney 小編 - CMoney投資網誌",
         "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNcXlLbUxtQXJzZDcwY29Oc012YWFDSjhHal9TNm9LNG5ZY0ZoMkh5YWp4ZEhqVHVjZmVIeXh0dW1rbElSOWFLaUZZSktjZ0YtWEJGYjk5MXNhc1FjQzdaWFZRckxlTTBJLWlfM210TlJDX1pPSlFia21qVmdaWUJYVE5QTW5SZ0hBUVE?oc=5",
         "source": "CMoney投資網誌",
         "published_at": "2026-07-22T15:00:00+08:00"
-      },
-      {
-        "title": "雍智科技Q3營收估回升 下半年看成長 - Yahoo股市",
-        "url": "https://news.google.com/rss/articles/CBMikwJBVV95cUxNRGdmRndmaC10SjZyZ1VCRm5MMHMwQ3FSM0h5QUVCYTlyTGVqbjc2c1hMZmpaS2R1YUVVV05DQmpxbS1NQnE0X2trNVdPV2ZKdVRoQ0toSDNtZkwzUDVvTFFZLWhwcFo3RU4yTE5MbVllbW9uV0s4MDlJSFBYUmNhcDJRZzJPY0MxcGpNUDNPeXRhcVdZTU94dm9JOUNUaEFHRTY4UlphU0lVTE9DdHVjbm1EOV8tQkJCQXp3MTdJaURNejQ3T0hROUg5cTVrMXRkeTVGY21VZDRmUEwzUVdDYmxDWXVvMG03TUlfYktmeGlfQjczd3NUc19CczRLT1N2SVpKODI3MXhTWVd0aUNmbmJVSQ?oc=5",
-        "source": "Yahoo股市",
-        "published_at": "2026-07-16T15:00:00+08:00"
       }
     ],
     "operation_signals": {
@@ -732,7 +732,7 @@
       "ma_bull": true,
       "foreign_net_5d": 306.6,
       "trust_net_5d": 7.0,
-      "volume_ratio_5v20": 2.37,
+      "volume_ratio_5v20": 2.35,
       "chip_date": "2026-09-18"
     },
     "latest_news": [
@@ -740,19 +740,19 @@
         "title": "雍智科技(6683) 個股概覽 | 個股 - 股市 - CMoney",
         "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1aYkRjN1RvR3dfSmJqbFdtN2dEdGc4UmxnWDN3eHZRdWU1aDdsbHJkc0h6c2xUUUpkTkJxcHExcjJUVGw2TUtaYm1wUVp3Q2VZRWQ4?oc=5",
         "source": "CMoney",
-        "published_at": "2026-09-18T16:20:32+08:00"
+        "published_at": "2026-09-19T15:12:58+08:00"
+      },
+      {
+        "title": "6683 雍智科技- 大哥在發威，小弟跟著跑- 股市爆料同學會 - CMoney",
+        "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBiZ0JfQkJqRXhrUGU3THN3LS1fZm50R2FDeUJhZGZ6UklGZEhFN0UtdXNwSzB3OG4ybzZkNE9PYTdFbTd1bFRJaS1YdUtyWExjcjRIRkNIQzc?oc=5",
+        "source": "CMoney",
+        "published_at": "2026-09-01T18:15:09+08:00"
       },
       {
         "title": "【07/22處置股公告】雍智科技(6683) 07/22到08/04列入處置股，採分盤交易-CMoney 小編 - CMoney投資網誌",
         "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNcXlLbUxtQXJzZDcwY29Oc012YWFDSjhHal9TNm9LNG5ZY0ZoMkh5YWp4ZEhqVHVjZmVIeXh0dW1rbElSOWFLaUZZSktjZ0YtWEJGYjk5MXNhc1FjQzdaWFZRckxlTTBJLWlfM210TlJDX1pPSlFia21qVmdaWUJYVE5QTW5SZ0hBUVE?oc=5",
         "source": "CMoney投資網誌",
         "published_at": "2026-07-22T15:00:00+08:00"
-      },
-      {
-        "title": "雍智科技Q3營收估回升 下半年看成長 - Yahoo股市",
-        "url": "https://news.google.com/rss/articles/CBMikwJBVV95cUxNRGdmRndmaC10SjZyZ1VCRm5MMHMwQ3FSM0h5QUVCYTlyTGVqbjc2c1hMZmpaS2R1YUVVV05DQmpxbS1NQnE0X2trNVdPV2ZKdVRoQ0toSDNtZkwzUDVvTFFZLWhwcFo3RU4yTE5MbVllbW9uV0s4MDlJSFBYUmNhcDJRZzJPY0MxcGpNUDNPeXRhcVdZTU94dm9JOUNUaEFHRTY4UlphU0lVTE9DdHVjbm1EOV8tQkJCQXp3MTdJaURNejQ3T0hROUg5cTVrMXRkeTVGY21VZDRmUEwzUVdDYmxDWXVvMG03TUlfYktmeGlfQjczd3NUc19CczRLT1N2SVpKODI3MXhTWVd0aUNmbmJVSQ?oc=5",
-        "source": "Yahoo股市",
-        "published_at": "2026-07-16T15:00:00+08:00"
       }
     ],
     "operation_signals": {

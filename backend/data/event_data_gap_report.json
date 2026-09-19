@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-18T19:05:09",
+  "generated_at": "2026-09-19T17:14:38",
   "database": "D:\\bond\\backend\\data\\cb_event_master.sqlite",
   "required_stages": [
     "BOARD_RESOLUTION",
@@ -17,7 +17,7 @@
   ],
   "summary": {
     "issues": 605,
-    "events": 3607,
+    "events": 3608,
     "issues_with_missing_stages": 605
   },
   "stage_summary": {
@@ -4271,12 +4271,13 @@
       "stock_code": "3141",
       "cb_code": "31411",
       "short_name": "晶宏一",
-      "company_name": "晶宏半導體",
+      "company_name": "晶宏",
       "observed_stages": [
         "AUCTION_BID_END",
         "AUCTION_BID_START",
         "BOARD_RESOLUTION",
         "LISTING",
+        "PAYMENT_BANK",
         "PRICING"
       ],
       "inferred_stages": [
@@ -4295,7 +4296,7 @@
         "UNDERWRITING_NOTICE",
         "CBAS_ACTUAL"
       ],
-      "event_count": 12
+      "event_count": 13
     },
     {
       "issue_id": "issue_02689aada98f16e99363",

@@ -7555,6 +7555,34 @@
     "parsed_at": "2026-09-18T18:51:02"
   },
   {
+    "date": "2026-09-18",
+    "time": "125319",
+    "stock_code": "3141",
+    "company_name": "晶宏",
+    "event_title": "公告本公司國內第五次無擔保轉換公司債收足債款",
+    "event_type": "CB_ISSUANCE",
+    "stage": "PAYMENT_BANK",
+    "wiki_details": {},
+    "sentiment": "BULLISH",
+    "summary": "代收價款/專戶: 公告本公司國內第五次無擔保轉換公司債收足債款",
+    "parser": "rule_v2",
+    "parsed_at": "2026-09-19T17:00:24"
+  },
+  {
+    "date": "2026-09-18",
+    "time": "171013",
+    "stock_code": "6919",
+    "company_name": "康霈*",
+    "event_title": "本公司新藥CBL-514注射劑之樞紐三期臨床試驗CBL-0302向\r\n加拿大HC申請之試驗變更案已核准執行。",
+    "event_type": "OTHER",
+    "stage": "N/A",
+    "wiki_details": {},
+    "sentiment": "NEUTRAL",
+    "summary": "CB 相關公告: 本公司新藥CBL-514注射劑之樞紐三期臨床試驗CBL-0302向\r\n加拿大HC申請之試驗變更案已核准執行。",
+    "parser": "rule_v2",
+    "parsed_at": "2026-09-19T17:00:24"
+  },
+  {
     "date": "2026-02-12",
     "time": "140510",
     "stock_code": "3260",
