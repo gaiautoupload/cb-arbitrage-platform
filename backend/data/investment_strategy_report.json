@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-09-19T17:15:18",
+  "generated_at": "2026-09-20T17:15:48",
   "report_title": "公司債事件策略投資報告",
   "report_status": "research_only",
   "summary": {
     "headline": "目前已有平均報酬超過 20% 的候選，但尚未達到正式操盤標準。",
     "reason": "競拍歷史資料目前集中在 2026 年，且最佳候選去除單一最大值後平均報酬降至 13.52%。",
-    "search_samples": 8807,
-    "matching_strategies": 19
+    "search_samples": 8823,
+    "matching_strategies": 17
   },
   "candidates": [
     {
@@ -21,11 +21,11 @@
         "外資近 5 日累計買超"
       ],
       "metrics": {
-        "samples": 12,
-        "win_rate": 75.0,
-        "avg_return": 24.97,
-        "median_return": 32.81,
-        "trimmed_avg_return": 19.59,
+        "samples": 13,
+        "win_rate": 76.92,
+        "avg_return": 23.52,
+        "median_return": 23.59,
+        "trimmed_avg_return": 18.47,
         "worst_return": -27.24,
         "best_return": 84.15,
         "years": [
@@ -46,11 +46,11 @@
         "投信近 5 日累計買超"
       ],
       "metrics": {
-        "samples": 12,
-        "win_rate": 75.0,
-        "avg_return": 24.97,
-        "median_return": 32.81,
-        "trimmed_avg_return": 19.59,
+        "samples": 13,
+        "win_rate": 76.92,
+        "avg_return": 23.52,
+        "median_return": 23.59,
+        "trimmed_avg_return": 18.47,
         "worst_return": -27.24,
         "best_return": 84.15,
         "years": [
@@ -71,11 +71,11 @@
         "外資或投信近 5 日累計買超"
       ],
       "metrics": {
-        "samples": 12,
-        "win_rate": 75.0,
-        "avg_return": 24.97,
-        "median_return": 32.81,
-        "trimmed_avg_return": 19.59,
+        "samples": 13,
+        "win_rate": 76.92,
+        "avg_return": 23.52,
+        "median_return": 23.59,
+        "trimmed_avg_return": 18.47,
         "worst_return": -27.24,
         "best_return": 84.15,
         "years": [

@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-19T17:18:23",
-  "as_of": "2026-09-19",
+  "generated_at": "2026-09-20T17:18:50",
+  "as_of": "2026-09-20",
   "strategies": {
     "short": "官方發行日T確定後，T-16收盤審核，T-15開盤買入，T+9收盤賣出。",
     "long": "技術、法人與營收11分制；8分以上僅列候選，配合分批與移動停利。"
@@ -16,16 +16,16 @@
       "cb_stage_date": null,
       "added_at": "2026-07-16",
       "market": {
-        "date": "2026-09-18",
+        "date": "2026-09-20",
         "close": 204.5,
-        "ma5": 205.4,
-        "ma10": 213.55,
-        "ma20": 222.07,
-        "ma60": 256.92,
+        "ma5": 204.8,
+        "ma10": 211.2,
+        "ma20": 221.97,
+        "ma60": 255.62,
         "ma_bull": false,
-        "momentum_20d_pct": -6.62,
+        "momentum_20d_pct": -0.97,
         "distance_from_60d_high_pct": -43.17,
-        "volume_ratio_5v20": 0.63
+        "volume_ratio_5v20": 0.6
       },
       "top1": {
         "chip_date": "2026-09-18",
@@ -79,16 +79,16 @@
       "cb_stage_date": "2026-06-03",
       "added_at": "2026-07-16",
       "market": {
-        "date": "2026-09-18",
+        "date": "2026-09-20",
         "close": 156.0,
-        "ma5": 145.3,
-        "ma10": 143.1,
-        "ma20": 134.7,
-        "ma60": 135.33,
+        "ma5": 148.0,
+        "ma10": 144.4,
+        "ma20": 136.32,
+        "ma60": 135.25,
         "ma_bull": true,
-        "momentum_20d_pct": 33.91,
+        "momentum_20d_pct": 26.32,
         "distance_from_60d_high_pct": -6.94,
-        "volume_ratio_5v20": 0.95
+        "volume_ratio_5v20": 0.89
       },
       "top1": {
         "chip_date": "2026-09-18",
@@ -147,16 +147,16 @@
       "cb_stage_date": "2026-07-08",
       "added_at": "2026-07-16",
       "market": {
-        "date": "2026-09-18",
+        "date": "2026-09-20",
         "close": 1670.0,
-        "ma5": 1525.0,
-        "ma10": 1439.0,
-        "ma20": 1346.75,
-        "ma60": 1339.54,
+        "ma5": 1592.0,
+        "ma10": 1465.0,
+        "ma20": 1375.75,
+        "ma60": 1339.68,
         "ma_bull": true,
-        "momentum_20d_pct": 56.07,
+        "momentum_20d_pct": 53.21,
         "distance_from_60d_high_pct": -7.78,
-        "volume_ratio_5v20": 1.76
+        "volume_ratio_5v20": 1.71
       },
       "top1": {
         "chip_date": "2026-09-18",
