@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-20T17:15:06",
+  "generated_at": "2026-09-22T17:08:16",
   "database": "D:\\bond\\backend\\data\\cb_event_master.sqlite",
   "required_stages": [
     "BOARD_RESOLUTION",
@@ -16,40 +16,40 @@
     "CBAS_ACTUAL"
   ],
   "summary": {
-    "issues": 605,
-    "events": 3608,
-    "issues_with_missing_stages": 605
+    "issues": 607,
+    "events": 3626,
+    "issues_with_missing_stages": 607
   },
   "stage_summary": {
     "BOARD_RESOLUTION": {
-      "observed_events": 105,
+      "observed_events": 108,
       "inferred_events": 499,
-      "issues_with_stage": 543
+      "issues_with_stage": 544
     },
     "FILING": {
-      "observed_events": 15,
+      "observed_events": 16,
       "inferred_events": 0,
       "issues_with_stage": 12
     },
     "EFFECTIVE": {
-      "observed_events": 8,
-      "inferred_events": 528,
-      "issues_with_stage": 529
+      "observed_events": 9,
+      "inferred_events": 530,
+      "issues_with_stage": 531
     },
     "PRICING": {
-      "observed_events": 527,
+      "observed_events": 529,
       "inferred_events": 0,
-      "issues_with_stage": 526
+      "issues_with_stage": 528
     },
     "AUCTION_BID_START": {
-      "observed_events": 74,
+      "observed_events": 75,
       "inferred_events": 0,
-      "issues_with_stage": 74
+      "issues_with_stage": 75
     },
     "AUCTION_BID_END": {
-      "observed_events": 74,
+      "observed_events": 75,
       "inferred_events": 0,
-      "issues_with_stage": 74
+      "issues_with_stage": 75
     },
     "BOOKBUILDING_START": {
       "observed_events": 0,
@@ -72,9 +72,9 @@
       "issues_with_stage": 0
     },
     "LISTING": {
-      "observed_events": 533,
+      "observed_events": 535,
       "inferred_events": 0,
-      "issues_with_stage": 529
+      "issues_with_stage": 531
     },
     "CBAS_ACTUAL": {
       "observed_events": 0,
@@ -3142,6 +3142,36 @@
       "event_count": 4
     },
     {
+      "issue_id": "issue_244eba10382ed24b277d",
+      "stock_code": "2646",
+      "cb_code": "26461",
+      "short_name": "星宇航空一",
+      "company_name": "星宇航空股份有限公司",
+      "observed_stages": [
+        "AUCTION_BID_END",
+        "AUCTION_BID_START",
+        "BOARD_RESOLUTION",
+        "LISTING",
+        "PRICING"
+      ],
+      "inferred_stages": [
+        "AUCTION_RESULT_ESTIMATED",
+        "CBAS_PROXY_END",
+        "CBAS_PROXY_START",
+        "EFFECTIVE",
+        "T_PLUS_19_EXIT_PROXY"
+      ],
+      "missing_stages": [
+        "FILING",
+        "BOOKBUILDING_START",
+        "BOOKBUILDING_END",
+        "BOOKBUILDING_RESULT",
+        "UNDERWRITING_NOTICE",
+        "CBAS_ACTUAL"
+      ],
+      "event_count": 10
+    },
+    {
       "issue_id": "issue_e1dd5b1bdc7f80b622a3",
       "stock_code": "2727",
       "cb_code": "27271",
@@ -3278,7 +3308,7 @@
         "LISTING",
         "CBAS_ACTUAL"
       ],
-      "event_count": 3
+      "event_count": 4
     },
     {
       "issue_id": "issue_01ae2dec2beb80672739",
@@ -3844,6 +3874,32 @@
         "CBAS_ACTUAL"
       ],
       "event_count": 4
+    },
+    {
+      "issue_id": "issue_66dc39b5fe2bd635644f",
+      "stock_code": "3028",
+      "cb_code": "30286",
+      "short_name": "增你強六",
+      "company_name": "增你強股份有限公司",
+      "observed_stages": [
+        "LISTING",
+        "PRICING"
+      ],
+      "inferred_stages": [
+        "EFFECTIVE"
+      ],
+      "missing_stages": [
+        "BOARD_RESOLUTION",
+        "FILING",
+        "AUCTION_BID_START",
+        "AUCTION_BID_END",
+        "BOOKBUILDING_START",
+        "BOOKBUILDING_END",
+        "BOOKBUILDING_RESULT",
+        "UNDERWRITING_NOTICE",
+        "CBAS_ACTUAL"
+      ],
+      "event_count": 3
     },
     {
       "issue_id": "issue_ac235cffe72dcdbd9e12",
@@ -6406,7 +6462,7 @@
       "stock_code": "3583",
       "cb_code": "35831",
       "short_name": "辛耘一",
-      "company_name": "辛耘企業",
+      "company_name": "辛耘",
       "observed_stages": [
         "AUCTION_BID_END",
         "AUCTION_BID_START",
@@ -6430,7 +6486,7 @@
         "UNDERWRITING_NOTICE",
         "CBAS_ACTUAL"
       ],
-      "event_count": 14
+      "event_count": 15
     },
     {
       "issue_id": "issue_8ebb257956a34adff853",
@@ -6633,6 +6689,7 @@
       "company_name": "映興",
       "observed_stages": [
         "BOARD_RESOLUTION",
+        "EFFECTIVE",
         "LISTING",
         "PRICING"
       ],
@@ -6653,7 +6710,7 @@
         "UNDERWRITING_NOTICE",
         "CBAS_ACTUAL"
       ],
-      "event_count": 8
+      "event_count": 9
     },
     {
       "issue_id": "issue_48742489cae4d8247846",
@@ -10014,8 +10071,9 @@
       "stock_code": "5434",
       "cb_code": "54342",
       "short_name": "崇越二",
-      "company_name": "崇越科技股份有限公司",
+      "company_name": "崇越",
       "observed_stages": [
+        "BOARD_RESOLUTION",
         "LISTING",
         "PRICING"
       ],
@@ -10036,7 +10094,7 @@
         "UNDERWRITING_NOTICE",
         "CBAS_ACTUAL"
       ],
-      "event_count": 7
+      "event_count": 8
     },
     {
       "issue_id": "issue_9af36000b742064d7d33",
@@ -16662,8 +16720,9 @@
       "stock_code": "8996",
       "cb_code": "89964",
       "short_name": "高力四",
-      "company_name": "高力熱處理工業股份有限公司",
+      "company_name": "高力",
       "observed_stages": [
+        "BOARD_RESOLUTION",
         "LISTING",
         "PRICING"
       ],
@@ -16684,7 +16743,7 @@
         "UNDERWRITING_NOTICE",
         "CBAS_ACTUAL"
       ],
-      "event_count": 7
+      "event_count": 8
     },
     {
       "issue_id": "issue_7d852d0de8f89e0420e2",

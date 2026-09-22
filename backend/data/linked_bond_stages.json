@@ -16620,5 +16620,67 @@
         "summary": "可轉債正式掛牌交易"
       }
     }
+  },
+  {
+    "stock_code": "2646",
+    "company_name": "星宇航空股份有限公司",
+    "short_name": "星宇航空一",
+    "stages": {
+      "BOARD_RESOLUTION": {
+        "date": "2026-09-08",
+        "title": "公告本公司發行115年度國內第一次及第二次無擔保轉換公司債\r\n之代收價款行庫及存儲專戶行庫",
+        "sentiment": "NEUTRAL",
+        "summary": "董事會/股東會決議: 公告本公司發行115年度國內第一次及第二次無擔保轉換公司債\r\n之代收價款行庫及存儲專戶行庫"
+      },
+      "EFFECTIVE": {
+        "date": "2026-08-25",
+        "title": "金管會申報生效發行無擔保轉換公司債",
+        "sentiment": "BULLISH",
+        "summary": "可轉債申報生效，正式進入定價與發行準備期"
+      },
+      "PRICING": {
+        "date": "2026-09-22",
+        "title": "公告「星宇航空一」發行及訂價等事宜 (櫃買公告)",
+        "sentiment": "NEUTRAL",
+        "summary": "櫃檯買賣中心公告發行資料"
+      },
+      "LISTING": {
+        "date": "2026-09-29",
+        "title": "「星宇航空一」掛牌買賣/發行日",
+        "sentiment": "BULLISH",
+        "summary": "可轉債正式掛牌交易"
+      }
+    }
+  },
+  {
+    "stock_code": "3028",
+    "company_name": "增你強股份有限公司",
+    "short_name": "增你強六",
+    "stages": {
+      "BOARD_RESOLUTION": {
+        "date": "2026-09-07",
+        "title": "公告本公司發行國內第六次無擔保轉換公司債之轉換價格\r\n及溢價率",
+        "sentiment": "NEUTRAL",
+        "summary": "董事會/股東會決議: 公告本公司發行國內第六次無擔保轉換公司債之轉換價格\r\n及溢價率"
+      },
+      "EFFECTIVE": {
+        "date": "2026-08-25",
+        "title": "金管會申報生效發行無擔保轉換公司債",
+        "sentiment": "BULLISH",
+        "summary": "可轉債申報生效，正式進入定價與發行準備期"
+      },
+      "PRICING": {
+        "date": "2026-09-21",
+        "title": "公告「增你強六」發行及訂價等事宜 (櫃買公告)",
+        "sentiment": "NEUTRAL",
+        "summary": "櫃檯買賣中心公告發行資料"
+      },
+      "LISTING": {
+        "date": "2026-09-29",
+        "title": "「增你強六」掛牌買賣/發行日",
+        "sentiment": "BULLISH",
+        "summary": "可轉債正式掛牌交易"
+      }
+    }
   }
 ]

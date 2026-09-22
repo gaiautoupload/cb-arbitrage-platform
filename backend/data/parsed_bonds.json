@@ -8053,5 +8053,35 @@
     "maturity_date_minguo": "120年9月22日",
     "maturity_date": "2031-09-22",
     "issue_amount": "新台幣2億元整"
+  },
+  {
+    "file_id": "11500059551",
+    "company_name": "星宇航空股份有限公司",
+    "bond_name": "星宇航空股份有限公司國內第一次無擔保轉換公司債",
+    "cb_code": "26461",
+    "stock_code": "2646",
+    "short_name": "星宇航空一",
+    "announcement_date_minguo": "115年9月22日",
+    "announcement_date": "2026-09-22",
+    "issue_date_minguo": "115年9月29日",
+    "issue_date": "2026-09-29",
+    "maturity_date_minguo": "120年9月29日",
+    "maturity_date": "2031-09-29",
+    "issue_amount": "新臺幣5億元整"
+  },
+  {
+    "file_id": "11500059771",
+    "company_name": "增你強股份有限公司",
+    "bond_name": "增你強股份有限公司國內第六次無擔保轉換公司債",
+    "cb_code": "30286",
+    "stock_code": "3028",
+    "short_name": "增你強六",
+    "announcement_date_minguo": "115年9月21日",
+    "announcement_date": "2026-09-21",
+    "issue_date_minguo": "115年9月29日",
+    "issue_date": "2026-09-29",
+    "maturity_date_minguo": "120年9月29日",
+    "maturity_date": "2031-09-29",
+    "issue_amount": "新台幣10億元整"
   }
 ]

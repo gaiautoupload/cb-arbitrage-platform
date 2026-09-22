@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-20T17:15:48",
+  "generated_at": "2026-09-22T17:09:02",
   "source": "D:\\bond\\backend\\data\\cb_event_master.sqlite",
   "point_in_time_policy": "Features are calculated only from rows before the actual buy date; forward returns are labels.",
   "criteria": {
@@ -7,7 +7,7 @@
     "min_avg_return": 20,
     "max_rules": 3
   },
-  "sample_rows": 8823,
+  "sample_rows": 8889,
   "matches_count": 17,
   "matches": [
     {
@@ -426,7 +426,7 @@
       ],
       "n": 13,
       "win_rate": 76.92,
-      "avg_return": 23.52,
+      "avg_return": 23.33,
       "median_return": 23.59,
       "worst_return": -27.24,
       "best_return": 84.15,
@@ -546,7 +546,7 @@
           "entry_offset": -5,
           "exit_offset": 30,
           "buy_date": "2026-08-17",
-          "return_pct": 6.1853
+          "return_pct": 3.7597
         }
       ]
     },
@@ -561,7 +561,7 @@
       ],
       "n": 13,
       "win_rate": 76.92,
-      "avg_return": 23.52,
+      "avg_return": 23.33,
       "median_return": 23.59,
       "worst_return": -27.24,
       "best_return": 84.15,
@@ -681,7 +681,7 @@
           "entry_offset": -5,
           "exit_offset": 30,
           "buy_date": "2026-08-17",
-          "return_pct": 6.1853
+          "return_pct": 3.7597
         }
       ]
     },
@@ -696,7 +696,7 @@
       ],
       "n": 13,
       "win_rate": 76.92,
-      "avg_return": 23.52,
+      "avg_return": 23.33,
       "median_return": 23.59,
       "worst_return": -27.24,
       "best_return": 84.15,
@@ -816,7 +816,7 @@
           "entry_offset": -5,
           "exit_offset": 30,
           "buy_date": "2026-08-17",
-          "return_pct": 6.1853
+          "return_pct": 3.7597
         }
       ]
     },
@@ -1388,7 +1388,7 @@
       ],
       "n": 17,
       "win_rate": 70.59,
-      "avg_return": 20.37,
+      "avg_return": 20.23,
       "median_return": 20.78,
       "worst_return": -27.24,
       "best_return": 84.15,
@@ -1544,7 +1544,7 @@
           "entry_offset": -5,
           "exit_offset": 30,
           "buy_date": "2026-08-17",
-          "return_pct": 6.1853
+          "return_pct": 3.7597
         }
       ]
     },
@@ -1559,7 +1559,7 @@
       ],
       "n": 17,
       "win_rate": 70.59,
-      "avg_return": 20.37,
+      "avg_return": 20.23,
       "median_return": 20.78,
       "worst_return": -27.24,
       "best_return": 84.15,
@@ -1715,7 +1715,7 @@
           "entry_offset": -5,
           "exit_offset": 30,
           "buy_date": "2026-08-17",
-          "return_pct": 6.1853
+          "return_pct": 3.7597
         }
       ]
     },
@@ -1730,7 +1730,7 @@
       ],
       "n": 17,
       "win_rate": 70.59,
-      "avg_return": 20.37,
+      "avg_return": 20.23,
       "median_return": 20.78,
       "worst_return": -27.24,
       "best_return": 84.15,
@@ -1886,7 +1886,7 @@
           "entry_offset": -5,
           "exit_offset": 30,
           "buy_date": "2026-08-17",
-          "return_pct": 6.1853
+          "return_pct": 3.7597
         }
       ]
     },
