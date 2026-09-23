@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-22T17:08:16",
+  "generated_at": "2026-09-23T19:06:36",
   "source_files": {
     "mops_wiki_db": "mops_wiki_db.json",
     "parsed_bonds": "parsed_bonds.json",
@@ -12,20 +12,20 @@
     "Generated linked BOARD_RESOLUTION/EFFECTIVE dates are retained only as low-confidence proxy events."
   ],
   "summary": {
-    "total_events": 3555,
-    "actual_or_observed_events": 1365,
+    "total_events": 3564,
+    "actual_or_observed_events": 1374,
     "inferred_events": 2190,
     "by_stage": {
-      "BOARD_RESOLUTION": 584,
+      "BOARD_RESOLUTION": 587,
       "FILING": 16,
-      "EFFECTIVE": 537,
-      "PRICING": 529,
+      "EFFECTIVE": 538,
+      "PRICING": 531,
       "FINAL_PRICING": 1,
-      "PAYMENT_BANK": 45,
+      "PAYMENT_BANK": 46,
       "AUCTION_BID_START": 65,
       "AUCTION_BID_END": 65,
       "AUCTION_RESULT_ESTIMATED": 65,
-      "LISTING": 535,
+      "LISTING": 537,
       "CBAS_PROXY_START": 371,
       "CBAS_PROXY_END": 371,
       "T_PLUS_19_EXIT_PROXY": 371
@@ -4517,6 +4517,20 @@
       "source_ref": "t187ap04_L.json"
     },
     {
+      "stock_code": "2316",
+      "company_name": "楠梓電",
+      "short_name": "",
+      "stage": "PAYMENT_BANK",
+      "date": "2026-09-22",
+      "source": "mops_wiki_db",
+      "confidence": 0.85,
+      "is_inferred": false,
+      "title": "公告本公司國內第一次無擔保轉換公司債代收價款行庫及存\r\n儲專戶行庫",
+      "summary": "代收價款/專戶: 公告本公司國內第一次無擔保轉換公司債代收價款行庫及存\r\n儲專戶行庫",
+      "event_type": "CB_ISSUANCE",
+      "published_at": "2026-09-22T160533"
+    },
+    {
       "stock_code": "2338",
       "company_name": "台灣光罩股份有限公司",
       "short_name": "光罩三",
@@ -7504,6 +7518,18 @@
     },
     {
       "stock_code": "2646",
+      "company_name": "星宇航空股份有限公司",
+      "short_name": "星宇航空二",
+      "stage": "EFFECTIVE",
+      "date": "2026-08-26",
+      "source": "linked_bond_stages_proxy",
+      "confidence": 0.25,
+      "is_inferred": true,
+      "title": "金管會申報生效發行無擔保轉換公司債",
+      "summary": "可轉債申報生效，正式進入定價與發行準備期"
+    },
+    {
+      "stock_code": "2646",
       "company_name": "星宇航空",
       "short_name": "星宇航空一",
       "stage": "BOARD_RESOLUTION",
@@ -7570,6 +7596,18 @@
     {
       "stock_code": "2646",
       "company_name": "星宇航空股份有限公司",
+      "short_name": "星宇航空二",
+      "stage": "PRICING",
+      "date": "2026-09-23",
+      "source": "parsed_bonds",
+      "confidence": 0.65,
+      "is_inferred": false,
+      "title": "星宇航空二 announcement/pricing date",
+      "cb_code": "26462"
+    },
+    {
+      "stock_code": "2646",
+      "company_name": "星宇航空股份有限公司",
       "short_name": "星宇航空一",
       "stage": "LISTING",
       "date": "2026-09-29",
@@ -7578,6 +7616,18 @@
       "is_inferred": false,
       "title": "星宇航空一 issue/listing date",
       "cb_code": "26461"
+    },
+    {
+      "stock_code": "2646",
+      "company_name": "星宇航空股份有限公司",
+      "short_name": "星宇航空二",
+      "stage": "LISTING",
+      "date": "2026-09-30",
+      "source": "parsed_bonds",
+      "confidence": 0.65,
+      "is_inferred": false,
+      "title": "星宇航空二 issue/listing date",
+      "cb_code": "26462"
     },
     {
       "stock_code": "2646",
@@ -8539,6 +8589,30 @@
       "confidence": 0.35,
       "is_inferred": true,
       "serial": "115070"
+    },
+    {
+      "stock_code": "3006",
+      "company_name": "晶豪科技股份有限公司",
+      "short_name": "晶豪科二",
+      "stage": "PRICING",
+      "date": "2026-09-23",
+      "source": "parsed_bonds",
+      "confidence": 0.65,
+      "is_inferred": false,
+      "title": "晶豪科二 announcement/pricing date",
+      "cb_code": "30062"
+    },
+    {
+      "stock_code": "3006",
+      "company_name": "晶豪科技股份有限公司",
+      "short_name": "晶豪科二",
+      "stage": "LISTING",
+      "date": "2026-10-02",
+      "source": "parsed_bonds",
+      "confidence": 0.65,
+      "is_inferred": false,
+      "title": "晶豪科二 issue/listing date",
+      "cb_code": "30062"
     },
     {
       "stock_code": "3010",
@@ -14307,6 +14381,20 @@
       "based_on": "2024-01-22"
     },
     {
+      "stock_code": "3479",
+      "company_name": "安勤",
+      "short_name": "安勤三",
+      "stage": "BOARD_RESOLUTION",
+      "date": "2026-09-22",
+      "source": "mops_wiki_db",
+      "confidence": 0.85,
+      "is_inferred": false,
+      "title": "公告本公司董事會決議發行國內第四次無擔保轉換公司債",
+      "summary": "董事會/股東會決議: 公告本公司董事會決議發行國內第四次無擔保轉換公司債",
+      "event_type": "CB_ISSUANCE",
+      "published_at": "2026-09-22T154715"
+    },
+    {
       "stock_code": "3483",
       "company_name": "力致科技股份有限公司",
       "short_name": "力致二",
@@ -17529,18 +17617,6 @@
       "stock_code": "3680",
       "company_name": "家登精密工業股份有限公司",
       "short_name": "家登四",
-      "stage": "BOARD_RESOLUTION",
-      "date": "2023-08-04",
-      "source": "linked_bond_stages_proxy",
-      "confidence": 0.25,
-      "is_inferred": true,
-      "title": "董事會決議發行無擔保轉換公司債",
-      "summary": "董事會通過發行可轉債以充實營運資金或償還債務"
-    },
-    {
-      "stock_code": "3680",
-      "company_name": "家登精密工業股份有限公司",
-      "short_name": "家登四",
       "stage": "EFFECTIVE",
       "date": "2023-09-13",
       "source": "linked_bond_stages_proxy",
@@ -17611,6 +17687,20 @@
       "confidence": 0.35,
       "is_inferred": true,
       "serial": "115028"
+    },
+    {
+      "stock_code": "3680",
+      "company_name": "家登",
+      "short_name": "家登三",
+      "stage": "BOARD_RESOLUTION",
+      "date": "2026-09-22",
+      "source": "mops_wiki_db",
+      "confidence": 0.85,
+      "is_inferred": false,
+      "title": "公告本公司國內第四次無擔保轉換公司債到期還本暨終止上櫃事宜",
+      "summary": "董事會/股東會決議: 公告本公司國內第四次無擔保轉換公司債到期還本暨終止上櫃事宜",
+      "event_type": "CB_ISSUANCE",
+      "published_at": "2026-09-22T145154"
     },
     {
       "stock_code": "3687",
@@ -30154,6 +30244,20 @@
       "based_on": "2022-06-27"
     },
     {
+      "stock_code": "6285",
+      "company_name": "啟碁",
+      "short_name": "啟碁三",
+      "stage": "BOARD_RESOLUTION",
+      "date": "2026-09-22",
+      "source": "mops_wiki_db",
+      "confidence": 0.85,
+      "is_inferred": false,
+      "title": "公告本公司國內第四次及第五次無擔保轉換公司債\r\n代收價款行庫及存儲專戶行庫",
+      "summary": "董事會/股東會決議: 公告本公司國內第四次及第五次無擔保轉換公司債\r\n代收價款行庫及存儲專戶行庫",
+      "event_type": "CB_ISSUANCE",
+      "published_at": "2026-09-22T164443"
+    },
+    {
       "stock_code": "6288",
       "company_name": "聯嘉光電股份有限公司",
       "short_name": "聯嘉二",
@@ -36551,6 +36655,20 @@
       "summary": "董事會/股東會決議: 公告本公司董事會決議發行國內第一次無擔保轉換公司債",
       "event_type": "CB_ISSUANCE",
       "published_at": "2026-09-17T201112"
+    },
+    {
+      "stock_code": "7728",
+      "company_name": "光焱科技",
+      "short_name": "",
+      "stage": "BOARD_RESOLUTION",
+      "date": "2026-09-22",
+      "source": "mops_wiki_db",
+      "confidence": 0.85,
+      "is_inferred": false,
+      "title": "公告本公司董事會決議發行國內第一次無擔保轉換公司債案",
+      "summary": "董事會/股東會決議: 公告本公司董事會決議發行國內第一次無擔保轉換公司債案",
+      "event_type": "CB_ISSUANCE",
+      "published_at": "2026-09-22T173351"
     },
     {
       "stock_code": "7743",

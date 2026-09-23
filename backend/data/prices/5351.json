@@ -16310,13 +16310,33 @@
     "trust_net": 531.6
   },
   {
-    "date": "2026-09-20",
-    "open": 109.0,
-    "high": 116.5,
-    "low": 107.0,
-    "close": 113.5,
-    "volume": 1093550,
-    "foreign_net": 0.0,
-    "trust_net": 0.0
+    "date": "2026-09-21",
+    "open": 114.5,
+    "high": 115.0,
+    "low": 109.0,
+    "close": 109.5,
+    "volume": 9475002,
+    "foreign_net": -3611.9,
+    "trust_net": -3611.9
+  },
+  {
+    "date": "2026-09-22",
+    "open": 111.5,
+    "high": 112.0,
+    "low": 106.0,
+    "close": 106.0,
+    "volume": 6974219,
+    "foreign_net": -876.2,
+    "trust_net": -876.2
+  },
+  {
+    "date": "2026-09-23",
+    "open": 108.0,
+    "high": 110.0,
+    "low": 106.0,
+    "close": 109.5,
+    "volume": 6726554,
+    "foreign_net": -821.2,
+    "trust_net": -821.2
   }
 ]

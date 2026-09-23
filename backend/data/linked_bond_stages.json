@@ -10266,10 +10266,10 @@
     "short_name": "家登四",
     "stages": {
       "BOARD_RESOLUTION": {
-        "date": "2023-08-04",
-        "title": "董事會決議發行無擔保轉換公司債",
+        "date": "2026-09-22",
+        "title": "公告本公司國內第四次無擔保轉換公司債到期還本暨終止上櫃事宜",
         "sentiment": "NEUTRAL",
-        "summary": "董事會通過發行可轉債以充實營運資金或償還債務"
+        "summary": "董事會/股東會決議: 公告本公司國內第四次無擔保轉換公司債到期還本暨終止上櫃事宜"
       },
       "EFFECTIVE": {
         "date": "2023-09-13",
@@ -16678,6 +16678,68 @@
       "LISTING": {
         "date": "2026-09-29",
         "title": "「增你強六」掛牌買賣/發行日",
+        "sentiment": "BULLISH",
+        "summary": "可轉債正式掛牌交易"
+      }
+    }
+  },
+  {
+    "stock_code": "2646",
+    "company_name": "星宇航空股份有限公司",
+    "short_name": "星宇航空二",
+    "stages": {
+      "BOARD_RESOLUTION": {
+        "date": "2026-09-08",
+        "title": "公告本公司發行115年度國內第一次及第二次無擔保轉換公司債\r\n之代收價款行庫及存儲專戶行庫",
+        "sentiment": "NEUTRAL",
+        "summary": "董事會/股東會決議: 公告本公司發行115年度國內第一次及第二次無擔保轉換公司債\r\n之代收價款行庫及存儲專戶行庫"
+      },
+      "EFFECTIVE": {
+        "date": "2026-08-26",
+        "title": "金管會申報生效發行無擔保轉換公司債",
+        "sentiment": "BULLISH",
+        "summary": "可轉債申報生效，正式進入定價與發行準備期"
+      },
+      "PRICING": {
+        "date": "2026-09-23",
+        "title": "公告「星宇航空二」發行及訂價等事宜 (櫃買公告)",
+        "sentiment": "NEUTRAL",
+        "summary": "櫃檯買賣中心公告發行資料"
+      },
+      "LISTING": {
+        "date": "2026-09-30",
+        "title": "「星宇航空二」掛牌買賣/發行日",
+        "sentiment": "BULLISH",
+        "summary": "可轉債正式掛牌交易"
+      }
+    }
+  },
+  {
+    "stock_code": "3006",
+    "company_name": "晶豪科技股份有限公司",
+    "short_name": "晶豪科二",
+    "stages": {
+      "BOARD_RESOLUTION": {
+        "date": "2026-09-10",
+        "title": "公告本公司國內第二次有擔保轉換公司債完成訂價",
+        "sentiment": "NEUTRAL",
+        "summary": "董事會/股東會決議: 公告本公司國內第二次有擔保轉換公司債完成訂價"
+      },
+      "EFFECTIVE": {
+        "date": "2026-09-04",
+        "title": "公告本公司發行國內第二次有擔保轉換公司債案向金管會\r\n申請延長募集期間，業經金管會准予備查",
+        "sentiment": "BULLISH",
+        "summary": "申報生效: 公告本公司發行國內第二次有擔保轉換公司債案向金管會\r\n申請延長募集期間，業經金管會准予備查"
+      },
+      "PRICING": {
+        "date": "2026-09-23",
+        "title": "公告「晶豪科二」發行及訂價等事宜 (櫃買公告)",
+        "sentiment": "NEUTRAL",
+        "summary": "櫃檯買賣中心公告發行資料"
+      },
+      "LISTING": {
+        "date": "2026-10-02",
+        "title": "「晶豪科二」掛牌買賣/發行日",
         "sentiment": "BULLISH",
         "summary": "可轉債正式掛牌交易"
       }

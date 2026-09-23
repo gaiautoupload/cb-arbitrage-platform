@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-22T17:08:16",
+  "generated_at": "2026-09-23T19:06:37",
   "database": "D:\\bond\\backend\\data\\cb_event_master.sqlite",
   "required_stages": [
     "BOARD_RESOLUTION",
@@ -16,15 +16,15 @@
     "CBAS_ACTUAL"
   ],
   "summary": {
-    "issues": 607,
-    "events": 3626,
-    "issues_with_missing_stages": 607
+    "issues": 610,
+    "events": 3636,
+    "issues_with_missing_stages": 610
   },
   "stage_summary": {
     "BOARD_RESOLUTION": {
-      "observed_events": 108,
+      "observed_events": 112,
       "inferred_events": 499,
-      "issues_with_stage": 544
+      "issues_with_stage": 545
     },
     "FILING": {
       "observed_events": 16,
@@ -33,13 +33,13 @@
     },
     "EFFECTIVE": {
       "observed_events": 9,
-      "inferred_events": 530,
-      "issues_with_stage": 531
+      "inferred_events": 531,
+      "issues_with_stage": 532
     },
     "PRICING": {
-      "observed_events": 529,
+      "observed_events": 531,
       "inferred_events": 0,
-      "issues_with_stage": 528
+      "issues_with_stage": 530
     },
     "AUCTION_BID_START": {
       "observed_events": 75,
@@ -72,9 +72,9 @@
       "issues_with_stage": 0
     },
     "LISTING": {
-      "observed_events": 535,
+      "observed_events": 537,
       "inferred_events": 0,
-      "issues_with_stage": 531
+      "issues_with_stage": 533
     },
     "CBAS_ACTUAL": {
       "observed_events": 0,
@@ -1889,7 +1889,8 @@
       "short_name": null,
       "company_name": "楠梓電",
       "observed_stages": [
-        "BOARD_RESOLUTION"
+        "BOARD_RESOLUTION",
+        "PAYMENT_BANK"
       ],
       "inferred_stages": [],
       "missing_stages": [
@@ -1905,7 +1906,7 @@
         "LISTING",
         "CBAS_ACTUAL"
       ],
-      "event_count": 1
+      "event_count": 2
     },
     {
       "issue_id": "issue_17c85ae46c432b9760b0",
@@ -3172,6 +3173,32 @@
       "event_count": 10
     },
     {
+      "issue_id": "issue_1c30914b76189708d8ce",
+      "stock_code": "2646",
+      "cb_code": "26462",
+      "short_name": "星宇航空二",
+      "company_name": "星宇航空股份有限公司",
+      "observed_stages": [
+        "LISTING",
+        "PRICING"
+      ],
+      "inferred_stages": [
+        "EFFECTIVE"
+      ],
+      "missing_stages": [
+        "BOARD_RESOLUTION",
+        "FILING",
+        "AUCTION_BID_START",
+        "AUCTION_BID_END",
+        "BOOKBUILDING_START",
+        "BOOKBUILDING_END",
+        "BOOKBUILDING_RESULT",
+        "UNDERWRITING_NOTICE",
+        "CBAS_ACTUAL"
+      ],
+      "event_count": 3
+    },
+    {
       "issue_id": "issue_e1dd5b1bdc7f80b622a3",
       "stock_code": "2727",
       "cb_code": "27271",
@@ -3511,6 +3538,31 @@
         "CBAS_ACTUAL"
       ],
       "event_count": 13
+    },
+    {
+      "issue_id": "issue_d85cbedd1282996a8df1",
+      "stock_code": "3006",
+      "cb_code": "30062",
+      "short_name": "晶豪科二",
+      "company_name": "晶豪科技股份有限公司",
+      "observed_stages": [
+        "LISTING",
+        "PRICING"
+      ],
+      "inferred_stages": [],
+      "missing_stages": [
+        "BOARD_RESOLUTION",
+        "FILING",
+        "EFFECTIVE",
+        "AUCTION_BID_START",
+        "AUCTION_BID_END",
+        "BOOKBUILDING_START",
+        "BOOKBUILDING_END",
+        "BOOKBUILDING_RESULT",
+        "UNDERWRITING_NOTICE",
+        "CBAS_ACTUAL"
+      ],
+      "event_count": 2
     },
     {
       "issue_id": "issue_cc7e64e9be2b25e38fc1",
@@ -5813,8 +5865,9 @@
       "stock_code": "3479",
       "cb_code": "34793",
       "short_name": "安勤三",
-      "company_name": "安勤科技股份有限公司",
+      "company_name": "安勤",
       "observed_stages": [
+        "BOARD_RESOLUTION",
         "LISTING",
         "PRICING"
       ],
@@ -5835,7 +5888,7 @@
         "UNDERWRITING_NOTICE",
         "CBAS_ACTUAL"
       ],
-      "event_count": 7
+      "event_count": 8
     },
     {
       "issue_id": "issue_c794a01fd9805c593664",
@@ -7049,10 +7102,11 @@
       "stock_code": "3680",
       "cb_code": "36803",
       "short_name": "家登三",
-      "company_name": "家登精密",
+      "company_name": "家登",
       "observed_stages": [
         "AUCTION_BID_END",
         "AUCTION_BID_START",
+        "BOARD_RESOLUTION",
         "LISTING",
         "PRICING"
       ],
@@ -7072,7 +7126,7 @@
         "UNDERWRITING_NOTICE",
         "CBAS_ACTUAL"
       ],
-      "event_count": 10
+      "event_count": 11
     },
     {
       "issue_id": "issue_2985a97a9c5589771c8e",
@@ -12100,8 +12154,9 @@
       "stock_code": "6285",
       "cb_code": "62853",
       "short_name": "啟碁三",
-      "company_name": "啟碁科技股份有限公司",
+      "company_name": "啟碁",
       "observed_stages": [
+        "BOARD_RESOLUTION",
         "LISTING",
         "PRICING"
       ],
@@ -12122,7 +12177,7 @@
         "UNDERWRITING_NOTICE",
         "CBAS_ACTUAL"
       ],
-      "event_count": 7
+      "event_count": 8
     },
     {
       "issue_id": "issue_df85396717b2187d16ec",
@@ -14818,6 +14873,31 @@
       "cb_code": null,
       "short_name": null,
       "company_name": "永擎",
+      "observed_stages": [
+        "BOARD_RESOLUTION"
+      ],
+      "inferred_stages": [],
+      "missing_stages": [
+        "FILING",
+        "EFFECTIVE",
+        "PRICING",
+        "AUCTION_BID_START",
+        "AUCTION_BID_END",
+        "BOOKBUILDING_START",
+        "BOOKBUILDING_END",
+        "BOOKBUILDING_RESULT",
+        "UNDERWRITING_NOTICE",
+        "LISTING",
+        "CBAS_ACTUAL"
+      ],
+      "event_count": 1
+    },
+    {
+      "issue_id": "issue_9b2589ebfd68da843ed2",
+      "stock_code": "7728",
+      "cb_code": null,
+      "short_name": null,
+      "company_name": "光焱科技",
       "observed_stages": [
         "BOARD_RESOLUTION"
       ],
