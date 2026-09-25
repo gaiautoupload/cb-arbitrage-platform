@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-23T19:06:36",
+  "generated_at": "2026-09-25T17:10:08",
   "source_files": {
     "mops_wiki_db": "mops_wiki_db.json",
     "parsed_bonds": "parsed_bonds.json",
@@ -12,23 +12,23 @@
     "Generated linked BOARD_RESOLUTION/EFFECTIVE dates are retained only as low-confidence proxy events."
   ],
   "summary": {
-    "total_events": 3564,
-    "actual_or_observed_events": 1374,
-    "inferred_events": 2190,
+    "total_events": 3573,
+    "actual_or_observed_events": 1378,
+    "inferred_events": 2195,
     "by_stage": {
-      "BOARD_RESOLUTION": 587,
+      "BOARD_RESOLUTION": 588,
       "FILING": 16,
-      "EFFECTIVE": 538,
-      "PRICING": 531,
+      "EFFECTIVE": 539,
+      "PRICING": 532,
       "FINAL_PRICING": 1,
-      "PAYMENT_BANK": 46,
+      "PAYMENT_BANK": 48,
       "AUCTION_BID_START": 65,
       "AUCTION_BID_END": 65,
       "AUCTION_RESULT_ESTIMATED": 65,
-      "LISTING": 537,
-      "CBAS_PROXY_START": 371,
-      "CBAS_PROXY_END": 371,
-      "T_PLUS_19_EXIT_PROXY": 371
+      "LISTING": 538,
+      "CBAS_PROXY_START": 372,
+      "CBAS_PROXY_END": 372,
+      "T_PLUS_19_EXIT_PROXY": 372
     }
   },
   "events": [
@@ -2709,6 +2709,20 @@
       "confidence": 0.35,
       "is_inferred": true,
       "serial": "115034"
+    },
+    {
+      "stock_code": "1727",
+      "company_name": "中華化",
+      "short_name": "",
+      "stage": "PAYMENT_BANK",
+      "date": "2026-09-24",
+      "source": "mops_wiki_db",
+      "confidence": 0.85,
+      "is_inferred": false,
+      "title": "公告本公司國內第二次無擔保轉換公司債代收價款\r\n及存儲專戶行庫",
+      "summary": "代收價款/專戶: 公告本公司國內第二次無擔保轉換公司債代收價款\r\n及存儲專戶行庫",
+      "event_type": "CB_ISSUANCE",
+      "published_at": "2026-09-24T145821"
     },
     {
       "stock_code": "1781",
@@ -19653,6 +19667,20 @@
       "published_at": "2026-08-04T140414"
     },
     {
+      "stock_code": "4198",
+      "company_name": "欣大健康",
+      "short_name": "",
+      "stage": "PAYMENT_BANK",
+      "date": "2026-09-24",
+      "source": "mops_wiki_db",
+      "confidence": 0.85,
+      "is_inferred": false,
+      "title": "公告本公司國內第一次有擔保轉換公司債\r\n代收價款行庫及存儲專戶行庫",
+      "summary": "代收價款/專戶: 公告本公司國內第一次有擔保轉換公司債\r\n代收價款行庫及存儲專戶行庫",
+      "event_type": "CB_ISSUANCE",
+      "published_at": "2026-09-24T161744"
+    },
+    {
       "stock_code": "4303",
       "company_name": "信立化學工業股份有限公司",
       "short_name": "信立一",
@@ -27337,8 +27365,32 @@
     },
     {
       "stock_code": "6174",
+      "company_name": "安碁科技股份有限公司",
+      "short_name": "安碁三",
+      "stage": "BOARD_RESOLUTION",
+      "date": "2026-07-17",
+      "source": "linked_bond_stages_proxy",
+      "confidence": 0.25,
+      "is_inferred": true,
+      "title": "董事會決議發行無擔保轉換公司債",
+      "summary": "董事會通過發行可轉債以充實營運資金或償還債務"
+    },
+    {
+      "stock_code": "6174",
+      "company_name": "安碁科技股份有限公司",
+      "short_name": "安碁三",
+      "stage": "EFFECTIVE",
+      "date": "2026-08-28",
+      "source": "linked_bond_stages_proxy",
+      "confidence": 0.25,
+      "is_inferred": true,
+      "title": "金管會申報生效發行無擔保轉換公司債",
+      "summary": "可轉債申報生效，正式進入定價與發行準備期"
+    },
+    {
+      "stock_code": "6174",
       "company_name": "安碁",
-      "short_name": "",
+      "short_name": "安碁三",
       "stage": "PAYMENT_BANK",
       "date": "2026-09-15",
       "source": "mops_wiki_db",
@@ -27348,6 +27400,63 @@
       "summary": "代收價款/專戶: 公告本公司發行國內第三次無擔保轉換公司債之委託代收價\r\n款行庫及存儲專戶行庫",
       "event_type": "CB_ISSUANCE",
       "published_at": "2026-09-15T142529"
+    },
+    {
+      "stock_code": "6174",
+      "company_name": "安碁科技股份有限公司",
+      "short_name": "安碁三",
+      "stage": "PRICING",
+      "date": "2026-09-24",
+      "source": "parsed_bonds",
+      "confidence": 0.65,
+      "is_inferred": false,
+      "title": "安碁三 announcement/pricing date",
+      "cb_code": "61743"
+    },
+    {
+      "stock_code": "6174",
+      "company_name": "安碁科技股份有限公司",
+      "short_name": "安碁三",
+      "stage": "LISTING",
+      "date": "2026-10-02",
+      "source": "parsed_bonds",
+      "confidence": 0.65,
+      "is_inferred": false,
+      "title": "安碁三 issue/listing date",
+      "cb_code": "61743"
+    },
+    {
+      "stock_code": "6174",
+      "company_name": "安碁科技股份有限公司",
+      "short_name": "安碁三",
+      "stage": "CBAS_PROXY_START",
+      "date": "2026-10-03",
+      "source": "cbas_proxy",
+      "confidence": 0.3,
+      "is_inferred": true,
+      "based_on": "2026-10-02"
+    },
+    {
+      "stock_code": "6174",
+      "company_name": "安碁科技股份有限公司",
+      "short_name": "安碁三",
+      "stage": "CBAS_PROXY_END",
+      "date": "2026-10-20",
+      "source": "cbas_proxy",
+      "confidence": 0.3,
+      "is_inferred": true,
+      "based_on": "2026-10-02"
+    },
+    {
+      "stock_code": "6174",
+      "company_name": "安碁科技股份有限公司",
+      "short_name": "安碁三",
+      "stage": "T_PLUS_19_EXIT_PROXY",
+      "date": "2026-10-21",
+      "source": "cbas_proxy",
+      "confidence": 0.3,
+      "is_inferred": true,
+      "based_on": "2026-10-02"
     },
     {
       "stock_code": "6175",

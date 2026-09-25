@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-23T19:06:37",
+  "generated_at": "2026-09-25T17:10:09",
   "database": "D:\\bond\\backend\\data\\cb_event_master.sqlite",
   "required_stages": [
     "BOARD_RESOLUTION",
@@ -16,15 +16,15 @@
     "CBAS_ACTUAL"
   ],
   "summary": {
-    "issues": 610,
-    "events": 3636,
-    "issues_with_missing_stages": 610
+    "issues": 612,
+    "events": 3646,
+    "issues_with_missing_stages": 612
   },
   "stage_summary": {
     "BOARD_RESOLUTION": {
       "observed_events": 112,
-      "inferred_events": 499,
-      "issues_with_stage": 545
+      "inferred_events": 500,
+      "issues_with_stage": 546
     },
     "FILING": {
       "observed_events": 16,
@@ -33,13 +33,13 @@
     },
     "EFFECTIVE": {
       "observed_events": 9,
-      "inferred_events": 531,
-      "issues_with_stage": 532
+      "inferred_events": 532,
+      "issues_with_stage": 533
     },
     "PRICING": {
-      "observed_events": 531,
+      "observed_events": 532,
       "inferred_events": 0,
-      "issues_with_stage": 530
+      "issues_with_stage": 531
     },
     "AUCTION_BID_START": {
       "observed_events": 75,
@@ -72,9 +72,9 @@
       "issues_with_stage": 0
     },
     "LISTING": {
-      "observed_events": 537,
+      "observed_events": 538,
       "inferred_events": 0,
-      "issues_with_stage": 533
+      "issues_with_stage": 534
     },
     "CBAS_ACTUAL": {
       "observed_events": 0,
@@ -1175,6 +1175,32 @@
         "CBAS_ACTUAL"
       ],
       "event_count": 3
+    },
+    {
+      "issue_id": "issue_ddf1dddd05c51902a4b9",
+      "stock_code": "1727",
+      "cb_code": null,
+      "short_name": null,
+      "company_name": "中華化",
+      "observed_stages": [
+        "PAYMENT_BANK"
+      ],
+      "inferred_stages": [],
+      "missing_stages": [
+        "BOARD_RESOLUTION",
+        "FILING",
+        "EFFECTIVE",
+        "PRICING",
+        "AUCTION_BID_START",
+        "AUCTION_BID_END",
+        "BOOKBUILDING_START",
+        "BOOKBUILDING_END",
+        "BOOKBUILDING_RESULT",
+        "UNDERWRITING_NOTICE",
+        "LISTING",
+        "CBAS_ACTUAL"
+      ],
+      "event_count": 1
     },
     {
       "issue_id": "issue_340a179749c6ecd6b98b",
@@ -7992,7 +8018,8 @@
       "short_name": null,
       "company_name": "欣大健康",
       "observed_stages": [
-        "BOARD_RESOLUTION"
+        "BOARD_RESOLUTION",
+        "PAYMENT_BANK"
       ],
       "inferred_stages": [],
       "missing_stages": [
@@ -8008,7 +8035,7 @@
         "LISTING",
         "CBAS_ACTUAL"
       ],
-      "event_count": 2
+      "event_count": 3
     },
     {
       "issue_id": "issue_3475ed7ebbe1019c2794",
@@ -11074,6 +11101,36 @@
         "CBAS_ACTUAL"
       ],
       "event_count": 1
+    },
+    {
+      "issue_id": "issue_3715ca9bb65c866dde42",
+      "stock_code": "6174",
+      "cb_code": "61743",
+      "short_name": "安碁三",
+      "company_name": "安碁科技股份有限公司",
+      "observed_stages": [
+        "LISTING",
+        "PAYMENT_BANK",
+        "PRICING"
+      ],
+      "inferred_stages": [
+        "BOARD_RESOLUTION",
+        "CBAS_PROXY_END",
+        "CBAS_PROXY_START",
+        "EFFECTIVE",
+        "T_PLUS_19_EXIT_PROXY"
+      ],
+      "missing_stages": [
+        "FILING",
+        "AUCTION_BID_START",
+        "AUCTION_BID_END",
+        "BOOKBUILDING_START",
+        "BOOKBUILDING_END",
+        "BOOKBUILDING_RESULT",
+        "UNDERWRITING_NOTICE",
+        "CBAS_ACTUAL"
+      ],
+      "event_count": 8
     },
     {
       "issue_id": "issue_6b42e46a83297339921b",

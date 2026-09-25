@@ -8113,5 +8113,20 @@
     "maturity_date_minguo": "118年10月2日",
     "maturity_date": "2029-10-02",
     "issue_amount": "新台幣20億元整"
+  },
+  {
+    "file_id": "11500060541",
+    "company_name": "安碁科技股份有限公司",
+    "bond_name": "安碁科技股份有限公司國內第三次無擔保轉換公司債",
+    "cb_code": "61743",
+    "stock_code": "6174",
+    "short_name": "安碁三",
+    "announcement_date_minguo": "115年9月24日",
+    "announcement_date": "2026-09-24",
+    "issue_date_minguo": "115年10月2日",
+    "issue_date": "2026-10-02",
+    "maturity_date_minguo": "118年10月2日",
+    "maturity_date": "2029-10-02",
+    "issue_amount": "新台幣3億元整"
   }
 ]
