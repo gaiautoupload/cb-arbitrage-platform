@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-25T17:10:08",
+  "generated_at": "2026-09-30T19:39:18",
   "source_files": {
     "mops_wiki_db": "mops_wiki_db.json",
     "parsed_bonds": "parsed_bonds.json",
@@ -12,20 +12,20 @@
     "Generated linked BOARD_RESOLUTION/EFFECTIVE dates are retained only as low-confidence proxy events."
   ],
   "summary": {
-    "total_events": 3573,
-    "actual_or_observed_events": 1378,
-    "inferred_events": 2195,
+    "total_events": 3583,
+    "actual_or_observed_events": 1386,
+    "inferred_events": 2197,
     "by_stage": {
-      "BOARD_RESOLUTION": 588,
-      "FILING": 16,
-      "EFFECTIVE": 539,
-      "PRICING": 532,
-      "FINAL_PRICING": 1,
+      "BOARD_RESOLUTION": 593,
+      "FILING": 17,
+      "EFFECTIVE": 540,
+      "PRICING": 533,
+      "FINAL_PRICING": 2,
       "PAYMENT_BANK": 48,
       "AUCTION_BID_START": 65,
       "AUCTION_BID_END": 65,
       "AUCTION_RESULT_ESTIMATED": 65,
-      "LISTING": 538,
+      "LISTING": 539,
       "CBAS_PROXY_START": 372,
       "CBAS_PROXY_END": 372,
       "T_PLUS_19_EXIT_PROXY": 372
@@ -2725,6 +2725,20 @@
       "published_at": "2026-09-24T145821"
     },
     {
+      "stock_code": "1727",
+      "company_name": "中華化",
+      "short_name": "",
+      "stage": "BOARD_RESOLUTION",
+      "date": "2026-09-29",
+      "source": "mops_wiki_db",
+      "confidence": 0.85,
+      "is_inferred": false,
+      "title": "公告本公司國內第二次無擔保轉換公司債完成訂價",
+      "summary": "董事會/股東會決議: 公告本公司國內第二次無擔保轉換公司債完成訂價",
+      "event_type": "CB_ISSUANCE",
+      "published_at": "2026-09-29T161432"
+    },
+    {
       "stock_code": "1781",
       "company_name": "合世生醫科技股份有限公司",
       "short_name": "合世三",
@@ -4816,6 +4830,20 @@
       "summary": "董事會/股東會決議: 公告董事會決議發行國內第四次無擔保可轉換公司債",
       "event_type": "CB_ISSUANCE",
       "published_at": "2026-08-27T150028"
+    },
+    {
+      "stock_code": "2368",
+      "company_name": "金像電",
+      "short_name": "金像電二",
+      "stage": "BOARD_RESOLUTION",
+      "date": "2026-09-29",
+      "source": "mops_wiki_db",
+      "confidence": 0.85,
+      "is_inferred": false,
+      "title": "本公司董事會核准土地及資本支出預算案",
+      "summary": "董事會/股東會決議: 本公司董事會核准土地及資本支出預算案",
+      "event_type": "CB_ISSUANCE",
+      "published_at": "2026-09-29T152457"
     },
     {
       "stock_code": "2383",
@@ -18068,6 +18096,20 @@
       "confidence": 0.3,
       "is_inferred": true,
       "based_on": "2024-11-11"
+    },
+    {
+      "stock_code": "3706",
+      "company_name": "神達",
+      "short_name": "",
+      "stage": "BOARD_RESOLUTION",
+      "date": "2026-09-29",
+      "source": "mops_wiki_db",
+      "confidence": 0.85,
+      "is_inferred": false,
+      "title": "（補充115/8/11公告）本公司董事會決議發行國內第一次\r\n暨第二次無擔保轉換公司債(變更發行額度)",
+      "summary": "董事會/股東會決議: （補充115/8/11公告）本公司董事會決議發行國內第一次\r\n暨第二次無擔保轉換公司債(變更發行額度)",
+      "event_type": "CB_ISSUANCE",
+      "published_at": "2026-09-29T180313"
     },
     {
       "stock_code": "3707",
@@ -36958,6 +37000,34 @@
       "published_at": "2026-09-16T141558"
     },
     {
+      "stock_code": "8021",
+      "company_name": "尖點",
+      "short_name": "",
+      "stage": "BOARD_RESOLUTION",
+      "date": "2026-09-29",
+      "source": "mops_wiki_db",
+      "confidence": 0.85,
+      "is_inferred": false,
+      "title": "本公司115年現金增資發行新股認股基準日公告\r\n(補充公告現金增資認股價格及代收股款及存儲專戶行庫)",
+      "summary": "董事會/股東會決議: 本公司115年現金增資發行新股認股基準日公告\r\n(補充公告現金增資認股價格及代收股款及存儲專戶行庫)",
+      "event_type": "CB_ISSUANCE",
+      "published_at": "2026-09-29T152814"
+    },
+    {
+      "stock_code": "8021",
+      "company_name": "尖點",
+      "short_name": "",
+      "stage": "FINAL_PRICING",
+      "date": "2026-09-29",
+      "source": "mops_wiki_db",
+      "confidence": 0.85,
+      "is_inferred": false,
+      "title": "公告本公司發行國內第三次無擔保轉換公司債完成訂價\r\n及代收價款及存儲專戶行庫",
+      "summary": "最終訂價: 公告本公司發行國內第三次無擔保轉換公司債完成訂價\r\n及代收價款及存儲專戶行庫",
+      "event_type": "CB_ISSUANCE",
+      "published_at": "2026-09-29T152306"
+    },
+    {
       "stock_code": "8027",
       "company_name": "鈦昇科技股份有限公司",
       "short_name": "鈦昇三",
@@ -39877,6 +39947,30 @@
     },
     {
       "stock_code": "8422",
+      "company_name": "可寧衛股份有限公司",
+      "short_name": "可寧衛三",
+      "stage": "BOARD_RESOLUTION",
+      "date": "2026-07-23",
+      "source": "linked_bond_stages_proxy",
+      "confidence": 0.25,
+      "is_inferred": true,
+      "title": "董事會決議發行無擔保轉換公司債",
+      "summary": "董事會通過發行可轉債以充實營運資金或償還債務"
+    },
+    {
+      "stock_code": "8422",
+      "company_name": "可寧衛股份有限公司",
+      "short_name": "可寧衛三",
+      "stage": "EFFECTIVE",
+      "date": "2026-09-01",
+      "source": "linked_bond_stages_proxy",
+      "confidence": 0.25,
+      "is_inferred": true,
+      "title": "金管會申報生效發行無擔保轉換公司債",
+      "summary": "可轉債申報生效，正式進入定價與發行準備期"
+    },
+    {
+      "stock_code": "8422",
       "company_name": "可寧衛*",
       "short_name": "可寧衛一",
       "stage": "PAYMENT_BANK",
@@ -39927,6 +40021,30 @@
       "confidence": 0.35,
       "is_inferred": true,
       "serial": "115071"
+    },
+    {
+      "stock_code": "8422",
+      "company_name": "可寧衛股份有限公司",
+      "short_name": "可寧衛三",
+      "stage": "PRICING",
+      "date": "2026-09-30",
+      "source": "parsed_bonds",
+      "confidence": 0.65,
+      "is_inferred": false,
+      "title": "可寧衛三 announcement/pricing date",
+      "cb_code": "84223"
+    },
+    {
+      "stock_code": "8422",
+      "company_name": "可寧衛股份有限公司",
+      "short_name": "可寧衛三",
+      "stage": "LISTING",
+      "date": "2026-10-06",
+      "source": "parsed_bonds",
+      "confidence": 0.65,
+      "is_inferred": false,
+      "title": "可寧衛三 issue/listing date",
+      "cb_code": "84223"
     },
     {
       "stock_code": "8433",
@@ -40279,6 +40397,20 @@
       "summary": "送件/申報: (補充)公告本公司發行中華民國境內第三次有擔保轉換公司債\r\n收足債款",
       "event_type": "CB_ISSUANCE",
       "published_at": "2026-07-24T171534"
+    },
+    {
+      "stock_code": "8442",
+      "company_name": "威宏-KY",
+      "short_name": "",
+      "stage": "FILING",
+      "date": "2026-09-29",
+      "source": "mops_wiki_db",
+      "confidence": 0.85,
+      "is_inferred": false,
+      "title": "公告本公司發行中華民國境內第四次無擔保轉換公司債\r\n收足債款",
+      "summary": "送件/申報: 公告本公司發行中華民國境內第四次無擔保轉換公司債\r\n收足債款",
+      "event_type": "CB_ISSUANCE",
+      "published_at": "2026-09-29T174757"
     },
     {
       "stock_code": "8462",

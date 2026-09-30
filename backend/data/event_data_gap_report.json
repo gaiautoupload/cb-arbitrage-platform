@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-25T17:10:09",
+  "generated_at": "2026-09-30T19:39:19",
   "database": "D:\\bond\\backend\\data\\cb_event_master.sqlite",
   "required_stages": [
     "BOARD_RESOLUTION",
@@ -16,30 +16,30 @@
     "CBAS_ACTUAL"
   ],
   "summary": {
-    "issues": 612,
-    "events": 3646,
-    "issues_with_missing_stages": 612
+    "issues": 614,
+    "events": 3656,
+    "issues_with_missing_stages": 614
   },
   "stage_summary": {
     "BOARD_RESOLUTION": {
-      "observed_events": 112,
-      "inferred_events": 500,
-      "issues_with_stage": 546
+      "observed_events": 116,
+      "inferred_events": 501,
+      "issues_with_stage": 549
     },
     "FILING": {
-      "observed_events": 16,
+      "observed_events": 17,
       "inferred_events": 0,
       "issues_with_stage": 12
     },
     "EFFECTIVE": {
       "observed_events": 9,
-      "inferred_events": 532,
-      "issues_with_stage": 533
+      "inferred_events": 533,
+      "issues_with_stage": 534
     },
     "PRICING": {
-      "observed_events": 532,
+      "observed_events": 533,
       "inferred_events": 0,
-      "issues_with_stage": 531
+      "issues_with_stage": 532
     },
     "AUCTION_BID_START": {
       "observed_events": 75,
@@ -72,9 +72,9 @@
       "issues_with_stage": 0
     },
     "LISTING": {
-      "observed_events": 538,
+      "observed_events": 539,
       "inferred_events": 0,
-      "issues_with_stage": 534
+      "issues_with_stage": 535
     },
     "CBAS_ACTUAL": {
       "observed_events": 0,
@@ -1183,11 +1183,11 @@
       "short_name": null,
       "company_name": "中華化",
       "observed_stages": [
+        "BOARD_RESOLUTION",
         "PAYMENT_BANK"
       ],
       "inferred_stages": [],
       "missing_stages": [
-        "BOARD_RESOLUTION",
         "FILING",
         "EFFECTIVE",
         "PRICING",
@@ -1200,7 +1200,7 @@
         "LISTING",
         "CBAS_ACTUAL"
       ],
-      "event_count": 1
+      "event_count": 2
     },
     {
       "issue_id": "issue_340a179749c6ecd6b98b",
@@ -2046,7 +2046,7 @@
         "UNDERWRITING_NOTICE",
         "CBAS_ACTUAL"
       ],
-      "event_count": 8
+      "event_count": 9
     },
     {
       "issue_id": "issue_39be49b0931ee82193fe",
@@ -7343,6 +7343,31 @@
         "CBAS_ACTUAL"
       ],
       "event_count": 4
+    },
+    {
+      "issue_id": "issue_40f327edf6fbcc0980f6",
+      "stock_code": "3706",
+      "cb_code": null,
+      "short_name": null,
+      "company_name": "神達",
+      "observed_stages": [
+        "BOARD_RESOLUTION"
+      ],
+      "inferred_stages": [],
+      "missing_stages": [
+        "FILING",
+        "EFFECTIVE",
+        "PRICING",
+        "AUCTION_BID_START",
+        "AUCTION_BID_END",
+        "BOOKBUILDING_START",
+        "BOOKBUILDING_END",
+        "BOOKBUILDING_RESULT",
+        "UNDERWRITING_NOTICE",
+        "LISTING",
+        "CBAS_ACTUAL"
+      ],
+      "event_count": 1
     },
     {
       "issue_id": "issue_24caea4892559ec25665",
@@ -15039,7 +15064,8 @@
       "observed_stages": [
         "AUCTION_BID_END",
         "AUCTION_BID_START",
-        "BOARD_RESOLUTION"
+        "BOARD_RESOLUTION",
+        "FINAL_PRICING"
       ],
       "inferred_stages": [
         "AUCTION_RESULT_ESTIMATED"
@@ -15055,7 +15081,7 @@
         "LISTING",
         "CBAS_ACTUAL"
       ],
-      "event_count": 5
+      "event_count": 7
     },
     {
       "issue_id": "issue_e02db483a9e068574cd2",
@@ -16218,6 +16244,32 @@
       "event_count": 11
     },
     {
+      "issue_id": "issue_dc5d06f2c3d3b0f2277a",
+      "stock_code": "8422",
+      "cb_code": "84223",
+      "short_name": "可寧衛三",
+      "company_name": "可寧衛股份有限公司",
+      "observed_stages": [
+        "LISTING",
+        "PRICING"
+      ],
+      "inferred_stages": [
+        "BOARD_RESOLUTION",
+        "EFFECTIVE"
+      ],
+      "missing_stages": [
+        "FILING",
+        "AUCTION_BID_START",
+        "AUCTION_BID_END",
+        "BOOKBUILDING_START",
+        "BOOKBUILDING_END",
+        "BOOKBUILDING_RESULT",
+        "UNDERWRITING_NOTICE",
+        "CBAS_ACTUAL"
+      ],
+      "event_count": 4
+    },
+    {
       "issue_id": "issue_01e5ed4c8af5b25b1e4b",
       "stock_code": "8433",
       "cb_code": "84331",
@@ -16380,7 +16432,7 @@
         "LISTING",
         "CBAS_ACTUAL"
       ],
-      "event_count": 4
+      "event_count": 5
     },
     {
       "issue_id": "issue_9bc6bcc46113de9995a9",

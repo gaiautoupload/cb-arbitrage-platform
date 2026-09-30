@@ -8128,5 +8128,20 @@
     "maturity_date_minguo": "118年10月2日",
     "maturity_date": "2029-10-02",
     "issue_amount": "新台幣3億元整"
+  },
+  {
+    "file_id": "11500060931",
+    "company_name": "可寧衛股份有限公司",
+    "bond_name": "可寧衛股份有限公司國內第三次無擔保轉換公司債",
+    "cb_code": "84223",
+    "stock_code": "8422",
+    "short_name": "可寧衛三",
+    "announcement_date_minguo": "115年9月30日",
+    "announcement_date": "2026-09-30",
+    "issue_date_minguo": "115年10月6日",
+    "issue_date": "2026-10-06",
+    "maturity_date_minguo": "120年10月6日",
+    "maturity_date": "2031-10-06",
+    "issue_amount": "新臺幣25億元整"
   }
 ]
