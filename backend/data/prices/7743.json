@@ -5935,8 +5935,18 @@
     "high": 25.0,
     "low": 24.0,
     "close": 25.0,
-    "volume": 49322,
+    "volume": 49000,
     "foreign_net": -1.0,
     "trust_net": -1.0
+  },
+  {
+    "date": "2026-10-01",
+    "open": 24.75,
+    "high": 25.0,
+    "low": 24.5,
+    "close": 25.0,
+    "volume": 15070,
+    "foreign_net": -2.0,
+    "trust_net": -2.0
   }
 ]

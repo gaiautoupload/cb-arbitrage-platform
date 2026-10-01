@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-30T19:39:19",
+  "generated_at": "2026-10-01T17:11:13",
   "database": "D:\\bond\\backend\\data\\cb_event_master.sqlite",
   "required_stages": [
     "BOARD_RESOLUTION",
@@ -17,7 +17,7 @@
   ],
   "summary": {
     "issues": 614,
-    "events": 3656,
+    "events": 3657,
     "issues_with_missing_stages": 614
   },
   "stage_summary": {
@@ -27,9 +27,9 @@
       "issues_with_stage": 549
     },
     "FILING": {
-      "observed_events": 17,
+      "observed_events": 18,
       "inferred_events": 0,
-      "issues_with_stage": 12
+      "issues_with_stage": 13
     },
     "EFFECTIVE": {
       "observed_events": 9,
@@ -11134,6 +11134,7 @@
       "short_name": "安碁三",
       "company_name": "安碁科技股份有限公司",
       "observed_stages": [
+        "FILING",
         "LISTING",
         "PAYMENT_BANK",
         "PRICING"
@@ -11146,7 +11147,6 @@
         "T_PLUS_19_EXIT_PROXY"
       ],
       "missing_stages": [
-        "FILING",
         "AUCTION_BID_START",
         "AUCTION_BID_END",
         "BOOKBUILDING_START",
@@ -11155,7 +11155,7 @@
         "UNDERWRITING_NOTICE",
         "CBAS_ACTUAL"
       ],
-      "event_count": 8
+      "event_count": 9
     },
     {
       "issue_id": "issue_6b42e46a83297339921b",
