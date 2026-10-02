@@ -1,162 +1,162 @@
 [
   {
-    "snapshot_date": "1150901",
+    "snapshot_date": "1151001",
     "institution_code": "102T",
     "institution_name": "合作金庫證券公司",
-    "asw_fixed_income_outstanding": 96000.0,
+    "asw_fixed_income_outstanding": 93000.0,
     "aso_option_outstanding": 0.0,
-    "total_outstanding": 96000.0,
+    "total_outstanding": 93000.0,
     "source_url": "https://www.tpex.org.tw/openapi/v1/tpex_dpsp_monthly_CBmcs007",
-    "fetched_at": "2026-10-01T17:11:13"
+    "fetched_at": "2026-10-02T17:11:03"
   },
   {
-    "snapshot_date": "1150901",
+    "snapshot_date": "1151001",
     "institution_code": "218T",
     "institution_name": "亞東證券公司",
-    "asw_fixed_income_outstanding": 140700.0,
+    "asw_fixed_income_outstanding": 142700.0,
     "aso_option_outstanding": 0.0,
-    "total_outstanding": 140700.0,
+    "total_outstanding": 142700.0,
     "source_url": "https://www.tpex.org.tw/openapi/v1/tpex_dpsp_monthly_CBmcs007",
-    "fetched_at": "2026-10-01T17:11:13"
+    "fetched_at": "2026-10-02T17:11:03"
   },
   {
-    "snapshot_date": "1150901",
+    "snapshot_date": "1151001",
     "institution_code": "505T",
     "institution_name": "大展證券公司",
-    "asw_fixed_income_outstanding": 90620.0,
-    "aso_option_outstanding": 47080.0,
-    "total_outstanding": 137700.0,
+    "asw_fixed_income_outstanding": 89720.0,
+    "aso_option_outstanding": 44000.0,
+    "total_outstanding": 133720.0,
     "source_url": "https://www.tpex.org.tw/openapi/v1/tpex_dpsp_monthly_CBmcs007",
-    "fetched_at": "2026-10-01T17:11:13"
+    "fetched_at": "2026-10-02T17:11:03"
   },
   {
-    "snapshot_date": "1150901",
+    "snapshot_date": "1151001",
     "institution_code": "538T",
     "institution_name": "第一金證券公司",
-    "asw_fixed_income_outstanding": 210030.0,
-    "aso_option_outstanding": 258160.0,
-    "total_outstanding": 468190.0,
+    "asw_fixed_income_outstanding": 211440.0,
+    "aso_option_outstanding": 262420.0,
+    "total_outstanding": 473860.0,
     "source_url": "https://www.tpex.org.tw/openapi/v1/tpex_dpsp_monthly_CBmcs007",
-    "fetched_at": "2026-10-01T17:11:13"
+    "fetched_at": "2026-10-02T17:11:03"
   },
   {
-    "snapshot_date": "1150901",
+    "snapshot_date": "1151001",
     "institution_code": "585T",
     "institution_name": "統一證券公司",
-    "asw_fixed_income_outstanding": 597320.0,
-    "aso_option_outstanding": 1803730.0,
-    "total_outstanding": 2401050.0,
+    "asw_fixed_income_outstanding": 628030.0,
+    "aso_option_outstanding": 1861270.0,
+    "total_outstanding": 2489300.0,
     "source_url": "https://www.tpex.org.tw/openapi/v1/tpex_dpsp_monthly_CBmcs007",
-    "fetched_at": "2026-10-01T17:11:13"
+    "fetched_at": "2026-10-02T17:11:03"
   },
   {
-    "snapshot_date": "1150901",
+    "snapshot_date": "1151001",
     "institution_code": "616T",
     "institution_name": "中國信託證券公司",
-    "asw_fixed_income_outstanding": 196670.0,
+    "asw_fixed_income_outstanding": 199770.0,
     "aso_option_outstanding": 0.0,
-    "total_outstanding": 196670.0,
+    "total_outstanding": 199770.0,
     "source_url": "https://www.tpex.org.tw/openapi/v1/tpex_dpsp_monthly_CBmcs007",
-    "fetched_at": "2026-10-01T17:11:13"
+    "fetched_at": "2026-10-02T17:11:03"
   },
   {
-    "snapshot_date": "1150901",
+    "snapshot_date": "1151001",
     "institution_code": "700T",
     "institution_name": "兆豐證券公司",
-    "asw_fixed_income_outstanding": 147860.0,
+    "asw_fixed_income_outstanding": 142450.0,
     "aso_option_outstanding": 550.0,
-    "total_outstanding": 148410.0,
+    "total_outstanding": 143000.0,
     "source_url": "https://www.tpex.org.tw/openapi/v1/tpex_dpsp_monthly_CBmcs007",
-    "fetched_at": "2026-10-01T17:11:13"
+    "fetched_at": "2026-10-02T17:11:03"
   },
   {
-    "snapshot_date": "1150901",
+    "snapshot_date": "1151001",
     "institution_code": "779T",
     "institution_name": "國票證券公司",
-    "asw_fixed_income_outstanding": 40800.0,
-    "aso_option_outstanding": 311270.0,
-    "total_outstanding": 352070.0,
+    "asw_fixed_income_outstanding": 37150.0,
+    "aso_option_outstanding": 306530.0,
+    "total_outstanding": 343680.0,
     "source_url": "https://www.tpex.org.tw/openapi/v1/tpex_dpsp_monthly_CBmcs007",
-    "fetched_at": "2026-10-01T17:11:13"
+    "fetched_at": "2026-10-02T17:11:03"
   },
   {
-    "snapshot_date": "1150901",
+    "snapshot_date": "1151001",
     "institution_code": "845T",
     "institution_name": "康和證券公司",
-    "asw_fixed_income_outstanding": 51060.0,
-    "aso_option_outstanding": 343110.0,
-    "total_outstanding": 394170.0,
+    "asw_fixed_income_outstanding": 46860.0,
+    "aso_option_outstanding": 351250.0,
+    "total_outstanding": 398110.0,
     "source_url": "https://www.tpex.org.tw/openapi/v1/tpex_dpsp_monthly_CBmcs007",
-    "fetched_at": "2026-10-01T17:11:13"
+    "fetched_at": "2026-10-02T17:11:03"
   },
   {
-    "snapshot_date": "1150901",
+    "snapshot_date": "1151001",
     "institution_code": "910T",
     "institution_name": "群益金鼎證券公司",
-    "asw_fixed_income_outstanding": 1116890.0,
-    "aso_option_outstanding": 2407510.0,
-    "total_outstanding": 3524400.0,
+    "asw_fixed_income_outstanding": 1197350.0,
+    "aso_option_outstanding": 2531680.0,
+    "total_outstanding": 3729030.0,
     "source_url": "https://www.tpex.org.tw/openapi/v1/tpex_dpsp_monthly_CBmcs007",
-    "fetched_at": "2026-10-01T17:11:13"
+    "fetched_at": "2026-10-02T17:11:03"
   },
   {
-    "snapshot_date": "1150901",
+    "snapshot_date": "1151001",
     "institution_code": "920T",
     "institution_name": "凱基證券公司",
-    "asw_fixed_income_outstanding": 2031900.0,
-    "aso_option_outstanding": 2711020.0,
-    "total_outstanding": 4742920.0,
+    "asw_fixed_income_outstanding": 2078470.0,
+    "aso_option_outstanding": 2769470.0,
+    "total_outstanding": 4847940.0,
     "source_url": "https://www.tpex.org.tw/openapi/v1/tpex_dpsp_monthly_CBmcs007",
-    "fetched_at": "2026-10-01T17:11:13"
+    "fetched_at": "2026-10-02T17:11:03"
   },
   {
-    "snapshot_date": "1150901",
+    "snapshot_date": "1151001",
     "institution_code": "930T",
     "institution_name": "華南永昌證券公司",
-    "asw_fixed_income_outstanding": 74840.0,
+    "asw_fixed_income_outstanding": 81840.0,
     "aso_option_outstanding": 0.0,
-    "total_outstanding": 74840.0,
+    "total_outstanding": 81840.0,
     "source_url": "https://www.tpex.org.tw/openapi/v1/tpex_dpsp_monthly_CBmcs007",
-    "fetched_at": "2026-10-01T17:11:13"
+    "fetched_at": "2026-10-02T17:11:03"
   },
   {
-    "snapshot_date": "1150901",
+    "snapshot_date": "1151001",
     "institution_code": "960T",
     "institution_name": "富邦證券公司",
-    "asw_fixed_income_outstanding": 1171720.0,
-    "aso_option_outstanding": 2425410.0,
-    "total_outstanding": 3597130.0,
+    "asw_fixed_income_outstanding": 1214880.0,
+    "aso_option_outstanding": 2466610.0,
+    "total_outstanding": 3681490.0,
     "source_url": "https://www.tpex.org.tw/openapi/v1/tpex_dpsp_monthly_CBmcs007",
-    "fetched_at": "2026-10-01T17:11:13"
+    "fetched_at": "2026-10-02T17:11:03"
   },
   {
-    "snapshot_date": "1150901",
+    "snapshot_date": "1151001",
     "institution_code": "980T",
     "institution_name": "元大證券公司",
-    "asw_fixed_income_outstanding": 4388830.0,
-    "aso_option_outstanding": 7306250.0,
-    "total_outstanding": 11695080.0,
+    "asw_fixed_income_outstanding": 4422810.0,
+    "aso_option_outstanding": 7198900.0,
+    "total_outstanding": 11621710.0,
     "source_url": "https://www.tpex.org.tw/openapi/v1/tpex_dpsp_monthly_CBmcs007",
-    "fetched_at": "2026-10-01T17:11:13"
+    "fetched_at": "2026-10-02T17:11:03"
   },
   {
-    "snapshot_date": "1150901",
+    "snapshot_date": "1151001",
     "institution_code": "9A0T",
     "institution_name": "永豐金證券公司",
-    "asw_fixed_income_outstanding": 622020.0,
-    "aso_option_outstanding": 1738740.0,
-    "total_outstanding": 2360760.0,
+    "asw_fixed_income_outstanding": 698820.0,
+    "aso_option_outstanding": 1797270.0,
+    "total_outstanding": 2496090.0,
     "source_url": "https://www.tpex.org.tw/openapi/v1/tpex_dpsp_monthly_CBmcs007",
-    "fetched_at": "2026-10-01T17:11:13"
+    "fetched_at": "2026-10-02T17:11:03"
   },
   {
-    "snapshot_date": "1150901",
+    "snapshot_date": "1151001",
     "institution_code": "9B0T",
     "institution_name": "台新證券公司",
-    "asw_fixed_income_outstanding": 2683220.0,
-    "aso_option_outstanding": 3498310.0,
-    "total_outstanding": 6181530.0,
+    "asw_fixed_income_outstanding": 2652130.0,
+    "aso_option_outstanding": 3458720.0,
+    "total_outstanding": 6110850.0,
     "source_url": "https://www.tpex.org.tw/openapi/v1/tpex_dpsp_monthly_CBmcs007",
-    "fetched_at": "2026-10-01T17:11:13"
+    "fetched_at": "2026-10-02T17:11:03"
   }
 ]

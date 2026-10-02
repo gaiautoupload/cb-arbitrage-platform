@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-01T17:11:12",
+  "generated_at": "2026-10-02T17:11:03",
   "source_files": {
     "mops_wiki_db": "mops_wiki_db.json",
     "parsed_bonds": "parsed_bonds.json",
@@ -12,19 +12,19 @@
     "Generated linked BOARD_RESOLUTION/EFFECTIVE dates are retained only as low-confidence proxy events."
   ],
   "summary": {
-    "total_events": 3584,
-    "actual_or_observed_events": 1387,
-    "inferred_events": 2197,
+    "total_events": 3593,
+    "actual_or_observed_events": 1394,
+    "inferred_events": 2199,
     "by_stage": {
-      "BOARD_RESOLUTION": 593,
-      "FILING": 18,
+      "BOARD_RESOLUTION": 595,
+      "FILING": 19,
       "EFFECTIVE": 540,
       "PRICING": 533,
       "FINAL_PRICING": 2,
       "PAYMENT_BANK": 48,
-      "AUCTION_BID_START": 65,
-      "AUCTION_BID_END": 65,
-      "AUCTION_RESULT_ESTIMATED": 65,
+      "AUCTION_BID_START": 67,
+      "AUCTION_BID_END": 67,
+      "AUCTION_RESULT_ESTIMATED": 67,
       "LISTING": 539,
       "CBAS_PROXY_START": 372,
       "CBAS_PROXY_END": 372,
@@ -2737,6 +2737,45 @@
       "summary": "董事會/股東會決議: 公告本公司國內第二次無擔保轉換公司債完成訂價",
       "event_type": "CB_ISSUANCE",
       "published_at": "2026-09-29T161432"
+    },
+    {
+      "stock_code": "1727",
+      "company_name": "臺灣中華",
+      "short_name": "",
+      "stage": "AUCTION_BID_START",
+      "date": "2026-10-02",
+      "source": "twsa_bids",
+      "confidence": 0.9,
+      "is_inferred": false,
+      "serial": "115073",
+      "underwriter": "統一綜合證券股份有限公司",
+      "min_price": "101.50",
+      "bidding_period": "2026/10/02~2026/10/06"
+    },
+    {
+      "stock_code": "1727",
+      "company_name": "臺灣中華",
+      "short_name": "",
+      "stage": "AUCTION_BID_END",
+      "date": "2026-10-06",
+      "source": "twsa_bids",
+      "confidence": 0.9,
+      "is_inferred": false,
+      "serial": "115073",
+      "underwriter": "統一綜合證券股份有限公司",
+      "min_price": "101.50",
+      "bidding_period": "2026/10/02~2026/10/06"
+    },
+    {
+      "stock_code": "1727",
+      "company_name": "臺灣中華",
+      "short_name": "",
+      "stage": "AUCTION_RESULT_ESTIMATED",
+      "date": "2026-10-07",
+      "source": "calendar_proxy",
+      "confidence": 0.35,
+      "is_inferred": true,
+      "serial": "115073"
     },
     {
       "stock_code": "1781",
@@ -8643,6 +8682,20 @@
       "is_inferred": false,
       "title": "晶豪科二 announcement/pricing date",
       "cb_code": "30062"
+    },
+    {
+      "stock_code": "3006",
+      "company_name": "晶豪科",
+      "short_name": "晶豪科一",
+      "stage": "FILING",
+      "date": "2026-10-01",
+      "source": "mops_wiki_db",
+      "confidence": 0.85,
+      "is_inferred": false,
+      "title": "公告本公司國內第二次有擔保轉換公司債收足應募價款",
+      "summary": "送件/申報: 公告本公司國內第二次有擔保轉換公司債收足應募價款",
+      "event_type": "CB_ISSUANCE",
+      "published_at": "2026-10-01T151341"
     },
     {
       "stock_code": "3006",
@@ -36587,6 +36640,20 @@
       "serial": "115015"
     },
     {
+      "stock_code": "6922",
+      "company_name": "宸曜",
+      "short_name": "",
+      "stage": "BOARD_RESOLUTION",
+      "date": "2026-10-01",
+      "source": "mops_wiki_db",
+      "confidence": 0.85,
+      "is_inferred": false,
+      "title": "(補充公告)本公司董事會決議發行國內第一次無擔保轉換公司債",
+      "summary": "董事會/股東會決議: (補充公告)本公司董事會決議發行國內第一次無擔保轉換公司債",
+      "event_type": "CB_ISSUANCE",
+      "published_at": "2026-10-01T174737"
+    },
+    {
       "stock_code": "6937",
       "company_name": "天虹",
       "short_name": "",
@@ -37040,6 +37107,45 @@
       "summary": "最終訂價: 公告本公司發行國內第三次無擔保轉換公司債完成訂價\r\n及代收價款及存儲專戶行庫",
       "event_type": "CB_ISSUANCE",
       "published_at": "2026-09-29T152306"
+    },
+    {
+      "stock_code": "8021",
+      "company_name": "尖點",
+      "short_name": "",
+      "stage": "AUCTION_BID_START",
+      "date": "2026-10-02",
+      "source": "twsa_bids",
+      "confidence": 0.9,
+      "is_inferred": false,
+      "serial": "115074",
+      "underwriter": "福邦證券股份有限公司",
+      "min_price": "100.00",
+      "bidding_period": "2026/10/02~2026/10/05"
+    },
+    {
+      "stock_code": "8021",
+      "company_name": "尖點",
+      "short_name": "",
+      "stage": "AUCTION_BID_END",
+      "date": "2026-10-05",
+      "source": "twsa_bids",
+      "confidence": 0.9,
+      "is_inferred": false,
+      "serial": "115074",
+      "underwriter": "福邦證券股份有限公司",
+      "min_price": "100.00",
+      "bidding_period": "2026/10/02~2026/10/05"
+    },
+    {
+      "stock_code": "8021",
+      "company_name": "尖點",
+      "short_name": "",
+      "stage": "AUCTION_RESULT_ESTIMATED",
+      "date": "2026-10-06",
+      "source": "calendar_proxy",
+      "confidence": 0.35,
+      "is_inferred": true,
+      "serial": "115074"
     },
     {
       "stock_code": "8027",
@@ -41613,6 +41719,20 @@
       "summary": "董事會/股東會決議: 公告本公司發行國內第五次及第六次無擔\r\n保轉換公司債之代收價款行庫及存儲專戶行庫",
       "event_type": "CB_ISSUANCE",
       "published_at": "2026-09-21T160938"
+    },
+    {
+      "stock_code": "8996",
+      "company_name": "高力",
+      "short_name": "高力四",
+      "stage": "BOARD_RESOLUTION",
+      "date": "2026-10-01",
+      "source": "mops_wiki_db",
+      "confidence": 0.85,
+      "is_inferred": false,
+      "title": "公告本公司發行國內第五次無擔保轉換公司債之轉換價格及溢價率",
+      "summary": "董事會/股東會決議: 公告本公司發行國內第五次無擔保轉換公司債之轉換價格及溢價率",
+      "event_type": "CB_ISSUANCE",
+      "published_at": "2026-10-01T134742"
     },
     {
       "stock_code": "9802",
