@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-02T17:11:03",
+  "generated_at": "2026-10-03T17:13:59",
   "database": "D:\\bond\\backend\\data\\cb_event_master.sqlite",
   "required_stages": [
     "BOARD_RESOLUTION",
@@ -17,12 +17,12 @@
   ],
   "summary": {
     "issues": 615,
-    "events": 3666,
+    "events": 3669,
     "issues_with_missing_stages": 615
   },
   "stage_summary": {
     "BOARD_RESOLUTION": {
-      "observed_events": 118,
+      "observed_events": 121,
       "inferred_events": 501,
       "issues_with_stage": 550
     },
@@ -9062,8 +9062,9 @@
       "stock_code": "4916",
       "cb_code": "49163",
       "short_name": "事欣科三",
-      "company_name": "事欣科技股份有限公司",
+      "company_name": "事欣科",
       "observed_stages": [
+        "BOARD_RESOLUTION",
         "LISTING",
         "PRICING"
       ],
@@ -9084,7 +9085,7 @@
         "UNDERWRITING_NOTICE",
         "CBAS_ACTUAL"
       ],
-      "event_count": 7
+      "event_count": 8
     },
     {
       "issue_id": "issue_6d4203148172a5d583f6",
@@ -13439,8 +13440,9 @@
       "stock_code": "6585",
       "cb_code": "65851",
       "short_name": "鼎基一",
-      "company_name": "鼎基先進材料股份有限公司",
+      "company_name": "鼎基",
       "observed_stages": [
+        "BOARD_RESOLUTION",
         "LISTING",
         "PRICING"
       ],
@@ -13461,7 +13463,7 @@
         "UNDERWRITING_NOTICE",
         "CBAS_ACTUAL"
       ],
-      "event_count": 7
+      "event_count": 8
     },
     {
       "issue_id": "issue_5e4bc8583c412183031e",
@@ -16244,10 +16246,11 @@
       "stock_code": "8422",
       "cb_code": "84221",
       "short_name": "可寧衛一",
-      "company_name": "可寧衛",
+      "company_name": "可寧衛*",
       "observed_stages": [
         "AUCTION_BID_END",
         "AUCTION_BID_START",
+        "BOARD_RESOLUTION",
         "LISTING",
         "PAYMENT_BANK",
         "PRICING"
@@ -16268,7 +16271,7 @@
         "UNDERWRITING_NOTICE",
         "CBAS_ACTUAL"
       ],
-      "event_count": 11
+      "event_count": 12
     },
     {
       "issue_id": "issue_dc5d06f2c3d3b0f2277a",
