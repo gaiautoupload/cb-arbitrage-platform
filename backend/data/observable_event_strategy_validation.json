@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-03T17:14:46",
+  "generated_at": "2026-10-04T17:14:50",
   "source": "D:\\bond\\backend\\data\\observable_event_strategy_search.json",
   "note": "This is a robustness screen; it does not replace out-of-sample or portfolio-level validation.",
   "validations": [

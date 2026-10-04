@@ -8293,6 +8293,20 @@
     "parsed_at": "2026-10-03T17:00:31"
   },
   {
+    "date": "2026-10-03",
+    "time": "170054",
+    "stock_code": "7827",
+    "company_name": "漢康-KY創",
+    "event_title": "代子公司FBD Biologics Limited公告，HCB303美國新藥\r\n臨床試驗申請（IND）獲准進行臨床試驗",
+    "event_type": "OTHER",
+    "stage": "N/A",
+    "wiki_details": {},
+    "sentiment": "NEUTRAL",
+    "summary": "CB 相關公告: 代子公司FBD Biologics Limited公告，HCB303美國新藥\r\n臨床試驗申請（IND）獲准進行臨床試驗",
+    "parser": "rule_v2",
+    "parsed_at": "2026-10-04T17:00:30"
+  },
+  {
     "date": "2026-02-12",
     "time": "140510",
     "stock_code": "3260",
