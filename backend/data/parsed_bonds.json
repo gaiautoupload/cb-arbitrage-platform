@@ -8143,5 +8143,20 @@
     "maturity_date_minguo": "120年10月6日",
     "maturity_date": "2031-10-06",
     "issue_amount": "新臺幣25億元整"
+  },
+  {
+    "file_id": "11500061731",
+    "company_name": "高力熱處理工業股份有限公司",
+    "bond_name": "高力熱處理工業股份有限公司國內第五次無擔保轉換公司債",
+    "cb_code": "89965",
+    "stock_code": "8996",
+    "short_name": "高力五",
+    "announcement_date_minguo": "115年10月5日",
+    "announcement_date": "2026-10-05",
+    "issue_date_minguo": "115年10月12日",
+    "issue_date": "2026-10-12",
+    "maturity_date_minguo": "120年10月12日",
+    "maturity_date": "2031-10-12",
+    "issue_amount": "新台幣25億元整"
   }
 ]

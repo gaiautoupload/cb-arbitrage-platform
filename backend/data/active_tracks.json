@@ -66,24 +66,18 @@
     "focus_reason": "手動關注；目前已核對到的是現金增資，不納入 CB T-15 策略",
     "focus_added_at": "2026-07-16",
     "market_snapshot": {
-      "date": "2026-10-02",
-      "close": 203.5,
-      "ma5": 188.7,
-      "ma10": 193.8,
-      "ma20": 205.72,
+      "date": "2026-10-05",
+      "close": 196.5,
+      "ma5": 191.4,
+      "ma10": 193.1,
+      "ma20": 204.68,
       "ma_bull": false,
-      "foreign_net_5d": 96.7,
-      "trust_net_5d": -473.7,
-      "volume_ratio_5v20": 1.61,
-      "chip_date": "2026-10-02"
+      "foreign_net_5d": -1128.3,
+      "trust_net_5d": -363.7,
+      "volume_ratio_5v20": 2.29,
+      "chip_date": "2026-10-05"
     },
     "latest_news": [
-      {
-        "title": "4764 雙鍵 - 前天買了一張 收盤看才知道漲停 - 股市爆料同學會 - CMoney",
-        "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1GNGtRSkJseGU0U1NUVHlGU1Jsd2hsaGJ4WHYzR3huMW5kVXZqM2NyMEJIWGdYVkhlVXE2ek5OOTh6enlkTFBXb0haVUlkN2h5VF9hTkVnT3Y?oc=5",
-        "source": "CMoney",
-        "published_at": "2026-10-02T14:28:31+08:00"
-      },
       {
         "title": "【09:16 即時新聞】雙鍵(4764)早盤亮燈漲停，買盤聚焦獲利與5G/6G樹脂動能 - CMoney",
         "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE8tYkVnV2FkNTZLc0ltUEp6T1NQMzd1YnBYYmV2QTBXeVhicEs4YnNPdURvdC1IU0tXcG9OYUt5TWdUUnlUdER6ODZFZUNFZzRhWXNOX0ZIZWs?oc=5",
@@ -95,6 +89,12 @@
         "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9WRE42ZWFSczNOMVM0c3RraEhsZzJBTkJiZG93bGVNV2xQcFhPdVAwS1RnSjkyaVFkYUVNREJzR3pWV3dxcnpzUUZBWVV0QjFUS25uWEtuLVg?oc=5",
         "source": "CMoney",
         "published_at": "2026-09-21T15:00:00+08:00"
+      },
+      {
+        "title": "4764 雙鍵 - 只有崩盤這條路。 - 股市爆料同學會 - CMoney",
+        "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE8xZ1BFdy1kY2FnSVBvWXdCeHUtaFJ6bzFwZmFHTGVuUWN4a243Q2dyYWxDbmJCc25paEpPVENWakFzQmVzakQ1Q3EzV3RMWmZSb3NqMHFpQTI?oc=5",
+        "source": "CMoney",
+        "published_at": "2026-09-16T15:00:00+08:00"
       }
     ],
     "operation_signals": {
@@ -107,24 +107,24 @@
       "cb_stage_date": null,
       "added_at": "2026-07-16",
       "market": {
-        "date": "2026-10-02",
-        "close": 203.5,
-        "ma5": 188.7,
-        "ma10": 193.8,
-        "ma20": 205.72,
-        "ma60": 242.27,
+        "date": "2026-10-05",
+        "close": 196.5,
+        "ma5": 191.4,
+        "ma10": 193.1,
+        "ma20": 204.68,
+        "ma60": 239.94,
         "ma_bull": false,
-        "momentum_20d_pct": -15.21,
-        "distance_from_60d_high_pct": -43.44,
-        "volume_ratio_5v20": 1.4
+        "momentum_20d_pct": -9.66,
+        "distance_from_60d_high_pct": -45.39,
+        "volume_ratio_5v20": 1.73
       },
       "top1": {
-        "chip_date": "2026-10-02",
-        "foreign_net_5d_shares": 96691.0,
-        "foreign_net_20d_shares": 379330.0,
-        "trust_net_5d_shares": -473672.0,
-        "trust_net_20d_shares": -527672.0,
-        "foreign_consecutive_buy_days": 1,
+        "chip_date": "2026-10-05",
+        "foreign_net_5d_shares": -1128307.0,
+        "foreign_net_20d_shares": -640691.0,
+        "trust_net_5d_shares": -363672.0,
+        "trust_net_20d_shares": -423672.0,
+        "foreign_consecutive_buy_days": 0,
         "trust_consecutive_buy_days": 0,
         "latest_trust_buy_pct_capital": 0.0,
         "share_count_date": "2025-12-31",
@@ -141,14 +141,14 @@
       "long_strategy": {
         "state": "avoid",
         "action": "暫不建立長線部位",
-        "score": 2,
+        "score": 1,
         "max_score": 11,
         "positives": [
-          "外資近5日買超",
           "最新月營收正成長"
         ],
         "risks": [
           "均線尚未多頭排列",
+          "外資近5日未買超",
           "投信近5日未買超"
         ],
         "exit_rules": [
@@ -228,24 +228,18 @@
     "focus_reason": "手動關注；目前已核對到的是現金增資，不納入 CB T-15 策略",
     "focus_added_at": "2026-07-16",
     "market_snapshot": {
-      "date": "2026-10-02",
-      "close": 203.5,
-      "ma5": 188.7,
-      "ma10": 193.8,
-      "ma20": 205.72,
+      "date": "2026-10-05",
+      "close": 196.5,
+      "ma5": 191.4,
+      "ma10": 193.1,
+      "ma20": 204.68,
       "ma_bull": false,
-      "foreign_net_5d": 96.7,
-      "trust_net_5d": -473.7,
-      "volume_ratio_5v20": 1.61,
-      "chip_date": "2026-10-02"
+      "foreign_net_5d": -1128.3,
+      "trust_net_5d": -363.7,
+      "volume_ratio_5v20": 2.29,
+      "chip_date": "2026-10-05"
     },
     "latest_news": [
-      {
-        "title": "4764 雙鍵 - 前天買了一張 收盤看才知道漲停 - 股市爆料同學會 - CMoney",
-        "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1GNGtRSkJseGU0U1NUVHlGU1Jsd2hsaGJ4WHYzR3huMW5kVXZqM2NyMEJIWGdYVkhlVXE2ek5OOTh6enlkTFBXb0haVUlkN2h5VF9hTkVnT3Y?oc=5",
-        "source": "CMoney",
-        "published_at": "2026-10-02T14:28:31+08:00"
-      },
       {
         "title": "【09:16 即時新聞】雙鍵(4764)早盤亮燈漲停，買盤聚焦獲利與5G/6G樹脂動能 - CMoney",
         "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE8tYkVnV2FkNTZLc0ltUEp6T1NQMzd1YnBYYmV2QTBXeVhicEs4YnNPdURvdC1IU0tXcG9OYUt5TWdUUnlUdER6ODZFZUNFZzRhWXNOX0ZIZWs?oc=5",
@@ -257,6 +251,12 @@
         "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9WRE42ZWFSczNOMVM0c3RraEhsZzJBTkJiZG93bGVNV2xQcFhPdVAwS1RnSjkyaVFkYUVNREJzR3pWV3dxcnpzUUZBWVV0QjFUS25uWEtuLVg?oc=5",
         "source": "CMoney",
         "published_at": "2026-09-21T15:00:00+08:00"
+      },
+      {
+        "title": "4764 雙鍵 - 只有崩盤這條路。 - 股市爆料同學會 - CMoney",
+        "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE8xZ1BFdy1kY2FnSVBvWXdCeHUtaFJ6bzFwZmFHTGVuUWN4a243Q2dyYWxDbmJCc25paEpPVENWakFzQmVzakQ1Q3EzV3RMWmZSb3NqMHFpQTI?oc=5",
+        "source": "CMoney",
+        "published_at": "2026-09-16T15:00:00+08:00"
       }
     ],
     "operation_signals": {
@@ -269,24 +269,24 @@
       "cb_stage_date": null,
       "added_at": "2026-07-16",
       "market": {
-        "date": "2026-10-02",
-        "close": 203.5,
-        "ma5": 188.7,
-        "ma10": 193.8,
-        "ma20": 205.72,
-        "ma60": 242.27,
+        "date": "2026-10-05",
+        "close": 196.5,
+        "ma5": 191.4,
+        "ma10": 193.1,
+        "ma20": 204.68,
+        "ma60": 239.94,
         "ma_bull": false,
-        "momentum_20d_pct": -15.21,
-        "distance_from_60d_high_pct": -43.44,
-        "volume_ratio_5v20": 1.4
+        "momentum_20d_pct": -9.66,
+        "distance_from_60d_high_pct": -45.39,
+        "volume_ratio_5v20": 1.73
       },
       "top1": {
-        "chip_date": "2026-10-02",
-        "foreign_net_5d_shares": 96691.0,
-        "foreign_net_20d_shares": 379330.0,
-        "trust_net_5d_shares": -473672.0,
-        "trust_net_20d_shares": -527672.0,
-        "foreign_consecutive_buy_days": 1,
+        "chip_date": "2026-10-05",
+        "foreign_net_5d_shares": -1128307.0,
+        "foreign_net_20d_shares": -640691.0,
+        "trust_net_5d_shares": -363672.0,
+        "trust_net_20d_shares": -423672.0,
+        "foreign_consecutive_buy_days": 0,
         "trust_consecutive_buy_days": 0,
         "latest_trust_buy_pct_capital": 0.0,
         "share_count_date": "2025-12-31",
@@ -303,14 +303,14 @@
       "long_strategy": {
         "state": "avoid",
         "action": "暫不建立長線部位",
-        "score": 2,
+        "score": 1,
         "max_score": 11,
         "positives": [
-          "外資近5日買超",
           "最新月營收正成長"
         ],
         "risks": [
           "均線尚未多頭排列",
+          "外資近5日未買超",
           "投信近5日未買超"
         ],
         "exit_rules": [
@@ -390,18 +390,24 @@
     "focus_reason": "手動關注；第二次無擔保轉換公司債已經董事會決議，等待送件與發行日",
     "focus_added_at": "2026-07-16",
     "market_snapshot": {
-      "date": "2026-10-02",
-      "close": 161.5,
-      "ma5": 157.0,
-      "ma10": 156.55,
-      "ma20": 147.4,
-      "ma_bull": true,
-      "foreign_net_5d": -19392.3,
-      "trust_net_5d": 8637.6,
-      "volume_ratio_5v20": 0.6,
-      "chip_date": "2026-10-02"
+      "date": "2026-10-05",
+      "close": 152.5,
+      "ma5": 156.7,
+      "ma10": 157.05,
+      "ma20": 148.78,
+      "ma_bull": false,
+      "foreign_net_5d": -65801.2,
+      "trust_net_5d": -15700.7,
+      "volume_ratio_5v20": 0.77,
+      "chip_date": "2026-10-05"
     },
     "latest_news": [
+      {
+        "title": "聯電(2303)千張大戶與散戶持股比例，持股籌碼集中度查詢 - 股市爆料同學會 - CMoney",
+        "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5La1FRc1VuNmJFYW9NVHFQOHB2MGZkYkE3ZURQS0tGQXowWEM4cVVmeFZvNGtzWEVrNHhEblRUQjFLanBTWGllbjNQMUs3b2JDQWY5LXdMenF5bjJKV2lRNTVkckE?oc=5",
+        "source": "CMoney",
+        "published_at": "2026-10-01T15:00:00+08:00"
+      },
       {
         "title": "聯電(2303)子公司與轉投資主要持股明細 - 股市爆料同學會 - CMoney",
         "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1SeVlMdzRUUUVTN1drd0IwNl9yUTFVUGJ4SFRCSk9SbmwxRjgzZFlXNTlDcUZncUtUbHMyQ1luMVVsYWIwVG15MVpGeHlyTFMzZkR5TEpWbGlKel9Pc1V4cExFVQ?oc=5",
@@ -412,12 +418,6 @@
         "title": "【09/11 申報轉讓】聯電(2303)經理人劉啟東將於09/14申報轉讓聯電股票1,600張-CMoney 小編 - CMoney投資網誌",
         "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxObHlCeVhWd0ZyaktFQlVydXZHd3kwRzZGMFNnUkxKXzhub3RlaTRmbEJLTDltaVdVa1dwNEsyZjB3VnIwalkwUFp1TWZNOWVMTzRiRmhqbTQtendNYnJWMDdSeWdob3ExTmpvaGhYaVlrQWI4aVo2T0dhbW9CZHhIZVBjYXp3QUt6WVE?oc=5",
         "source": "CMoney投資網誌",
-        "published_at": "2026-09-11T15:00:00+08:00"
-      },
-      {
-        "title": "2303 聯電 - 聯電資深副總申報賣出1600張股票- 股市爆料同學會 - CMoney",
-        "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9KYjNFUlBIdWN0TzA0SERQSERhc1UzM3o2N2d3SFZzOVlRUDZjSl9YOS1tckI5WGs3Y3VmRUV5akJQaW1FczVZZFZqQlZacUtvV2J1UTdHMFU?oc=5",
-        "source": "CMoney",
         "published_at": "2026-09-11T15:00:00+08:00"
       }
     ],
@@ -431,26 +431,26 @@
       "cb_stage_date": "2026-06-03",
       "added_at": "2026-07-16",
       "market": {
-        "date": "2026-10-02",
-        "close": 161.5,
-        "ma5": 157.0,
-        "ma10": 156.55,
-        "ma20": 147.4,
-        "ma60": 134.73,
-        "ma_bull": true,
-        "momentum_20d_pct": 28.17,
-        "distance_from_60d_high_pct": -2.71,
-        "volume_ratio_5v20": 0.67
+        "date": "2026-10-05",
+        "close": 152.5,
+        "ma5": 156.7,
+        "ma10": 157.05,
+        "ma20": 148.78,
+        "ma60": 134.68,
+        "ma_bull": false,
+        "momentum_20d_pct": 22.0,
+        "distance_from_60d_high_pct": -8.13,
+        "volume_ratio_5v20": 0.82
       },
       "top1": {
-        "chip_date": "2026-10-02",
-        "foreign_net_5d_shares": -19392272.0,
-        "foreign_net_20d_shares": 73284614.0,
-        "trust_net_5d_shares": 8637584.0,
-        "trust_net_20d_shares": 117425480.0,
-        "foreign_consecutive_buy_days": 2,
-        "trust_consecutive_buy_days": 4,
-        "latest_trust_buy_pct_capital": 0.0148,
+        "chip_date": "2026-10-05",
+        "foreign_net_5d_shares": -65801207.0,
+        "foreign_net_20d_shares": -30299026.0,
+        "trust_net_5d_shares": -15700693.0,
+        "trust_net_20d_shares": 92592203.0,
+        "foreign_consecutive_buy_days": 0,
+        "trust_consecutive_buy_days": 0,
+        "latest_trust_buy_pct_capital": -0.2686,
         "share_count_date": "2025-12-31",
         "outstanding_shares": 12588156300.0,
         "revenue_month": "2026-08",
@@ -466,20 +466,20 @@
         "sell_date": "2026-09-16"
       },
       "long_strategy": {
-        "state": "watch",
-        "action": "續看，不追價",
-        "score": 7,
+        "state": "avoid",
+        "action": "暫不建立長線部位",
+        "score": 4,
         "max_score": 11,
         "positives": [
-          "MA5 > MA10 > MA20",
           "收盤站上MA20",
           "20日動能為正",
           "距60日高點15%內",
-          "投信近5日買超",
           "最新月營收正成長"
         ],
         "risks": [
-          "外資近5日未買超"
+          "均線尚未多頭排列",
+          "外資近5日未買超",
+          "投信近5日未買超"
         ],
         "exit_rules": [
           "獲利達100%分批出場",
@@ -558,35 +558,35 @@
     "focus_reason": "手動關注；第一次無擔保轉換公司債已申報生效並公告代收價款銀行",
     "focus_added_at": "2026-07-16",
     "market_snapshot": {
-      "date": "2026-10-02",
-      "close": 1490.0,
-      "ma5": 1530.0,
-      "ma10": 1571.5,
-      "ma20": 1480.25,
+      "date": "2026-10-05",
+      "close": 1440.0,
+      "ma5": 1514.0,
+      "ma10": 1558.0,
+      "ma20": 1483.0,
       "ma_bull": false,
-      "foreign_net_5d": -426.7,
-      "trust_net_5d": -61.1,
-      "volume_ratio_5v20": 0.68,
-      "chip_date": "2026-10-02"
+      "foreign_net_5d": -590.6,
+      "trust_net_5d": -155.1,
+      "volume_ratio_5v20": 0.77,
+      "chip_date": "2026-10-05"
     },
     "latest_news": [
       {
-        "title": "6683 雍智科技- 又好多人來罵了- 股市爆料同學會 - CMoney",
-        "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9GS2ktYmhuRXhKczh2MWtQcmtfZGFEYXdFNnBQOHkxZUJyd1pFajg3ZTZOMENjV2t4X1BTeDJJbWRYUUhrUlRCY0drd21tOVlVZGNCNzlRbXg?oc=5",
+        "title": "6683 雍智科技- 如果垃圾有代號- 股市爆料同學會 - CMoney",
+        "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1ISk0wcnZoU1NHUlBGaVd1SEVxSXFwTVhfTzY5VE91NWZid2JMSGJLMEJfM2czQmNmS0ktOW9JZUIxdW1heFh1aHRGeEFlZW5FOEZhd3NnaEE?oc=5",
         "source": "CMoney",
-        "published_at": "2026-10-02T12:55:36+08:00"
+        "published_at": "2026-10-05T11:28:13+08:00"
       },
       {
-        "title": "雍智科技(6683) 今日股價與討論 - 股市爆料同學會 - CMoney",
-        "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1pd3RJLW1zQzdUR0JodlhpUGdVcDNqaDQxdG9faWFXMkx3SWx3V2RLbGhZQUZGeDVDem9nUFZMU3dmTGNJTTBGeU9mSUlzWmc?oc=5",
+        "title": "雍智科技(6683)權證專區-認售/認購權證(權証)查詢專區 - 股市爆料同學會 - CMoney",
+        "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBrYllqQUhSVXJFUW1FWmt5N1RXc1ltWTk4NUlWcmlVRFdPamRrNHlMaDBRb3A4Q3dwZXpOVWp5U1k0VTc3cHpSWkY1MkV2TUJ1VnVVMW9JVXBRMTdK?oc=5",
         "source": "CMoney",
         "published_at": "2026-10-01T15:00:00+08:00"
       },
       {
-        "title": "雍智科技(6683)-同學風向與貼文摘要 - 股市爆料同學會 - CMoney",
-        "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5MZ2o1NnhOTHVra1pKZy11UGhQXzJUX0ZTQ0ZZemhmSkR0RG14NGpoNEFWd0xYYVI1eWowMHZtZl9YM2FSa3laM1RJMGJrY0J6Z2J3b2o5bC1pdFVSM2h3aEVR?oc=5",
+        "title": "6683 雍智科技 - 預備備 開始吃屎 - 股市爆料同學會 - CMoney",
+        "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9VOGtLSmJuZjJlYy1VTGRIZ0JrcC1nRVk1YUdlSl9Ga09sY29PanlYa3RLM2g1UVhjVUdHWWxXOXJMY2FxQlplSGstemFCMzNWX1VHUTI4Wms?oc=5",
         "source": "CMoney",
-        "published_at": "2026-09-24T14:00:00+08:00"
+        "published_at": "2026-09-22T15:00:00+08:00"
       }
     ],
     "operation_signals": {
@@ -599,26 +599,26 @@
       "cb_stage_date": "2026-07-08",
       "added_at": "2026-07-16",
       "market": {
-        "date": "2026-10-02",
-        "close": 1490.0,
-        "ma5": 1530.0,
-        "ma10": 1571.5,
-        "ma20": 1480.25,
-        "ma60": 1316.6,
+        "date": "2026-10-05",
+        "close": 1440.0,
+        "ma5": 1514.0,
+        "ma10": 1558.0,
+        "ma20": 1483.0,
+        "ma60": 1311.85,
         "ma_bull": false,
-        "momentum_20d_pct": 2.05,
-        "distance_from_60d_high_pct": -13.62,
-        "volume_ratio_5v20": 0.74
+        "momentum_20d_pct": 3.97,
+        "distance_from_60d_high_pct": -16.52,
+        "volume_ratio_5v20": 0.82
       },
       "top1": {
-        "chip_date": "2026-10-02",
-        "foreign_net_5d_shares": -426703.0,
-        "foreign_net_20d_shares": -1215255.0,
-        "trust_net_5d_shares": -61100.0,
-        "trust_net_20d_shares": 15900.0,
+        "chip_date": "2026-10-05",
+        "foreign_net_5d_shares": -590629.0,
+        "foreign_net_20d_shares": -1244434.0,
+        "trust_net_5d_shares": -155100.0,
+        "trust_net_20d_shares": -77100.0,
         "foreign_consecutive_buy_days": 0,
         "trust_consecutive_buy_days": 0,
-        "latest_trust_buy_pct_capital": -0.2803,
+        "latest_trust_buy_pct_capital": -0.3568,
         "share_count_date": "2025-12-31",
         "outstanding_shares": 27467710.000000004,
         "revenue_month": "2026-08",
@@ -626,9 +626,9 @@
         "revenue_yoy_pct": 0.26
       },
       "short_strategy": {
-        "state": "pass",
-        "action": "準備買入",
-        "reason": "20日動能、MA20與60日高點距離審核",
+        "state": "fail",
+        "action": "不買",
+        "reason": "短線技術審核未通過",
         "issue_date": "2026-08-10",
         "buy_date": "2026-07-20",
         "sell_date": "2026-08-21"
@@ -636,12 +636,10 @@
       "long_strategy": {
         "state": "avoid",
         "action": "暫不建立長線部位",
-        "score": 4,
+        "score": 2,
         "max_score": 11,
         "positives": [
-          "收盤站上MA20",
           "20日動能為正",
-          "距60日高點15%內",
           "最新月營收正成長"
         ],
         "risks": [
@@ -656,7 +654,7 @@
         ],
         "research_note": "分數門檻屬前瞻紙上追蹤，尚未證明可達80%勝率或70%平均報酬。"
       },
-      "current_action": "準備買入"
+      "current_action": "暫不建立長線部位"
     }
   },
   {
@@ -726,35 +724,35 @@
     "focus_reason": "手動關注；第一次無擔保轉換公司債已申報生效並公告代收價款銀行",
     "focus_added_at": "2026-07-16",
     "market_snapshot": {
-      "date": "2026-10-02",
-      "close": 1490.0,
-      "ma5": 1530.0,
-      "ma10": 1571.5,
-      "ma20": 1480.25,
+      "date": "2026-10-05",
+      "close": 1440.0,
+      "ma5": 1514.0,
+      "ma10": 1558.0,
+      "ma20": 1483.0,
       "ma_bull": false,
-      "foreign_net_5d": -426.7,
-      "trust_net_5d": -61.1,
-      "volume_ratio_5v20": 0.68,
-      "chip_date": "2026-10-02"
+      "foreign_net_5d": -590.6,
+      "trust_net_5d": -155.1,
+      "volume_ratio_5v20": 0.77,
+      "chip_date": "2026-10-05"
     },
     "latest_news": [
       {
-        "title": "6683 雍智科技- 又好多人來罵了- 股市爆料同學會 - CMoney",
-        "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9GS2ktYmhuRXhKczh2MWtQcmtfZGFEYXdFNnBQOHkxZUJyd1pFajg3ZTZOMENjV2t4X1BTeDJJbWRYUUhrUlRCY0drd21tOVlVZGNCNzlRbXg?oc=5",
+        "title": "6683 雍智科技- 如果垃圾有代號- 股市爆料同學會 - CMoney",
+        "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1ISk0wcnZoU1NHUlBGaVd1SEVxSXFwTVhfTzY5VE91NWZid2JMSGJLMEJfM2czQmNmS0ktOW9JZUIxdW1heFh1aHRGeEFlZW5FOEZhd3NnaEE?oc=5",
         "source": "CMoney",
-        "published_at": "2026-10-02T12:55:36+08:00"
+        "published_at": "2026-10-05T11:28:13+08:00"
       },
       {
-        "title": "雍智科技(6683) 今日股價與討論 - 股市爆料同學會 - CMoney",
-        "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1pd3RJLW1zQzdUR0JodlhpUGdVcDNqaDQxdG9faWFXMkx3SWx3V2RLbGhZQUZGeDVDem9nUFZMU3dmTGNJTTBGeU9mSUlzWmc?oc=5",
+        "title": "雍智科技(6683)權證專區-認售/認購權證(權証)查詢專區 - 股市爆料同學會 - CMoney",
+        "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBrYllqQUhSVXJFUW1FWmt5N1RXc1ltWTk4NUlWcmlVRFdPamRrNHlMaDBRb3A4Q3dwZXpOVWp5U1k0VTc3cHpSWkY1MkV2TUJ1VnVVMW9JVXBRMTdK?oc=5",
         "source": "CMoney",
         "published_at": "2026-10-01T15:00:00+08:00"
       },
       {
-        "title": "雍智科技(6683)-同學風向與貼文摘要 - 股市爆料同學會 - CMoney",
-        "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5MZ2o1NnhOTHVra1pKZy11UGhQXzJUX0ZTQ0ZZemhmSkR0RG14NGpoNEFWd0xYYVI1eWowMHZtZl9YM2FSa3laM1RJMGJrY0J6Z2J3b2o5bC1pdFVSM2h3aEVR?oc=5",
+        "title": "6683 雍智科技 - 預備備 開始吃屎 - 股市爆料同學會 - CMoney",
+        "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9VOGtLSmJuZjJlYy1VTGRIZ0JrcC1nRVk1YUdlSl9Ga09sY29PanlYa3RLM2g1UVhjVUdHWWxXOXJMY2FxQlplSGstemFCMzNWX1VHUTI4Wms?oc=5",
         "source": "CMoney",
-        "published_at": "2026-09-24T14:00:00+08:00"
+        "published_at": "2026-09-22T15:00:00+08:00"
       }
     ],
     "operation_signals": {
@@ -767,26 +765,26 @@
       "cb_stage_date": "2026-07-08",
       "added_at": "2026-07-16",
       "market": {
-        "date": "2026-10-02",
-        "close": 1490.0,
-        "ma5": 1530.0,
-        "ma10": 1571.5,
-        "ma20": 1480.25,
-        "ma60": 1316.6,
+        "date": "2026-10-05",
+        "close": 1440.0,
+        "ma5": 1514.0,
+        "ma10": 1558.0,
+        "ma20": 1483.0,
+        "ma60": 1311.85,
         "ma_bull": false,
-        "momentum_20d_pct": 2.05,
-        "distance_from_60d_high_pct": -13.62,
-        "volume_ratio_5v20": 0.74
+        "momentum_20d_pct": 3.97,
+        "distance_from_60d_high_pct": -16.52,
+        "volume_ratio_5v20": 0.82
       },
       "top1": {
-        "chip_date": "2026-10-02",
-        "foreign_net_5d_shares": -426703.0,
-        "foreign_net_20d_shares": -1215255.0,
-        "trust_net_5d_shares": -61100.0,
-        "trust_net_20d_shares": 15900.0,
+        "chip_date": "2026-10-05",
+        "foreign_net_5d_shares": -590629.0,
+        "foreign_net_20d_shares": -1244434.0,
+        "trust_net_5d_shares": -155100.0,
+        "trust_net_20d_shares": -77100.0,
         "foreign_consecutive_buy_days": 0,
         "trust_consecutive_buy_days": 0,
-        "latest_trust_buy_pct_capital": -0.2803,
+        "latest_trust_buy_pct_capital": -0.3568,
         "share_count_date": "2025-12-31",
         "outstanding_shares": 27467710.000000004,
         "revenue_month": "2026-08",
@@ -794,9 +792,9 @@
         "revenue_yoy_pct": 0.26
       },
       "short_strategy": {
-        "state": "pass",
-        "action": "準備買入",
-        "reason": "20日動能、MA20與60日高點距離審核",
+        "state": "fail",
+        "action": "不買",
+        "reason": "短線技術審核未通過",
         "issue_date": "2026-08-10",
         "buy_date": "2026-07-20",
         "sell_date": "2026-08-21"
@@ -804,12 +802,10 @@
       "long_strategy": {
         "state": "avoid",
         "action": "暫不建立長線部位",
-        "score": 4,
+        "score": 2,
         "max_score": 11,
         "positives": [
-          "收盤站上MA20",
           "20日動能為正",
-          "距60日高點15%內",
           "最新月營收正成長"
         ],
         "risks": [
@@ -824,7 +820,7 @@
         ],
         "research_note": "分數門檻屬前瞻紙上追蹤，尚未證明可達80%勝率或70%平均報酬。"
       },
-      "current_action": "準備買入"
+      "current_action": "暫不建立長線部位"
     }
   },
   {
@@ -1318,8 +1314,8 @@
     "event_date": "2026-09-15",
     "buy_date": "2026-09-10",
     "sell_date": "2026-10-05",
-    "current_stage_index": 3,
-    "status_text": "模擬持有中，預計 2026-10-05 出場",
+    "current_stage_index": 4,
+    "status_text": "模擬交易已完成",
     "status_type": "success",
     "strategy_mode": "paper_trade_only",
     "strategy_info": {
@@ -1365,145 +1361,19 @@
       {
         "name": "第 20 天出場",
         "date": "2026-10-05",
-        "status": "upcoming",
+        "status": "completed",
         "description": "暫定事件後第 20 天出場；單檔 -10% 先停損。"
       }
     ],
     "performance": {
       "buy_price": 312.0,
-      "current_price": 285.5,
-      "return_pct": -8.49,
-      "state": "holding",
+      "current_price": 282.0,
+      "return_pct": -9.62,
+      "state": "closed",
       "capital": 250000.0
     },
     "overlap_slots": 4,
     "allocated_capital": 250000.0
-  },
-  {
-    "stock_code": "8054",
-    "company_name": "安國",
-    "bond_name": "安國 可轉債",
-    "expected_listing_date": null,
-    "event_date": "2026-07-06",
-    "buy_date": "2026-07-01",
-    "sell_date": "2026-07-27",
-    "current_stage_index": 2,
-    "status_text": "條件未通過：外資近 5 日未累計買超",
-    "status_type": "failed",
-    "strategy_mode": "paper_trade_only",
-    "strategy_info": {
-      "name": "候選：競拍前法人動能（模擬）",
-      "win_rate": 80.0,
-      "avg_return": 13.52,
-      "raw_avg_return": 23.2,
-      "status": "research_only"
-    },
-    "signal": {
-      "passed": false,
-      "momentum_10d": 19.0955,
-      "foreign_net_5d": -443.2,
-      "trust_net_5d": -443.2,
-      "volume_ratio_5v20": 2.3026,
-      "failure_reasons": [
-        "外資近 5 日未累計買超"
-      ]
-    },
-    "stations": [
-      {
-        "name": "競拍時程已知",
-        "date": "2026-07-06",
-        "status": "completed",
-        "description": "使用正式競拍時程，不使用事後推算的掛牌倒數日。"
-      },
-      {
-        "name": "法人動能檢查",
-        "date": "2026-07-01",
-        "status": "failed",
-        "description": "10 日動能為正、外資 5 日買超且成交量未過熱。"
-      },
-      {
-        "name": "模擬買進",
-        "date": "2026-07-01",
-        "status": "failed",
-        "description": "條件全部成立才以買進日收盤價建立模擬部位。"
-      },
-      {
-        "name": "競拍開始",
-        "date": "2026-07-06",
-        "status": "completed",
-        "description": "進入競拍事件觀察期。"
-      },
-      {
-        "name": "第 20 天出場",
-        "date": "2026-07-27",
-        "status": "completed",
-        "description": "暫定事件後第 20 天出場；單檔 -10% 先停損。"
-      }
-    ],
-    "performance": null
-  },
-  {
-    "stock_code": "8054",
-    "company_name": "安國",
-    "bond_name": "80541",
-    "expected_listing_date": null,
-    "event_date": "2026-07-06",
-    "buy_date": "2026-07-01",
-    "sell_date": "2026-07-27",
-    "current_stage_index": 2,
-    "status_text": "條件未通過：外資近 5 日未累計買超",
-    "status_type": "failed",
-    "strategy_mode": "paper_trade_only",
-    "strategy_info": {
-      "name": "候選：競拍前法人動能（模擬）",
-      "win_rate": 80.0,
-      "avg_return": 13.52,
-      "raw_avg_return": 23.2,
-      "status": "research_only"
-    },
-    "signal": {
-      "passed": false,
-      "momentum_10d": 19.0955,
-      "foreign_net_5d": -443.2,
-      "trust_net_5d": -443.2,
-      "volume_ratio_5v20": 2.3026,
-      "failure_reasons": [
-        "外資近 5 日未累計買超"
-      ]
-    },
-    "stations": [
-      {
-        "name": "競拍時程已知",
-        "date": "2026-07-06",
-        "status": "completed",
-        "description": "使用正式競拍時程，不使用事後推算的掛牌倒數日。"
-      },
-      {
-        "name": "法人動能檢查",
-        "date": "2026-07-01",
-        "status": "failed",
-        "description": "10 日動能為正、外資 5 日買超且成交量未過熱。"
-      },
-      {
-        "name": "模擬買進",
-        "date": "2026-07-01",
-        "status": "failed",
-        "description": "條件全部成立才以買進日收盤價建立模擬部位。"
-      },
-      {
-        "name": "競拍開始",
-        "date": "2026-07-06",
-        "status": "completed",
-        "description": "進入競拍事件觀察期。"
-      },
-      {
-        "name": "第 20 天出場",
-        "date": "2026-07-27",
-        "status": "completed",
-        "description": "暫定事件後第 20 天出場；單檔 -10% 先停損。"
-      }
-    ],
-    "performance": null
   },
   {
     "stock_code": "6869",
@@ -2706,6 +2576,69 @@
       {
         "name": "第 20 天出場",
         "date": "2026-10-07",
+        "status": "upcoming",
+        "description": "暫定事件後第 20 天出場；單檔 -10% 先停損。"
+      }
+    ],
+    "performance": null
+  },
+  {
+    "stock_code": "8996",
+    "company_name": "高力熱處理",
+    "bond_name": "89964",
+    "expected_listing_date": null,
+    "event_date": "2026-10-06",
+    "buy_date": "2026-10-01",
+    "sell_date": "2026-10-26",
+    "current_stage_index": 1,
+    "status_text": "條件未通過：外資近 5 日未累計買超",
+    "status_type": "failed",
+    "strategy_mode": "paper_trade_only",
+    "strategy_info": {
+      "name": "候選：競拍前法人動能（模擬）",
+      "win_rate": 80.0,
+      "avg_return": 13.52,
+      "raw_avg_return": 23.2,
+      "status": "research_only"
+    },
+    "signal": {
+      "passed": false,
+      "momentum_10d": 28.2787,
+      "foreign_net_5d": -2176.4,
+      "trust_net_5d": 645.0,
+      "volume_ratio_5v20": 1.1521,
+      "failure_reasons": [
+        "外資近 5 日未累計買超"
+      ]
+    },
+    "stations": [
+      {
+        "name": "競拍時程已知",
+        "date": "2026-10-06",
+        "status": "active",
+        "description": "使用正式競拍時程，不使用事後推算的掛牌倒數日。"
+      },
+      {
+        "name": "法人動能檢查",
+        "date": "2026-10-01",
+        "status": "failed",
+        "description": "10 日動能為正、外資 5 日買超且成交量未過熱。"
+      },
+      {
+        "name": "模擬買進",
+        "date": "2026-10-01",
+        "status": "failed",
+        "description": "條件全部成立才以買進日收盤價建立模擬部位。"
+      },
+      {
+        "name": "競拍開始",
+        "date": "2026-10-06",
+        "status": "active",
+        "description": "進入競拍事件觀察期。"
+      },
+      {
+        "name": "第 20 天出場",
+        "date": "2026-10-26",
         "status": "upcoming",
         "description": "暫定事件後第 20 天出場；單檔 -10% 先停損。"
       }

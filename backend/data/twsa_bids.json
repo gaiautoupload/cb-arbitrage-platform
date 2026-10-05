@@ -792,6 +792,18 @@
     "min_price": "100.00"
   },
   {
+    "serial": "115072",
+    "company_name": "欣大健康",
+    "full_company_name": "欣大健康投資控股股份有限公司",
+    "ticker": "4198",
+    "underwriter": "統一綜合證券股份有限公司",
+    "bond_type": "有擔保轉換公司債",
+    "shares_thousand": "3,000",
+    "bidding_shares_thousand": "2,650",
+    "bidding_period": "2026/10/05~2026/10/07",
+    "min_price": "102.00"
+  },
+  {
     "serial": "115073",
     "company_name": "臺灣中華",
     "full_company_name": "臺灣中華化學工業股份有限公司",
@@ -812,7 +824,31 @@
     "bond_type": "無擔保轉換公司債",
     "shares_thousand": "4,800",
     "bidding_shares_thousand": "4,200",
-    "bidding_period": "2026/10/02~2026/10/05",
+    "bidding_period": "2026/10/02~2026/10/06",
     "min_price": "100.00"
+  },
+  {
+    "serial": "115075",
+    "company_name": "高力熱處理",
+    "full_company_name": "高力熱處理工業股份有限公司",
+    "ticker": "8996",
+    "underwriter": "富邦綜合證券股份有限公司",
+    "bond_type": "無擔保轉換公司債",
+    "shares_thousand": "15,000",
+    "bidding_shares_thousand": "12,769",
+    "bidding_period": "2026/10/06~2026/10/08",
+    "min_price": "105.00"
+  },
+  {
+    "serial": "115076",
+    "company_name": "楠梓",
+    "full_company_name": "楠梓電子股份有限公司",
+    "ticker": "2316",
+    "underwriter": "富邦綜合證券股份有限公司",
+    "bond_type": "無擔保轉換公司債",
+    "shares_thousand": "35,000",
+    "bidding_shares_thousand": "29,800",
+    "bidding_period": "2026/10/05~2026/10/07",
+    "min_price": "103.00"
   }
 ]
