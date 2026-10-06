@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-06T03:44:11",
+  "generated_at": "2026-10-06T17:11:34",
   "as_of": "2026-10-06",
   "strategies": {
     "short": "官方發行日T確定後，T-16收盤審核，T-15開盤買入，T+9收盤賣出。",
@@ -16,22 +16,22 @@
       "cb_stage_date": null,
       "added_at": "2026-07-16",
       "market": {
-        "date": "2026-10-05",
-        "close": 196.5,
-        "ma5": 191.4,
-        "ma10": 193.1,
-        "ma20": 204.68,
-        "ma60": 239.94,
+        "date": "2026-10-06",
+        "close": 199.0,
+        "ma5": 194.6,
+        "ma10": 192.55,
+        "ma20": 203.05,
+        "ma60": 237.66,
         "ma_bull": false,
-        "momentum_20d_pct": -9.66,
-        "distance_from_60d_high_pct": -45.39,
-        "volume_ratio_5v20": 1.73
+        "momentum_20d_pct": -14.04,
+        "distance_from_60d_high_pct": -44.69,
+        "volume_ratio_5v20": 1.79
       },
       "top1": {
-        "chip_date": "2026-10-05",
-        "foreign_net_5d_shares": -1128307.0,
-        "foreign_net_20d_shares": -640691.0,
-        "trust_net_5d_shares": -363672.0,
+        "chip_date": "2026-10-06",
+        "foreign_net_5d_shares": -1416648.0,
+        "foreign_net_20d_shares": -864552.0,
+        "trust_net_5d_shares": -158151.0,
         "trust_net_20d_shares": -423672.0,
         "foreign_consecutive_buy_days": 0,
         "trust_consecutive_buy_days": 0,
@@ -79,26 +79,26 @@
       "cb_stage_date": "2026-06-03",
       "added_at": "2026-07-16",
       "market": {
-        "date": "2026-10-05",
-        "close": 152.5,
-        "ma5": 156.7,
-        "ma10": 157.05,
-        "ma20": 148.78,
-        "ma60": 134.68,
+        "date": "2026-10-06",
+        "close": 147.5,
+        "ma5": 155.5,
+        "ma10": 156.2,
+        "ma20": 149.65,
+        "ma60": 134.53,
         "ma_bull": false,
-        "momentum_20d_pct": 22.0,
-        "distance_from_60d_high_pct": -8.13,
-        "volume_ratio_5v20": 0.82
+        "momentum_20d_pct": 13.46,
+        "distance_from_60d_high_pct": -11.14,
+        "volume_ratio_5v20": 0.99
       },
       "top1": {
-        "chip_date": "2026-10-05",
-        "foreign_net_5d_shares": -65801207.0,
-        "foreign_net_20d_shares": -30299026.0,
-        "trust_net_5d_shares": -15700693.0,
-        "trust_net_20d_shares": 92592203.0,
-        "foreign_consecutive_buy_days": 0,
+        "chip_date": "2026-10-06",
+        "foreign_net_5d_shares": -48298580.0,
+        "foreign_net_20d_shares": -52129712.0,
+        "trust_net_5d_shares": -86710703.0,
+        "trust_net_20d_shares": 28645193.0,
+        "foreign_consecutive_buy_days": 1,
         "trust_consecutive_buy_days": 0,
-        "latest_trust_buy_pct_capital": -0.2686,
+        "latest_trust_buy_pct_capital": -0.4715,
         "share_count_date": "2025-12-31",
         "outstanding_shares": 12588156300.0,
         "revenue_month": "2026-08",
@@ -106,12 +106,80 @@
         "revenue_yoy_pct": 0.31
       },
       "short_strategy": {
-        "state": "pass",
-        "action": "準備買入",
-        "reason": "20日動能、MA20與60日高點距離審核",
+        "state": "fail",
+        "action": "不買",
+        "reason": "短線技術審核未通過",
         "issue_date": "2026-09-03",
         "buy_date": "2026-08-13",
         "sell_date": "2026-09-16"
+      },
+      "long_strategy": {
+        "state": "avoid",
+        "action": "暫不建立長線部位",
+        "score": 3,
+        "max_score": 11,
+        "positives": [
+          "20日動能為正",
+          "距60日高點15%內",
+          "最新月營收正成長"
+        ],
+        "risks": [
+          "均線尚未多頭排列",
+          "外資近5日未買超",
+          "投信近5日未買超"
+        ],
+        "exit_rules": [
+          "獲利達100%分批出場",
+          "獲利達50%後，自高點回落30%提醒減碼",
+          "跌破MA20先警戒，跌破MA60再評估退出"
+        ],
+        "research_note": "分數門檻屬前瞻紙上追蹤，尚未證明可達80%勝率或70%平均報酬。"
+      },
+      "current_action": "暫不建立長線部位"
+    },
+    {
+      "stock_code": "6683",
+      "company_name": "雍智科技",
+      "priority": 3,
+      "reason": "手動關注；第一次無擔保轉換公司債已申報生效並公告代收價款銀行",
+      "instrument_scope": "cb_candidate",
+      "cb_stage": "PAYMENT_BANK",
+      "cb_stage_date": "2026-07-08",
+      "added_at": "2026-07-16",
+      "market": {
+        "date": "2026-10-06",
+        "close": 1505.0,
+        "ma5": 1520.0,
+        "ma10": 1541.5,
+        "ma20": 1490.25,
+        "ma60": 1308.18,
+        "ma_bull": false,
+        "momentum_20d_pct": 10.66,
+        "distance_from_60d_high_pct": -10.15,
+        "volume_ratio_5v20": 1.08
+      },
+      "top1": {
+        "chip_date": "2026-10-06",
+        "foreign_net_5d_shares": -631603.0,
+        "foreign_net_20d_shares": -931154.0,
+        "trust_net_5d_shares": -189100.0,
+        "trust_net_20d_shares": -86100.0,
+        "foreign_consecutive_buy_days": 1,
+        "trust_consecutive_buy_days": 0,
+        "latest_trust_buy_pct_capital": -0.0328,
+        "share_count_date": "2025-12-31",
+        "outstanding_shares": 27467710.000000004,
+        "revenue_month": "2026-08",
+        "revenue_announcement_date": "2026-09-10",
+        "revenue_yoy_pct": 0.26
+      },
+      "short_strategy": {
+        "state": "pass",
+        "action": "準備買入",
+        "reason": "20日動能、MA20與60日高點距離審核",
+        "issue_date": "2026-08-10",
+        "buy_date": "2026-07-20",
+        "sell_date": "2026-08-21"
       },
       "long_strategy": {
         "state": "avoid",
@@ -137,73 +205,6 @@
         "research_note": "分數門檻屬前瞻紙上追蹤，尚未證明可達80%勝率或70%平均報酬。"
       },
       "current_action": "準備買入"
-    },
-    {
-      "stock_code": "6683",
-      "company_name": "雍智科技",
-      "priority": 3,
-      "reason": "手動關注；第一次無擔保轉換公司債已申報生效並公告代收價款銀行",
-      "instrument_scope": "cb_candidate",
-      "cb_stage": "PAYMENT_BANK",
-      "cb_stage_date": "2026-07-08",
-      "added_at": "2026-07-16",
-      "market": {
-        "date": "2026-10-05",
-        "close": 1440.0,
-        "ma5": 1514.0,
-        "ma10": 1558.0,
-        "ma20": 1483.0,
-        "ma60": 1311.85,
-        "ma_bull": false,
-        "momentum_20d_pct": 3.97,
-        "distance_from_60d_high_pct": -16.52,
-        "volume_ratio_5v20": 0.82
-      },
-      "top1": {
-        "chip_date": "2026-10-05",
-        "foreign_net_5d_shares": -590629.0,
-        "foreign_net_20d_shares": -1244434.0,
-        "trust_net_5d_shares": -155100.0,
-        "trust_net_20d_shares": -77100.0,
-        "foreign_consecutive_buy_days": 0,
-        "trust_consecutive_buy_days": 0,
-        "latest_trust_buy_pct_capital": -0.3568,
-        "share_count_date": "2025-12-31",
-        "outstanding_shares": 27467710.000000004,
-        "revenue_month": "2026-08",
-        "revenue_announcement_date": "2026-09-10",
-        "revenue_yoy_pct": 0.26
-      },
-      "short_strategy": {
-        "state": "fail",
-        "action": "不買",
-        "reason": "短線技術審核未通過",
-        "issue_date": "2026-08-10",
-        "buy_date": "2026-07-20",
-        "sell_date": "2026-08-21"
-      },
-      "long_strategy": {
-        "state": "avoid",
-        "action": "暫不建立長線部位",
-        "score": 2,
-        "max_score": 11,
-        "positives": [
-          "20日動能為正",
-          "最新月營收正成長"
-        ],
-        "risks": [
-          "均線尚未多頭排列",
-          "外資近5日未買超",
-          "投信近5日未買超"
-        ],
-        "exit_rules": [
-          "獲利達100%分批出場",
-          "獲利達50%後，自高點回落30%提醒減碼",
-          "跌破MA20先警戒，跌破MA60再評估退出"
-        ],
-        "research_note": "分數門檻屬前瞻紙上追蹤，尚未證明可達80%勝率或70%平均報酬。"
-      },
-      "current_action": "暫不建立長線部位"
     }
   ]
 }

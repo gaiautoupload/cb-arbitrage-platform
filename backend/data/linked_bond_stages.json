@@ -16837,5 +16837,67 @@
         "summary": "可轉債正式掛牌交易"
       }
     }
+  },
+  {
+    "stock_code": "6285",
+    "company_name": "啟碁科技股份有限公司",
+    "short_name": "啟碁四",
+    "stages": {
+      "BOARD_RESOLUTION": {
+        "date": "2026-09-22",
+        "title": "公告本公司國內第四次及第五次無擔保轉換公司債\r\n代收價款行庫及存儲專戶行庫",
+        "sentiment": "NEUTRAL",
+        "summary": "董事會/股東會決議: 公告本公司國內第四次及第五次無擔保轉換公司債\r\n代收價款行庫及存儲專戶行庫"
+      },
+      "EFFECTIVE": {
+        "date": "2026-09-08",
+        "title": "金管會申報生效發行無擔保轉換公司債",
+        "sentiment": "BULLISH",
+        "summary": "可轉債申報生效，正式進入定價與發行準備期"
+      },
+      "PRICING": {
+        "date": "2026-10-06",
+        "title": "公告「啟碁四」發行及訂價等事宜 (櫃買公告)",
+        "sentiment": "NEUTRAL",
+        "summary": "櫃檯買賣中心公告發行資料"
+      },
+      "LISTING": {
+        "date": "2026-10-13",
+        "title": "「啟碁四」掛牌買賣/發行日",
+        "sentiment": "BULLISH",
+        "summary": "可轉債正式掛牌交易"
+      }
+    }
+  },
+  {
+    "stock_code": "6438",
+    "company_name": "迅得機械股份有限公司",
+    "short_name": "迅得三",
+    "stages": {
+      "BOARD_RESOLUTION": {
+        "date": "2026-07-30",
+        "title": "董事會決議發行無擔保轉換公司債",
+        "sentiment": "NEUTRAL",
+        "summary": "董事會通過發行可轉債以充實營運資金或償還債務"
+      },
+      "EFFECTIVE": {
+        "date": "2026-09-08",
+        "title": "金管會申報生效發行無擔保轉換公司債",
+        "sentiment": "BULLISH",
+        "summary": "可轉債申報生效，正式進入定價與發行準備期"
+      },
+      "PRICING": {
+        "date": "2026-10-06",
+        "title": "公告「迅得三」發行及訂價等事宜 (櫃買公告)",
+        "sentiment": "NEUTRAL",
+        "summary": "櫃檯買賣中心公告發行資料"
+      },
+      "LISTING": {
+        "date": "2026-10-13",
+        "title": "「迅得三」掛牌買賣/發行日",
+        "sentiment": "BULLISH",
+        "summary": "可轉債正式掛牌交易"
+      }
+    }
   }
 ]

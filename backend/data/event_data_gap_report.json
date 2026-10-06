@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-06T03:40:25",
+  "generated_at": "2026-10-06T17:10:31",
   "database": "D:\\bond\\backend\\data\\cb_event_master.sqlite",
   "required_stages": [
     "BOARD_RESOLUTION",
@@ -16,15 +16,15 @@
     "CBAS_ACTUAL"
   ],
   "summary": {
-    "issues": 616,
-    "events": 3683,
-    "issues_with_missing_stages": 616
+    "issues": 618,
+    "events": 3690,
+    "issues_with_missing_stages": 618
   },
   "stage_summary": {
     "BOARD_RESOLUTION": {
       "observed_events": 121,
-      "inferred_events": 501,
-      "issues_with_stage": 550
+      "inferred_events": 502,
+      "issues_with_stage": 551
     },
     "FILING": {
       "observed_events": 19,
@@ -33,13 +33,13 @@
     },
     "EFFECTIVE": {
       "observed_events": 9,
-      "inferred_events": 534,
-      "issues_with_stage": 535
+      "inferred_events": 536,
+      "issues_with_stage": 537
     },
     "PRICING": {
-      "observed_events": 534,
+      "observed_events": 536,
       "inferred_events": 0,
-      "issues_with_stage": 533
+      "issues_with_stage": 535
     },
     "AUCTION_BID_START": {
       "observed_events": 80,
@@ -72,9 +72,9 @@
       "issues_with_stage": 0
     },
     "LISTING": {
-      "observed_events": 540,
+      "observed_events": 542,
       "inferred_events": 0,
-      "issues_with_stage": 536
+      "issues_with_stage": 538
     },
     "CBAS_ACTUAL": {
       "observed_events": 0,
@@ -12269,6 +12269,32 @@
       "event_count": 8
     },
     {
+      "issue_id": "issue_c51737d39163162f56b3",
+      "stock_code": "6285",
+      "cb_code": "62854",
+      "short_name": "啟碁四",
+      "company_name": "啟碁科技股份有限公司",
+      "observed_stages": [
+        "LISTING",
+        "PRICING"
+      ],
+      "inferred_stages": [
+        "EFFECTIVE"
+      ],
+      "missing_stages": [
+        "BOARD_RESOLUTION",
+        "FILING",
+        "AUCTION_BID_START",
+        "AUCTION_BID_END",
+        "BOOKBUILDING_START",
+        "BOOKBUILDING_END",
+        "BOOKBUILDING_RESULT",
+        "UNDERWRITING_NOTICE",
+        "CBAS_ACTUAL"
+      ],
+      "event_count": 3
+    },
+    {
       "issue_id": "issue_df85396717b2187d16ec",
       "stock_code": "6288",
       "cb_code": "62882",
@@ -12575,6 +12601,32 @@
         "CBAS_ACTUAL"
       ],
       "event_count": 7
+    },
+    {
+      "issue_id": "issue_016558db206e8ae360a6",
+      "stock_code": "6438",
+      "cb_code": "64383",
+      "short_name": "迅得三",
+      "company_name": "迅得機械股份有限公司",
+      "observed_stages": [
+        "LISTING",
+        "PRICING"
+      ],
+      "inferred_stages": [
+        "BOARD_RESOLUTION",
+        "EFFECTIVE"
+      ],
+      "missing_stages": [
+        "FILING",
+        "AUCTION_BID_START",
+        "AUCTION_BID_END",
+        "BOOKBUILDING_START",
+        "BOOKBUILDING_END",
+        "BOOKBUILDING_RESULT",
+        "UNDERWRITING_NOTICE",
+        "CBAS_ACTUAL"
+      ],
+      "event_count": 4
     },
     {
       "issue_id": "issue_b2a4900fc241de5ded75",

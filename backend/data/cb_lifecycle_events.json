@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-06T03:40:25",
+  "generated_at": "2026-10-06T17:10:30",
   "source_files": {
     "mops_wiki_db": "mops_wiki_db.json",
     "parsed_bonds": "parsed_bonds.json",
@@ -12,20 +12,20 @@
     "Generated linked BOARD_RESOLUTION/EFFECTIVE dates are retained only as low-confidence proxy events."
   ],
   "summary": {
-    "total_events": 3606,
-    "actual_or_observed_events": 1405,
-    "inferred_events": 2201,
+    "total_events": 3613,
+    "actual_or_observed_events": 1409,
+    "inferred_events": 2204,
     "by_stage": {
-      "BOARD_RESOLUTION": 596,
+      "BOARD_RESOLUTION": 597,
       "FILING": 19,
-      "EFFECTIVE": 541,
-      "PRICING": 534,
+      "EFFECTIVE": 543,
+      "PRICING": 536,
       "FINAL_PRICING": 2,
       "PAYMENT_BANK": 48,
       "AUCTION_BID_START": 70,
       "AUCTION_BID_END": 70,
       "AUCTION_RESULT_ESTIMATED": 70,
-      "LISTING": 540,
+      "LISTING": 542,
       "CBAS_PROXY_START": 372,
       "CBAS_PROXY_END": 372,
       "T_PLUS_19_EXIT_PROXY": 372
@@ -30555,6 +30555,18 @@
     },
     {
       "stock_code": "6285",
+      "company_name": "啟碁科技股份有限公司",
+      "short_name": "啟碁四",
+      "stage": "EFFECTIVE",
+      "date": "2026-09-08",
+      "source": "linked_bond_stages_proxy",
+      "confidence": 0.25,
+      "is_inferred": true,
+      "title": "金管會申報生效發行無擔保轉換公司債",
+      "summary": "可轉債申報生效，正式進入定價與發行準備期"
+    },
+    {
+      "stock_code": "6285",
       "company_name": "啟碁",
       "short_name": "啟碁三",
       "stage": "BOARD_RESOLUTION",
@@ -30566,6 +30578,30 @@
       "summary": "董事會/股東會決議: 公告本公司國內第四次及第五次無擔保轉換公司債\r\n代收價款行庫及存儲專戶行庫",
       "event_type": "CB_ISSUANCE",
       "published_at": "2026-09-22T164443"
+    },
+    {
+      "stock_code": "6285",
+      "company_name": "啟碁科技股份有限公司",
+      "short_name": "啟碁四",
+      "stage": "PRICING",
+      "date": "2026-10-06",
+      "source": "parsed_bonds",
+      "confidence": 0.65,
+      "is_inferred": false,
+      "title": "啟碁四 announcement/pricing date",
+      "cb_code": "62854"
+    },
+    {
+      "stock_code": "6285",
+      "company_name": "啟碁科技股份有限公司",
+      "short_name": "啟碁四",
+      "stage": "LISTING",
+      "date": "2026-10-13",
+      "source": "parsed_bonds",
+      "confidence": 0.65,
+      "is_inferred": false,
+      "title": "啟碁四 issue/listing date",
+      "cb_code": "62854"
     },
     {
       "stock_code": "6288",
@@ -31339,6 +31375,54 @@
       "confidence": 0.3,
       "is_inferred": true,
       "based_on": "2023-05-05"
+    },
+    {
+      "stock_code": "6438",
+      "company_name": "迅得機械股份有限公司",
+      "short_name": "迅得三",
+      "stage": "BOARD_RESOLUTION",
+      "date": "2026-07-30",
+      "source": "linked_bond_stages_proxy",
+      "confidence": 0.25,
+      "is_inferred": true,
+      "title": "董事會決議發行無擔保轉換公司債",
+      "summary": "董事會通過發行可轉債以充實營運資金或償還債務"
+    },
+    {
+      "stock_code": "6438",
+      "company_name": "迅得機械股份有限公司",
+      "short_name": "迅得三",
+      "stage": "EFFECTIVE",
+      "date": "2026-09-08",
+      "source": "linked_bond_stages_proxy",
+      "confidence": 0.25,
+      "is_inferred": true,
+      "title": "金管會申報生效發行無擔保轉換公司債",
+      "summary": "可轉債申報生效，正式進入定價與發行準備期"
+    },
+    {
+      "stock_code": "6438",
+      "company_name": "迅得機械股份有限公司",
+      "short_name": "迅得三",
+      "stage": "PRICING",
+      "date": "2026-10-06",
+      "source": "parsed_bonds",
+      "confidence": 0.65,
+      "is_inferred": false,
+      "title": "迅得三 announcement/pricing date",
+      "cb_code": "64383"
+    },
+    {
+      "stock_code": "6438",
+      "company_name": "迅得機械股份有限公司",
+      "short_name": "迅得三",
+      "stage": "LISTING",
+      "date": "2026-10-13",
+      "source": "parsed_bonds",
+      "confidence": 0.65,
+      "is_inferred": false,
+      "title": "迅得三 issue/listing date",
+      "cb_code": "64383"
     },
     {
       "stock_code": "6441",

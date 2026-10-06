@@ -8158,5 +8158,35 @@
     "maturity_date_minguo": "120年10月12日",
     "maturity_date": "2031-10-12",
     "issue_amount": "新台幣25億元整"
+  },
+  {
+    "file_id": "11500062091",
+    "company_name": "啟碁科技股份有限公司",
+    "bond_name": "啟碁科技股份有限公司國內第四次無擔保轉換公司債",
+    "cb_code": "62854",
+    "stock_code": "6285",
+    "short_name": "啟碁四",
+    "announcement_date_minguo": "115年10月6日",
+    "announcement_date": "2026-10-06",
+    "issue_date_minguo": "115年10月13日",
+    "issue_date": "2026-10-13",
+    "maturity_date_minguo": "118年10月13日",
+    "maturity_date": "2029-10-13",
+    "issue_amount": "新台幣60億元整"
+  },
+  {
+    "file_id": "11500062121",
+    "company_name": "迅得機械股份有限公司",
+    "bond_name": "迅得機械股份有限公司國內第三次無擔保轉換公司債",
+    "cb_code": "64383",
+    "stock_code": "6438",
+    "short_name": "迅得三",
+    "announcement_date_minguo": "115年10月6日",
+    "announcement_date": "2026-10-06",
+    "issue_date_minguo": "115年10月13日",
+    "issue_date": "2026-10-13",
+    "maturity_date_minguo": "118年10月13日",
+    "maturity_date": "2029-10-13",
+    "issue_amount": "新台幣5億元整"
   }
 ]
