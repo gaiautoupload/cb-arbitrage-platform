@@ -850,5 +850,29 @@
     "bidding_shares_thousand": "29,800",
     "bidding_period": "2026/10/05~2026/10/07",
     "min_price": "103.00"
+  },
+  {
+    "serial": "115077",
+    "company_name": "啓碁",
+    "full_company_name": "啓碁科技股份有限公司",
+    "ticker": null,
+    "underwriter": "凱基證券股份有限公司",
+    "bond_type": "無擔保轉換公司債",
+    "shares_thousand": "20,000",
+    "bidding_shares_thousand": "17,000",
+    "bidding_period": "2026/10/07~2026/10/12",
+    "min_price": "105.00"
+  },
+  {
+    "serial": "115078",
+    "company_name": "生合生物",
+    "full_company_name": "生合生物科技股份有限公司",
+    "ticker": "1295",
+    "underwriter": "台新綜合證券股份有限公司",
+    "bond_type": "無擔保轉換公司債",
+    "shares_thousand": "4,000",
+    "bidding_shares_thousand": "3,400",
+    "bidding_period": "2026/10/13~2026/10/15",
+    "min_price": "100.00"
   }
 ]

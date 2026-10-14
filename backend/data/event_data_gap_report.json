@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-06T17:10:31",
+  "generated_at": "2026-10-14T19:17:36",
   "database": "D:\\bond\\backend\\data\\cb_event_master.sqlite",
   "required_stages": [
     "BOARD_RESOLUTION",
@@ -16,15 +16,15 @@
     "CBAS_ACTUAL"
   ],
   "summary": {
-    "issues": 618,
-    "events": 3690,
-    "issues_with_missing_stages": 618
+    "issues": 622,
+    "events": 3713,
+    "issues_with_missing_stages": 622
   },
   "stage_summary": {
     "BOARD_RESOLUTION": {
-      "observed_events": 121,
-      "inferred_events": 502,
-      "issues_with_stage": 551
+      "observed_events": 123,
+      "inferred_events": 503,
+      "issues_with_stage": 554
     },
     "FILING": {
       "observed_events": 19,
@@ -33,23 +33,23 @@
     },
     "EFFECTIVE": {
       "observed_events": 9,
-      "inferred_events": 536,
-      "issues_with_stage": 537
+      "inferred_events": 538,
+      "issues_with_stage": 539
     },
     "PRICING": {
-      "observed_events": 536,
+      "observed_events": 538,
       "inferred_events": 0,
-      "issues_with_stage": 535
+      "issues_with_stage": 537
     },
     "AUCTION_BID_START": {
-      "observed_events": 80,
+      "observed_events": 82,
       "inferred_events": 0,
-      "issues_with_stage": 79
+      "issues_with_stage": 81
     },
     "AUCTION_BID_END": {
-      "observed_events": 81,
+      "observed_events": 83,
       "inferred_events": 0,
-      "issues_with_stage": 79
+      "issues_with_stage": 81
     },
     "BOOKBUILDING_START": {
       "observed_events": 0,
@@ -72,9 +72,9 @@
       "issues_with_stage": 0
     },
     "LISTING": {
-      "observed_events": 542,
+      "observed_events": 544,
       "inferred_events": 0,
-      "issues_with_stage": 538
+      "issues_with_stage": 540
     },
     "CBAS_ACTUAL": {
       "observed_events": 0,
@@ -111,6 +111,33 @@
         "CBAS_ACTUAL"
       ],
       "event_count": 7
+    },
+    {
+      "issue_id": "issue_4a200ee923628a1986c0",
+      "stock_code": "1295",
+      "cb_code": null,
+      "short_name": null,
+      "company_name": "生合生物",
+      "observed_stages": [
+        "AUCTION_BID_END",
+        "AUCTION_BID_START"
+      ],
+      "inferred_stages": [
+        "AUCTION_RESULT_ESTIMATED"
+      ],
+      "missing_stages": [
+        "BOARD_RESOLUTION",
+        "FILING",
+        "EFFECTIVE",
+        "PRICING",
+        "BOOKBUILDING_START",
+        "BOOKBUILDING_END",
+        "BOOKBUILDING_RESULT",
+        "UNDERWRITING_NOTICE",
+        "LISTING",
+        "CBAS_ACTUAL"
+      ],
+      "event_count": 3
     },
     {
       "issue_id": "issue_534bec36092fcf4a9e49",
@@ -1937,6 +1964,37 @@
         "CBAS_ACTUAL"
       ],
       "event_count": 5
+    },
+    {
+      "issue_id": "issue_6a56197008f92c183d21",
+      "stock_code": "2316",
+      "cb_code": "23161",
+      "short_name": "楠梓電一",
+      "company_name": "楠梓電子股份有限公司",
+      "observed_stages": [
+        "AUCTION_BID_END",
+        "AUCTION_BID_START",
+        "BOARD_RESOLUTION",
+        "LISTING",
+        "PAYMENT_BANK",
+        "PRICING"
+      ],
+      "inferred_stages": [
+        "AUCTION_RESULT_ESTIMATED",
+        "CBAS_PROXY_END",
+        "CBAS_PROXY_START",
+        "EFFECTIVE",
+        "T_PLUS_19_EXIT_PROXY"
+      ],
+      "missing_stages": [
+        "FILING",
+        "BOOKBUILDING_START",
+        "BOOKBUILDING_END",
+        "BOOKBUILDING_RESULT",
+        "UNDERWRITING_NOTICE",
+        "CBAS_ACTUAL"
+      ],
+      "event_count": 11
     },
     {
       "issue_id": "issue_17c85ae46c432b9760b0",
@@ -6397,6 +6455,31 @@
         "CBAS_ACTUAL"
       ],
       "event_count": 4
+    },
+    {
+      "issue_id": "issue_0bf7f49d4aca266419d7",
+      "stock_code": "3543",
+      "cb_code": null,
+      "short_name": null,
+      "company_name": "州巧",
+      "observed_stages": [
+        "BOARD_RESOLUTION"
+      ],
+      "inferred_stages": [],
+      "missing_stages": [
+        "FILING",
+        "EFFECTIVE",
+        "PRICING",
+        "AUCTION_BID_START",
+        "AUCTION_BID_END",
+        "BOOKBUILDING_START",
+        "BOOKBUILDING_END",
+        "BOOKBUILDING_RESULT",
+        "UNDERWRITING_NOTICE",
+        "LISTING",
+        "CBAS_ACTUAL"
+      ],
+      "event_count": 1
     },
     {
       "issue_id": "issue_37e9f674bbf97ed39744",
@@ -12020,6 +12103,7 @@
       "observed_stages": [
         "BOARD_RESOLUTION",
         "LISTING",
+        "PAYMENT_BANK",
         "PRICING"
       ],
       "inferred_stages": [
@@ -12039,7 +12123,7 @@
         "UNDERWRITING_NOTICE",
         "CBAS_ACTUAL"
       ],
-      "event_count": 8
+      "event_count": 9
     },
     {
       "issue_id": "issue_c30c3b2f49fea89e0b1d",
@@ -15083,6 +15167,35 @@
         "CBAS_ACTUAL"
       ],
       "event_count": 1
+    },
+    {
+      "issue_id": "issue_be450e6702fc97d024ee",
+      "stock_code": "7738",
+      "cb_code": "77381",
+      "short_name": "東聯互動一",
+      "company_name": "東聯互動股份有限公司",
+      "observed_stages": [
+        "LISTING",
+        "PRICING"
+      ],
+      "inferred_stages": [
+        "BOARD_RESOLUTION",
+        "CBAS_PROXY_END",
+        "CBAS_PROXY_START",
+        "EFFECTIVE",
+        "T_PLUS_19_EXIT_PROXY"
+      ],
+      "missing_stages": [
+        "FILING",
+        "AUCTION_BID_START",
+        "AUCTION_BID_END",
+        "BOOKBUILDING_START",
+        "BOOKBUILDING_END",
+        "BOOKBUILDING_RESULT",
+        "UNDERWRITING_NOTICE",
+        "CBAS_ACTUAL"
+      ],
+      "event_count": 7
     },
     {
       "issue_id": "issue_2d557bdea8cc4403c7d5",

@@ -8188,5 +8188,35 @@
     "maturity_date_minguo": "118年10月13日",
     "maturity_date": "2029-10-13",
     "issue_amount": "新台幣5億元整"
+  },
+  {
+    "file_id": "11500062611",
+    "company_name": "東聯互動股份有限公司",
+    "bond_name": "東聯互動股份有限公司國內第一次無擔保轉換公司債",
+    "cb_code": "77381",
+    "stock_code": "7738",
+    "short_name": "東聯互動一",
+    "announcement_date_minguo": "115年10月13日",
+    "announcement_date": "2026-10-13",
+    "issue_date_minguo": "115年10月16日",
+    "issue_date": "2026-10-16",
+    "maturity_date_minguo": "118年10月16日",
+    "maturity_date": "2029-10-16",
+    "issue_amount": "新台幣5億元整"
+  },
+  {
+    "file_id": "11500063391",
+    "company_name": "楠梓電子股份有限公司",
+    "bond_name": "楠梓電子股份有限公司國內第一次無擔保轉換公司債",
+    "cb_code": "23161",
+    "stock_code": "2316",
+    "short_name": "楠梓電一",
+    "announcement_date_minguo": "115年10月14日",
+    "announcement_date": "2026-10-14",
+    "issue_date_minguo": "115年10月21日",
+    "issue_date": "2026-10-21",
+    "maturity_date_minguo": "120年10月21日",
+    "maturity_date": "2031-10-21",
+    "issue_amount": "新台幣35億元整"
   }
 ]

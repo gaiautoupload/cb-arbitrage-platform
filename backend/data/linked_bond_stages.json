@@ -16899,5 +16899,67 @@
         "summary": "可轉債正式掛牌交易"
       }
     }
+  },
+  {
+    "stock_code": "7738",
+    "company_name": "東聯互動股份有限公司",
+    "short_name": "東聯互動一",
+    "stages": {
+      "BOARD_RESOLUTION": {
+        "date": "2026-07-31",
+        "title": "董事會決議發行無擔保轉換公司債",
+        "sentiment": "NEUTRAL",
+        "summary": "董事會通過發行可轉債以充實營運資金或償還債務"
+      },
+      "EFFECTIVE": {
+        "date": "2026-09-11",
+        "title": "金管會申報生效發行無擔保轉換公司債",
+        "sentiment": "BULLISH",
+        "summary": "可轉債申報生效，正式進入定價與發行準備期"
+      },
+      "PRICING": {
+        "date": "2026-10-13",
+        "title": "公告「東聯互動一」發行及訂價等事宜 (櫃買公告)",
+        "sentiment": "NEUTRAL",
+        "summary": "櫃檯買賣中心公告發行資料"
+      },
+      "LISTING": {
+        "date": "2026-10-16",
+        "title": "「東聯互動一」掛牌買賣/發行日",
+        "sentiment": "BULLISH",
+        "summary": "可轉債正式掛牌交易"
+      }
+    }
+  },
+  {
+    "stock_code": "2316",
+    "company_name": "楠梓電子股份有限公司",
+    "short_name": "楠梓電一",
+    "stages": {
+      "BOARD_RESOLUTION": {
+        "date": "2026-06-26",
+        "title": "公告本公司董事會決議發行國內第一次無擔保可轉換公司債",
+        "sentiment": "NEUTRAL",
+        "summary": "董事會/股東會決議: 公告本公司董事會決議發行國內第一次無擔保可轉換公司債"
+      },
+      "EFFECTIVE": {
+        "date": "2026-09-16",
+        "title": "金管會申報生效發行無擔保轉換公司債",
+        "sentiment": "BULLISH",
+        "summary": "可轉債申報生效，正式進入定價與發行準備期"
+      },
+      "PRICING": {
+        "date": "2026-10-14",
+        "title": "公告「楠梓電一」發行及訂價等事宜 (櫃買公告)",
+        "sentiment": "NEUTRAL",
+        "summary": "櫃檯買賣中心公告發行資料"
+      },
+      "LISTING": {
+        "date": "2026-10-21",
+        "title": "「楠梓電一」掛牌買賣/發行日",
+        "sentiment": "BULLISH",
+        "summary": "可轉債正式掛牌交易"
+      }
+    }
   }
 ]

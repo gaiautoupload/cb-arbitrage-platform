@@ -15800,16 +15800,6 @@
     "trust_net": 0.0
   },
   {
-    "date": "2026-07-10",
-    "open": 98.5,
-    "high": 98.5,
-    "low": 98.5,
-    "close": 98.5,
-    "volume": 0,
-    "foreign_net": 0.0,
-    "trust_net": 0.0
-  },
-  {
     "date": "2026-07-13",
     "open": 102.0,
     "high": 102.0,
@@ -16405,8 +16395,58 @@
     "high": 170.5,
     "low": 157.5,
     "close": 170.5,
-    "volume": 6762492,
+    "volume": 6721173,
     "foreign_net": -135.6,
+    "trust_net": 0.0
+  },
+  {
+    "date": "2026-10-07",
+    "open": 165.0,
+    "high": 183.5,
+    "low": 164.5,
+    "close": 180.5,
+    "volume": 10149761,
+    "foreign_net": -138.6,
+    "trust_net": 0.0
+  },
+  {
+    "date": "2026-10-08",
+    "open": 180.5,
+    "high": 198.5,
+    "low": 180.0,
+    "close": 198.5,
+    "volume": 1576971,
+    "foreign_net": -9.4,
+    "trust_net": -6.0
+  },
+  {
+    "date": "2026-10-12",
+    "open": 205.0,
+    "high": 218.0,
+    "low": 205.0,
+    "close": 218.0,
+    "volume": 1215601,
+    "foreign_net": -178.0,
+    "trust_net": 0.0
+  },
+  {
+    "date": "2026-10-13",
+    "open": 217.0,
+    "high": 239.5,
+    "low": 217.0,
+    "close": 237.0,
+    "volume": 2429504,
+    "foreign_net": -126.9,
+    "trust_net": 0.0
+  },
+  {
+    "date": "2026-10-14",
+    "open": 240.0,
+    "high": 245.0,
+    "low": 213.5,
+    "close": 213.5,
+    "volume": 1298993,
+    "foreign_net": -30.9,
     "trust_net": 0.0
   }
 ]
