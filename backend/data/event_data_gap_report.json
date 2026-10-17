@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-14T19:17:36",
+  "generated_at": "2026-10-17T17:14:30",
   "database": "D:\\bond\\backend\\data\\cb_event_master.sqlite",
   "required_stages": [
     "BOARD_RESOLUTION",
@@ -16,40 +16,40 @@
     "CBAS_ACTUAL"
   ],
   "summary": {
-    "issues": 622,
-    "events": 3713,
-    "issues_with_missing_stages": 622
+    "issues": 625,
+    "events": 3738,
+    "issues_with_missing_stages": 625
   },
   "stage_summary": {
     "BOARD_RESOLUTION": {
-      "observed_events": 123,
+      "observed_events": 126,
       "inferred_events": 503,
-      "issues_with_stage": 554
+      "issues_with_stage": 555
     },
     "FILING": {
-      "observed_events": 19,
+      "observed_events": 20,
       "inferred_events": 0,
-      "issues_with_stage": 14
+      "issues_with_stage": 15
     },
     "EFFECTIVE": {
       "observed_events": 9,
-      "inferred_events": 538,
-      "issues_with_stage": 539
+      "inferred_events": 541,
+      "issues_with_stage": 542
     },
     "PRICING": {
-      "observed_events": 538,
+      "observed_events": 541,
       "inferred_events": 0,
-      "issues_with_stage": 537
+      "issues_with_stage": 540
     },
     "AUCTION_BID_START": {
-      "observed_events": 82,
+      "observed_events": 84,
       "inferred_events": 0,
-      "issues_with_stage": 81
+      "issues_with_stage": 82
     },
     "AUCTION_BID_END": {
-      "observed_events": 83,
+      "observed_events": 85,
       "inferred_events": 0,
-      "issues_with_stage": 81
+      "issues_with_stage": 82
     },
     "BOOKBUILDING_START": {
       "observed_events": 0,
@@ -62,9 +62,9 @@
       "issues_with_stage": 0
     },
     "BOOKBUILDING_RESULT": {
-      "observed_events": 0,
+      "observed_events": 1,
       "inferred_events": 0,
-      "issues_with_stage": 0
+      "issues_with_stage": 1
     },
     "UNDERWRITING_NOTICE": {
       "observed_events": 0,
@@ -72,9 +72,9 @@
       "issues_with_stage": 0
     },
     "LISTING": {
-      "observed_events": 544,
+      "observed_events": 547,
       "inferred_events": 0,
-      "issues_with_stage": 540
+      "issues_with_stage": 543
     },
     "CBAS_ACTUAL": {
       "observed_events": 0,
@@ -1208,18 +1208,18 @@
       "stock_code": "1727",
       "cb_code": null,
       "short_name": null,
-      "company_name": "臺灣中華",
+      "company_name": "中華化",
       "observed_stages": [
         "AUCTION_BID_END",
         "AUCTION_BID_START",
         "BOARD_RESOLUTION",
+        "FILING",
         "PAYMENT_BANK"
       ],
       "inferred_stages": [
         "AUCTION_RESULT_ESTIMATED"
       ],
       "missing_stages": [
-        "FILING",
         "EFFECTIVE",
         "PRICING",
         "BOOKBUILDING_START",
@@ -1229,7 +1229,7 @@
         "LISTING",
         "CBAS_ACTUAL"
       ],
-      "event_count": 5
+      "event_count": 6
     },
     {
       "issue_id": "issue_340a179749c6ecd6b98b",
@@ -2906,6 +2906,7 @@
       "short_name": null,
       "company_name": "華建",
       "observed_stages": [
+        "BOOKBUILDING_RESULT",
         "EFFECTIVE"
       ],
       "inferred_stages": [],
@@ -2917,12 +2918,11 @@
         "AUCTION_BID_END",
         "BOOKBUILDING_START",
         "BOOKBUILDING_END",
-        "BOOKBUILDING_RESULT",
         "UNDERWRITING_NOTICE",
         "LISTING",
         "CBAS_ACTUAL"
       ],
-      "event_count": 2
+      "event_count": 3
     },
     {
       "issue_id": "issue_65f693a2042ba922ec60",
@@ -12379,6 +12379,32 @@
       "event_count": 3
     },
     {
+      "issue_id": "issue_f047f9fce2b91a0cad32",
+      "stock_code": "6285",
+      "cb_code": "62855",
+      "short_name": "啟碁五",
+      "company_name": "啟碁科技股份有限公司",
+      "observed_stages": [
+        "LISTING",
+        "PRICING"
+      ],
+      "inferred_stages": [
+        "EFFECTIVE"
+      ],
+      "missing_stages": [
+        "BOARD_RESOLUTION",
+        "FILING",
+        "AUCTION_BID_START",
+        "AUCTION_BID_END",
+        "BOOKBUILDING_START",
+        "BOOKBUILDING_END",
+        "BOOKBUILDING_RESULT",
+        "UNDERWRITING_NOTICE",
+        "CBAS_ACTUAL"
+      ],
+      "event_count": 3
+    },
+    {
       "issue_id": "issue_df85396717b2187d16ec",
       "stock_code": "6288",
       "cb_code": "62882",
@@ -15282,6 +15308,38 @@
       "event_count": 12
     },
     {
+      "issue_id": "issue_ac1dcfef77204e8dca06",
+      "stock_code": "8021",
+      "cb_code": "80213",
+      "short_name": "尖點三",
+      "company_name": "尖點科技股份有限公司",
+      "observed_stages": [
+        "AUCTION_BID_END",
+        "AUCTION_BID_START",
+        "BOARD_RESOLUTION",
+        "FINAL_PRICING",
+        "LISTING",
+        "PAYMENT_BANK",
+        "PRICING"
+      ],
+      "inferred_stages": [
+        "AUCTION_RESULT_ESTIMATED",
+        "CBAS_PROXY_END",
+        "CBAS_PROXY_START",
+        "EFFECTIVE",
+        "T_PLUS_19_EXIT_PROXY"
+      ],
+      "missing_stages": [
+        "FILING",
+        "BOOKBUILDING_START",
+        "BOOKBUILDING_END",
+        "BOOKBUILDING_RESULT",
+        "UNDERWRITING_NOTICE",
+        "CBAS_ACTUAL"
+      ],
+      "event_count": 17
+    },
+    {
       "issue_id": "issue_e02db483a9e068574cd2",
       "stock_code": "8027",
       "cb_code": "80273",
@@ -17139,6 +17197,32 @@
       "stock_code": "8996",
       "cb_code": "89965",
       "short_name": "高力五",
+      "company_name": "高力熱處理工業股份有限公司",
+      "observed_stages": [
+        "LISTING",
+        "PRICING"
+      ],
+      "inferred_stages": [
+        "EFFECTIVE"
+      ],
+      "missing_stages": [
+        "BOARD_RESOLUTION",
+        "FILING",
+        "AUCTION_BID_START",
+        "AUCTION_BID_END",
+        "BOOKBUILDING_START",
+        "BOOKBUILDING_END",
+        "BOOKBUILDING_RESULT",
+        "UNDERWRITING_NOTICE",
+        "CBAS_ACTUAL"
+      ],
+      "event_count": 3
+    },
+    {
+      "issue_id": "issue_dcd6144fc072126878d7",
+      "stock_code": "8996",
+      "cb_code": "89966",
+      "short_name": "高力六",
       "company_name": "高力熱處理工業股份有限公司",
       "observed_stages": [
         "LISTING",

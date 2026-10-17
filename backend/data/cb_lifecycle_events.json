@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-14T19:17:35",
+  "generated_at": "2026-10-17T17:14:29",
   "source_files": {
     "mops_wiki_db": "mops_wiki_db.json",
     "parsed_bonds": "parsed_bonds.json",
@@ -12,23 +12,24 @@
     "Generated linked BOARD_RESOLUTION/EFFECTIVE dates are retained only as low-confidence proxy events."
   ],
   "summary": {
-    "total_events": 3631,
-    "actual_or_observed_events": 1417,
-    "inferred_events": 2214,
+    "total_events": 3646,
+    "actual_or_observed_events": 1426,
+    "inferred_events": 2220,
     "by_stage": {
       "BOARD_RESOLUTION": 599,
-      "FILING": 19,
-      "EFFECTIVE": 545,
-      "PRICING": 538,
+      "FILING": 20,
+      "EFFECTIVE": 548,
+      "PRICING": 541,
       "FINAL_PRICING": 2,
-      "PAYMENT_BANK": 49,
+      "PAYMENT_BANK": 50,
       "AUCTION_BID_START": 71,
       "AUCTION_BID_END": 71,
       "AUCTION_RESULT_ESTIMATED": 71,
-      "LISTING": 544,
-      "CBAS_PROXY_START": 374,
-      "CBAS_PROXY_END": 374,
-      "T_PLUS_19_EXIT_PROXY": 374
+      "BOOKBUILDING_RESULT": 1,
+      "LISTING": 547,
+      "CBAS_PROXY_START": 375,
+      "CBAS_PROXY_END": 375,
+      "T_PLUS_19_EXIT_PROXY": 375
     }
   },
   "events": [
@@ -2815,6 +2816,20 @@
       "confidence": 0.35,
       "is_inferred": true,
       "serial": "115073"
+    },
+    {
+      "stock_code": "1727",
+      "company_name": "中華化",
+      "short_name": "",
+      "stage": "FILING",
+      "date": "2026-10-16",
+      "source": "mops_wiki_db",
+      "confidence": 0.85,
+      "is_inferred": false,
+      "title": "公告本公司國內第二次無擔保轉換公司債收足應募價款",
+      "summary": "送件/申報: 公告本公司國內第二次無擔保轉換公司債收足應募價款",
+      "event_type": "CB_ISSUANCE",
+      "published_at": "2026-10-16T160421"
     },
     {
       "stock_code": "1781",
@@ -7038,6 +7053,20 @@
       "summary": "申報生效: 公告本公司發行國內第五次無擔保轉換公司債案向\r\n金管會申請延長募集期間，業經金管會准予備查",
       "event_type": "CB_ISSUANCE",
       "published_at": "2026-09-16T170230"
+    },
+    {
+      "stock_code": "2530",
+      "company_name": "華建",
+      "short_name": "",
+      "stage": "BOOKBUILDING_RESULT",
+      "date": "2026-10-16",
+      "source": "mops_wiki_db",
+      "confidence": 0.85,
+      "is_inferred": false,
+      "title": "公告本公司發行國內第五次無擔保轉換公司債申請承銷\r\n方式由競價拍賣變更為詢價圈購，業經金融監督管理委員會\r\n同意備查",
+      "summary": "詢價圈購配售結果: 公告本公司發行國內第五次無擔保轉換公司債申請承銷\r\n方式由競價拍賣變更為詢價圈購，業經金融監督管理委員會\r\n同意備查",
+      "event_type": "CB_ISSUANCE",
+      "published_at": "2026-10-16T164736"
     },
     {
       "stock_code": "2548",
@@ -30703,6 +30732,18 @@
     },
     {
       "stock_code": "6285",
+      "company_name": "啟碁科技股份有限公司",
+      "short_name": "啟碁五",
+      "stage": "EFFECTIVE",
+      "date": "2026-09-18",
+      "source": "linked_bond_stages_proxy",
+      "confidence": 0.25,
+      "is_inferred": true,
+      "title": "金管會申報生效發行無擔保轉換公司債",
+      "summary": "可轉債申報生效，正式進入定價與發行準備期"
+    },
+    {
+      "stock_code": "6285",
       "company_name": "啟碁",
       "short_name": "啟碁三",
       "stage": "BOARD_RESOLUTION",
@@ -30738,6 +30779,30 @@
       "is_inferred": false,
       "title": "啟碁四 issue/listing date",
       "cb_code": "62854"
+    },
+    {
+      "stock_code": "6285",
+      "company_name": "啟碁科技股份有限公司",
+      "short_name": "啟碁五",
+      "stage": "PRICING",
+      "date": "2026-10-16",
+      "source": "parsed_bonds",
+      "confidence": 0.65,
+      "is_inferred": false,
+      "title": "啟碁五 announcement/pricing date",
+      "cb_code": "62855"
+    },
+    {
+      "stock_code": "6285",
+      "company_name": "啟碁科技股份有限公司",
+      "short_name": "啟碁五",
+      "stage": "LISTING",
+      "date": "2026-10-23",
+      "source": "parsed_bonds",
+      "confidence": 0.65,
+      "is_inferred": false,
+      "title": "啟碁五 issue/listing date",
+      "cb_code": "62855"
     },
     {
       "stock_code": "6288",
@@ -37411,7 +37476,7 @@
     {
       "stock_code": "8021",
       "company_name": "尖點",
-      "short_name": "",
+      "short_name": "尖點三",
       "stage": "AUCTION_BID_START",
       "date": "2026-01-05",
       "source": "twsa_bids",
@@ -37425,7 +37490,7 @@
     {
       "stock_code": "8021",
       "company_name": "尖點",
-      "short_name": "",
+      "short_name": "尖點三",
       "stage": "AUCTION_BID_END",
       "date": "2026-01-07",
       "source": "twsa_bids",
@@ -37439,7 +37504,7 @@
     {
       "stock_code": "8021",
       "company_name": "尖點",
-      "short_name": "",
+      "short_name": "尖點三",
       "stage": "AUCTION_RESULT_ESTIMATED",
       "date": "2026-01-08",
       "source": "calendar_proxy",
@@ -37450,7 +37515,7 @@
     {
       "stock_code": "8021",
       "company_name": "尖點",
-      "short_name": "",
+      "short_name": "尖點三",
       "stage": "BOARD_RESOLUTION",
       "date": "2026-08-14",
       "source": "mops_wiki_db",
@@ -37463,8 +37528,20 @@
     },
     {
       "stock_code": "8021",
+      "company_name": "尖點科技股份有限公司",
+      "short_name": "尖點三",
+      "stage": "EFFECTIVE",
+      "date": "2026-09-15",
+      "source": "linked_bond_stages_proxy",
+      "confidence": 0.25,
+      "is_inferred": true,
+      "title": "金管會申報生效發行無擔保轉換公司債",
+      "summary": "可轉債申報生效，正式進入定價與發行準備期"
+    },
+    {
+      "stock_code": "8021",
       "company_name": "尖點",
-      "short_name": "",
+      "short_name": "尖點三",
       "stage": "BOARD_RESOLUTION",
       "date": "2026-09-16",
       "source": "mops_wiki_db",
@@ -37478,7 +37555,7 @@
     {
       "stock_code": "8021",
       "company_name": "尖點",
-      "short_name": "",
+      "short_name": "尖點三",
       "stage": "BOARD_RESOLUTION",
       "date": "2026-09-29",
       "source": "mops_wiki_db",
@@ -37492,7 +37569,7 @@
     {
       "stock_code": "8021",
       "company_name": "尖點",
-      "short_name": "",
+      "short_name": "尖點三",
       "stage": "FINAL_PRICING",
       "date": "2026-09-29",
       "source": "mops_wiki_db",
@@ -37506,7 +37583,7 @@
     {
       "stock_code": "8021",
       "company_name": "尖點",
-      "short_name": "",
+      "short_name": "尖點三",
       "stage": "AUCTION_BID_START",
       "date": "2026-10-02",
       "source": "twsa_bids",
@@ -37520,7 +37597,7 @@
     {
       "stock_code": "8021",
       "company_name": "尖點",
-      "short_name": "",
+      "short_name": "尖點三",
       "stage": "AUCTION_BID_END",
       "date": "2026-10-06",
       "source": "twsa_bids",
@@ -37534,13 +37611,84 @@
     {
       "stock_code": "8021",
       "company_name": "尖點",
-      "short_name": "",
+      "short_name": "尖點三",
       "stage": "AUCTION_RESULT_ESTIMATED",
       "date": "2026-10-07",
       "source": "calendar_proxy",
       "confidence": 0.35,
       "is_inferred": true,
       "serial": "115074"
+    },
+    {
+      "stock_code": "8021",
+      "company_name": "尖點科技股份有限公司",
+      "short_name": "尖點三",
+      "stage": "PRICING",
+      "date": "2026-10-15",
+      "source": "parsed_bonds",
+      "confidence": 0.65,
+      "is_inferred": false,
+      "title": "尖點三 announcement/pricing date",
+      "cb_code": "80213"
+    },
+    {
+      "stock_code": "8021",
+      "company_name": "尖點",
+      "short_name": "尖點三",
+      "stage": "PAYMENT_BANK",
+      "date": "2026-10-16",
+      "source": "mops_wiki_db",
+      "confidence": 0.85,
+      "is_inferred": false,
+      "title": "公告本公司國內第三次無擔保轉換公司債收足應募價款",
+      "summary": "代收價款/專戶: 公告本公司國內第三次無擔保轉換公司債收足應募價款",
+      "event_type": "CB_ISSUANCE",
+      "published_at": "2026-10-16T150726"
+    },
+    {
+      "stock_code": "8021",
+      "company_name": "尖點科技股份有限公司",
+      "short_name": "尖點三",
+      "stage": "LISTING",
+      "date": "2026-10-20",
+      "source": "parsed_bonds",
+      "confidence": 0.65,
+      "is_inferred": false,
+      "title": "尖點三 issue/listing date",
+      "cb_code": "80213"
+    },
+    {
+      "stock_code": "8021",
+      "company_name": "尖點科技股份有限公司",
+      "short_name": "尖點三",
+      "stage": "CBAS_PROXY_START",
+      "date": "2026-10-21",
+      "source": "cbas_proxy",
+      "confidence": 0.3,
+      "is_inferred": true,
+      "based_on": "2026-10-20"
+    },
+    {
+      "stock_code": "8021",
+      "company_name": "尖點科技股份有限公司",
+      "short_name": "尖點三",
+      "stage": "CBAS_PROXY_END",
+      "date": "2026-11-07",
+      "source": "cbas_proxy",
+      "confidence": 0.3,
+      "is_inferred": true,
+      "based_on": "2026-10-20"
+    },
+    {
+      "stock_code": "8021",
+      "company_name": "尖點科技股份有限公司",
+      "short_name": "尖點三",
+      "stage": "T_PLUS_19_EXIT_PROXY",
+      "date": "2026-11-08",
+      "source": "cbas_proxy",
+      "confidence": 0.3,
+      "is_inferred": true,
+      "based_on": "2026-10-20"
     },
     {
       "stock_code": "8027",
@@ -42117,6 +42265,18 @@
     },
     {
       "stock_code": "8996",
+      "company_name": "高力熱處理工業股份有限公司",
+      "short_name": "高力六",
+      "stage": "EFFECTIVE",
+      "date": "2026-09-17",
+      "source": "linked_bond_stages_proxy",
+      "confidence": 0.25,
+      "is_inferred": true,
+      "title": "金管會申報生效發行無擔保轉換公司債",
+      "summary": "可轉債申報生效，正式進入定價與發行準備期"
+    },
+    {
+      "stock_code": "8996",
       "company_name": "高力",
       "short_name": "高力四",
       "stage": "BOARD_RESOLUTION",
@@ -42205,6 +42365,30 @@
       "is_inferred": false,
       "title": "高力五 issue/listing date",
       "cb_code": "89965"
+    },
+    {
+      "stock_code": "8996",
+      "company_name": "高力熱處理工業股份有限公司",
+      "short_name": "高力六",
+      "stage": "PRICING",
+      "date": "2026-10-15",
+      "source": "parsed_bonds",
+      "confidence": 0.65,
+      "is_inferred": false,
+      "title": "高力六 announcement/pricing date",
+      "cb_code": "89966"
+    },
+    {
+      "stock_code": "8996",
+      "company_name": "高力熱處理工業股份有限公司",
+      "short_name": "高力六",
+      "stage": "LISTING",
+      "date": "2026-10-22",
+      "source": "parsed_bonds",
+      "confidence": 0.65,
+      "is_inferred": false,
+      "title": "高力六 issue/listing date",
+      "cb_code": "89966"
     },
     {
       "stock_code": "9802",

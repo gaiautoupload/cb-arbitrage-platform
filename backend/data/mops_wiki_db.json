@@ -8363,6 +8363,48 @@
     "parsed_at": "2026-10-14T19:03:46"
   },
   {
+    "date": "2026-10-16",
+    "time": "160421",
+    "stock_code": "1727",
+    "company_name": "中華化",
+    "event_title": "公告本公司國內第二次無擔保轉換公司債收足應募價款",
+    "event_type": "CB_ISSUANCE",
+    "stage": "FILING",
+    "wiki_details": {},
+    "sentiment": "NEUTRAL",
+    "summary": "送件/申報: 公告本公司國內第二次無擔保轉換公司債收足應募價款",
+    "parser": "rule_v2",
+    "parsed_at": "2026-10-17T17:00:37"
+  },
+  {
+    "date": "2026-10-16",
+    "time": "164736",
+    "stock_code": "2530",
+    "company_name": "華建",
+    "event_title": "公告本公司發行國內第五次無擔保轉換公司債申請承銷\r\n方式由競價拍賣變更為詢價圈購，業經金融監督管理委員會\r\n同意備查",
+    "event_type": "CB_ISSUANCE",
+    "stage": "BOOKBUILDING_RESULT",
+    "wiki_details": {},
+    "sentiment": "NEUTRAL",
+    "summary": "詢價圈購配售結果: 公告本公司發行國內第五次無擔保轉換公司債申請承銷\r\n方式由競價拍賣變更為詢價圈購，業經金融監督管理委員會\r\n同意備查",
+    "parser": "rule_v2",
+    "parsed_at": "2026-10-17T17:00:37"
+  },
+  {
+    "date": "2026-10-16",
+    "time": "150726",
+    "stock_code": "8021",
+    "company_name": "尖點",
+    "event_title": "公告本公司國內第三次無擔保轉換公司債收足應募價款",
+    "event_type": "CB_ISSUANCE",
+    "stage": "PAYMENT_BANK",
+    "wiki_details": {},
+    "sentiment": "BULLISH",
+    "summary": "代收價款/專戶: 公告本公司國內第三次無擔保轉換公司債收足應募價款",
+    "parser": "rule_v2",
+    "parsed_at": "2026-10-17T17:00:37"
+  },
+  {
     "date": "2026-02-12",
     "time": "140510",
     "stock_code": "3260",

@@ -16932,6 +16932,37 @@
     }
   },
   {
+    "stock_code": "8021",
+    "company_name": "尖點科技股份有限公司",
+    "short_name": "尖點三",
+    "stages": {
+      "BOARD_RESOLUTION": {
+        "date": "2026-08-14",
+        "title": "公告本公司董事會決議發行國內第三次無擔保轉換公司債",
+        "sentiment": "NEUTRAL",
+        "summary": "董事會/股東會決議: 公告本公司董事會決議發行國內第三次無擔保轉換公司債"
+      },
+      "EFFECTIVE": {
+        "date": "2026-09-15",
+        "title": "金管會申報生效發行無擔保轉換公司債",
+        "sentiment": "BULLISH",
+        "summary": "可轉債申報生效，正式進入定價與發行準備期"
+      },
+      "PRICING": {
+        "date": "2026-10-15",
+        "title": "公告「尖點三」發行及訂價等事宜 (櫃買公告)",
+        "sentiment": "NEUTRAL",
+        "summary": "櫃檯買賣中心公告發行資料"
+      },
+      "LISTING": {
+        "date": "2026-10-20",
+        "title": "「尖點三」掛牌買賣/發行日",
+        "sentiment": "BULLISH",
+        "summary": "可轉債正式掛牌交易"
+      }
+    }
+  },
+  {
     "stock_code": "2316",
     "company_name": "楠梓電子股份有限公司",
     "short_name": "楠梓電一",
@@ -16957,6 +16988,68 @@
       "LISTING": {
         "date": "2026-10-21",
         "title": "「楠梓電一」掛牌買賣/發行日",
+        "sentiment": "BULLISH",
+        "summary": "可轉債正式掛牌交易"
+      }
+    }
+  },
+  {
+    "stock_code": "8996",
+    "company_name": "高力熱處理工業股份有限公司",
+    "short_name": "高力六",
+    "stages": {
+      "BOARD_RESOLUTION": {
+        "date": "2026-10-01",
+        "title": "公告本公司發行國內第六次無擔保轉換公司債之轉換價格及溢價率",
+        "sentiment": "NEUTRAL",
+        "summary": "董事會/股東會決議: 公告本公司發行國內第六次無擔保轉換公司債之轉換價格及溢價率"
+      },
+      "EFFECTIVE": {
+        "date": "2026-09-17",
+        "title": "金管會申報生效發行無擔保轉換公司債",
+        "sentiment": "BULLISH",
+        "summary": "可轉債申報生效，正式進入定價與發行準備期"
+      },
+      "PRICING": {
+        "date": "2026-10-15",
+        "title": "公告「高力六」發行及訂價等事宜 (櫃買公告)",
+        "sentiment": "NEUTRAL",
+        "summary": "櫃檯買賣中心公告發行資料"
+      },
+      "LISTING": {
+        "date": "2026-10-22",
+        "title": "「高力六」掛牌買賣/發行日",
+        "sentiment": "BULLISH",
+        "summary": "可轉債正式掛牌交易"
+      }
+    }
+  },
+  {
+    "stock_code": "6285",
+    "company_name": "啟碁科技股份有限公司",
+    "short_name": "啟碁五",
+    "stages": {
+      "BOARD_RESOLUTION": {
+        "date": "2026-09-22",
+        "title": "公告本公司國內第四次及第五次無擔保轉換公司債\r\n代收價款行庫及存儲專戶行庫",
+        "sentiment": "NEUTRAL",
+        "summary": "董事會/股東會決議: 公告本公司國內第四次及第五次無擔保轉換公司債\r\n代收價款行庫及存儲專戶行庫"
+      },
+      "EFFECTIVE": {
+        "date": "2026-09-18",
+        "title": "金管會申報生效發行無擔保轉換公司債",
+        "sentiment": "BULLISH",
+        "summary": "可轉債申報生效，正式進入定價與發行準備期"
+      },
+      "PRICING": {
+        "date": "2026-10-16",
+        "title": "公告「啟碁五」發行及訂價等事宜 (櫃買公告)",
+        "sentiment": "NEUTRAL",
+        "summary": "櫃檯買賣中心公告發行資料"
+      },
+      "LISTING": {
+        "date": "2026-10-23",
+        "title": "「啟碁五」掛牌買賣/發行日",
         "sentiment": "BULLISH",
         "summary": "可轉債正式掛牌交易"
       }

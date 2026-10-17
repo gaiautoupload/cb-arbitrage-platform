@@ -8205,6 +8205,21 @@
     "issue_amount": "新台幣5億元整"
   },
   {
+    "file_id": "11500063031",
+    "company_name": "尖點科技股份有限公司",
+    "bond_name": "尖點科技股份有限公司國內第三次無擔保轉換公司債",
+    "cb_code": "80213",
+    "stock_code": "8021",
+    "short_name": "尖點三",
+    "announcement_date_minguo": "115年10月15日",
+    "announcement_date": "2026-10-15",
+    "issue_date_minguo": "115年10月20日",
+    "issue_date": "2026-10-20",
+    "maturity_date_minguo": "120年10月20日",
+    "maturity_date": "2031-10-20",
+    "issue_amount": "新臺幣4.8億元整"
+  },
+  {
     "file_id": "11500063391",
     "company_name": "楠梓電子股份有限公司",
     "bond_name": "楠梓電子股份有限公司國內第一次無擔保轉換公司債",
@@ -8218,5 +8233,35 @@
     "maturity_date_minguo": "120年10月21日",
     "maturity_date": "2031-10-21",
     "issue_amount": "新台幣35億元整"
+  },
+  {
+    "file_id": "11500063771",
+    "company_name": "高力熱處理工業股份有限公司",
+    "bond_name": "高力熱處理工業股份有限公司國內第六次無擔保轉換公司債",
+    "cb_code": "89966",
+    "stock_code": "8996",
+    "short_name": "高力六",
+    "announcement_date_minguo": "115年10月15日",
+    "announcement_date": "2026-10-15",
+    "issue_date_minguo": "115年10月22日",
+    "issue_date": "2026-10-22",
+    "maturity_date_minguo": "120年10月22日",
+    "maturity_date": "2031-10-22",
+    "issue_amount": "新台幣15億元整"
+  },
+  {
+    "file_id": "11500064031",
+    "company_name": "啟碁科技股份有限公司",
+    "bond_name": "啟碁科技股份有限公司國內第五次無擔保轉換公司債",
+    "cb_code": "62855",
+    "stock_code": "6285",
+    "short_name": "啟碁五",
+    "announcement_date_minguo": "115年10月16日",
+    "announcement_date": "2026-10-16",
+    "issue_date_minguo": "115年10月23日",
+    "issue_date": "2026-10-23",
+    "maturity_date_minguo": "118年10月23日",
+    "maturity_date": "2029-10-23",
+    "issue_amount": "新台幣20億元整"
   }
 ]
