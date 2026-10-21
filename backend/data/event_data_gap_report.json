@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-18T17:15:07",
+  "generated_at": "2026-10-21T19:24:27",
   "database": "D:\\bond\\backend\\data\\cb_event_master.sqlite",
   "required_stages": [
     "BOARD_RESOLUTION",
@@ -16,15 +16,15 @@
     "CBAS_ACTUAL"
   ],
   "summary": {
-    "issues": 625,
-    "events": 3738,
-    "issues_with_missing_stages": 625
+    "issues": 626,
+    "events": 3743,
+    "issues_with_missing_stages": 626
   },
   "stage_summary": {
     "BOARD_RESOLUTION": {
-      "observed_events": 126,
+      "observed_events": 128,
       "inferred_events": 503,
-      "issues_with_stage": 555
+      "issues_with_stage": 556
     },
     "FILING": {
       "observed_events": 20,
@@ -4432,6 +4432,31 @@
         "CBAS_ACTUAL"
       ],
       "event_count": 7
+    },
+    {
+      "issue_id": "issue_edca204d9d4a2e8955c7",
+      "stock_code": "3135",
+      "cb_code": null,
+      "short_name": null,
+      "company_name": "凌航",
+      "observed_stages": [
+        "BOARD_RESOLUTION"
+      ],
+      "inferred_stages": [],
+      "missing_stages": [
+        "FILING",
+        "EFFECTIVE",
+        "PRICING",
+        "AUCTION_BID_START",
+        "AUCTION_BID_END",
+        "BOOKBUILDING_START",
+        "BOOKBUILDING_END",
+        "BOOKBUILDING_RESULT",
+        "UNDERWRITING_NOTICE",
+        "LISTING",
+        "CBAS_ACTUAL"
+      ],
+      "event_count": 1
     },
     {
       "issue_id": "issue_6b7eabc29a53dd7423ef",
@@ -10164,7 +10189,8 @@
       "short_name": null,
       "company_name": "光譜",
       "observed_stages": [
-        "BOARD_RESOLUTION"
+        "BOARD_RESOLUTION",
+        "PAYMENT_BANK"
       ],
       "inferred_stages": [],
       "missing_stages": [
@@ -10180,7 +10206,7 @@
         "LISTING",
         "CBAS_ACTUAL"
       ],
-      "event_count": 1
+      "event_count": 2
     },
     {
       "issue_id": "issue_b0ab76d8db452eaa1ffa",
@@ -12123,7 +12149,7 @@
         "UNDERWRITING_NOTICE",
         "CBAS_ACTUAL"
       ],
-      "event_count": 9
+      "event_count": 10
     },
     {
       "issue_id": "issue_c30c3b2f49fea89e0b1d",
@@ -13222,7 +13248,8 @@
       "short_name": null,
       "company_name": "正瀚-創",
       "observed_stages": [
-        "BOARD_RESOLUTION"
+        "BOARD_RESOLUTION",
+        "PAYMENT_BANK"
       ],
       "inferred_stages": [],
       "missing_stages": [
@@ -13238,7 +13265,7 @@
         "LISTING",
         "CBAS_ACTUAL"
       ],
-      "event_count": 1
+      "event_count": 2
     },
     {
       "issue_id": "issue_12ca5f3bf2a07d0810f0",
@@ -17166,12 +17193,13 @@
       "stock_code": "8996",
       "cb_code": "89964",
       "short_name": "高力四",
-      "company_name": "高力熱處理",
+      "company_name": "高力",
       "observed_stages": [
         "AUCTION_BID_END",
         "AUCTION_BID_START",
         "BOARD_RESOLUTION",
         "LISTING",
+        "PAYMENT_BANK",
         "PRICING"
       ],
       "inferred_stages": [
@@ -17190,7 +17218,7 @@
         "UNDERWRITING_NOTICE",
         "CBAS_ACTUAL"
       ],
-      "event_count": 12
+      "event_count": 13
     },
     {
       "issue_id": "issue_e18b3bdde1a5e1c3f3ae",

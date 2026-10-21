@@ -16468,5 +16468,35 @@
     "volume": 1240320,
     "foreign_net": -50.5,
     "trust_net": -14.0
+  },
+  {
+    "date": "2026-10-19",
+    "open": 220.0,
+    "high": 226.5,
+    "low": 211.5,
+    "close": 226.0,
+    "volume": 612506,
+    "foreign_net": -39.0,
+    "trust_net": -14.0
+  },
+  {
+    "date": "2026-10-20",
+    "open": 240.0,
+    "high": 246.0,
+    "low": 220.5,
+    "close": 226.0,
+    "volume": 691526,
+    "foreign_net": 24.0,
+    "trust_net": -13.0
+  },
+  {
+    "date": "2026-10-21",
+    "open": 235.5,
+    "high": 248.5,
+    "low": 233.0,
+    "close": 248.5,
+    "volume": 2423594,
+    "foreign_net": -32.5,
+    "trust_net": -7.0
   }
 ]

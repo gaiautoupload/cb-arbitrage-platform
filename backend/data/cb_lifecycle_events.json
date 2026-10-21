@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-18T17:15:07",
+  "generated_at": "2026-10-21T19:24:26",
   "source_files": {
     "mops_wiki_db": "mops_wiki_db.json",
     "parsed_bonds": "parsed_bonds.json",
@@ -12,16 +12,16 @@
     "Generated linked BOARD_RESOLUTION/EFFECTIVE dates are retained only as low-confidence proxy events."
   ],
   "summary": {
-    "total_events": 3646,
-    "actual_or_observed_events": 1426,
+    "total_events": 3651,
+    "actual_or_observed_events": 1431,
     "inferred_events": 2220,
     "by_stage": {
-      "BOARD_RESOLUTION": 599,
+      "BOARD_RESOLUTION": 601,
       "FILING": 20,
       "EFFECTIVE": 548,
       "PRICING": 541,
       "FINAL_PRICING": 2,
-      "PAYMENT_BANK": 50,
+      "PAYMENT_BANK": 53,
       "AUCTION_BID_START": 71,
       "AUCTION_BID_END": 71,
       "AUCTION_RESULT_ESTIMATED": 71,
@@ -10728,6 +10728,20 @@
       "confidence": 0.3,
       "is_inferred": true,
       "based_on": "2023-07-03"
+    },
+    {
+      "stock_code": "3135",
+      "company_name": "凌航",
+      "short_name": "",
+      "stage": "BOARD_RESOLUTION",
+      "date": "2026-10-20",
+      "source": "mops_wiki_db",
+      "confidence": 0.85,
+      "is_inferred": false,
+      "title": "公告本公司國內第二次無擔保轉換公司債(凌航二)115年第3季\r\n轉換普通股發行新股基準日",
+      "summary": "董事會/股東會決議: 公告本公司國內第二次無擔保轉換公司債(凌航二)115年第3季\r\n轉換普通股發行新股基準日",
+      "event_type": "CB_ISSUANCE",
+      "published_at": "2026-10-20T151410"
     },
     {
       "stock_code": "3138",
@@ -25138,6 +25152,20 @@
       "published_at": "2026-08-14T164319"
     },
     {
+      "stock_code": "5381",
+      "company_name": "光譜",
+      "short_name": "",
+      "stage": "PAYMENT_BANK",
+      "date": "2026-10-20",
+      "source": "mops_wiki_db",
+      "confidence": 0.85,
+      "is_inferred": false,
+      "title": "公告本公司國內第三次有擔保轉換公司債代收價款\r\n及存儲專戶行庫",
+      "summary": "代收價款/專戶: 公告本公司國內第三次有擔保轉換公司債代收價款\r\n及存儲專戶行庫",
+      "event_type": "CB_ISSUANCE",
+      "published_at": "2026-10-20T161626"
+    },
+    {
       "stock_code": "5386",
       "company_name": "青雲",
       "short_name": "",
@@ -30185,6 +30213,20 @@
       "published_at": "2026-10-13T141640"
     },
     {
+      "stock_code": "6274",
+      "company_name": "台燿",
+      "short_name": "台燿三",
+      "stage": "BOARD_RESOLUTION",
+      "date": "2026-10-20",
+      "source": "mops_wiki_db",
+      "confidence": 0.85,
+      "is_inferred": false,
+      "title": "公告本公司國內第六次無擔保轉換公司債之轉換價格及溢價率",
+      "summary": "董事會/股東會決議: 公告本公司國內第六次無擔保轉換公司債之轉換價格及溢價率",
+      "event_type": "CB_ISSUANCE",
+      "published_at": "2026-10-20T183705"
+    },
+    {
       "stock_code": "6275",
       "company_name": "元山科技工業股份有限公司",
       "short_name": "元山六",
@@ -32883,6 +32925,20 @@
       "summary": "董事會/股東會決議: 公告本公司董事會決議發行國內第一次有擔保轉換公司債",
       "event_type": "CB_ISSUANCE",
       "published_at": "2026-08-19T160834"
+    },
+    {
+      "stock_code": "6534",
+      "company_name": "正瀚-創",
+      "short_name": "",
+      "stage": "PAYMENT_BANK",
+      "date": "2026-10-20",
+      "source": "mops_wiki_db",
+      "confidence": 0.85,
+      "is_inferred": false,
+      "title": "公告本公司簽定國內第一次有擔保轉換公司債代收及\r\n存儲債款專戶合約",
+      "summary": "代收價款/專戶: 公告本公司簽定國內第一次有擔保轉換公司債代收及\r\n存儲債款專戶合約",
+      "event_type": "CB_ISSUANCE",
+      "published_at": "2026-10-20T142009"
     },
     {
       "stock_code": "6538",
@@ -42377,6 +42433,20 @@
       "is_inferred": false,
       "title": "高力六 announcement/pricing date",
       "cb_code": "89966"
+    },
+    {
+      "stock_code": "8996",
+      "company_name": "高力",
+      "short_name": "高力四",
+      "stage": "PAYMENT_BANK",
+      "date": "2026-10-20",
+      "source": "mops_wiki_db",
+      "confidence": 0.85,
+      "is_inferred": false,
+      "title": "公告本公司國內第六次無擔保轉換公司債收足債款",
+      "summary": "代收價款/專戶: 公告本公司國內第六次無擔保轉換公司債收足債款",
+      "event_type": "CB_ISSUANCE",
+      "published_at": "2026-10-20T143055"
     },
     {
       "stock_code": "8996",
