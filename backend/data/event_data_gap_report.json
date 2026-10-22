@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-21T19:24:27",
+  "generated_at": "2026-10-22T19:41:09",
   "database": "D:\\bond\\backend\\data\\cb_event_master.sqlite",
   "required_stages": [
     "BOARD_RESOLUTION",
@@ -16,15 +16,15 @@
     "CBAS_ACTUAL"
   ],
   "summary": {
-    "issues": 626,
-    "events": 3743,
-    "issues_with_missing_stages": 626
+    "issues": 629,
+    "events": 3758,
+    "issues_with_missing_stages": 629
   },
   "stage_summary": {
     "BOARD_RESOLUTION": {
-      "observed_events": 128,
-      "inferred_events": 503,
-      "issues_with_stage": 556
+      "observed_events": 129,
+      "inferred_events": 504,
+      "issues_with_stage": 558
     },
     "FILING": {
       "observed_events": 20,
@@ -33,23 +33,23 @@
     },
     "EFFECTIVE": {
       "observed_events": 9,
-      "inferred_events": 541,
-      "issues_with_stage": 542
+      "inferred_events": 543,
+      "issues_with_stage": 544
     },
     "PRICING": {
-      "observed_events": 541,
+      "observed_events": 543,
       "inferred_events": 0,
-      "issues_with_stage": 540
+      "issues_with_stage": 542
     },
     "AUCTION_BID_START": {
-      "observed_events": 84,
-      "inferred_events": 0,
-      "issues_with_stage": 82
-    },
-    "AUCTION_BID_END": {
       "observed_events": 85,
       "inferred_events": 0,
-      "issues_with_stage": 82
+      "issues_with_stage": 83
+    },
+    "AUCTION_BID_END": {
+      "observed_events": 86,
+      "inferred_events": 0,
+      "issues_with_stage": 83
     },
     "BOOKBUILDING_START": {
       "observed_events": 0,
@@ -72,9 +72,9 @@
       "issues_with_stage": 0
     },
     "LISTING": {
-      "observed_events": 547,
+      "observed_events": 549,
       "inferred_events": 0,
-      "issues_with_stage": 543
+      "issues_with_stage": 545
     },
     "CBAS_ACTUAL": {
       "observed_events": 0,
@@ -138,6 +138,36 @@
         "CBAS_ACTUAL"
       ],
       "event_count": 3
+    },
+    {
+      "issue_id": "issue_ad280e29a5db9238d7e7",
+      "stock_code": "1295",
+      "cb_code": "12951",
+      "short_name": "生合一",
+      "company_name": "生合生物科技股份有限公司",
+      "observed_stages": [
+        "AUCTION_BID_END",
+        "AUCTION_BID_START",
+        "LISTING",
+        "PRICING"
+      ],
+      "inferred_stages": [
+        "AUCTION_RESULT_ESTIMATED",
+        "BOARD_RESOLUTION",
+        "CBAS_PROXY_END",
+        "CBAS_PROXY_START",
+        "EFFECTIVE",
+        "T_PLUS_19_EXIT_PROXY"
+      ],
+      "missing_stages": [
+        "FILING",
+        "BOOKBUILDING_START",
+        "BOOKBUILDING_END",
+        "BOOKBUILDING_RESULT",
+        "UNDERWRITING_NOTICE",
+        "CBAS_ACTUAL"
+      ],
+      "event_count": 10
     },
     {
       "issue_id": "issue_534bec36092fcf4a9e49",
@@ -5538,6 +5568,7 @@
       "observed_stages": [
         "BOARD_RESOLUTION",
         "LISTING",
+        "PAYMENT_BANK",
         "PRICING"
       ],
       "inferred_stages": [
@@ -5557,7 +5588,7 @@
         "UNDERWRITING_NOTICE",
         "CBAS_ACTUAL"
       ],
-      "event_count": 8
+      "event_count": 9
     },
     {
       "issue_id": "issue_7f5d80272064c5ed609e",
@@ -12178,6 +12209,32 @@
       "event_count": 4
     },
     {
+      "issue_id": "issue_91da58b79c1da8ec5bf7",
+      "stock_code": "6274",
+      "cb_code": "62746",
+      "short_name": "台燿六",
+      "company_name": "台燿科技股份有限公司",
+      "observed_stages": [
+        "LISTING",
+        "PRICING"
+      ],
+      "inferred_stages": [
+        "EFFECTIVE"
+      ],
+      "missing_stages": [
+        "BOARD_RESOLUTION",
+        "FILING",
+        "AUCTION_BID_START",
+        "AUCTION_BID_END",
+        "BOOKBUILDING_START",
+        "BOOKBUILDING_END",
+        "BOOKBUILDING_RESULT",
+        "UNDERWRITING_NOTICE",
+        "CBAS_ACTUAL"
+      ],
+      "event_count": 3
+    },
+    {
       "issue_id": "issue_9262ff03f0651f921e53",
       "stock_code": "6275",
       "cb_code": "62756",
@@ -15305,6 +15362,31 @@
         "CBAS_ACTUAL"
       ],
       "event_count": 9
+    },
+    {
+      "issue_id": "issue_9ba6cdfd59062b1f6e0e",
+      "stock_code": "7788",
+      "cb_code": null,
+      "short_name": null,
+      "company_name": "松川精密",
+      "observed_stages": [
+        "BOARD_RESOLUTION"
+      ],
+      "inferred_stages": [],
+      "missing_stages": [
+        "FILING",
+        "EFFECTIVE",
+        "PRICING",
+        "AUCTION_BID_START",
+        "AUCTION_BID_END",
+        "BOOKBUILDING_START",
+        "BOOKBUILDING_END",
+        "BOOKBUILDING_RESULT",
+        "UNDERWRITING_NOTICE",
+        "LISTING",
+        "CBAS_ACTUAL"
+      ],
+      "event_count": 1
     },
     {
       "issue_id": "issue_8429b7fc58fe3b422936",

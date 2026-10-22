@@ -8263,5 +8263,35 @@
     "maturity_date_minguo": "118年10月23日",
     "maturity_date": "2029-10-23",
     "issue_amount": "新台幣20億元整"
+  },
+  {
+    "file_id": "11500064891",
+    "company_name": "生合生物科技股份有限公司",
+    "bond_name": "生合生物科技股份有限公司國內第一次無擔保轉換公司債",
+    "cb_code": "12951",
+    "stock_code": "1295",
+    "short_name": "生合一",
+    "announcement_date_minguo": "115年10月22日",
+    "announcement_date": "2026-10-22",
+    "issue_date_minguo": "115年10月29日",
+    "issue_date": "2026-10-29",
+    "maturity_date_minguo": "118年10月29日",
+    "maturity_date": "2029-10-29",
+    "issue_amount": "4億元整"
+  },
+  {
+    "file_id": "11500064941",
+    "company_name": "台燿科技股份有限公司",
+    "bond_name": "台燿科技股份有限公司國內第六次無擔保轉換公司債",
+    "cb_code": "62746",
+    "stock_code": "6274",
+    "short_name": "台燿六",
+    "announcement_date_minguo": "115年10月22日",
+    "announcement_date": "2026-10-22",
+    "issue_date_minguo": "115年10月29日",
+    "issue_date": "2026-10-29",
+    "maturity_date_minguo": "120年10月29日",
+    "maturity_date": "2031-10-29",
+    "issue_amount": "新台幣100億元整"
   }
 ]
