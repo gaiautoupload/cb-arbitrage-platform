@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-22T19:27:04+08:00",
+  "generated_at": "2026-10-28T19:14:27+08:00",
   "source": "Google News RSS",
   "request_policy": "focus watchlist only; one query per stock; retries with backoff; preserve prior cache on failure",
   "stocks": {
@@ -8,40 +8,16 @@
       "query_url": "https://news.google.com/rss/search?q=%22%E9%9B%99%E9%8D%B5%22%204764%20%E8%82%A1%E7%A5%A8&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
       "items": [
         {
-          "title": "雙鍵（4764）深度解析：AI 伺服器與高頻通訊材料驅動，特用化學品龍頭迎向高階電子材料爆發期 - 913 理財估測站",
-          "url": "https://news.google.com/rss/articles/CBMiQ0FVX3lxTFBEc3JWM0Q3dHhUYWswWUVUblhwemFYQ3kxWWhaWUVaeFNGT08yekszY0RXUEl3Z1dSMWNKRjhHNjEzRTg?oc=5",
-          "source": "913 理財估測站",
-          "published_at": "2026-10-17T04:59:25+08:00"
-        },
-        {
-          "title": "4764 雙鍵 - https://youtu.be/kKmXU7POUY4?s... - 股市爆料同學會 - CMoney",
-          "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE94Vk1xX3pOLTNMb2xGNXBfU1FfT0JyekZsSjZTZm9oaktWd1hjWmw0UWs0WU9IM25scnBEZS1YNTZnRS1QZDFlYjNqSEpxczJjOWwzZC1hYkg?oc=5",
-          "source": "CMoney",
-          "published_at": "2026-10-13T04:41:08+08:00"
-        },
-        {
-          "title": "雙鍵(4764) 個股概覽 | 個股 - 股市 - CMoney",
-          "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBWekwyR09tLWs5dzBsRk5Bc0d3WnhKRlcwOHpSZV9EcE1NQ3dfRzhBTTgwTDdpWHpabUdTbEpiLVFaemE5YldyOGRzS1B5N2NhZkV3?oc=5",
-          "source": "CMoney",
-          "published_at": "2026-10-10T04:57:11+08:00"
-        },
-        {
-          "title": "4764 雙鍵- 好險！ - 股市爆料同學會 - CMoney",
-          "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5ZanNvNXNZSF9DRWxwMW9RMjhxeUlqdjB5Qm1sVllRcno1TnhkbktQWVp3ZjRyWHpVZGItaVlVYXl2QndpSFBCZUJOSG5wSmFnWlg5cFJ1eTQ?oc=5",
-          "source": "CMoney",
-          "published_at": "2026-10-08T13:57:45+08:00"
-        },
-        {
-          "title": "4764 雙鍵- 雙鍵coc也是潛力無窮- 股市爆料同學會 - CMoney",
-          "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9MNnZ2YlRibjlJckNWVkRiQUloanQ3SHFUVXdqVTRFdjdHUG9LZnNkb1EySk9FWGdSMC1EMG9qMEh0ZWVjQlNmRVhoRmYxUFZRTmsxWF9DWUg?oc=5",
-          "source": "CMoney",
-          "published_at": "2026-10-04T15:00:00+08:00"
-        },
-        {
           "title": "【09/14 申報轉讓】雙鍵(4764)大股東利用他人名義持有者顥揚投資有限公司將於09/17申報轉讓雙鍵股票500張 - CMoney投資網誌",
           "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNZC01SnhUb1A2MEc2SGJ5MmJySnlFRW1Ib2Nqb3Zmdnptbnp5emNWNjlDNFFSOEpTNGJsanpibFQzTkZxTWZEREw1X0RQVXZaT01BdVNyc2pWdDdNeG9sMS0tUGZsaVhFd0NUbjB5U1BSSWZ3bGVwLTNmQ1lYVl9VX3ZCT3ZTX1lod3c?oc=5",
           "source": "CMoney投資網誌",
           "published_at": "2026-09-14T15:00:00+08:00"
+        },
+        {
+          "title": "【13:21 即時新聞】雙鍵(4764)股價上漲逾5%，5G/6G關鍵樹脂獲利升溫帶動買盤，短線技術面由弱轉穩、法人與主力籌碼仍待修復 - CMoney投資網誌",
+          "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOcmNmZnl4cDVnSW9ybXBoaFhHSXZXR3lNTlptbVFXSkZzdTBZWWNrMVpqaTlSMHdXdTZLQ1ROY2lWN0JGaTFmMGFPaWJLZFpmSnVpUzF0alB4ZldvdDEwQmtfbVhITV9tcmhTWm5uZWdUV2FDak5GQ2EzSHJLQXpXN3ZIRXgtRDhaalZCc2ln?oc=5",
+          "source": "CMoney投資網誌",
+          "published_at": "2026-09-04T15:00:00+08:00"
         },
         {
           "title": "最新股票抽籤／化工大廠雙鍵「抽中賺7萬」！這檔拿2萬多去抽，中籤進帳1萬…8檔申購時間一次看 - 今周刊",
@@ -50,22 +26,46 @@
           "published_at": "2026-09-03T15:00:00+08:00"
         },
         {
-          "title": "抽中賺7萬！台股本週雙鍵「8檔股票」申購：這檔本金低、價差破萬 - NOWnews今日新聞",
-          "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTFBVb3FaODJPcExob3NtOElYaElNTlYyWHJ0c1QxQ0E0dzdaclBrc2JVaTVIQV8xQUF3WlVJZHB5YjJPVVVWRjlQYm9MNmHSAVJBVV95cUxPR1FTZ2dBNUIybHFkemplUkFSSTh6SmJacG5HcklsWVRWNWQ4cFVlVnhmX19GTGpVWXdUcjhXX0V3OFQ5d0xUS3UtZlZFX19aUUJB?oc=5",
-          "source": "NOWnews今日新聞",
-          "published_at": "2026-09-03T15:00:00+08:00"
-        },
-        {
-          "title": "雙鍵(4764)-同學風向與貼文摘要 - 股市爆料同學會 - CMoney",
-          "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9aNWkwbk9qdy0wQUQzeGY0ZzczTzF6cGxoV294WS1lTDVhcHZvMG1vMTgxRThiX1hmM09Na0tMNk11cmVOa05uMTg5anVST1pKRVVGa2c3MEdRbk1DaEZUUWxB?oc=5",
-          "source": "CMoney",
-          "published_at": "2026-08-16T00:23:21+08:00"
-        },
-        {
           "title": "雙鍵(4764) 首季每股盈餘年增178%創新高，股價卻連續3日重挫近3成 - 口袋證券",
           "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9TR0hYOHRvT29yeF82WFNiaUVKYjV5MUNIa2VVcW81SGhfWlhpQV9RalNmUTZCZWZLSDFjSnBrSDI5bE1Ea3NINGJ1Z0szbERXdHd4b1h3?oc=5",
           "source": "口袋證券",
           "published_at": "2026-07-21T15:00:00+08:00"
+        },
+        {
+          "title": "【06/11 申報轉讓】雙鍵(4764)大股東王棟海將於06/14申報轉讓雙鍵股票500張-CMoney 小編 - CMoney投資網誌",
+          "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPY2R3c1ZVUTZtbXB5eDFpOUxDb0dGbGk4MHN2YnVXaS04NDlfVko3SW85X2pPSUd3N3p1d2d4WWtXLVlpSW9IWTd0bm1mSHpydFh1aEZ4ZC1HNVRDVzA3UUpaTDgybDJmWTczNkZQaGVHRDN5SXdMZlVvVWhYSzNSeDJtdEtEVGxvdXc?oc=5",
+          "source": "CMoney投資網誌",
+          "published_at": "2026-06-11T15:00:00+08:00"
+        },
+        {
+          "title": "【09:13 即時新聞】雙鍵(4764)急挫跌停，電子材料題材退燒、籌碼鬆動壓力湧現 - CMoney投資網誌",
+          "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPNnZ6OWN5SzdzN29QcWh5R2I0ZVRib1ZwSzh1ZVJEOXhkR3BGejZkQWE2b3hpRU1NRGVCd1QyWDFIaUVSbFNvVWxyMnpTVmJNMDM4cnJETjdlY2lxZjlaM05mVW5LYVJqUjVyS1ZkQy1tRGtGS1NOSkYzOEtzLW5DMmVsUTRwcUdRUWlDckxR?oc=5",
+          "source": "CMoney投資網誌",
+          "published_at": "2026-01-02T16:00:00+08:00"
+        },
+        {
+          "title": "【09:21 即時新聞】雙鍵(4764)強勢漲停，技術面多頭排列、籌碼活絡，化工族群資金湧入推升短線動能 - CMoney",
+          "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBPc3JsVDI4cHpWYW9uSG5fNXlnS0RoMnlKdFRobkVFc2czbDJlRnpLU1lPVHcyNDhUMlY5RUtsOWczcUVOaTJnMjIxWHliYXduV3J1czNOa1ZNYU9XNU8xTWx2TlBGYjQ?oc=5",
+          "source": "CMoney",
+          "published_at": "2025-10-22T15:00:00+08:00"
+        },
+        {
+          "title": "雙鍵(4764)含雙鍵的etf與基金成分股比例與變動情況 - 股市爆料同學會 - CMoney",
+          "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE94Yk1Mam5OeG4wenFoNDl2VkY0aG1RT0w3Y1FlaFlRdnludmdsNFBRbzZ1NXZkdmxZREtMY0RBelFlT3JZWENMS1lwaFFBcEl0YmhsM1M0RExrY0VUVFlDTWpBYWU?oc=5",
+          "source": "CMoney",
+          "published_at": "2024-10-02T23:38:29+08:00"
+        },
+        {
+          "title": "雙鍵(4764)子公司與轉投資主要持股明細 - 股市爆料同學會 - CMoney",
+          "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBYLXN4WGNmN09XeGoyNjJ0aHhzdWpYYTMzM0tha3JMODhzeWd5REU3NXpONlViR3FmbnBMQVZyNEg5TWVVUTVyYXYxODktSGFrajE5a3gyV00tLUFfZnZQNnhTSQ?oc=5",
+          "source": "CMoney",
+          "published_at": "2024-08-22T12:26:20+08:00"
+        },
+        {
+          "title": "雙鍵(4764) 今日股價與討論 - 股市爆料同學會 - CMoney",
+          "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBLeF93UmFSWlhSMXoxbEFQWkx2THdsLTlISmVobjFFcEJJS1pFOHR1eHhrZGN6OHlLOFJpTjZaUE4ybXV0Y3lSSnlIb0RCb0U?oc=5",
+          "source": "CMoney",
+          "published_at": "2021-11-20T14:12:19+08:00"
         }
       ],
       "stale_cache": false
@@ -75,28 +75,22 @@
       "query_url": "https://news.google.com/rss/search?q=%22%E8%81%AF%E9%9B%BB%22%202303%20%E8%82%A1%E7%A5%A8&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
       "items": [
         {
-          "title": "2303 聯電 - 股票期貨熱門成交標的(第1~10名) - 股市爆料同學會 - CMoney",
-          "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5BcnVKd1ZSVlVreDJTWl84R3dxaGhBc2NwNFVBOVJnaWhrVG56QlJoeEtoNURDODZoZG9pVks0THpNekJ6cFIzbzhBNjd6Z3E4ODhOU1E5TlU?oc=5",
-          "source": "CMoney",
-          "published_at": "2026-10-21T07:13:30+08:00"
-        },
-        {
-          "title": "2303 聯電 - 股票期貨熱門成交標的- 股市爆料同學會 - CMoney",
-          "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE40MW5CVTRoQVItZXBUWHlpdEJHdENtVDhiUGU5cXQyWVN0OVRGOG81ZWxZMFZsQklyak4yV2VIN3RNYXdUbEl4TE1raE5CYlpQYlVQaWRQZGo?oc=5",
-          "source": "CMoney",
-          "published_at": "2026-10-12T06:24:19+08:00"
-        },
-        {
-          "title": "2303 聯電 - 聯電今天爆跌的原因？ - 股市爆料同學會 - CMoney",
-          "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5rUzRHTjBBVHI3V3QyVlA4MEZJWENIZmVNRlhFckVsNUxOUXg0V2p2OFl6NFRvQmR3ZFlHanQ4eHJ0RUc4RkFhcEJwQ2tacTNuTW1MbEFZNEQ?oc=5",
-          "source": "CMoney",
-          "published_at": "2026-10-05T21:02:12+08:00"
+          "title": "聯電9月營收衝破歷史新高！股價連跌兩天摜破150元 - 理財周刊",
+          "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5JU2JUVVd4bjJmVDdsUDlwRFU1ZVIzWHNJblpBSjY3WjZFZWE3dDEtYnhlOHZuT0RncTQ4ZWVOSTFxYmNnUml1US1xVHdmWmdOMEVnQVJYTE5fcklSMWVjd2x1YzMtZUtoeXJMQXM4Yw?oc=5",
+          "source": "理財周刊",
+          "published_at": "2026-10-06T15:00:00+08:00"
         },
         {
           "title": "聯電、日月光投控、國巨都被賣了…00981A連砍30檔，重災區有誰？瑤池金母看空台股？他揭先觀察這件事 - 今周刊",
           "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOcVFVenI3dkRvbldpVTRwYVlwSlJaam9tZ2FpWGZQTXJ0MHA1WU5ESTFfLXAweHBXdHZIQUhIdTYtcVhxMzFrazBGV1FsTEpTTVpORmhHMnU3YjBaSWxOSUFETW1QaVhPcUVhOU1jV0dMbWtOUjVaZDE2MU81Zy14cQ?oc=5",
           "source": "今周刊",
           "published_at": "2026-09-27T15:00:00+08:00"
+        },
+        {
+          "title": "2303 聯電 - 聯電股價預估- 股市爆料同學會 - CMoney",
+          "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5fZ0czLVY3T2Nod3BNaGk3YXhzY1UzVk9pM0tXSGlxMUpDekprbmFJeEdJZFhMSlYySnc0MWxLU1VZZkRXUXd6bnYzVUtCVGZhNUw5UHkzRXQ?oc=5",
+          "source": "CMoney",
+          "published_at": "2026-09-23T15:00:00+08:00"
         },
         {
           "title": "三大法人買賣超 – 外資買超(2454)聯發科、(3711)日月光投控，投信買超(2303)聯電、(1815)富喬，法人合計賣超503.12億元 - 永豐金證券",
@@ -111,28 +105,34 @@
           "published_at": "2026-09-08T15:00:00+08:00"
         },
         {
-          "title": "【股市焦點】聯電爆量漲停後驚見「只跌1元」！新光證券：下一波盯這關鍵 - 鉅亨網",
-          "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9fa2Vaa2dxN0h2ZjU1dVpUT1Y5cGd3ZXZyTC01OHloSmRvY2JGa25ZSlBIYTFzWDRBU0hLdk5HVFZ4MjM5S3lQYmpqczdNbUU?oc=5",
-          "source": "鉅亨網",
-          "published_at": "2026-09-01T15:00:00+08:00"
-        },
-        {
-          "title": "三大法人買賣超 – 外資買超(2303)聯電、(2330)台積電，投信買超(3017)奇鋐、(1303)南亞，法人合計買超468.18億元 - 永豐金證券",
-          "url": "https://news.google.com/rss/articles/CBMixwRBVV95cUxNa1BKQWVGRTZFY2NLRlRPbS0xNGpHM3R4c3JFTFNSV09CSGFCRVBUWmt4bGhXZFptNkYxbFBPNzByYVNHZ2tuRUkwMWJ5aHNXTkFrTTJjenV4VE9IblcyRE0tQURQMjhHel9XZmx3ZEZHbWZKYkxEVkc4cXFOaUZjX1VWOXJodDhBMWt3bHRJM2tyMUZVOWRydUhyb1N3Mm0tZkpMcVJBSzRzY3dEdUMxQ1JsUGRlMFFpaGY2czFlN1BwX3VzRGlHUndubE0wM3NPMll4UHVQM1RvZU9zWnYyZEVjZzY5Vzg5ZlM4SkduMUZoa1BYcU5fNVZKTHBOeC1oZ2cxa1picUJzVlF6Qk4zS2ljek1ITUJjOVZKSmNTYUVaMkpXYVAwMmNLZWZxSjV4WGpTWC16YVo2bG5ldGhiblBUMWxESGIwdnlpbWVxbUkxYk93d05fVER0eTNFVC15cGZyTy10VnJYbDNWenRBamxaZ05zODVTQ1pWUGlHcm1weGFYeVduVWVJWXpRcFdjX0NSWldUbXI5U25UVWVqb3I2NkFBNWdxODhyb0FXWGdkLWVxWUFhOG55eVlmeXZFWklMOVUtd3dBaVhyX0JBY1VfSHlGRmw0WEJZSmFoM091VUx2X0RyRkIxTldBTy0zRVl2SHB4dE5NZU0tSFRIeWxqLUlucDdobm5IR1duV3B2MnZBNndQanZicS0xZWV5N044bklGc0VUUjQ4Nlc4eEJxUE03UGJJeWRjT2JTNy1DVldsQ0RZ?oc=5",
-          "source": "永豐金證券",
-          "published_at": "2026-08-31T15:00:00+08:00"
-        },
-        {
-          "title": "2303 聯電 - 股票市場總是有人錦上添花- 股市爆料同學會 - CMoney",
-          "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBhclE2M0M2QjhCSi0zelJ5VXJtMlRyWHd5Nl9pN0Q3dXIzWDhRNDl6OVdzYkdua20zYnRNaXFURzlVWVhTTEFJbmQydmFmRGFUMG5TTXd0eXQ?oc=5",
-          "source": "CMoney",
-          "published_at": "2026-08-28T15:00:00+08:00"
-        },
-        {
           "title": "聯電（2303）二度籌資！570億海外發債是利多還是警訊？｜股市話題｜豐雲學堂 2026 年 10 月 - 永豐金證券",
           "url": "https://news.google.com/rss/articles/CBMilANBVV95cUxNNjV2c3QzMURleDFFd1BET1hyWWdxM0JiaXM1S1BCQ0VfOU9ZZzlrakFxMFVzUWQtTkFlWE96cWVSaXRaN1RXdFp2TWxFNjhYdURBMV9RSUhNSkNXVmNnejdIT2I3MDhVV2J2NExSZDRWblNINWtQbWdSS0FXQWs0NjNlTmpjUm9WWG9fSVNUS1h6bzhsX1RXLVJGQURTWDFJNzZ5SmZsMDFYeUdvNzhaN1lzbXNndTd4dXZOc3JxM1hoUGFHcTZ2NlhIOHFwVXhEMHRfV1pzdV9sejdDWFJjVDdKWDRLRkU5cnZuUHFuTmpnQjRPVE5qcENqNlhraENZNXpyNlAtZDJTdmg0bDQ1YTBPcW14VFBrVmxYTHh0djVQM2dGTWhJbUdwVDdQWU1hLWxmMk5lS0k0Tk9hMHB0RW4tbWRQVGpMRHB0eThuMmNCMHRVa3I2Rnc3RHdiaFdqNDlyLXlZMW9hNEtvZWdjTmdLVUZ0WWZ3RHhKdWZVSmxOWWVTOVVfSm5mOFFmTjZPT1dTag?oc=5",
           "source": "永豐金證券",
           "published_at": "2026-08-27T15:00:00+08:00"
+        },
+        {
+          "title": "聯電、群創、國巨、旺宏...台股反彈7千點，你的股票還趴著？14檔落後補漲股選誰？進出場位階全解析 - 今周刊",
+          "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNcGg5eHFNOHBYeFk0djJ4VUlnaFpEdlZ3RHlERnFUeUwxTjEwY3U0LWtESjU2RTl1MHBkQTJFQUpFYVdGcWRDOUQxMjRiamp4QUtOZFRfbjdWd2RlTmJvSGF6RkRqZFJiVWFQX0ZKOU5rNUxvMW5udVhrOXcxSGdLRQ?oc=5",
+          "source": "今周刊",
+          "published_at": "2026-08-26T15:00:00+08:00"
+        },
+        {
+          "title": "2303 聯電 - 聯電2303 | 2026/8/26盤前資訊分享- 股市爆料同學會 - CMoney",
+          "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE04OGNSRmRGbjctNGhaNzBaejhNUnNBT1FodHNrcXl0QmZGU0hsR0ZnWVBxSFA2SC1oZUc4RE1HU2ZoYWR3UWUxWDkzb2R0N2IzRms3MURCUWw?oc=5",
+          "source": "CMoney",
+          "published_at": "2026-08-25T15:00:00+08:00"
+        },
+        {
+          "title": "漲停後變臉！聯電上週遭外資大砍2.1萬張 今紅翻黑多空激戰 - TVBS新聞網",
+          "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFB3U3VSeVlfRV91anFZOG5FQ3l5WFI3SnNKTzZVSFgxQlgyd3hCd0RjXzNOZWxob05HYlRjc1hJMmFNNU5FRVFFRk9YSWxlQ28?oc=5",
+          "source": "TVBS新聞網",
+          "published_at": "2026-08-03T15:00:00+08:00"
+        },
+        {
+          "title": "反指標女神又發威！才賣「聯電、廣閎科」停損　今開盤亮燈漲停 - ETtoday財經雲",
+          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5UY1ZrZWViaXJtRUlrOXpCRksxMVNNZ2ItX2hDUTZDRkVHR1BSMnI5Q0tkSlJTaUNyUWhidWpqYmwtRy00YXY5LUs2Ty1BODFyWEHSAVBBVV95cUxOUUp5MnZVcXYwOXozSno3UF9Dc25xR2Q5bURNZUp3TmY3UHhyYzZScG9EUEIwdDBRWjQ1eVRoZDgxb0c1VDE5YkJaeXgwcVF1Rg?oc=5",
+          "source": "ETtoday財經雲",
+          "published_at": "2026-07-31T15:00:00+08:00"
         }
       ],
       "stale_cache": false
@@ -142,40 +142,10 @@
       "query_url": "https://news.google.com/rss/search?q=%22%E9%9B%8D%E6%99%BA%E7%A7%91%E6%8A%80%22%206683%20%E8%82%A1%E7%A5%A8&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
       "items": [
         {
-          "title": "6683 雍智科技- 關於融資。 - 股市爆料同學會 - CMoney",
-          "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5HSDZGTU5mb21QaWkxNWdFZUFBN0xlRmdST01wdWNOT1hvNkdBUHNwSUxmQTNHR0ZtYVFqcVNzT1FGSmVhd1BHREd1TS0ycXJtZmViU3R3RzQ?oc=5",
+          "title": "雍智科技(6683) 個股概覽 | 個股 - 股市 - CMoney",
+          "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTFBmZHZmQk5iQXV5akhQTEdva2k1bVlQR0NKdjZhZ0o4dFRta2s3N2hqUS1XRDJaYk54Sk1uazk4eWlmVmZkOXFaVjZB?oc=5",
           "source": "CMoney",
-          "published_at": "2026-10-19T16:57:59+08:00"
-        },
-        {
-          "title": "雍智科技9月/Q3營收雙創高；ASIC大案成明年主動能 - Yahoo股市",
-          "url": "https://news.google.com/rss/articles/CBMivwJBVV95cUxQUFZkTE5QbC1XaHlNYThKZk5YVDBWZVdYWVBqYXZpYm45bG9KSlB4VnRUZkh1V1U4U2tjZ3ZnREdvTHc2NlhYblpLaHhnZmJwS2VwZFZJWVRqay04b0RpazctRnVrSWNfUUwxZ1dFYmY3WS1DUlZnRWdNVHJVNEtBRmRndWFZQXdGdlowejc5SEMzSmczelNYQWlrQW0yX2lhOWhNYVlkaHVrZm14ZnYydm80aWNKS3VRY3d4U3VzaTdOZGg3M2dOSTY4Rld3OV9STEVQZElUekRWQl9Tb183enJTTnpGWHNqdjlOTVo2X2NrRlN1Y0xENl9OYVFLWUFnMEhiQUlkak5pTXI3bHNBYlgwZGVqZHhQMlVsWlVTNFp6MExtUDBrVHdHVW43ZWc5S0lxSTVNRTI0Z05vNkkw?oc=5",
-          "source": "Yahoo股市",
-          "published_at": "2026-10-05T15:00:00+08:00"
-        },
-        {
-          "title": "雍智科技(6683)外資、投信、法人籌碼變化與自營買賣超總表 - 股市爆料同學會 - CMoney",
-          "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5FUlZDNXV5WXNYNy13SEVPRFZ5SmhxOC1fcGFmRU5xTWVaMEtmM2E3YmZ5QUFyQ3VtMmJmci0zc0w3c1dtNG1vaU9GTmNuUXZKWEs1MEdNT1FFZEQ0cExiamthR3k?oc=5",
-          "source": "CMoney",
-          "published_at": "2026-10-05T15:00:00+08:00"
-        },
-        {
-          "title": "【11:41 即時新聞】雍智科技(6683)股價走強，AI高階測試與探針卡題材受關注 - CMoney",
-          "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBCQUtrdU9tMHhNTFQ4ZWJiTGVvTmNfRmJNV0k4NFBRQmV6V0UwWmVzSmIwdHNlMzVUaThDd3ptZmEyRjJETU1Zbkw1OUhpTzNFaXpJOTdaRlY?oc=5",
-          "source": "CMoney",
-          "published_at": "2026-09-29T15:00:00+08:00"
-        },
-        {
-          "title": "焦點股》雍智科技：獲納MSCI成分股 亮燈漲停 - 自由時報",
-          "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFAxUjdieHItZHBDdnhmN1ZiYmlDd3oyaWxuRkhVQWctc2U4OS14WGhqLW9BMnJ2Nndfel94QU1mX3VfeDlPUm1vY2JZQkwybHByLWF5YW1lYmo?oc=5",
-          "source": "自由時報",
-          "published_at": "2026-08-13T11:26:54+08:00"
-        },
-        {
-          "title": "【07/22處置股公告】雍智科技(6683) 07/22到08/04列入處置股，採分盤交易-CMoney 小編 - CMoney投資網誌",
-          "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNcXlLbUxtQXJzZDcwY29Oc012YWFDSjhHal9TNm9LNG5ZY0ZoMkh5YWp4ZEhqVHVjZmVIeXh0dW1rbElSOWFLaUZZSktjZ0YtWEJGYjk5MXNhc1FjQzdaWFZRckxlTTBJLWlfM210TlJDX1pPSlFia21qVmdaWUJYVE5QTW5SZ0hBUVE?oc=5",
-          "source": "CMoney投資網誌",
-          "published_at": "2026-07-22T15:00:00+08:00"
+          "published_at": "2026-10-25T07:42:43+08:00"
         },
         {
           "title": "雍智科技Q3營收估回升 下半年看成長 - Yahoo股市",
@@ -184,22 +154,52 @@
           "published_at": "2026-07-17T15:00:00+08:00"
         },
         {
-          "title": "6683 雍智科技- 探針股的踩踏事件- 股市爆料同學會 - CMoney",
-          "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5QZkhxYWZDcWNCeFJPd2JrbldTbklsQ0dNZzJlTVpNZEZFSG9SR0tLM1JyMC1PSzRIVUpuNnpDNU1lTDRGVUJfNWlVdjQ3XzNFTi1KVndXdFc?oc=5",
-          "source": "CMoney",
-          "published_at": "2026-07-07T15:00:00+08:00"
-        },
-        {
-          "title": "【06/29處置股公告】雍智科技(6683) 06/29到07/10列入處置股，約每5分鐘撮合一次-CMoney 小編 - CMoney投資網誌",
-          "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNMS1PQlplM0ZLVFNpcjQ3U1lMYjk2VEtxbXdvRU81c0FqTE9yZXBTMVNOc3c1cGVXYmJhb1NDOG55T21SWEtKMUZJcGdwVFlQOXdMRTI2R0l6TmlFMzNaR1hlNjRmcHJUU252LWtUUHhOV0dtdUZHTkU5aXotTTIxUkRYN1FXYnBlc2c?oc=5",
-          "source": "CMoney投資網誌",
-          "published_at": "2026-06-29T15:00:00+08:00"
-        },
-        {
           "title": "雍智科技等6/29起打入處置 聯發科、信驊等67檔列注意股 - 自由財經",
           "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE52WjRBN3J1S1F6ZUphXy1VeWJVeW5QSGFsMzV6R2hybVpSZWVNb05vVExGd19vRVl0VW9rT0ZRQ19wWG9FRjZXUzQzaUlTTlZQWk04d2E1SFlTcmxpZ2pV0gFkQVVfeXFMUEN4dmIzVEhKNDRIMFp1TjFDN1RKVk1rVlhzYnZYVGtSTmV0RDZUQmxHZEFWaHZXUnZyWUZMZjNyWk9yYTViVUVla245NnAzT1V5dzJMUHp4YXNVM0FGTXRxMTVvYw?oc=5",
           "source": "自由財經",
           "published_at": "2026-06-26T19:08:43+08:00"
+        },
+        {
+          "title": "雍智科技Q2穩步走；下半年關注ASIC新案進度 - Yahoo股市",
+          "url": "https://news.google.com/rss/articles/CBMipAJBVV95cUxOOFVod1BrQVZRNFhGa3YxYTdXamZadTFKbUhYWGp2UEtpaU9IYWk3MDRTR0lqZ2lHYmFBajdxQWdhMXZEbmNOVm9rekd5dXBJSlRmc1M1VDIwVWViQUdzdk5GVndwak9LOHh0bDd2SUpPVGlPZlFWUFVqWnFxaDBUYjlTdVlXOGltVUJoSm1oQ3FIZzBBTjZGVXlLRVNsbE0ycVhFNzdBSmx1eFo0RTd0UXkwbGNJTEtlNFJFR2dORFJWbF9KZS1zNEhITVMzTUl6YVd5ekpYeldJWVo3ZV9iWTJLdzJQMU5pWGZLNTczWTAwUzZOc29hbXFNZHN1VVNMU2M5NGZvTFdjNFdUMHlNQWQ4Rkd6czY5YkVoMTJ1V3Y0Y210?oc=5",
+          "source": "Yahoo股市",
+          "published_at": "2026-06-15T15:00:00+08:00"
+        },
+        {
+          "title": "【台股Q1風雲榜】雍智科技狂飆229%最猛…中探針、青雲也翻倍漲！20檔上櫃飆股一表看 - Yahoo股市",
+          "url": "https://news.google.com/rss/articles/CBMi_ANBVV95cUxORWw3RGotUE5ETHNObTZyYUo1YXNMMWtxNkN4d085LVcwTjgtUEJGdGJDRG9DYmRFZXEzdVp6Y0NyVlI5LWcwQlpfZ1A0OUstcjhUOFFCUUVES0Uxbl9RVl81WTVTSXRrYlM5UTBWNHJVeTZJTGhMbGFCTFpaVjlDS1ZSczJUenRRVmJyMlY2VkY3N3M3cnFqaHFwekR1NDVmRTV0MXRDZFZQd090MHFaQTd0NXdmX0t1Q29zRGxId2tVY0plVkhQX29wSTcyQnRpWlgwVVY1Q0NYR04zSXMtelBuYi1qY2x4Y1hKbHlnZnpIdjVjY0loWUdxUW5NNkxia0ZkdFZld2JLVVpXakRqSW9xQkhtNHh2MndNLWJHMHgycXFraDNhZmF3Vm02RXR0OXY3ZEJTVDFqQmlaRE5TaUZRdzRXUlBrVDBsXzhZakVweHplenRRR203bUVWNlZWbnJCV0RQb1RTY3M4aGJoSENVSjBPSHY2aE9IYUUzSGdVU1ZBczlockZ3LWdac2h0Ti11cnBuVkd0bFdUMjJjQzNNcGE2dnhyOFV3X0gtYTYwc3o5NEx3WUxNYVpFRWpLNnVEU3c1RHo2UU9HS3JEZVJaTTB5bE9tV1ZEbWNUT29vS3owd005M3liMmtNLUxHdHZERHVLZFd4NlBq?oc=5",
+          "source": "Yahoo股市",
+          "published_at": "2026-03-30T15:00:00+08:00"
+        },
+        {
+          "title": "雍智科技(6683) 做甚麼的？AI ASIC 測試介面需求旺，毛利直逼 60% 表現亮眼 - 口袋證券",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9ha3RFa2E2U1BycXZHUDNUTy0yeGRlU0RaQkFBMDNYVjJ2bmExa0RsdmJZZ0RpQ2NNOGFjczZJSHVnMW90OXpYU0NYRVpsVVFxOUtoV0pn?oc=5",
+          "source": "口袋證券",
+          "published_at": "2026-03-10T15:00:00+08:00"
+        },
+        {
+          "title": "ASIC大單在手 雍智科技今年擁好光景 - Yahoo股市",
+          "url": "https://news.google.com/rss/articles/CBMiigJBVV95cUxNZ0VlZVRuVGdDR1ZzNUNVOThXZ252eEFsTHFnVnF1UWI3TUF2cFJVM0JSdlpUOWJuU2FRU0VYTlpTTFJVcWhkTk5ZRXZlbk5vVURFblp2VUk0WFhKV084d0ZoaFFBbTdNT0xITVVQVjVaejdCZVp0dE55cF85SVNpOXJYQVlQLU5pdUVQRmcyUFNWVHFiTF8zejRfbnZiUkhjVHJGcEJlOF9Xd2JsdFY1bW5yLXZCTnkyZ205R2ZheTREbDBGS3VIX2RnU1BtdnpjamlqTVFEZTJvWENTWkdsOUZseVNCVFZMRjZvWVVkNjd5bENIN2oydk10NGRfQnQzREJyVDJPWk1hZw?oc=5",
+          "source": "Yahoo股市",
+          "published_at": "2026-02-22T16:00:00+08:00"
+        },
+        {
+          "title": "6683 雍智科技- 垃圾變黃金系列雍智- 股市爆料同學會 - CMoney",
+          "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5NMEpsTzRtQmhHTFpESmk4Q1FSOUpRQlFXTC0zWWJ1TnJyOXpNanhMRG9ZcHdRdi1Tay1xajVva3ZzVHY5d1RObmlVUWlieGIzdGZ4X0U5akg?oc=5",
+          "source": "CMoney",
+          "published_at": "2026-01-26T16:00:00+08:00"
+        },
+        {
+          "title": "雍智科技 (6683.TWO) 的分析師見解、目標價與建議 - Yahoo 財經",
+          "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFB1MUtLeThGbUE3dEZpQWJzYm8zQWFaR2tVdWZPa0V2THM5cHB4OFROU19vZ0dlWUEyNWpGbFRvSG1VcklHODdHY29fQzJCZ1pTMGdJSDBOVlllaV8wUG9wSUNESWlvWlNnUVFveUpR?oc=5",
+          "source": "Yahoo 財經",
+          "published_at": "2025-12-18T08:12:35+08:00"
+        },
+        {
+          "title": "雍智科技(6683) 今日股價與討論 - 股市爆料同學會 - CMoney",
+          "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1pd3RJLW1zQzdUR0JodlhpUGdVcDNqaDQxdG9faWFXMkx3SWx3V2RLbGhZQUZGeDVDem9nUFZMU3dmTGNJTTBGeU9mSUlzWmc?oc=5",
+          "source": "CMoney",
+          "published_at": "2021-11-20T11:27:33+08:00"
         }
       ],
       "stale_cache": false

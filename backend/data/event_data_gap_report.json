@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-22T19:41:09",
+  "generated_at": "2026-10-28T19:31:43",
   "database": "D:\\bond\\backend\\data\\cb_event_master.sqlite",
   "required_stages": [
     "BOARD_RESOLUTION",
@@ -16,15 +16,15 @@
     "CBAS_ACTUAL"
   ],
   "summary": {
-    "issues": 629,
-    "events": 3758,
-    "issues_with_missing_stages": 629
+    "issues": 631,
+    "events": 3771,
+    "issues_with_missing_stages": 631
   },
   "stage_summary": {
     "BOARD_RESOLUTION": {
-      "observed_events": 129,
+      "observed_events": 131,
       "inferred_events": 504,
-      "issues_with_stage": 558
+      "issues_with_stage": 559
     },
     "FILING": {
       "observed_events": 20,
@@ -33,23 +33,23 @@
     },
     "EFFECTIVE": {
       "observed_events": 9,
-      "inferred_events": 543,
+      "inferred_events": 544,
       "issues_with_stage": 544
     },
     "PRICING": {
-      "observed_events": 543,
+      "observed_events": 544,
       "inferred_events": 0,
       "issues_with_stage": 542
     },
     "AUCTION_BID_START": {
-      "observed_events": 85,
+      "observed_events": 87,
       "inferred_events": 0,
-      "issues_with_stage": 83
+      "issues_with_stage": 85
     },
     "AUCTION_BID_END": {
-      "observed_events": 86,
+      "observed_events": 88,
       "inferred_events": 0,
-      "issues_with_stage": 83
+      "issues_with_stage": 85
     },
     "BOOKBUILDING_START": {
       "observed_events": 0,
@@ -72,7 +72,7 @@
       "issues_with_stage": 0
     },
     "LISTING": {
-      "observed_events": 549,
+      "observed_events": 550,
       "inferred_events": 0,
       "issues_with_stage": 545
     },
@@ -167,7 +167,7 @@
         "UNDERWRITING_NOTICE",
         "CBAS_ACTUAL"
       ],
-      "event_count": 10
+      "event_count": 13
     },
     {
       "issue_id": "issue_534bec36092fcf4a9e49",
@@ -4154,6 +4154,31 @@
       "event_count": 4
     },
     {
+      "issue_id": "issue_1955c0b716549bd7ef8a",
+      "stock_code": "3037",
+      "cb_code": null,
+      "short_name": null,
+      "company_name": "欣興",
+      "observed_stages": [
+        "BOARD_RESOLUTION"
+      ],
+      "inferred_stages": [],
+      "missing_stages": [
+        "FILING",
+        "EFFECTIVE",
+        "PRICING",
+        "AUCTION_BID_START",
+        "AUCTION_BID_END",
+        "BOOKBUILDING_START",
+        "BOOKBUILDING_END",
+        "BOOKBUILDING_RESULT",
+        "UNDERWRITING_NOTICE",
+        "LISTING",
+        "CBAS_ACTUAL"
+      ],
+      "event_count": 1
+    },
+    {
       "issue_id": "issue_70914046b8f9607613e2",
       "stock_code": "3042",
       "cb_code": "30425",
@@ -5087,6 +5112,32 @@
       "event_count": 7
     },
     {
+      "issue_id": "issue_7c83a8f7a263cdadf4ee",
+      "stock_code": "3289",
+      "cb_code": null,
+      "short_name": null,
+      "company_name": "宜特",
+      "observed_stages": [
+        "PAYMENT_BANK"
+      ],
+      "inferred_stages": [],
+      "missing_stages": [
+        "BOARD_RESOLUTION",
+        "FILING",
+        "EFFECTIVE",
+        "PRICING",
+        "AUCTION_BID_START",
+        "AUCTION_BID_END",
+        "BOOKBUILDING_START",
+        "BOOKBUILDING_END",
+        "BOOKBUILDING_RESULT",
+        "UNDERWRITING_NOTICE",
+        "LISTING",
+        "CBAS_ACTUAL"
+      ],
+      "event_count": 1
+    },
+    {
       "issue_id": "issue_3bc187785d1179c7f9ec",
       "stock_code": "3290",
       "cb_code": "32903",
@@ -5564,14 +5615,17 @@
       "stock_code": "3339",
       "cb_code": "33394",
       "short_name": "泰谷四",
-      "company_name": "泰谷",
+      "company_name": "泰谷光電",
       "observed_stages": [
+        "AUCTION_BID_END",
+        "AUCTION_BID_START",
         "BOARD_RESOLUTION",
         "LISTING",
         "PAYMENT_BANK",
         "PRICING"
       ],
       "inferred_stages": [
+        "AUCTION_RESULT_ESTIMATED",
         "BOARD_RESOLUTION",
         "CBAS_PROXY_END",
         "CBAS_PROXY_START",
@@ -5580,15 +5634,13 @@
       ],
       "missing_stages": [
         "FILING",
-        "AUCTION_BID_START",
-        "AUCTION_BID_END",
         "BOOKBUILDING_START",
         "BOOKBUILDING_END",
         "BOOKBUILDING_RESULT",
         "UNDERWRITING_NOTICE",
         "CBAS_ACTUAL"
       ],
-      "event_count": 9
+      "event_count": 12
     },
     {
       "issue_id": "issue_7f5d80272064c5ed609e",
@@ -7437,8 +7489,9 @@
       "stock_code": "3702",
       "cb_code": "37022",
       "short_name": "大聯大二",
-      "company_name": "大聯大控股股份有限公司",
+      "company_name": "大聯大",
       "observed_stages": [
+        "BOARD_RESOLUTION",
         "LISTING",
         "PRICING"
       ],
@@ -7459,7 +7512,7 @@
         "UNDERWRITING_NOTICE",
         "CBAS_ACTUAL"
       ],
-      "event_count": 7
+      "event_count": 8
     },
     {
       "issue_id": "issue_c9572c5a14b21c685dfb",
@@ -10218,18 +10271,20 @@
       "stock_code": "5381",
       "cb_code": null,
       "short_name": null,
-      "company_name": "光譜",
+      "company_name": "光譜電工",
       "observed_stages": [
+        "AUCTION_BID_END",
+        "AUCTION_BID_START",
         "BOARD_RESOLUTION",
         "PAYMENT_BANK"
       ],
-      "inferred_stages": [],
+      "inferred_stages": [
+        "AUCTION_RESULT_ESTIMATED"
+      ],
       "missing_stages": [
         "FILING",
         "EFFECTIVE",
         "PRICING",
-        "AUCTION_BID_START",
-        "AUCTION_BID_END",
         "BOOKBUILDING_START",
         "BOOKBUILDING_END",
         "BOOKBUILDING_RESULT",
@@ -10237,7 +10292,7 @@
         "LISTING",
         "CBAS_ACTUAL"
       ],
-      "event_count": 2
+      "event_count": 5
     },
     {
       "issue_id": "issue_b0ab76d8db452eaa1ffa",
@@ -12180,7 +12235,7 @@
         "UNDERWRITING_NOTICE",
         "CBAS_ACTUAL"
       ],
-      "event_count": 10
+      "event_count": 11
     },
     {
       "issue_id": "issue_c30c3b2f49fea89e0b1d",

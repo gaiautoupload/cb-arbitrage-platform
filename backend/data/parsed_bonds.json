@@ -8293,5 +8293,20 @@
     "maturity_date_minguo": "120年10月29日",
     "maturity_date": "2031-10-29",
     "issue_amount": "新台幣100億元整"
+  },
+  {
+    "file_id": "11500065631",
+    "company_name": "生合生物科技股份有限公司",
+    "bond_name": "生合生物科技股份有限公司國內第一次無擔保轉換公司債",
+    "cb_code": "12951",
+    "stock_code": "1295",
+    "short_name": "生合一",
+    "announcement_date_minguo": "115年10月28日",
+    "announcement_date": "2026-10-28",
+    "issue_date_minguo": "115年10月30日",
+    "issue_date": "2026-10-30",
+    "maturity_date_minguo": "118年10月30日",
+    "maturity_date": "2029-10-30",
+    "issue_amount": "新台幣4億元整"
   }
 ]

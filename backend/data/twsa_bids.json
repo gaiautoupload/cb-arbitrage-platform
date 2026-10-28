@@ -874,5 +874,29 @@
     "bidding_shares_thousand": "3,400",
     "bidding_period": "2026/10/13~2026/10/15",
     "min_price": "100.00"
+  },
+  {
+    "serial": "115079",
+    "company_name": "光譜電工",
+    "full_company_name": "光譜電工股份有限公司",
+    "ticker": "5381",
+    "underwriter": "富邦綜合證券股份有限公司",
+    "bond_type": "有擔保轉換公司債",
+    "shares_thousand": "5,000",
+    "bidding_shares_thousand": "4,250",
+    "bidding_period": "2026/10/27~2026/10/29",
+    "min_price": "101.00"
+  },
+  {
+    "serial": "115080",
+    "company_name": "泰谷光電",
+    "full_company_name": "泰谷光電科技股份有限公司",
+    "ticker": "3339",
+    "underwriter": "永豐金證券股份有限公司",
+    "bond_type": "有擔保轉換公司債",
+    "shares_thousand": "5,000",
+    "bidding_shares_thousand": "4,500",
+    "bidding_period": "2026/10/28~2026/10/30",
+    "min_price": "101.00"
   }
 ]
