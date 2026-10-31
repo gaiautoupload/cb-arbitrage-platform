@@ -807157,5 +807157,2905 @@
       "foreign_net": 25.7,
       "trust_net": 25.7
     }
+  },
+  "2026-10-29": {
+    "2887": {
+      "foreign_net": 19911.7,
+      "trust_net": -1548.9
+    },
+    "2492": {
+      "foreign_net": 2493.8,
+      "trust_net": 2094.0
+    },
+    "1101": {
+      "foreign_net": 4047.1,
+      "trust_net": 11.0
+    },
+    "4916": {
+      "foreign_net": 2949.2,
+      "trust_net": 0.0
+    },
+    "2618": {
+      "foreign_net": 2455.0,
+      "trust_net": -44.0
+    },
+    "9933": {
+      "foreign_net": 2360.3,
+      "trust_net": 1.7
+    },
+    "3006": {
+      "foreign_net": 1422.9,
+      "trust_net": 3.0
+    },
+    "9939": {
+      "foreign_net": 1300.3,
+      "trust_net": 0.0
+    },
+    "2603": {
+      "foreign_net": 1077.1,
+      "trust_net": 107.2
+    },
+    "4967": {
+      "foreign_net": 1310.9,
+      "trust_net": 0.0
+    },
+    "2905": {
+      "foreign_net": 1232.0,
+      "trust_net": 0.0
+    },
+    "1402": {
+      "foreign_net": 1209.0,
+      "trust_net": -74.0
+    },
+    "2201": {
+      "foreign_net": 997.2,
+      "trust_net": 2.0
+    },
+    "2610": {
+      "foreign_net": 1021.9,
+      "trust_net": -100.0
+    },
+    "6873": {
+      "foreign_net": 852.0,
+      "trust_net": 0.0
+    },
+    "3016": {
+      "foreign_net": 862.8,
+      "trust_net": 0.0
+    },
+    "2208": {
+      "foreign_net": 713.1,
+      "trust_net": 0.0
+    },
+    "2383": {
+      "foreign_net": 224.0,
+      "trust_net": 299.1
+    },
+    "8070": {
+      "foreign_net": -1578.1,
+      "trust_net": 2000.0
+    },
+    "8422": {
+      "foreign_net": 390.0,
+      "trust_net": 0.0
+    },
+    "3533": {
+      "foreign_net": 355.8,
+      "trust_net": 6.4
+    },
+    "9941": {
+      "foreign_net": 374.0,
+      "trust_net": 0.0
+    },
+    "6472": {
+      "foreign_net": 390.1,
+      "trust_net": 0.0
+    },
+    "2466": {
+      "foreign_net": 352.4,
+      "trust_net": 0.0
+    },
+    "2548": {
+      "foreign_net": 262.8,
+      "trust_net": 0.0
+    },
+    "2442": {
+      "foreign_net": 220.9,
+      "trust_net": 0.0
+    },
+    "2636": {
+      "foreign_net": 199.9,
+      "trust_net": 0.0
+    },
+    "2338": {
+      "foreign_net": 211.3,
+      "trust_net": 0.0
+    },
+    "5608": {
+      "foreign_net": 204.4,
+      "trust_net": 0.0
+    },
+    "4566": {
+      "foreign_net": 194.4,
+      "trust_net": 0.0
+    },
+    "9802": {
+      "foreign_net": 178.3,
+      "trust_net": 0.0
+    },
+    "4137": {
+      "foreign_net": 178.0,
+      "trust_net": 0.0
+    },
+    "6589": {
+      "foreign_net": 162.3,
+      "trust_net": 0.0
+    },
+    "3376": {
+      "foreign_net": 193.3,
+      "trust_net": 0.0
+    },
+    "8210": {
+      "foreign_net": 148.2,
+      "trust_net": -1.0
+    },
+    "2427": {
+      "foreign_net": 145.0,
+      "trust_net": 0.0
+    },
+    "2731": {
+      "foreign_net": 130.6,
+      "trust_net": 0.0
+    },
+    "2476": {
+      "foreign_net": 80.5,
+      "trust_net": 0.0
+    },
+    "1436": {
+      "foreign_net": 98.0,
+      "trust_net": 0.0
+    },
+    "2727": {
+      "foreign_net": 92.2,
+      "trust_net": 0.0
+    },
+    "2034": {
+      "foreign_net": 97.6,
+      "trust_net": 0.0
+    },
+    "4968": {
+      "foreign_net": 89.5,
+      "trust_net": 0.0
+    },
+    "4540": {
+      "foreign_net": 72.4,
+      "trust_net": 0.0
+    },
+    "8473": {
+      "foreign_net": 69.2,
+      "trust_net": 0.0
+    },
+    "4164": {
+      "foreign_net": 73.0,
+      "trust_net": 0.0
+    },
+    "2421": {
+      "foreign_net": -18.1,
+      "trust_net": 0.0
+    },
+    "9921": {
+      "foreign_net": 59.7,
+      "trust_net": 0.0
+    },
+    "8374": {
+      "foreign_net": 59.1,
+      "trust_net": 0.0
+    },
+    "3312": {
+      "foreign_net": 49.2,
+      "trust_net": 0.0
+    },
+    "6515": {
+      "foreign_net": 110.4,
+      "trust_net": -33.6
+    },
+    "4155": {
+      "foreign_net": 46.0,
+      "trust_net": 0.0
+    },
+    "6189": {
+      "foreign_net": 27.1,
+      "trust_net": 0.0
+    },
+    "8222": {
+      "foreign_net": 34.0,
+      "trust_net": 0.0
+    },
+    "2472": {
+      "foreign_net": 57.6,
+      "trust_net": 0.0
+    },
+    "5546": {
+      "foreign_net": 29.0,
+      "trust_net": 0.0
+    },
+    "4555": {
+      "foreign_net": 30.0,
+      "trust_net": 0.0
+    },
+    "3346": {
+      "foreign_net": 27.0,
+      "trust_net": 0.0
+    },
+    "1786": {
+      "foreign_net": 27.0,
+      "trust_net": 0.0
+    },
+    "3257": {
+      "foreign_net": 26.3,
+      "trust_net": 0.0
+    },
+    "3092": {
+      "foreign_net": 26.0,
+      "trust_net": 0.0
+    },
+    "4807": {
+      "foreign_net": 24.5,
+      "trust_net": 0.0
+    },
+    "2461": {
+      "foreign_net": 25.0,
+      "trust_net": 0.0
+    },
+    "6243": {
+      "foreign_net": 22.1,
+      "trust_net": 0.0
+    },
+    "8104": {
+      "foreign_net": 21.0,
+      "trust_net": 0.0
+    },
+    "2231": {
+      "foreign_net": 18.0,
+      "trust_net": 0.0
+    },
+    "4572": {
+      "foreign_net": 17.0,
+      "trust_net": 0.0
+    },
+    "6552": {
+      "foreign_net": 15.0,
+      "trust_net": 0.0
+    },
+    "6416": {
+      "foreign_net": 15.0,
+      "trust_net": 0.0
+    },
+    "6641": {
+      "foreign_net": 13.0,
+      "trust_net": 0.0
+    },
+    "6715": {
+      "foreign_net": -38.7,
+      "trust_net": 0.0
+    },
+    "6796": {
+      "foreign_net": 11.0,
+      "trust_net": 0.0
+    },
+    "6184": {
+      "foreign_net": 10.0,
+      "trust_net": 0.0
+    },
+    "1338": {
+      "foreign_net": 7.0,
+      "trust_net": 0.0
+    },
+    "6283": {
+      "foreign_net": 9.0,
+      "trust_net": 0.0
+    },
+    "4564": {
+      "foreign_net": 9.0,
+      "trust_net": 0.0
+    },
+    "6869": {
+      "foreign_net": 29.8,
+      "trust_net": 0.0
+    },
+    "2228": {
+      "foreign_net": 12.5,
+      "trust_net": 0.0
+    },
+    "1342": {
+      "foreign_net": 7.0,
+      "trust_net": 0.0
+    },
+    "6585": {
+      "foreign_net": 8.0,
+      "trust_net": 0.0
+    },
+    "6591": {
+      "foreign_net": 5.0,
+      "trust_net": 0.0
+    },
+    "5244": {
+      "foreign_net": 5.0,
+      "trust_net": 0.0
+    },
+    "6835": {
+      "foreign_net": 5.0,
+      "trust_net": 0.0
+    },
+    "2482": {
+      "foreign_net": 4.0,
+      "trust_net": 0.0
+    },
+    "9906": {
+      "foreign_net": 4.0,
+      "trust_net": 0.0
+    },
+    "6670": {
+      "foreign_net": 3.0,
+      "trust_net": 0.0
+    },
+    "1805": {
+      "foreign_net": 3.0,
+      "trust_net": 0.0
+    },
+    "3018": {
+      "foreign_net": 2.0,
+      "trust_net": 0.0
+    },
+    "4438": {
+      "foreign_net": 1.0,
+      "trust_net": 0.0
+    },
+    "1438": {
+      "foreign_net": 1.9,
+      "trust_net": 0.0
+    },
+    "5306": {
+      "foreign_net": -0.9,
+      "trust_net": 0.0
+    },
+    "6645": {
+      "foreign_net": -1.0,
+      "trust_net": 0.0
+    },
+    "9935": {
+      "foreign_net": 1.0,
+      "trust_net": 0.0
+    },
+    "2528": {
+      "foreign_net": 60.2,
+      "trust_net": 0.0
+    },
+    "1623": {
+      "foreign_net": 0.1,
+      "trust_net": 0.0
+    },
+    "7631": {
+      "foreign_net": -1.0,
+      "trust_net": 0.0
+    },
+    "8478": {
+      "foreign_net": 0.0,
+      "trust_net": 0.0
+    },
+    "8466": {
+      "foreign_net": 2.0,
+      "trust_net": 0.0
+    },
+    "2906": {
+      "foreign_net": 2.0,
+      "trust_net": 0.0
+    },
+    "1474": {
+      "foreign_net": 0.0,
+      "trust_net": 0.0
+    },
+    "3583": {
+      "foreign_net": 120.2,
+      "trust_net": -102.0
+    },
+    "6655": {
+      "foreign_net": -1.0,
+      "trust_net": 0.0
+    },
+    "6205": {
+      "foreign_net": -2.0,
+      "trust_net": 0.0
+    },
+    "6224": {
+      "foreign_net": -6.8,
+      "trust_net": 0.0
+    },
+    "6438": {
+      "foreign_net": 4.5,
+      "trust_net": 0.0
+    },
+    "2012": {
+      "foreign_net": -7.0,
+      "trust_net": 0.0
+    },
+    "6753": {
+      "foreign_net": 0.0,
+      "trust_net": 0.0
+    },
+    "2462": {
+      "foreign_net": -8.0,
+      "trust_net": 0.0
+    },
+    "1526": {
+      "foreign_net": -11.6,
+      "trust_net": 0.0
+    },
+    "6196": {
+      "foreign_net": 3.1,
+      "trust_net": 0.0
+    },
+    "1513": {
+      "foreign_net": 7.7,
+      "trust_net": 1.0
+    },
+    "9958": {
+      "foreign_net": -14.1,
+      "trust_net": 0.0
+    },
+    "4764": {
+      "foreign_net": -14.0,
+      "trust_net": 0.0
+    },
+    "8462": {
+      "foreign_net": -15.2,
+      "trust_net": 0.0
+    },
+    "2497": {
+      "foreign_net": -15.9,
+      "trust_net": 0.0
+    },
+    "1533": {
+      "foreign_net": -18.0,
+      "trust_net": 0.0
+    },
+    "1532": {
+      "foreign_net": -29.0,
+      "trust_net": 0.0
+    },
+    "6117": {
+      "foreign_net": -26.8,
+      "trust_net": 0.0
+    },
+    "1598": {
+      "foreign_net": -33.5,
+      "trust_net": 0.0
+    },
+    "3416": {
+      "foreign_net": -43.9,
+      "trust_net": 0.0
+    },
+    "1316": {
+      "foreign_net": -43.8,
+      "trust_net": 0.0
+    },
+    "2436": {
+      "foreign_net": 11.6,
+      "trust_net": 0.0
+    },
+    "8996": {
+      "foreign_net": -331.1,
+      "trust_net": 315.6
+    },
+    "4912": {
+      "foreign_net": -46.0,
+      "trust_net": 0.0
+    },
+    "6139": {
+      "foreign_net": -29.4,
+      "trust_net": 0.0
+    },
+    "1582": {
+      "foreign_net": -47.0,
+      "trust_net": 0.0
+    },
+    "2486": {
+      "foreign_net": -49.1,
+      "trust_net": 0.0
+    },
+    "6477": {
+      "foreign_net": -57.0,
+      "trust_net": 0.0
+    },
+    "6706": {
+      "foreign_net": -79.7,
+      "trust_net": 0.0
+    },
+    "8438": {
+      "foreign_net": -65.0,
+      "trust_net": 0.0
+    },
+    "3617": {
+      "foreign_net": -60.8,
+      "trust_net": 0.0
+    },
+    "3010": {
+      "foreign_net": -87.8,
+      "trust_net": 0.0
+    },
+    "3645": {
+      "foreign_net": -63.8,
+      "trust_net": 0.0
+    },
+    "3028": {
+      "foreign_net": -76.8,
+      "trust_net": 0.0
+    },
+    "1560": {
+      "foreign_net": -105.3,
+      "trust_net": 46.0
+    },
+    "3413": {
+      "foreign_net": -80.9,
+      "trust_net": 0.0
+    },
+    "3138": {
+      "foreign_net": -82.2,
+      "trust_net": 0.0
+    },
+    "3591": {
+      "foreign_net": -93.6,
+      "trust_net": 0.0
+    },
+    "3042": {
+      "foreign_net": -45.4,
+      "trust_net": 0.0
+    },
+    "1617": {
+      "foreign_net": -95.9,
+      "trust_net": 0.0
+    },
+    "3305": {
+      "foreign_net": -113.2,
+      "trust_net": 0.0
+    },
+    "2439": {
+      "foreign_net": -98.0,
+      "trust_net": 0.0
+    },
+    "6257": {
+      "foreign_net": -106.6,
+      "trust_net": 42.0
+    },
+    "6830": {
+      "foreign_net": -88.2,
+      "trust_net": 0.0
+    },
+    "1514": {
+      "foreign_net": -103.5,
+      "trust_net": 0.0
+    },
+    "6414": {
+      "foreign_net": -109.2,
+      "trust_net": 1.0
+    },
+    "3013": {
+      "foreign_net": -95.0,
+      "trust_net": 0.0
+    },
+    "5434": {
+      "foreign_net": -123.5,
+      "trust_net": 1.0
+    },
+    "3518": {
+      "foreign_net": -126.3,
+      "trust_net": 0.0
+    },
+    "2464": {
+      "foreign_net": 8.4,
+      "trust_net": 0.0
+    },
+    "5388": {
+      "foreign_net": -166.0,
+      "trust_net": 0.0
+    },
+    "1909": {
+      "foreign_net": -387.0,
+      "trust_net": 0.0
+    },
+    "4739": {
+      "foreign_net": -166.4,
+      "trust_net": 0.0
+    },
+    "1609": {
+      "foreign_net": -169.2,
+      "trust_net": 0.0
+    },
+    "3033": {
+      "foreign_net": -221.0,
+      "trust_net": 0.0
+    },
+    "8103": {
+      "foreign_net": -232.5,
+      "trust_net": 0.0
+    },
+    "2069": {
+      "foreign_net": -315.5,
+      "trust_net": 0.0
+    },
+    "6442": {
+      "foreign_net": -328.2,
+      "trust_net": 0.0
+    },
+    "1536": {
+      "foreign_net": -284.5,
+      "trust_net": 0.0
+    },
+    "6197": {
+      "foreign_net": -347.6,
+      "trust_net": 0.0
+    },
+    "3653": {
+      "foreign_net": -516.7,
+      "trust_net": 88.0
+    },
+    "3209": {
+      "foreign_net": -493.3,
+      "trust_net": 0.0
+    },
+    "3047": {
+      "foreign_net": -539.4,
+      "trust_net": 0.0
+    },
+    "8021": {
+      "foreign_net": -606.0,
+      "trust_net": 65.0
+    },
+    "3023": {
+      "foreign_net": -686.8,
+      "trust_net": 0.0
+    },
+    "3167": {
+      "foreign_net": -769.4,
+      "trust_net": 35.0
+    },
+    "2316": {
+      "foreign_net": -666.4,
+      "trust_net": 0.0
+    },
+    "2368": {
+      "foreign_net": -1480.0,
+      "trust_net": 815.1
+    },
+    "4906": {
+      "foreign_net": -654.0,
+      "trust_net": 0.0
+    },
+    "8112": {
+      "foreign_net": -949.6,
+      "trust_net": 1.0
+    },
+    "6668": {
+      "foreign_net": -866.9,
+      "trust_net": 0.0
+    },
+    "3149": {
+      "foreign_net": -918.7,
+      "trust_net": 0.0
+    },
+    "3605": {
+      "foreign_net": -1165.5,
+      "trust_net": 0.0
+    },
+    "6282": {
+      "foreign_net": -1282.8,
+      "trust_net": 1.0
+    },
+    "3576": {
+      "foreign_net": -1572.0,
+      "trust_net": 0.0
+    },
+    "6269": {
+      "foreign_net": -801.1,
+      "trust_net": 0.0
+    },
+    "6285": {
+      "foreign_net": -1722.7,
+      "trust_net": 0.0
+    },
+    "4919": {
+      "foreign_net": -1732.1,
+      "trust_net": 0.0
+    },
+    "2646": {
+      "foreign_net": -2097.0,
+      "trust_net": 1.0
+    },
+    "6209": {
+      "foreign_net": -2699.4,
+      "trust_net": 0.0
+    },
+    "3702": {
+      "foreign_net": -4530.6,
+      "trust_net": 84.0
+    },
+    "2303": {
+      "foreign_net": -129271.9,
+      "trust_net": -44817.0
+    },
+    "1295": {
+      "foreign_net": 0.0,
+      "trust_net": 0.0
+    },
+    "1586": {
+      "foreign_net": -38.2,
+      "trust_net": -38.2
+    },
+    "1593": {
+      "foreign_net": -2.0,
+      "trust_net": -2.0
+    },
+    "1595": {
+      "foreign_net": -223.6,
+      "trust_net": -223.6
+    },
+    "1599": {
+      "foreign_net": -2.0,
+      "trust_net": -2.0
+    },
+    "1781": {
+      "foreign_net": 4.0,
+      "trust_net": 4.0
+    },
+    "1815": {
+      "foreign_net": -7686.3,
+      "trust_net": -7686.3
+    },
+    "2061": {
+      "foreign_net": -94.6,
+      "trust_net": -94.6
+    },
+    "2063": {
+      "foreign_net": -12.0,
+      "trust_net": -12.0
+    },
+    "2065": {
+      "foreign_net": 0.0,
+      "trust_net": 0.0
+    },
+    "2066": {
+      "foreign_net": -3.0,
+      "trust_net": -3.0
+    },
+    "2230": {
+      "foreign_net": 5.0,
+      "trust_net": 5.0
+    },
+    "2641": {
+      "foreign_net": 292.9,
+      "trust_net": 292.9
+    },
+    "2732": {
+      "foreign_net": 3.0,
+      "trust_net": 3.0
+    },
+    "3081": {
+      "foreign_net": -1364.1,
+      "trust_net": -1364.1
+    },
+    "3088": {
+      "foreign_net": -706.7,
+      "trust_net": -706.7
+    },
+    "3122": {
+      "foreign_net": -11.0,
+      "trust_net": -11.0
+    },
+    "3128": {
+      "foreign_net": 11.0,
+      "trust_net": 11.0
+    },
+    "3141": {
+      "foreign_net": -42.7,
+      "trust_net": -42.7
+    },
+    "3163": {
+      "foreign_net": -150.7,
+      "trust_net": -150.7
+    },
+    "3207": {
+      "foreign_net": -3.0,
+      "trust_net": -3.0
+    },
+    "3219": {
+      "foreign_net": 85.9,
+      "trust_net": 85.9
+    },
+    "3260": {
+      "foreign_net": -213.3,
+      "trust_net": -213.3
+    },
+    "3268": {
+      "foreign_net": 59.1,
+      "trust_net": 59.1
+    },
+    "3272": {
+      "foreign_net": 2.0,
+      "trust_net": 2.0
+    },
+    "3290": {
+      "foreign_net": -199.6,
+      "trust_net": -199.6
+    },
+    "3303": {
+      "foreign_net": 143.0,
+      "trust_net": 143.0
+    },
+    "3310": {
+      "foreign_net": 0.0,
+      "trust_net": 0.0
+    },
+    "3313": {
+      "foreign_net": 9.0,
+      "trust_net": 9.0
+    },
+    "3322": {
+      "foreign_net": 1.0,
+      "trust_net": 1.0
+    },
+    "3323": {
+      "foreign_net": 7.0,
+      "trust_net": 7.0
+    },
+    "3324": {
+      "foreign_net": 235.7,
+      "trust_net": 235.7
+    },
+    "3325": {
+      "foreign_net": 52.0,
+      "trust_net": 52.0
+    },
+    "3339": {
+      "foreign_net": -116.5,
+      "trust_net": -116.5
+    },
+    "3357": {
+      "foreign_net": -186.6,
+      "trust_net": -186.6
+    },
+    "3362": {
+      "foreign_net": -220.6,
+      "trust_net": -220.6
+    },
+    "3388": {
+      "foreign_net": -28.9,
+      "trust_net": -28.9
+    },
+    "3465": {
+      "foreign_net": -4.0,
+      "trust_net": -4.0
+    },
+    "3479": {
+      "foreign_net": -37.5,
+      "trust_net": -37.5
+    },
+    "3483": {
+      "foreign_net": 9.0,
+      "trust_net": 9.0
+    },
+    "3484": {
+      "foreign_net": 1.0,
+      "trust_net": 1.0
+    },
+    "3491": {
+      "foreign_net": -148.1,
+      "trust_net": -148.1
+    },
+    "3512": {
+      "foreign_net": 12.0,
+      "trust_net": 12.0
+    },
+    "3516": {
+      "foreign_net": -7.0,
+      "trust_net": -7.0
+    },
+    "3522": {
+      "foreign_net": 3.0,
+      "trust_net": 3.0
+    },
+    "3526": {
+      "foreign_net": -22.5,
+      "trust_net": -22.5
+    },
+    "3548": {
+      "foreign_net": 44.4,
+      "trust_net": 44.4
+    },
+    "3564": {
+      "foreign_net": -129.0,
+      "trust_net": -129.0
+    },
+    "3580": {
+      "foreign_net": 83.9,
+      "trust_net": 83.9
+    },
+    "3587": {
+      "foreign_net": 64.1,
+      "trust_net": 64.1
+    },
+    "3594": {
+      "foreign_net": 11.2,
+      "trust_net": 11.2
+    },
+    "3597": {
+      "foreign_net": 64.0,
+      "trust_net": 64.0
+    },
+    "3625": {
+      "foreign_net": -8.0,
+      "trust_net": -8.0
+    },
+    "3631": {
+      "foreign_net": -32.0,
+      "trust_net": -32.0
+    },
+    "3663": {
+      "foreign_net": -273.0,
+      "trust_net": -273.0
+    },
+    "3680": {
+      "foreign_net": -158.4,
+      "trust_net": -158.4
+    },
+    "3689": {
+      "foreign_net": -215.2,
+      "trust_net": -215.2
+    },
+    "3691": {
+      "foreign_net": -38.0,
+      "trust_net": -38.0
+    },
+    "3707": {
+      "foreign_net": -724.3,
+      "trust_net": -724.3
+    },
+    "3713": {
+      "foreign_net": -1.0,
+      "trust_net": -1.0
+    },
+    "4121": {
+      "foreign_net": 2.0,
+      "trust_net": 2.0
+    },
+    "4123": {
+      "foreign_net": 122.6,
+      "trust_net": 122.6
+    },
+    "4129": {
+      "foreign_net": -8.0,
+      "trust_net": -8.0
+    },
+    "4167": {
+      "foreign_net": 254.2,
+      "trust_net": 254.2
+    },
+    "4168": {
+      "foreign_net": 8.0,
+      "trust_net": 8.0
+    },
+    "4171": {
+      "foreign_net": -17.0,
+      "trust_net": -17.0
+    },
+    "4303": {
+      "foreign_net": 127.7,
+      "trust_net": 127.7
+    },
+    "4416": {
+      "foreign_net": -77.0,
+      "trust_net": -77.0
+    },
+    "4433": {
+      "foreign_net": -1.0,
+      "trust_net": -1.0
+    },
+    "4538": {
+      "foreign_net": 2.0,
+      "trust_net": 2.0
+    },
+    "4541": {
+      "foreign_net": 3.2,
+      "trust_net": 3.2
+    },
+    "4542": {
+      "foreign_net": 21.0,
+      "trust_net": 21.0
+    },
+    "4549": {
+      "foreign_net": 1.0,
+      "trust_net": 1.0
+    },
+    "4556": {
+      "foreign_net": 96.6,
+      "trust_net": 96.6
+    },
+    "4580": {
+      "foreign_net": -2.0,
+      "trust_net": -2.0
+    },
+    "4714": {
+      "foreign_net": -1431.8,
+      "trust_net": -1431.8
+    },
+    "4744": {
+      "foreign_net": 8.0,
+      "trust_net": 8.0
+    },
+    "4747": {
+      "foreign_net": -2.0,
+      "trust_net": -2.0
+    },
+    "4760": {
+      "foreign_net": 69.9,
+      "trust_net": 69.9
+    },
+    "4973": {
+      "foreign_net": -15.4,
+      "trust_net": -15.4
+    },
+    "4979": {
+      "foreign_net": -1098.0,
+      "trust_net": -1098.0
+    },
+    "5009": {
+      "foreign_net": -127.8,
+      "trust_net": -127.8
+    },
+    "5011": {
+      "foreign_net": 4.1,
+      "trust_net": 4.1
+    },
+    "5209": {
+      "foreign_net": -2.9,
+      "trust_net": -2.9
+    },
+    "5212": {
+      "foreign_net": 0.0,
+      "trust_net": 0.0
+    },
+    "5213": {
+      "foreign_net": 129.0,
+      "trust_net": 129.0
+    },
+    "5223": {
+      "foreign_net": -1.0,
+      "trust_net": -1.0
+    },
+    "5230": {
+      "foreign_net": -370.9,
+      "trust_net": -370.9
+    },
+    "5245": {
+      "foreign_net": 70.0,
+      "trust_net": 70.0
+    },
+    "5263": {
+      "foreign_net": -68.6,
+      "trust_net": -68.6
+    },
+    "5289": {
+      "foreign_net": -126.9,
+      "trust_net": -126.9
+    },
+    "5291": {
+      "foreign_net": -32.9,
+      "trust_net": -32.9
+    },
+    "5309": {
+      "foreign_net": -2120.8,
+      "trust_net": -2120.8
+    },
+    "5321": {
+      "foreign_net": -54.0,
+      "trust_net": -54.0
+    },
+    "5351": {
+      "foreign_net": 101.6,
+      "trust_net": 101.6
+    },
+    "5450": {
+      "foreign_net": 4.0,
+      "trust_net": 4.0
+    },
+    "5457": {
+      "foreign_net": -47.9,
+      "trust_net": -47.9
+    },
+    "5498": {
+      "foreign_net": -50.3,
+      "trust_net": -50.3
+    },
+    "5536": {
+      "foreign_net": -97.1,
+      "trust_net": -97.1
+    },
+    "5543": {
+      "foreign_net": 0.0,
+      "trust_net": 0.0
+    },
+    "5905": {
+      "foreign_net": -5.0,
+      "trust_net": -5.0
+    },
+    "6015": {
+      "foreign_net": 239.0,
+      "trust_net": 239.0
+    },
+    "6104": {
+      "foreign_net": 110.1,
+      "trust_net": 110.1
+    },
+    "6111": {
+      "foreign_net": 53.0,
+      "trust_net": 53.0
+    },
+    "6125": {
+      "foreign_net": 55.0,
+      "trust_net": 55.0
+    },
+    "6126": {
+      "foreign_net": 93.5,
+      "trust_net": 93.5
+    },
+    "6134": {
+      "foreign_net": 41.5,
+      "trust_net": 41.5
+    },
+    "6150": {
+      "foreign_net": 1.0,
+      "trust_net": 1.0
+    },
+    "6156": {
+      "foreign_net": -28.4,
+      "trust_net": -28.4
+    },
+    "6163": {
+      "foreign_net": -828.0,
+      "trust_net": -828.0
+    },
+    "6174": {
+      "foreign_net": -13.0,
+      "trust_net": -13.0
+    },
+    "6175": {
+      "foreign_net": -10.0,
+      "trust_net": -10.0
+    },
+    "6179": {
+      "foreign_net": -2675.1,
+      "trust_net": -2675.1
+    },
+    "6182": {
+      "foreign_net": 865.6,
+      "trust_net": 865.6
+    },
+    "6187": {
+      "foreign_net": -97.8,
+      "trust_net": -97.8
+    },
+    "6190": {
+      "foreign_net": -133.9,
+      "trust_net": -133.9
+    },
+    "6203": {
+      "foreign_net": -1.0,
+      "trust_net": -1.0
+    },
+    "6208": {
+      "foreign_net": 38.5,
+      "trust_net": 38.5
+    },
+    "6217": {
+      "foreign_net": -709.2,
+      "trust_net": -709.2
+    },
+    "6220": {
+      "foreign_net": -114.0,
+      "trust_net": -114.0
+    },
+    "6248": {
+      "foreign_net": 1.0,
+      "trust_net": 1.0
+    },
+    "6274": {
+      "foreign_net": 787.0,
+      "trust_net": 787.0
+    },
+    "6275": {
+      "foreign_net": 15.0,
+      "trust_net": 15.0
+    },
+    "6279": {
+      "foreign_net": -79.0,
+      "trust_net": -79.0
+    },
+    "6284": {
+      "foreign_net": 3.9,
+      "trust_net": 3.9
+    },
+    "6290": {
+      "foreign_net": -332.9,
+      "trust_net": -332.9
+    },
+    "6425": {
+      "foreign_net": -85.1,
+      "trust_net": -85.1
+    },
+    "6432": {
+      "foreign_net": 26.0,
+      "trust_net": 26.0
+    },
+    "6441": {
+      "foreign_net": 3.0,
+      "trust_net": 3.0
+    },
+    "6465": {
+      "foreign_net": 37.0,
+      "trust_net": 37.0
+    },
+    "6469": {
+      "foreign_net": -20.3,
+      "trust_net": -20.3
+    },
+    "6486": {
+      "foreign_net": 16.0,
+      "trust_net": 16.0
+    },
+    "6509": {
+      "foreign_net": -109.1,
+      "trust_net": -109.1
+    },
+    "6532": {
+      "foreign_net": -102.9,
+      "trust_net": -102.9
+    },
+    "6546": {
+      "foreign_net": -18.0,
+      "trust_net": -18.0
+    },
+    "6548": {
+      "foreign_net": -1954.6,
+      "trust_net": -1954.6
+    },
+    "6570": {
+      "foreign_net": 12.0,
+      "trust_net": 12.0
+    },
+    "6578": {
+      "foreign_net": -10.0,
+      "trust_net": -10.0
+    },
+    "6584": {
+      "foreign_net": 73.9,
+      "trust_net": 73.9
+    },
+    "6593": {
+      "foreign_net": -3.0,
+      "trust_net": -3.0
+    },
+    "6603": {
+      "foreign_net": 168.0,
+      "trust_net": 168.0
+    },
+    "6613": {
+      "foreign_net": -13.0,
+      "trust_net": -13.0
+    },
+    "6624": {
+      "foreign_net": 1.0,
+      "trust_net": 1.0
+    },
+    "6664": {
+      "foreign_net": -13.7,
+      "trust_net": -13.7
+    },
+    "6680": {
+      "foreign_net": 0.0,
+      "trust_net": 0.0
+    },
+    "6683": {
+      "foreign_net": 44.6,
+      "trust_net": 44.6
+    },
+    "6693": {
+      "foreign_net": -58.0,
+      "trust_net": -58.0
+    },
+    "6727": {
+      "foreign_net": 839.9,
+      "trust_net": 839.9
+    },
+    "6761": {
+      "foreign_net": 22.0,
+      "trust_net": 22.0
+    },
+    "6804": {
+      "foreign_net": 1.0,
+      "trust_net": 1.0
+    },
+    "6840": {
+      "foreign_net": 8.0,
+      "trust_net": 8.0
+    },
+    "6870": {
+      "foreign_net": -8.0,
+      "trust_net": -8.0
+    },
+    "6874": {
+      "foreign_net": 22.0,
+      "trust_net": 22.0
+    },
+    "6903": {
+      "foreign_net": -60.9,
+      "trust_net": -60.9
+    },
+    "7402": {
+      "foreign_net": 14.0,
+      "trust_net": 14.0
+    },
+    "7738": {
+      "foreign_net": 0.0,
+      "trust_net": 0.0
+    },
+    "7743": {
+      "foreign_net": -3.0,
+      "trust_net": -3.0
+    },
+    "8027": {
+      "foreign_net": -126.6,
+      "trust_net": -126.6
+    },
+    "8044": {
+      "foreign_net": -86.0,
+      "trust_net": -86.0
+    },
+    "8050": {
+      "foreign_net": -528.2,
+      "trust_net": -528.2
+    },
+    "8054": {
+      "foreign_net": 38.7,
+      "trust_net": 38.7
+    },
+    "8091": {
+      "foreign_net": 9.5,
+      "trust_net": 9.5
+    },
+    "8092": {
+      "foreign_net": -9.0,
+      "trust_net": -9.0
+    },
+    "8096": {
+      "foreign_net": -378.7,
+      "trust_net": -378.7
+    },
+    "8097": {
+      "foreign_net": 1.0,
+      "trust_net": 1.0
+    },
+    "8109": {
+      "foreign_net": 85.0,
+      "trust_net": 85.0
+    },
+    "8147": {
+      "foreign_net": -174.8,
+      "trust_net": -174.8
+    },
+    "8155": {
+      "foreign_net": 38.6,
+      "trust_net": 38.6
+    },
+    "8171": {
+      "foreign_net": -4.0,
+      "trust_net": -4.0
+    },
+    "8255": {
+      "foreign_net": -15.9,
+      "trust_net": -15.9
+    },
+    "8299": {
+      "foreign_net": 431.3,
+      "trust_net": 431.3
+    },
+    "8349": {
+      "foreign_net": 2.0,
+      "trust_net": 2.0
+    },
+    "8433": {
+      "foreign_net": 1.0,
+      "trust_net": 1.0
+    },
+    "8489": {
+      "foreign_net": 0.0,
+      "trust_net": 0.0
+    },
+    "8927": {
+      "foreign_net": -53.0,
+      "trust_net": -53.0
+    },
+    "8932": {
+      "foreign_net": 453.4,
+      "trust_net": 453.4
+    },
+    "8936": {
+      "foreign_net": -376.0,
+      "trust_net": -376.0
+    },
+    "8938": {
+      "foreign_net": 17.0,
+      "trust_net": 17.0
+    }
+  },
+  "2026-10-30": {
+    "2603": {
+      "foreign_net": 7919.9,
+      "trust_net": 1861.2
+    },
+    "1101": {
+      "foreign_net": 13123.0,
+      "trust_net": -4560.0
+    },
+    "2618": {
+      "foreign_net": 3523.7,
+      "trust_net": 2242.0
+    },
+    "9939": {
+      "foreign_net": 2097.2,
+      "trust_net": 0.0
+    },
+    "2887": {
+      "foreign_net": -14208.7,
+      "trust_net": 13184.0
+    },
+    "1609": {
+      "foreign_net": 1702.4,
+      "trust_net": 0.0
+    },
+    "5608": {
+      "foreign_net": 837.4,
+      "trust_net": 0.0
+    },
+    "2905": {
+      "foreign_net": 795.2,
+      "trust_net": 1.0
+    },
+    "9941": {
+      "foreign_net": 666.8,
+      "trust_net": 0.0
+    },
+    "2034": {
+      "foreign_net": 608.3,
+      "trust_net": 0.0
+    },
+    "3702": {
+      "foreign_net": -389.2,
+      "trust_net": 659.0
+    },
+    "4764": {
+      "foreign_net": 453.0,
+      "trust_net": 0.0
+    },
+    "2472": {
+      "foreign_net": 477.8,
+      "trust_net": 0.0
+    },
+    "9933": {
+      "foreign_net": 315.8,
+      "trust_net": 43.8
+    },
+    "6706": {
+      "foreign_net": 453.1,
+      "trust_net": 0.0
+    },
+    "6209": {
+      "foreign_net": 819.7,
+      "trust_net": 0.0
+    },
+    "6442": {
+      "foreign_net": 343.2,
+      "trust_net": 28.0
+    },
+    "3518": {
+      "foreign_net": 295.0,
+      "trust_net": 0.0
+    },
+    "8996": {
+      "foreign_net": 315.0,
+      "trust_net": 15.0
+    },
+    "8210": {
+      "foreign_net": 252.1,
+      "trust_net": 1.0
+    },
+    "3016": {
+      "foreign_net": 293.8,
+      "trust_net": 0.0
+    },
+    "5434": {
+      "foreign_net": 205.4,
+      "trust_net": 0.0
+    },
+    "1786": {
+      "foreign_net": -20.0,
+      "trust_net": 0.0
+    },
+    "2727": {
+      "foreign_net": 160.8,
+      "trust_net": 0.0
+    },
+    "8021": {
+      "foreign_net": -0.5,
+      "trust_net": 136.0
+    },
+    "1532": {
+      "foreign_net": 140.0,
+      "trust_net": 0.0
+    },
+    "9802": {
+      "foreign_net": 122.0,
+      "trust_net": 0.0
+    },
+    "3042": {
+      "foreign_net": 607.5,
+      "trust_net": -574.0
+    },
+    "6416": {
+      "foreign_net": 109.3,
+      "trust_net": 0.0
+    },
+    "9921": {
+      "foreign_net": 97.5,
+      "trust_net": 0.0
+    },
+    "2466": {
+      "foreign_net": 85.0,
+      "trust_net": 0.0
+    },
+    "2636": {
+      "foreign_net": 108.1,
+      "trust_net": 0.0
+    },
+    "6715": {
+      "foreign_net": -129.8,
+      "trust_net": 280.0
+    },
+    "6414": {
+      "foreign_net": 74.4,
+      "trust_net": 5.0
+    },
+    "6873": {
+      "foreign_net": 62.0,
+      "trust_net": 0.0
+    },
+    "8103": {
+      "foreign_net": 104.7,
+      "trust_net": 0.0
+    },
+    "8473": {
+      "foreign_net": 67.3,
+      "trust_net": 0.0
+    },
+    "2069": {
+      "foreign_net": 53.2,
+      "trust_net": 0.0
+    },
+    "2442": {
+      "foreign_net": 45.9,
+      "trust_net": 0.0
+    },
+    "6668": {
+      "foreign_net": 40.5,
+      "trust_net": 0.0
+    },
+    "6670": {
+      "foreign_net": 29.9,
+      "trust_net": 6.0
+    },
+    "1436": {
+      "foreign_net": 32.0,
+      "trust_net": 0.0
+    },
+    "2462": {
+      "foreign_net": 32.0,
+      "trust_net": 0.0
+    },
+    "8438": {
+      "foreign_net": 28.0,
+      "trust_net": 0.0
+    },
+    "2731": {
+      "foreign_net": 27.9,
+      "trust_net": 0.0
+    },
+    "8462": {
+      "foreign_net": 24.9,
+      "trust_net": 0.0
+    },
+    "2231": {
+      "foreign_net": 14.0,
+      "trust_net": 0.0
+    },
+    "2228": {
+      "foreign_net": 10.1,
+      "trust_net": 0.0
+    },
+    "8466": {
+      "foreign_net": 9.0,
+      "trust_net": 0.0
+    },
+    "6283": {
+      "foreign_net": 7.0,
+      "trust_net": 0.0
+    },
+    "4438": {
+      "foreign_net": 6.0,
+      "trust_net": 0.0
+    },
+    "6641": {
+      "foreign_net": 3.0,
+      "trust_net": 0.0
+    },
+    "8367": {
+      "foreign_net": 3.0,
+      "trust_net": 0.0
+    },
+    "2482": {
+      "foreign_net": 3.0,
+      "trust_net": 0.0
+    },
+    "3018": {
+      "foreign_net": 3.0,
+      "trust_net": 0.0
+    },
+    "1474": {
+      "foreign_net": 3.0,
+      "trust_net": 0.0
+    },
+    "6655": {
+      "foreign_net": 2.0,
+      "trust_net": 0.0
+    },
+    "1805": {
+      "foreign_net": 2.0,
+      "trust_net": 0.0
+    },
+    "1438": {
+      "foreign_net": 1.0,
+      "trust_net": 0.0
+    },
+    "4540": {
+      "foreign_net": 0.6,
+      "trust_net": 0.0
+    },
+    "3023": {
+      "foreign_net": -52.8,
+      "trust_net": 8.0
+    },
+    "6645": {
+      "foreign_net": 3.0,
+      "trust_net": 0.0
+    },
+    "6117": {
+      "foreign_net": 15.5,
+      "trust_net": 0.0
+    },
+    "6835": {
+      "foreign_net": -1.0,
+      "trust_net": 0.0
+    },
+    "3533": {
+      "foreign_net": -43.8,
+      "trust_net": 39.2
+    },
+    "1526": {
+      "foreign_net": 0.1,
+      "trust_net": 0.0
+    },
+    "5546": {
+      "foreign_net": -1.0,
+      "trust_net": 0.0
+    },
+    "6796": {
+      "foreign_net": -2.0,
+      "trust_net": 0.0
+    },
+    "6224": {
+      "foreign_net": 0.8,
+      "trust_net": 0.0
+    },
+    "2906": {
+      "foreign_net": -3.0,
+      "trust_net": 0.0
+    },
+    "7631": {
+      "foreign_net": -7.1,
+      "trust_net": 0.0
+    },
+    "2427": {
+      "foreign_net": 11.2,
+      "trust_net": 0.0
+    },
+    "5306": {
+      "foreign_net": -9.0,
+      "trust_net": 0.0
+    },
+    "4572": {
+      "foreign_net": -5.0,
+      "trust_net": 0.0
+    },
+    "4164": {
+      "foreign_net": 8.0,
+      "trust_net": 0.0
+    },
+    "6184": {
+      "foreign_net": -8.0,
+      "trust_net": 0.0
+    },
+    "4137": {
+      "foreign_net": -9.0,
+      "trust_net": 0.0
+    },
+    "2012": {
+      "foreign_net": -11.0,
+      "trust_net": 0.0
+    },
+    "4919": {
+      "foreign_net": 35.7,
+      "trust_net": -0.1
+    },
+    "3028": {
+      "foreign_net": 42.0,
+      "trust_net": 0.0
+    },
+    "6591": {
+      "foreign_net": -13.0,
+      "trust_net": 0.0
+    },
+    "3257": {
+      "foreign_net": -13.0,
+      "trust_net": 0.0
+    },
+    "9935": {
+      "foreign_net": -16.0,
+      "trust_net": 0.0
+    },
+    "8478": {
+      "foreign_net": -17.0,
+      "trust_net": 0.0
+    },
+    "4807": {
+      "foreign_net": -18.8,
+      "trust_net": 0.0
+    },
+    "3167": {
+      "foreign_net": -361.1,
+      "trust_net": 368.0
+    },
+    "3346": {
+      "foreign_net": -18.0,
+      "trust_net": 0.0
+    },
+    "6585": {
+      "foreign_net": -19.6,
+      "trust_net": 0.0
+    },
+    "5244": {
+      "foreign_net": -22.0,
+      "trust_net": 0.0
+    },
+    "6243": {
+      "foreign_net": -24.0,
+      "trust_net": 0.0
+    },
+    "6552": {
+      "foreign_net": -25.0,
+      "trust_net": 0.0
+    },
+    "4564": {
+      "foreign_net": -27.0,
+      "trust_net": 0.0
+    },
+    "1623": {
+      "foreign_net": -27.0,
+      "trust_net": 0.0
+    },
+    "9958": {
+      "foreign_net": -16.0,
+      "trust_net": 0.0
+    },
+    "8374": {
+      "foreign_net": -19.1,
+      "trust_net": 0.0
+    },
+    "6205": {
+      "foreign_net": -34.0,
+      "trust_net": 0.0
+    },
+    "6753": {
+      "foreign_net": -24.9,
+      "trust_net": 0.0
+    },
+    "3617": {
+      "foreign_net": -37.3,
+      "trust_net": 5.0
+    },
+    "2486": {
+      "foreign_net": 22.9,
+      "trust_net": 0.0
+    },
+    "1617": {
+      "foreign_net": -43.1,
+      "trust_net": 0.0
+    },
+    "1560": {
+      "foreign_net": -177.3,
+      "trust_net": 164.0
+    },
+    "1338": {
+      "foreign_net": -38.0,
+      "trust_net": 0.0
+    },
+    "3092": {
+      "foreign_net": -42.0,
+      "trust_net": 0.0
+    },
+    "1533": {
+      "foreign_net": -47.0,
+      "trust_net": 0.0
+    },
+    "4912": {
+      "foreign_net": -46.0,
+      "trust_net": 0.0
+    },
+    "3583": {
+      "foreign_net": 42.9,
+      "trust_net": -70.0
+    },
+    "6477": {
+      "foreign_net": -50.0,
+      "trust_net": 0.0
+    },
+    "3138": {
+      "foreign_net": -49.9,
+      "trust_net": 0.0
+    },
+    "3416": {
+      "foreign_net": -51.2,
+      "trust_net": 0.0
+    },
+    "6515": {
+      "foreign_net": 6.1,
+      "trust_net": -64.9
+    },
+    "8222": {
+      "foreign_net": -65.0,
+      "trust_net": 0.0
+    },
+    "6438": {
+      "foreign_net": -17.1,
+      "trust_net": 0.0
+    },
+    "6196": {
+      "foreign_net": -74.5,
+      "trust_net": 11.0
+    },
+    "1342": {
+      "foreign_net": -70.6,
+      "trust_net": 0.0
+    },
+    "6189": {
+      "foreign_net": -80.7,
+      "trust_net": 0.0
+    },
+    "6830": {
+      "foreign_net": -46.2,
+      "trust_net": 0.0
+    },
+    "4155": {
+      "foreign_net": -81.9,
+      "trust_net": 0.0
+    },
+    "1598": {
+      "foreign_net": -86.6,
+      "trust_net": 0.0
+    },
+    "9906": {
+      "foreign_net": -31.0,
+      "trust_net": 0.0
+    },
+    "2497": {
+      "foreign_net": -89.8,
+      "trust_net": 0.0
+    },
+    "3653": {
+      "foreign_net": -233.0,
+      "trust_net": 126.3
+    },
+    "4555": {
+      "foreign_net": -102.0,
+      "trust_net": 0.0
+    },
+    "2610": {
+      "foreign_net": 6446.7,
+      "trust_net": -6480.0
+    },
+    "6589": {
+      "foreign_net": -119.0,
+      "trust_net": 0.0
+    },
+    "6472": {
+      "foreign_net": -88.2,
+      "trust_net": 0.0
+    },
+    "3010": {
+      "foreign_net": -92.8,
+      "trust_net": 0.0
+    },
+    "6139": {
+      "foreign_net": -123.6,
+      "trust_net": 31.9
+    },
+    "3591": {
+      "foreign_net": -152.7,
+      "trust_net": 0.0
+    },
+    "2476": {
+      "foreign_net": -63.4,
+      "trust_net": 0.0
+    },
+    "3645": {
+      "foreign_net": -152.0,
+      "trust_net": 0.0
+    },
+    "4916": {
+      "foreign_net": -172.6,
+      "trust_net": 0.0
+    },
+    "4968": {
+      "foreign_net": -158.7,
+      "trust_net": 0.0
+    },
+    "3312": {
+      "foreign_net": -176.6,
+      "trust_net": 0.0
+    },
+    "4739": {
+      "foreign_net": -139.0,
+      "trust_net": 0.0
+    },
+    "8104": {
+      "foreign_net": -183.0,
+      "trust_net": 0.0
+    },
+    "2368": {
+      "foreign_net": -666.4,
+      "trust_net": 526.7
+    },
+    "1582": {
+      "foreign_net": -197.0,
+      "trust_net": 0.0
+    },
+    "2461": {
+      "foreign_net": -216.0,
+      "trust_net": 0.0
+    },
+    "2464": {
+      "foreign_net": -157.5,
+      "trust_net": 0.0
+    },
+    "6197": {
+      "foreign_net": -223.0,
+      "trust_net": 0.0
+    },
+    "6869": {
+      "foreign_net": -253.1,
+      "trust_net": 0.0
+    },
+    "2201": {
+      "foreign_net": -293.8,
+      "trust_net": 5.0
+    },
+    "3413": {
+      "foreign_net": -300.3,
+      "trust_net": 0.0
+    },
+    "3006": {
+      "foreign_net": -62.2,
+      "trust_net": 2.0
+    },
+    "1514": {
+      "foreign_net": -315.7,
+      "trust_net": 7.0
+    },
+    "3149": {
+      "foreign_net": -339.7,
+      "trust_net": 0.0
+    },
+    "2316": {
+      "foreign_net": -261.9,
+      "trust_net": 0.0
+    },
+    "3605": {
+      "foreign_net": -302.9,
+      "trust_net": 0.0
+    },
+    "2439": {
+      "foreign_net": -176.9,
+      "trust_net": 0.0
+    },
+    "2436": {
+      "foreign_net": -338.2,
+      "trust_net": 0.0
+    },
+    "1402": {
+      "foreign_net": 4135.4,
+      "trust_net": -4572.0
+    },
+    "3013": {
+      "foreign_net": -402.2,
+      "trust_net": 0.0
+    },
+    "2383": {
+      "foreign_net": -696.3,
+      "trust_net": 310.5
+    },
+    "3209": {
+      "foreign_net": -496.2,
+      "trust_net": 0.0
+    },
+    "3047": {
+      "foreign_net": -503.3,
+      "trust_net": 0.0
+    },
+    "1536": {
+      "foreign_net": -522.6,
+      "trust_net": 0.0
+    },
+    "3305": {
+      "foreign_net": -458.6,
+      "trust_net": 0.0
+    },
+    "4566": {
+      "foreign_net": -502.7,
+      "trust_net": 0.0
+    },
+    "2208": {
+      "foreign_net": -547.5,
+      "trust_net": 0.0
+    },
+    "1513": {
+      "foreign_net": -573.4,
+      "trust_net": -0.2
+    },
+    "2338": {
+      "foreign_net": -558.7,
+      "trust_net": 0.0
+    },
+    "3376": {
+      "foreign_net": -510.3,
+      "trust_net": 0.0
+    },
+    "2528": {
+      "foreign_net": -597.9,
+      "trust_net": 1.0
+    },
+    "8112": {
+      "foreign_net": -713.2,
+      "trust_net": 0.0
+    },
+    "1316": {
+      "foreign_net": -786.8,
+      "trust_net": 0.0
+    },
+    "5388": {
+      "foreign_net": -767.1,
+      "trust_net": 0.0
+    },
+    "2548": {
+      "foreign_net": -555.6,
+      "trust_net": 0.0
+    },
+    "6257": {
+      "foreign_net": -1421.0,
+      "trust_net": 553.0
+    },
+    "6285": {
+      "foreign_net": -757.1,
+      "trust_net": 11.8
+    },
+    "3576": {
+      "foreign_net": -914.5,
+      "trust_net": 0.0
+    },
+    "1909": {
+      "foreign_net": -1231.0,
+      "trust_net": 0.0
+    },
+    "4906": {
+      "foreign_net": -503.5,
+      "trust_net": 0.0
+    },
+    "6282": {
+      "foreign_net": -1128.8,
+      "trust_net": 31.0
+    },
+    "3033": {
+      "foreign_net": -724.0,
+      "trust_net": 0.0
+    },
+    "8070": {
+      "foreign_net": -1346.6,
+      "trust_net": 0.0
+    },
+    "4967": {
+      "foreign_net": -1710.1,
+      "trust_net": 0.0
+    },
+    "2646": {
+      "foreign_net": -1687.3,
+      "trust_net": 0.0
+    },
+    "2421": {
+      "foreign_net": -1735.7,
+      "trust_net": 0.0
+    },
+    "6269": {
+      "foreign_net": -1078.0,
+      "trust_net": 0.0
+    },
+    "8422": {
+      "foreign_net": -3980.7,
+      "trust_net": 0.0
+    },
+    "2492": {
+      "foreign_net": -9228.7,
+      "trust_net": 11.0
+    },
+    "2303": {
+      "foreign_net": 4870.5,
+      "trust_net": -35437.5
+    },
+    "1295": {
+      "foreign_net": 0.0,
+      "trust_net": 0.0
+    },
+    "1586": {
+      "foreign_net": -54.8,
+      "trust_net": -54.8
+    },
+    "1593": {
+      "foreign_net": 8.0,
+      "trust_net": 8.0
+    },
+    "1595": {
+      "foreign_net": -237.0,
+      "trust_net": -237.0
+    },
+    "1599": {
+      "foreign_net": -1.0,
+      "trust_net": -1.0
+    },
+    "1781": {
+      "foreign_net": -1.0,
+      "trust_net": -1.0
+    },
+    "1815": {
+      "foreign_net": -6644.8,
+      "trust_net": -6644.8
+    },
+    "2061": {
+      "foreign_net": -100.6,
+      "trust_net": -100.6
+    },
+    "2063": {
+      "foreign_net": -1.0,
+      "trust_net": -1.0
+    },
+    "2065": {
+      "foreign_net": -3.0,
+      "trust_net": -3.0
+    },
+    "2066": {
+      "foreign_net": -1.0,
+      "trust_net": -1.0
+    },
+    "2230": {
+      "foreign_net": -20.0,
+      "trust_net": -20.0
+    },
+    "2641": {
+      "foreign_net": 184.1,
+      "trust_net": 184.1
+    },
+    "2732": {
+      "foreign_net": 3.0,
+      "trust_net": 3.0
+    },
+    "3081": {
+      "foreign_net": -297.1,
+      "trust_net": -297.1
+    },
+    "3088": {
+      "foreign_net": -169.2,
+      "trust_net": -169.2
+    },
+    "3122": {
+      "foreign_net": 2.0,
+      "trust_net": 2.0
+    },
+    "3128": {
+      "foreign_net": 4.8,
+      "trust_net": 4.8
+    },
+    "3141": {
+      "foreign_net": -39.6,
+      "trust_net": -39.6
+    },
+    "3163": {
+      "foreign_net": 247.3,
+      "trust_net": 247.3
+    },
+    "3171": {
+      "foreign_net": -1.0,
+      "trust_net": -1.0
+    },
+    "3207": {
+      "foreign_net": 66.0,
+      "trust_net": 66.0
+    },
+    "3219": {
+      "foreign_net": 10.8,
+      "trust_net": 10.8
+    },
+    "3260": {
+      "foreign_net": -3824.2,
+      "trust_net": -3824.2
+    },
+    "3268": {
+      "foreign_net": -11.0,
+      "trust_net": -11.0
+    },
+    "3272": {
+      "foreign_net": 6.0,
+      "trust_net": 6.0
+    },
+    "3290": {
+      "foreign_net": -57.0,
+      "trust_net": -57.0
+    },
+    "3303": {
+      "foreign_net": 35.9,
+      "trust_net": 35.9
+    },
+    "3310": {
+      "foreign_net": -9.0,
+      "trust_net": -9.0
+    },
+    "3313": {
+      "foreign_net": 10.0,
+      "trust_net": 10.0
+    },
+    "3322": {
+      "foreign_net": -81.0,
+      "trust_net": -81.0
+    },
+    "3323": {
+      "foreign_net": -101.0,
+      "trust_net": -101.0
+    },
+    "3324": {
+      "foreign_net": -748.1,
+      "trust_net": -748.1
+    },
+    "3325": {
+      "foreign_net": 77.0,
+      "trust_net": 77.0
+    },
+    "3339": {
+      "foreign_net": 704.1,
+      "trust_net": 704.1
+    },
+    "3357": {
+      "foreign_net": -261.7,
+      "trust_net": -261.7
+    },
+    "3362": {
+      "foreign_net": 22.5,
+      "trust_net": 22.5
+    },
+    "3388": {
+      "foreign_net": 25.0,
+      "trust_net": 25.0
+    },
+    "3465": {
+      "foreign_net": 0.0,
+      "trust_net": 0.0
+    },
+    "3479": {
+      "foreign_net": 60.0,
+      "trust_net": 60.0
+    },
+    "3483": {
+      "foreign_net": 36.1,
+      "trust_net": 36.1
+    },
+    "3484": {
+      "foreign_net": -18.0,
+      "trust_net": -18.0
+    },
+    "3489": {
+      "foreign_net": 4.0,
+      "trust_net": 4.0
+    },
+    "3491": {
+      "foreign_net": 7.4,
+      "trust_net": 7.4
+    },
+    "3512": {
+      "foreign_net": 9.0,
+      "trust_net": 9.0
+    },
+    "3516": {
+      "foreign_net": -6.0,
+      "trust_net": -6.0
+    },
+    "3521": {
+      "foreign_net": -2.0,
+      "trust_net": -2.0
+    },
+    "3522": {
+      "foreign_net": -15.0,
+      "trust_net": -15.0
+    },
+    "3526": {
+      "foreign_net": -57.7,
+      "trust_net": -57.7
+    },
+    "3548": {
+      "foreign_net": -23.0,
+      "trust_net": -23.0
+    },
+    "3564": {
+      "foreign_net": 90.0,
+      "trust_net": 90.0
+    },
+    "3580": {
+      "foreign_net": 79.2,
+      "trust_net": 79.2
+    },
+    "3587": {
+      "foreign_net": -13.7,
+      "trust_net": -13.7
+    },
+    "3594": {
+      "foreign_net": -97.0,
+      "trust_net": -97.0
+    },
+    "3597": {
+      "foreign_net": -60.0,
+      "trust_net": -60.0
+    },
+    "3625": {
+      "foreign_net": -13.0,
+      "trust_net": -13.0
+    },
+    "3631": {
+      "foreign_net": -30.0,
+      "trust_net": -30.0
+    },
+    "3663": {
+      "foreign_net": -241.0,
+      "trust_net": -241.0
+    },
+    "3680": {
+      "foreign_net": -256.9,
+      "trust_net": -256.9
+    },
+    "3689": {
+      "foreign_net": -156.9,
+      "trust_net": -156.9
+    },
+    "3691": {
+      "foreign_net": 972.3,
+      "trust_net": 972.3
+    },
+    "3707": {
+      "foreign_net": -491.4,
+      "trust_net": -491.4
+    },
+    "3713": {
+      "foreign_net": -1.0,
+      "trust_net": -1.0
+    },
+    "4121": {
+      "foreign_net": -3.0,
+      "trust_net": -3.0
+    },
+    "4123": {
+      "foreign_net": -125.1,
+      "trust_net": -125.1
+    },
+    "4129": {
+      "foreign_net": -25.0,
+      "trust_net": -25.0
+    },
+    "4167": {
+      "foreign_net": 247.0,
+      "trust_net": 247.0
+    },
+    "4168": {
+      "foreign_net": -10.0,
+      "trust_net": -10.0
+    },
+    "4171": {
+      "foreign_net": -5.0,
+      "trust_net": -5.0
+    },
+    "4175": {
+      "foreign_net": 2.0,
+      "trust_net": 2.0
+    },
+    "4303": {
+      "foreign_net": 5.9,
+      "trust_net": 5.9
+    },
+    "4416": {
+      "foreign_net": -48.0,
+      "trust_net": -48.0
+    },
+    "4538": {
+      "foreign_net": -2.0,
+      "trust_net": -2.0
+    },
+    "4541": {
+      "foreign_net": -78.6,
+      "trust_net": -78.6
+    },
+    "4542": {
+      "foreign_net": -55.1,
+      "trust_net": -55.1
+    },
+    "4549": {
+      "foreign_net": -8.0,
+      "trust_net": -8.0
+    },
+    "4556": {
+      "foreign_net": 105.8,
+      "trust_net": 105.8
+    },
+    "4580": {
+      "foreign_net": -8.0,
+      "trust_net": -8.0
+    },
+    "4714": {
+      "foreign_net": -483.9,
+      "trust_net": -483.9
+    },
+    "4744": {
+      "foreign_net": 2.0,
+      "trust_net": 2.0
+    },
+    "4747": {
+      "foreign_net": -3.0,
+      "trust_net": -3.0
+    },
+    "4760": {
+      "foreign_net": 100.4,
+      "trust_net": 100.4
+    },
+    "4973": {
+      "foreign_net": -43.9,
+      "trust_net": -43.9
+    },
+    "4979": {
+      "foreign_net": -68.1,
+      "trust_net": -68.1
+    },
+    "5009": {
+      "foreign_net": -1713.8,
+      "trust_net": -1713.8
+    },
+    "5011": {
+      "foreign_net": 11.0,
+      "trust_net": 11.0
+    },
+    "5209": {
+      "foreign_net": 4.3,
+      "trust_net": 4.3
+    },
+    "5212": {
+      "foreign_net": -1.0,
+      "trust_net": -1.0
+    },
+    "5213": {
+      "foreign_net": 35.0,
+      "trust_net": 35.0
+    },
+    "5223": {
+      "foreign_net": -1.0,
+      "trust_net": -1.0
+    },
+    "5230": {
+      "foreign_net": -232.8,
+      "trust_net": -232.8
+    },
+    "5245": {
+      "foreign_net": 12.0,
+      "trust_net": 12.0
+    },
+    "5263": {
+      "foreign_net": -83.0,
+      "trust_net": -83.0
+    },
+    "5289": {
+      "foreign_net": -89.5,
+      "trust_net": -89.5
+    },
+    "5291": {
+      "foreign_net": -79.0,
+      "trust_net": -79.0
+    },
+    "5309": {
+      "foreign_net": 501.9,
+      "trust_net": 501.9
+    },
+    "5321": {
+      "foreign_net": -34.9,
+      "trust_net": -34.9
+    },
+    "5351": {
+      "foreign_net": 248.9,
+      "trust_net": 248.9
+    },
+    "5450": {
+      "foreign_net": 1.0,
+      "trust_net": 1.0
+    },
+    "5457": {
+      "foreign_net": -66.0,
+      "trust_net": -66.0
+    },
+    "5498": {
+      "foreign_net": -333.9,
+      "trust_net": -333.9
+    },
+    "5536": {
+      "foreign_net": -153.4,
+      "trust_net": -153.4
+    },
+    "5543": {
+      "foreign_net": 1.0,
+      "trust_net": 1.0
+    },
+    "5905": {
+      "foreign_net": -169.0,
+      "trust_net": -169.0
+    },
+    "6015": {
+      "foreign_net": -684.3,
+      "trust_net": -684.3
+    },
+    "6104": {
+      "foreign_net": -9.9,
+      "trust_net": -9.9
+    },
+    "6111": {
+      "foreign_net": -15.0,
+      "trust_net": -15.0
+    },
+    "6125": {
+      "foreign_net": -41.0,
+      "trust_net": -41.0
+    },
+    "6126": {
+      "foreign_net": -40.5,
+      "trust_net": -40.5
+    },
+    "6134": {
+      "foreign_net": 50.8,
+      "trust_net": 50.8
+    },
+    "6150": {
+      "foreign_net": -48.8,
+      "trust_net": -48.8
+    },
+    "6156": {
+      "foreign_net": -14.6,
+      "trust_net": -14.6
+    },
+    "6163": {
+      "foreign_net": -36.8,
+      "trust_net": -36.8
+    },
+    "6174": {
+      "foreign_net": -46.9,
+      "trust_net": -46.9
+    },
+    "6175": {
+      "foreign_net": 107.6,
+      "trust_net": 107.6
+    },
+    "6179": {
+      "foreign_net": 111.7,
+      "trust_net": 111.7
+    },
+    "6182": {
+      "foreign_net": 167.7,
+      "trust_net": 167.7
+    },
+    "6187": {
+      "foreign_net": -164.6,
+      "trust_net": -164.6
+    },
+    "6190": {
+      "foreign_net": -230.0,
+      "trust_net": -230.0
+    },
+    "6203": {
+      "foreign_net": 0.0,
+      "trust_net": 0.0
+    },
+    "6208": {
+      "foreign_net": -13.0,
+      "trust_net": -13.0
+    },
+    "6217": {
+      "foreign_net": -280.6,
+      "trust_net": -280.6
+    },
+    "6220": {
+      "foreign_net": -30.0,
+      "trust_net": -30.0
+    },
+    "6248": {
+      "foreign_net": 7.0,
+      "trust_net": 7.0
+    },
+    "6274": {
+      "foreign_net": -5.1,
+      "trust_net": -5.1
+    },
+    "6275": {
+      "foreign_net": -19.1,
+      "trust_net": -19.1
+    },
+    "6279": {
+      "foreign_net": -159.5,
+      "trust_net": -159.5
+    },
+    "6284": {
+      "foreign_net": -289.1,
+      "trust_net": -289.1
+    },
+    "6290": {
+      "foreign_net": -385.6,
+      "trust_net": -385.6
+    },
+    "6425": {
+      "foreign_net": -150.3,
+      "trust_net": -150.3
+    },
+    "6432": {
+      "foreign_net": -11.0,
+      "trust_net": -11.0
+    },
+    "6441": {
+      "foreign_net": 34.0,
+      "trust_net": 34.0
+    },
+    "6465": {
+      "foreign_net": 0.0,
+      "trust_net": 0.0
+    },
+    "6469": {
+      "foreign_net": -118.1,
+      "trust_net": -118.1
+    },
+    "6486": {
+      "foreign_net": 13.1,
+      "trust_net": 13.1
+    },
+    "6496": {
+      "foreign_net": -1.0,
+      "trust_net": -1.0
+    },
+    "6509": {
+      "foreign_net": -100.6,
+      "trust_net": -100.6
+    },
+    "6532": {
+      "foreign_net": -55.4,
+      "trust_net": -55.4
+    },
+    "6546": {
+      "foreign_net": -101.0,
+      "trust_net": -101.0
+    },
+    "6548": {
+      "foreign_net": -939.3,
+      "trust_net": -939.3
+    },
+    "6570": {
+      "foreign_net": -25.0,
+      "trust_net": -25.0
+    },
+    "6578": {
+      "foreign_net": -6.0,
+      "trust_net": -6.0
+    },
+    "6584": {
+      "foreign_net": 2.4,
+      "trust_net": 2.4
+    },
+    "6593": {
+      "foreign_net": -1.0,
+      "trust_net": -1.0
+    },
+    "6603": {
+      "foreign_net": -247.8,
+      "trust_net": -247.8
+    },
+    "6613": {
+      "foreign_net": -53.0,
+      "trust_net": -53.0
+    },
+    "6624": {
+      "foreign_net": -1.0,
+      "trust_net": -1.0
+    },
+    "6664": {
+      "foreign_net": -97.0,
+      "trust_net": -97.0
+    },
+    "6680": {
+      "foreign_net": 5.0,
+      "trust_net": 5.0
+    },
+    "6683": {
+      "foreign_net": 160.1,
+      "trust_net": 160.1
+    },
+    "6693": {
+      "foreign_net": 265.0,
+      "trust_net": 265.0
+    },
+    "6727": {
+      "foreign_net": -307.2,
+      "trust_net": -307.2
+    },
+    "6761": {
+      "foreign_net": -16.6,
+      "trust_net": -16.6
+    },
+    "6804": {
+      "foreign_net": -12.0,
+      "trust_net": -12.0
+    },
+    "6823": {
+      "foreign_net": 9.0,
+      "trust_net": 9.0
+    },
+    "6840": {
+      "foreign_net": 40.4,
+      "trust_net": 40.4
+    },
+    "6870": {
+      "foreign_net": 2.0,
+      "trust_net": 2.0
+    },
+    "6874": {
+      "foreign_net": -11.0,
+      "trust_net": -11.0
+    },
+    "6903": {
+      "foreign_net": -108.0,
+      "trust_net": -108.0
+    },
+    "7402": {
+      "foreign_net": 16.0,
+      "trust_net": 16.0
+    },
+    "7738": {
+      "foreign_net": -2.3,
+      "trust_net": -2.3
+    },
+    "7743": {
+      "foreign_net": 0.0,
+      "trust_net": 0.0
+    },
+    "8027": {
+      "foreign_net": -96.7,
+      "trust_net": -96.7
+    },
+    "8044": {
+      "foreign_net": -122.0,
+      "trust_net": -122.0
+    },
+    "8050": {
+      "foreign_net": 92.5,
+      "trust_net": 92.5
+    },
+    "8054": {
+      "foreign_net": -57.9,
+      "trust_net": -57.9
+    },
+    "8091": {
+      "foreign_net": -81.4,
+      "trust_net": -81.4
+    },
+    "8092": {
+      "foreign_net": 2.0,
+      "trust_net": 2.0
+    },
+    "8096": {
+      "foreign_net": -413.2,
+      "trust_net": -413.2
+    },
+    "8097": {
+      "foreign_net": -1.0,
+      "trust_net": -1.0
+    },
+    "8109": {
+      "foreign_net": -48.4,
+      "trust_net": -48.4
+    },
+    "8147": {
+      "foreign_net": -4.0,
+      "trust_net": -4.0
+    },
+    "8155": {
+      "foreign_net": -133.1,
+      "trust_net": -133.1
+    },
+    "8171": {
+      "foreign_net": 0.0,
+      "trust_net": 0.0
+    },
+    "8255": {
+      "foreign_net": -77.5,
+      "trust_net": -77.5
+    },
+    "8299": {
+      "foreign_net": -68.5,
+      "trust_net": -68.5
+    },
+    "8349": {
+      "foreign_net": 10.0,
+      "trust_net": 10.0
+    },
+    "8433": {
+      "foreign_net": 2.0,
+      "trust_net": 2.0
+    },
+    "8489": {
+      "foreign_net": -1.0,
+      "trust_net": -1.0
+    },
+    "8927": {
+      "foreign_net": 286.0,
+      "trust_net": 286.0
+    },
+    "8932": {
+      "foreign_net": -251.9,
+      "trust_net": -251.9
+    },
+    "8936": {
+      "foreign_net": -75.0,
+      "trust_net": -75.0
+    },
+    "8938": {
+      "foreign_net": 16.0,
+      "trust_net": 16.0
+    }
   }
 }

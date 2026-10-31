@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-28T19:31:43",
+  "generated_at": "2026-10-31T21:27:28",
   "database": "D:\\bond\\backend\\data\\cb_event_master.sqlite",
   "required_stages": [
     "BOARD_RESOLUTION",
@@ -16,15 +16,15 @@
     "CBAS_ACTUAL"
   ],
   "summary": {
-    "issues": 631,
-    "events": 3771,
-    "issues_with_missing_stages": 631
+    "issues": 633,
+    "events": 3779,
+    "issues_with_missing_stages": 633
   },
   "stage_summary": {
     "BOARD_RESOLUTION": {
-      "observed_events": 131,
-      "inferred_events": 504,
-      "issues_with_stage": 559
+      "observed_events": 135,
+      "inferred_events": 505,
+      "issues_with_stage": 561
     },
     "FILING": {
       "observed_events": 20,
@@ -33,13 +33,13 @@
     },
     "EFFECTIVE": {
       "observed_events": 9,
-      "inferred_events": 544,
-      "issues_with_stage": 544
+      "inferred_events": 545,
+      "issues_with_stage": 545
     },
     "PRICING": {
-      "observed_events": 544,
+      "observed_events": 545,
       "inferred_events": 0,
-      "issues_with_stage": 542
+      "issues_with_stage": 543
     },
     "AUCTION_BID_START": {
       "observed_events": 87,
@@ -72,9 +72,9 @@
       "issues_with_stage": 0
     },
     "LISTING": {
-      "observed_events": 550,
+      "observed_events": 551,
       "inferred_events": 0,
-      "issues_with_stage": 545
+      "issues_with_stage": 546
     },
     "CBAS_ACTUAL": {
       "observed_events": 0,
@@ -1517,6 +1517,31 @@
       "event_count": 4
     },
     {
+      "issue_id": "issue_61aadfb96c9278575285",
+      "stock_code": "2059",
+      "cb_code": null,
+      "short_name": null,
+      "company_name": "川湖",
+      "observed_stages": [
+        "BOARD_RESOLUTION"
+      ],
+      "inferred_stages": [],
+      "missing_stages": [
+        "FILING",
+        "EFFECTIVE",
+        "PRICING",
+        "AUCTION_BID_START",
+        "AUCTION_BID_END",
+        "BOOKBUILDING_START",
+        "BOOKBUILDING_END",
+        "BOOKBUILDING_RESULT",
+        "UNDERWRITING_NOTICE",
+        "LISTING",
+        "CBAS_ACTUAL"
+      ],
+      "event_count": 1
+    },
+    {
       "issue_id": "issue_5eea7d35d006e64f54ea",
       "stock_code": "2061",
       "cb_code": "20612",
@@ -2079,7 +2104,7 @@
         "LISTING",
         "CBAS_ACTUAL"
       ],
-      "event_count": 1
+      "event_count": 2
     },
     {
       "issue_id": "issue_e15a668db90a49d2b55a",
@@ -7541,6 +7566,32 @@
       "event_count": 4
     },
     {
+      "issue_id": "issue_4cb8cbf65552c37474d7",
+      "stock_code": "3702",
+      "cb_code": "37024",
+      "short_name": "大聯大四",
+      "company_name": "大聯大控股股份有限公司",
+      "observed_stages": [
+        "LISTING",
+        "PRICING"
+      ],
+      "inferred_stages": [
+        "BOARD_RESOLUTION",
+        "EFFECTIVE"
+      ],
+      "missing_stages": [
+        "FILING",
+        "AUCTION_BID_START",
+        "AUCTION_BID_END",
+        "BOOKBUILDING_START",
+        "BOOKBUILDING_END",
+        "BOOKBUILDING_RESULT",
+        "UNDERWRITING_NOTICE",
+        "CBAS_ACTUAL"
+      ],
+      "event_count": 4
+    },
+    {
       "issue_id": "issue_40f327edf6fbcc0980f6",
       "stock_code": "3706",
       "cb_code": null,
@@ -7563,7 +7614,7 @@
         "LISTING",
         "CBAS_ACTUAL"
       ],
-      "event_count": 1
+      "event_count": 2
     },
     {
       "issue_id": "issue_24caea4892559ec25665",
@@ -11076,7 +11127,7 @@
         "UNDERWRITING_NOTICE",
         "CBAS_ACTUAL"
       ],
-      "event_count": 8
+      "event_count": 9
     },
     {
       "issue_id": "issue_62f81e0061d9e1feff9c",

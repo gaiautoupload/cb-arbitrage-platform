@@ -8308,5 +8308,20 @@
     "maturity_date_minguo": "118年10月30日",
     "maturity_date": "2029-10-30",
     "issue_amount": "新台幣4億元整"
+  },
+  {
+    "file_id": "11500065881",
+    "company_name": "大聯大控股股份有限公司",
+    "bond_name": "大聯大控股股份有限公司國內第四次無擔保轉換公司債",
+    "cb_code": "37024",
+    "stock_code": "3702",
+    "short_name": "大聯大四",
+    "announcement_date_minguo": "115年10月29日",
+    "announcement_date": "2026-10-29",
+    "issue_date_minguo": "115年11月5日",
+    "issue_date": "2026-11-05",
+    "maturity_date_minguo": "118年11月5日",
+    "maturity_date": "2029-11-05",
+    "issue_amount": "新台幣150億元整"
   }
 ]
