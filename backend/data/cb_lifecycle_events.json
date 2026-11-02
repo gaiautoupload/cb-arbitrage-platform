@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-01T17:10:46",
+  "generated_at": "2026-11-02T17:10:31",
   "source_files": {
     "mops_wiki_db": "mops_wiki_db.json",
     "parsed_bonds": "parsed_bonds.json",
@@ -12,21 +12,21 @@
     "Generated linked BOARD_RESOLUTION/EFFECTIVE dates are retained only as low-confidence proxy events."
   ],
   "summary": {
-    "total_events": 3684,
-    "actual_or_observed_events": 1453,
-    "inferred_events": 2231,
+    "total_events": 3687,
+    "actual_or_observed_events": 1455,
+    "inferred_events": 2232,
     "by_stage": {
       "BOARD_RESOLUTION": 610,
       "FILING": 20,
-      "EFFECTIVE": 552,
-      "PRICING": 545,
+      "EFFECTIVE": 553,
+      "PRICING": 546,
       "FINAL_PRICING": 2,
       "PAYMENT_BANK": 56,
       "AUCTION_BID_START": 73,
       "AUCTION_BID_END": 73,
       "AUCTION_RESULT_ESTIMATED": 73,
       "BOOKBUILDING_RESULT": 1,
-      "LISTING": 551,
+      "LISTING": 552,
       "CBAS_PROXY_START": 376,
       "CBAS_PROXY_END": 376,
       "T_PLUS_19_EXIT_PROXY": 376
@@ -7008,6 +7008,42 @@
       "summary": "董事會/股東會決議: 公告本公司董事會決議發行國內第二次無擔保轉換公司債",
       "event_type": "CB_ISSUANCE",
       "published_at": "2026-09-04T150423"
+    },
+    {
+      "stock_code": "2492",
+      "company_name": "華新科技股份有限公司",
+      "short_name": "華新科二",
+      "stage": "EFFECTIVE",
+      "date": "2026-10-02",
+      "source": "linked_bond_stages_proxy",
+      "confidence": 0.25,
+      "is_inferred": true,
+      "title": "金管會申報生效發行無擔保轉換公司債",
+      "summary": "可轉債申報生效，正式進入定價與發行準備期"
+    },
+    {
+      "stock_code": "2492",
+      "company_name": "華新科技股份有限公司",
+      "short_name": "華新科二",
+      "stage": "PRICING",
+      "date": "2026-11-02",
+      "source": "parsed_bonds",
+      "confidence": 0.65,
+      "is_inferred": false,
+      "title": "華新科二 announcement/pricing date",
+      "cb_code": "24922"
+    },
+    {
+      "stock_code": "2492",
+      "company_name": "華新科技股份有限公司",
+      "short_name": "華新科二",
+      "stage": "LISTING",
+      "date": "2026-11-06",
+      "source": "parsed_bonds",
+      "confidence": 0.65,
+      "is_inferred": false,
+      "title": "華新科二 issue/listing date",
+      "cb_code": "24922"
     },
     {
       "stock_code": "2497",

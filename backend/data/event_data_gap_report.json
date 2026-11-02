@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-01T17:10:46",
+  "generated_at": "2026-11-02T17:10:31",
   "database": "D:\\bond\\backend\\data\\cb_event_master.sqlite",
   "required_stages": [
     "BOARD_RESOLUTION",
@@ -16,9 +16,9 @@
     "CBAS_ACTUAL"
   ],
   "summary": {
-    "issues": 633,
-    "events": 3779,
-    "issues_with_missing_stages": 633
+    "issues": 634,
+    "events": 3782,
+    "issues_with_missing_stages": 634
   },
   "stage_summary": {
     "BOARD_RESOLUTION": {
@@ -33,13 +33,13 @@
     },
     "EFFECTIVE": {
       "observed_events": 9,
-      "inferred_events": 545,
-      "issues_with_stage": 545
+      "inferred_events": 546,
+      "issues_with_stage": 546
     },
     "PRICING": {
-      "observed_events": 545,
+      "observed_events": 546,
       "inferred_events": 0,
-      "issues_with_stage": 543
+      "issues_with_stage": 544
     },
     "AUCTION_BID_START": {
       "observed_events": 87,
@@ -72,9 +72,9 @@
       "issues_with_stage": 0
     },
     "LISTING": {
-      "observed_events": 551,
+      "observed_events": 552,
       "inferred_events": 0,
-      "issues_with_stage": 546
+      "issues_with_stage": 547
     },
     "CBAS_ACTUAL": {
       "observed_events": 0,
@@ -2895,6 +2895,32 @@
         "CBAS_ACTUAL"
       ],
       "event_count": 8
+    },
+    {
+      "issue_id": "issue_bd1424944349ff51d08b",
+      "stock_code": "2492",
+      "cb_code": "24922",
+      "short_name": "華新科二",
+      "company_name": "華新科技股份有限公司",
+      "observed_stages": [
+        "LISTING",
+        "PRICING"
+      ],
+      "inferred_stages": [
+        "EFFECTIVE"
+      ],
+      "missing_stages": [
+        "BOARD_RESOLUTION",
+        "FILING",
+        "AUCTION_BID_START",
+        "AUCTION_BID_END",
+        "BOOKBUILDING_START",
+        "BOOKBUILDING_END",
+        "BOOKBUILDING_RESULT",
+        "UNDERWRITING_NOTICE",
+        "CBAS_ACTUAL"
+      ],
+      "event_count": 3
     },
     {
       "issue_id": "issue_6cb25d8eb88a89c3544b",
