@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-02T17:10:31",
+  "generated_at": "2026-11-03T17:14:42",
   "database": "D:\\bond\\backend\\data\\cb_event_master.sqlite",
   "required_stages": [
     "BOARD_RESOLUTION",
@@ -16,15 +16,15 @@
     "CBAS_ACTUAL"
   ],
   "summary": {
-    "issues": 634,
-    "events": 3782,
-    "issues_with_missing_stages": 634
+    "issues": 635,
+    "events": 3792,
+    "issues_with_missing_stages": 635
   },
   "stage_summary": {
     "BOARD_RESOLUTION": {
       "observed_events": 135,
-      "inferred_events": 505,
-      "issues_with_stage": 561
+      "inferred_events": 506,
+      "issues_with_stage": 562
     },
     "FILING": {
       "observed_events": 20,
@@ -33,13 +33,13 @@
     },
     "EFFECTIVE": {
       "observed_events": 9,
-      "inferred_events": 546,
-      "issues_with_stage": 546
+      "inferred_events": 547,
+      "issues_with_stage": 547
     },
     "PRICING": {
-      "observed_events": 546,
+      "observed_events": 547,
       "inferred_events": 0,
-      "issues_with_stage": 544
+      "issues_with_stage": 545
     },
     "AUCTION_BID_START": {
       "observed_events": 87,
@@ -72,9 +72,9 @@
       "issues_with_stage": 0
     },
     "LISTING": {
-      "observed_events": 552,
+      "observed_events": 553,
       "inferred_events": 0,
-      "issues_with_stage": 547
+      "issues_with_stage": 548
     },
     "CBAS_ACTUAL": {
       "observed_events": 0,
@@ -9277,9 +9277,10 @@
       "stock_code": "4906",
       "cb_code": "49066",
       "short_name": "正文六",
-      "company_name": "正文科技股份有限公司",
+      "company_name": "正文",
       "observed_stages": [
         "LISTING",
+        "PAYMENT_BANK",
         "PRICING"
       ],
       "inferred_stages": [
@@ -9299,7 +9300,7 @@
         "UNDERWRITING_NOTICE",
         "CBAS_ACTUAL"
       ],
-      "event_count": 7
+      "event_count": 8
     },
     {
       "issue_id": "issue_060b3601ebec75150eaa",
@@ -9339,6 +9340,7 @@
       "observed_stages": [
         "BOARD_RESOLUTION",
         "LISTING",
+        "PAYMENT_BANK",
         "PRICING"
       ],
       "inferred_stages": [
@@ -9358,7 +9360,7 @@
         "UNDERWRITING_NOTICE",
         "CBAS_ACTUAL"
       ],
-      "event_count": 8
+      "event_count": 9
     },
     {
       "issue_id": "issue_6d4203148172a5d583f6",
@@ -13961,6 +13963,35 @@
       "event_count": 7
     },
     {
+      "issue_id": "issue_6cf3c70601fa4e751ede",
+      "stock_code": "6597",
+      "cb_code": "65971",
+      "short_name": "立誠一",
+      "company_name": "立誠光電股份有限公司",
+      "observed_stages": [
+        "LISTING",
+        "PRICING"
+      ],
+      "inferred_stages": [
+        "BOARD_RESOLUTION",
+        "CBAS_PROXY_END",
+        "CBAS_PROXY_START",
+        "EFFECTIVE",
+        "T_PLUS_19_EXIT_PROXY"
+      ],
+      "missing_stages": [
+        "FILING",
+        "AUCTION_BID_START",
+        "AUCTION_BID_END",
+        "BOOKBUILDING_START",
+        "BOOKBUILDING_END",
+        "BOOKBUILDING_RESULT",
+        "UNDERWRITING_NOTICE",
+        "CBAS_ACTUAL"
+      ],
+      "event_count": 7
+    },
+    {
       "issue_id": "issue_f8cf8a8135896a1d9bcc",
       "stock_code": "6603",
       "cb_code": "66033",
@@ -14141,7 +14172,8 @@
       "short_name": null,
       "company_name": "聯策",
       "observed_stages": [
-        "BOARD_RESOLUTION"
+        "BOARD_RESOLUTION",
+        "FINAL_PRICING"
       ],
       "inferred_stages": [],
       "missing_stages": [
@@ -14157,7 +14189,7 @@
         "LISTING",
         "CBAS_ACTUAL"
       ],
-      "event_count": 1
+      "event_count": 2
     },
     {
       "issue_id": "issue_fdc8242f049a8405c38a",

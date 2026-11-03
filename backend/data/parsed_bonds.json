@@ -8338,5 +8338,20 @@
     "maturity_date_minguo": "120年11月6日",
     "maturity_date": "2031-11-06",
     "issue_amount": "新台幣45億元整"
+  },
+  {
+    "file_id": "11500066641",
+    "company_name": "立誠光電股份有限公司",
+    "bond_name": "立誠光電股份有限公司國內第一次無擔保轉換公司債",
+    "cb_code": "65971",
+    "stock_code": "6597",
+    "short_name": "立誠一",
+    "announcement_date_minguo": "115年11月3日",
+    "announcement_date": "2026-11-03",
+    "issue_date_minguo": "115年11月10日",
+    "issue_date": "2026-11-10",
+    "maturity_date_minguo": "118年11月10日",
+    "maturity_date": "2029-11-10",
+    "issue_amount": "新台幣4.5億元整"
   }
 ]

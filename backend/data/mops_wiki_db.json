@@ -8847,6 +8847,78 @@
     "parsed_at": "2026-10-31T21:12:35"
   },
   {
+    "date": "2026-11-02",
+    "time": "135234",
+    "stock_code": "3711",
+    "company_name": "日月光投控",
+    "event_title": "代子公司USI Asteelflash USA Corp.公告擬取得不動產使用權資產",
+    "event_type": "OTHER",
+    "stage": "N/A",
+    "wiki_details": {
+      "board_date": "民國115年11月2日"
+    },
+    "sentiment": "NEUTRAL",
+    "summary": "CB 相關公告: 代子公司USI Asteelflash USA Corp.公告擬取得不動產使用權資產",
+    "parser": "rule_v2",
+    "parsed_at": "2026-11-03T17:00:25"
+  },
+  {
+    "date": "2026-11-02",
+    "time": "142104",
+    "stock_code": "3711",
+    "company_name": "日月光投控",
+    "event_title": "代子公司Asteelflash USA Corp.公告董事會決議讓與租賃合約",
+    "event_type": "OTHER",
+    "stage": "N/A",
+    "wiki_details": {},
+    "sentiment": "NEUTRAL",
+    "summary": "CB 相關公告: 代子公司Asteelflash USA Corp.公告董事會決議讓與租賃合約",
+    "parser": "rule_v2",
+    "parsed_at": "2026-11-03T17:00:25"
+  },
+  {
+    "date": "2026-11-02",
+    "time": "174835",
+    "stock_code": "4906",
+    "company_name": "正文",
+    "event_title": "公告本公司國內第七次暨第八次無擔保轉換公司債\r\n代收價款行庫及存儲專戶行庫",
+    "event_type": "CB_ISSUANCE",
+    "stage": "PAYMENT_BANK",
+    "wiki_details": {},
+    "sentiment": "BULLISH",
+    "summary": "代收價款/專戶: 公告本公司國內第七次暨第八次無擔保轉換公司債\r\n代收價款行庫及存儲專戶行庫",
+    "parser": "rule_v2",
+    "parsed_at": "2026-11-03T17:00:25"
+  },
+  {
+    "date": "2026-11-02",
+    "time": "162612",
+    "stock_code": "4916",
+    "company_name": "事欣科",
+    "event_title": "公告本公司國內第六次無擔保轉換公司債之委託代收價款及\r\n存儲專戶行庫",
+    "event_type": "CB_ISSUANCE",
+    "stage": "PAYMENT_BANK",
+    "wiki_details": {},
+    "sentiment": "BULLISH",
+    "summary": "代收價款/專戶: 公告本公司國內第六次無擔保轉換公司債之委託代收價款及\r\n存儲專戶行庫",
+    "parser": "rule_v2",
+    "parsed_at": "2026-11-03T17:00:25"
+  },
+  {
+    "date": "2026-11-02",
+    "time": "150237",
+    "stock_code": "6658",
+    "company_name": "聯策",
+    "event_title": "公告本公司發行國內第一次無擔保轉換公司債完成訂價",
+    "event_type": "CB_ISSUANCE",
+    "stage": "FINAL_PRICING",
+    "wiki_details": {},
+    "sentiment": "BULLISH",
+    "summary": "最終訂價: 公告本公司發行國內第一次無擔保轉換公司債完成訂價",
+    "parser": "rule_v2",
+    "parsed_at": "2026-11-03T17:00:25"
+  },
+  {
     "date": "2026-02-12",
     "time": "140510",
     "stock_code": "3260",
