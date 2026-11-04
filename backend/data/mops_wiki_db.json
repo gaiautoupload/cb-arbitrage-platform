@@ -8919,6 +8919,148 @@
     "parsed_at": "2026-11-03T17:00:25"
   },
   {
+    "date": "2026-11-03",
+    "time": "181404",
+    "stock_code": "2528",
+    "company_name": "皇普",
+    "event_title": "公告本公司國內第三次無擔保轉換公司債115年第3季轉換\r\n普通股之增資基準日",
+    "event_type": "CB_ISSUANCE",
+    "stage": "BOARD_RESOLUTION",
+    "wiki_details": {
+      "board_date": "115/11/03"
+    },
+    "sentiment": "NEUTRAL",
+    "summary": "董事會/股東會決議: 公告本公司國內第三次無擔保轉換公司債115年第3季轉換\r\n普通股之增資基準日",
+    "parser": "rule_v2",
+    "parsed_at": "2026-11-04T17:00:23"
+  },
+  {
+    "date": "2026-11-03",
+    "time": "181958",
+    "stock_code": "3416",
+    "company_name": "融程電",
+    "event_title": "本公司國內第三次無擔保轉換公司債到期還本暨終止上櫃\r\n公告",
+    "event_type": "CB_ISSUANCE",
+    "stage": "BOARD_RESOLUTION",
+    "wiki_details": {},
+    "sentiment": "NEUTRAL",
+    "summary": "董事會/股東會決議: 本公司國內第三次無擔保轉換公司債到期還本暨終止上櫃\r\n公告",
+    "parser": "rule_v2",
+    "parsed_at": "2026-11-04T17:00:23"
+  },
+  {
+    "date": "2026-11-03",
+    "time": "184730",
+    "stock_code": "3715",
+    "company_name": "定穎投控",
+    "event_title": "公告本公司國內第一次無擔保轉換公司債115年第3季轉換\r\n普通股之增資基準日",
+    "event_type": "CB_ISSUANCE",
+    "stage": "BOARD_RESOLUTION",
+    "wiki_details": {
+      "board_date": "115/11/03"
+    },
+    "sentiment": "NEUTRAL",
+    "summary": "董事會/股東會決議: 公告本公司國內第一次無擔保轉換公司債115年第3季轉換\r\n普通股之增資基準日",
+    "parser": "rule_v2",
+    "parsed_at": "2026-11-04T17:00:23"
+  },
+  {
+    "date": "2026-11-03",
+    "time": "160334",
+    "stock_code": "4923",
+    "company_name": "力士",
+    "event_title": "公告本公司董事會決議通過國內第一次無擔保可轉換公司債\r\n轉換發行普通股之增資基準日案",
+    "event_type": "CB_ISSUANCE",
+    "stage": "BOARD_RESOLUTION",
+    "wiki_details": {
+      "board_date": "115/11/03"
+    },
+    "sentiment": "NEUTRAL",
+    "summary": "董事會/股東會決議: 公告本公司董事會決議通過國內第一次無擔保可轉換公司債\r\n轉換發行普通股之增資基準日案",
+    "parser": "rule_v2",
+    "parsed_at": "2026-11-04T17:00:23"
+  },
+  {
+    "date": "2026-11-03",
+    "time": "172431",
+    "stock_code": "6197",
+    "company_name": "佳必琪",
+    "event_title": "公告本公司國內第三次無擔保轉換公司債轉換普通股\r\n之增資基準日",
+    "event_type": "CB_ISSUANCE",
+    "stage": "BOARD_RESOLUTION",
+    "wiki_details": {
+      "board_date": "115/11/03"
+    },
+    "sentiment": "NEUTRAL",
+    "summary": "董事會/股東會決議: 公告本公司國內第三次無擔保轉換公司債轉換普通股\r\n之增資基準日",
+    "parser": "rule_v2",
+    "parsed_at": "2026-11-04T17:00:23"
+  },
+  {
+    "date": "2026-11-03",
+    "time": "142722",
+    "stock_code": "6488",
+    "company_name": "環球晶",
+    "event_title": "本公司董事會決議召開115年第一次股東臨時會相關事宜",
+    "event_type": "PRIVATE_CB_ISSUANCE",
+    "stage": "BOARD_RESOLUTION",
+    "wiki_details": {
+      "board_date": "115/11/03"
+    },
+    "sentiment": "NEUTRAL",
+    "summary": "董事會/股東會決議: 本公司董事會決議召開115年第一次股東臨時會相關事宜",
+    "parser": "rule_v2",
+    "parsed_at": "2026-11-04T17:00:23"
+  },
+  {
+    "date": "2026-11-03",
+    "time": "152422",
+    "stock_code": "6488",
+    "company_name": "環球晶",
+    "event_title": "本公司董事會決議辦理私募國內無擔保轉換公司債",
+    "event_type": "PRIVATE_CB_ISSUANCE",
+    "stage": "BOARD_RESOLUTION",
+    "wiki_details": {
+      "board_date": "115/11/03"
+    },
+    "sentiment": "NEUTRAL",
+    "summary": "董事會/股東會決議: 本公司董事會決議辦理私募國內無擔保轉換公司債",
+    "parser": "rule_v2",
+    "parsed_at": "2026-11-04T17:00:23"
+  },
+  {
+    "date": "2026-11-03",
+    "time": "172637",
+    "stock_code": "6585",
+    "company_name": "鼎基",
+    "event_title": "公告本公司國內第一次有擔保轉換公司債及國內第二次無擔保轉換\r\n公司債轉換普通股之發行新股增資基準日",
+    "event_type": "CB_ISSUANCE",
+    "stage": "BOARD_RESOLUTION",
+    "wiki_details": {
+      "board_date": "115/11/03"
+    },
+    "sentiment": "NEUTRAL",
+    "summary": "董事會/股東會決議: 公告本公司國內第一次有擔保轉換公司債及國內第二次無擔保轉換\r\n公司債轉換普通股之發行新股增資基準日",
+    "parser": "rule_v2",
+    "parsed_at": "2026-11-04T17:00:23"
+  },
+  {
+    "date": "2026-11-03",
+    "time": "185537",
+    "stock_code": "8374",
+    "company_name": "羅昇",
+    "event_title": "公告本公司國內第二次無擔保轉換公司債115年第三季\r\n轉換普通股之發行新股增資基準日",
+    "event_type": "CB_ISSUANCE",
+    "stage": "BOARD_RESOLUTION",
+    "wiki_details": {
+      "board_date": "115/11/03"
+    },
+    "sentiment": "NEUTRAL",
+    "summary": "董事會/股東會決議: 公告本公司國內第二次無擔保轉換公司債115年第三季\r\n轉換普通股之發行新股增資基準日",
+    "parser": "rule_v2",
+    "parsed_at": "2026-11-04T17:00:23"
+  },
+  {
     "date": "2026-02-12",
     "time": "140510",
     "stock_code": "3260",

@@ -8340,6 +8340,21 @@
     "issue_amount": "新台幣45億元整"
   },
   {
+    "file_id": "11500066631",
+    "company_name": "聯策科技股份有限公司",
+    "bond_name": "聯策科技股份有限公司國內第一次無擔保轉換公司債",
+    "cb_code": "66581",
+    "stock_code": "6658",
+    "short_name": "聯策一",
+    "announcement_date_minguo": "115年11月4日",
+    "announcement_date": "2026-11-04",
+    "issue_date_minguo": "115年11月10日",
+    "issue_date": "2026-11-10",
+    "maturity_date_minguo": "118年11月10日",
+    "maturity_date": "2029-11-10",
+    "issue_amount": "新台幣2.5億元整"
+  },
+  {
     "file_id": "11500066641",
     "company_name": "立誠光電股份有限公司",
     "bond_name": "立誠光電股份有限公司國內第一次無擔保轉換公司債",

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-03T17:14:42",
+  "generated_at": "2026-11-04T17:15:31",
   "database": "D:\\bond\\backend\\data\\cb_event_master.sqlite",
   "required_stages": [
     "BOARD_RESOLUTION",
@@ -16,15 +16,15 @@
     "CBAS_ACTUAL"
   ],
   "summary": {
-    "issues": 635,
-    "events": 3792,
-    "issues_with_missing_stages": 635
+    "issues": 638,
+    "events": 3808,
+    "issues_with_missing_stages": 638
   },
   "stage_summary": {
     "BOARD_RESOLUTION": {
-      "observed_events": 135,
+      "observed_events": 144,
       "inferred_events": 506,
-      "issues_with_stage": 562
+      "issues_with_stage": 566
     },
     "FILING": {
       "observed_events": 20,
@@ -33,13 +33,13 @@
     },
     "EFFECTIVE": {
       "observed_events": 9,
-      "inferred_events": 547,
-      "issues_with_stage": 547
+      "inferred_events": 548,
+      "issues_with_stage": 548
     },
     "PRICING": {
-      "observed_events": 547,
+      "observed_events": 548,
       "inferred_events": 0,
-      "issues_with_stage": 545
+      "issues_with_stage": 546
     },
     "AUCTION_BID_START": {
       "observed_events": 87,
@@ -72,9 +72,9 @@
       "issues_with_stage": 0
     },
     "LISTING": {
-      "observed_events": 553,
+      "observed_events": 554,
       "inferred_events": 0,
-      "issues_with_stage": 548
+      "issues_with_stage": 549
     },
     "CBAS_ACTUAL": {
       "observed_events": 0,
@@ -2956,8 +2956,9 @@
       "stock_code": "2528",
       "cb_code": "25283",
       "short_name": "皇普三",
-      "company_name": "皇普建設股份有限公司",
+      "company_name": "皇普",
       "observed_stages": [
+        "BOARD_RESOLUTION",
         "LISTING",
         "PRICING"
       ],
@@ -2978,7 +2979,7 @@
         "UNDERWRITING_NOTICE",
         "CBAS_ACTUAL"
       ],
-      "event_count": 7
+      "event_count": 8
     },
     {
       "issue_id": "issue_e5bc889d15794e0fa09a",
@@ -5952,8 +5953,9 @@
       "stock_code": "3416",
       "cb_code": "34162",
       "short_name": "融程電二",
-      "company_name": "融程電訊股份有限公司",
+      "company_name": "融程電",
       "observed_stages": [
+        "BOARD_RESOLUTION",
         "LISTING",
         "PRICING"
       ],
@@ -5974,7 +5976,7 @@
         "UNDERWRITING_NOTICE",
         "CBAS_ACTUAL"
       ],
-      "event_count": 7
+      "event_count": 8
     },
     {
       "issue_id": "issue_dcc415071d31de689a98",
@@ -7810,16 +7812,16 @@
       "stock_code": "3715",
       "cb_code": null,
       "short_name": null,
-      "company_name": "定穎",
+      "company_name": "定穎投控",
       "observed_stages": [
         "AUCTION_BID_END",
-        "AUCTION_BID_START"
+        "AUCTION_BID_START",
+        "BOARD_RESOLUTION"
       ],
       "inferred_stages": [
         "AUCTION_RESULT_ESTIMATED"
       ],
       "missing_stages": [
-        "BOARD_RESOLUTION",
         "FILING",
         "EFFECTIVE",
         "PRICING",
@@ -7830,7 +7832,7 @@
         "LISTING",
         "CBAS_ACTUAL"
       ],
-      "event_count": 3
+      "event_count": 4
     },
     {
       "issue_id": "issue_2207bd3a3cf59a84acde",
@@ -9416,6 +9418,31 @@
         "CBAS_ACTUAL"
       ],
       "event_count": 7
+    },
+    {
+      "issue_id": "issue_1ddbfb9104b8a09e14a2",
+      "stock_code": "4923",
+      "cb_code": null,
+      "short_name": null,
+      "company_name": "力士",
+      "observed_stages": [
+        "BOARD_RESOLUTION"
+      ],
+      "inferred_stages": [],
+      "missing_stages": [
+        "FILING",
+        "EFFECTIVE",
+        "PRICING",
+        "AUCTION_BID_START",
+        "AUCTION_BID_END",
+        "BOOKBUILDING_START",
+        "BOOKBUILDING_END",
+        "BOOKBUILDING_RESULT",
+        "UNDERWRITING_NOTICE",
+        "LISTING",
+        "CBAS_ACTUAL"
+      ],
+      "event_count": 1
     },
     {
       "issue_id": "issue_fa017ce9561006bcf3ab",
@@ -11912,8 +11939,9 @@
       "stock_code": "6197",
       "cb_code": "61973",
       "short_name": "佳必琪三",
-      "company_name": "佳必琪國際股份有限公司",
+      "company_name": "佳必琪",
       "observed_stages": [
+        "BOARD_RESOLUTION",
         "LISTING",
         "PRICING"
       ],
@@ -11934,7 +11962,7 @@
         "UNDERWRITING_NOTICE",
         "CBAS_ACTUAL"
       ],
-      "event_count": 7
+      "event_count": 8
     },
     {
       "issue_id": "issue_910878caec7cc9ffb56c",
@@ -13290,6 +13318,31 @@
       "event_count": 7
     },
     {
+      "issue_id": "issue_c6760bfcc38629522751",
+      "stock_code": "6488",
+      "cb_code": null,
+      "short_name": null,
+      "company_name": "環球晶",
+      "observed_stages": [
+        "BOARD_RESOLUTION"
+      ],
+      "inferred_stages": [],
+      "missing_stages": [
+        "FILING",
+        "EFFECTIVE",
+        "PRICING",
+        "AUCTION_BID_START",
+        "AUCTION_BID_END",
+        "BOOKBUILDING_START",
+        "BOOKBUILDING_END",
+        "BOOKBUILDING_RESULT",
+        "UNDERWRITING_NOTICE",
+        "LISTING",
+        "CBAS_ACTUAL"
+      ],
+      "event_count": 1
+    },
+    {
       "issue_id": "issue_c5b9baa5a21c25124337",
       "stock_code": "6496",
       "cb_code": "64961",
@@ -13847,7 +13900,7 @@
         "UNDERWRITING_NOTICE",
         "CBAS_ACTUAL"
       ],
-      "event_count": 8
+      "event_count": 9
     },
     {
       "issue_id": "issue_5e4bc8583c412183031e",
@@ -14190,6 +14243,36 @@
         "CBAS_ACTUAL"
       ],
       "event_count": 2
+    },
+    {
+      "issue_id": "issue_81fba7ce09910eab9196",
+      "stock_code": "6658",
+      "cb_code": "66581",
+      "short_name": "聯策一",
+      "company_name": "聯策科技股份有限公司",
+      "observed_stages": [
+        "BOARD_RESOLUTION",
+        "FINAL_PRICING",
+        "LISTING",
+        "PRICING"
+      ],
+      "inferred_stages": [
+        "CBAS_PROXY_END",
+        "CBAS_PROXY_START",
+        "EFFECTIVE",
+        "T_PLUS_19_EXIT_PROXY"
+      ],
+      "missing_stages": [
+        "FILING",
+        "AUCTION_BID_START",
+        "AUCTION_BID_END",
+        "BOOKBUILDING_START",
+        "BOOKBUILDING_END",
+        "BOOKBUILDING_RESULT",
+        "UNDERWRITING_NOTICE",
+        "CBAS_ACTUAL"
+      ],
+      "event_count": 8
     },
     {
       "issue_id": "issue_fdc8242f049a8405c38a",
@@ -16688,8 +16771,9 @@
       "stock_code": "8374",
       "cb_code": "83742",
       "short_name": "羅昇二",
-      "company_name": "羅昇企業股份有限公司",
+      "company_name": "羅昇",
       "observed_stages": [
+        "BOARD_RESOLUTION",
         "LISTING",
         "PRICING"
       ],
@@ -16710,7 +16794,7 @@
         "UNDERWRITING_NOTICE",
         "CBAS_ACTUAL"
       ],
-      "event_count": 7
+      "event_count": 8
     },
     {
       "issue_id": "issue_8584bb02b2e4eac6cc36",

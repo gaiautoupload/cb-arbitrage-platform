@@ -25,42 +25,42 @@
       },
       {
         "name": "每日資料追蹤",
-        "date": "2026-11-03",
+        "date": "2026-11-04",
         "status": "active",
         "description": "追蹤董事會、申報送件、訂價、競拍或詢圈、承銷、掛牌及 CBAS 拆解時程。"
       }
     ],
     "performance": null,
     "market_snapshot": {
-      "date": "2026-11-03",
-      "close": 135.5,
-      "ma5": 148.5,
-      "ma10": 156.05,
-      "ma20": 174.85,
+      "date": "2026-11-04",
+      "close": 125.5,
+      "ma5": 141.4,
+      "ma10": 151.95,
+      "ma20": 171.3,
       "ma_bull": false,
-      "foreign_net_5d": 1158.1,
+      "foreign_net_5d": 1331.9,
       "trust_net_5d": 0.0,
-      "volume_ratio_5v20": 0.59,
-      "chip_date": "2026-11-03"
+      "volume_ratio_5v20": 1.12,
+      "chip_date": "2026-11-04"
     },
     "latest_news": [
       {
-        "title": "【09/14 申報轉讓】雙鍵(4764)大股東利用他人名義持有者顥揚投資有限公司將於09/17申報轉讓雙鍵股票500張 - CMoney投資網誌",
-        "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNZC01SnhUb1A2MEc2SGJ5MmJySnlFRW1Ib2Nqb3Zmdnptbnp5emNWNjlDNFFSOEpTNGJsanpibFQzTkZxTWZEREw1X0RQVXZaT01BdVNyc2pWdDdNeG9sMS0tUGZsaVhFd0NUbjB5U1BSSWZ3bGVwLTNmQ1lYVl9VX3ZCT3ZTX1lod3c?oc=5",
-        "source": "CMoney投資網誌",
-        "published_at": "2026-09-14T15:00:00+08:00"
+        "title": "雙鍵（4764）深度解析：AI 伺服器與高頻通訊材料驅動，特用化學品龍頭迎向高階電子材料爆發期 - 913 理財估測站",
+        "url": "https://news.google.com/rss/articles/CBMiQ0FVX3lxTFBEc3JWM0Q3dHhUYWswWUVUblhwemFYQ3kxWWhaWUVaeFNGT08yekszY0RXUEl3Z1dSMWNKRjhHNjEzRTg?oc=5",
+        "source": "913 理財估測站",
+        "published_at": "2026-10-30T00:45:14+08:00"
       },
       {
-        "title": "最新股票抽籤／化工大廠雙鍵「抽中賺7萬」！這檔拿2萬多去抽，中籤進帳1萬…8檔申購時間一次看 - 今周刊",
-        "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNa2g3bTB5ZWF2TXhtZzR6YU43Q3FMTUYzRzlHQTd6RllGU3dLU0Q0aldjYkFEMzR6OTJNa2VYdnBYR1hTWmgzRFZvT3g3SlRjMlNPRXZ4Ni1yLVF4S0l0LTZycHNCZExkYUZ6bnBQeGJrTTJYREhnWUF1STNUZUdQRw?oc=5",
-        "source": "今周刊",
-        "published_at": "2026-09-03T15:00:00+08:00"
+        "title": "4764 雙鍵- **【AI伺服器下一波材料革命】 - 股市爆料同學會 - CMoney",
+        "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE84ZWJRMGhNalpZRkFEVVVILU9hY2ZDNnQxQTQ4TnNBaVNCUkhQODZNajFSOG5iMDI0Vk9VZUp6NW9BcWUteVpKUms2a3NZS0g1QmZNQnpBa24?oc=5",
+        "source": "CMoney",
+        "published_at": "2026-10-13T15:00:00+08:00"
       },
       {
-        "title": "【08/01現金增資公告】雙鍵(4764) 將進行現金增資6千萬元-CMoney 小編 - CMoney投資網誌",
-        "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOS2hvMDZNTHZuNlpVbnlQQklfUVBPNXBQVHZjMlRoby1xQVF0c3M0ZDdJSlZRcG11c1MwLTBzejBOZ0RVQlZMekNYVXI0QmN6ZWZNNGRzcURPMm12ZFdxZ3BrYzVWaTRjRC02bXZtWUlZQ25rTVV3dVJTSlY2THl6aXo3d2dleEpOc2c?oc=5",
-        "source": "CMoney投資網誌",
-        "published_at": "2026-08-01T15:00:00+08:00"
+        "title": "4764 雙鍵 - PCB產業鏈全攻略 - 股市爆料同學會 - CMoney",
+        "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5XLVdaelFKZzZRQTBPZmxKU3BLYTliclBKYlZoT19xNVdCTE82TnJNQ1RXa2dlT1BhZnFueGk2TG5VVTVtZFFtX25QcmVSMWZWNDlaRVNxUnY?oc=5",
+        "source": "CMoney",
+        "published_at": "2026-10-09T09:32:41+08:00"
       }
     ],
     "is_focus": true,
@@ -77,24 +77,24 @@
       "cb_stage_date": null,
       "added_at": "2026-07-16",
       "market": {
-        "date": "2026-11-03",
-        "close": 135.5,
-        "ma5": 148.5,
-        "ma10": 156.05,
-        "ma20": 174.85,
-        "ma60": 203.59,
+        "date": "2026-11-04",
+        "close": 125.5,
+        "ma5": 141.4,
+        "ma10": 151.95,
+        "ma20": 171.3,
+        "ma60": 201.3,
         "ma_bull": false,
-        "momentum_20d_pct": -33.42,
-        "distance_from_60d_high_pct": -48.38,
-        "volume_ratio_5v20": 0.66
+        "momentum_20d_pct": -36.13,
+        "distance_from_60d_high_pct": -49.7,
+        "volume_ratio_5v20": 1.09
       },
       "top1": {
-        "chip_date": "2026-11-03",
-        "foreign_net_5d_shares": 1158109.0,
-        "foreign_net_20d_shares": -201218.0,
+        "chip_date": "2026-11-04",
+        "foreign_net_5d_shares": 1331890.0,
+        "foreign_net_20d_shares": -154374.0,
         "trust_net_5d_shares": 0.0,
         "trust_net_20d_shares": -197364.0,
-        "foreign_consecutive_buy_days": 3,
+        "foreign_consecutive_buy_days": 4,
         "trust_consecutive_buy_days": 0,
         "latest_trust_buy_pct_capital": 0.0,
         "share_count_date": "2025-12-31",
@@ -198,23 +198,23 @@
     "focus_reason": "手動關注；第二次無擔保轉換公司債已經董事會決議，等待送件與發行日",
     "focus_added_at": "2026-07-16",
     "market_snapshot": {
-      "date": "2026-11-03",
-      "close": 103.0,
-      "ma5": 113.6,
-      "ma10": 119.65,
-      "ma20": 130.97,
+      "date": "2026-11-04",
+      "close": 105.5,
+      "ma5": 109.1,
+      "ma10": 117.5,
+      "ma20": 128.62,
       "ma_bull": false,
-      "foreign_net_5d": -100773.5,
-      "trust_net_5d": -100505.8,
-      "volume_ratio_5v20": 1.44,
-      "chip_date": "2026-11-03"
+      "foreign_net_5d": -147233.7,
+      "trust_net_5d": -114607.9,
+      "volume_ratio_5v20": 1.74,
+      "chip_date": "2026-11-04"
     },
     "latest_news": [
       {
-        "title": "聯電(2303) 今日股價與討論 - 股市爆料同學會 - CMoney",
-        "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE96aW81YUJ2YzVINnlkSFlHQjdQN2NSbE5yRFZqelZoX2ZkcGEzdDB2ZW9oanlVbGhfM2c3Zms3UWFIT0w3M04zdzRENTVsdjQ?oc=5",
+        "title": "2303 聯電 - 11/3(二) 投信 - 股市爆料同學會 - CMoney",
+        "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE03bFU5TXNJUzBTSUU1NzZia25nWXdtQnNhYkZvWHVfMUlwYjUwUjBieDBoLXZOLU5uZkZELVFOYXhRZkQyQkRJWWFSdGI3cS1NSm9BSWh6NzY?oc=5",
         "source": "CMoney",
-        "published_at": "2026-10-29T15:00:00+08:00"
+        "published_at": "2026-11-03T15:27:23+08:00"
       },
       {
         "title": "聯電（2303）二度籌資！570億海外發債是利多還是警訊？｜股市話題｜豐雲學堂 2026 年 11 月 - 永豐金證券",
@@ -239,26 +239,26 @@
       "cb_stage_date": "2026-06-03",
       "added_at": "2026-07-16",
       "market": {
-        "date": "2026-11-03",
-        "close": 103.0,
-        "ma5": 113.6,
-        "ma10": 119.65,
-        "ma20": 130.97,
-        "ma60": 133.59,
+        "date": "2026-11-04",
+        "close": 105.5,
+        "ma5": 109.1,
+        "ma10": 117.5,
+        "ma20": 128.62,
+        "ma60": 133.32,
         "ma_bull": false,
-        "momentum_20d_pct": -36.22,
-        "distance_from_60d_high_pct": -36.22,
-        "volume_ratio_5v20": 1.3
+        "momentum_20d_pct": -30.82,
+        "distance_from_60d_high_pct": -34.67,
+        "volume_ratio_5v20": 1.47
       },
       "top1": {
-        "chip_date": "2026-11-03",
-        "foreign_net_5d_shares": -100773466.0,
-        "foreign_net_20d_shares": -313890267.0,
-        "trust_net_5d_shares": -100505777.0,
-        "trust_net_20d_shares": -267962187.0,
-        "foreign_consecutive_buy_days": 3,
-        "trust_consecutive_buy_days": 0,
-        "latest_trust_buy_pct_capital": -0.0095,
+        "chip_date": "2026-11-04",
+        "foreign_net_5d_shares": -147233664.0,
+        "foreign_net_20d_shares": -351138003.0,
+        "trust_net_5d_shares": -114607919.0,
+        "trust_net_20d_shares": -285100099.0,
+        "foreign_consecutive_buy_days": 0,
+        "trust_consecutive_buy_days": 1,
+        "latest_trust_buy_pct_capital": 0.0247,
         "share_count_date": "2025-12-31",
         "outstanding_shares": 12588156300.0,
         "revenue_month": "2026-09",
@@ -322,42 +322,42 @@
       },
       {
         "name": "每日資料追蹤",
-        "date": "2026-11-03",
+        "date": "2026-11-04",
         "status": "active",
         "description": "追蹤董事會、申報送件、訂價、競拍或詢圈、承銷、掛牌及 CBAS 拆解時程。"
       }
     ],
     "performance": null,
     "market_snapshot": {
-      "date": "2026-11-03",
-      "close": 941.0,
-      "ma5": 1081.2,
-      "ma10": 1143.1,
-      "ma20": 1267.05,
+      "date": "2026-11-04",
+      "close": 942.0,
+      "ma5": 1026.6,
+      "ma10": 1113.3,
+      "ma20": 1242.15,
       "ma_bull": false,
-      "foreign_net_5d": 195.9,
-      "trust_net_5d": -6.0,
-      "volume_ratio_5v20": 0.62,
-      "chip_date": "2026-11-03"
+      "foreign_net_5d": 215.8,
+      "trust_net_5d": -4.0,
+      "volume_ratio_5v20": 0.8,
+      "chip_date": "2026-11-04"
     },
     "latest_news": [
       {
-        "title": "6683 雍智科技 - 禮拜一再一根就追繳囉 - 股市爆料同學會 - CMoney",
-        "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBSSzRhTGlrRC1JQmZmTVl1X1JwWTI1aTVEeEJjQTliN2dSdkpob3hNRFh0Q09lYm55TWxSV2xPTmpFY05YckUxOVV0elUzd204b1lIdEFYazE?oc=5",
-        "source": "CMoney",
-        "published_at": "2026-10-30T14:14:50+08:00"
+        "title": "雍智科技9月/Q3營收雙創高；ASIC大案成明年主動能 - Yahoo股市",
+        "url": "https://news.google.com/rss/articles/CBMivwJBVV95cUxQUFZkTE5QbC1XaHlNYThKZk5YVDBWZVdYWVBqYXZpYm45bG9KSlB4VnRUZkh1V1U4U2tjZ3ZnREdvTHc2NlhYblpLaHhnZmJwS2VwZFZJWVRqay04b0RpazctRnVrSWNfUUwxZ1dFYmY3WS1DUlZnRWdNVHJVNEtBRmRndWFZQXdGdlowejc5SEMzSmczelNYQWlrQW0yX2lhOWhNYVlkaHVrZm14ZnYydm80aWNKS3VRY3d4U3VzaTdOZGg3M2dOSTY4Rld3OV9STEVQZElUekRWQl9Tb183enJTTnpGWHNqdjlOTVo2X2NrRlN1Y0xENl9OYVFLWUFnMEhiQUlkak5pTXI3bHNBYlgwZGVqZHhQMlVsWlVTNFp6MExtUDBrVHdHVW43ZWc5S0lxSTVNRTI0Z05vNkkw?oc=5",
+        "source": "Yahoo股市",
+        "published_at": "2026-10-05T15:00:00+08:00"
       },
       {
-        "title": "【10:04 即時新聞】雍智科技(6683)股價走強，市場聚焦營收創高與測試介面需求 - CMoney",
-        "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFA3OUdMM1dMLTJHLWlGZTktdWxqdUNlcXp2dFA4OWs3T3JVNG4yelBLQVJnaEVLc0dBNWdfVV80cDAzTDRBLU53SW5EZTg4TllfV0NQNnZDOE0?oc=5",
-        "source": "CMoney",
-        "published_at": "2026-10-06T15:00:00+08:00"
+        "title": "雍智科技Q3營收估回升 下半年看成長 - Yahoo股市",
+        "url": "https://news.google.com/rss/articles/CBMikwJBVV95cUxNRGdmRndmaC10SjZyZ1VCRm5MMHMwQ3FSM0h5QUVCYTlyTGVqbjc2c1hMZmpaS2R1YUVVV05DQmpxbS1NQnE0X2trNVdPV2ZKdVRoQ0toSDNtZkwzUDVvTFFZLWhwcFo3RU4yTE5MbVllbW9uV0s4MDlJSFBYUmNhcDJRZzJPY0MxcGpNUDNPeXRhcVdZTU94dm9JOUNUaEFHRTY4UlphU0lVTE9DdHVjbm1EOV8tQkJCQXp3MTdJaURNejQ3T0hROUg5cTVrMXRkeTVGY21VZDRmUEwzUVdDYmxDWXVvMG03TUlfYktmeGlfQjczd3NUc19CczRLT1N2SVpKODI3MXhTWVd0aUNmbmJVSQ?oc=5",
+        "source": "Yahoo股市",
+        "published_at": "2026-07-17T15:00:00+08:00"
       },
       {
-        "title": "6683 雍智科技- 凱基首評，給予「增加持股」評等，目標價2,160元 - 股市爆料同學會 - CMoney",
-        "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5UQU4ydEhtbkJ6eWc5TFVCblJSUUxHN3NEWUEwc1BMOHhXd3ZwWHpIT251cklNMGc1YldYc3hDZ0ZCSTJiWUhJTkpqVUlabzJLaUpRcXUyZDU?oc=5",
-        "source": "CMoney",
-        "published_at": "2026-10-06T15:00:00+08:00"
+        "title": "雍智科技等6/29起打入處置 聯發科、信驊等67檔列注意股 - 自由財經",
+        "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE52WjRBN3J1S1F6ZUphXy1VeWJVeW5QSGFsMzV6R2hybVpSZWVNb05vVExGd19vRVl0VW9rT0ZRQ19wWG9FRjZXUzQzaUlTTlZQWk04d2E1SFlTcmxpZ2pV0gFkQVVfeXFMUEN4dmIzVEhKNDRIMFp1TjFDN1RKVk1rVlhzYnZYVGtSTmV0RDZUQmxHZEFWaHZXUnZyWUZMZjNyWk9yYTViVUVla245NnAzT1V5dzJMUHp4YXNVM0FGTXRxMTVvYw?oc=5",
+        "source": "自由財經",
+        "published_at": "2026-06-26T19:08:43+08:00"
       }
     ],
     "is_focus": true,
@@ -374,26 +374,26 @@
       "cb_stage_date": "2026-07-08",
       "added_at": "2026-07-16",
       "market": {
-        "date": "2026-11-03",
-        "close": 941.0,
-        "ma5": 1081.2,
-        "ma10": 1143.1,
-        "ma20": 1267.05,
-        "ma60": 1325.77,
+        "date": "2026-11-04",
+        "close": 942.0,
+        "ma5": 1026.6,
+        "ma10": 1113.3,
+        "ma20": 1242.15,
+        "ma60": 1321.72,
         "ma_bull": false,
-        "momentum_20d_pct": -36.85,
-        "distance_from_60d_high_pct": -43.82,
-        "volume_ratio_5v20": 0.69
+        "momentum_20d_pct": -34.58,
+        "distance_from_60d_high_pct": -43.76,
+        "volume_ratio_5v20": 0.84
       },
       "top1": {
-        "chip_date": "2026-11-03",
-        "foreign_net_5d_shares": 195878.0,
-        "foreign_net_20d_shares": 80267.0,
-        "trust_net_5d_shares": -6000.0,
-        "trust_net_20d_shares": -134000.0,
-        "foreign_consecutive_buy_days": 1,
-        "trust_consecutive_buy_days": 0,
-        "latest_trust_buy_pct_capital": -0.0218,
+        "chip_date": "2026-11-04",
+        "foreign_net_5d_shares": 215846.0,
+        "foreign_net_20d_shares": 363568.0,
+        "trust_net_5d_shares": -4000.0,
+        "trust_net_20d_shares": -54000.0,
+        "foreign_consecutive_buy_days": 2,
+        "trust_consecutive_buy_days": 1,
+        "latest_trust_buy_pct_capital": 0.0109,
         "share_count_date": "2025-12-31",
         "outstanding_shares": 27467710.000000004,
         "revenue_month": "2026-09",
