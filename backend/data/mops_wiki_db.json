@@ -9061,6 +9061,292 @@
     "parsed_at": "2026-11-04T17:00:23"
   },
   {
+    "date": "2026-11-04",
+    "time": "154751",
+    "stock_code": "1569",
+    "company_name": "濱川",
+    "event_title": "公告本公司國內第七次有擔保轉換公司債代收價款行庫\r\n及存儲專戶行庫",
+    "event_type": "CB_ISSUANCE",
+    "stage": "PAYMENT_BANK",
+    "wiki_details": {},
+    "sentiment": "BULLISH",
+    "summary": "代收價款/專戶: 公告本公司國內第七次有擔保轉換公司債代收價款行庫\r\n及存儲專戶行庫",
+    "parser": "rule_v2",
+    "parsed_at": "2026-11-05T17:00:22"
+  },
+  {
+    "date": "2026-11-04",
+    "time": "164030",
+    "stock_code": "1795",
+    "company_name": "美時",
+    "event_title": "本公司受邀參加元大證券舉辦之線上法人說明會",
+    "event_type": "OTHER",
+    "stage": "N/A",
+    "wiki_details": {},
+    "sentiment": "NEUTRAL",
+    "summary": "CB 相關公告: 本公司受邀參加元大證券舉辦之線上法人說明會",
+    "parser": "rule_v2",
+    "parsed_at": "2026-11-05T17:00:22"
+  },
+  {
+    "date": "2026-11-04",
+    "time": "150050",
+    "stock_code": "2492",
+    "company_name": "華新科",
+    "event_title": "公告本公司國內第二次無擔保轉換公司債收足應募價款",
+    "event_type": "CB_ISSUANCE",
+    "stage": "FILING",
+    "wiki_details": {},
+    "sentiment": "NEUTRAL",
+    "summary": "送件/申報: 公告本公司國內第二次無擔保轉換公司債收足應募價款",
+    "parser": "rule_v2",
+    "parsed_at": "2026-11-05T17:00:22"
+  },
+  {
+    "date": "2026-11-04",
+    "time": "184550",
+    "stock_code": "2528",
+    "company_name": "皇普",
+    "event_title": "公告本公司國內第四次無擔保轉換公司債115年第3季轉換\r\n普通股之增資基準日(更正主旨)",
+    "event_type": "CB_ISSUANCE",
+    "stage": "BOARD_RESOLUTION",
+    "wiki_details": {
+      "board_date": "115/11/03"
+    },
+    "sentiment": "NEUTRAL",
+    "summary": "董事會/股東會決議: 公告本公司國內第四次無擔保轉換公司債115年第3季轉換\r\n普通股之增資基準日(更正主旨)",
+    "parser": "rule_v2",
+    "parsed_at": "2026-11-05T17:00:22"
+  },
+  {
+    "date": "2026-11-04",
+    "time": "133224",
+    "stock_code": "2755",
+    "company_name": "揚秦",
+    "event_title": "公告本公司董事會訂定國內第一次\r\n無擔保轉換公司債轉換發行新股之增資基準日",
+    "event_type": "CB_ISSUANCE",
+    "stage": "BOARD_RESOLUTION",
+    "wiki_details": {
+      "board_date": "115/11/04"
+    },
+    "sentiment": "NEUTRAL",
+    "summary": "董事會/股東會決議: 公告本公司董事會訂定國內第一次\r\n無擔保轉換公司債轉換發行新股之增資基準日",
+    "parser": "rule_v2",
+    "parsed_at": "2026-11-05T17:00:22"
+  },
+  {
+    "date": "2026-11-04",
+    "time": "161255",
+    "stock_code": "3090",
+    "company_name": "日電貿",
+    "event_title": "公告本公司董事會決議通過發行國內第二次及\r\n第三次無擔保轉換公司債。",
+    "event_type": "CB_ISSUANCE",
+    "stage": "BOARD_RESOLUTION",
+    "wiki_details": {
+      "board_date": "115/11/04"
+    },
+    "sentiment": "NEUTRAL",
+    "summary": "董事會/股東會決議: 公告本公司董事會決議通過發行國內第二次及\r\n第三次無擔保轉換公司債。",
+    "parser": "rule_v2",
+    "parsed_at": "2026-11-05T17:00:22"
+  },
+  {
+    "date": "2026-11-04",
+    "time": "161356",
+    "stock_code": "3090",
+    "company_name": "日電貿",
+    "event_title": "公告本公司取得力禾科技股份有限公司現金增資股權。",
+    "event_type": "CB_ISSUANCE",
+    "stage": "BOARD_RESOLUTION",
+    "wiki_details": {
+      "board_date": "民國115年11月4日"
+    },
+    "sentiment": "NEUTRAL",
+    "summary": "董事會/股東會決議: 公告本公司取得力禾科技股份有限公司現金增資股權。",
+    "parser": "rule_v2",
+    "parsed_at": "2026-11-05T17:00:22"
+  },
+  {
+    "date": "2026-11-04",
+    "time": "160020",
+    "stock_code": "3689",
+    "company_name": "湧德",
+    "event_title": "公告本公司董事會決議員工認股權憑證及國內第四次無擔保\r\n轉換公司債轉換普通股之增資基準日",
+    "event_type": "CB_ISSUANCE",
+    "stage": "BOARD_RESOLUTION",
+    "wiki_details": {
+      "board_date": "115/11/04"
+    },
+    "sentiment": "NEUTRAL",
+    "summary": "董事會/股東會決議: 公告本公司董事會決議員工認股權憑證及國內第四次無擔保\r\n轉換公司債轉換普通股之增資基準日",
+    "parser": "rule_v2",
+    "parsed_at": "2026-11-05T17:00:22"
+  },
+  {
+    "date": "2026-11-04",
+    "time": "162818",
+    "stock_code": "3702",
+    "company_name": "大聯大",
+    "event_title": "公告本公司國內第四次無擔保轉換公司債收足債款",
+    "event_type": "CB_ISSUANCE",
+    "stage": "FILING",
+    "wiki_details": {},
+    "sentiment": "NEUTRAL",
+    "summary": "送件/申報: 公告本公司國內第四次無擔保轉換公司債收足債款",
+    "parser": "rule_v2",
+    "parsed_at": "2026-11-05T17:00:22"
+  },
+  {
+    "date": "2026-11-04",
+    "time": "175108",
+    "stock_code": "6541",
+    "company_name": "泰福-KY",
+    "event_title": "公告本公司董事會決議115年度國內第一次第一期私募無擔保\r\n普通公司債訂價暨發行事宜",
+    "event_type": "PRIVATE_CB_ISSUANCE",
+    "stage": "BOARD_RESOLUTION",
+    "wiki_details": {
+      "board_date": "115/11/04"
+    },
+    "sentiment": "NEUTRAL",
+    "summary": "董事會/股東會決議: 公告本公司董事會決議115年度國內第一次第一期私募無擔保\r\n普通公司債訂價暨發行事宜",
+    "parser": "rule_v2",
+    "parsed_at": "2026-11-05T17:00:22"
+  },
+  {
+    "date": "2026-11-04",
+    "time": "181013",
+    "stock_code": "6854",
+    "company_name": "錼創科技-KY創",
+    "event_title": "公告2024年度現金增資發行新股暨發行中華民國境內第一次\r\n有擔保轉換公司債之資金運用計畫變更",
+    "event_type": "CB_ISSUANCE",
+    "stage": "EFFECTIVE",
+    "wiki_details": {},
+    "sentiment": "BULLISH",
+    "summary": "申報生效: 公告2024年度現金增資發行新股暨發行中華民國境內第一次\r\n有擔保轉換公司債之資金運用計畫變更",
+    "parser": "rule_v2",
+    "parsed_at": "2026-11-05T17:00:22"
+  },
+  {
+    "date": "2026-11-04",
+    "time": "170840",
+    "stock_code": "6944",
+    "company_name": "兆聯實業",
+    "event_title": "公告本公司發行國內第一次無擔保轉換公司債暨國內第二次\r\n無擔保轉換公司債，向金管會申請延長募集期間三個月",
+    "event_type": "CB_ISSUANCE",
+    "stage": "FINAL_PRICING",
+    "wiki_details": {},
+    "sentiment": "BULLISH",
+    "summary": "最終訂價: 公告本公司發行國內第一次無擔保轉換公司債暨國內第二次\r\n無擔保轉換公司債，向金管會申請延長募集期間三個月",
+    "parser": "rule_v2",
+    "parsed_at": "2026-11-05T17:00:22"
+  },
+  {
+    "date": "2026-11-04",
+    "time": "140438",
+    "stock_code": "7711",
+    "company_name": "永擎",
+    "event_title": "公告本公司國內第一次無擔保轉換公司債代收價款行庫及存\r\n儲專戶行庫",
+    "event_type": "CB_ISSUANCE",
+    "stage": "PAYMENT_BANK",
+    "wiki_details": {},
+    "sentiment": "BULLISH",
+    "summary": "代收價款/專戶: 公告本公司國內第一次無擔保轉換公司債代收價款行庫及存\r\n儲專戶行庫",
+    "parser": "rule_v2",
+    "parsed_at": "2026-11-05T17:00:22"
+  },
+  {
+    "date": "2026-11-04",
+    "time": "171026",
+    "stock_code": "8255",
+    "company_name": "朋程",
+    "event_title": "公告本公司董事會決議發行國內第二次無擔保轉換公司債",
+    "event_type": "CB_ISSUANCE",
+    "stage": "BOARD_RESOLUTION",
+    "wiki_details": {
+      "board_date": "115/11/04"
+    },
+    "sentiment": "NEUTRAL",
+    "summary": "董事會/股東會決議: 公告本公司董事會決議發行國內第二次無擔保轉換公司債",
+    "parser": "rule_v2",
+    "parsed_at": "2026-11-05T17:00:22"
+  },
+  {
+    "date": "2026-11-04",
+    "time": "180551",
+    "stock_code": "8255",
+    "company_name": "朋程",
+    "event_title": "更正公告本公司董事會決議發行國內第二次無擔保轉換公司債",
+    "event_type": "CB_ISSUANCE",
+    "stage": "BOARD_RESOLUTION",
+    "wiki_details": {
+      "board_date": "115/11/04"
+    },
+    "sentiment": "NEUTRAL",
+    "summary": "董事會/股東會決議: 更正公告本公司董事會決議發行國內第二次無擔保轉換公司債",
+    "parser": "rule_v2",
+    "parsed_at": "2026-11-05T17:00:22"
+  },
+  {
+    "date": "2026-11-04",
+    "time": "143807",
+    "stock_code": "8467",
+    "company_name": "波力-KY",
+    "event_title": "董事會決議擬發行中華民國境內第四次有擔保轉換公司債",
+    "event_type": "CB_ISSUANCE",
+    "stage": "BOARD_RESOLUTION",
+    "wiki_details": {
+      "board_date": "115/11/04"
+    },
+    "sentiment": "NEUTRAL",
+    "summary": "董事會/股東會決議: 董事會決議擬發行中華民國境內第四次有擔保轉換公司債",
+    "parser": "rule_v2",
+    "parsed_at": "2026-11-05T17:00:22"
+  },
+  {
+    "date": "2026-11-04",
+    "time": "144331",
+    "stock_code": "8467",
+    "company_name": "波力-KY",
+    "event_title": "董事會決議擬發行中華民國境內第五次無擔保轉換公司債",
+    "event_type": "CB_ISSUANCE",
+    "stage": "BOARD_RESOLUTION",
+    "wiki_details": {
+      "board_date": "115/11/04"
+    },
+    "sentiment": "NEUTRAL",
+    "summary": "董事會/股東會決議: 董事會決議擬發行中華民國境內第五次無擔保轉換公司債",
+    "parser": "rule_v2",
+    "parsed_at": "2026-11-05T17:00:22"
+  },
+  {
+    "date": "2026-11-04",
+    "time": "145407",
+    "stock_code": "8467",
+    "company_name": "波力-KY",
+    "event_title": "本公司中華民國境內第三次無擔保轉換公司債修正為\r\n中華民國境內第三次有擔保轉換公司債暨其發行及轉換辦法\r\n修訂公告",
+    "event_type": "PRIVATE_CB_ISSUANCE",
+    "stage": "BOARD_RESOLUTION",
+    "wiki_details": {},
+    "sentiment": "NEUTRAL",
+    "summary": "董事會/股東會決議: 本公司中華民國境內第三次無擔保轉換公司債修正為\r\n中華民國境內第三次有擔保轉換公司債暨其發行及轉換辦法\r\n修訂公告",
+    "parser": "rule_v2",
+    "parsed_at": "2026-11-05T17:00:22"
+  },
+  {
+    "date": "2026-11-04",
+    "time": "134233",
+    "stock_code": "9958",
+    "company_name": "世紀鋼",
+    "event_title": "公告本公司國內第九次無擔保轉換公司債代收債款行庫\r\n及存儲專戶行庫",
+    "event_type": "CB_ISSUANCE",
+    "stage": "PAYMENT_BANK",
+    "wiki_details": {},
+    "sentiment": "BULLISH",
+    "summary": "代收價款/專戶: 公告本公司國內第九次無擔保轉換公司債代收債款行庫\r\n及存儲專戶行庫",
+    "parser": "rule_v2",
+    "parsed_at": "2026-11-05T17:00:22"
+  },
+  {
     "date": "2026-02-12",
     "time": "140510",
     "stock_code": "3260",
