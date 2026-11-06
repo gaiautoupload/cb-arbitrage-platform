@@ -8383,5 +8383,35 @@
     "maturity_date_minguo": "118年11月11日",
     "maturity_date": "2029-11-11",
     "issue_amount": "新台幣5億元整"
+  },
+  {
+    "file_id": "11500067021",
+    "company_name": "世紀鋼鐵結構股份有限公司",
+    "bond_name": "世紀鋼鐵結構股份有限公司國內第九次無擔保轉換公司債",
+    "cb_code": "99589",
+    "stock_code": "9958",
+    "short_name": "世紀鋼九",
+    "announcement_date_minguo": "115年11月5日",
+    "announcement_date": "2026-11-05",
+    "issue_date_minguo": "115年11月12日",
+    "issue_date": "2026-11-12",
+    "maturity_date_minguo": "118年11月12日",
+    "maturity_date": "2029-11-12",
+    "issue_amount": "新臺幣15億元整"
+  },
+  {
+    "file_id": "11500067211",
+    "company_name": "大華建設股份有限公司",
+    "bond_name": "大華建設股份有限公司國內第五次無擔保轉換公司債",
+    "cb_code": "25305",
+    "stock_code": "2530",
+    "short_name": "華建五",
+    "announcement_date_minguo": "115年11月6日",
+    "announcement_date": "2026-11-06",
+    "issue_date_minguo": "115年11月12日",
+    "issue_date": "2026-11-12",
+    "maturity_date_minguo": "118年11月12日",
+    "maturity_date": "2029-11-12",
+    "issue_amount": "新台幣4億元整"
   }
 ]

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-05T17:00:23+08:00",
+  "generated_at": "2026-11-06T17:00:25+08:00",
   "source": "Google News RSS",
   "request_policy": "focus watchlist only; one query per stock; retries with backoff; preserve prior cache on failure",
   "stocks": {
@@ -75,10 +75,10 @@
       "query_url": "https://news.google.com/rss/search?q=%22%E8%81%AF%E9%9B%BB%22%202303%20%E8%82%A1%E7%A5%A8&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
       "items": [
         {
-          "title": "2303 聯電 - 11/3(二) 投信 - 股市爆料同學會 - CMoney",
-          "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE03bFU5TXNJUzBTSUU1NzZia25nWXdtQnNhYkZvWHVfMUlwYjUwUjBieDBoLXZOLU5uZkZELVFOYXhRZkQyQkRJWWFSdGI3cS1NSm9BSWh6NzY?oc=5",
+          "title": "2303 聯電 - 11/5(四) 外資 - 股市爆料同學會 - CMoney",
+          "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9VTkZRTXFlM09qNmY4c2VsZGtsVG9zNUp4TTRzUldhTlVQOG5JZElFYzNuVnNyS1ROaWVzZkVLTVVLOXEwTjNlOVF1enljR0tidk11UHVTbDc?oc=5",
           "source": "CMoney",
-          "published_at": "2026-11-03T15:27:23+08:00"
+          "published_at": "2026-11-05T16:13:47+08:00"
         },
         {
           "title": "聯電（2303）二度籌資！570億海外發債是利多還是警訊？｜股市話題｜豐雲學堂 2026 年 11 月 - 永豐金證券",
@@ -142,16 +142,16 @@
       "query_url": "https://news.google.com/rss/search?q=%22%E9%9B%8D%E6%99%BA%E7%A7%91%E6%8A%80%22%206683%20%E8%82%A1%E7%A5%A8&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
       "items": [
         {
-          "title": "雍智科技9月/Q3營收雙創高；ASIC大案成明年主動能 - Yahoo股市",
-          "url": "https://news.google.com/rss/articles/CBMivwJBVV95cUxQUFZkTE5QbC1XaHlNYThKZk5YVDBWZVdYWVBqYXZpYm45bG9KSlB4VnRUZkh1V1U4U2tjZ3ZnREdvTHc2NlhYblpLaHhnZmJwS2VwZFZJWVRqay04b0RpazctRnVrSWNfUUwxZ1dFYmY3WS1DUlZnRWdNVHJVNEtBRmRndWFZQXdGdlowejc5SEMzSmczelNYQWlrQW0yX2lhOWhNYVlkaHVrZm14ZnYydm80aWNKS3VRY3d4U3VzaTdOZGg3M2dOSTY4Rld3OV9STEVQZElUekRWQl9Tb183enJTTnpGWHNqdjlOTVo2X2NrRlN1Y0xENl9OYVFLWUFnMEhiQUlkak5pTXI3bHNBYlgwZGVqZHhQMlVsWlVTNFp6MExtUDBrVHdHVW43ZWc5S0lxSTVNRTI0Z05vNkkw?oc=5",
-          "source": "Yahoo股市",
-          "published_at": "2026-10-05T15:00:00+08:00"
+          "title": "6683 雍智科技- 再跌10%內就到追繳線- 股市爆料同學會 - CMoney",
+          "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBRaVZEYmFvR1NBZS1JNmNRMFFaSDFJdWRFbmxWbzVrMmlMdlUtZGp5UW5ZdExzQWZSblhiM19TMmtNNUMyNkhwYUFNcXBsTE82NmRjM19mOW4?oc=5",
+          "source": "CMoney",
+          "published_at": "2026-11-03T06:54:17+08:00"
         },
         {
           "title": "雍智科技Q3營收估回升 下半年看成長 - Yahoo股市",
           "url": "https://news.google.com/rss/articles/CBMikwJBVV95cUxNRGdmRndmaC10SjZyZ1VCRm5MMHMwQ3FSM0h5QUVCYTlyTGVqbjc2c1hMZmpaS2R1YUVVV05DQmpxbS1NQnE0X2trNVdPV2ZKdVRoQ0toSDNtZkwzUDVvTFFZLWhwcFo3RU4yTE5MbVllbW9uV0s4MDlJSFBYUmNhcDJRZzJPY0MxcGpNUDNPeXRhcVdZTU94dm9JOUNUaEFHRTY4UlphU0lVTE9DdHVjbm1EOV8tQkJCQXp3MTdJaURNejQ3T0hROUg5cTVrMXRkeTVGY21VZDRmUEwzUVdDYmxDWXVvMG03TUlfYktmeGlfQjczd3NUc19CczRLT1N2SVpKODI3MXhTWVd0aUNmbmJVSQ?oc=5",
           "source": "Yahoo股市",
-          "published_at": "2026-07-17T15:00:00+08:00"
+          "published_at": "2026-07-16T15:00:00+08:00"
         },
         {
           "title": "雍智科技等6/29起打入處置 聯發科、信驊等67檔列注意股 - 自由財經",
@@ -190,16 +190,16 @@
           "published_at": "2025-12-18T08:12:35+08:00"
         },
         {
-          "title": "雍智科技(6683) 今日股價與討論 - 股市爆料同學會 - CMoney",
-          "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1pd3RJLW1zQzdUR0JodlhpUGdVcDNqaDQxdG9faWFXMkx3SWx3V2RLbGhZQUZGeDVDem9nUFZMU3dmTGNJTTBGeU9mSUlzWmc?oc=5",
-          "source": "CMoney",
-          "published_at": "2025-11-27T18:32:53+08:00"
-        },
-        {
           "title": "雍智科技(6683) 個股概覽 | 個股 - 股市 - CMoney",
           "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTFBmZHZmQk5iQXV5akhQTEdva2k1bVlQR0NKdjZhZ0o4dFRta2s3N2hqUS1XRDJaYk54Sk1uazk4eWlmVmZkOXFaVjZB?oc=5",
           "source": "CMoney",
           "published_at": "2025-01-16T12:15:47+08:00"
+        },
+        {
+          "title": "雍智科技(6683) 今日股價與討論 - 股市爆料同學會 - CMoney",
+          "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1pd3RJLW1zQzdUR0JodlhpUGdVcDNqaDQxdG9faWFXMkx3SWx3V2RLbGhZQUZGeDVDem9nUFZMU3dmTGNJTTBGeU9mSUlzWmc?oc=5",
+          "source": "CMoney",
+          "published_at": "2021-11-20T11:27:33+08:00"
         }
       ],
       "stale_cache": false

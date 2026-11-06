@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-05T17:18:52",
+  "generated_at": "2026-11-06T17:15:56",
   "database": "D:\\bond\\backend\\data\\cb_event_master.sqlite",
   "required_stages": [
     "BOARD_RESOLUTION",
@@ -16,15 +16,15 @@
     "CBAS_ACTUAL"
   ],
   "summary": {
-    "issues": 646,
-    "events": 3834,
-    "issues_with_missing_stages": 646
+    "issues": 653,
+    "events": 3856,
+    "issues_with_missing_stages": 653
   },
   "stage_summary": {
     "BOARD_RESOLUTION": {
-      "observed_events": 152,
-      "inferred_events": 507,
-      "issues_with_stage": 571
+      "observed_events": 161,
+      "inferred_events": 509,
+      "issues_with_stage": 578
     },
     "FILING": {
       "observed_events": 22,
@@ -32,14 +32,14 @@
       "issues_with_stage": 17
     },
     "EFFECTIVE": {
-      "observed_events": 10,
+      "observed_events": 13,
       "inferred_events": 549,
-      "issues_with_stage": 550
+      "issues_with_stage": 551
     },
     "PRICING": {
-      "observed_events": 549,
+      "observed_events": 551,
       "inferred_events": 0,
-      "issues_with_stage": 547
+      "issues_with_stage": 549
     },
     "AUCTION_BID_START": {
       "observed_events": 88,
@@ -62,9 +62,9 @@
       "issues_with_stage": 0
     },
     "BOOKBUILDING_RESULT": {
-      "observed_events": 1,
+      "observed_events": 2,
       "inferred_events": 0,
-      "issues_with_stage": 1
+      "issues_with_stage": 2
     },
     "UNDERWRITING_NOTICE": {
       "observed_events": 0,
@@ -72,9 +72,9 @@
       "issues_with_stage": 0
     },
     "LISTING": {
-      "observed_events": 555,
+      "observed_events": 557,
       "inferred_events": 0,
-      "issues_with_stage": 550
+      "issues_with_stage": 552
     },
     "CBAS_ACTUAL": {
       "observed_events": 0,
@@ -2019,6 +2019,31 @@
       "event_count": 3
     },
     {
+      "issue_id": "issue_a3ab112595ace716be4b",
+      "stock_code": "2313",
+      "cb_code": null,
+      "short_name": null,
+      "company_name": "華通",
+      "observed_stages": [
+        "BOARD_RESOLUTION"
+      ],
+      "inferred_stages": [],
+      "missing_stages": [
+        "FILING",
+        "EFFECTIVE",
+        "PRICING",
+        "AUCTION_BID_START",
+        "AUCTION_BID_END",
+        "BOOKBUILDING_START",
+        "BOOKBUILDING_END",
+        "BOOKBUILDING_RESULT",
+        "UNDERWRITING_NOTICE",
+        "LISTING",
+        "CBAS_ACTUAL"
+      ],
+      "event_count": 1
+    },
+    {
       "issue_id": "issue_094dc79a73a0ef2c1e78",
       "stock_code": "2316",
       "cb_code": null,
@@ -3031,6 +3056,35 @@
         "CBAS_ACTUAL"
       ],
       "event_count": 3
+    },
+    {
+      "issue_id": "issue_0d64b72964cdc1ae38dc",
+      "stock_code": "2530",
+      "cb_code": "25305",
+      "short_name": "華建五",
+      "company_name": "大華建設股份有限公司",
+      "observed_stages": [
+        "BOOKBUILDING_RESULT",
+        "EFFECTIVE",
+        "LISTING",
+        "PRICING"
+      ],
+      "inferred_stages": [
+        "BOARD_RESOLUTION",
+        "CBAS_PROXY_END",
+        "CBAS_PROXY_START",
+        "T_PLUS_19_EXIT_PROXY"
+      ],
+      "missing_stages": [
+        "FILING",
+        "AUCTION_BID_START",
+        "AUCTION_BID_END",
+        "BOOKBUILDING_START",
+        "BOOKBUILDING_END",
+        "UNDERWRITING_NOTICE",
+        "CBAS_ACTUAL"
+      ],
+      "event_count": 9
     },
     {
       "issue_id": "issue_65f693a2042ba922ec60",
@@ -6588,8 +6642,9 @@
       "stock_code": "3526",
       "cb_code": "35265",
       "short_name": "凡甲五",
-      "company_name": "凡甲科技股份有限公司",
+      "company_name": "凡甲",
       "observed_stages": [
+        "BOARD_RESOLUTION",
         "LISTING",
         "PRICING"
       ],
@@ -6610,7 +6665,7 @@
         "UNDERWRITING_NOTICE",
         "CBAS_ACTUAL"
       ],
-      "event_count": 7
+      "event_count": 8
     },
     {
       "issue_id": "issue_56cabd9c651a1c58819e",
@@ -7799,7 +7854,7 @@
         "LISTING",
         "CBAS_ACTUAL"
       ],
-      "event_count": 2
+      "event_count": 3
     },
     {
       "issue_id": "issue_b6085f6d06b9aeefdf53",
@@ -11519,6 +11574,31 @@
       "event_count": 7
     },
     {
+      "issue_id": "issue_be95432157688fc5de58",
+      "stock_code": "6166",
+      "cb_code": null,
+      "short_name": null,
+      "company_name": "凌華",
+      "observed_stages": [
+        "BOARD_RESOLUTION"
+      ],
+      "inferred_stages": [],
+      "missing_stages": [
+        "FILING",
+        "EFFECTIVE",
+        "PRICING",
+        "AUCTION_BID_START",
+        "AUCTION_BID_END",
+        "BOOKBUILDING_START",
+        "BOOKBUILDING_END",
+        "BOOKBUILDING_RESULT",
+        "UNDERWRITING_NOTICE",
+        "LISTING",
+        "CBAS_ACTUAL"
+      ],
+      "event_count": 1
+    },
+    {
       "issue_id": "issue_9bdf67e33845a6768aab",
       "stock_code": "6174",
       "cb_code": null,
@@ -11987,6 +12067,31 @@
         "CBAS_ACTUAL"
       ],
       "event_count": 4
+    },
+    {
+      "issue_id": "issue_4f7a11777e97b0c861c3",
+      "stock_code": "6191",
+      "cb_code": null,
+      "short_name": null,
+      "company_name": "精成科",
+      "observed_stages": [
+        "BOARD_RESOLUTION"
+      ],
+      "inferred_stages": [],
+      "missing_stages": [
+        "FILING",
+        "EFFECTIVE",
+        "PRICING",
+        "AUCTION_BID_START",
+        "AUCTION_BID_END",
+        "BOOKBUILDING_START",
+        "BOOKBUILDING_END",
+        "BOOKBUILDING_RESULT",
+        "UNDERWRITING_NOTICE",
+        "LISTING",
+        "CBAS_ACTUAL"
+      ],
+      "event_count": 1
     },
     {
       "issue_id": "issue_93edb45b6797955e1763",
@@ -12987,8 +13092,9 @@
       "stock_code": "6432",
       "cb_code": "64323",
       "short_name": "今展科三",
-      "company_name": "今展科技股份有限公司",
+      "company_name": "今展科",
       "observed_stages": [
+        "BOARD_RESOLUTION",
         "LISTING",
         "PRICING"
       ],
@@ -13009,7 +13115,7 @@
         "UNDERWRITING_NOTICE",
         "CBAS_ACTUAL"
       ],
-      "event_count": 7
+      "event_count": 8
     },
     {
       "issue_id": "issue_4fd504cf9d56b41fb91e",
@@ -13544,6 +13650,7 @@
       "observed_stages": [
         "AUCTION_BID_END",
         "AUCTION_BID_START",
+        "BOARD_RESOLUTION",
         "LISTING",
         "PRICING"
       ],
@@ -13563,7 +13670,7 @@
         "UNDERWRITING_NOTICE",
         "CBAS_ACTUAL"
       ],
-      "event_count": 10
+      "event_count": 11
     },
     {
       "issue_id": "issue_b5b908433ca4ac96d9c7",
@@ -15368,6 +15475,31 @@
       "event_count": 7
     },
     {
+      "issue_id": "issue_15ccd864f980945ba4a8",
+      "stock_code": "6894",
+      "cb_code": null,
+      "short_name": null,
+      "company_name": "衛司特",
+      "observed_stages": [
+        "BOARD_RESOLUTION"
+      ],
+      "inferred_stages": [],
+      "missing_stages": [
+        "FILING",
+        "EFFECTIVE",
+        "PRICING",
+        "AUCTION_BID_START",
+        "AUCTION_BID_END",
+        "BOOKBUILDING_START",
+        "BOOKBUILDING_END",
+        "BOOKBUILDING_RESULT",
+        "UNDERWRITING_NOTICE",
+        "LISTING",
+        "CBAS_ACTUAL"
+      ],
+      "event_count": 1
+    },
+    {
       "issue_id": "issue_7ced2ac005b68cc47f87",
       "stock_code": "6903",
       "cb_code": null,
@@ -16841,6 +16973,31 @@
       "event_count": 3
     },
     {
+      "issue_id": "issue_9aed35109fa98bb311fb",
+      "stock_code": "8289",
+      "cb_code": null,
+      "short_name": null,
+      "company_name": "泰藝",
+      "observed_stages": [
+        "BOARD_RESOLUTION"
+      ],
+      "inferred_stages": [],
+      "missing_stages": [
+        "FILING",
+        "EFFECTIVE",
+        "PRICING",
+        "AUCTION_BID_START",
+        "AUCTION_BID_END",
+        "BOOKBUILDING_START",
+        "BOOKBUILDING_END",
+        "BOOKBUILDING_RESULT",
+        "UNDERWRITING_NOTICE",
+        "LISTING",
+        "CBAS_ACTUAL"
+      ],
+      "event_count": 1
+    },
+    {
       "issue_id": "issue_75d0c3c410b06677a6c3",
       "stock_code": "8299",
       "cb_code": "82991",
@@ -17984,7 +18141,7 @@
         "UNDERWRITING_NOTICE",
         "CBAS_ACTUAL"
       ],
-      "event_count": 8
+      "event_count": 9
     },
     {
       "issue_id": "issue_639f0aa80ad08741d625",
@@ -18178,6 +18335,32 @@
         "CBAS_ACTUAL"
       ],
       "event_count": 4
+    },
+    {
+      "issue_id": "issue_f2c43536f6e404837558",
+      "stock_code": "9958",
+      "cb_code": "99589",
+      "short_name": "世紀鋼九",
+      "company_name": "世紀鋼鐵結構股份有限公司",
+      "observed_stages": [
+        "LISTING",
+        "PRICING"
+      ],
+      "inferred_stages": [
+        "BOARD_RESOLUTION"
+      ],
+      "missing_stages": [
+        "FILING",
+        "EFFECTIVE",
+        "AUCTION_BID_START",
+        "AUCTION_BID_END",
+        "BOOKBUILDING_START",
+        "BOOKBUILDING_END",
+        "BOOKBUILDING_RESULT",
+        "UNDERWRITING_NOTICE",
+        "CBAS_ACTUAL"
+      ],
+      "event_count": 3
     }
   ]
 }
