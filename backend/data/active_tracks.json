@@ -25,7 +25,7 @@
       },
       {
         "name": "每日資料追蹤",
-        "date": "2026-11-06",
+        "date": "2026-11-07",
         "status": "active",
         "description": "追蹤董事會、申報送件、訂價、競拍或詢圈、承銷、掛牌及 CBAS 拆解時程。"
       }
@@ -45,12 +45,6 @@
     },
     "latest_news": [
       {
-        "title": "雙鍵 (4764) 公告本公司115年現金增資催繳期間屆滿暨股票發放事宜 - GeneOnline",
-        "url": "https://news.google.com/rss/articles/CBMiugJBVV95cUxPdUpPNFNqQXZMb2hmcG5PUmlQS0RNMkt2SWN5Wm80V1FodGx5Y016RlNSZVdRc1FwZjdFMXdMd0dlN1ZsMHpsdEJmLUl6cjZCNVdBZGg3M1F4bHFRT21iSUNRMEE0eGdlbTJfZ3Z1aUpPUVNEVWFkcmZYQzdXVjRjQTBOcS1OMWthY2ZnSlgxRlNPSkhFdXZNdUVrWkFJUUltaU94d09JN3FoeWZaZVJFbnNhODJBZGNEUzBIVGVoU1dvQ3dJUHJUc3pEM0didUR4SG5qeFBrNFlQTzM4Z1B6OThTYy12R0J2WUZDZTNaMzV1cjYtWVo3c2hKM1lWZkt0NThsS2FlbHZ1S1RYek1Zc000bXJkRkxaY3lXVGJhc1VwdTB2THZWWWl0dktGallhcUVwNTBGU1JMdw?oc=5",
-        "source": "GeneOnline",
-        "published_at": "2026-10-13T15:00:00+08:00"
-      },
-      {
         "title": "【09/14 申報轉讓】雙鍵(4764)大股東利用他人名義持有者顥揚投資有限公司將於09/17申報轉讓雙鍵股票500張 - CMoney投資網誌",
         "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNZC01SnhUb1A2MEc2SGJ5MmJySnlFRW1Ib2Nqb3Zmdnptbnp5emNWNjlDNFFSOEpTNGJsanpibFQzTkZxTWZEREw1X0RQVXZaT01BdVNyc2pWdDdNeG9sMS0tUGZsaVhFd0NUbjB5U1BSSWZ3bGVwLTNmQ1lYVl9VX3ZCT3ZTX1lod3c?oc=5",
         "source": "CMoney投資網誌",
@@ -61,6 +55,12 @@
         "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOcmNmZnl4cDVnSW9ybXBoaFhHSXZXR3lNTlptbVFXSkZzdTBZWWNrMVpqaTlSMHdXdTZLQ1ROY2lWN0JGaTFmMGFPaWJLZFpmSnVpUzF0alB4ZldvdDEwQmtfbVhITV9tcmhTWm5uZWdUV2FDak5GQ2EzSHJLQXpXN3ZIRXgtRDhaalZCc2ln?oc=5",
         "source": "CMoney投資網誌",
         "published_at": "2026-09-04T15:00:00+08:00"
+      },
+      {
+        "title": "最新股票抽籤／化工大廠雙鍵「抽中賺7萬」！這檔拿2萬多去抽，中籤進帳1萬…8檔申購時間一次看 - 今周刊",
+        "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNa2g3bTB5ZWF2TXhtZzR6YU43Q3FMTUYzRzlHQTd6RllGU3dLU0Q0aldjYkFEMzR6OTJNa2VYdnBYR1hTWmgzRFZvT3g3SlRjMlNPRXZ4Ni1yLVF4S0l0LTZycHNCZExkYUZ6bnBQeGJrTTJYREhnWUF1STNUZUdQRw?oc=5",
+        "source": "今周刊",
+        "published_at": "2026-09-03T15:00:00+08:00"
       }
     ],
     "is_focus": true,
@@ -206,7 +206,7 @@
       "ma_bull": false,
       "foreign_net_5d": -53937.7,
       "trust_net_5d": -28698.2,
-      "volume_ratio_5v20": 1.3,
+      "volume_ratio_5v20": 1.29,
       "chip_date": "2026-11-06"
     },
     "latest_news": [
@@ -248,7 +248,7 @@
         "ma_bull": false,
         "momentum_20d_pct": -38.05,
         "distance_from_60d_high_pct": -43.03,
-        "volume_ratio_5v20": 1.21
+        "volume_ratio_5v20": 1.2
       },
       "top1": {
         "chip_date": "2026-11-06",
@@ -322,7 +322,7 @@
       },
       {
         "name": "每日資料追蹤",
-        "date": "2026-11-06",
+        "date": "2026-11-07",
         "status": "active",
         "description": "追蹤董事會、申報送件、訂價、競拍或詢圈、承銷、掛牌及 CBAS 拆解時程。"
       }
@@ -337,15 +337,15 @@
       "ma_bull": false,
       "foreign_net_5d": 130.8,
       "trust_net_5d": 3.0,
-      "volume_ratio_5v20": 1.38,
+      "volume_ratio_5v20": 1.36,
       "chip_date": "2026-11-06"
     },
     "latest_news": [
       {
-        "title": "6683 雍智科技- 再跌10%內就到追繳線- 股市爆料同學會 - CMoney",
-        "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBRaVZEYmFvR1NBZS1JNmNRMFFaSDFJdWRFbmxWbzVrMmlMdlUtZGp5UW5ZdExzQWZSblhiM19TMmtNNUMyNkhwYUFNcXBsTE82NmRjM19mOW4?oc=5",
-        "source": "CMoney",
-        "published_at": "2026-11-03T06:54:17+08:00"
+        "title": "雍智科技9月/Q3營收雙創高；ASIC大案成明年主動能 - Yahoo股市",
+        "url": "https://news.google.com/rss/articles/CBMivwJBVV95cUxQUFZkTE5QbC1XaHlNYThKZk5YVDBWZVdYWVBqYXZpYm45bG9KSlB4VnRUZkh1V1U4U2tjZ3ZnREdvTHc2NlhYblpLaHhnZmJwS2VwZFZJWVRqay04b0RpazctRnVrSWNfUUwxZ1dFYmY3WS1DUlZnRWdNVHJVNEtBRmRndWFZQXdGdlowejc5SEMzSmczelNYQWlrQW0yX2lhOWhNYVlkaHVrZm14ZnYydm80aWNKS3VRY3d4U3VzaTdOZGg3M2dOSTY4Rld3OV9STEVQZElUekRWQl9Tb183enJTTnpGWHNqdjlOTVo2X2NrRlN1Y0xENl9OYVFLWUFnMEhiQUlkak5pTXI3bHNBYlgwZGVqZHhQMlVsWlVTNFp6MExtUDBrVHdHVW43ZWc5S0lxSTVNRTI0Z05vNkkw?oc=5",
+        "source": "Yahoo股市",
+        "published_at": "2026-10-05T15:00:00+08:00"
       },
       {
         "title": "雍智科技Q3營收估回升 下半年看成長 - Yahoo股市",
@@ -383,7 +383,7 @@
         "ma_bull": false,
         "momentum_20d_pct": -45.88,
         "distance_from_60d_high_pct": -53.31,
-        "volume_ratio_5v20": 1.26
+        "volume_ratio_5v20": 1.25
       },
       "top1": {
         "chip_date": "2026-11-06",

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-06T17:15:56",
+  "generated_at": "2026-11-07T17:14:32",
   "source_files": {
     "mops_wiki_db": "mops_wiki_db.json",
     "parsed_bonds": "parsed_bonds.json",
@@ -12,16 +12,16 @@
     "Generated linked BOARD_RESOLUTION/EFFECTIVE dates are retained only as low-confidence proxy events."
   ],
   "summary": {
-    "total_events": 3745,
-    "actual_or_observed_events": 1500,
-    "inferred_events": 2245,
+    "total_events": 3754,
+    "actual_or_observed_events": 1510,
+    "inferred_events": 2244,
     "by_stage": {
-      "BOARD_RESOLUTION": 632,
+      "BOARD_RESOLUTION": 639,
       "FILING": 22,
       "EFFECTIVE": 558,
       "PRICING": 551,
       "FINAL_PRICING": 4,
-      "PAYMENT_BANK": 61,
+      "PAYMENT_BANK": 63,
       "AUCTION_BID_START": 73,
       "AUCTION_BID_END": 73,
       "AUCTION_RESULT_ESTIMATED": 73,
@@ -5030,6 +5030,20 @@
       "published_at": "2026-10-30T190637"
     },
     {
+      "stock_code": "2344",
+      "company_name": "華邦電",
+      "short_name": "",
+      "stage": "BOARD_RESOLUTION",
+      "date": "2026-11-06",
+      "source": "mops_wiki_db",
+      "confidence": 0.85,
+      "is_inferred": false,
+      "title": "公告本公司國內第四次無擔保轉換公司債之轉換價格及溢價率",
+      "summary": "董事會/股東會決議: 公告本公司國內第四次無擔保轉換公司債之轉換價格及溢價率",
+      "event_type": "CB_ISSUANCE",
+      "published_at": "2026-11-06T182745"
+    },
+    {
       "stock_code": "2358",
       "company_name": "廷鑫興業股份有限公司",
       "short_name": "廷鑫一",
@@ -5701,6 +5715,20 @@
       "summary": "董事會/股東會決議: 公告本公司國內第一次無擔保轉換公司債\r\n到期還本暨終止上櫃事宜",
       "event_type": "CB_ISSUANCE",
       "published_at": "2026-08-14T142905"
+    },
+    {
+      "stock_code": "2436",
+      "company_name": "偉詮電",
+      "short_name": "偉詮電一",
+      "stage": "BOARD_RESOLUTION",
+      "date": "2026-11-06",
+      "source": "mops_wiki_db",
+      "confidence": 0.85,
+      "is_inferred": false,
+      "title": "公告本公司國內第一次無擔保轉換公司債轉換\r\n發行新股之增資基準日",
+      "summary": "董事會/股東會決議: 公告本公司國內第一次無擔保轉換公司債轉換\r\n發行新股之增資基準日",
+      "event_type": "CB_ISSUANCE",
+      "published_at": "2026-11-06T155652"
     },
     {
       "stock_code": "2439",
@@ -11503,6 +11531,20 @@
       "is_inferred": false,
       "title": "晶宏五 issue/listing date",
       "cb_code": "31415"
+    },
+    {
+      "stock_code": "3147",
+      "company_name": "大綜",
+      "short_name": "",
+      "stage": "PAYMENT_BANK",
+      "date": "2026-11-06",
+      "source": "mops_wiki_db",
+      "confidence": 0.85,
+      "is_inferred": false,
+      "title": "公告本公司國內第一次無擔保轉換公司債之委託代收價款及\r\n存儲專戶行庫",
+      "summary": "代收價款/專戶: 公告本公司國內第一次無擔保轉換公司債之委託代收價款及\r\n存儲專戶行庫",
+      "event_type": "CB_ISSUANCE",
+      "published_at": "2026-11-06T175208"
     },
     {
       "stock_code": "3149",
@@ -22006,18 +22048,6 @@
       "stock_code": "4566",
       "company_name": "時碩工業股份有限公司",
       "short_name": "時碩工業三",
-      "stage": "BOARD_RESOLUTION",
-      "date": "2023-09-13",
-      "source": "linked_bond_stages_proxy",
-      "confidence": 0.25,
-      "is_inferred": true,
-      "title": "董事會決議發行無擔保轉換公司債",
-      "summary": "董事會通過發行可轉債以充實營運資金或償還債務"
-    },
-    {
-      "stock_code": "4566",
-      "company_name": "時碩工業股份有限公司",
-      "short_name": "時碩工業三",
       "stage": "EFFECTIVE",
       "date": "2023-10-23",
       "source": "linked_bond_stages_proxy",
@@ -22049,6 +22079,20 @@
       "is_inferred": false,
       "title": "時碩工業三 issue/listing date",
       "cb_code": "45663"
+    },
+    {
+      "stock_code": "4566",
+      "company_name": "時碩工業",
+      "short_name": "時碩工業二",
+      "stage": "BOARD_RESOLUTION",
+      "date": "2026-11-06",
+      "source": "mops_wiki_db",
+      "confidence": 0.85,
+      "is_inferred": false,
+      "title": "公告本公司國內第三次無擔保轉換公司債到期還本暨終止上\r\n櫃買賣事宜",
+      "summary": "董事會/股東會決議: 公告本公司國內第三次無擔保轉換公司債到期還本暨終止上\r\n櫃買賣事宜",
+      "event_type": "CB_ISSUANCE",
+      "published_at": "2026-11-06T142847"
     },
     {
       "stock_code": "4572",
@@ -27840,6 +27884,20 @@
       "summary": "董事會/股東會決議: 公告本公司國內第三次無擔保轉換公司債115年第三季轉換普通股\r\n之增資基準日",
       "event_type": "CB_ISSUANCE",
       "published_at": "2026-10-30T162224"
+    },
+    {
+      "stock_code": "6126",
+      "company_name": "信音",
+      "short_name": "信音三",
+      "stage": "BOARD_RESOLUTION",
+      "date": "2026-11-06",
+      "source": "mops_wiki_db",
+      "confidence": 0.85,
+      "is_inferred": false,
+      "title": "公告本公司國內第三次無擔保轉換公司債到期還本暨終止上櫃事宜",
+      "summary": "董事會/股東會決議: 公告本公司國內第三次無擔保轉換公司債到期還本暨終止上櫃事宜",
+      "event_type": "CB_ISSUANCE",
+      "published_at": "2026-11-06T151014"
     },
     {
       "stock_code": "6134",
@@ -35037,6 +35095,20 @@
     },
     {
       "stock_code": "6597",
+      "company_name": "立誠",
+      "short_name": "立誠一",
+      "stage": "PAYMENT_BANK",
+      "date": "2026-11-06",
+      "source": "mops_wiki_db",
+      "confidence": 0.85,
+      "is_inferred": false,
+      "title": "公告本公司國內第一次無擔保轉換公司債收足債款",
+      "summary": "代收價款/專戶: 公告本公司國內第一次無擔保轉換公司債收足債款",
+      "event_type": "CB_ISSUANCE",
+      "published_at": "2026-11-06T162705"
+    },
+    {
+      "stock_code": "6597",
       "company_name": "立誠光電股份有限公司",
       "short_name": "立誠一",
       "stage": "LISTING",
@@ -35886,6 +35958,20 @@
       "summary": "董事會/股東會決議: 公告本公司海外無擔保可轉換公司債轉換普通股增資基準日",
       "event_type": "CB_ISSUANCE",
       "published_at": "2026-08-07T182712"
+    },
+    {
+      "stock_code": "6669",
+      "company_name": "緯穎",
+      "short_name": "",
+      "stage": "BOARD_RESOLUTION",
+      "date": "2026-11-06",
+      "source": "mops_wiki_db",
+      "confidence": 0.85,
+      "is_inferred": false,
+      "title": "公告本公司海外無擔保可轉換公司債轉換普通股增資基準日",
+      "summary": "董事會/股東會決議: 公告本公司海外無擔保可轉換公司債轉換普通股增資基準日",
+      "event_type": "CB_ISSUANCE",
+      "published_at": "2026-11-06T175611"
     },
     {
       "stock_code": "6670",
@@ -36755,6 +36841,20 @@
       "summary": "董事會/股東會決議: 公告本公司國內第一次無擔保轉換公司債115年第二季\r\n轉換普通股之發行新股基準日",
       "event_type": "CB_ISSUANCE",
       "published_at": "2026-08-07T173633"
+    },
+    {
+      "stock_code": "6753",
+      "company_name": "龍德造船",
+      "short_name": "龍德造船一",
+      "stage": "BOARD_RESOLUTION",
+      "date": "2026-11-06",
+      "source": "mops_wiki_db",
+      "confidence": 0.85,
+      "is_inferred": false,
+      "title": "公告本公司國內第一次無擔保轉換公司債115年第三季\r\n轉換普通股之發行新股基準日",
+      "summary": "董事會/股東會決議: 公告本公司國內第一次無擔保轉換公司債115年第三季\r\n轉換普通股之發行新股基準日",
+      "event_type": "CB_ISSUANCE",
+      "published_at": "2026-11-06T165203"
     },
     {
       "stock_code": "6761",
@@ -38409,6 +38509,20 @@
       "summary": "代收價款/專戶: 公告本公司國內第一次無擔保轉換公司債代收價款行庫及存\r\n儲專戶行庫",
       "event_type": "CB_ISSUANCE",
       "published_at": "2026-11-04T140438"
+    },
+    {
+      "stock_code": "7713",
+      "company_name": "威力德生醫",
+      "short_name": "",
+      "stage": "BOARD_RESOLUTION",
+      "date": "2026-11-06",
+      "source": "mops_wiki_db",
+      "confidence": 0.85,
+      "is_inferred": false,
+      "title": "公告本公司國內第一次無擔保轉換公司債115年第三季轉換\r\n普通股之增資基準日",
+      "summary": "董事會/股東會決議: 公告本公司國內第一次無擔保轉換公司債115年第三季轉換\r\n普通股之增資基準日",
+      "event_type": "CB_ISSUANCE",
+      "published_at": "2026-11-06T170424"
     },
     {
       "stock_code": "7728",
@@ -41468,6 +41582,20 @@
       "confidence": 0.3,
       "is_inferred": true,
       "based_on": "2020-03-06"
+    },
+    {
+      "stock_code": "8358",
+      "company_name": "金居",
+      "short_name": "",
+      "stage": "BOARD_RESOLUTION",
+      "date": "2026-11-06",
+      "source": "mops_wiki_db",
+      "confidence": 0.85,
+      "is_inferred": false,
+      "title": "本公司董事會決議發行國內第一次無擔保轉換公司債",
+      "summary": "董事會/股東會決議: 本公司董事會決議發行國內第一次無擔保轉換公司債",
+      "event_type": "CB_ISSUANCE",
+      "published_at": "2026-11-06T125413"
     },
     {
       "stock_code": "8367",

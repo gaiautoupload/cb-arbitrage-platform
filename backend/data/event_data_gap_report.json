@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-06T17:15:56",
+  "generated_at": "2026-11-07T17:14:33",
   "database": "D:\\bond\\backend\\data\\cb_event_master.sqlite",
   "required_stages": [
     "BOARD_RESOLUTION",
@@ -16,15 +16,15 @@
     "CBAS_ACTUAL"
   ],
   "summary": {
-    "issues": 653,
-    "events": 3856,
-    "issues_with_missing_stages": 653
+    "issues": 656,
+    "events": 3866,
+    "issues_with_missing_stages": 656
   },
   "stage_summary": {
     "BOARD_RESOLUTION": {
-      "observed_events": 161,
+      "observed_events": 169,
       "inferred_events": 509,
-      "issues_with_stage": 578
+      "issues_with_stage": 580
     },
     "FILING": {
       "observed_events": 22,
@@ -2155,7 +2155,7 @@
         "LISTING",
         "CBAS_ACTUAL"
       ],
-      "event_count": 2
+      "event_count": 3
     },
     {
       "issue_id": "issue_e15a668db90a49d2b55a",
@@ -2412,7 +2412,7 @@
         "UNDERWRITING_NOTICE",
         "CBAS_ACTUAL"
       ],
-      "event_count": 9
+      "event_count": 10
     },
     {
       "issue_id": "issue_374f7d658b913062b594",
@@ -4859,6 +4859,32 @@
         "CBAS_ACTUAL"
       ],
       "event_count": 3
+    },
+    {
+      "issue_id": "issue_45ae900311227eb2826f",
+      "stock_code": "3147",
+      "cb_code": null,
+      "short_name": null,
+      "company_name": "大綜",
+      "observed_stages": [
+        "PAYMENT_BANK"
+      ],
+      "inferred_stages": [],
+      "missing_stages": [
+        "BOARD_RESOLUTION",
+        "FILING",
+        "EFFECTIVE",
+        "PRICING",
+        "AUCTION_BID_START",
+        "AUCTION_BID_END",
+        "BOOKBUILDING_START",
+        "BOOKBUILDING_END",
+        "BOOKBUILDING_RESULT",
+        "UNDERWRITING_NOTICE",
+        "LISTING",
+        "CBAS_ACTUAL"
+      ],
+      "event_count": 1
     },
     {
       "issue_id": "issue_48cf787969f5012376ef",
@@ -8988,8 +9014,9 @@
       "stock_code": "4566",
       "cb_code": "45662",
       "short_name": "時碩工業二",
-      "company_name": "時碩工業股份有限公司",
+      "company_name": "時碩工業",
       "observed_stages": [
+        "BOARD_RESOLUTION",
         "LISTING",
         "PRICING"
       ],
@@ -9010,7 +9037,7 @@
         "UNDERWRITING_NOTICE",
         "CBAS_ACTUAL"
       ],
-      "event_count": 7
+      "event_count": 8
     },
     {
       "issue_id": "issue_4a1bc45e7f48853baf35",
@@ -11346,7 +11373,7 @@
         "UNDERWRITING_NOTICE",
         "CBAS_ACTUAL"
       ],
-      "event_count": 9
+      "event_count": 10
     },
     {
       "issue_id": "issue_62f81e0061d9e1feff9c",
@@ -14264,6 +14291,7 @@
       "company_name": "立誠光電股份有限公司",
       "observed_stages": [
         "LISTING",
+        "PAYMENT_BANK",
         "PRICING"
       ],
       "inferred_stages": [
@@ -14283,7 +14311,7 @@
         "UNDERWRITING_NOTICE",
         "CBAS_ACTUAL"
       ],
-      "event_count": 7
+      "event_count": 8
     },
     {
       "issue_id": "issue_f8cf8a8135896a1d9bcc",
@@ -14622,7 +14650,7 @@
         "LISTING",
         "CBAS_ACTUAL"
       ],
-      "event_count": 1
+      "event_count": 2
     },
     {
       "issue_id": "issue_365c15eed8eb77817ce3",
@@ -14992,7 +15020,7 @@
         "UNDERWRITING_NOTICE",
         "CBAS_ACTUAL"
       ],
-      "event_count": 8
+      "event_count": 9
     },
     {
       "issue_id": "issue_6e111d7626cf9260af46",
@@ -15817,6 +15845,31 @@
         "CBAS_ACTUAL"
       ],
       "event_count": 2
+    },
+    {
+      "issue_id": "issue_0da33a098d7e2162681d",
+      "stock_code": "7713",
+      "cb_code": null,
+      "short_name": null,
+      "company_name": "威力德生醫",
+      "observed_stages": [
+        "BOARD_RESOLUTION"
+      ],
+      "inferred_stages": [],
+      "missing_stages": [
+        "FILING",
+        "EFFECTIVE",
+        "PRICING",
+        "AUCTION_BID_START",
+        "AUCTION_BID_END",
+        "BOOKBUILDING_START",
+        "BOOKBUILDING_END",
+        "BOOKBUILDING_RESULT",
+        "UNDERWRITING_NOTICE",
+        "LISTING",
+        "CBAS_ACTUAL"
+      ],
+      "event_count": 1
     },
     {
       "issue_id": "issue_9b2589ebfd68da843ed2",
@@ -17080,6 +17133,31 @@
         "CBAS_ACTUAL"
       ],
       "event_count": 7
+    },
+    {
+      "issue_id": "issue_43b72ea58450ab5f0669",
+      "stock_code": "8358",
+      "cb_code": null,
+      "short_name": null,
+      "company_name": "金居",
+      "observed_stages": [
+        "BOARD_RESOLUTION"
+      ],
+      "inferred_stages": [],
+      "missing_stages": [
+        "FILING",
+        "EFFECTIVE",
+        "PRICING",
+        "AUCTION_BID_START",
+        "AUCTION_BID_END",
+        "BOOKBUILDING_START",
+        "BOOKBUILDING_END",
+        "BOOKBUILDING_RESULT",
+        "UNDERWRITING_NOTICE",
+        "LISTING",
+        "CBAS_ACTUAL"
+      ],
+      "event_count": 1
     },
     {
       "issue_id": "issue_80bef206da80ef0ddc59",
