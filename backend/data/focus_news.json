@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-09T17:00:28+08:00",
+  "generated_at": "2026-11-10T20:32:01+08:00",
   "source": "Google News RSS",
   "request_policy": "focus watchlist only; one query per stock; retries with backoff; preserve prior cache on failure",
   "stocks": {
@@ -44,12 +44,6 @@
           "published_at": "2026-06-24T15:00:00+08:00"
         },
         {
-          "title": "【09:13 即時新聞】雙鍵(4764)急挫跌停，電子材料題材退燒、籌碼鬆動壓力湧現 - CMoney投資網誌",
-          "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPNnZ6OWN5SzdzN29QcWh5R2I0ZVRib1ZwSzh1ZVJEOXhkR3BGejZkQWE2b3hpRU1NRGVCd1QyWDFIaUVSbFNvVWxyMnpTVmJNMDM4cnJETjdlY2lxZjlaM05mVW5LYVJqUjVyS1ZkQy1tRGtGS1NOSkYzOEtzLW5DMmVsUTRwcUdRUWlDckxR?oc=5",
-          "source": "CMoney投資網誌",
-          "published_at": "2026-01-02T16:00:00+08:00"
-        },
-        {
           "title": "【09:21 即時新聞】雙鍵(4764)強勢漲停，技術面多頭排列、籌碼活絡，化工族群資金湧入推升短線動能 - CMoney",
           "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBPc3JsVDI4cHpWYW9uSG5fNXlnS0RoMnlKdFRobkVFc2czbDJlRnpLU1lPVHcyNDhUMlY5RUtsOWczcUVOaTJnMjIxWHliYXduV3J1czNOa1ZNYU9XNU8xTWx2TlBGYjQ?oc=5",
           "source": "CMoney",
@@ -60,12 +54,6 @@
           "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBLeF93UmFSWlhSMXoxbEFQWkx2THdsLTlISmVobjFFcEJJS1pFOHR1eHhrZGN6OHlLOFJpTjZaUE4ybXV0Y3lSSnlIb0RCb0U?oc=5",
           "source": "CMoney",
           "published_at": "2025-04-14T15:39:43+08:00"
-        },
-        {
-          "title": "雙鍵(4764) 個股概覽 | 個股 - 股市 - CMoney",
-          "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBWekwyR09tLWs5dzBsRk5Bc0d3WnhKRlcwOHpSZV9EcE1NQ3dfRzhBTTgwTDdpWHpabUdTbEpiLVFaemE5YldyOGRzS1B5N2NhZkV3?oc=5",
-          "source": "CMoney",
-          "published_at": "2022-05-05T22:23:36+08:00"
         }
       ],
       "stale_cache": false
@@ -117,12 +105,6 @@
           "published_at": "2026-04-29T15:00:00+08:00"
         },
         {
-          "title": "聯電(2303)股價80元能買嗎？啥利多漲成這樣「25年新高」、讓外資爆買18萬張：最新目標價還有2成甜頭 - 今周刊",
-          "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOd2h6em41SGRWUzNuV0NNeVg0UFhBVC14c3VSWXYzRHFxTmZmZ3F1YjRFQVAwZ3I5Yk5aNkhTb0JBNjZxa0szczhfeUxLdTc1MzZvQ2dkMzhORUNOZnhqVnctYnFIX3d5N2RJaWk5OVBGQmhBYjNiaS1NZC1RODJOeA?oc=5",
-          "source": "今周刊",
-          "published_at": "2026-04-20T15:00:00+08:00"
-        },
-        {
           "title": "聯電為什麼漲停？68.3元爆量逾2萬張等買、前波80元有機會？聯電可以買嗎「先看底氣有多強」 - 今周刊",
           "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNMUgxaW4zOW5sS0NsRzVoRHBGX1dFWDhxb3lHRkplckJ4cnpmakJzTGFFZEdqWVFlYXZhTEdrbXF0eFZmRVByVGd1SWlRTk1LMm45akNoMzNfQ1lSWmhhWHJ5MERVamJVQVZMWjVpMU52eEVjd0pqQ0lPcEo2cm0xUg?oc=5",
           "source": "今周刊",
@@ -133,6 +115,12 @@
           "url": "https://news.google.com/rss/articles/CBMirwRBVV95cUxNaXo5b2xvSTlGcGdsSm9xNzhacVRSY0h6b2JYWmZaM3dqd3FsVEctc29LU0lqWWdqOWh3YkhUSXpRa3BzWmJVUnNncHZoUzJEdnRfdnh4WkF2WXpiVExZZE9XRWFQUU00R2lyYXotV2FxOHJrdzBEZ29WMkZoN2xkNkdqWHpvcFhxS0NxN2FmbTVyTFpxS05hb2puQWNKazJvNGxMYm1xX1ZlUWtBbzFzWGJIX29RRTJ1TjhFZGozaVF1MUVXTFpEX3Z1UE9QN185NVBELXZDdFVMeGhaYzlSSnhZakZYeUVJVXlsc0NqaTEtT2xSQWlpdHBEUE12OEV2czVEWFVLYXUxNVRpM3dZSzA4R3A1NWN1V0VuX3l3Y1k2SVp2bmJuRTFvYmdQd0xGQTRVd1c2SFVzd3o2RTdRUDQ1Z0JrZU5oeEI5SWxONkx0TlRYWHhqSmxiNzQwcWdhWlBzVk5lR3pTRDhXTmkxR2R4UW9GRV9GVEgxU25mVW5PU0tGYjZYcTJ2VnNQWnNqcUlrMnpmWktOUGJUSDN0MG80eGdqdVlHdGY5SEhUbUc4cmxoaXc2bzNJUHpuMHVDRGRHVTVycWw1VHI4eC15dXdvUW1HUVdLRHR1a1BPak05djVqYnZQUEcyekVpZWtKR19uZEZJd3NRSDZLRmZzNHhPUXNWd1UyY2Nfd3F0ck1nZjg2Smd3b1hXdUJ6akNmM3daY3dqTjFUN3luU2Uw?oc=5",
           "source": "永豐金證券",
           "published_at": "2026-03-10T13:08:25+08:00"
+        },
+        {
+          "title": "聯電(2303)想等跌回5字頭才買…股市老先覺看到兩徵兆：不要只想賺6%殖利率「翻倍不是更好」？ - 今周刊",
+          "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQdEtmX2tBMnpobVJmMnVvZ0o2QzY3V1BMVDRZRGJzMjFRV3hpOEJFUmxqeXJwdllGMjdraldQQkVvbDFzaDhhVzNBUUgteWZRS21aZ3U4OUFKd0lUT2h6VzJLY1pMRHFKUTFVYjB2OHU3ZEpPdUNfVnVlVlVZUU9RMQ?oc=5",
+          "source": "今周刊",
+          "published_at": "2026-02-08T16:00:00+08:00"
         }
       ],
       "stale_cache": false
@@ -151,7 +139,7 @@
           "title": "雍智科技Q3營收估回升 下半年看成長 - Yahoo股市",
           "url": "https://news.google.com/rss/articles/CBMikwJBVV95cUxNRGdmRndmaC10SjZyZ1VCRm5MMHMwQ3FSM0h5QUVCYTlyTGVqbjc2c1hMZmpaS2R1YUVVV05DQmpxbS1NQnE0X2trNVdPV2ZKdVRoQ0toSDNtZkwzUDVvTFFZLWhwcFo3RU4yTE5MbVllbW9uV0s4MDlJSFBYUmNhcDJRZzJPY0MxcGpNUDNPeXRhcVdZTU94dm9JOUNUaEFHRTY4UlphU0lVTE9DdHVjbm1EOV8tQkJCQXp3MTdJaURNejQ3T0hROUg5cTVrMXRkeTVGY21VZDRmUEwzUVdDYmxDWXVvMG03TUlfYktmeGlfQjczd3NUc19CczRLT1N2SVpKODI3MXhTWVd0aUNmbmJVSQ?oc=5",
           "source": "Yahoo股市",
-          "published_at": "2026-07-16T15:00:00+08:00"
+          "published_at": "2026-07-17T15:00:00+08:00"
         },
         {
           "title": "雍智科技等6/29起打入處置 聯發科、信驊等67檔列注意股 - 自由財經",
@@ -190,16 +178,16 @@
           "published_at": "2025-12-18T08:12:35+08:00"
         },
         {
-          "title": "雍智科技(6683) 今日股價與討論 - 股市爆料同學會 - CMoney",
-          "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1pd3RJLW1zQzdUR0JodlhpUGdVcDNqaDQxdG9faWFXMkx3SWx3V2RLbGhZQUZGeDVDem9nUFZMU3dmTGNJTTBGeU9mSUlzWmc?oc=5",
-          "source": "CMoney",
-          "published_at": "2025-11-27T18:32:53+08:00"
-        },
-        {
           "title": "雍智科技(6683) 個股概覽 | 個股 - 股市 - CMoney",
           "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTFBmZHZmQk5iQXV5akhQTEdva2k1bVlQR0NKdjZhZ0o4dFRta2s3N2hqUS1XRDJaYk54Sk1uazk4eWlmVmZkOXFaVjZB?oc=5",
           "source": "CMoney",
           "published_at": "2025-01-16T12:15:47+08:00"
+        },
+        {
+          "title": "雍智科技(6683) 今日股價與討論 - 股市爆料同學會 - CMoney",
+          "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1pd3RJLW1zQzdUR0JodlhpUGdVcDNqaDQxdG9faWFXMkx3SWx3V2RLbGhZQUZGeDVDem9nUFZMU3dmTGNJTTBGeU9mSUlzWmc?oc=5",
+          "source": "CMoney",
+          "published_at": "2021-11-20T11:27:33+08:00"
         }
       ],
       "stale_cache": false

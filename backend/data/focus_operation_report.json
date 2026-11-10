@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-09T17:12:16",
-  "as_of": "2026-11-09",
+  "generated_at": "2026-11-10T20:49:41",
+  "as_of": "2026-11-10",
   "strategies": {
     "short": "官方發行日T確定後，T-16收盤審核，T-15開盤買入，T+9收盤賣出。",
     "long": "技術、法人與營收11分制；8分以上僅列候選，配合分批與移動停利。"
@@ -16,31 +16,31 @@
       "cb_stage_date": null,
       "added_at": "2026-07-16",
       "market": {
-        "date": "2026-11-09",
-        "close": 124.0,
-        "ma5": 123.6,
-        "ma10": 138.25,
-        "ma20": 158.93,
-        "ma60": 195.5,
+        "date": "2026-11-10",
+        "close": 125.5,
+        "ma5": 121.6,
+        "ma10": 135.05,
+        "ma20": 154.9,
+        "ma60": 193.47,
         "ma_bull": false,
-        "momentum_20d_pct": -37.69,
-        "distance_from_60d_high_pct": -50.3,
-        "volume_ratio_5v20": 1.55
+        "momentum_20d_pct": -39.08,
+        "distance_from_60d_high_pct": -49.7,
+        "volume_ratio_5v20": 1.66
       },
       "top1": {
-        "chip_date": "2026-11-09",
-        "foreign_net_5d_shares": 1560566.0,
-        "foreign_net_20d_shares": 1818632.0,
+        "chip_date": "2026-11-10",
+        "foreign_net_5d_shares": 974109.0,
+        "foreign_net_20d_shares": 2399189.0,
         "trust_net_5d_shares": 0.0,
         "trust_net_20d_shares": -197364.0,
-        "foreign_consecutive_buy_days": 7,
+        "foreign_consecutive_buy_days": 8,
         "trust_consecutive_buy_days": 0,
         "latest_trust_buy_pct_capital": 0.0,
         "share_count_date": "2025-12-31",
         "outstanding_shares": 85542100.0,
-        "revenue_month": "2026-09",
-        "revenue_announcement_date": "2026-10-10",
-        "revenue_yoy_pct": -0.1
+        "revenue_month": "2026-10",
+        "revenue_announcement_date": "2026-11-10",
+        "revenue_yoy_pct": 0.11
       },
       "short_strategy": {
         "state": "not_applicable",
@@ -50,15 +50,15 @@
       "long_strategy": {
         "state": "avoid",
         "action": "暫不建立長線部位",
-        "score": 1,
+        "score": 2,
         "max_score": 11,
         "positives": [
-          "外資近5日買超"
+          "外資近5日買超",
+          "最新月營收正成長"
         ],
         "risks": [
           "均線尚未多頭排列",
-          "投信近5日未買超",
-          "最新月營收未呈正成長或缺資料"
+          "投信近5日未買超"
         ],
         "exit_rules": [
           "獲利達100%分批出場",
@@ -79,31 +79,31 @@
       "cb_stage_date": "2026-06-03",
       "added_at": "2026-07-16",
       "market": {
-        "date": "2026-11-09",
-        "close": 96.7,
-        "ma5": 99.12,
-        "ma10": 108.31,
-        "ma20": 120.8,
-        "ma60": 132.08,
+        "date": "2026-11-10",
+        "close": 100.5,
+        "ma5": 98.62,
+        "ma10": 106.11,
+        "ma20": 118.55,
+        "ma60": 131.7,
         "ma_bull": false,
-        "momentum_20d_pct": -34.44,
-        "distance_from_60d_high_pct": -40.12,
-        "volume_ratio_5v20": 1.26
+        "momentum_20d_pct": -30.93,
+        "distance_from_60d_high_pct": -37.77,
+        "volume_ratio_5v20": 1.22
       },
       "top1": {
-        "chip_date": "2026-11-09",
-        "foreign_net_5d_shares": -106954079.0,
-        "foreign_net_20d_shares": -338022902.0,
-        "trust_net_5d_shares": -9045431.0,
-        "trust_net_20d_shares": -154404347.0,
+        "chip_date": "2026-11-10",
+        "foreign_net_5d_shares": -127271248.0,
+        "foreign_net_20d_shares": -332868122.0,
+        "trust_net_5d_shares": 10515036.0,
+        "trust_net_20d_shares": -156025069.0,
         "foreign_consecutive_buy_days": 0,
-        "trust_consecutive_buy_days": 4,
-        "latest_trust_buy_pct_capital": 0.014,
+        "trust_consecutive_buy_days": 0,
+        "latest_trust_buy_pct_capital": -0.0001,
         "share_count_date": "2025-12-31",
         "outstanding_shares": 12588156300.0,
-        "revenue_month": "2026-09",
-        "revenue_announcement_date": "2026-10-10",
-        "revenue_yoy_pct": 0.27
+        "revenue_month": "2026-10",
+        "revenue_announcement_date": "2026-11-10",
+        "revenue_yoy_pct": 0.18
       },
       "short_strategy": {
         "state": "fail",
@@ -116,15 +116,15 @@
       "long_strategy": {
         "state": "avoid",
         "action": "暫不建立長線部位",
-        "score": 1,
+        "score": 2,
         "max_score": 11,
         "positives": [
+          "投信近5日買超",
           "最新月營收正成長"
         ],
         "risks": [
           "均線尚未多頭排列",
-          "外資近5日未買超",
-          "投信近5日未買超"
+          "外資近5日未買超"
         ],
         "exit_rules": [
           "獲利達100%分批出場",
@@ -145,31 +145,31 @@
       "cb_stage_date": "2026-07-08",
       "added_at": "2026-07-16",
       "market": {
-        "date": "2026-11-09",
-        "close": 860.0,
-        "ma5": 876.2,
-        "ma10": 1000.6,
-        "ma20": 1148.8,
-        "ma60": 1303.43,
+        "date": "2026-11-10",
+        "close": 932.0,
+        "ma5": 874.4,
+        "ma10": 977.8,
+        "ma20": 1123.4,
+        "ma60": 1297.8,
         "ma_bull": false,
-        "momentum_20d_pct": -39.22,
-        "distance_from_60d_high_pct": -48.66,
-        "volume_ratio_5v20": 1.29
+        "momentum_20d_pct": -35.28,
+        "distance_from_60d_high_pct": -44.36,
+        "volume_ratio_5v20": 1.4
       },
       "top1": {
-        "chip_date": "2026-11-09",
-        "foreign_net_5d_shares": 141350.0,
-        "foreign_net_20d_shares": 487763.0,
-        "trust_net_5d_shares": 2000.0,
-        "trust_net_20d_shares": 58000.0,
+        "chip_date": "2026-11-10",
+        "foreign_net_5d_shares": 90478.0,
+        "foreign_net_20d_shares": 473400.0,
+        "trust_net_5d_shares": 9000.0,
+        "trust_net_20d_shares": 45000.0,
         "foreign_consecutive_buy_days": 0,
-        "trust_consecutive_buy_days": 0,
-        "latest_trust_buy_pct_capital": 0.0,
+        "trust_consecutive_buy_days": 1,
+        "latest_trust_buy_pct_capital": 0.0036,
         "share_count_date": "2025-12-31",
         "outstanding_shares": 27467710.000000004,
-        "revenue_month": "2026-09",
-        "revenue_announcement_date": "2026-10-10",
-        "revenue_yoy_pct": 0.34
+        "revenue_month": "2026-10",
+        "revenue_announcement_date": "2026-11-10",
+        "revenue_yoy_pct": 0.31
       },
       "short_strategy": {
         "state": "fail",

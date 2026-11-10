@@ -8385,6 +8385,21 @@
     "issue_amount": "新台幣5億元整"
   },
   {
+    "file_id": "11500067011",
+    "company_name": "泰谷光電科技股份有限公司",
+    "bond_name": "泰谷光電科技股份有限公司國內第五次有擔保轉換公司債",
+    "cb_code": "33395",
+    "stock_code": "3339",
+    "short_name": "泰谷五",
+    "announcement_date_minguo": "115年11月10日",
+    "announcement_date": "2026-11-10",
+    "issue_date_minguo": "115年11月12日",
+    "issue_date": "2026-11-12",
+    "maturity_date_minguo": "118年11月12日",
+    "maturity_date": "2029-11-12",
+    "issue_amount": "新台幣5億元整"
+  },
+  {
     "file_id": "11500067021",
     "company_name": "世紀鋼鐵結構股份有限公司",
     "bond_name": "世紀鋼鐵結構股份有限公司國內第九次無擔保轉換公司債",
@@ -8413,5 +8428,50 @@
     "maturity_date_minguo": "118年11月12日",
     "maturity_date": "2029-11-12",
     "issue_amount": "新台幣4億元整"
+  },
+  {
+    "file_id": "11500067721",
+    "company_name": "華邦電子股份有限公司",
+    "bond_name": "華邦電子股份有限公司國內第四次無擔保轉換公司債",
+    "cb_code": "23444",
+    "stock_code": "2344",
+    "short_name": "華邦電四",
+    "announcement_date_minguo": "115年11月10日",
+    "announcement_date": "2026-11-10",
+    "issue_date_minguo": "115年11月16日",
+    "issue_date": "2026-11-16",
+    "maturity_date_minguo": "120年11月16日",
+    "maturity_date": "2031-11-16",
+    "issue_amount": "新臺幣140億元整"
+  },
+  {
+    "file_id": "11500067921",
+    "company_name": "宜特科技股份有限公司",
+    "bond_name": "宜特科技股份有限公司國內第六次無擔保轉換公司債",
+    "cb_code": "32896",
+    "stock_code": "3289",
+    "short_name": "宜特六",
+    "announcement_date_minguo": "115年11月10日",
+    "announcement_date": "2026-11-10",
+    "issue_date_minguo": "115年11月17日",
+    "issue_date": "2026-11-17",
+    "maturity_date_minguo": "118年11月17日",
+    "maturity_date": "2029-11-17",
+    "issue_amount": "新台幣12億元整"
+  },
+  {
+    "file_id": "11500067941",
+    "company_name": "事欣科技股份有限公司",
+    "bond_name": "事欣科技股份有限公司國內第六次無擔保轉換公司債",
+    "cb_code": "49166",
+    "stock_code": "4916",
+    "short_name": "事欣科六",
+    "announcement_date_minguo": "115年11月10日",
+    "announcement_date": "2026-11-10",
+    "issue_date_minguo": "115年11月17日",
+    "issue_date": "2026-11-17",
+    "maturity_date_minguo": "120年11月17日",
+    "maturity_date": "2031-11-17",
+    "issue_amount": "新台幣10億元整"
   }
 ]

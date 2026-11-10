@@ -898,5 +898,17 @@
     "bidding_shares_thousand": "4,500",
     "bidding_period": "2026/10/28~2026/10/30",
     "min_price": "101.00"
+  },
+  {
+    "serial": "115081",
+    "company_name": "濱川企業",
+    "full_company_name": "濱川企業股份有限公司",
+    "ticker": "1569",
+    "underwriter": "台新綜合證券股份有限公司",
+    "bond_type": "有擔保轉換公司債",
+    "shares_thousand": "4,000",
+    "bidding_shares_thousand": "3,400",
+    "bidding_period": "2026/11/10~2026/11/12",
+    "min_price": "100.00"
   }
 ]
