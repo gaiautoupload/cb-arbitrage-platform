@@ -25,7 +25,7 @@
       },
       {
         "name": "每日資料追蹤",
-        "date": "2026-11-10",
+        "date": "2026-11-11",
         "status": "active",
         "description": "追蹤董事會、申報送件、訂價、競拍或詢圈、承銷、掛牌及 CBAS 拆解時程。"
       }
@@ -38,18 +38,12 @@
       "ma10": 135.05,
       "ma20": 154.9,
       "ma_bull": false,
-      "foreign_net_5d": 974.1,
+      "foreign_net_5d": 910.8,
       "trust_net_5d": 0.0,
       "volume_ratio_5v20": 2.13,
-      "chip_date": "2026-11-10"
+      "chip_date": "2026-11-11"
     },
     "latest_news": [
-      {
-        "title": "雙鍵（4764）塑膠添加劑老廠變身AI材料股！CCL樹脂從M7打到M9？ - 玩股網",
-        "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE8yU3FNVVUtRk9CTGVldEIyenJjZHF1QWk2MjhTdVpMazRpNWJwQXh3UHBWbjNxRXc5UDdaMDZDSmRjQ2JhTG1odlUyUmJTRDFfcTcxVkpB?oc=5",
-        "source": "玩股網",
-        "published_at": "2026-11-08T07:23:54+08:00"
-      },
       {
         "title": "【09/14 申報轉讓】雙鍵(4764)大股東利用他人名義持有者顥揚投資有限公司將於09/17申報轉讓雙鍵股票500張 - CMoney投資網誌",
         "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNZC01SnhUb1A2MEc2SGJ5MmJySnlFRW1Ib2Nqb3Zmdnptbnp5emNWNjlDNFFSOEpTNGJsanpibFQzTkZxTWZEREw1X0RQVXZaT01BdVNyc2pWdDdNeG9sMS0tUGZsaVhFd0NUbjB5U1BSSWZ3bGVwLTNmQ1lYVl9VX3ZCT3ZTX1lod3c?oc=5",
@@ -61,6 +55,12 @@
         "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOcmNmZnl4cDVnSW9ybXBoaFhHSXZXR3lNTlptbVFXSkZzdTBZWWNrMVpqaTlSMHdXdTZLQ1ROY2lWN0JGaTFmMGFPaWJLZFpmSnVpUzF0alB4ZldvdDEwQmtfbVhITV9tcmhTWm5uZWdUV2FDak5GQ2EzSHJLQXpXN3ZIRXgtRDhaalZCc2ln?oc=5",
         "source": "CMoney投資網誌",
         "published_at": "2026-09-04T15:00:00+08:00"
+      },
+      {
+        "title": "最新股票抽籤／化工大廠雙鍵「抽中賺7萬」！這檔拿2萬多去抽，中籤進帳1萬…8檔申購時間一次看 - 今周刊",
+        "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNa2g3bTB5ZWF2TXhtZzR6YU43Q3FMTUYzRzlHQTd6RllGU3dLU0Q0aldjYkFEMzR6OTJNa2VYdnBYR1hTWmgzRFZvT3g3SlRjMlNPRXZ4Ni1yLVF4S0l0LTZycHNCZExkYUZ6bnBQeGJrTTJYREhnWUF1STNUZUdQRw?oc=5",
+        "source": "今周刊",
+        "published_at": "2026-09-03T15:00:00+08:00"
       }
     ],
     "is_focus": true,
@@ -89,12 +89,12 @@
         "volume_ratio_5v20": 1.66
       },
       "top1": {
-        "chip_date": "2026-11-10",
-        "foreign_net_5d_shares": 974109.0,
-        "foreign_net_20d_shares": 2399189.0,
+        "chip_date": "2026-11-11",
+        "foreign_net_5d_shares": 910778.0,
+        "foreign_net_20d_shares": 2164433.0,
         "trust_net_5d_shares": 0.0,
         "trust_net_20d_shares": -197364.0,
-        "foreign_consecutive_buy_days": 8,
+        "foreign_consecutive_buy_days": 9,
         "trust_consecutive_buy_days": 0,
         "latest_trust_buy_pct_capital": 0.0,
         "share_count_date": "2025-12-31",
@@ -204,10 +204,10 @@
       "ma10": 106.11,
       "ma20": 118.55,
       "ma_bull": false,
-      "foreign_net_5d": -127271.2,
-      "trust_net_5d": 10515.0,
+      "foreign_net_5d": -79833.4,
+      "trust_net_5d": 8582.2,
       "volume_ratio_5v20": 1.32,
-      "chip_date": "2026-11-10"
+      "chip_date": "2026-11-11"
     },
     "latest_news": [
       {
@@ -251,14 +251,14 @@
         "volume_ratio_5v20": 1.22
       },
       "top1": {
-        "chip_date": "2026-11-10",
-        "foreign_net_5d_shares": -127271248.0,
-        "foreign_net_20d_shares": -332868122.0,
-        "trust_net_5d_shares": 10515036.0,
-        "trust_net_20d_shares": -156025069.0,
-        "foreign_consecutive_buy_days": 0,
-        "trust_consecutive_buy_days": 0,
-        "latest_trust_buy_pct_capital": -0.0001,
+        "chip_date": "2026-11-11",
+        "foreign_net_5d_shares": -79833387.0,
+        "foreign_net_20d_shares": -305463662.0,
+        "trust_net_5d_shares": 8582225.0,
+        "trust_net_20d_shares": -155507323.0,
+        "foreign_consecutive_buy_days": 1,
+        "trust_consecutive_buy_days": 1,
+        "latest_trust_buy_pct_capital": 0.0093,
         "share_count_date": "2025-12-31",
         "outstanding_shares": 12588156300.0,
         "revenue_month": "2026-10",
@@ -322,7 +322,7 @@
       },
       {
         "name": "每日資料追蹤",
-        "date": "2026-11-10",
+        "date": "2026-11-11",
         "status": "active",
         "description": "追蹤董事會、申報送件、訂價、競拍或詢圈、承銷、掛牌及 CBAS 拆解時程。"
       }
@@ -335,10 +335,10 @@
       "ma10": 977.8,
       "ma20": 1123.4,
       "ma_bull": false,
-      "foreign_net_5d": 90.5,
-      "trust_net_5d": 9.0,
+      "foreign_net_5d": 44.7,
+      "trust_net_5d": 8.0,
       "volume_ratio_5v20": 1.62,
-      "chip_date": "2026-11-10"
+      "chip_date": "2026-11-11"
     },
     "latest_news": [
       {
@@ -386,14 +386,14 @@
         "volume_ratio_5v20": 1.4
       },
       "top1": {
-        "chip_date": "2026-11-10",
-        "foreign_net_5d_shares": 90478.0,
-        "foreign_net_20d_shares": 473400.0,
-        "trust_net_5d_shares": 9000.0,
-        "trust_net_20d_shares": 45000.0,
-        "foreign_consecutive_buy_days": 0,
-        "trust_consecutive_buy_days": 1,
-        "latest_trust_buy_pct_capital": 0.0036,
+        "chip_date": "2026-11-11",
+        "foreign_net_5d_shares": 44664.0,
+        "foreign_net_20d_shares": 578987.0,
+        "trust_net_5d_shares": 8000.0,
+        "trust_net_20d_shares": 38000.0,
+        "foreign_consecutive_buy_days": 1,
+        "trust_consecutive_buy_days": 2,
+        "latest_trust_buy_pct_capital": 0.0073,
         "share_count_date": "2025-12-31",
         "outstanding_shares": 27467710.000000004,
         "revenue_month": "2026-10",

@@ -8430,6 +8430,21 @@
     "issue_amount": "新台幣4億元整"
   },
   {
+    "file_id": "11500067651",
+    "company_name": "映興電子股份有限公司",
+    "bond_name": "映興電子股份有限公司國內第二次無擔保轉換公司債",
+    "cb_code": "35972",
+    "stock_code": "3597",
+    "short_name": "映興二",
+    "announcement_date_minguo": "115年11月11日",
+    "announcement_date": "2026-11-11",
+    "issue_date_minguo": "115年11月16日",
+    "issue_date": "2026-11-16",
+    "maturity_date_minguo": "118年11月16日",
+    "maturity_date": "2029-11-16",
+    "issue_amount": "新臺幣2億元整"
+  },
+  {
     "file_id": "11500067721",
     "company_name": "華邦電子股份有限公司",
     "bond_name": "華邦電子股份有限公司國內第四次無擔保轉換公司債",

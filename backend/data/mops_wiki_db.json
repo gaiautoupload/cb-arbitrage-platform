@@ -9949,6 +9949,358 @@
     "parsed_at": "2026-11-10T20:32:01"
   },
   {
+    "date": "2026-11-10",
+    "time": "142626",
+    "stock_code": "2367",
+    "company_name": "燿華",
+    "event_title": "公告本公司背書保證餘額符合\r\n「公開發行公司背書保證處理準則」\r\n第二十五條第一項第二款",
+    "event_type": "OTHER",
+    "stage": "N/A",
+    "wiki_details": {},
+    "sentiment": "NEUTRAL",
+    "summary": "CB 相關公告: 公告本公司背書保證餘額符合\r\n「公開發行公司背書保證處理準則」\r\n第二十五條第一項第二款",
+    "parser": "rule_v2",
+    "parsed_at": "2026-11-11T17:26:20"
+  },
+  {
+    "date": "2026-11-10",
+    "time": "173701",
+    "stock_code": "2646",
+    "company_name": "星宇航空",
+    "event_title": "公告本公司115年現金增資認股基準日等相關事宜",
+    "event_type": "CB_ISSUANCE",
+    "stage": "BOARD_RESOLUTION",
+    "wiki_details": {
+      "board_date": "115/05/12",
+      "effective_date": "115/08/18",
+      "issue_date": "115/05/12"
+    },
+    "sentiment": "NEUTRAL",
+    "summary": "董事會/股東會決議: 公告本公司115年現金增資認股基準日等相關事宜",
+    "parser": "rule_v2",
+    "parsed_at": "2026-11-11T17:26:20"
+  },
+  {
+    "date": "2026-11-10",
+    "time": "165318",
+    "stock_code": "3288",
+    "company_name": "點晶",
+    "event_title": "115年10月銀行融資額度與使用情形暨未來三個月\r\n現金收支預估情形",
+    "event_type": "OTHER",
+    "stage": "N/A",
+    "wiki_details": {},
+    "sentiment": "NEUTRAL",
+    "summary": "CB 相關公告: 115年10月銀行融資額度與使用情形暨未來三個月\r\n現金收支預估情形",
+    "parser": "rule_v2",
+    "parsed_at": "2026-11-11T17:26:20"
+  },
+  {
+    "date": "2026-11-10",
+    "time": "151852",
+    "stock_code": "3339",
+    "company_name": "泰谷",
+    "event_title": "公告本公司國內第五次有擔保轉換公司債收足應募價款",
+    "event_type": "CB_ISSUANCE",
+    "stage": "FILING",
+    "wiki_details": {},
+    "sentiment": "NEUTRAL",
+    "summary": "送件/申報: 公告本公司國內第五次有擔保轉換公司債收足應募價款",
+    "parser": "rule_v2",
+    "parsed_at": "2026-11-11T17:26:20"
+  },
+  {
+    "date": "2026-11-10",
+    "time": "153459",
+    "stock_code": "3702",
+    "company_name": "大聯大",
+    "event_title": "公告本公司決議買回並註銷國內第四次無擔保轉換公司債",
+    "event_type": "OTHER",
+    "stage": "N/A",
+    "wiki_details": {},
+    "sentiment": "NEUTRAL",
+    "summary": "CB 相關公告: 公告本公司決議買回並註銷國內第四次無擔保轉換公司債",
+    "parser": "rule_v2",
+    "parsed_at": "2026-11-11T17:26:20"
+  },
+  {
+    "date": "2026-11-10",
+    "time": "154936",
+    "stock_code": "4722",
+    "company_name": "國精化",
+    "event_title": "公告本公司董事會決議員工認股權憑證及國內第三次無擔保\r\n轉換公司債轉換普通股之增資基準日",
+    "event_type": "CB_ISSUANCE",
+    "stage": "BOARD_RESOLUTION",
+    "wiki_details": {
+      "board_date": "115/11/10"
+    },
+    "sentiment": "NEUTRAL",
+    "summary": "董事會/股東會決議: 公告本公司董事會決議員工認股權憑證及國內第三次無擔保\r\n轉換公司債轉換普通股之增資基準日",
+    "parser": "rule_v2",
+    "parsed_at": "2026-11-11T17:26:20"
+  },
+  {
+    "date": "2026-11-10",
+    "time": "141319",
+    "stock_code": "4931",
+    "company_name": "新盛力",
+    "event_title": "公告本公司董事會訂定國內第一次\r\n無擔保轉換公司債轉換發行新股之增資基準日",
+    "event_type": "CB_ISSUANCE",
+    "stage": "BOARD_RESOLUTION",
+    "wiki_details": {
+      "board_date": "115/11/10"
+    },
+    "sentiment": "NEUTRAL",
+    "summary": "董事會/股東會決議: 公告本公司董事會訂定國內第一次\r\n無擔保轉換公司債轉換發行新股之增資基準日",
+    "parser": "rule_v2",
+    "parsed_at": "2026-11-11T17:26:20"
+  },
+  {
+    "date": "2026-11-10",
+    "time": "150757",
+    "stock_code": "4958",
+    "company_name": "臻鼎-KY",
+    "event_title": "本公司受邀參加Morgan Stanley舉辦之25th Annual Asia Pacific論壇",
+    "event_type": "OTHER",
+    "stage": "N/A",
+    "wiki_details": {},
+    "sentiment": "NEUTRAL",
+    "summary": "CB 相關公告: 本公司受邀參加Morgan Stanley舉辦之25th Annual Asia Pacific論壇",
+    "parser": "rule_v2",
+    "parsed_at": "2026-11-11T17:26:20"
+  },
+  {
+    "date": "2026-11-10",
+    "time": "134036",
+    "stock_code": "5309",
+    "company_name": "系統電",
+    "event_title": "公告本公司國內第五次無擔保轉換公司債轉換普通股增資基準日",
+    "event_type": "CB_ISSUANCE",
+    "stage": "BOARD_RESOLUTION",
+    "wiki_details": {
+      "board_date": "115/11/10"
+    },
+    "sentiment": "NEUTRAL",
+    "summary": "董事會/股東會決議: 公告本公司國內第五次無擔保轉換公司債轉換普通股增資基準日",
+    "parser": "rule_v2",
+    "parsed_at": "2026-11-11T17:26:20"
+  },
+  {
+    "date": "2026-11-10",
+    "time": "165526",
+    "stock_code": "6015",
+    "company_name": "宏遠證",
+    "event_title": "公告本公司國內第二次無擔保轉換公司債轉換普通股\r\n之增資基準日",
+    "event_type": "CB_ISSUANCE",
+    "stage": "BOARD_RESOLUTION",
+    "wiki_details": {
+      "board_date": "115/11/10"
+    },
+    "sentiment": "NEUTRAL",
+    "summary": "董事會/股東會決議: 公告本公司國內第二次無擔保轉換公司債轉換普通股\r\n之增資基準日",
+    "parser": "rule_v2",
+    "parsed_at": "2026-11-11T17:26:20"
+  },
+  {
+    "date": "2026-11-10",
+    "time": "145735",
+    "stock_code": "6197",
+    "company_name": "佳必琪",
+    "event_title": "本公司可轉換公司債佳必琪三(代號：61973)達公布\r\n注意交易資訊標準，故公告相關訊息，以利投資人區別瞭解。",
+    "event_type": "OTHER",
+    "stage": "N/A",
+    "wiki_details": {},
+    "sentiment": "NEUTRAL",
+    "summary": "CB 相關公告: 本公司可轉換公司債佳必琪三(代號：61973)達公布\r\n注意交易資訊標準，故公告相關訊息，以利投資人區別瞭解。",
+    "parser": "rule_v2",
+    "parsed_at": "2026-11-11T17:26:20"
+  },
+  {
+    "date": "2026-11-10",
+    "time": "182746",
+    "stock_code": "6222",
+    "company_name": "立軒",
+    "event_title": "公告本公司董事會決議召開115年第四次股東臨時會事宜",
+    "event_type": "PRIVATE_CB_ISSUANCE",
+    "stage": "BOARD_RESOLUTION",
+    "wiki_details": {
+      "board_date": "115/11/10"
+    },
+    "sentiment": "NEUTRAL",
+    "summary": "董事會/股東會決議: 公告本公司董事會決議召開115年第四次股東臨時會事宜",
+    "parser": "rule_v2",
+    "parsed_at": "2026-11-11T17:26:20"
+  },
+  {
+    "date": "2026-11-10",
+    "time": "225906",
+    "stock_code": "6271",
+    "company_name": "同欣電",
+    "event_title": "本公司與新加坡Global Testing Corporation Limited\r\n聯合公告聲明",
+    "event_type": "OTHER",
+    "stage": "N/A",
+    "wiki_details": {},
+    "sentiment": "NEUTRAL",
+    "summary": "CB 相關公告: 本公司與新加坡Global Testing Corporation Limited\r\n聯合公告聲明",
+    "parser": "rule_v2",
+    "parsed_at": "2026-11-11T17:26:20"
+  },
+  {
+    "date": "2026-11-10",
+    "time": "180007",
+    "stock_code": "6290",
+    "company_name": "良維",
+    "event_title": "公告本公司董事會決議發行\r\n國內第十一次無擔保轉換公司債",
+    "event_type": "CB_ISSUANCE",
+    "stage": "BOARD_RESOLUTION",
+    "wiki_details": {
+      "board_date": "115/11/10"
+    },
+    "sentiment": "NEUTRAL",
+    "summary": "董事會/股東會決議: 公告本公司董事會決議發行\r\n國內第十一次無擔保轉換公司債",
+    "parser": "rule_v2",
+    "parsed_at": "2026-11-11T17:26:20"
+  },
+  {
+    "date": "2026-11-10",
+    "time": "171300",
+    "stock_code": "6477",
+    "company_name": "安集",
+    "event_title": "公告本公司國內第三次無擔保轉換公司債\r\n115年第3季轉換普通股發行新股之增資基準日",
+    "event_type": "CB_ISSUANCE",
+    "stage": "BOARD_RESOLUTION",
+    "wiki_details": {
+      "board_date": "115/11/10"
+    },
+    "sentiment": "NEUTRAL",
+    "summary": "董事會/股東會決議: 公告本公司國內第三次無擔保轉換公司債\r\n115年第3季轉換普通股發行新股之增資基準日",
+    "parser": "rule_v2",
+    "parsed_at": "2026-11-11T17:26:20"
+  },
+  {
+    "date": "2026-11-10",
+    "time": "175005",
+    "stock_code": "6574",
+    "company_name": "霈方",
+    "event_title": "公告本公司董事會通過重要決議",
+    "event_type": "CB_ISSUANCE",
+    "stage": "BOARD_RESOLUTION",
+    "wiki_details": {},
+    "sentiment": "NEUTRAL",
+    "summary": "董事會/股東會決議: 公告本公司董事會通過重要決議",
+    "parser": "rule_v2",
+    "parsed_at": "2026-11-11T17:26:20"
+  },
+  {
+    "date": "2026-11-10",
+    "time": "175156",
+    "stock_code": "6574",
+    "company_name": "霈方",
+    "event_title": "本公司董事會決議發行國內第一次及第二次無擔保轉換公司\r\n債",
+    "event_type": "CB_ISSUANCE",
+    "stage": "BOARD_RESOLUTION",
+    "wiki_details": {
+      "board_date": "115/11/10"
+    },
+    "sentiment": "NEUTRAL",
+    "summary": "董事會/股東會決議: 本公司董事會決議發行國內第一次及第二次無擔保轉換公司\r\n債",
+    "parser": "rule_v2",
+    "parsed_at": "2026-11-11T17:26:20"
+  },
+  {
+    "date": "2026-11-10",
+    "time": "162453",
+    "stock_code": "6840",
+    "company_name": "東研信超",
+    "event_title": "公告本公司國內第一次無擔保轉換公司債轉換普通股之增資基準日",
+    "event_type": "CB_ISSUANCE",
+    "stage": "BOARD_RESOLUTION",
+    "wiki_details": {
+      "board_date": "115/11/10"
+    },
+    "sentiment": "NEUTRAL",
+    "summary": "董事會/股東會決議: 公告本公司國內第一次無擔保轉換公司債轉換普通股之增資基準日",
+    "parser": "rule_v2",
+    "parsed_at": "2026-11-11T17:26:20"
+  },
+  {
+    "date": "2026-11-10",
+    "time": "143033",
+    "stock_code": "6914",
+    "company_name": "阜爾運通",
+    "event_title": "公告本公司董事會決議發行國內第一次無擔保轉換公司債",
+    "event_type": "CB_ISSUANCE",
+    "stage": "BOARD_RESOLUTION",
+    "wiki_details": {
+      "board_date": "115/11/10"
+    },
+    "sentiment": "NEUTRAL",
+    "summary": "董事會/股東會決議: 公告本公司董事會決議發行國內第一次無擔保轉換公司債",
+    "parser": "rule_v2",
+    "parsed_at": "2026-11-11T17:26:20"
+  },
+  {
+    "date": "2026-11-10",
+    "time": "170852",
+    "stock_code": "7556",
+    "company_name": "意德士科技",
+    "event_title": "公告本公司國內第一次及第二次無擔保轉換公司債115年第3季\r\n轉換普通股之增資基準日",
+    "event_type": "CB_ISSUANCE",
+    "stage": "BOARD_RESOLUTION",
+    "wiki_details": {
+      "board_date": "115/11/10"
+    },
+    "sentiment": "NEUTRAL",
+    "summary": "董事會/股東會決議: 公告本公司國內第一次及第二次無擔保轉換公司債115年第3季\r\n轉換普通股之增資基準日",
+    "parser": "rule_v2",
+    "parsed_at": "2026-11-11T17:26:20"
+  },
+  {
+    "date": "2026-11-10",
+    "time": "174053",
+    "stock_code": "7610",
+    "company_name": "聯友金屬-創",
+    "event_title": "本公司國內第一次無擔保可轉換公司債轉換普通股之增\r\n資基準日",
+    "event_type": "CB_ISSUANCE",
+    "stage": "BOARD_RESOLUTION",
+    "wiki_details": {
+      "board_date": "115/11/10"
+    },
+    "sentiment": "NEUTRAL",
+    "summary": "董事會/股東會決議: 本公司國內第一次無擔保可轉換公司債轉換普通股之增\r\n資基準日",
+    "parser": "rule_v2",
+    "parsed_at": "2026-11-11T17:26:20"
+  },
+  {
+    "date": "2026-11-10",
+    "time": "180429",
+    "stock_code": "8028",
+    "company_name": "昇陽半導體",
+    "event_title": "公告本公司董事會決議發行國內第三次及第四次無擔保轉換公司債",
+    "event_type": "CB_ISSUANCE",
+    "stage": "BOARD_RESOLUTION",
+    "wiki_details": {
+      "board_date": "115/11/10"
+    },
+    "sentiment": "NEUTRAL",
+    "summary": "董事會/股東會決議: 公告本公司董事會決議發行國內第三次及第四次無擔保轉換公司債",
+    "parser": "rule_v2",
+    "parsed_at": "2026-11-11T17:26:20"
+  },
+  {
+    "date": "2026-11-10",
+    "time": "133524",
+    "stock_code": "9958",
+    "company_name": "世紀鋼",
+    "event_title": "公告本公司國內第九次無擔保轉換公司債收足應募價款",
+    "event_type": "CB_ISSUANCE",
+    "stage": "BOARD_RESOLUTION",
+    "wiki_details": {},
+    "sentiment": "NEUTRAL",
+    "summary": "董事會/股東會決議: 公告本公司國內第九次無擔保轉換公司債收足應募價款",
+    "parser": "rule_v2",
+    "parsed_at": "2026-11-11T17:26:20"
+  },
+  {
     "date": "2026-02-12",
     "time": "140510",
     "stock_code": "3260",
