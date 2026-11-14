@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-11T17:37:49",
+  "generated_at": "2026-11-14T17:10:55",
   "database": "D:\\bond\\backend\\data\\cb_event_master.sqlite",
   "required_stages": [
     "BOARD_RESOLUTION",
@@ -16,20 +16,20 @@
     "CBAS_ACTUAL"
   ],
   "summary": {
-    "issues": 670,
-    "events": 3923,
-    "issues_with_missing_stages": 670
+    "issues": 671,
+    "events": 3931,
+    "issues_with_missing_stages": 671
   },
   "stage_summary": {
     "BOARD_RESOLUTION": {
-      "observed_events": 193,
+      "observed_events": 197,
       "inferred_events": 510,
-      "issues_with_stage": 592
+      "issues_with_stage": 594
     },
     "FILING": {
-      "observed_events": 23,
+      "observed_events": 25,
       "inferred_events": 0,
-      "issues_with_stage": 18
+      "issues_with_stage": 20
     },
     "EFFECTIVE": {
       "observed_events": 13,
@@ -72,7 +72,7 @@
       "issues_with_stage": 0
     },
     "LISTING": {
-      "observed_events": 563,
+      "observed_events": 564,
       "inferred_events": 0,
       "issues_with_stage": 558
     },
@@ -2709,7 +2709,7 @@
         "UNDERWRITING_NOTICE",
         "CBAS_ACTUAL"
       ],
-      "event_count": 7
+      "event_count": 8
     },
     {
       "issue_id": "issue_5576a73c0f7dbd3342a4",
@@ -5461,6 +5461,7 @@
       "short_name": "宜特六",
       "company_name": "宜特科技股份有限公司",
       "observed_stages": [
+        "FILING",
         "LISTING",
         "PAYMENT_BANK",
         "PRICING"
@@ -5473,7 +5474,6 @@
         "T_PLUS_19_EXIT_PROXY"
       ],
       "missing_stages": [
-        "FILING",
         "AUCTION_BID_START",
         "AUCTION_BID_END",
         "BOOKBUILDING_START",
@@ -5482,7 +5482,7 @@
         "UNDERWRITING_NOTICE",
         "CBAS_ACTUAL"
       ],
-      "event_count": 8
+      "event_count": 9
     },
     {
       "issue_id": "issue_3bc187785d1179c7f9ec",
@@ -6180,6 +6180,31 @@
         "CBAS_ACTUAL"
       ],
       "event_count": 7
+    },
+    {
+      "issue_id": "issue_b72b98556332dd1d502b",
+      "stock_code": "3374",
+      "cb_code": null,
+      "short_name": null,
+      "company_name": "精材",
+      "observed_stages": [
+        "BOARD_RESOLUTION"
+      ],
+      "inferred_stages": [],
+      "missing_stages": [
+        "FILING",
+        "EFFECTIVE",
+        "PRICING",
+        "AUCTION_BID_START",
+        "AUCTION_BID_END",
+        "BOOKBUILDING_START",
+        "BOOKBUILDING_END",
+        "BOOKBUILDING_RESULT",
+        "UNDERWRITING_NOTICE",
+        "LISTING",
+        "CBAS_ACTUAL"
+      ],
+      "event_count": 1
     },
     {
       "issue_id": "issue_d3b7137a449fbe7e3899",
@@ -8868,6 +8893,7 @@
       "observed_stages": [
         "BOARD_RESOLUTION",
         "LISTING",
+        "PAYMENT_BANK",
         "PRICING"
       ],
       "inferred_stages": [
@@ -8887,7 +8913,7 @@
         "UNDERWRITING_NOTICE",
         "CBAS_ACTUAL"
       ],
-      "event_count": 8
+      "event_count": 9
     },
     {
       "issue_id": "issue_b6b568ee7c402d0fd290",
@@ -9690,6 +9716,7 @@
       "company_name": "事欣科",
       "observed_stages": [
         "BOARD_RESOLUTION",
+        "FILING",
         "FINAL_PRICING",
         "LISTING",
         "PAYMENT_BANK",
@@ -9703,7 +9730,6 @@
         "T_PLUS_19_EXIT_PROXY"
       ],
       "missing_stages": [
-        "FILING",
         "AUCTION_BID_START",
         "AUCTION_BID_END",
         "BOOKBUILDING_START",
@@ -9712,7 +9738,7 @@
         "UNDERWRITING_NOTICE",
         "CBAS_ACTUAL"
       ],
-      "event_count": 10
+      "event_count": 11
     },
     {
       "issue_id": "issue_6d4203148172a5d583f6",
@@ -12063,7 +12089,7 @@
         "UNDERWRITING_NOTICE",
         "CBAS_ACTUAL"
       ],
-      "event_count": 9
+      "event_count": 10
     },
     {
       "issue_id": "issue_1887eb7ea7eba3626351",
@@ -14277,16 +14303,16 @@
       "stock_code": "6576",
       "cb_code": null,
       "short_name": null,
-      "company_name": "逸達生物",
+      "company_name": "逸達",
       "observed_stages": [
         "AUCTION_BID_END",
-        "AUCTION_BID_START"
+        "AUCTION_BID_START",
+        "BOARD_RESOLUTION"
       ],
       "inferred_stages": [
         "AUCTION_RESULT_ESTIMATED"
       ],
       "missing_stages": [
-        "BOARD_RESOLUTION",
         "FILING",
         "EFFECTIVE",
         "PRICING",
@@ -14297,7 +14323,7 @@
         "LISTING",
         "CBAS_ACTUAL"
       ],
-      "event_count": 3
+      "event_count": 4
     },
     {
       "issue_id": "issue_87af9d99b88c7043bb3d",
@@ -18004,7 +18030,7 @@
         "LISTING",
         "CBAS_ACTUAL"
       ],
-      "event_count": 1
+      "event_count": 2
     },
     {
       "issue_id": "issue_b9b01aa26da83574fee9",

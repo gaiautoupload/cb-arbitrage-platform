@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-11T17:37:47",
+  "generated_at": "2026-11-14T17:10:55",
   "source_files": {
     "mops_wiki_db": "mops_wiki_db.json",
     "parsed_bonds": "parsed_bonds.json",
@@ -12,21 +12,21 @@
     "Generated linked BOARD_RESOLUTION/EFFECTIVE dates are retained only as low-confidence proxy events."
   ],
   "summary": {
-    "total_events": 3803,
-    "actual_or_observed_events": 1548,
+    "total_events": 3811,
+    "actual_or_observed_events": 1556,
     "inferred_events": 2255,
     "by_stage": {
-      "BOARD_RESOLUTION": 657,
-      "FILING": 23,
+      "BOARD_RESOLUTION": 661,
+      "FILING": 25,
       "EFFECTIVE": 562,
       "PRICING": 556,
       "FINAL_PRICING": 5,
-      "PAYMENT_BANK": 65,
+      "PAYMENT_BANK": 66,
       "AUCTION_BID_START": 74,
       "AUCTION_BID_END": 74,
       "AUCTION_RESULT_ESTIMATED": 74,
       "BOOKBUILDING_RESULT": 1,
-      "LISTING": 563,
+      "LISTING": 564,
       "CBAS_PROXY_START": 383,
       "CBAS_PROXY_END": 383,
       "T_PLUS_19_EXIT_PROXY": 383
@@ -6263,6 +6263,20 @@
       "confidence": 0.3,
       "is_inferred": true,
       "based_on": "2026-11-09"
+    },
+    {
+      "stock_code": "2455",
+      "company_name": "全新",
+      "short_name": "",
+      "stage": "LISTING",
+      "date": "2026-11-13",
+      "source": "mops_wiki_db",
+      "confidence": 0.85,
+      "is_inferred": false,
+      "title": "本公司國內第二次無擔保轉換公司債行使債券贖回權，申請\r\n轉換為普通股最後期限為115年11月19日，為確保本債券持有人\r\n權益，特此催告。",
+      "summary": "掛牌/發行: 本公司國內第二次無擔保轉換公司債行使債券贖回權，申請\r\n轉換為普通股最後期限為115年11月19日，為確保本債券持有人\r\n權益，特此催告。",
+      "event_type": "CB_ISSUANCE",
+      "published_at": "2026-11-13T150224"
     },
     {
       "stock_code": "2455",
@@ -13057,6 +13071,20 @@
     },
     {
       "stock_code": "3289",
+      "company_name": "宜特",
+      "short_name": "宜特六",
+      "stage": "FILING",
+      "date": "2026-11-13",
+      "source": "mops_wiki_db",
+      "confidence": 0.85,
+      "is_inferred": false,
+      "title": "公告本公司國內第六次無擔保轉換公司債收足應募價款",
+      "summary": "送件/申報: 公告本公司國內第六次無擔保轉換公司債收足應募價款",
+      "event_type": "CB_ISSUANCE",
+      "published_at": "2026-11-13T153444"
+    },
+    {
+      "stock_code": "3289",
       "company_name": "宜特科技股份有限公司",
       "short_name": "宜特六",
       "stage": "LISTING",
@@ -14841,6 +14869,20 @@
       "confidence": 0.3,
       "is_inferred": true,
       "based_on": "2024-07-16"
+    },
+    {
+      "stock_code": "3374",
+      "company_name": "精材",
+      "short_name": "",
+      "stage": "BOARD_RESOLUTION",
+      "date": "2026-11-13",
+      "source": "mops_wiki_db",
+      "confidence": 0.85,
+      "is_inferred": false,
+      "title": "公告董事會決議通過與客戶簽訂產能外包協議",
+      "summary": "董事會/股東會決議: 公告董事會決議通過與客戶簽訂產能外包協議",
+      "event_type": "CB_ISSUANCE",
+      "published_at": "2026-11-13T165037"
     },
     {
       "stock_code": "3376",
@@ -21567,6 +21609,20 @@
       "published_at": "2026-08-07T174001"
     },
     {
+      "stock_code": "4540",
+      "company_name": "全球傳動",
+      "short_name": "全球傳動一",
+      "stage": "PAYMENT_BANK",
+      "date": "2026-11-13",
+      "source": "mops_wiki_db",
+      "confidence": 0.85,
+      "is_inferred": false,
+      "title": "公告本公司發行國內第三次有擔保轉換公司債代收價款行\r\n庫及存儲專戶行庫",
+      "summary": "代收價款/專戶: 公告本公司發行國內第三次有擔保轉換公司債代收價款行\r\n庫及存儲專戶行庫",
+      "event_type": "CB_ISSUANCE",
+      "published_at": "2026-11-13T173554"
+    },
+    {
       "stock_code": "4541",
       "company_name": "晟田科技工業股份有限公司",
       "short_name": "晟田五",
@@ -23766,6 +23822,20 @@
       "is_inferred": false,
       "title": "事欣科六 announcement/pricing date",
       "cb_code": "49166"
+    },
+    {
+      "stock_code": "4916",
+      "company_name": "事欣科",
+      "short_name": "事欣科三",
+      "stage": "FILING",
+      "date": "2026-11-13",
+      "source": "mops_wiki_db",
+      "confidence": 0.85,
+      "is_inferred": false,
+      "title": "公告本公司發行國內第六次無擔保轉換公司債收足應募價款",
+      "summary": "送件/申報: 公告本公司發行國內第六次無擔保轉換公司債收足應募價款",
+      "event_type": "CB_ISSUANCE",
+      "published_at": "2026-11-13T163702"
     },
     {
       "stock_code": "4916",
@@ -29567,6 +29637,20 @@
       "published_at": "2026-08-14T180409"
     },
     {
+      "stock_code": "6182",
+      "company_name": "合晶",
+      "short_name": "合晶七",
+      "stage": "BOARD_RESOLUTION",
+      "date": "2026-11-13",
+      "source": "mops_wiki_db",
+      "confidence": 0.85,
+      "is_inferred": false,
+      "title": "公告本公司國內第七次及第八次無擔保轉換公司債轉換普通\r\n股之增資基準日",
+      "summary": "董事會/股東會決議: 公告本公司國內第七次及第八次無擔保轉換公司債轉換普通\r\n股之增資基準日",
+      "event_type": "CB_ISSUANCE",
+      "published_at": "2026-11-13T172639"
+    },
+    {
       "stock_code": "6184",
       "company_name": "大豐有線電視股份有限公司",
       "short_name": "大豐電三",
@@ -34977,6 +35061,20 @@
       "confidence": 0.35,
       "is_inferred": true,
       "serial": "115018"
+    },
+    {
+      "stock_code": "6576",
+      "company_name": "逸達",
+      "short_name": "",
+      "stage": "BOARD_RESOLUTION",
+      "date": "2026-11-13",
+      "source": "mops_wiki_db",
+      "confidence": 0.85,
+      "is_inferred": false,
+      "title": "公告本公司董事會決議增列 民國115年第一次股東臨時會召集事由",
+      "summary": "董事會/股東會決議: 公告本公司董事會決議增列 民國115年第一次股東臨時會召集事由",
+      "event_type": "PRIVATE_CB_ISSUANCE",
+      "published_at": "2026-11-13T180328"
     },
     {
       "stock_code": "6578",
@@ -43357,6 +43455,20 @@
       "event_type": "CB_ISSUANCE",
       "published_at": "2026-06-18T142031",
       "source_ref": "t187ap04_L.json"
+    },
+    {
+      "stock_code": "8476",
+      "company_name": "台境*",
+      "short_name": "",
+      "stage": "BOARD_RESOLUTION",
+      "date": "2026-11-13",
+      "source": "mops_wiki_db",
+      "confidence": 0.85,
+      "is_inferred": false,
+      "title": "公告本公司國內第二次無擔保轉換公司債轉換普通股之\r\n發行新股增資基準日",
+      "summary": "董事會/股東會決議: 公告本公司國內第二次無擔保轉換公司債轉換普通股之\r\n發行新股增資基準日",
+      "event_type": "CB_ISSUANCE",
+      "published_at": "2026-11-13T170842"
     },
     {
       "stock_code": "8478",
