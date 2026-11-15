@@ -25,7 +25,7 @@
       },
       {
         "name": "每日資料追蹤",
-        "date": "2026-11-14",
+        "date": "2026-11-15",
         "status": "active",
         "description": "追蹤董事會、申報送件、訂價、競拍或詢圈、承銷、掛牌及 CBAS 拆解時程。"
       }
@@ -211,6 +211,12 @@
     },
     "latest_news": [
       {
+        "title": "聯電(2303) 今日股價與討論 - 股市爆料同學會 - CMoney",
+        "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE96aW81YUJ2YzVINnlkSFlHQjdQN2NSbE5yRFZqelZoX2ZkcGEzdDB2ZW9oanlVbGhfM2c3Zms3UWFIT0w3M04zdzRENTVsdjQ?oc=5",
+        "source": "CMoney",
+        "published_at": "2026-11-12T16:00:00+08:00"
+      },
+      {
         "title": "聯電（2303）二度籌資！570億海外發債是利多還是警訊？｜股市話題｜豐雲學堂 2026 年 11 月 - 永豐金證券",
         "url": "https://news.google.com/rss/articles/CBMilANBVV95cUxNNjV2c3QzMURleDFFd1BET1hyWWdxM0JiaXM1S1BCQ0VfOU9ZZzlrakFxMFVzUWQtTkFlWE96cWVSaXRaN1RXdFp2TWxFNjhYdURBMV9RSUhNSkNXVmNnejdIT2I3MDhVV2J2NExSZDRWblNINWtQbWdSS0FXQWs0NjNlTmpjUm9WWG9fSVNUS1h6bzhsX1RXLVJGQURTWDFJNzZ5SmZsMDFYeUdvNzhaN1lzbXNndTd4dXZOc3JxM1hoUGFHcTZ2NlhIOHFwVXhEMHRfV1pzdV9sejdDWFJjVDdKWDRLRkU5cnZuUHFuTmpnQjRPVE5qcENqNlhraENZNXpyNlAtZDJTdmg0bDQ1YTBPcW14VFBrVmxYTHh0djVQM2dGTWhJbUdwVDdQWU1hLWxmMk5lS0k0Tk9hMHB0RW4tbWRQVGpMRHB0eThuMmNCMHRVa3I2Rnc3RHdiaFdqNDlyLXlZMW9hNEtvZWdjTmdLVUZ0WWZ3RHhKdWZVSmxOWWVTOVVfSm5mOFFmTjZPT1dTag?oc=5",
         "source": "永豐金證券",
@@ -221,12 +227,6 @@
         "url": "https://news.google.com/rss/articles/CBMivwNBVV95cUxNelhzS2VENlNXQ0RWQ003MGgxMVBhQ0hlWXhoM1ZlbGwyMS1odmZrMVY4Q1pUUHlxdFBPR2lIa2RyZnFDdHhfRkVmc0I1d2FBcWN0QjhqTHdhZ2F2ZE5YcE1rZkQtUktjd0RPaENHUTVuSXh3ZFh5VnRqa1FiTG1fYnVqZG9XMnFEWGctbmRzZjdEaUZaaFNWUmFTMzhaY3RiakhPbU5VZ1VQRE53UWFlZHdBazJxeDBueFBuMVc2RThIVmt3LVhPMmRYVkRtMS1BN2xzOU5KT1dfR2x1d1M2aWk1MnNKcm9KTkpYclFJc1BGRS1EbWJOb0xrbVdNRnIwZ3MwalkyNzRWR2FKUWlaTXA0clRlU2NiT2dSWnI2WjJhZ1BDdWdYeE9za3NhMzhHZGtHenRrUk9lRi1keVhTZ0hfdDVsdXV5UzNoVE9aTkxvZXlTSUlnUkRhSWVUeDh1WVdpVm1TZG5YWWZITG1PeHlObFVXYXlkT0dud193UktLNThZQTBOREVJTGxUZnFhOVg3d2RwYVlKVnNrenJ0aE1zRFd0TTRoT0lRM1N6ZnJEMklsMWZ0Qk1ZbGx0bHM?oc=5",
         "source": "永豐金證券",
         "published_at": "2026-07-20T15:47:36+08:00"
-      },
-      {
-        "title": "聯電(2303)跌停原因？逾6萬張搶賣、股價144元可以買？利多利空有哪些，最新目標價：上檔還有8成甜頭 - 今周刊",
-        "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQQ3IwdEZZdVEtZldVaVFXcWdLWVhNSFNtRUFJcHFZX2hsYjB5enMzRFFFS3Rnc1BYZTZSQXdXd3E5cmJwTnBxNERreU9UZmZLQzdUbHBVS0hwblhsSVdYWEZvLXlheWVlTWlxd19IeE1MZ0RpQTJ3aHd2RTRValRaMA?oc=5",
-        "source": "今周刊",
-        "published_at": "2026-07-17T15:00:00+08:00"
       }
     ],
     "operation_signals": {
@@ -322,7 +322,7 @@
       },
       {
         "name": "每日資料追蹤",
-        "date": "2026-11-14",
+        "date": "2026-11-15",
         "status": "active",
         "description": "追蹤董事會、申報送件、訂價、競拍或詢圈、承銷、掛牌及 CBAS 拆解時程。"
       }
@@ -348,16 +348,16 @@
         "published_at": "2026-10-05T15:00:00+08:00"
       },
       {
+        "title": "雍智科技Q3營收估回升 下半年看成長 - Yahoo股市",
+        "url": "https://news.google.com/rss/articles/CBMikwJBVV95cUxNRGdmRndmaC10SjZyZ1VCRm5MMHMwQ3FSM0h5QUVCYTlyTGVqbjc2c1hMZmpaS2R1YUVVV05DQmpxbS1NQnE0X2trNVdPV2ZKdVRoQ0toSDNtZkwzUDVvTFFZLWhwcFo3RU4yTE5MbVllbW9uV0s4MDlJSFBYUmNhcDJRZzJPY0MxcGpNUDNPeXRhcVdZTU94dm9JOUNUaEFHRTY4UlphU0lVTE9DdHVjbm1EOV8tQkJCQXp3MTdJaURNejQ3T0hROUg5cTVrMXRkeTVGY21VZDRmUEwzUVdDYmxDWXVvMG03TUlfYktmeGlfQjczd3NUc19CczRLT1N2SVpKODI3MXhTWVd0aUNmbmJVSQ?oc=5",
+        "source": "Yahoo股市",
+        "published_at": "2026-07-17T15:00:00+08:00"
+      },
+      {
         "title": "雍智科技等6/29起打入處置 聯發科、信驊等67檔列注意股 - 自由財經",
         "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE52WjRBN3J1S1F6ZUphXy1VeWJVeW5QSGFsMzV6R2hybVpSZWVNb05vVExGd19vRVl0VW9rT0ZRQ19wWG9FRjZXUzQzaUlTTlZQWk04d2E1SFlTcmxpZ2pV0gFkQVVfeXFMUEN4dmIzVEhKNDRIMFp1TjFDN1RKVk1rVlhzYnZYVGtSTmV0RDZUQmxHZEFWaHZXUnZyWUZMZjNyWk9yYTViVUVla245NnAzT1V5dzJMUHp4YXNVM0FGTXRxMTVvYw?oc=5",
         "source": "自由財經",
         "published_at": "2026-06-26T19:08:43+08:00"
-      },
-      {
-        "title": "雍智科技Q2穩步走；下半年關注ASIC新案進度 - Yahoo股市",
-        "url": "https://news.google.com/rss/articles/CBMipAJBVV95cUxOOFVod1BrQVZRNFhGa3YxYTdXamZadTFKbUhYWGp2UEtpaU9IYWk3MDRTR0lqZ2lHYmFBajdxQWdhMXZEbmNOVm9rekd5dXBJSlRmc1M1VDIwVWViQUdzdk5GVndwak9LOHh0bDd2SUpPVGlPZlFWUFVqWnFxaDBUYjlTdVlXOGltVUJoSm1oQ3FIZzBBTjZGVXlLRVNsbE0ycVhFNzdBSmx1eFo0RTd0UXkwbGNJTEtlNFJFR2dORFJWbF9KZS1zNEhITVMzTUl6YVd5ekpYeldJWVo3ZV9iWTJLdzJQMU5pWGZLNTczWTAwUzZOc29hbXFNZHN1VVNMU2M5NGZvTFdjNFdUMHlNQWQ4Rkd6czY5YkVoMTJ1V3Y0Y210?oc=5",
-        "source": "Yahoo股市",
-        "published_at": "2026-06-15T15:00:00+08:00"
       }
     ],
     "is_focus": true,
