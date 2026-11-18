@@ -922,5 +922,17 @@
     "bidding_shares_thousand": "34,000",
     "bidding_period": "2026/11/11~2026/11/13",
     "min_price": "100.00"
+  },
+  {
+    "serial": "115083",
+    "company_name": "永擎",
+    "full_company_name": "永擎電子股份有限公司",
+    "ticker": "7711",
+    "underwriter": "元大證券股份有限公司",
+    "bond_type": "無擔保轉換公司債",
+    "shares_thousand": "37,000",
+    "bidding_shares_thousand": "32,165",
+    "bidding_period": "2026/11/17~2026/11/19",
+    "min_price": "100.00"
   }
 ]

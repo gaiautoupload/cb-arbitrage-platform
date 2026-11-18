@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-15T17:10:38",
+  "generated_at": "2026-11-18T18:36:31",
   "source_files": {
     "mops_wiki_db": "mops_wiki_db.json",
     "parsed_bonds": "parsed_bonds.json",
@@ -12,21 +12,21 @@
     "Generated linked BOARD_RESOLUTION/EFFECTIVE dates are retained only as low-confidence proxy events."
   ],
   "summary": {
-    "total_events": 3811,
-    "actual_or_observed_events": 1556,
-    "inferred_events": 2255,
+    "total_events": 3818,
+    "actual_or_observed_events": 1560,
+    "inferred_events": 2258,
     "by_stage": {
-      "BOARD_RESOLUTION": 661,
+      "BOARD_RESOLUTION": 662,
       "FILING": 25,
-      "EFFECTIVE": 562,
-      "PRICING": 556,
+      "EFFECTIVE": 563,
+      "PRICING": 557,
       "FINAL_PRICING": 5,
       "PAYMENT_BANK": 66,
-      "AUCTION_BID_START": 74,
-      "AUCTION_BID_END": 74,
-      "AUCTION_RESULT_ESTIMATED": 74,
+      "AUCTION_BID_START": 75,
+      "AUCTION_BID_END": 75,
+      "AUCTION_RESULT_ESTIMATED": 75,
       "BOOKBUILDING_RESULT": 1,
-      "LISTING": 564,
+      "LISTING": 565,
       "CBAS_PROXY_START": 383,
       "CBAS_PROXY_END": 383,
       "T_PLUS_19_EXIT_PROXY": 383
@@ -23535,6 +23535,30 @@
     },
     {
       "stock_code": "4906",
+      "company_name": "正文科技股份有限公司",
+      "short_name": "正文七",
+      "stage": "BOARD_RESOLUTION",
+      "date": "2026-09-04",
+      "source": "linked_bond_stages_proxy",
+      "confidence": 0.25,
+      "is_inferred": true,
+      "title": "董事會決議發行無擔保轉換公司債",
+      "summary": "董事會通過發行可轉債以充實營運資金或償還債務"
+    },
+    {
+      "stock_code": "4906",
+      "company_name": "正文科技股份有限公司",
+      "short_name": "正文七",
+      "stage": "EFFECTIVE",
+      "date": "2026-10-15",
+      "source": "linked_bond_stages_proxy",
+      "confidence": 0.25,
+      "is_inferred": true,
+      "title": "金管會申報生效發行無擔保轉換公司債",
+      "summary": "可轉債申報生效，正式進入定價與發行準備期"
+    },
+    {
+      "stock_code": "4906",
       "company_name": "正文",
       "short_name": "正文六",
       "stage": "PAYMENT_BANK",
@@ -23546,6 +23570,30 @@
       "summary": "代收價款/專戶: 公告本公司國內第七次暨第八次無擔保轉換公司債\r\n代收價款行庫及存儲專戶行庫",
       "event_type": "CB_ISSUANCE",
       "published_at": "2026-11-02T174835"
+    },
+    {
+      "stock_code": "4906",
+      "company_name": "正文科技股份有限公司",
+      "short_name": "正文七",
+      "stage": "PRICING",
+      "date": "2026-11-16",
+      "source": "parsed_bonds",
+      "confidence": 0.65,
+      "is_inferred": false,
+      "title": "正文七 announcement/pricing date",
+      "cb_code": "49067"
+    },
+    {
+      "stock_code": "4906",
+      "company_name": "正文科技股份有限公司",
+      "short_name": "正文七",
+      "stage": "LISTING",
+      "date": "2026-11-19",
+      "source": "parsed_bonds",
+      "confidence": 0.65,
+      "is_inferred": false,
+      "title": "正文七 issue/listing date",
+      "cb_code": "49067"
     },
     {
       "stock_code": "4912",
@@ -39211,6 +39259,45 @@
       "summary": "代收價款/專戶: 公告本公司國內第一次無擔保轉換公司債代收價款行庫及存\r\n儲專戶行庫",
       "event_type": "CB_ISSUANCE",
       "published_at": "2026-11-04T140438"
+    },
+    {
+      "stock_code": "7711",
+      "company_name": "永擎",
+      "short_name": "",
+      "stage": "AUCTION_BID_START",
+      "date": "2026-11-17",
+      "source": "twsa_bids",
+      "confidence": 0.9,
+      "is_inferred": false,
+      "serial": "115083",
+      "underwriter": "元大證券股份有限公司",
+      "min_price": "100.00",
+      "bidding_period": "2026/11/17~2026/11/19"
+    },
+    {
+      "stock_code": "7711",
+      "company_name": "永擎",
+      "short_name": "",
+      "stage": "AUCTION_BID_END",
+      "date": "2026-11-19",
+      "source": "twsa_bids",
+      "confidence": 0.9,
+      "is_inferred": false,
+      "serial": "115083",
+      "underwriter": "元大證券股份有限公司",
+      "min_price": "100.00",
+      "bidding_period": "2026/11/17~2026/11/19"
+    },
+    {
+      "stock_code": "7711",
+      "company_name": "永擎",
+      "short_name": "",
+      "stage": "AUCTION_RESULT_ESTIMATED",
+      "date": "2026-11-20",
+      "source": "calendar_proxy",
+      "confidence": 0.35,
+      "is_inferred": true,
+      "serial": "115083"
     },
     {
       "stock_code": "7713",

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-15T17:10:39",
+  "generated_at": "2026-11-18T18:36:31",
   "database": "D:\\bond\\backend\\data\\cb_event_master.sqlite",
   "required_stages": [
     "BOARD_RESOLUTION",
@@ -16,15 +16,15 @@
     "CBAS_ACTUAL"
   ],
   "summary": {
-    "issues": 671,
-    "events": 3931,
-    "issues_with_missing_stages": 671
+    "issues": 672,
+    "events": 3938,
+    "issues_with_missing_stages": 672
   },
   "stage_summary": {
     "BOARD_RESOLUTION": {
       "observed_events": 197,
-      "inferred_events": 510,
-      "issues_with_stage": 594
+      "inferred_events": 511,
+      "issues_with_stage": 595
     },
     "FILING": {
       "observed_events": 25,
@@ -33,23 +33,23 @@
     },
     "EFFECTIVE": {
       "observed_events": 13,
-      "inferred_events": 553,
-      "issues_with_stage": 555
+      "inferred_events": 554,
+      "issues_with_stage": 556
     },
     "PRICING": {
-      "observed_events": 556,
+      "observed_events": 557,
       "inferred_events": 0,
-      "issues_with_stage": 554
+      "issues_with_stage": 555
     },
     "AUCTION_BID_START": {
-      "observed_events": 89,
-      "inferred_events": 0,
-      "issues_with_stage": 87
-    },
-    "AUCTION_BID_END": {
       "observed_events": 90,
       "inferred_events": 0,
-      "issues_with_stage": 87
+      "issues_with_stage": 88
+    },
+    "AUCTION_BID_END": {
+      "observed_events": 91,
+      "inferred_events": 0,
+      "issues_with_stage": 88
     },
     "BOOKBUILDING_START": {
       "observed_events": 0,
@@ -72,9 +72,9 @@
       "issues_with_stage": 0
     },
     "LISTING": {
-      "observed_events": 564,
+      "observed_events": 565,
       "inferred_events": 0,
-      "issues_with_stage": 558
+      "issues_with_stage": 559
     },
     "CBAS_ACTUAL": {
       "observed_events": 0,
@@ -9680,6 +9680,32 @@
       "event_count": 8
     },
     {
+      "issue_id": "issue_dbb1bfbb89aff01488a5",
+      "stock_code": "4906",
+      "cb_code": "49067",
+      "short_name": "正文七",
+      "company_name": "正文科技股份有限公司",
+      "observed_stages": [
+        "LISTING",
+        "PRICING"
+      ],
+      "inferred_stages": [
+        "BOARD_RESOLUTION",
+        "EFFECTIVE"
+      ],
+      "missing_stages": [
+        "FILING",
+        "AUCTION_BID_START",
+        "AUCTION_BID_END",
+        "BOOKBUILDING_START",
+        "BOOKBUILDING_END",
+        "BOOKBUILDING_RESULT",
+        "UNDERWRITING_NOTICE",
+        "CBAS_ACTUAL"
+      ],
+      "event_count": 4
+    },
+    {
       "issue_id": "issue_060b3601ebec75150eaa",
       "stock_code": "4912",
       "cb_code": "49123",
@@ -16175,16 +16201,18 @@
       "short_name": null,
       "company_name": "永擎",
       "observed_stages": [
+        "AUCTION_BID_END",
+        "AUCTION_BID_START",
         "BOARD_RESOLUTION",
         "PAYMENT_BANK"
       ],
-      "inferred_stages": [],
+      "inferred_stages": [
+        "AUCTION_RESULT_ESTIMATED"
+      ],
       "missing_stages": [
         "FILING",
         "EFFECTIVE",
         "PRICING",
-        "AUCTION_BID_START",
-        "AUCTION_BID_END",
         "BOOKBUILDING_START",
         "BOOKBUILDING_END",
         "BOOKBUILDING_RESULT",
@@ -16192,7 +16220,7 @@
         "LISTING",
         "CBAS_ACTUAL"
       ],
-      "event_count": 2
+      "event_count": 5
     },
     {
       "issue_id": "issue_0da33a098d7e2162681d",

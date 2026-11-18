@@ -8488,5 +8488,20 @@
     "maturity_date_minguo": "120年11月17日",
     "maturity_date": "2031-11-17",
     "issue_amount": "新台幣10億元整"
+  },
+  {
+    "file_id": "11500068501",
+    "company_name": "正文科技股份有限公司",
+    "bond_name": "正文科技股份有限公司國內第七次無擔保轉換公司債",
+    "cb_code": "49067",
+    "stock_code": "4906",
+    "short_name": "正文七",
+    "announcement_date_minguo": "115年11月16日",
+    "announcement_date": "2026-11-16",
+    "issue_date_minguo": "115年11月19日",
+    "issue_date": "2026-11-19",
+    "maturity_date_minguo": "118年11月19日",
+    "maturity_date": "2029-11-19",
+    "issue_amount": "新台幣12億元整"
   }
 ]
