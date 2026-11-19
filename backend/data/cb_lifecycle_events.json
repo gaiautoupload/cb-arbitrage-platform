@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-18T18:36:31",
+  "generated_at": "2026-11-19T18:36:19",
   "source_files": {
     "mops_wiki_db": "mops_wiki_db.json",
     "parsed_bonds": "parsed_bonds.json",
@@ -12,9 +12,9 @@
     "Generated linked BOARD_RESOLUTION/EFFECTIVE dates are retained only as low-confidence proxy events."
   ],
   "summary": {
-    "total_events": 3818,
-    "actual_or_observed_events": 1560,
-    "inferred_events": 2258,
+    "total_events": 3821,
+    "actual_or_observed_events": 1562,
+    "inferred_events": 2259,
     "by_stage": {
       "BOARD_RESOLUTION": 662,
       "FILING": 25,
@@ -22,9 +22,9 @@
       "PRICING": 557,
       "FINAL_PRICING": 5,
       "PAYMENT_BANK": 66,
-      "AUCTION_BID_START": 75,
-      "AUCTION_BID_END": 75,
-      "AUCTION_RESULT_ESTIMATED": 75,
+      "AUCTION_BID_START": 76,
+      "AUCTION_BID_END": 76,
+      "AUCTION_RESULT_ESTIMATED": 76,
       "BOOKBUILDING_RESULT": 1,
       "LISTING": 565,
       "CBAS_PROXY_START": 383,
@@ -21621,6 +21621,45 @@
       "summary": "代收價款/專戶: 公告本公司發行國內第三次有擔保轉換公司債代收價款行\r\n庫及存儲專戶行庫",
       "event_type": "CB_ISSUANCE",
       "published_at": "2026-11-13T173554"
+    },
+    {
+      "stock_code": "4540",
+      "company_name": "全球傳動",
+      "short_name": "全球傳動一",
+      "stage": "AUCTION_BID_START",
+      "date": "2026-11-19",
+      "source": "twsa_bids",
+      "confidence": 0.9,
+      "is_inferred": false,
+      "serial": "115084",
+      "underwriter": "第一金證券股份有限公司",
+      "min_price": "100.50",
+      "bidding_period": "2026/11/19~2026/11/23"
+    },
+    {
+      "stock_code": "4540",
+      "company_name": "全球傳動",
+      "short_name": "全球傳動一",
+      "stage": "AUCTION_BID_END",
+      "date": "2026-11-23",
+      "source": "twsa_bids",
+      "confidence": 0.9,
+      "is_inferred": false,
+      "serial": "115084",
+      "underwriter": "第一金證券股份有限公司",
+      "min_price": "100.50",
+      "bidding_period": "2026/11/19~2026/11/23"
+    },
+    {
+      "stock_code": "4540",
+      "company_name": "全球傳動",
+      "short_name": "全球傳動一",
+      "stage": "AUCTION_RESULT_ESTIMATED",
+      "date": "2026-11-24",
+      "source": "calendar_proxy",
+      "confidence": 0.35,
+      "is_inferred": true,
+      "serial": "115084"
     },
     {
       "stock_code": "4541",

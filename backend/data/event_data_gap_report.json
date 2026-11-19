@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-18T18:36:31",
+  "generated_at": "2026-11-19T18:36:20",
   "database": "D:\\bond\\backend\\data\\cb_event_master.sqlite",
   "required_stages": [
     "BOARD_RESOLUTION",
@@ -17,7 +17,7 @@
   ],
   "summary": {
     "issues": 672,
-    "events": 3938,
+    "events": 3941,
     "issues_with_missing_stages": 672
   },
   "stage_summary": {
@@ -42,14 +42,14 @@
       "issues_with_stage": 555
     },
     "AUCTION_BID_START": {
-      "observed_events": 90,
-      "inferred_events": 0,
-      "issues_with_stage": 88
-    },
-    "AUCTION_BID_END": {
       "observed_events": 91,
       "inferred_events": 0,
-      "issues_with_stage": 88
+      "issues_with_stage": 89
+    },
+    "AUCTION_BID_END": {
+      "observed_events": 92,
+      "inferred_events": 0,
+      "issues_with_stage": 89
     },
     "BOOKBUILDING_START": {
       "observed_events": 0,
@@ -8891,12 +8891,15 @@
       "short_name": "全球傳動一",
       "company_name": "全球傳動",
       "observed_stages": [
+        "AUCTION_BID_END",
+        "AUCTION_BID_START",
         "BOARD_RESOLUTION",
         "LISTING",
         "PAYMENT_BANK",
         "PRICING"
       ],
       "inferred_stages": [
+        "AUCTION_RESULT_ESTIMATED",
         "BOARD_RESOLUTION",
         "CBAS_PROXY_END",
         "CBAS_PROXY_START",
@@ -8905,15 +8908,13 @@
       ],
       "missing_stages": [
         "FILING",
-        "AUCTION_BID_START",
-        "AUCTION_BID_END",
         "BOOKBUILDING_START",
         "BOOKBUILDING_END",
         "BOOKBUILDING_RESULT",
         "UNDERWRITING_NOTICE",
         "CBAS_ACTUAL"
       ],
-      "event_count": 9
+      "event_count": 12
     },
     {
       "issue_id": "issue_b6b568ee7c402d0fd290",
