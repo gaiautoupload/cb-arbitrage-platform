@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-19T18:36:19",
+  "generated_at": "2026-11-20T17:11:20",
   "source_files": {
     "mops_wiki_db": "mops_wiki_db.json",
     "parsed_bonds": "parsed_bonds.json",
@@ -12,24 +12,24 @@
     "Generated linked BOARD_RESOLUTION/EFFECTIVE dates are retained only as low-confidence proxy events."
   ],
   "summary": {
-    "total_events": 3821,
-    "actual_or_observed_events": 1562,
-    "inferred_events": 2259,
+    "total_events": 3831,
+    "actual_or_observed_events": 1566,
+    "inferred_events": 2265,
     "by_stage": {
-      "BOARD_RESOLUTION": 662,
+      "BOARD_RESOLUTION": 663,
       "FILING": 25,
-      "EFFECTIVE": 563,
-      "PRICING": 557,
+      "EFFECTIVE": 565,
+      "PRICING": 559,
       "FINAL_PRICING": 5,
       "PAYMENT_BANK": 66,
       "AUCTION_BID_START": 76,
       "AUCTION_BID_END": 76,
       "AUCTION_RESULT_ESTIMATED": 76,
       "BOOKBUILDING_RESULT": 1,
-      "LISTING": 565,
-      "CBAS_PROXY_START": 383,
-      "CBAS_PROXY_END": 383,
-      "T_PLUS_19_EXIT_PROXY": 383
+      "LISTING": 567,
+      "CBAS_PROXY_START": 384,
+      "CBAS_PROXY_END": 384,
+      "T_PLUS_19_EXIT_PROXY": 384
     }
   },
   "events": [
@@ -1856,8 +1856,32 @@
     },
     {
       "stock_code": "1569",
+      "company_name": "濱川企業股份有限公司",
+      "short_name": "濱川七",
+      "stage": "BOARD_RESOLUTION",
+      "date": "2026-09-11",
+      "source": "linked_bond_stages_proxy",
+      "confidence": 0.25,
+      "is_inferred": true,
+      "title": "董事會決議發行無擔保轉換公司債",
+      "summary": "董事會通過發行可轉債以充實營運資金或償還債務"
+    },
+    {
+      "stock_code": "1569",
+      "company_name": "濱川企業股份有限公司",
+      "short_name": "濱川七",
+      "stage": "EFFECTIVE",
+      "date": "2026-10-21",
+      "source": "linked_bond_stages_proxy",
+      "confidence": 0.25,
+      "is_inferred": true,
+      "title": "金管會申報生效發行無擔保轉換公司債",
+      "summary": "可轉債申報生效，正式進入定價與發行準備期"
+    },
+    {
+      "stock_code": "1569",
       "company_name": "濱川",
-      "short_name": "",
+      "short_name": "濱川七",
       "stage": "PAYMENT_BANK",
       "date": "2026-11-04",
       "source": "mops_wiki_db",
@@ -1871,7 +1895,7 @@
     {
       "stock_code": "1569",
       "company_name": "濱川企業",
-      "short_name": "",
+      "short_name": "濱川七",
       "stage": "AUCTION_BID_START",
       "date": "2026-11-10",
       "source": "twsa_bids",
@@ -1885,7 +1909,7 @@
     {
       "stock_code": "1569",
       "company_name": "濱川企業",
-      "short_name": "",
+      "short_name": "濱川七",
       "stage": "AUCTION_BID_END",
       "date": "2026-11-12",
       "source": "twsa_bids",
@@ -1899,13 +1923,70 @@
     {
       "stock_code": "1569",
       "company_name": "濱川企業",
-      "short_name": "",
+      "short_name": "濱川七",
       "stage": "AUCTION_RESULT_ESTIMATED",
       "date": "2026-11-13",
       "source": "calendar_proxy",
       "confidence": 0.35,
       "is_inferred": true,
       "serial": "115081"
+    },
+    {
+      "stock_code": "1569",
+      "company_name": "濱川企業股份有限公司",
+      "short_name": "濱川七",
+      "stage": "PRICING",
+      "date": "2026-11-20",
+      "source": "parsed_bonds",
+      "confidence": 0.65,
+      "is_inferred": false,
+      "title": "濱川七 announcement/pricing date",
+      "cb_code": "15697"
+    },
+    {
+      "stock_code": "1569",
+      "company_name": "濱川企業股份有限公司",
+      "short_name": "濱川七",
+      "stage": "LISTING",
+      "date": "2026-11-25",
+      "source": "parsed_bonds",
+      "confidence": 0.65,
+      "is_inferred": false,
+      "title": "濱川七 issue/listing date",
+      "cb_code": "15697"
+    },
+    {
+      "stock_code": "1569",
+      "company_name": "濱川企業股份有限公司",
+      "short_name": "濱川七",
+      "stage": "CBAS_PROXY_START",
+      "date": "2026-11-26",
+      "source": "cbas_proxy",
+      "confidence": 0.3,
+      "is_inferred": true,
+      "based_on": "2026-11-25"
+    },
+    {
+      "stock_code": "1569",
+      "company_name": "濱川企業股份有限公司",
+      "short_name": "濱川七",
+      "stage": "CBAS_PROXY_END",
+      "date": "2026-12-13",
+      "source": "cbas_proxy",
+      "confidence": 0.3,
+      "is_inferred": true,
+      "based_on": "2026-11-25"
+    },
+    {
+      "stock_code": "1569",
+      "company_name": "濱川企業股份有限公司",
+      "short_name": "濱川七",
+      "stage": "T_PLUS_19_EXIT_PROXY",
+      "date": "2026-12-14",
+      "source": "cbas_proxy",
+      "confidence": 0.3,
+      "is_inferred": true,
+      "based_on": "2026-11-25"
     },
     {
       "stock_code": "1582",
@@ -5096,6 +5177,18 @@
     },
     {
       "stock_code": "2344",
+      "company_name": "華邦電子股份有限公司",
+      "short_name": "華邦電五",
+      "stage": "EFFECTIVE",
+      "date": "2026-10-22",
+      "source": "linked_bond_stages_proxy",
+      "confidence": 0.25,
+      "is_inferred": true,
+      "title": "金管會申報生效發行無擔保轉換公司債",
+      "summary": "可轉債申報生效，正式進入定價與發行準備期"
+    },
+    {
+      "stock_code": "2344",
       "company_name": "華邦電",
       "short_name": "華邦電四",
       "stage": "BOARD_RESOLUTION",
@@ -5156,6 +5249,30 @@
       "confidence": 0.3,
       "is_inferred": true,
       "based_on": "2026-11-16"
+    },
+    {
+      "stock_code": "2344",
+      "company_name": "華邦電子股份有限公司",
+      "short_name": "華邦電五",
+      "stage": "PRICING",
+      "date": "2026-11-20",
+      "source": "parsed_bonds",
+      "confidence": 0.65,
+      "is_inferred": false,
+      "title": "華邦電五 announcement/pricing date",
+      "cb_code": "23445"
+    },
+    {
+      "stock_code": "2344",
+      "company_name": "華邦電子股份有限公司",
+      "short_name": "華邦電五",
+      "stage": "LISTING",
+      "date": "2026-11-26",
+      "source": "parsed_bonds",
+      "confidence": 0.65,
+      "is_inferred": false,
+      "title": "華邦電五 issue/listing date",
+      "cb_code": "23445"
     },
     {
       "stock_code": "2344",

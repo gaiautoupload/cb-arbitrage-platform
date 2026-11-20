@@ -8503,5 +8503,35 @@
     "maturity_date_minguo": "118年11月19日",
     "maturity_date": "2029-11-19",
     "issue_amount": "新台幣12億元整"
+  },
+  {
+    "file_id": "11500069471",
+    "company_name": "濱川企業股份有限公司",
+    "bond_name": "濱川企業股份有限公司國內第七次有擔保轉換公司債",
+    "cb_code": "15697",
+    "stock_code": "1569",
+    "short_name": "濱川七",
+    "announcement_date_minguo": "115年11月20日",
+    "announcement_date": "2026-11-20",
+    "issue_date_minguo": "115年11月25日",
+    "issue_date": "2026-11-25",
+    "maturity_date_minguo": "118年11月25日",
+    "maturity_date": "2029-11-25",
+    "issue_amount": "新台幣4億元整"
+  },
+  {
+    "file_id": "11500069531",
+    "company_name": "華邦電子股份有限公司",
+    "bond_name": "華邦電子股份有限公司國內第五次無擔保轉換公司債",
+    "cb_code": "23445",
+    "stock_code": "2344",
+    "short_name": "華邦電五",
+    "announcement_date_minguo": "115年11月20日",
+    "announcement_date": "2026-11-20",
+    "issue_date_minguo": "115年11月26日",
+    "issue_date": "2026-11-26",
+    "maturity_date_minguo": "120年11月26日",
+    "maturity_date": "2031-11-26",
+    "issue_amount": "新臺幣40億元整"
   }
 ]
