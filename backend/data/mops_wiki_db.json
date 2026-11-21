@@ -10521,6 +10521,22 @@
     "parsed_at": "2026-11-19T18:26:05"
   },
   {
+    "date": "2026-11-20",
+    "time": "171127",
+    "stock_code": "5536",
+    "company_name": "聖暉*",
+    "event_title": "本公司代Sheng Huei International Co. Ltd.公告取得無擔保可轉換公司債",
+    "event_type": "OTHER",
+    "stage": "N/A",
+    "wiki_details": {
+      "board_date": "民國115年11月20日"
+    },
+    "sentiment": "NEUTRAL",
+    "summary": "CB 相關公告: 本公司代Sheng Huei International Co. Ltd.公告取得無擔保可轉換公司債",
+    "parser": "rule_v2",
+    "parsed_at": "2026-11-21T17:00:27"
+  },
+  {
     "date": "2026-02-12",
     "time": "140510",
     "stock_code": "3260",
