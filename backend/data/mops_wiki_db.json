@@ -10537,6 +10537,20 @@
     "parsed_at": "2026-11-21T17:00:27"
   },
   {
+    "date": "2026-11-22",
+    "time": "234555",
+    "stock_code": "8101",
+    "company_name": "華冠",
+    "event_title": "本公司受邀參加福邦證券舉辦線上法人說明會。",
+    "event_type": "OTHER",
+    "stage": "N/A",
+    "wiki_details": {},
+    "sentiment": "NEUTRAL",
+    "summary": "CB 相關公告: 本公司受邀參加福邦證券舉辦線上法人說明會。",
+    "parser": "rule_v2",
+    "parsed_at": "2026-11-23T17:00:20"
+  },
+  {
     "date": "2026-02-12",
     "time": "140510",
     "stock_code": "3260",
