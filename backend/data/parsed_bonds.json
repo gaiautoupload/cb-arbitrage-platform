@@ -8533,5 +8533,20 @@
     "maturity_date_minguo": "120年11月26日",
     "maturity_date": "2031-11-26",
     "issue_amount": "新臺幣40億元整"
+  },
+  {
+    "file_id": "11500070501",
+    "company_name": "永擎電子股份有限公司",
+    "bond_name": "永擎電子股份有限公司國內第一次無擔保轉換公司債",
+    "cb_code": "77111",
+    "stock_code": "7711",
+    "short_name": "永擎一",
+    "announcement_date_minguo": "115年11月25日",
+    "announcement_date": "2026-11-25",
+    "issue_date_minguo": "115年12月2日",
+    "issue_date": "2026-12-02",
+    "maturity_date_minguo": "120年12月2日",
+    "maturity_date": "2031-12-02",
+    "issue_amount": "新台幣37億元整"
   }
 ]

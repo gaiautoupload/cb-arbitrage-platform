@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-23T17:14:08",
+  "generated_at": "2026-11-25T18:39:36",
   "database": "D:\\bond\\backend\\data\\cb_event_master.sqlite",
   "required_stages": [
     "BOARD_RESOLUTION",
@@ -16,15 +16,15 @@
     "CBAS_ACTUAL"
   ],
   "summary": {
-    "issues": 674,
-    "events": 3955,
-    "issues_with_missing_stages": 674
+    "issues": 675,
+    "events": 3967,
+    "issues_with_missing_stages": 675
   },
   "stage_summary": {
     "BOARD_RESOLUTION": {
-      "observed_events": 197,
+      "observed_events": 199,
       "inferred_events": 512,
-      "issues_with_stage": 596
+      "issues_with_stage": 597
     },
     "FILING": {
       "observed_events": 25,
@@ -33,23 +33,23 @@
     },
     "EFFECTIVE": {
       "observed_events": 13,
-      "inferred_events": 556,
-      "issues_with_stage": 558
+      "inferred_events": 557,
+      "issues_with_stage": 559
     },
     "PRICING": {
-      "observed_events": 559,
+      "observed_events": 560,
       "inferred_events": 0,
-      "issues_with_stage": 557
+      "issues_with_stage": 558
     },
     "AUCTION_BID_START": {
-      "observed_events": 92,
-      "inferred_events": 0,
-      "issues_with_stage": 90
-    },
-    "AUCTION_BID_END": {
       "observed_events": 93,
       "inferred_events": 0,
-      "issues_with_stage": 90
+      "issues_with_stage": 91
+    },
+    "AUCTION_BID_END": {
+      "observed_events": 94,
+      "inferred_events": 0,
+      "issues_with_stage": 91
     },
     "BOOKBUILDING_START": {
       "observed_events": 0,
@@ -72,9 +72,9 @@
       "issues_with_stage": 0
     },
     "LISTING": {
-      "observed_events": 567,
+      "observed_events": 568,
       "inferred_events": 0,
-      "issues_with_stage": 561
+      "issues_with_stage": 562
     },
     "CBAS_ACTUAL": {
       "observed_events": 0,
@@ -2267,7 +2267,7 @@
         "UNDERWRITING_NOTICE",
         "CBAS_ACTUAL"
       ],
-      "event_count": 9
+      "event_count": 10
     },
     {
       "issue_id": "issue_a2c2d6f4583fd1b2ce98",
@@ -16279,6 +16279,37 @@
         "CBAS_ACTUAL"
       ],
       "event_count": 5
+    },
+    {
+      "issue_id": "issue_c08d15f4b7cecbd6ae85",
+      "stock_code": "7711",
+      "cb_code": "77111",
+      "short_name": "永擎一",
+      "company_name": "永擎電子股份有限公司",
+      "observed_stages": [
+        "AUCTION_BID_END",
+        "AUCTION_BID_START",
+        "BOARD_RESOLUTION",
+        "LISTING",
+        "PAYMENT_BANK",
+        "PRICING"
+      ],
+      "inferred_stages": [
+        "AUCTION_RESULT_ESTIMATED",
+        "CBAS_PROXY_END",
+        "CBAS_PROXY_START",
+        "EFFECTIVE",
+        "T_PLUS_19_EXIT_PROXY"
+      ],
+      "missing_stages": [
+        "FILING",
+        "BOOKBUILDING_START",
+        "BOOKBUILDING_END",
+        "BOOKBUILDING_RESULT",
+        "UNDERWRITING_NOTICE",
+        "CBAS_ACTUAL"
+      ],
+      "event_count": 11
     },
     {
       "issue_id": "issue_0da33a098d7e2162681d",
