@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-25T18:39:36",
+  "generated_at": "2026-11-26T17:15:20",
   "database": "D:\\bond\\backend\\data\\cb_event_master.sqlite",
   "required_stages": [
     "BOARD_RESOLUTION",
@@ -17,12 +17,12 @@
   ],
   "summary": {
     "issues": 675,
-    "events": 3967,
+    "events": 3969,
     "issues_with_missing_stages": 675
   },
   "stage_summary": {
     "BOARD_RESOLUTION": {
-      "observed_events": 199,
+      "observed_events": 201,
       "inferred_events": 512,
       "issues_with_stage": 597
     },
@@ -4422,7 +4422,7 @@
         "UNDERWRITING_NOTICE",
         "CBAS_ACTUAL"
       ],
-      "event_count": 8
+      "event_count": 9
     },
     {
       "issue_id": "issue_45177d73323e478e8818",
@@ -13138,8 +13138,9 @@
       "stock_code": "6284",
       "cb_code": "62843",
       "short_name": "佳邦三",
-      "company_name": "佳邦科技股份有限公司",
+      "company_name": "佳邦",
       "observed_stages": [
+        "BOARD_RESOLUTION",
         "LISTING",
         "PRICING"
       ],
@@ -13160,7 +13161,7 @@
         "UNDERWRITING_NOTICE",
         "CBAS_ACTUAL"
       ],
-      "event_count": 7
+      "event_count": 8
     },
     {
       "issue_id": "issue_1975b6611aae4ae30534",

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-25T18:39:35",
+  "generated_at": "2026-11-26T17:15:18",
   "source_files": {
     "mops_wiki_db": "mops_wiki_db.json",
     "parsed_bonds": "parsed_bonds.json",
@@ -12,11 +12,11 @@
     "Generated linked BOARD_RESOLUTION/EFFECTIVE dates are retained only as low-confidence proxy events."
   ],
   "summary": {
-    "total_events": 3838,
-    "actual_or_observed_events": 1569,
-    "inferred_events": 2269,
+    "total_events": 3839,
+    "actual_or_observed_events": 1571,
+    "inferred_events": 2268,
     "by_stage": {
-      "BOARD_RESOLUTION": 664,
+      "BOARD_RESOLUTION": 665,
       "FILING": 25,
       "EFFECTIVE": 566,
       "PRICING": 560,
@@ -10680,6 +10680,20 @@
       "summary": "董事會/股東會決議: 公告本公司董事會決議通過辦理發行國內第八次無擔保\r\n轉換公司債案",
       "event_type": "CB_ISSUANCE",
       "published_at": "2026-09-04T165111"
+    },
+    {
+      "stock_code": "3033",
+      "company_name": "威健",
+      "short_name": "威健五",
+      "stage": "BOARD_RESOLUTION",
+      "date": "2026-11-25",
+      "source": "mops_wiki_db",
+      "confidence": 0.85,
+      "is_inferred": false,
+      "title": "公告本公司發行國內第八次無擔保轉換公司債完成訂價",
+      "summary": "董事會/股東會決議: 公告本公司發行國內第八次無擔保轉換公司債完成訂價",
+      "event_type": "CB_ISSUANCE",
+      "published_at": "2026-11-25T171658"
     },
     {
       "stock_code": "3037",
@@ -32287,18 +32301,6 @@
       "stock_code": "6284",
       "company_name": "佳邦科技股份有限公司",
       "short_name": "佳邦三",
-      "stage": "BOARD_RESOLUTION",
-      "date": "2023-09-29",
-      "source": "linked_bond_stages_proxy",
-      "confidence": 0.25,
-      "is_inferred": true,
-      "title": "董事會決議發行無擔保轉換公司債",
-      "summary": "董事會通過發行可轉債以充實營運資金或償還債務"
-    },
-    {
-      "stock_code": "6284",
-      "company_name": "佳邦科技股份有限公司",
-      "short_name": "佳邦三",
       "stage": "EFFECTIVE",
       "date": "2023-11-09",
       "source": "linked_bond_stages_proxy",
@@ -32363,6 +32365,20 @@
       "confidence": 0.3,
       "is_inferred": true,
       "based_on": "2023-12-14"
+    },
+    {
+      "stock_code": "6284",
+      "company_name": "佳邦",
+      "short_name": "佳邦三",
+      "stage": "BOARD_RESOLUTION",
+      "date": "2026-11-25",
+      "source": "mops_wiki_db",
+      "confidence": 0.85,
+      "is_inferred": false,
+      "title": "公告本公司國內第三次無擔保轉換公司債到期還本暨\r\n終止上櫃事宜",
+      "summary": "董事會/股東會決議: 公告本公司國內第三次無擔保轉換公司債到期還本暨\r\n終止上櫃事宜",
+      "event_type": "CB_ISSUANCE",
+      "published_at": "2026-11-25T152614"
     },
     {
       "stock_code": "6285",
