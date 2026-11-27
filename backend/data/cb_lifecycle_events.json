@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-26T17:15:18",
+  "generated_at": "2026-11-27T17:15:23",
   "source_files": {
     "mops_wiki_db": "mops_wiki_db.json",
     "parsed_bonds": "parsed_bonds.json",
@@ -12,21 +12,21 @@
     "Generated linked BOARD_RESOLUTION/EFFECTIVE dates are retained only as low-confidence proxy events."
   ],
   "summary": {
-    "total_events": 3839,
-    "actual_or_observed_events": 1571,
-    "inferred_events": 2268,
+    "total_events": 3842,
+    "actual_or_observed_events": 1573,
+    "inferred_events": 2269,
     "by_stage": {
       "BOARD_RESOLUTION": 665,
       "FILING": 25,
-      "EFFECTIVE": 566,
-      "PRICING": 560,
+      "EFFECTIVE": 567,
+      "PRICING": 561,
       "FINAL_PRICING": 5,
       "PAYMENT_BANK": 66,
       "AUCTION_BID_START": 76,
       "AUCTION_BID_END": 76,
       "AUCTION_RESULT_ESTIMATED": 76,
       "BOOKBUILDING_RESULT": 1,
-      "LISTING": 568,
+      "LISTING": 569,
       "CBAS_PROXY_START": 385,
       "CBAS_PROXY_END": 385,
       "T_PLUS_19_EXIT_PROXY": 385
@@ -10683,6 +10683,18 @@
     },
     {
       "stock_code": "3033",
+      "company_name": "威健實業股份有限公司",
+      "short_name": "威健八",
+      "stage": "EFFECTIVE",
+      "date": "2026-10-29",
+      "source": "linked_bond_stages_proxy",
+      "confidence": 0.25,
+      "is_inferred": true,
+      "title": "金管會申報生效發行無擔保轉換公司債",
+      "summary": "可轉債申報生效，正式進入定價與發行準備期"
+    },
+    {
+      "stock_code": "3033",
       "company_name": "威健",
       "short_name": "威健五",
       "stage": "BOARD_RESOLUTION",
@@ -10694,6 +10706,30 @@
       "summary": "董事會/股東會決議: 公告本公司發行國內第八次無擔保轉換公司債完成訂價",
       "event_type": "CB_ISSUANCE",
       "published_at": "2026-11-25T171658"
+    },
+    {
+      "stock_code": "3033",
+      "company_name": "威健實業股份有限公司",
+      "short_name": "威健八",
+      "stage": "PRICING",
+      "date": "2026-11-27",
+      "source": "parsed_bonds",
+      "confidence": 0.65,
+      "is_inferred": false,
+      "title": "威健八 announcement/pricing date",
+      "cb_code": "30338"
+    },
+    {
+      "stock_code": "3033",
+      "company_name": "威健實業股份有限公司",
+      "short_name": "威健八",
+      "stage": "LISTING",
+      "date": "2026-12-03",
+      "source": "parsed_bonds",
+      "confidence": 0.65,
+      "is_inferred": false,
+      "title": "威健八 issue/listing date",
+      "cb_code": "30338"
     },
     {
       "stock_code": "3037",

@@ -17643,5 +17643,36 @@
         "summary": "可轉債正式掛牌交易"
       }
     }
+  },
+  {
+    "stock_code": "3033",
+    "company_name": "威健實業股份有限公司",
+    "short_name": "威健八",
+    "stages": {
+      "BOARD_RESOLUTION": {
+        "date": "2026-11-25",
+        "title": "公告本公司發行國內第八次無擔保轉換公司債完成訂價",
+        "sentiment": "NEUTRAL",
+        "summary": "董事會/股東會決議: 公告本公司發行國內第八次無擔保轉換公司債完成訂價"
+      },
+      "EFFECTIVE": {
+        "date": "2026-10-29",
+        "title": "金管會申報生效發行無擔保轉換公司債",
+        "sentiment": "BULLISH",
+        "summary": "可轉債申報生效，正式進入定價與發行準備期"
+      },
+      "PRICING": {
+        "date": "2026-11-27",
+        "title": "公告「威健八」發行及訂價等事宜 (櫃買公告)",
+        "sentiment": "NEUTRAL",
+        "summary": "櫃檯買賣中心公告發行資料"
+      },
+      "LISTING": {
+        "date": "2026-12-03",
+        "title": "「威健八」掛牌買賣/發行日",
+        "sentiment": "BULLISH",
+        "summary": "可轉債正式掛牌交易"
+      }
+    }
   }
 ]
