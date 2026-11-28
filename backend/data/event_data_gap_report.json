@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-27T17:15:25",
+  "generated_at": "2026-11-28T17:10:24",
   "database": "D:\\bond\\backend\\data\\cb_event_master.sqlite",
   "required_stages": [
     "BOARD_RESOLUTION",
@@ -17,12 +17,12 @@
   ],
   "summary": {
     "issues": 676,
-    "events": 3972,
+    "events": 3973,
     "issues_with_missing_stages": 676
   },
   "stage_summary": {
     "BOARD_RESOLUTION": {
-      "observed_events": 201,
+      "observed_events": 202,
       "inferred_events": 512,
       "issues_with_stage": 597
     },
@@ -3586,7 +3586,7 @@
         "UNDERWRITING_NOTICE",
         "CBAS_ACTUAL"
       ],
-      "event_count": 11
+      "event_count": 12
     },
     {
       "issue_id": "issue_1c30914b76189708d8ce",

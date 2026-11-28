@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-27T17:15:23",
+  "generated_at": "2026-11-28T17:10:23",
   "source_files": {
     "mops_wiki_db": "mops_wiki_db.json",
     "parsed_bonds": "parsed_bonds.json",
@@ -12,11 +12,11 @@
     "Generated linked BOARD_RESOLUTION/EFFECTIVE dates are retained only as low-confidence proxy events."
   ],
   "summary": {
-    "total_events": 3842,
-    "actual_or_observed_events": 1573,
+    "total_events": 3843,
+    "actual_or_observed_events": 1574,
     "inferred_events": 2269,
     "by_stage": {
-      "BOARD_RESOLUTION": 665,
+      "BOARD_RESOLUTION": 666,
       "FILING": 25,
       "EFFECTIVE": 567,
       "PRICING": 561,
@@ -8610,6 +8610,20 @@
       "summary": "董事會/股東會決議: 公告本公司115年現金增資認股基準日等相關事宜",
       "event_type": "CB_ISSUANCE",
       "published_at": "2026-11-10T173701"
+    },
+    {
+      "stock_code": "2646",
+      "company_name": "星宇航空",
+      "short_name": "星宇航空一",
+      "stage": "BOARD_RESOLUTION",
+      "date": "2026-11-27",
+      "source": "mops_wiki_db",
+      "confidence": 0.85,
+      "is_inferred": false,
+      "title": "公告本公司115年現金增資認股基準日等相關事宜\r\n（補充公告發行價格、委託代收暨存儲機構）",
+      "summary": "董事會/股東會決議: 公告本公司115年現金增資認股基準日等相關事宜\r\n（補充公告發行價格、委託代收暨存儲機構）",
+      "event_type": "CB_ISSUANCE",
+      "published_at": "2026-11-27T160021"
     },
     {
       "stock_code": "2727",
